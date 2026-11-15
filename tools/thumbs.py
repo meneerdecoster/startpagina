@@ -42,7 +42,10 @@ def yt_thumb(u):
     m = re.search(r"youtube\.com/watch\?v=([\w-]{11})|youtu\.be/([\w-]{11})", u)
     return f"https://i.ytimg.com/vi/{m.group(1) or m.group(2)}/mqdefault.jpg" if m else None
 
+NOPHOTO = ("veb.net",)
+
 def thumb(u):
+    if any(h in urllib.parse.urlparse(u).netloc for h in NOPHOTO): return None
     y = yt_thumb(u)
     if y: return y
     if len(urllib.parse.urlparse(u).path) <= 4: return None
