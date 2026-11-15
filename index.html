@@ -54,6 +54,14 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .clocks span b{font-weight:500; margin-left:6px}
 .greet{font-family:var(--display); font-weight:800; font-size:clamp(44px,8.2vw,104px); line-height:.95; letter-spacing:-.035em; margin:56px 0 16px; text-wrap:balance; max-width:14ch}
 .sub{font-size:clamp(16px,2vw,20px); opacity:.92; max-width:60ch; margin:0}
+.wx{display:flex; gap:8px; margin-top:16px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none}
+.wx::-webkit-scrollbar{display:none}
+.wx .d{flex:1 0 auto; min-width:86px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.28); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-radius:16px; padding:9px 12px; font-size:12.5px; line-height:1.35}
+.wx .d.now{flex:2 0 auto; min-width:150px}
+.wx .k{font:11px var(--mono,monospace); opacity:.85; text-transform:uppercase; letter-spacing:.05em}
+.wx .i{font-size:20px; line-height:1.2}
+.wx .tt{font-weight:600; font-size:15px}
+.wx .r{opacity:.85}
 .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
 .chip{display:inline-flex; gap:8px; align-items:baseline; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.28); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); padding:8px 14px; border-radius:999px; font-size:13.5px}
 .chip em{font-style:normal; font-family:var(--mono); font-size:11.5px; opacity:.85; text-transform:uppercase; letter-spacing:.05em}
@@ -171,6 +179,7 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     <h1 class="greet" id="greet">Goeiemorgen, Michaël</h1>
     <p class="sub" id="sub">Je dag in één oogopslag.</p>
     <div class="chips" id="chips"></div>
+    <div class="wx" id="wx" aria-label="Weer Merksem"></div>
   </div>
 </header>
 
@@ -349,6 +358,27 @@ async function podThumbs(){
     im.src = "https://wsrv.nl/?w=208&h=117&fit=cover&output=webp&q=75&url=" + encodeURIComponent(src);
   });
 }
+
+const WX_ICO=c=>c===0?"☀️":c<=2?"🌤️":c===3?"☁️":c<=48?"🌫️":c<=57?"🌦️":c<=67?"🌧️":c<=77?"🌨️":c<=82?"🌦️":c<=86?"🌨️":"⛈️";
+const WX_TXT=c=>c===0?"Helder":c<=2?"Licht bewolkt":c===3?"Bewolkt":c<=48?"Mist":c<=57?"Motregen":c<=67?"Regen":c<=77?"Sneeuw":c<=82?"Buien":c<=86?"Sneeuwbuien":"Onweer";
+function renderWx(w){
+  const el=$("wx"); if(!el||!w||!w.daily) return;
+  const dg=v=>Math.round(v)+"°", dd=w.daily, c=w.current;
+  let h=`<div class="d now"><div class="k">Merksem · nu</div><div class="tt"><span class="i">${WX_ICO(c.weather_code)}</span> ${dg(c.temperature_2m)}</div><div class="r">${WX_TXT(c.weather_code)} · ${dg(dd.temperature_2m_min[0])} / ${dg(dd.temperature_2m_max[0])} · ${dd.precipitation_probability_max[0]??0}% regen</div></div>`;
+  for(let i=1;i<dd.time.length;i++){
+    const day=new Date(dd.time[i]+"T12:00").toLocaleDateString("nl-BE",{weekday:"short"});
+    h+=`<div class="d"><div class="k">${day}</div><div class="tt"><span class="i">${WX_ICO(dd.weather_code[i])}</span> ${dg(dd.temperature_2m_max[i])}</div><div class="r">${dg(dd.temperature_2m_min[i])} · ${dd.precipitation_probability_max[i]??0}%</div></div>`;
+  }
+  el.innerHTML=h;
+}
+async function loadWx(){
+  try{ const c=localStorage.getItem("wx"); if(c) renderWx(JSON.parse(c)); }catch(e){}
+  try{
+    const r=await tfetch("https://api.open-meteo.com/v1/forecast?latitude=51.248&longitude=4.45&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FBrussels&forecast_days=4",10000);
+    const w=await r.json(); renderWx(w); try{ localStorage.setItem("wx",JSON.stringify(w)); }catch(e){}
+  }catch(e){}
+}
+loadWx();
 function pct(v){ if (v===null||v===undefined) return '<span class="nul">—</span>'; const c=v>0.005?"pos":(v<-0.005?"neg":"nul"); return `<span class="${c}">${v>0?"+":""}${v.toFixed(2).replace(".",",")}%</span>`; }
 function getPos(n){ try{ return JSON.parse(localStorage.getItem("pos:"+n)||"null"); }catch(e){ return null; } }
 function setPos(n){
@@ -464,7 +494,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   podThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v22` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v23` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
