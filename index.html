@@ -336,6 +336,11 @@ async function viaMicrolink(u){
   const j=await r.json(); if(!j||j.status!=="success") throw new Error("microlink-"+(j&&j.status||r.status));
   const im=j.data&&j.data.image; return im&&im.url||null;
 }
+async function viaDub(u){
+  const r=await fetch("https://api.dub.co/metatags?url="+encodeURIComponent(u));
+  if(!r.ok) throw new Error("dub-"+r.status);
+  const j=await r.json(); const c=j&&j.image; return c?new URL(c,u).href:null;
+}
 async function viaProxy(u){
   const r=await fetch("https://api.allorigins.win/get?url="+encodeURIComponent(u));
   if(!r.ok) throw new Error("proxy-"+r.status);
@@ -345,16 +350,16 @@ async function viaProxy(u){
   const c=m&&m.getAttribute("content"); return c?new URL(c,u).href:null;
 }
 async function pickThumb(u){
-  let c=null; try{ c=localStorage.getItem("th5:"+u); }catch(e){}
+  let c=null; try{ c=localStorage.getItem("th6:"+u); }catch(e){}
   if (c!==null) return c==="-"?null:c;
   if (new URL(u).pathname.length<=4){ return null; }
   let src=null, ok=false;
-  for (const fn of [viaMicrolink, viaProxy]){
-    try{ src=await fn(u); ok=true; break; }catch(e){ TH.last=String(e.message||e).slice(0,40); }
+  for (const fn of [viaDub, viaMicrolink, viaProxy]){
+    try{ src=await fn(u); ok=true; break; }catch(e){ TH.last=(TH.last+" | "+fn.name+":"+String(e.message||e)).slice(-90); }
   }
   if (!ok){ TH.err++; thDiag(); return null; }
   if (src && BAD.test(src)) src=null;
-  try{ localStorage.setItem("th5:"+u, src||"-"); }catch(e){}
+  try{ localStorage.setItem("th6:"+u, src||"-"); }catch(e){}
   return src;
 }
 function loadThumbs(){
@@ -398,7 +403,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v7` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v8` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
