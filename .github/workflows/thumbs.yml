@@ -1,0 +1,20 @@
+name: thumbs
+on:
+  push:
+    paths: ["data.json"]
+  schedule:
+    - cron: "40 23 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  thumbs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/thumbs.py
+      - run: |
+          git config user.name "startpagina-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add thumbs.json
+          git diff --cached --quiet || git commit -m "Afbeeldingen bijgewerkt" && git push

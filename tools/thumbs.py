@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+"""Zoekt per artikel in data.json de hoofdafbeelding (og:image) op en schrijft thumbs.json."""
+import json, re, sys, urllib.request, urllib.parse
+from html.parser import HTMLParser
+
+UA = "Mozilla/5.0 (compatible; StartpaginaBot/1.0)"
+BAD = re.compile(r"logo|favicon|subscribe|placeholder|avatar|icon|substack\.com/api|twitter_card|\.(png|svg|gif)(\?|$)", re.I)
+
+class Meta(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.og = None; self.tw = None
+    def handle_starttag(self, tag, attrs):
+        if tag != "meta": return
+        a = dict(attrs); k = (a.get("property") or a.get("name") or "").lower(); c = a.get("content")
+        if not c: return
+        if k == "og:image" and not self.og: self.og = c
+        if k in ("twitter:image", "twitter:image:src") and not self.tw: self.tw = c
+
+def get(url, method="GET", n=600000):
+    req = urllib.request.Request(url, method=method, headers={"User-Agent": UA, "Accept-Language": "nl,en;q=0.8"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return r, (r.read(n) if method == "GET" else b"")
+
+def thumb(u):
+    if len(urllib.parse.urlparse(u).path) <= 4: return None
+    try:
+        r, body = get(u)
+        m = Meta(); m.feed(body.decode(r.headers.get_content_charset() or "utf-8", "ignore"))
+        c = m.og or m.tw
+        if not c: return None
+        img = urllib.parse.urljoin(u, c)
+        if BAD.search(img): return None
+        r2, _ = get(img, "HEAD")
+        ct = r2.headers.get("Content-Type", ""); ln = int(r2.headers.get("Content-Length") or 0)
+        if not ct.startswith("image/") or (ln and ln < 25000): return None
+        return img
+    except Exception as e:
+        print("fout", u, e, file=sys.stderr); return None
+
+def urls(d):
+    out = []
+    for k in ("markten", "tech"):
+        out += [i.get("url") for i in d.get(k, [])]
+    for lst in (d.get("sport") or {}).values():
+        out += [i.get("url") for i in lst]
+    return [u for u in dict.fromkeys(out) if u]
+
+d = json.load(open("data.json"))
+try: old = json.load(open("thumbs.json"))
+except Exception: old = {}
+res = {}
+for u in urls(d):
+    res[u] = old[u] if u in old else thumb(u)
+json.dump(res, open("thumbs.json", "w"), ensure_ascii=False, indent=1)
+print(sum(1 for v in res.values() if v), "van", len(res), "met afbeelding")
