@@ -127,7 +127,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .pill{font-family:var(--mono); font-size:11px; padding:4px 10px; border-radius:999px; background:#1DB95422; color:#14833C; text-decoration:none; white-space:nowrap}
 :root[data-theme="dark"] .pill{color:#3BE07A}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pill{color:#3BE07A}}
-.ep{display:grid; grid-template-columns:104px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
+.ep .ico{width:52px; height:52px; border-radius:14px; display:grid; place-items:center; color:#fff; font:700 13px var(--mono,monospace); letter-spacing:.02em}
+.ep{display:grid; grid-template-columns:52px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
 .ep:hover{background:var(--surface-2)}
 .ep.nt{grid-template-columns:1fr} .ep.nt .play{display:none}
 .ep .play img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
@@ -327,13 +328,14 @@ function renderNews(id, items){
 
 function renderPods(pods){
   const playIcon = `<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.8v10.4L12 7z" fill="currentColor"/></svg>`;
-  $("podcasts").innerHTML = (pods || []).map(p => `<div class="pod">
+  const ICO = {"De Lange Termijn":{t:"DLT",c:"#0f766e"},"Mind to Invest":{t:"MTI",c:"#4f46e5"}};
+  $("podcasts").innerHTML = (pods || []).map(p => { const ic = ICO[p.show] || {t:esc((p.show||"?").slice(0,2)),c:"#475569"}; return `<div class="pod">
     <div class="pod-h"><b>${esc(p.show)}</b><a class="pill" href="${esc(p.show_url)}" target="_blank" rel="noopener">Spotify ↗</a></div>
-    ${(p.afleveringen || []).map(e => `<a class="ep" href="${esc(e.url)}" target="_blank" rel="noopener">
-      <span class="play" data-pu="${esc(e.url)}">${playIcon}</span>
+    ${(p.afleveringen || []).slice(0,1).map(e => `<a class="ep" href="${esc(e.url)}" target="_blank" rel="noopener">
+      <span class="ico" style="background:${ic.c}">${ic.t}</span>
       <span><div class="tt">${esc(e.titel)}</div><div class="dd">${new Date(e.datum+"T12:00").toLocaleDateString("nl-BE",{weekday:"short", day:"numeric", month:"short"})}</div>${e.kort?`<div class="kk">${esc(e.kort)}</div>`:""}</span></a>`).join("")}
     ${p.opmerking ? `<div class="note">${esc(p.opmerking)}</div>` : ""}
-  </div>`).join("");
+  </div>`; }).join("");
 }
 
 async function podThumbs(){
@@ -460,7 +462,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   podThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v19` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v20` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
