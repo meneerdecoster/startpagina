@@ -327,13 +327,32 @@ function renderSport(s){
   $("sport").innerHTML = sec("Rode Duivels","var(--accent)", s.duivels) + sec("Royal Antwerp FC","#B91C1C", s.antwerp) + sec("Veldrijden","#64748B", s.cross);
 }
 
+async function pickThumb(u){
+  let c=null; try{ c=localStorage.getItem("th2:"+u); }catch(e){}
+  if (c!==null) return c==="-"?null:c;
+  let out="-";
+  try{
+    const p=new URL(u).pathname;
+    if (p.length>4){
+      const r=await fetch("https://api.microlink.io/?url="+encodeURIComponent(u));
+      const j=await r.json(); const im=j&&j.data&&j.data.image;
+      if (im&&im.url){
+        const ar=(im.width&&im.height)?im.width/im.height:1.9;
+        const ok=(!im.width||im.width>=600)&&ar>=1.3&&ar<=2.4&&!/logo|favicon|subscribe|placeholder|default|avatar|icon|substack\.com\/api|twitter_card/i.test(im.url);
+        if (ok) out=im.url;
+      }
+    }
+    try{ localStorage.setItem("th2:"+u,out); }catch(e){}
+  }catch(e){ return null; }
+  return out==="-"?null:out;
+}
 function loadThumbs(){
-  document.querySelectorAll(".ph[data-u]").forEach(el => {
-    const im = new Image(); im.alt = ""; im.loading = "lazy"; im.referrerPolicy = "no-referrer";
+  document.querySelectorAll(".ph[data-u]").forEach(async el => {
+    const src = await pickThumb(el.dataset.u);
+    if (!src) return;
+    const im = new Image(); im.alt = ""; im.referrerPolicy = "no-referrer";
     im.onload = () => { el.classList.add("has"); im.classList.add("on"); };
-    im.onerror = () => im.remove();
-    im.src = "https://api.microlink.io/?embed=image.url&url=" + encodeURIComponent(el.dataset.u);
-    el.prepend(im);
+    im.src = src; el.prepend(im);
   });
 }
 let facts = [], fi = 0;
