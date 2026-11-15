@@ -1,17 +1,12 @@
-0GGH.L	EUR	LSE	4.8508	-0.11%
-IB1T.PA	EUR	PAR	6.2180	-4.01%
-IB1T.SW	CHF	EBS	5.7280	-4.53%
-IB1T.DE	EUR	GER	6.2140	-3.93%
-XS2940466316	FOUT HTTP Error 404: Not Found
-XS2940466316.SG	FOUT 'close'
-XS2940466316.F	FOUT HTTP Error 404: Not Found
-XS2940466316.DE	FOUT HTTP Error 404: Not Found
-XS2940466316.BE	FOUT HTTP Error 404: Not Found
-XS2940466316.MU	FOUT HTTP Error 404: Not Found
-XS2940466316.HM	FOUT HTTP Error 404: Not Found
-XS2940466316.DU	FOUT HTTP Error 404: Not Found
-XS2940466316.HA	FOUT HTTP Error 404: Not Found
-XS2940466316.VI	FOUT HTTP Error 404: Not Found
-XS2940466316.AS	FOUT HTTP Error 404: Not Found
-XS2940466316.PA	FOUT HTTP Error 404: Not Found
-XS2940466316.MI	FOUT HTTP Error 404: Not Found
+SPYI.DE	1d	price=11.694	chartPrev=11.802	prevClose=None	-0.92%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+SPYI.DE	5d	price=11.694	chartPrev=11.422	prevClose=None	2.38%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+0GGH.L	1d	price=4.8508	chartPrev=4.8653	prevClose=None	-0.30%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+0GGH.L	5d	price=4.8508	chartPrev=4.8995	prevClose=None	-0.99%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+IB1T.PA	1d	price=6.218	chartPrev=6.478	prevClose=None	-4.01%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+IB1T.PA	5d	price=6.218	chartPrev=6.654	prevClose=None	-6.55%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+IB1T.DE	1d	price=6.214	chartPrev=6.468	prevClose=None	-3.93%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+IB1T.DE	5d	price=6.214	chartPrev=6.783	prevClose=None	-8.39%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+XS2940466316.SG	1d	price=6.231	chartPrev=6.435	prevClose=None	-3.17%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+XS2940466316.SG	5d	price=6.231	chartPrev=6.435	prevClose=None	-3.17%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+PHAG.AS	1d	price=40.485	chartPrev=41.025	prevClose=None	-1.32%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
+PHAG.AS	5d	price=40.485	chartPrev=42.775	prevClose=None	-5.35%	keys=['exchangeName', 'fullExchangeName', 'exchangeTimezoneName', 'regularMarketChangePercent', 'fulldayChange', 'fulldayChangePercent', 'chartPreviousClose']
