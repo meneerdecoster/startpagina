@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michaëls Startpagina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout: tijdsgebonden hero (lucht), daaronder een bento-grid met kaarten. */
+  --bg:#EEF1F6; --surface:#FFFFFF; --surface-2:#F5F7FA; --ink:#0E1424; --muted:#5B6478; --line:#E1E5EC;
+  --accent:#E03A3E; --health:#0E9F6E; --health-soft:#D9F3E8; --gold:#C98A12;
+  --display:"Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --body:"Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --radius:22px; --shadow:0 1px 2px rgba(14,20,36,.04), 0 8px 28px -12px rgba(14,20,36,.12);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#090C14; --surface:#121725; --surface-2:#182033; --ink:#EEF1F8; --muted:#97A0B5; --line:#232B3E;
+    --accent:#FF5A5F; --health:#34D399; --health-soft:#11392B; --gold:#F2B33D;
+    --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 12px 32px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#090C14; --surface:#121725; --surface-2:#182033; --ink:#EEF1F8; --muted:#97A0B5; --line:#232B3E;
+  --accent:#FF5A5F; --health:#34D399; --health-soft:#11392B; --gold:#F2B33D;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 12px 32px -16px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg); color:var(--ink); font-family:var(--body); font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:6px}
+.wrap{max-width:1240px; margin:0 auto; padding:0 20px 56px}
+
+/* HERO */
+.hero{position:relative; overflow:hidden; color:#fff; padding:28px 0 92px; isolation:isolate}
+.hero::before{content:""; position:absolute; inset:0; z-index:-2; background:var(--sky)}
+.hero canvas{position:absolute; inset:0; width:100%; height:100%; z-index:-1; opacity:.55}
+.hero[data-part="ochtend"]{--sky:linear-gradient(160deg,#FF9A62 0%,#F7678A 38%,#5B5BD6 78%,#2B2F77 100%)}
+.hero[data-part="middag"]{--sky:linear-gradient(160deg,#38BDF8 0%,#2F7FE0 45%,#1D4ED8 75%,#1E2A78 100%)}
+.hero[data-part="avond"]{--sky:linear-gradient(160deg,#F97362 0%,#B83A7A 35%,#3B1D6E 72%,#0F1030 100%)}
+.hero[data-part="nacht"]{--sky:linear-gradient(160deg,#1E2A55 0%,#121A3A 50%,#05070F 100%)}
+.topbar{display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; font-family:var(--mono); font-size:12.5px; letter-spacing:.02em; opacity:.92}
+.clocks{display:flex; gap:18px; flex-wrap:wrap}
+.clocks span b{font-weight:500; margin-left:6px}
+.greet{font-family:var(--display); font-weight:800; font-size:clamp(44px,8.2vw,104px); line-height:.95; letter-spacing:-.035em; margin:56px 0 16px; text-wrap:balance; max-width:14ch}
+.sub{font-size:clamp(16px,2vw,20px); opacity:.92; max-width:60ch; margin:0}
+.chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
+.chip{display:inline-flex; gap:8px; align-items:baseline; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.28); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); padding:8px 14px; border-radius:999px; font-size:13.5px}
+.chip em{font-style:normal; font-family:var(--mono); font-size:11.5px; opacity:.85; text-transform:uppercase; letter-spacing:.05em}
+
+/* GRID */
+.grid{display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:-60px; position:relative}
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:22px 22px 20px; min-width:0}
+.span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}
+@media (max-width:980px){.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}}
+.card-h{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:16px}
+.card-h h2{font-family:var(--display); font-weight:600; font-size:21px; letter-spacing:-.015em; margin:0; display:flex; align-items:center; gap:10px}
+.dot{width:9px; height:9px; border-radius:50%; background:var(--accent); flex:none}
+.card-h .meta{font-family:var(--mono); font-size:11.5px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em}
+.card-h a.meta{text-decoration:none}
+.card-h a.meta:hover{color:var(--ink)}
+
+/* HEALTH */
+.health{display:grid; grid-template-columns:1.25fr 1fr; gap:22px}
+@media (max-width:820px){.health{grid-template-columns:1fr}}
+.streak{display:inline-flex; align-items:center; gap:8px; background:var(--health-soft); color:var(--health); padding:6px 12px; border-radius:999px; font-weight:600; font-size:13px}
+.kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:10px}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--surface-2); border-radius:16px; padding:14px 14px 12px; display:flex; flex-direction:column; gap:2px; min-width:0}
+.kpi .l{font-size:12px; color:var(--muted)}
+.kpi .v{font-family:var(--display); font-weight:600; font-size:28px; letter-spacing:-.02em; font-variant-numeric:tabular-nums; line-height:1.1}
+.kpi .v small{font-size:14px; color:var(--muted); font-weight:400; margin-left:2px}
+.kpi .s{font-family:var(--mono); font-size:11px; color:var(--muted)}
+.bar{height:5px; border-radius:5px; background:var(--line); overflow:hidden; margin-top:8px}
+.bar i{display:block; height:100%; background:var(--health); border-radius:5px}
+.sparks{display:grid; gap:12px; margin-top:16px}
+.spark{display:grid; grid-template-columns:72px 1fr 64px; align-items:center; gap:10px}
+.spark .l{font-size:12.5px; color:var(--muted)}
+.spark .r{font-family:var(--mono); font-size:12px; text-align:right; font-variant-numeric:tabular-nums}
+.spark svg{width:100%; height:38px; display:block}
+.insights{list-style:none; margin:0; padding:0; display:grid; gap:10px}
+.insights li{display:grid; grid-template-columns:22px 1fr; gap:8px; align-items:start; font-size:14.5px; line-height:1.45}
+.insights li::before{content:""; width:8px; height:8px; margin:7px 0 0 6px; border-radius:50%; background:var(--health)}
+.yr{margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); font-size:13px; color:var(--muted)}
+
+/* NEWS */
+.news{list-style:none; margin:0; padding:0; display:grid}
+.news li{padding:14px 0; border-top:1px solid var(--line)}
+.news li:first-child{border-top:0; padding-top:2px}
+.news a.t{font-weight:600; font-size:15.5px; text-decoration:none; line-height:1.35; display:inline}
+.news a.t:hover{text-decoration:underline; text-underline-offset:3px}
+.ph{display:block; aspect-ratio:16/9; border-radius:14px; overflow:hidden; margin:0 0 10px; background:linear-gradient(135deg,var(--line),transparent); position:relative}
+.ph img{width:100%; height:100%; object-fit:cover; display:block; opacity:0; transition:opacity .4s}
+.ph img.on{opacity:1}
+.ph b{position:absolute; left:12px; bottom:10px; font:600 12px var(--mono,monospace); color:var(--muted); letter-spacing:.04em}
+.ph.has b{display:none}
+.sport-item .ph{aspect-ratio:16/8}
+.news p{margin:6px 0 0; color:var(--muted); font-size:14px; max-width:68ch}
+.src{font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-top:6px; display:block}
+.lead a.t{font-family:var(--display); font-size:22px; font-weight:600; letter-spacing:-.015em}
+
+/* PODCASTS */
+.pod{display:grid; gap:10px}
+.pod + .pod{margin-top:18px}
+.pod-h{display:flex; justify-content:space-between; align-items:center; gap:10px}
+.pod-h b{font-family:var(--display); font-weight:600; font-size:16px}
+.pill{font-family:var(--mono); font-size:11px; padding:4px 10px; border-radius:999px; background:#1DB95422; color:#14833C; text-decoration:none; white-space:nowrap}
+:root[data-theme="dark"] .pill{color:#3BE07A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pill{color:#3BE07A}}
+.ep{display:grid; grid-template-columns:40px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
+.ep:hover{background:var(--surface-2)}
+.ep .play{width:40px; height:40px; border-radius:12px; background:var(--ink); color:var(--surface); display:grid; place-items:center}
+.ep .tt{font-weight:600; font-size:14.5px; line-height:1.35}
+.ep .dd{font-family:var(--mono); font-size:11px; color:var(--muted); margin-top:2px}
+.ep .kk{font-size:13px; color:var(--muted); margin-top:4px}
+.note{font-size:12.5px; color:var(--muted); background:var(--surface-2); border-radius:12px; padding:8px 12px}
+
+/* SPORT */
+.sport-sec + .sport-sec{margin-top:16px; padding-top:16px; border-top:1px solid var(--line)}
+.tag{display:inline-flex; align-items:center; gap:7px; font-family:var(--mono); font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:8px}
+.tag i{width:14px; height:4px; border-radius:2px; display:inline-block}
+.sport-item a{font-weight:600; text-decoration:none; font-size:15px; line-height:1.35}
+.sport-item a:hover{text-decoration:underline; text-underline-offset:3px}
+.sport-item p{margin:4px 0 0; color:var(--muted); font-size:13.5px}
+.sport-item + .sport-item{margin-top:12px}
+
+/* WEETJE */
+.fact{font-family:var(--display); font-weight:400; font-size:clamp(20px,2.4vw,27px); line-height:1.3; letter-spacing:-.01em; margin:4px 0 18px; text-wrap:pretty; min-height:4.2em}
+.fact-foot{display:flex; justify-content:space-between; align-items:center; gap:10px}
+.btn{font:inherit; font-size:13px; font-weight:500; background:var(--ink); color:var(--surface); border:0; border-radius:999px; padding:9px 16px; cursor:pointer}
+.btn:hover{opacity:.88}
+.count{font-family:var(--mono); font-size:12px; color:var(--muted)}
+footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:center}
+.err{padding:40px; text-align:center; color:var(--muted)}
+@media (prefers-reduced-motion: reduce){.hero canvas{display:none}}
+</style>
+</head>
+<body>
+<header class="hero" id="hero" data-part="ochtend">
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="wrap" style="padding-bottom:0">
+    <div class="topbar">
+      <span id="datum">&nbsp;</span>
+      <span class="clocks" id="clocks"></span>
+    </div>
+    <h1 class="greet" id="greet">Goeiemorgen, Michaël</h1>
+    <p class="sub" id="sub">Je dag in één oogopslag.</p>
+    <div class="chips" id="chips"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid" id="grid">
+    <section class="card span-12" id="c-health" aria-labelledby="h-health">
+      <div class="card-h">
+        <h2 id="h-health"><span class="dot" style="background:var(--health)"></span>Gezondheid</h2>
+        <a class="meta" id="logboek" href="#" target="_blank" rel="noopener">Logboek openen ↗</a>
+      </div>
+      <div class="health" id="health"><div class="err">Gegevens laden…</div></div>
+    </section>
+
+    <section class="card span-7" aria-labelledby="h-markt">
+      <div class="card-h"><h2 id="h-markt"><span class="dot" style="background:var(--gold)"></span>Markten &amp; economie</h2><span class="meta">Wereld · België · ETF</span></div>
+      <ul class="news" id="markten"></ul>
+    </section>
+
+    <section class="card span-5" aria-labelledby="h-pod">
+      <div class="card-h"><h2 id="h-pod"><span class="dot" style="background:#1DB954"></span>Podcasts</h2><span class="meta">Nieuwste afleveringen</span></div>
+      <div id="podcasts"></div>
+    </section>
+
+    <section class="card span-7" aria-labelledby="h-tech">
+      <div class="card-h"><h2 id="h-tech"><span class="dot" style="background:#6366F1"></span>Tech &amp; AI</h2><span class="meta">Wat je moet weten</span></div>
+      <ul class="news" id="tech"></ul>
+    </section>
+
+    <section class="card span-5" aria-labelledby="h-sport">
+      <div class="card-h"><h2 id="h-sport"><span class="dot"></span>Sport</h2><span class="meta">Duivels · RAFC · Cross</span></div>
+      <div id="sport"></div>
+    </section>
+
+    <section class="card span-12" aria-labelledby="h-fact">
+      <div class="card-h"><h2 id="h-fact"><span class="dot" style="background:var(--ink)"></span>Weetje van de dag</h2></div>
+      <p class="fact" id="fact"></p>
+      <div class="fact-foot"><span class="count" id="factcount"></span><button class="btn" id="nextfact" type="button">Nog een weetje</button></div>
+    </section>
+  </div>
+  <footer id="foot"></footer>
+</main>
+
+<script>
+(function(){
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nl = n => n == null ? "–" : Number(n).toLocaleString("nl-BE", {maximumFractionDigits:1});
+const now = new Date();
+const h = now.getHours();
+const part = h >= 5 && h < 12 ? "ochtend" : h < 18 && h >= 12 ? "middag" : h >= 18 && h < 23 ? "avond" : "nacht";
+$("hero").dataset.part = part;
+
+/* --- Begroeting: elke dag een andere, afhankelijk van moment van de dag --- */
+const dagen = ["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"];
+const dag = dagen[now.getDay()];
+const G = {
+  ochtend:[`Goeiemorgen, Michaël`,`Fijne ${dag}, Michaël`,`Hellokidoki!`,`Rise and shine, Michaël`,`Daar ben je, Michaël`,`Een frisse ${dag}`,`Morgen, kapitein`,`Klaar voor vandaag?`,`Hey Michaël, koffie of water eerst?`,`Bonjour, Michaël`,`Nieuwe dag, nieuwe kansen`,`Goeiemorgen, wereldreiziger`],
+  middag:[`Fijne middag, Michaël`,`Halfweg de dag, Michaël`,`Hoi Michaël, alles goed?`,`Smakelijk, Michaël`,`Even pauze, Michaël`,`Goeiemiddag!`,`Fijne ${dag}namiddag`,`Hé, nog even volhouden`],
+  avond:[`Goeienavond, Michaël`,`Fijne ${dag}avond`,`Mooi geweest vandaag, Michaël`,`Tijd om te landen`,`Avondje, Michaël?`,`Bonsoir, Michaël`,`Hellokidoki, tot morgen bijna!`],
+  nacht:[`Nog wakker, Michaël?`,`Nachtuil-modus aan`,`Slaap zacht straks, Michaël`,`Late check-in, Michaël`]
+};
+const SUB = {
+  ochtend:["Dit is wat er speelt terwijl jij wakker werd.","Je dag in één oogopslag.","Rustig opstarten: hier is alles wat telt."],
+  middag:["Een snelle update voor de namiddag.","Dit is er intussen gebeurd.","Even bijlezen, dan weer verder."],
+  avond:["Zo zag je dag eruit, en dit gebeurde er in de wereld.","Tijd om bij te lezen.","Rustig afronden."],
+  nacht:["Kort bijlezen en dan slapen. Je HRV zal je dankbaar zijn.","De wereld slaapt bijna, jij ook straks."]
+};
+const seed = Math.floor(new Date(now.getFullYear(), now.getMonth(), now.getDate()) / 864e5);
+const pick = arr => arr[(seed * 7 + arr.length) % arr.length];
+$("greet").textContent = pick(G[part]);
+$("sub").textContent = pick(SUB[part]);
+const datumTxt = now.toLocaleDateString("nl-BE", {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+$("datum").textContent = datumTxt.charAt(0).toUpperCase() + datumTxt.slice(1);
+
+/* --- Klokken: hier en thuis --- */
+function clocks(){
+  const t = (tz) => new Date().toLocaleTimeString("nl-BE", {hour:"2-digit", minute:"2-digit", timeZone:tz});
+  const here = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const items = [["Hier", here]];
+  if (here !== "Europe/Brussels") items.push(["Antwerpen", "Europe/Brussels"]);
+  $("clocks").innerHTML = items.map(([n,tz]) => `<span>${esc(n)}<b>${t(tz)}</b></span>`).join("");
+}
+clocks(); setInterval(clocks, 20000);
+
+/* --- Subtiele sterren/lichtpuntjes in de lucht --- */
+(function sky(){
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const c = $("sky"), x = c.getContext("2d"); let W, H, pts = [];
+  function size(){ const r = devicePixelRatio || 1; W = c.width = c.offsetWidth * r; H = c.height = c.offsetHeight * r;
+    pts = Array.from({length: part === "nacht" || part === "avond" ? 110 : 40}, () => ({x:Math.random()*W, y:Math.random()*H, r:(Math.random()*1.4+.3)*r, p:Math.random()*6.28, s:Math.random()*.012+.004})); }
+  size(); addEventListener("resize", size);
+  (function frame(){ x.clearRect(0,0,W,H);
+    for (const p of pts){ p.p += p.s; const a = .25 + .55*(Math.sin(p.p)*.5+.5);
+      x.beginPath(); x.arc(p.x, p.y, p.r, 0, 6.283); x.fillStyle = `rgba(255,255,255,${a})`; x.fill(); }
+    requestAnimationFrame(frame); })();
+})();
+
+/* --- Sparkline --- */
+function spark(series, color){
+  const pts = series.map((p,i) => ({i, v:p.v})).filter(p => p.v != null);
+  const n = series.length, w = 300, hgt = 38, pad = 4;
+  if (!pts.length) return `<svg viewBox="0 0 ${w} ${hgt}" preserveAspectRatio="none"><line x1="0" y1="${hgt-2}" x2="${w}" y2="${hgt-2}" stroke="var(--line)" stroke-dasharray="3 4"/></svg>`;
+  const vs = pts.map(p => p.v), mn = Math.min(...vs), mx = Math.max(...vs), rg = (mx - mn) || 1;
+  const X = i => pad + i * (w - 2*pad) / Math.max(n-1,1), Y = v => hgt - pad - (v - mn) / rg * (hgt - 2*pad - 4);
+  const line = pts.map((p,k) => `${k?"L":"M"}${X(p.i).toFixed(1)},${Y(p.v).toFixed(1)}`).join("");
+  const area = `${line}L${X(pts.at(-1).i).toFixed(1)},${hgt}L${X(pts[0].i).toFixed(1)},${hgt}Z`;
+  const last = pts.at(-1);
+  const dots = series.map((p,i) => p.v == null ? `<circle cx="${X(i)}" cy="${hgt-3}" r="1.6" fill="var(--line)"/>` : "").join("");
+  return `<svg viewBox="0 0 ${w} ${hgt}" preserveAspectRatio="none" role="img" aria-label="Verloop laatste 14 dagen">
+    <defs><linearGradient id="g${color.length}${n}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".28"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+    ${dots}<path d="${area}" fill="url(#g${color.length}${n})"/><path d="${line}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+    <circle cx="${X(last.i)}" cy="${Y(last.v)}" r="3.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/></svg>`;
+}
+
+function renderHealth(g){
+  if (!g){ $("health").innerHTML = `<div class="err">Geen gezondheidsgegevens.</div>`; return; }
+  $("logboek").href = g.logboek_url || "#";
+  const w = g.week || {}, L = g.laatste || {}, y = g.jaar || {};
+  const waterPct = Math.min(100, Math.round((w.water || 0) / 3 * 100));
+  const lastDate = L.datum ? new Date(L.datum + "T12:00").toLocaleDateString("nl-BE",{weekday:"short", day:"numeric", month:"short"}) : "–";
+  const kpi = (l, v, unit, s, extra="") => `<div class="kpi"><span class="l">${l}</span><span class="v">${v}<small>${unit}</small></span><span class="s">${s}</span>${extra}</div>`;
+  const left = `
+    <div>
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px">
+        <span class="streak">● ${g.streak || 0} ${g.streak === 1 ? "dag" : "dagen"} op rij ingevuld</span>
+        <span class="count">Gemiddelde van ${w.dagen || 0} ingevulde dagen · laatste: ${esc(lastDate)}</span>
+      </div>
+      <div class="kpis">
+        ${kpi("Stappen", nl(Math.round(w.stappen||0)), "", `${w.stappen10k ?? 0}/${w.dagen ?? 0} dagen ≥ 10k`)}
+        ${kpi("Slaap", nl(w.slaap), "u", `laatste nacht ${nl(L.slaap)} u`)}
+        ${kpi("HRV", nl(Math.round(w.hrv||0)), "ms", `rusthartslag ${nl(Math.round(w.rhr||0))}`)}
+        ${kpi("Water", nl(w.water), "l", `doel 3 l · ${w.water3l ?? 0}× gehaald`, `<div class="bar"><i style="width:${waterPct}%"></i></div>`)}
+      </div>
+      <div class="sparks">
+        <div class="spark"><span class="l">Stappen</span>${spark(g.reeksen.stappen, "var(--health)")}<span class="r">${nl(L.stappen)}</span></div>
+        <div class="spark"><span class="l">Slaap</span>${spark(g.reeksen.slaap, "#6366F1")}<span class="r">${nl(L.slaap)} u</span></div>
+        <div class="spark"><span class="l">HRV</span>${spark(g.reeksen.hrv, "var(--gold)")}<span class="r">${nl(L.hrv)}</span></div>
+      </div>
+      <div class="count" style="margin-top:6px">Laatste 14 dagen</div>
+    </div>`;
+  const right = `
+    <div>
+      <ul class="insights">${(g.inzichten || []).map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+      <div class="yr">Dit jaar: ${y.dagen ?? 0} dagen ingevuld · sport op ${y.sport_pct ?? "–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week.</div>
+      <div class="yr" style="border:0; padding-top:0; margin-top:8px">${w.sportdagen ?? 0} sportdagen en ${w.alcoholvrij ?? 0} alcoholvrije dagen deze week${L.sporttype ? ` · laatst: ${esc(L.sporttype).toLowerCase()}` : ""}.</div>
+    </div>`;
+  $("health").innerHTML = left + right;
+}
+
+function renderNews(id, items){
+  $(id).innerHTML = (items || []).map((n,i) => `<li class="${i===0?"lead":""}">
+    <a class="ph" href="${esc(n.url)}" target="_blank" rel="noopener" data-u="${esc(n.url)}" tabindex="-1" aria-hidden="true"><b>${esc(n.bron)}</b></a>
+    <a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titel)}</a>
+    <p>${esc(n.samenvatting)}</p><span class="src">${esc(n.bron)}</span></li>`).join("") || `<li class="err">Geen nieuws.</li>`;
+}
+
+function renderPods(pods){
+  const playIcon = `<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.8v10.4L12 7z" fill="currentColor"/></svg>`;
+  $("podcasts").innerHTML = (pods || []).map(p => `<div class="pod">
+    <div class="pod-h"><b>${esc(p.show)}</b><a class="pill" href="${esc(p.show_url)}" target="_blank" rel="noopener">Spotify ↗</a></div>
+    ${(p.afleveringen || []).map(e => `<a class="ep" href="${esc(e.url)}" target="_blank" rel="noopener">
+      <span class="play">${playIcon}</span>
+      <span><div class="tt">${esc(e.titel)}</div><div class="dd">${new Date(e.datum+"T12:00").toLocaleDateString("nl-BE",{weekday:"short", day:"numeric", month:"short"})}</div>${e.kort?`<div class="kk">${esc(e.kort)}</div>`:""}</span></a>`).join("")}
+    ${p.opmerking ? `<div class="note">${esc(p.opmerking)}</div>` : ""}
+  </div>`).join("");
+}
+
+function renderSport(s){
+  const sec = (label, color, items) => items && items.length ? `<div class="sport-sec"><div class="tag"><i style="background:${color}"></i>${label}</div>
+    ${items.map(i => `<div class="sport-item"><a class="ph" href="${esc(i.url)}" target="_blank" rel="noopener" data-u="${esc(i.url)}" tabindex="-1" aria-hidden="true"><b>${esc(i.bron||"")}</b></a><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.titel)}</a><p>${esc(i.samenvatting)}</p></div>`).join("")}</div>` : "";
+  $("sport").innerHTML = sec("Rode Duivels","var(--accent)", s.duivels) + sec("Royal Antwerp FC","#B91C1C", s.antwerp) + sec("Veldrijden","#64748B", s.cross);
+}
+
+function loadThumbs(){
+  document.querySelectorAll(".ph[data-u]").forEach(el => {
+    const im = new Image(); im.alt = ""; im.loading = "lazy"; im.referrerPolicy = "no-referrer";
+    im.onload = () => { el.classList.add("has"); im.classList.add("on"); };
+    im.onerror = () => im.remove();
+    im.src = "https://api.microlink.io/?embed=image.url&url=" + encodeURIComponent(el.dataset.u);
+    el.prepend(im);
+  });
+}
+let facts = [], fi = 0;
+function showFact(){
+  if (!facts.length){ $("fact").textContent = "Geen weetje vandaag."; return; }
+  const f = facts[fi % facts.length];
+  $("fact").innerHTML = esc(f.tekst) + (f.bron ? ` <a href="${esc(f.bron)}" target="_blank" rel="noopener" style="font-size:.55em; color:var(--muted)">bron ↗</a>` : "");
+  $("factcount").textContent = `${(fi % facts.length) + 1} / ${facts.length}`;
+}
+$("nextfact").addEventListener("click", () => { fi++; showFact(); });
+
+fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  $("chips").innerHTML = (d.vandaag || []).map(c => `<span class="chip"><em>${esc(c.wanneer)}</em>${esc(c.wat)}</span>`).join("");
+  renderHealth(d.gezondheid);
+  renderNews("markten", d.markten);
+  renderNews("tech", d.tech);
+  renderPods(d.podcasts);
+  renderSport(d.sport || {});
+  loadThumbs();
+  facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
+  const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd` : "";
+}).catch(() => {
+  $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
+});
+})();
+</script>
+</body>
+</html>
