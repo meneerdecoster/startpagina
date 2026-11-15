@@ -1,6 +1,6 @@
 [
-  {"naam": "Wereld-ETF", "ticker": "SPYI.DE", "inleg": null},
-  {"naam": "Obligaties", "ticker": null, "inleg": null},
-  {"naam": "Bitcoin", "ticker": "IB1T.PA", "inleg": 6.968},
-  {"naam": "Zilver", "ticker": "PHAG.AS", "inleg": 42.73}
+  {"naam": "Wereld-ETF", "ticker": "SPYI.DE"},
+  {"naam": "Obligaties", "ticker": "0GGH.L"},
+  {"naam": "Bitcoin", "ticker": "XS2940466316.SG"},
+  {"naam": "Zilver", "ticker": "PHAG.AS"}
 ]
