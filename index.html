@@ -328,7 +328,7 @@ function renderSport(s){
 }
 
 async function pickThumb(u){
-  let c=null; try{ c=localStorage.getItem("th2:"+u); }catch(e){}
+  let c=null; try{ c=localStorage.getItem("th3:"+u); }catch(e){}
   if (c!==null) return c==="-"?null:c;
   let out="-";
   try{
@@ -338,11 +338,11 @@ async function pickThumb(u){
       const j=await r.json(); const im=j&&j.data&&j.data.image;
       if (im&&im.url){
         const ar=(im.width&&im.height)?im.width/im.height:1.9;
-        const ok=(!im.width||im.width>=600)&&ar>=1.3&&ar<=2.4&&!/logo|favicon|subscribe|placeholder|default|avatar|icon|substack\.com\/api|twitter_card/i.test(im.url);
+        const ok=(!im.width||im.width>=600)&&ar>=1.4&&ar<=2.2&&!/^(png|svg|gif)$/i.test(im.type||"")&&!(im.size&&im.size<25000)&&!/logo|favicon|subscribe|placeholder|default|avatar|icon|substack\.com\/api|twitter_card/i.test(im.url);
         if (ok) out=im.url;
       }
     }
-    try{ localStorage.setItem("th2:"+u,out); }catch(e){}
+    try{ localStorage.setItem("th3:"+u,out); }catch(e){}
   }catch(e){ return null; }
   return out==="-"?null:out;
 }
@@ -374,7 +374,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v3` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
