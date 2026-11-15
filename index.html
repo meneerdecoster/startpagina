@@ -100,6 +100,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .fin .l{font:11px var(--mono,monospace); color:var(--muted); margin-bottom:2px; white-space:nowrap}
 .fin .v{font:600 15px var(--mono,monospace); white-space:nowrap; letter-spacing:-.02em}
 .fin .pos{color:#34d399} .fin .neg{color:#f87171} .fin .nul{color:var(--muted)}
+.fin .p{margin-top:10px; padding-top:8px; border-top:1px dashed var(--line); font:12px var(--mono,monospace)}
+.fin .p a{color:var(--muted); text-decoration:underline; cursor:pointer}
 .fin-note{grid-column:1/-1; font:11px var(--mono,monospace); color:var(--muted); margin-top:-2px}
 .news{list-style:none; margin:0; padding:0; display:grid}
 .news li{padding:14px 0; border-top:1px solid var(--line)}
@@ -127,6 +129,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pill{color:#3BE07A}}
 .ep{display:grid; grid-template-columns:104px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
 .ep:hover{background:var(--surface-2)}
+.ep.nt{grid-template-columns:1fr} .ep.nt .play{display:none}
 .ep .play img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
 .ep .play{width:104px; height:58.5px; overflow:hidden; position:relative; border-radius:12px; background:var(--ink); color:var(--surface); display:grid; place-items:center}
 .ep .tt{font-weight:600; font-size:14.5px; line-height:1.35}
@@ -336,18 +339,36 @@ function renderPods(pods){
 async function podThumbs(){
   if (THUMBS===null){ try{ THUMBS=await (await tfetch("thumbs.json?"+Date.now(),8000)).json(); }catch(e){ THUMBS={}; } }
   document.querySelectorAll(".play[data-pu]").forEach(el => {
-    const src = THUMBS[el.dataset.pu]; if (!src) return;
+    const src = THUMBS[el.dataset.pu]; if (!src){ el.parentElement.classList.add("nt"); return; }
     const im = new Image(); im.alt=""; im.referrerPolicy="no-referrer";
     im.onload = () => { el.textContent=""; el.appendChild(im); };
     im.src = "https://wsrv.nl/?w=208&h=117&fit=cover&output=webp&q=75&url=" + encodeURIComponent(src);
   });
 }
 function pct(v){ if (v===null||v===undefined) return '<span class="nul">—</span>'; const c=v>0.005?"pos":(v<-0.005?"neg":"nul"); return `<span class="${c}">${v>0?"+":""}${v.toFixed(2).replace(".",",")}%</span>`; }
+function getPos(n){ try{ return JSON.parse(localStorage.getItem("pos:"+n)||"null"); }catch(e){ return null; } }
+function setPos(n){
+  const cur=getPos(n)||{};
+  const a=prompt(n+": gemiddelde aankoopprijs per stuk", cur.avg||""); if (a===null) return;
+  const k=prompt(n+": aantal stuks", cur.n||""); if (k===null) return;
+  const avg=parseFloat(a.replace(",",".")), cnt=parseFloat(k.replace(",","."));
+  if (!(avg>0)||!(cnt>0)) localStorage.removeItem("pos:"+n); else localStorage.setItem("pos:"+n, JSON.stringify({avg,n:cnt}));
+  renderFin(window.__q);
+}
+function eur(v,c){ const s=(v>0?"+":v<0?"−":"")+Math.abs(v).toLocaleString("nl-BE",{maximumFractionDigits:0}); return s+" "+(c==="EUR"||!c?"€":c); }
+function posRow(i){
+  const p=getPos(i.naam);
+  if (!p||!i.koers) return `<div class="p"><a data-pos="${esc(i.naam)}">+ mijn positie</a></div>`;
+  const w=(i.koers-p.avg)*p.n, r=(i.koers/p.avg-1)*100, c=w>0?"pos":(w<0?"neg":"nul");
+  return `<div class="p"><span class="${c}">${eur(w,i.valuta)} · ${r>0?"+":""}${r.toFixed(1).replace(".",",")}%</span> <span class="nul">totaal</span> <a data-pos="${esc(i.naam)}" title="aanpassen">✎</a></div>`;
+}
 function renderFin(q){
   if (!q||!q.items) return;
+  window.__q=q;
   const dt=(q.items.find(i=>i.datum)||{}).datum;
-  $("fin").innerHTML = q.items.map(i=>`<div class="t"><div class="n">${esc(i.naam)}</div><div class="r"><div><div class="l">Dag</div><div class="v">${pct(i.dag)}</div></div><div><div class="l">Maand</div><div class="v">${pct(i.maand)}</div></div></div></div>`).join("")
-    + (dt?`<div class="fin-note">Slotkoersen van ${new Date(dt+"T12:00").toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"})}</div>`:"");
+  $("fin").innerHTML = q.items.map(i=>`<div class="t"><div class="n">${esc(i.naam)}</div><div class="r"><div><div class="l">Dag</div><div class="v">${pct(i.dag)}</div></div><div><div class="l">Maand</div><div class="v">${pct(i.maand)}</div></div></div>${posRow(i)}</div>`).join("")
+    + (dt?`<div class="fin-note">Slotkoersen van ${new Date(dt+"T12:00").toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"})} · positie enkel op dit toestel opgeslagen</div>`:"");
+  $("fin").querySelectorAll("[data-pos]").forEach(a=>a.onclick=()=>setPos(a.dataset.pos));
 }
 function renderSport(s){
   const sec = (label, color, items) => items && items.length ? `<div class="sport-sec"><div class="tag"><i style="background:${color}"></i>${label}</div>
@@ -439,7 +460,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   podThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v18` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v19` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });

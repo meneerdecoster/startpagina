@@ -16,13 +16,14 @@ def meta(t, rng):
 
 items = []
 for p in json.load(open("tools/positions.json")):
-    it = {"naam": p["naam"], "dag": None, "maand": None, "datum": None}
+    it = {"naam": p["naam"], "dag": None, "maand": None, "koers": None, "valuta": None, "datum": None}
     d = meta(p["ticker"], "1d")
     if d and d.get("regularMarketPrice"):
         pct = d.get("regularMarketChangePercent")
         if pct is None and d.get("chartPreviousClose"):
             pct = (d["regularMarketPrice"] / d["chartPreviousClose"] - 1) * 100
         if pct is not None: it["dag"] = round(pct, 2)
+        it["koers"] = d["regularMarketPrice"]; it["valuta"] = d.get("currency")
         if d.get("regularMarketTime"):
             it["datum"] = datetime.datetime.utcfromtimestamp(d["regularMarketTime"]).strftime("%Y-%m-%d")
     m = meta(p["ticker"], "1mo")
@@ -33,6 +34,6 @@ try: old = {i["naam"]: i for i in json.load(open("quotes.json")).get("items", []
 except Exception: old = {}
 for it in items:
     if it["dag"] is None and old.get(it["naam"], {}).get("dag") is not None:
-        it.update({k: old[it["naam"]].get(k) for k in ("dag", "maand", "datum")})
+        it.update({k: old[it["naam"]].get(k) for k in ("dag", "maand", "koers", "valuta", "datum")})
 json.dump({"bijgewerkt": datetime.datetime.utcnow().isoformat() + "Z", "items": items}, open("quotes.json", "w"), ensure_ascii=False, indent=1)
 print(items)
