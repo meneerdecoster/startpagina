@@ -1,378 +1,378 @@
 {
- "bijgewerkt": "2026-11-15T09:30:00+07:00",
- "vandaag": [
-  {
-   "wanneer": "Vanavond 20.45 u (BE)",
-   "wat": "België – Italië, Nations League. Winst betekent een plek in de kwartfinale."
-  },
-  {
-   "wanneer": "Vandaag (BE)",
-   "wat": "X²O-veldrit in Hamme-Zogge"
-  },
-  {
-   "wanneer": "Wo 18 nov",
-   "wat": "Beursgang Anthropic wordt geprijsd, handel op Nasdaq vanaf 19 nov"
-  }
- ],
- "markten": [
-  {
-   "titel": "Jensen Huang stapt op bij Nvidia, aandeel herstelt deels",
-   "samenvatting": "Nvidia opende donderdag meer dan 13% lager na het onverwachte vertrek van zijn topman, maar sloot uiteindelijk 4,3% in het rood. Concurrenten AMD en Broadcom wonnen elk zo'n 5,5 à 6%. De S&P 500 verloor 0,35%.",
-   "bron": "De Belegger",
-   "url": "https://www.debelegger.nl/liveblog/2026-11-13"
-  },
-  {
-   "titel": "Europese beurzen sluiten turbulente week met winst",
-   "samenvatting": "De Stoxx Europe 600 won 2,4% op weekbasis en sommige indices zetten nieuwe records neer. Europa is minder blootgesteld aan AI-aandelen en voelde de Nvidia-onrust daardoor minder.",
-   "bron": "VEB / ABM FN",
-   "url": "https://www.veb.net/beurs/beursnieuws/"
-  },
-  {
-   "titel": "Belgische inflatie klimt naar 5,26%",
-   "samenvatting": "Door duurdere energie liep de inflatie in oktober op tot het hoogste peil in ruim drie jaar. Het Planbureau verwacht 3,7% gemiddeld voor dit jaar en 4,4% in 2027; de spilindex zou in november en opnieuw in februari overschreden worden.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/planbureau-verwacht-dat-inflatie-verder-zal-oplopen-spilindex-v/"
-  },
-  {
-   "titel": "Amerikaanse producentenprijzen vallen mee",
-   "samenvatting": "De Amerikaanse producentenprijzen stegen vrijdag minder hard dan verwacht, wat Wall Street een groene opening gaf. De groei in de eurozone werd dan weer bevestigd als zwakker.",
-   "bron": "De Aandeelhouder",
-   "url": "https://www.deaandeelhouder.nl/nieuws/"
-  }
- ],
- "tech": [
-  {
-   "titel": "Nvidia zonder 'Mister Nvidia'",
-   "samenvatting": "Huang trok zich na 33 jaar terug na onthullingen over buitenechtelijke relaties met medewerkers, waarvan één met nationale-veiligheidsvragen. CFO Colette Kress leidt tijdelijk; de Amerikaanse Senaat wil Huang horen. Nvidia publiceert over vijf dagen zijn kwartaalcijfers.",
-   "bron": "NOS",
-   "url": "https://nos.nl/artikel/2639261-opgestapte-nvidia-topman-moet-getuigen-voor-senaat-om-affaires"
-  },
-  {
-   "titel": "Anthropic gaat volgende week naar de beurs",
-   "samenvatting": "De IPO wordt woensdag 18 november geprijsd, met handel op de Nasdaq onder ticker ANT vanaf de dag erna. Volgens berichten is het aanbod al ruim zes keer overtekend.",
-   "bron": "This is not Average",
-   "url": "https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-14"
-  },
-  {
-   "titel": "ChatGPT Wallet: AI-agents mogen voor je betalen",
-   "samenvatting": "OpenAI laat zijn agents aankopen afronden zonder het kaartnummer te zien, samen met Visa, Mastercard en American Express. Je keurt elke aankoop nog zelf goed. Voorlopig enkel voor Amerikaanse Pro-gebruikers.",
-   "bron": "Sam on AI",
-   "url": "https://samonai.substack.com/p/ai-brief-november-14-2026"
-  },
-  {
-   "titel": "Europese leiders houden eerste top volledig over AI",
-   "samenvatting": "In Dublin kwamen de EU-leiders informeel samen rond AI, met onder meer Geoffrey Hinton en Mistral-topman Arthur Mensch als sprekers. Investeringen en de uitwerking van de AI Act stonden centraal.",
-   "bron": "The State of Tech",
-   "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zaterdag-14"
-  }
- ],
- "podcasts": [
-  {
-   "show": "De Lange Termijn",
-   "show_url": "https://open.spotify.com/show/2s8EwhUs3YoaU5mnjtkBWz",
-   "afleveringen": [
+  "bijgewerkt": "2026-11-15T09:30:00+07:00",
+  "vandaag": [
     {
-     "titel": "#209 · Stealth bear market: waarom Twan en Jasper kopen",
-     "datum": "2026-11-12",
-     "url": "https://www.delangetermijn.nl/209-stealth-bear-market-waarom-twan-en-jasper-kopen/",
-     "kort": "De Nasdaq kreeg zijn hardste tik sinds 2020; Jasper en Twan kochten bij en Jasper overloopt zijn 110 posities."
+      "wanneer": "Vanavond 20.45 u (BE)",
+      "wat": "België – Italië, Nations League. Winst betekent een plek in de kwartfinale."
     },
     {
-     "titel": "Beurs na de midterms: vluchten of bijkopen?",
-     "datum": "2026-11-09",
-     "url": "https://www.delangetermijn.nl/aflevering/",
-     "kort": "Wat doet de beurs na de tussentijdse verkiezingen, hoeveel overlappen je ETF's, en moet je Burry vrezen?"
-    }
-   ]
-  },
-  {
-   "show": "Mind to Invest",
-   "show_url": "https://open.spotify.com/search/Mind%20to%20Invest/podcasts",
-   "afleveringen": [
+      "wanneer": "Vandaag (BE)",
+      "wat": "X²O-veldrit in Hamme-Zogge"
+    },
     {
-     "titel": "MTI 70 · De beste strategie om te starten met beleggen voor Belgen",
-     "datum": "2026-07-24",
-     "url": "https://open.spotify.com/episode/636EliZlkfVMMhRutTEeE2",
-     "kort": "Laatste aflevering die online te verifiëren viel. Recentere afleveringen staan wellicht wel in Spotify."
+      "wanneer": "Wo 18 nov",
+      "wat": "Beursgang Anthropic wordt geprijsd, handel op Nasdaq vanaf 19 nov"
     }
-   ],
-   "opmerking": "Nieuwste aflevering niet gevonden via het web"
-  }
- ],
- "sport": {
-  "duivels": [
-   {
-    "titel": "Duivels draaien achterstand om in Izmir: Turkije 1-2 België",
-    "samenvatting": "Na een vrije trap van Arda Güler zetten De Bruyne en De Ketelaere het binnen vier minuten recht. Lammens hield de zege vast. België is zeker van behoud in divisie A.",
-    "url": "https://sporza.be/nl/matches/voetbal/eur/uefa-nations-league/2026-2027/groep-1/05/turkije-belgie-rode-duivels-triomferen-in-turkije-de-bruyne-en-de-ketelaere-draaien-in-vier-dolle-minuten-scheve-situatie-om~1770981723267/"
-   },
-   {
-    "titel": "Vanavond 'kleine finale' tegen Italië",
-    "samenvatting": "Het Koning Boudewijnstadion is uitverkocht. Met 9 op 15 staat België tweede; Italië won donderdag met 3-1 van Frankrijk.",
-    "url": "https://nos.nl/artikel/2639210-van-bommels-belgie-na-comeback-in-izmir-weer-te-sterk-voor-turkije"
-   }
   ],
-  "antwerp": [
-   {
-    "titel": "Antwerp blijft steken op 2-2 tegen Lommel",
-    "samenvatting": "Twee keer op voorsprong op de Bosuil, twee keer Konadu. Met 11 op 33 staat de Great Old 13e en neemt de druk op trainer Marvin Compper toe.",
-    "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/11/antwerp-lommel-sk-live-antwerp-slaat-zichzelf-even-om-de-oren-na-lommelse-gelijkmaker-maar-klimt-5-minuten-later-weer-op-voorsprong~1781871729145/"
-   }
+  "markten": [
+    {
+      "titel": "Jensen Huang stapt op bij Nvidia, aandeel herstelt deels",
+      "samenvatting": "Nvidia opende donderdag meer dan 13% lager na het onverwachte vertrek van zijn topman, maar sloot uiteindelijk 4,3% in het rood. Concurrenten AMD en Broadcom wonnen elk zo'n 5,5 à 6%. De S&P 500 verloor 0,35%.",
+      "bron": "De Belegger",
+      "url": "https://www.debelegger.nl/liveblog/2026-11-13"
+    },
+    {
+      "titel": "Europese beurzen sluiten turbulente week met winst",
+      "samenvatting": "De Stoxx Europe 600 won 2,4% op weekbasis en sommige indices zetten nieuwe records neer. Europa is minder blootgesteld aan AI-aandelen en voelde de Nvidia-onrust daardoor minder.",
+      "bron": "VEB / ABM FN",
+      "url": "https://www.veb.net/beurs/beursnieuws/"
+    },
+    {
+      "titel": "Belgische inflatie klimt naar 5,26%",
+      "samenvatting": "Door duurdere energie liep de inflatie in oktober op tot het hoogste peil in ruim drie jaar. Het Planbureau verwacht 3,7% gemiddeld voor dit jaar en 4,4% in 2027; de spilindex zou in november en opnieuw in februari overschreden worden.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/planbureau-verwacht-dat-inflatie-verder-zal-oplopen-spilindex-v/"
+    },
+    {
+      "titel": "Amerikaanse producentenprijzen vallen mee",
+      "samenvatting": "De Amerikaanse producentenprijzen stegen vrijdag minder hard dan verwacht, wat Wall Street een groene opening gaf. De groei in de eurozone werd dan weer bevestigd als zwakker.",
+      "bron": "De Aandeelhouder",
+      "url": "https://www.deaandeelhouder.nl/nieuws/"
+    }
   ],
-  "cross": [
-   {
-    "titel": "Vandeputte wint sprint in Merksplas, Vanthourenhout zwaar onderuit",
-    "samenvatting": "Niels Vandeputte klopte Joran Wyseure in een sprint à deux. Vanthourenhout moest opgeven met een snijwonde; Wyseure leidt nu de Superprestige. Bij de vrouwen won Lucinda Brand, drie dagen na haar val in Niel.",
-    "url": "https://sporza.be/nl/matches/veldrijden/superprestige/2026/merksplas-live-aardbeiencross-merksplas-mason-wyseure-en-vanthourenhout-binnen-2-punten-wie-grijpt-de-macht-in-de-superprestige~1789391520338/"
-   }
-  ]
- },
- "weetjes": [
-  {
-   "tekst": "Phnom Penh ligt op de samenvloeiing van de Mekong, de Bassac en de Tonle Sap. In het regenseizoen keert de Tonle Sap van richting en stroomt hij terug naar het grote meer.",
-   "bron": null
+  "tech": [
+    {
+      "titel": "Nvidia zonder 'Mister Nvidia'",
+      "samenvatting": "Huang trok zich na 33 jaar terug na onthullingen over buitenechtelijke relaties met medewerkers, waarvan één met nationale-veiligheidsvragen. CFO Colette Kress leidt tijdelijk; de Amerikaanse Senaat wil Huang horen. Nvidia publiceert over vijf dagen zijn kwartaalcijfers.",
+      "bron": "NOS",
+      "url": "https://nos.nl/artikel/2639261-opgestapte-nvidia-topman-moet-getuigen-voor-senaat-om-affaires"
+    },
+    {
+      "titel": "Anthropic gaat volgende week naar de beurs",
+      "samenvatting": "De IPO wordt woensdag 18 november geprijsd, met handel op de Nasdaq onder ticker ANT vanaf de dag erna. Volgens berichten is het aanbod al ruim zes keer overtekend.",
+      "bron": "This is not Average",
+      "url": "https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-14"
+    },
+    {
+      "titel": "ChatGPT Wallet: AI-agents mogen voor je betalen",
+      "samenvatting": "OpenAI laat zijn agents aankopen afronden zonder het kaartnummer te zien, samen met Visa, Mastercard en American Express. Je keurt elke aankoop nog zelf goed. Voorlopig enkel voor Amerikaanse Pro-gebruikers.",
+      "bron": "Sam on AI",
+      "url": "https://samonai.substack.com/p/ai-brief-november-14-2026"
+    },
+    {
+      "titel": "Europese leiders houden eerste top volledig over AI",
+      "samenvatting": "In Dublin kwamen de EU-leiders informeel samen rond AI, met onder meer Geoffrey Hinton en Mistral-topman Arthur Mensch als sprekers. Investeringen en de uitwerking van de AI Act stonden centraal.",
+      "bron": "The State of Tech",
+      "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zaterdag-14"
+    }
+  ],
+  "podcasts": [
+    {
+      "show": "De Lange Termijn",
+      "show_url": "https://open.spotify.com/show/2s8EwhUs3YoaU5mnjtkBWz",
+      "afleveringen": [
+        {
+          "titel": "#209 · Stealth bear market: waarom Twan en Jasper kopen",
+          "datum": "2026-11-12",
+          "url": "https://www.delangetermijn.nl/209-stealth-bear-market-waarom-twan-en-jasper-kopen/",
+          "kort": "De Nasdaq kreeg zijn hardste tik sinds 2020; Jasper en Twan kochten bij en Jasper overloopt zijn 110 posities."
+        },
+        {
+          "titel": "Beurs na de midterms: vluchten of bijkopen?",
+          "datum": "2026-11-09",
+          "url": "https://www.delangetermijn.nl/aflevering/",
+          "kort": "Wat doet de beurs na de tussentijdse verkiezingen, hoeveel overlappen je ETF's, en moet je Burry vrezen?"
+        }
+      ]
+    },
+    {
+      "show": "Mind to Invest",
+      "show_url": "https://open.spotify.com/search/Mind%20to%20Invest/podcasts",
+      "afleveringen": [
+        {
+          "titel": "MTI 70 · De beste strategie om te starten met beleggen voor Belgen",
+          "datum": "2026-07-24",
+          "url": "https://open.spotify.com/episode/636EliZlkfVMMhRutTEeE2",
+          "kort": "Laatste aflevering die online te verifiëren viel. Recentere afleveringen staan wellicht wel in Spotify."
+        }
+      ],
+      "opmerking": "Nieuwste aflevering niet gevonden via het web"
+    }
+  ],
+  "sport": {
+    "duivels": [
+      {
+        "titel": "Duivels draaien achterstand om in Izmir: Turkije 1-2 België",
+        "samenvatting": "Na een vrije trap van Arda Güler zetten De Bruyne en De Ketelaere het binnen vier minuten recht. Lammens hield de zege vast. België is zeker van behoud in divisie A.",
+        "url": "https://sporza.be/nl/matches/voetbal/eur/uefa-nations-league/2026-2027/groep-1/05/turkije-belgie-rode-duivels-triomferen-in-turkije-de-bruyne-en-de-ketelaere-draaien-in-vier-dolle-minuten-scheve-situatie-om~1770981723267/"
+      },
+      {
+        "titel": "Vanavond 'kleine finale' tegen Italië",
+        "samenvatting": "Het Koning Boudewijnstadion is uitverkocht. Met 9 op 15 staat België tweede; Italië won donderdag met 3-1 van Frankrijk.",
+        "url": "https://nos.nl/artikel/2639210-van-bommels-belgie-na-comeback-in-izmir-weer-te-sterk-voor-turkije"
+      }
+    ],
+    "antwerp": [
+      {
+        "titel": "Antwerp blijft steken op 2-2 tegen Lommel",
+        "samenvatting": "Twee keer op voorsprong op de Bosuil, twee keer Konadu. Met 11 op 33 staat de Great Old 13e en neemt de druk op trainer Marvin Compper toe.",
+        "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/11/antwerp-lommel-sk-live-antwerp-slaat-zichzelf-even-om-de-oren-na-lommelse-gelijkmaker-maar-klimt-5-minuten-later-weer-op-voorsprong~1781871729145/"
+      }
+    ],
+    "cross": [
+      {
+        "titel": "Vandeputte wint sprint in Merksplas, Vanthourenhout zwaar onderuit",
+        "samenvatting": "Niels Vandeputte klopte Joran Wyseure in een sprint à deux. Vanthourenhout moest opgeven met een snijwonde; Wyseure leidt nu de Superprestige. Bij de vrouwen won Lucinda Brand, drie dagen na haar val in Niel.",
+        "url": "https://sporza.be/nl/matches/veldrijden/superprestige/2026/merksplas-live-aardbeiencross-merksplas-mason-wyseure-en-vanthourenhout-binnen-2-punten-wie-grijpt-de-macht-in-de-superprestige~1789391520338/"
+      }
+    ]
   },
-  {
-   "tekst": "Nvidia werd in 1993 opgericht door drie vrienden na een etentje in een Denny's-wegrestaurant.",
-   "bron": "https://www.bloomberg.com/billionaires/profiles/jenhsun-huang"
-  },
-  {
-   "tekst": "Recordhouder in de Aardbeiencross, de veldrit van gisteren in Merksplas: Sven Nys won hem acht keer.",
-   "bron": "https://en.wikipedia.org/wiki/Vlaamse_Aardbeiencross"
-  },
-  {
-   "tekst": "Royal Antwerp FC draagt stamnummer 1: de club werd opgericht in 1880 en is de oudste van België.",
-   "bron": "https://www.voetbalkrant.com/belgie/antwerp"
+  "weetjes": [
+    {
+      "tekst": "Phnom Penh ligt op de samenvloeiing van de Mekong, de Bassac en de Tonle Sap. In het regenseizoen keert de Tonle Sap van richting en stroomt hij terug naar het grote meer.",
+      "bron": null
+    },
+    {
+      "tekst": "Nvidia werd in 1993 opgericht door drie vrienden na een etentje in een Denny's-wegrestaurant.",
+      "bron": "https://www.bloomberg.com/billionaires/profiles/jenhsun-huang"
+    },
+    {
+      "tekst": "Recordhouder in de Aardbeiencross, de veldrit van gisteren in Merksplas: Sven Nys won hem acht keer.",
+      "bron": "https://en.wikipedia.org/wiki/Vlaamse_Aardbeiencross"
+    },
+    {
+      "tekst": "Royal Antwerp FC draagt stamnummer 1: de club werd opgericht in 1880 en is de oudste van België.",
+      "bron": "https://www.voetbalkrant.com/belgie/antwerp"
+    }
+  ],
+  "gezondheid": {
+    "streak": 3,
+    "laatste": {
+      "datum": "2026-11-14",
+      "stappen": 10339.0,
+      "slaap": 7.0,
+      "hrv": 53.0,
+      "rhr": 55.0,
+      "water": 2.75,
+      "sporttype": "Zwemmen, Wandelen",
+      "bedtijd": "23:17",
+      "opstaan": "06:22"
+    },
+    "week": {
+      "stappen": 10294.0,
+      "slaap": 7.85,
+      "hrv": 52.67,
+      "rhr": 49.33,
+      "water": 2.9,
+      "diep": 41.67,
+      "rem": 121.33,
+      "dagen": 3,
+      "sportdagen": 3,
+      "alcoholvrij": 3,
+      "koffie": 0.33,
+      "stappen10k": 3,
+      "water3l": 1
+    },
+    "jaar": {
+      "dagen": 66,
+      "sport_pct": 48,
+      "water": 2.66,
+      "alcohol_week": 8.2
+    },
+    "reeksen": {
+      "stappen": [
+        {
+          "d": "2026-11-01",
+          "v": null
+        },
+        {
+          "d": "2026-11-02",
+          "v": null
+        },
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 10498.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 10045.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 10339.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": null
+        }
+      ],
+      "slaap": [
+        {
+          "d": "2026-11-01",
+          "v": null
+        },
+        {
+          "d": "2026-11-02",
+          "v": null
+        },
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 8.47
+        },
+        {
+          "d": "2026-11-13",
+          "v": 8.09
+        },
+        {
+          "d": "2026-11-14",
+          "v": 7.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": null
+        }
+      ],
+      "hrv": [
+        {
+          "d": "2026-11-01",
+          "v": null
+        },
+        {
+          "d": "2026-11-02",
+          "v": null
+        },
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 57.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 48.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 53.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": null
+        }
+      ]
+    },
+    "inzichten": [
+      "Elke ingevulde dag deze week boven de 10.000 stappen (gemiddeld 10.294).",
+      "Water: gemiddeld 2,9 l. Nog 0,1 l per dag tot je doel van 3 l.",
+      "3 van 3 dagen alcoholvrij.",
+      "Afgelopen nacht 7,0 u slaap, onder je weekgemiddelde van 7,85 u. Bedtijd was 23:17."
+    ],
+    "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
   }
- ],
- "gezondheid": {
-  "streak": 3,
-  "laatste": {
-   "datum": "2026-11-14",
-   "stappen": 10339.0,
-   "slaap": 7.0,
-   "hrv": 53.0,
-   "rhr": 55.0,
-   "water": 2.75,
-   "sporttype": "Zwemmen, Wandelen",
-   "bedtijd": "23:17",
-   "opstaan": "06:22"
-  },
-  "week": {
-   "stappen": 10294.0,
-   "slaap": 7.85,
-   "hrv": 52.67,
-   "rhr": 49.33,
-   "water": 2.9,
-   "diep": 41.67,
-   "rem": 121.33,
-   "dagen": 3,
-   "sportdagen": 3,
-   "alcoholvrij": 3,
-   "koffie": 0.33,
-   "stappen10k": 3,
-   "water3l": 1
-  },
-  "jaar": {
-   "dagen": 66,
-   "sport_pct": 48,
-   "water": 2.66,
-   "alcohol_week": 8.2
-  },
-  "reeksen": {
-   "stappen": [
-    {
-     "d": "2026-11-01",
-     "v": null
-    },
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 10498.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 10045.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 10339.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": null
-    }
-   ],
-   "slaap": [
-    {
-     "d": "2026-11-01",
-     "v": null
-    },
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 8.47
-    },
-    {
-     "d": "2026-11-13",
-     "v": 8.09
-    },
-    {
-     "d": "2026-11-14",
-     "v": 7.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": null
-    }
-   ],
-   "hrv": [
-    {
-     "d": "2026-11-01",
-     "v": null
-    },
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 57.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 48.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 53.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": null
-    }
-   ]
-  },
-  "inzichten": [
-   "Elke ingevulde dag deze week boven de 10.000 stappen (gemiddeld 10.294).",
-   "Water: gemiddeld 2,9 l. Nog 0,1 l per dag tot je doel van 3 l.",
-   "3 van 3 dagen alcoholvrij.",
-   "Afgelopen nacht 7,0 u slaap, onder je weekgemiddelde van 7,85 u. Bedtijd was 23:17."
-  ],
-  "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
- }
 }
