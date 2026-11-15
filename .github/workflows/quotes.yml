@@ -1,0 +1,21 @@
+name: quotes
+on:
+  schedule:
+    - cron: "50 23 * * *"
+    - cron: "50 11 * * 1-5"
+  push:
+    paths: ["tools/positions.json", "tools/quotes.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quotes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/quotes.py
+      - run: |
+          git config user.name "startpagina-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add quotes.json
+          git diff --cached --quiet || git commit -m "Koersen bijgewerkt" && git push

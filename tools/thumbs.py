@@ -40,7 +40,7 @@ GENERIC = re.compile(r"opengraph|og[-_]?image|og[-_]?default|default|share[-_]?i
 
 def yt_thumb(u):
     m = re.search(r"youtube\.com/watch\?v=([\w-]{11})|youtu\.be/([\w-]{11})", u)
-    return f"https://i.ytimg.com/vi/{m.group(1) or m.group(2)}/hqdefault.jpg" if m else None
+    return f"https://i.ytimg.com/vi/{m.group(1) or m.group(2)}/mqdefault.jpg" if m else None
 
 def thumb(u):
     y = yt_thumb(u)

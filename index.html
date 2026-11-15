@@ -92,6 +92,15 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .yr{margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); font-size:13px; color:var(--muted)}
 
 /* NEWS */
+.fin{display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:0 0 18px}
+@media(min-width:900px){.fin{grid-template-columns:repeat(4,1fr)}}
+.fin .t{background:var(--surface-2); border:1px solid var(--line); border-radius:16px; padding:12px 14px}
+.fin .n{font-weight:600; font-size:14px}
+.fin .r{display:flex; gap:18px; margin-top:10px}
+.fin .l{font:11px var(--mono,monospace); color:var(--muted); margin-bottom:2px}
+.fin .v{font:600 17px var(--mono,monospace)}
+.fin .pos{color:#34d399} .fin .neg{color:#f87171} .fin .nul{color:var(--muted)}
+.fin-note{grid-column:1/-1; font:11px var(--mono,monospace); color:var(--muted); margin-top:-2px}
 .news{list-style:none; margin:0; padding:0; display:grid}
 .news li{padding:14px 0; border-top:1px solid var(--line)}
 .news li:first-child{border-top:0; padding-top:2px}
@@ -116,10 +125,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .pill{font-family:var(--mono); font-size:11px; padding:4px 10px; border-radius:999px; background:#1DB95422; color:#14833C; text-decoration:none; white-space:nowrap}
 :root[data-theme="dark"] .pill{color:#3BE07A}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pill{color:#3BE07A}}
-.ep{display:grid; grid-template-columns:56px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
+.ep{display:grid; grid-template-columns:104px 1fr; gap:12px; align-items:start; text-decoration:none; padding:10px; margin:0 -10px; border-radius:14px}
 .ep:hover{background:var(--surface-2)}
 .ep .play img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
-.ep .play{width:56px; height:56px; overflow:hidden; position:relative; border-radius:12px; background:var(--ink); color:var(--surface); display:grid; place-items:center}
+.ep .play{width:104px; height:58.5px; overflow:hidden; position:relative; border-radius:12px; background:var(--ink); color:var(--surface); display:grid; place-items:center}
 .ep .tt{font-weight:600; font-size:14.5px; line-height:1.35}
 .ep .dd{font-family:var(--mono); font-size:11px; color:var(--muted); margin-top:2px}
 .ep .kk{font-size:13px; color:var(--muted); margin-top:4px}
@@ -170,7 +179,8 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     </section>
 
     <section class="card span-7" aria-labelledby="h-markt">
-      <div class="card-h"><h2 id="h-markt"><span class="dot" style="background:var(--gold)"></span>Economie</h2><span class="meta">Wereld · België · ETF</span></div>
+      <div class="card-h"><h2 id="h-markt"><span class="dot" style="background:var(--gold)"></span>Financieel</h2><span class="meta">Wereld · België · ETF</span></div>
+      <div class="fin" id="fin"></div>
       <ul class="news" id="markten"></ul>
     </section>
 
@@ -329,8 +339,15 @@ async function podThumbs(){
     const src = THUMBS[el.dataset.pu]; if (!src) return;
     const im = new Image(); im.alt=""; im.referrerPolicy="no-referrer";
     im.onload = () => { el.textContent=""; el.appendChild(im); };
-    im.src = "https://wsrv.nl/?w=160&h=160&fit=cover&output=webp&q=75&url=" + encodeURIComponent(src);
+    im.src = "https://wsrv.nl/?w=208&h=117&fit=cover&output=webp&q=75&url=" + encodeURIComponent(src);
   });
+}
+function pct(v){ if (v===null||v===undefined) return '<span class="nul">—</span>'; const c=v>0.005?"pos":(v<-0.005?"neg":"nul"); return `<span class="${c}">${v>0?"+":""}${v.toFixed(2).replace(".",",")}%</span>`; }
+function renderFin(q){
+  if (!q||!q.items) return;
+  const dt=(q.items.find(i=>i.datum)||{}).datum;
+  $("fin").innerHTML = q.items.map(i=>`<div class="t"><div class="n">${esc(i.naam)}</div><div class="r"><div><div class="l">Gisteren</div><div class="v">${pct(i.dag)}</div></div><div><div class="l">T.o.v. inleg</div><div class="v">${pct(i.inleg)}</div></div></div></div>`).join("")
+    + (dt?`<div class="fin-note">Slotkoersen van ${new Date(dt+"T12:00").toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"})}</div>`:"");
 }
 function renderSport(s){
   const sec = (label, color, items) => items && items.length ? `<div class="sport-sec"><div class="tag"><i style="background:${color}"></i>${label}</div>
@@ -413,7 +430,8 @@ $("nextfact").addEventListener("click", () => { fi++; showFact(); });
 fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   $("chips").innerHTML = (d.vandaag || []).map(c => `<span class="chip"><em>${esc(c.wanneer)}</em>${esc(c.wat)}</span>`).join("");
   renderHealth(d.gezondheid);
-  renderNews("markten", d.markten);
+  renderNews("markten", (d.markten||[]).slice(0,2));
+  fetch("quotes.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(renderFin).catch(()=>{ $("fin").remove(); });
   renderNews("tech", d.tech);
   renderPods(d.podcasts);
   renderSport(d.sport || {});
@@ -421,7 +439,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   podThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v14` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v15` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
