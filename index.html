@@ -327,37 +327,48 @@ function renderSport(s){
   $("sport").innerHTML = sec("Rode Duivels","var(--accent)", s.duivels) + sec("Royal Antwerp FC","#B91C1C", s.antwerp) + sec("Veldrijden","#64748B", s.cross);
 }
 
+const TH={ok:0,none:0,err:0,last:""};
+function thDiag(){ const f=$("foot"); if(!f) return; let d=document.getElementById("thdiag"); if(!d){ d=document.createElement("div"); d.id="thdiag"; d.style.cssText="opacity:.5;font-size:11px;margin-top:6px"; f.after(d); } d.textContent=`foto's: ${TH.ok} geladen · ${TH.none} zonder · ${TH.err} fout${TH.last?" · "+TH.last:""}`; }
+const BAD=/logo|favicon|subscribe|placeholder|avatar|icon|substack\.com\/api|twitter_card|\.(png|svg|gif)(\?|$)/i;
+async function viaMicrolink(u){
+  const r=await fetch("https://api.microlink.io/?audio=false&video=false&iframe=false&url="+encodeURIComponent(u));
+  if (r.status===429) throw new Error("microlink-limiet");
+  const j=await r.json(); if(!j||j.status!=="success") throw new Error("microlink-"+(j&&j.status||r.status));
+  const im=j.data&&j.data.image; return im&&im.url||null;
+}
+async function viaProxy(u){
+  const r=await fetch("https://api.allorigins.win/get?url="+encodeURIComponent(u));
+  if(!r.ok) throw new Error("proxy-"+r.status);
+  const j=await r.json(); const h=j&&j.contents; if(!h) throw new Error("proxy-leeg");
+  const d=new DOMParser().parseFromString(h,"text/html");
+  const m=d.querySelector('meta[property="og:image"],meta[name="og:image"],meta[name="twitter:image"],meta[property="twitter:image"]');
+  const c=m&&m.getAttribute("content"); return c?new URL(c,u).href:null;
+}
 async function pickThumb(u){
-  let c=null; try{ c=localStorage.getItem("th4:"+u); }catch(e){}
+  let c=null; try{ c=localStorage.getItem("th5:"+u); }catch(e){}
   if (c!==null) return c==="-"?null:c;
-  let out="-", done=false;
-  try{
-    const p=new URL(u).pathname;
-    if (p.length<=4){ done=true; }
-    else{
-      const r=await fetch("https://api.microlink.io/?audio=false&video=false&iframe=false&url="+encodeURIComponent(u));
-      const j=await r.json();
-      if (j && j.status==="success"){
-        done=true; const im=j.data&&j.data.image;
-        if (im&&im.url){
-          const ar=(im.width&&im.height)?im.width/im.height:1.9;
-          const ok=(!im.width||im.width>=500)&&ar>=1.3&&ar<=2.4&&!/^(png|svg|gif)$/i.test(im.type||"")&&!(im.size&&im.size<15000)&&!/logo|favicon|subscribe|placeholder|avatar|icon|substack\.com\/api|twitter_card/i.test(im.url);
-          if (ok) out=im.url;
-        }
-      }
-    }
-  }catch(e){}
-  if (done){ try{ localStorage.setItem("th4:"+u,out); }catch(e){} }
-  return out==="-"?null:out;
+  if (new URL(u).pathname.length<=4){ return null; }
+  let src=null, ok=false;
+  for (const fn of [viaMicrolink, viaProxy]){
+    try{ src=await fn(u); ok=true; break; }catch(e){ TH.last=String(e.message||e).slice(0,40); }
+  }
+  if (!ok){ TH.err++; thDiag(); return null; }
+  if (src && BAD.test(src)) src=null;
+  try{ localStorage.setItem("th5:"+u, src||"-"); }catch(e){}
+  return src;
 }
 function loadThumbs(){
   const go = async el => {
     if (el.dataset.d) return; el.dataset.d = 1;
     const src = await pickThumb(el.dataset.u);
-    if (!src) return;
+    if (!src){ TH.none++; thDiag(); return; }
     const im = new Image(); im.alt = ""; im.decoding = "async"; im.referrerPolicy = "no-referrer";
-    im.onload = () => { el.classList.add("has"); im.classList.add("on"); };
-    im.onerror = () => { if (!im.dataset.raw){ im.dataset.raw = 1; im.src = src; } else im.remove(); };
+    im.onload = () => {
+      const ar = im.naturalWidth/im.naturalHeight;
+      if (im.naturalWidth < 400 || ar < 1.25 || ar > 2.5){ im.remove(); TH.none++; thDiag(); return; }
+      el.classList.add("has"); im.classList.add("on"); TH.ok++; thDiag();
+    };
+    im.onerror = () => { if (!im.dataset.raw){ im.dataset.raw = 1; im.src = src; } else { im.remove(); TH.err++; TH.last="beeld-laden"; thDiag(); } };
     im.src = "https://wsrv.nl/?w=800&h=450&fit=cover&a=attention&output=webp&q=72&url=" + encodeURIComponent(src);
     el.prepend(im);
   };
@@ -386,7 +397,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v5` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v6` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
