@@ -334,7 +334,7 @@ async function pickThumb(u){
   try{
     const p=new URL(u).pathname;
     if (p.length>4){
-      const r=await fetch("https://api.microlink.io/?url="+encodeURIComponent(u));
+      const r=await fetch("https://api.microlink.io/?audio=false&video=false&iframe=false&url="+encodeURIComponent(u));
       const j=await r.json(); const im=j&&j.data&&j.data.image;
       if (im&&im.url){
         const ar=(im.width&&im.height)?im.width/im.height:1.9;
@@ -347,13 +347,21 @@ async function pickThumb(u){
   return out==="-"?null:out;
 }
 function loadThumbs(){
-  document.querySelectorAll(".ph[data-u]").forEach(async el => {
+  const go = async el => {
+    if (el.dataset.d) return; el.dataset.d = 1;
     const src = await pickThumb(el.dataset.u);
     if (!src) return;
-    const im = new Image(); im.alt = ""; im.referrerPolicy = "no-referrer";
+    const im = new Image(); im.alt = ""; im.decoding = "async"; im.referrerPolicy = "no-referrer";
     im.onload = () => { el.classList.add("has"); im.classList.add("on"); };
-    im.src = src; el.prepend(im);
-  });
+    im.onerror = () => { if (!im.dataset.raw){ im.dataset.raw = 1; im.src = src; } else im.remove(); };
+    im.src = "https://wsrv.nl/?w=800&h=450&fit=cover&a=attention&output=webp&q=72&url=" + encodeURIComponent(src);
+    el.prepend(im);
+  };
+  const els = [...document.querySelectorAll(".ph[data-u]")];
+  els.slice(0,4).forEach(go);
+  if (!("IntersectionObserver" in window)){ els.forEach(go); return; }
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ io.unobserve(e.target); go(e.target); } }), {rootMargin:"1200px 0px"});
+  els.slice(4).forEach(e => io.observe(e));
 }
 let facts = [], fi = 0;
 function showFact(){
@@ -374,7 +382,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v3` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v4` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
