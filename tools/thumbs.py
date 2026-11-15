@@ -21,6 +21,23 @@ def get(url, method="GET", n=600000):
     with urllib.request.urlopen(req, timeout=15) as r:
         return r, (r.read(n) if method == "GET" else b"")
 
+_home={}
+def og_of(url):
+    try:
+        r, body = get(url)
+        m = Meta(); m.feed(body.decode(r.headers.get_content_charset() or "utf-8", "ignore"))
+        c = m.og or m.tw
+        return urllib.parse.urljoin(url, c) if c else None
+    except Exception:
+        return None
+
+def home_og(u):
+    p = urllib.parse.urlparse(u); root = f"{p.scheme}://{p.netloc}/"
+    if root not in _home: _home[root] = og_of(root)
+    return _home[root]
+
+GENERIC = re.compile(r"opengraph|og[-_]?image|og[-_]?default|default|share[-_]?image|fallback|brand|omslag|logo", re.I)
+
 def thumb(u):
     if len(urllib.parse.urlparse(u).path) <= 4: return None
     try:
@@ -29,7 +46,9 @@ def thumb(u):
         c = m.og or m.tw
         if not c: return None
         img = urllib.parse.urljoin(u, c)
-        if BAD.search(img): return None
+        if BAD.search(img) or GENERIC.search(img): return None
+        h = home_og(u)
+        if h and h.split('?')[0] == img.split('?')[0]: return None
         r2, _ = get(img, "HEAD")
         ct = r2.headers.get("Content-Type", ""); ln = int(r2.headers.get("Content-Length") or 0)
         if not ct.startswith("image/") or (ln and ln < 25000): return None

@@ -97,11 +97,12 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .news li:first-child{border-top:0; padding-top:2px}
 .news a.t{font-weight:600; font-size:15.5px; text-decoration:none; line-height:1.35; display:inline}
 .news a.t:hover{text-decoration:underline; text-underline-offset:3px}
-.ph{display:block; aspect-ratio:16/9; border-radius:14px; overflow:hidden; margin:0 0 10px; background:linear-gradient(135deg,var(--line),transparent); position:relative}
+.ph{display:none; aspect-ratio:16/9; border-radius:14px; overflow:hidden; margin:0 0 10px; background:linear-gradient(135deg,var(--line),transparent); position:relative}
 .ph img{width:100%; height:100%; object-fit:cover; display:block; opacity:0; transition:opacity .4s}
 .ph img.on{opacity:1}
 .ph b{position:absolute; left:12px; bottom:10px; font:600 12px var(--mono,monospace); color:var(--muted); letter-spacing:.04em}
 .ph.has b{display:none}
+.ph.has{display:block}
 .sport-item .ph{aspect-ratio:16/8}
 .news p{margin:6px 0 0; color:var(--muted); font-size:14px; max-width:68ch}
 .src{font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-top:6px; display:block}
@@ -412,7 +413,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v11` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v12` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
