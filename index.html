@@ -92,13 +92,13 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .yr{margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); font-size:13px; color:var(--muted)}
 
 /* NEWS */
-.fin{display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin:0 0 18px}
+.fin{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:0 0 18px}
 @media(min-width:900px){.fin{grid-template-columns:repeat(4,1fr)}}
 .fin .t{background:var(--surface-2); border:1px solid var(--line); border-radius:16px; padding:12px 14px}
 .fin .n{font-weight:600; font-size:14px}
-.fin .r{display:flex; gap:18px; margin-top:10px}
-.fin .l{font:11px var(--mono,monospace); color:var(--muted); margin-bottom:2px}
-.fin .v{font:600 17px var(--mono,monospace)}
+.fin .r{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px}
+.fin .l{font:11px var(--mono,monospace); color:var(--muted); margin-bottom:2px; white-space:nowrap}
+.fin .v{font:600 15px var(--mono,monospace); white-space:nowrap; letter-spacing:-.02em}
 .fin .pos{color:#34d399} .fin .neg{color:#f87171} .fin .nul{color:var(--muted)}
 .fin-note{grid-column:1/-1; font:11px var(--mono,monospace); color:var(--muted); margin-top:-2px}
 .news{list-style:none; margin:0; padding:0; display:grid}
@@ -346,7 +346,7 @@ function pct(v){ if (v===null||v===undefined) return '<span class="nul">—</spa
 function renderFin(q){
   if (!q||!q.items) return;
   const dt=(q.items.find(i=>i.datum)||{}).datum;
-  $("fin").innerHTML = q.items.map(i=>`<div class="t"><div class="n">${esc(i.naam)}</div><div class="r"><div><div class="l">Afgelopen dag</div><div class="v">${pct(i.dag)}</div></div><div><div class="l">1 maand</div><div class="v">${pct(i.maand)}</div></div></div></div>`).join("")
+  $("fin").innerHTML = q.items.map(i=>`<div class="t"><div class="n">${esc(i.naam)}</div><div class="r"><div><div class="l">Dag</div><div class="v">${pct(i.dag)}</div></div><div><div class="l">Maand</div><div class="v">${pct(i.maand)}</div></div></div></div>`).join("")
     + (dt?`<div class="fin-note">Slotkoersen van ${new Date(dt+"T12:00").toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"})}</div>`:"");
 }
 function renderSport(s){
@@ -439,7 +439,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   podThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v17` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v18` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
