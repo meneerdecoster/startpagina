@@ -1,28 +1,36 @@
 {
- "bijgewerkt": "2026-11-15T04:02:28.123077Z",
+ "bijgewerkt": "2026-11-15T04:15:02.266358Z",
  "items": [
   {
    "naam": "Wereld-ETF",
    "dag": -0.92,
    "maand": -1.4,
+   "koers": 11.694,
+   "valuta": "EUR",
    "datum": "2026-11-13"
   },
   {
    "naam": "Obligaties",
    "dag": -0.3,
    "maand": 0.75,
+   "koers": 4.8508,
+   "valuta": "EUR",
    "datum": "2026-11-13"
   },
   {
    "naam": "Bitcoin",
-   "dag": -3.17,
+   "dag": -3.44,
    "maand": -3.17,
+   "koers": 6.231,
+   "valuta": "EUR",
    "datum": "2026-11-13"
   },
   {
    "naam": "Zilver",
    "dag": -1.32,
    "maand": -16.01,
+   "koers": 40.485,
+   "valuta": "EUR",
    "datum": "2026-11-13"
   }
  ]
