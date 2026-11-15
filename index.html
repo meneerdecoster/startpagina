@@ -389,10 +389,7 @@ function loadThumbs(){
     el.prepend(im);
   };
   const els = [...document.querySelectorAll(".ph[data-u]")];
-  els.slice(0,4).forEach(go);
-  if (!("IntersectionObserver" in window)){ els.forEach(go); return; }
-  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ io.unobserve(e.target); go(e.target); } }), {rootMargin:"1200px 0px"});
-  els.slice(4).forEach(e => io.observe(e));
+  els.forEach(go);
 }
 let facts = [], fi = 0;
 function showFact(){
@@ -413,7 +410,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v12` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v13` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
