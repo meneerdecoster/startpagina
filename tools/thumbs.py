@@ -38,7 +38,13 @@ def home_og(u):
 
 GENERIC = re.compile(r"opengraph|og[-_]?image|og[-_]?default|default|share[-_]?image|fallback|brand|omslag|logo", re.I)
 
+def yt_thumb(u):
+    m = re.search(r"youtube\.com/watch\?v=([\w-]{11})|youtu\.be/([\w-]{11})", u)
+    return f"https://i.ytimg.com/vi/{m.group(1) or m.group(2)}/hqdefault.jpg" if m else None
+
 def thumb(u):
+    y = yt_thumb(u)
+    if y: return y
     if len(urllib.parse.urlparse(u).path) <= 4: return None
     try:
         r, body = get(u)
@@ -60,6 +66,8 @@ def urls(d):
     out = []
     for k in ("markten", "tech"):
         out += [i.get("url") for i in d.get(k, [])]
+    for p in d.get("podcasts", []):
+        out += [e.get("url") for e in p.get("afleveringen", [])]
     for lst in (d.get("sport") or {}).values():
         out += [i.get("url") for i in lst]
     return [u for u in dict.fromkeys(out) if u]
