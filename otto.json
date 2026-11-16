@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T21:20:00+07:00",
+ "bijgewerkt": "2026-11-16T21:45:00+07:00",
  "nieuws": [
   {
    "titel": "Lily Yohannes heeft een eigen voetbalveld",
@@ -28,29 +28,29 @@
  ],
  "wetenschap": [
   {
-   "emoji": "🐙",
-   "titel": "Drie harten",
-   "tekst": "Een octopus heeft drie harten en blauw bloed. Twee harten pompen bloed naar de kieuwen, één naar de rest van het lijf."
+   "emoji": "🐘",
+   "titel": "Olifant-geheugen",
+   "tekst": "Olifanten onthouden waar water is, ook na jaren. De oudste olifant leidt de groep."
   },
   {
-   "emoji": "🌙",
-   "titel": "Voetafdrukken op de maan",
-   "tekst": "Op de maan waait het niet. Daarom blijven voetafdrukken er heel, heel lang zichtbaar."
+   "emoji": "🪐",
+   "titel": "Een dag op Jupiter",
+   "tekst": "Jupiter draait supersnel om zichzelf. Een dag duurt er maar ongeveer 10 uur."
   },
   {
-   "emoji": "🦴",
-   "titel": "Baby's hebben meer botten",
-   "tekst": "Een baby heeft ongeveer 300 botjes. Een volwassene heeft er 206, want sommige botjes groeien aan elkaar vast."
+   "emoji": "👃",
+   "titel": "Je neus onthoudt",
+   "tekst": "Met je neus kun je heel veel verschillende geuren herkennen. Een geur kan je meteen aan iets leuks doen denken."
   },
   {
-   "emoji": "🍯",
-   "titel": "Honing bederft bijna nooit",
-   "tekst": "Honing kan wel duizenden jaren goed blijven. Er zit zo weinig water in dat bacteriën er niet kunnen groeien."
+   "emoji": "🌳",
+   "titel": "Bomen praten",
+   "tekst": "Bomen sturen via hun wortels en schimmels voedsel en berichten naar elkaar. Zo helpen ze elkaar."
   },
   {
-   "emoji": "⚡",
-   "titel": "Heet als bliksem",
-   "tekst": "Een bliksemflits is veel heter dan de buitenkant van de zon. Daarom knalt de lucht er zo hard van."
+   "emoji": "🚀",
+   "titel": "Sterren in de ruimte",
+   "tekst": "In de ruimte is het stil. Er is geen lucht, dus geluid kan er niet reizen."
   }
  ],
  "films": [
@@ -103,13 +103,13 @@
   }
  ],
  "raadsel": {
-  "vraag": "Lotte heeft 24 stickers. Ze geeft de helft aan haar broer en koopt er daarna 5 bij. Hoeveel stickers heeft ze nu?",
-  "oplossing": "17",
-  "uitleg": "De helft van 24 is 12. Dan 12 + 5 = 17."
+  "vraag": "Welk getal komt er daarna? 3, 6, 9, 12, ...",
+  "oplossing": "15",
+  "uitleg": "Elke keer komt er 3 bij. 12 + 3 = 15."
  },
  "mop": {
-  "vraag": "Wat is groen en zit in een hoekje te huilen?",
-  "antwoord": "Een zielige sprinkhaan!"
+  "vraag": "Waarom neemt een schaap een trui mee naar school?",
+  "antwoord": "Omdat het een wollen dag wordt!"
  },
  "land": {
   "week": "2026-W47",

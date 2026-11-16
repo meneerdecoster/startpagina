@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T21:20:00+07:00",
+ "bijgewerkt": "2026-11-16T21:45:00+07:00",
  "gebruikt": [
   "Vietnam"
  ],
@@ -31,21 +31,21 @@
  ],
  "dieren": [
   {
-   "titel": "Dog's Loved His Kitten Since The Moment They Met",
+   "titel": "Dit lachende puppy wil maar niet stoppen met glimlachen",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=OrmTW4uGiTA",
+   "url": "https://www.youtube.com/watch?v=rwgwSomR0B8",
    "soort": "video"
   },
   {
-   "titel": "Cat And His Puppy Are The Cutest Siblings",
+   "titel": "Pup vraagt of je hem mee naar huis neemt",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=bkcDzh3bGC8",
+   "url": "https://www.youtube.com/watch?v=2u3z3QyxdTo",
    "soort": "video"
   },
   {
-   "titel": "Dog and Cat Best Friends Wrestle ALL The Time",
+   "titel": "Lachende oudere hond is pure vreugde",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=5rM9k6ARooI",
+   "url": "https://www.youtube.com/watch?v=uRTQbiSJiFU",
    "soort": "video"
   }
  ],
@@ -95,14 +95,14 @@
   "inwoners": "ongeveer 100 miljoen"
  },
  "raadsel": {
-  "vraag": "Hoe meer je er van hebt, hoe minder je ziet. Wat is het?",
-  "oplossing": "Duisternis",
-  "uitleg": "Als het donkerder wordt, zie je minder.",
+  "vraag": "Ik heb steden maar geen huizen, bergen maar geen bomen, water maar geen vissen. Wat ben ik?",
+  "oplossing": "Een landkaart",
+  "uitleg": "Op een kaart staan tekens voor steden, bergen en water, maar het is niet echt.",
   "opties": [
-   "Duisternis",
-   "Mist in je bril",
-   "Sneeuw",
-   "Een schaduw"
+   "Een landkaart",
+   "Een droom",
+   "Een eiland",
+   "Een film"
   ]
  },
  "mensen": [
