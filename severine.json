@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T20:50:00+07:00",
+ "bijgewerkt": "2026-11-16T21:14:27+07:00",
  "gezondheid": {
   "streak": 5,
   "laatste": {
@@ -213,11 +213,32 @@
  },
  "lifestyle": [
   {
+   "label": "Mode",
+   "titel": "De 6 grote modetrends voor herfst 2026",
+   "samenvatting": "Herwerkte klassieke snitten, romantische looks met een rand, kroko-leer, sportieve stukken, fluweel en geweven bloemen. Alles gebaseerd op de catwalks van dit seizoen.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/437406-herfst-2026-modetrends.html"
+  },
+  {
    "label": "Wonen",
    "titel": "6 interieurtrends voor het najaar",
    "samenvatting": "Donkere houtsoorten, hotelsfeer met laagjes licht en een eigen wellnesshoekje zijn in. Ook glanzende afwerkingen en materialen met een geleefd uiterlijk doen mee.",
    "bron": "ELLE België",
    "url": "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html"
+  },
+  {
+   "label": "Wonen",
+   "titel": "Een familiewoning met hotelsfeer",
+   "samenvatting": "Interieurontwerper Roelfien Vos geeft dit familiehuis de sfeer van een luxehotel, met een keuken in een oranjerie, een koperen bad en een kleurrijk, eclectisch interieur.",
+   "bron": "Residence",
+   "url": "https://www.residence.nl/binnenkijken-roelfien-vos-familiehuis"
+  },
+  {
+   "label": "Wonen",
+   "titel": "Kleurrijk wonen in een oude boerderij",
+   "samenvatting": "Achter de gevel van een honderd jaar oude boerderij in Meppel mixt een interieurontwerpster warme kleuren, bijzondere materialen en opvallende patronen.",
+   "bron": "Residence",
+   "url": "https://www.residence.nl/kleurrijke-boerderij-meppel-nox-studio-interiors"
   },
   {
    "label": "Interieur",
@@ -227,63 +248,177 @@
    "url": "https://www.elle.be/nl/439665-deze-deco-items-bepalen-het-najaar-van-2026.html"
   },
   {
-   "label": "Mode",
-   "titel": "De 6 grote modetrends voor herfst 2026",
-   "samenvatting": "Herwerkte klassieke snitten, romantische looks met een rand, kroko-leer, sportieve stukken, fluweel en geweven bloemen. Alles gebaseerd op de catwalks van dit seizoen.",
+   "label": "Interieur",
+   "titel": "De grootste designtrends van 2026",
+   "samenvatting": "Een speelse terugblik op de jaren zeventig, hifi-apparatuur die terugkomt en sculpturaal marmer. Ook aardse tapijten, kleurrijk servies en literaire boekenkasten zijn in.",
    "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/?p=437406"
+   "url": "https://www.elle.be/nl/437404-grootste-design-trends-2026.html"
+  },
+  {
+   "label": "Interieur",
+   "titel": "STOFF Nagel: een kandelaar die je zelf samenstelt",
+   "samenvatting": "Deze designklassieker uit de jaren zestig kun je eindeloos herschikken tot een sculpturale compositie. De nieuwe collectie krijgt er een wandhouder in geborsteld chroom bij.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/440065-stoff-nagel-de-kandelaar-om-zelf-samen-te-stellen.html"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Vlisco Dialogues lanceert interieurcollectie",
+   "samenvatting": "Plaids en kussens met grafische prints vormen de eerste interieurcollectie van Vlisco Dialogues. Ze werden gelanceerd met een campagne in een Amsterdams hotel.",
+   "bron": "Residence",
+   "url": "https://www.residence.nl/vlisco-dialogues-eerste-interieurcollectie"
   }
  ],
  "voeding": [
   {
    "label": "Recept",
-   "titel": "Makkelijke aardappel-preischotel",
-   "samenvatting": "Een ovenschotel met zoete aardappelpuree, prei en kaas. Klaar in ongeveer 20 minuten plus 25 minuten in de oven (met rundergehakt; je kunt dat vervangen).",
-   "bron": "Allerhande",
-   "url": "https://www.ah.be/allerhande/recept/R-R1192889/makkelijke-aardappel-preischotel"
+   "titel": "Rode linzen met butternut en cavolo nero",
+   "samenvatting": "Ottolenghi's dal van rode linzen met star-anijs, kaneel en kurkuma, bekroond met gekaramelliseerde butternut en cavolo nero. Smaakt na een dag rusten nog beter.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash"
   },
   {
    "label": "Recept",
-   "titel": "Alcoholvrije glühwein",
-   "samenvatting": "Alcoholvrije merlot met sinaasappel, kaneel, steranijs en kruidnagel, zacht opgewarmd. Lekker voor koude novemberavonden.",
-   "bron": "Allerhande",
-   "url": "https://www.ah.be/allerhande/recept/R-R1303131/alcoholvrije-gluehwein"
+   "titel": "Geroosterde pompoen met krokante linzen",
+   "samenvatting": "Plaatrecept van Rukmini Iyer: pompoen, rode ui en tomaatjes met bruine linzen en granaatappelmelasse. Afgewerkt met yoghurt, dukkah en granaatappelpitjes (vegan zonder yoghurt).",
+   "bron": "The Happy Foodie",
+   "url": "https://thehappyfoodie.co.uk/recipes/roasted-squash-crispy-lentils-pomegranate-and-lentils/"
   },
   {
    "label": "Recept",
-   "titel": "Hollandse erwtensoep",
-   "samenvatting": "Stevige winterse soep met spliterwten, selderij, wortel en prei. Eén pot voor acht personen.",
-   "bron": "Allerhande",
-   "url": "https://www.ah.be/allerhande/recept/R-R377954/hollandse-erwtensoep"
+   "titel": "Shawarma-bloemkool met groene tahin",
+   "samenvatting": "Bloemkool in kruiden geroosterd tot ze mooi verkoold is, met rode koolsalade en een saus van peterselie en tahin. Een plantaardig alternatief voor vleesshoarma.",
+   "bron": "The Happy Foodie (Ottolenghi Test Kitchen)",
+   "url": "https://thehappyfoodie.co.uk/recipes/the-ottolenghi-test-kitchens-shawarma-cauliflower-with-green-tahini/"
+  },
+  {
+   "label": "Recept",
+   "titel": "Gebakken bloemkoolsalade met hazelnoten",
+   "samenvatting": "Ottolenghi's winterse salade met geroosterde bloemkool, hazelnoten, granaatappel, selder en peterselie. Op kamertemperatuur serveren.",
+   "bron": "The Happy Foodie",
+   "url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-roasted-cauliflower-and-hazelnut-salad/"
+  },
+  {
+   "label": "Recept",
+   "titel": "Pittige soep van zoete aardappel en linzen",
+   "samenvatting": "Een veganistische en glutenvrije soep in één pot met linzen, zoete aardappel en sperziebonen, gekruid met komijn, koriander en kaneel. Klaar in zo'n 50 minuten.",
+   "bron": "Minimalist Baker",
+   "url": "https://minimalistbaker.com/1-pot-spiced-sweet-potato-lentil-soup/"
+  },
+  {
+   "label": "Recept",
+   "titel": "Langzaam geroosterde butternut met knoflooklinzen",
+   "samenvatting": "Zoete, langzaam gegaarde butternut met licht gekruide linzen en een topping van harissa-yoghurt, tahin, pompoenpitten en koriander. Vegetarisch hoofdgerecht.",
+   "bron": "BBC Good Food",
+   "url": "https://www.bbcgoodfoodme.com/recipes/slow-roast-squash-garlic-lentils-harissa-yogurt"
   },
   {
    "label": "Gezond leven",
-   "titel": "Elke extra minuut beweging telt voor je hersenen",
-   "samenvatting": "Een onderzoek van KU Leuven en UGent bij 233 Vlaamse volwassenen toont dat stevig wandelen of fietsen samenhangt met beter geheugen en concentratie.",
+   "titel": "Vezels en eiwit: je hebt ze allebei nodig",
+   "samenvatting": "Onderzoek van de Universiteit Antwerpen toont dat meer vezels gezond zijn voor je darmen en stofwisseling. Ze vervangen eiwitten niet, want die zijn nodig voor je spieren.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/03/05/hype-rond-vezels-kent-grote-voordelen-voor-je-lichaam-maar-proteine-blijft-nodig-ze-doen-compleet-andere-dingen~1772705565527/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Mediterraan eten en je hersenen",
+   "samenvatting": "Een mediterraan eetpatroon met veel groenten, fruit, noten en olijfolie hangt samen met een lager risico op dementie. Vooral mensen met het hoogste erfelijke risico leken er baat bij te hebben.",
+   "bron": "Scientias",
+   "url": "https://scientias.nl/dit-eetpatroon-vermindert-mogelijk-de-kans-op-cognitieve-achteruitgang/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Peulvruchten: eiwit en vezels uit de plantenwereld",
+   "samenvatting": "Peulvruchten leveren plantaardige eiwitten, vezels, vitamines en mineralen. De Hoge Gezondheidsraad raadt aan ze wekelijks te eten.",
+   "bron": "Test Aankoop",
+   "url": "https://www.test-aankoop.be/gezond/voeding/vegetarische-voeding/dossier/peulvruchten"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Veganistisch eten en je gezondheid",
+   "samenvatting": "In een Amerikaanse studie met eeneiige tweelingen deden de cholesterol- en insulinewaarden het meest dalen bij wie plantaardig at. Het ging om een kleine studie van acht weken.",
    "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2025/11/12/elke-extra-minuut-beweging-telt-voor-betere-hersenfuncties-van-5/"
+   "url": "https://www.vrt.be/vrtnws/nl/2023/12/19/veganisme-dieet-gezond-onderzoek/"
   }
  ],
  "boeken": [
   {
    "titel": "Johnnie Walker – Connie Palmen",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/09/09/connie-palmen-johnnie-walker-nieuwe-roman/"
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/johnnie-walker-9789044662368",
+   "isbn": "9789044662368"
+  },
+  {
+   "titel": "Himmler in New York – Arnon Grunberg",
+   "bron": "Libris",
+   "url": "https://libris.nl/boek-en-buro/9789038816913",
+   "isbn": "9789038816913"
+  },
+  {
+   "titel": "Passanten – Tim 'S Jongers",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/passanten-9789403141657",
+   "isbn": "9789403141657"
+  },
+  {
+   "titel": "Gustave en wij – Erwin Mortier",
+   "bron": "Boekenwereld",
+   "url": "https://www.boekenwereld.com/erwin-mortier-gustave-en-wij-9789403136721",
+   "isbn": "9789403136721"
+  },
+  {
+   "titel": "Het werkelijke leven – Annie Ernaux",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/het-werkelijke-leven-9789029556798",
+   "isbn": "9789029556798"
+  },
+  {
+   "titel": "Hoeveel koeien ben ik waard? – Lisette Ma Neza",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/hoeveel-koeien-ben-ik-waard-9789403132594",
+   "isbn": "9789403132594"
   },
   {
    "titel": "Verloren schaapjes – Madeline Cash",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/15/madeline-cash-ruth-joos-dua-lipa-verloren-schaapjes/"
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/verloren-schaapjes-9789493420977",
+   "isbn": "9789493420977"
   },
   {
-   "titel": "De beste nieuwe boeken voor de herfst (o.a. Lucy Foley, Tim 'S Jongers)",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/439866-de-beste-nieuwe-boeken-voor-de-herfst.html"
+   "titel": "Tanana – Matthias M.R. Declercq",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/tanana-9789403136172",
+   "isbn": "9789403136172"
   },
   {
-   "titel": "Boekenvooruitblik herfst 2026 (o.a. Grunberg, Mortier)",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/08/11/boeken-herfst-2026-vooruitblik/"
+   "titel": "De waterlanders – Judith Vanistendael",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/de-waterlanders-9789493468153",
+   "isbn": "9789493468153"
+  },
+  {
+   "titel": "Moord in het Grand Alpine Hotel – Lucy Foley",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/moord-in-het-grand-alpine-hotel-9789044371185",
+   "isbn": "9789044371185"
+  },
+  {
+   "titel": "Terug naar Hildegard – Susan Smit",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/terug-naar-hildegard-9789048877140",
+   "isbn": "9789048877140"
+  },
+  {
+   "titel": "American Hagwon – Min Jin Lee",
+   "bron": "Lannoo",
+   "url": "https://www.lannoo.com/nl-nl/literatuur-romans/american-hagwon-9789402328912",
+   "isbn": "9789402328912"
+  },
+  {
+   "titel": "Onderstroom – Chloe Benjamin",
+   "bron": "Standaard Boekhandel",
+   "url": "https://www.standaardboekhandel.be/p/onderstroom-9789089684295",
+   "isbn": "9789089684295"
   }
  ]
 }

@@ -1,23 +1,23 @@
 {
- "bijgewerkt": "2026-11-16T20:50:00+07:00",
+ "bijgewerkt": "2026-11-16T21:14:27+07:00",
  "nieuws": [
   {
-   "titel": "Starship-raket komt terug op aarde",
-   "samenvatting": "Voor het eerst is het bovenste stuk van een ruimteraket terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+   "titel": "Dierenbescherming rukt uit voor opblaaskrokodil",
+   "samenvatting": "De dierenbescherming moest uitrukken voor een krokodil die helemaal niet echt was. Het was een opblaasbeest!",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639544"
+   "url": "https://jeugdjournaal.nl/artikel/2639547-oeps-dierenbescherming-rukt-uit-voor-opblaas-krokodil"
   },
   {
-   "titel": "Pech voor Sinterklaas in Amsterdam",
-   "samenvatting": "De stoomboot van Sinterklaas kon niet aanleggen omdat een brug kapot was. Gelukkig kwamen de Sint en zijn Pieten toch aan wal.",
+   "titel": "Raket weer opgevangen op aarde",
+   "samenvatting": "Voor het eerst is een raket na zijn vlucht weer opgevangen op aarde. Zo kan hij nog eens gebruikt worden.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639611"
+   "url": "https://jeugdjournaal.nl/artikel/2639544-gelukt-voor-het-eerst-een-raket-weer-opgevangen-op-aarde"
   },
   {
-   "titel": "Kinderen treden op voor Sinterklaas",
-   "samenvatting": "Kinderen die slecht zien, doen mee aan de intocht van Sinterklaas in hun stad. Ze oefenen heel hard voor de grote dag.",
+   "titel": "Pech voor de Sint in Amsterdam",
+   "samenvatting": "De stoomboot van Sinterklaas kon niet aanmeren in Amsterdam. De Sint had pech!",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639202"
+   "url": "https://jeugdjournaal.nl/artikel/2639611-pech-voor-de-sint-stoomboot-kan-niet-aanmeren-in-amsterdam"
   },
   {
    "titel": "Lily Yohannes heeft een eigen voetbalveld",
@@ -28,49 +28,59 @@
  ],
  "wetenschap": [
   {
-   "emoji": "🦩",
-   "titel": "Roze flamingo's",
-   "tekst": "Flamingo's zijn roze door wat ze eten, zoals kleine garnaaltjes en algen. Jonge flamingo's zijn grijs."
+   "emoji": "🐙",
+   "titel": "Drie harten",
+   "tekst": "Een octopus heeft drie harten! Twee pompen bloed naar de kieuwen en één naar de rest van zijn lijf."
   },
   {
-   "emoji": "🪐",
-   "titel": "Saturnus zou drijven",
-   "tekst": "Saturnus is zo licht dat hij zou blijven drijven in een heel groot bad met water."
+   "emoji": "🌕",
+   "titel": "Voetafdrukken op de maan",
+   "tekst": "Op de maan waait het niet. Daarom blijven de voetafdrukken van astronauten er heel lang staan."
   },
   {
-   "emoji": "🐌",
-   "titel": "Tandjes van een slak",
-   "tekst": "Een slak heeft duizenden piepkleine tandjes op zijn tong. Daarmee raspt hij zijn eten."
+   "emoji": "🍯",
+   "titel": "Honing blijft lang goed",
+   "tekst": "Honing kan bijna nooit bederven. Bij oude Egyptische graven vonden onderzoekers potten honing die nog eetbaar waren."
   },
   {
-   "emoji": "🦒",
-   "titel": "Lange nek",
-   "tekst": "Een giraf heeft net zoveel nekwervels als jij: zeven. Alleen zijn ze veel langer!"
+   "emoji": "🐘",
+   "titel": "Olifanten springen niet",
+   "tekst": "Een olifant is veel te zwaar om te springen. Hij kan wel heel goed zwemmen."
   },
   {
-   "emoji": "❤️",
-   "titel": "Je hart werkt hard",
-   "tekst": "Je hart klopt ongeveer 100.000 keer per dag. Het stopt nooit, ook als je slaapt."
+   "emoji": "🦴",
+   "titel": "Botjes bij baby's",
+   "tekst": "Een baby heeft ongeveer 300 botjes. Bij grote mensen groeien er een heleboel aan elkaar vast, daarom hebben zij er 206."
   }
  ],
  "films": [
   {
    "titel": "Gatto: een nieuwe Pixar-film",
-   "samenvatting": "Een nieuwe tekenfilm van Pixar die zich afspeelt tussen de grachten van Venetië. De film komt in 2027 in de bioscoop en er is al een eerste teaser.",
+   "samenvatting": "Een nieuwe tekenfilm van Pixar over katten in de grachtenstad Venetië. De film komt in 2027 in de bioscoop.",
    "bron": "FilmVandaag",
-   "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld"
+   "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld",
+   "video": "https://www.youtube.com/watch?v=kOoz6VcgvyE"
+  },
+  {
+   "titel": "Toy Story 5",
+   "samenvatting": "Woody, Buzz en hun vrienden beleven opnieuw een avontuur. Je kunt de film nu streamen op Disney+.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/32801-toy-story-5-vanaf-vandaag-te-streamen-bij-disney",
+   "video": "https://www.youtube.com/watch?v=hQL8Bwxb_vY"
   },
   {
    "titel": "Hoppers van Pixar",
-   "samenvatting": "Een nieuwe Pixar-film over een meisje dat van dieren houdt en hun wereld wil ontdekken. In Nederland heet de film Jumpers.",
-   "bron": "FilmTotaal",
-   "url": "https://www.filmtotaal.nl/nieuws/129535"
+   "samenvatting": "Een meisje dat van dieren houdt ontdekt hun wereld. Je kunt de film nu op Disney+ kijken, in Nederland heet hij Jumpers.",
+   "bron": "Disney+",
+   "url": "https://www.disneyplus.com/en-sg/explore/articles/hoppers-pixar-movie",
+   "video": "https://www.youtube.com/watch?v=mmJKahx0nd8"
   },
   {
    "titel": "Zootropolis 2",
-   "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Deze keer duikt er een slang op.",
-   "bron": "Disney UK",
-   "url": "https://press.disney.co.uk/news/final-trailer-and-brand-new-poster-available-now-for-walt-disney-animation-studios-zootropolis-2"
+   "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Je kunt de film nu streamen op Disney+.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/29966-bioscoophit-zootropolis-2-vanaf-vandaag-eindelijk-te-streamen",
+   "video": "https://www.youtube.com/watch?v=9BF4YfxVcjc"
   }
  ],
  "duivels": [
@@ -81,26 +91,26 @@
    "url": "https://sporza.be/nl/2026/11/16/vandenbempt-ziet-alle-lichten-op-groen-springen-bij-rode-duivels-met-vooral-een-grote-winnaar-daar-is-nu-toch-geen-discussie-meer-over~1794788558567/"
   },
   {
+   "titel": "Lukaku mist de match tegen Turkije",
+   "samenvatting": "Romelu Lukaku heeft pijn aan zijn heup. Daarom kan hij niet meespelen tegen Turkije.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/11/domper-voor-rode-duivels-romelu-lukaku-mist-duel-met-turkije-door-heupproblemen~1794399617809/"
+  },
+  {
    "titel": "Twee nieuwe spelers bij de Duivels",
    "samenvatting": "Josué Kongolo en Hugo Cuypers mochten voor het eerst mee met de Rode Duivels. Jeremy Doku is ook terug na zijn blessure.",
    "bron": "Sporza",
    "url": "https://sporza.be/nl/2026/11/05/twee-grote-verrassingen-kongolo-en-cuypers-maken-debuut-bij-rode-duivels-de-winter-weigerde-selectie~1793900077484/"
-  },
-  {
-   "titel": "Live: interlandperiode van de Duivels",
-   "samenvatting": "Voor de match kreeg Axel Witsel een eerbetoon in het stadion. Donderdag speelt België tegen Turkije.",
-   "bron": "Voetbalkrant",
-   "url": "https://www.voetbalkrant.com/nieuws/2026-11-15/live-interlandbreak-kbvb-kondigt-eerbetoon-aan-legendarische-rode-duivel-aan"
   }
  ],
  "raadsel": {
-  "vraag": "Welk getal komt hierna? 3, 6, 9, 12, …",
-  "oplossing": "15",
-  "uitleg": "Elke keer komt er 3 bij. Dat is de tafel van 3: 12 + 3 = 15."
+  "vraag": "Er liggen 12 koekjes op een bord. Er worden er 3 opgegeten en dan nog eens 4. Hoeveel koekjes liggen er nog?",
+  "oplossing": "5",
+  "uitleg": "3 + 4 = 7 koekjes opgegeten. 12 - 7 = 5."
  },
  "mop": {
-  "vraag": "Wat zegt de grote schoorsteen tegen de kleine schoorsteen?",
-  "antwoord": "Jij mag nog niet roken!"
+  "vraag": "Wat zegt de nul tegen de acht?",
+  "antwoord": "Mooie riem!"
  },
  "land": {
   "week": "2026-W47",

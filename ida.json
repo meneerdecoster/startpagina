@@ -1,84 +1,82 @@
 {
- "bijgewerkt": "2026-11-16T20:50:00+07:00",
+ "bijgewerkt": "2026-11-16T21:14:27+07:00",
  "gebruikt": [
   "Vietnam"
  ],
  "nieuws": [
   {
-   "titel": "Starship-raket komt terug op aarde",
-   "samenvatting": "Voor het eerst is het bovenste stuk van een ruimteraket terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+   "titel": "Dierenbescherming rukt uit voor opblaaskrokodil",
+   "samenvatting": "De dierenbescherming moest uitrukken voor een krokodil die helemaal niet echt was. Het was een opblaasbeest!",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639544"
+   "url": "https://jeugdjournaal.nl/artikel/2639547-oeps-dierenbescherming-rukt-uit-voor-opblaas-krokodil"
   },
   {
-   "titel": "Pech voor Sinterklaas in Amsterdam",
-   "samenvatting": "De stoomboot van Sinterklaas kon niet aanleggen omdat een brug kapot was. Gelukkig kwamen de Sint en zijn Pieten toch aan wal.",
+   "titel": "Honderden berenbotten in een grot in Italië",
+   "samenvatting": "In een grot in Italië zijn heel veel botten van beren gevonden. Niemand weet nog hoe ze daar terechtgekomen zijn.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639611"
+   "url": "https://jeugdjournaal.nl/artikel/2639589-mysterie-honderden-berenbotten-gevonden-in-italiaanse-grot"
   },
   {
-   "titel": "Kinderen treden op voor Sinterklaas",
-   "samenvatting": "Kinderen die slecht zien, doen mee aan de intocht van Sinterklaas in hun stad. Ze oefenen heel hard voor de grote dag.",
+   "titel": "Raket weer opgevangen op aarde",
+   "samenvatting": "Voor het eerst is een raket na zijn vlucht weer opgevangen op aarde. Zo kan hij nog eens gebruikt worden.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639202"
+   "url": "https://jeugdjournaal.nl/artikel/2639544-gelukt-voor-het-eerst-een-raket-weer-opgevangen-op-aarde"
   },
   {
-   "titel": "Word je gewelddadig van games?",
-   "samenvatting": "Het Jeugdjournaal zoekt uit of je agressiever wordt van gamen of juist niet. Ze kijken wat onderzoekers hierover zeggen.",
+   "titel": "Pech voor de Sint in Amsterdam",
+   "samenvatting": "De stoomboot van Sinterklaas kon niet aanmeren in Amsterdam. De Sint had pech!",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2639551-uitgezocht-word-je-gewelddadig-van-games-of-poeslief"
+   "url": "https://jeugdjournaal.nl/artikel/2639611-pech-voor-de-sint-stoomboot-kan-niet-aanmeren-in-amsterdam"
   }
  ],
  "dieren": [
   {
-   "titel": "Rescued Kitten Pulls Dad Along On Hikes",
+   "titel": "Rescue Puppy Brings Her Family So Much Joy",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=6x2JW4r7FT4",
+   "url": "https://www.youtube.com/watch?v=ao3N-_8LqGg",
    "soort": "video"
   },
   {
-   "titel": "Rescue Kittens Live On Dad's Shoulders Now",
+   "titel": "This Adorable Puppy Wouldn't Stop Smiling in Her Shelter Kennel",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=3B5KoofeMmM",
+   "url": "https://www.youtube.com/watch?v=rwgwSomR0B8",
    "soort": "video"
   },
   {
-   "titel": "Rescued Kittens Keep Escaping To Hang Out With The Dogs",
+   "titel": "Teeny Tiny Kitten's Safe Place Is His Rescuer's Hands",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=cnCCgrb1xck",
-   "soort": "video"
-  },
-  {
-   "titel": "Horses Rescue A Tiny Kitten",
-   "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=4eEmOVmijs0",
+   "url": "https://www.youtube.com/watch?v=SC4mFhf9vfA",
    "soort": "video"
   }
  ],
  "films": [
   {
-   "titel": "Hoppers – officiële trailer",
-   "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=pIv63eoqTOk",
-   "soort": "video"
+   "titel": "Gatto: een nieuwe Pixar-film",
+   "samenvatting": "Een nieuwe tekenfilm van Pixar over katten in de grachtenstad Venetië. De film komt in 2027 in de bioscoop.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld",
+   "video": "https://www.youtube.com/watch?v=kOoz6VcgvyE"
   },
   {
-   "titel": "Gatto – officiële trailer",
-   "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=2k7xIMeX7tI",
-   "soort": "video"
+   "titel": "Toy Story 5",
+   "samenvatting": "Woody, Buzz en hun vrienden beleven opnieuw een avontuur. Je kunt de film nu streamen op Disney+.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/32801-toy-story-5-vanaf-vandaag-te-streamen-bij-disney",
+   "video": "https://www.youtube.com/watch?v=hQL8Bwxb_vY"
   },
   {
-   "titel": "Elio – trailer",
-   "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=ETVi5_cnnaE",
-   "soort": "video"
+   "titel": "Hoppers van Pixar",
+   "samenvatting": "Een meisje dat van dieren houdt ontdekt hun wereld. Je kunt de film nu op Disney+ kijken, in Nederland heet hij Jumpers.",
+   "bron": "Disney+",
+   "url": "https://www.disneyplus.com/en-sg/explore/articles/hoppers-pixar-movie",
+   "video": "https://www.youtube.com/watch?v=mmJKahx0nd8"
   },
   {
-   "titel": "Soul – trailer",
-   "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=xOsLIiBStEs",
-   "soort": "video"
+   "titel": "Zootropolis 2",
+   "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Je kunt de film nu streamen op Disney+.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/29966-bioscoophit-zootropolis-2-vanaf-vandaag-eindelijk-te-streamen",
+   "video": "https://www.youtube.com/watch?v=9BF4YfxVcjc"
   }
  ],
  "land": {
@@ -98,14 +96,14 @@
   "inwoners": "ongeveer 100 miljoen"
  },
  "raadsel": {
-  "vraag": "Ik heb een kop en een staart, maar geen lijf. Wat ben ik?",
-  "oplossing": "Een munt",
-  "uitleg": "Op een munt heb je kop en munt (de 'staart'-kant), maar het is geen dier.",
+  "vraag": "Ik ga de hele wereld rond, maar blijf toch in mijn hoekje zitten. Wat ben ik?",
+  "oplossing": "Een postzegel",
+  "uitleg": "Een postzegel zit in de hoek van een brief en reist toch mee naar de andere kant van de wereld.",
   "opties": [
-   "Een munt",
-   "Een kikkervisje",
-   "Een kam",
-   "Een komeet"
+   "Een postzegel",
+   "Een vliegtuig",
+   "Een globe",
+   "Een kompas"
   ]
  },
  "mensen": [
@@ -114,28 +112,32 @@
    "titel": "Camille en haar album Negen Levens",
    "samenvatting": "De Vlaamse zangeres Camille (Camille Dhont) bracht in mei haar album 'Negen Levens' uit. Er staan vijftien nummers op en het album komt uit in negen verschillende hoezen.",
    "bron": "Chez Bartizze",
-   "url": "https://chezbartizze.com/2026/05/22/camille-brengt-nieuw-album/"
+   "url": "https://chezbartizze.com/2026/05/22/camille-brengt-nieuw-album/",
+   "video": "https://www.youtube.com/watch?v=0Ldjd2ROH0Y"
   },
   {
    "label": "Pommelien Thijs",
    "titel": "Nieuw deluxe-album van Pommelien",
    "samenvatting": "Pommelien speelde in de uitverkochte Ziggo Dome in Amsterdam. Daar vertelde ze dat er op 4 december een deluxe-versie van haar album 'Gedoe' komt met zes nieuwe liedjes.",
    "bron": "VRT NWS",
-   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/"
+   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/",
+   "video": "https://www.youtube.com/watch?v=C0FC1hO8aMc"
   },
   {
    "label": "Aaron Blommaert",
    "titel": "Aaron staat op nummer 1",
    "samenvatting": "Aaron Blommaert staat met zijn nummer 'Hoe is het zover kunnen komen?' bovenaan de Vlaamse Top 30. Hij klom van plaats drie naar plaats één.",
    "bron": "Showbizz24",
-   "url": "https://www.showbizz24.be/artiesten-vlaanderen/aaron-blommaert-blaast-iedereen-weg-in-ultratop-55974"
+   "url": "https://www.showbizz24.be/artiesten-vlaanderen/aaron-blommaert-blaast-iedereen-weg-in-ultratop-55974",
+   "video": "https://www.youtube.com/watch?v=VL8Kkpwp-CE"
   },
   {
    "label": "Maksim",
-   "titel": "Maksim brengt een hoopvolle single uit",
-   "samenvatting": "Maksim is een Antwerpse zanger die ook acteur is (bekend van #LikeMe). Samen met Babet bracht hij het duet 'Hoe dan ook' uit.",
+   "titel": "Maksim en Babet: 'Hoe dan ook'",
+   "samenvatting": "Maksim is een Antwerpse zanger die ook acteur is (bekend van #LikeMe). Samen met Babet bracht hij het duet 'Hoe dan ook' uit, een hoopvol liedje.",
    "bron": "VBRO",
-   "url": "https://www.vbro.be/2026/02/07/maksim-babet-brengen-hoopvolle-nieuwe-single-hoe-dan-ook-uit/"
+   "url": "https://www.vbro.be/2026/02/07/maksim-babet-brengen-hoopvolle-nieuwe-single-hoe-dan-ook-uit/",
+   "video": "https://www.youtube.com/watch?v=1Hq4TaP2sgY"
   }
  ]
 }
