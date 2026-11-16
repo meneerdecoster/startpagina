@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T05:44:53+07:00",
+ "bijgewerkt": "2026-11-16T16:12:01+07:00",
  "vandaag": [
   {
    "wanneer": "Di 17 nov, na slot Wall Street",
@@ -388,5 +388,267 @@
    "Afgelopen nacht 6,11 u slaap, onder je weekgemiddelde van 7,42 u. Bedtijd was 00:16."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
- }
+ },
+ "optredens": [
+  {
+   "datum": "2026-12-20",
+   "artiest": "Zwangere Guy",
+   "titel": "Ook 18, 19 en 21 dec",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/zwangere-guy-6"
+  },
+  {
+   "datum": "2026-12-26",
+   "artiest": "Triggerfinger",
+   "titel": "Extra concert op zo 27 dec",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/triggerfinger-12"
+  },
+  {
+   "datum": "2027-01-08",
+   "artiest": "Yannick Noben",
+   "titel": "Eindejaarsconference 2026",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": "uitverkocht",
+   "url": "https://www.schouwburgnoord.be/nl/event/yannick-noben"
+  },
+  {
+   "datum": "2027-01-09",
+   "artiest": "Jef Neve",
+   "titel": "Solo: Stories Without Words, 25 jaar Jef Neve",
+   "soort": "muziek",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": "uitverkocht",
+   "url": "https://www.schouwburgnoord.be/nl/event/jef-neve-solo"
+  },
+  {
+   "datum": "2027-01-23",
+   "artiest": "Radio Guga",
+   "titel": "Ondersteboven",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": "uitverkocht",
+   "url": "https://www.schouwburgnoord.be/nl/event/radio-guga"
+  },
+  {
+   "datum": "2027-01-27",
+   "artiest": "Madou",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/madou-12"
+  },
+  {
+   "datum": "2027-01-30",
+   "artiest": "SONS",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/sons-5"
+  },
+  {
+   "datum": "2027-02-05",
+   "artiest": "Bart Peeters & De Ideale Mannen",
+   "titel": "Ook 6 feb",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/bart-peeters-de-ideale-mannen"
+  },
+  {
+   "datum": "2027-02-13",
+   "artiest": "Cage The Elephant",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/cage-the-elephant"
+  },
+  {
+   "datum": "2027-02-18",
+   "artiest": "NAFT",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/naft-1"
+  },
+  {
+   "datum": "2027-02-19",
+   "artiest": "Bart Peeters & De Ideale Mannen",
+   "titel": "Extra concert",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/bart-peeters-de-ideale-mannen-6"
+  },
+  {
+   "datum": "2027-02-24",
+   "artiest": "Charlotte Adigéry & Bolis Pupul",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/charlotte-adigery-bolis-pupul"
+  },
+  {
+   "datum": "2027-02-25",
+   "artiest": "Royal Blood",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "Lotto Arena (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://concertje.be/en/concert/2027-02-25/antwerpen-lotto-arena/royal-blood-15796"
+  },
+  {
+   "datum": "2027-02-26",
+   "artiest": "Gili",
+   "titel": "Machtig!",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.schouwburgnoord.be/nl/event/gili-1"
+  },
+  {
+   "datum": "2027-02-28",
+   "artiest": "Abel Ghekiere",
+   "titel": "Ook 1 maart",
+   "soort": "comedy",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/abel-ghekiere-3"
+  },
+  {
+   "datum": "2027-03-13",
+   "artiest": "DAAN",
+   "titel": "Crooner",
+   "soort": "muziek",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": "uitverkocht",
+   "url": "https://www.schouwburgnoord.be/nl/event/daan"
+  },
+  {
+   "datum": "2027-03-16",
+   "artiest": "Tash Sultana",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "Lotto Arena (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://concertje.be/en/concert/2027-03-16/antwerpen-lotto-arena/tash-sultana-10709"
+  },
+  {
+   "datum": "2027-03-19",
+   "artiest": "Grof Geschud",
+   "titel": "VIEREN",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.schouwburgnoord.be/nl/event/grof-geschud"
+  },
+  {
+   "datum": "2027-03-25",
+   "artiest": "The Haunted Youth",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "Lotto Arena (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://concertje.be/en/concert/2027-03-25/antwerpen-lotto-arena/the-haunted-youth-10717"
+  },
+  {
+   "datum": "2027-03-25",
+   "artiest": "Alex Agnew",
+   "titel": "No More Heroes",
+   "soort": "comedy",
+   "zaal": "Stadsschouwburg Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.comedyshows.be/kalender/alex-agnew/2027-03-25/"
+  },
+  {
+   "datum": "2027-04-23",
+   "artiest": "William Boeva",
+   "titel": "DRIFT (ook 24 apr)",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.schouwburgnoord.be/nl/event/william-boeva-1"
+  },
+  {
+   "datum": "2027-04-29",
+   "artiest": "Michael Van Peel",
+   "titel": "FARCE MAJEURE (ook 30 apr)",
+   "soort": "comedy",
+   "zaal": "Bourla Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.comedyshows.be/kalender/michael-van-peel/2027-04-29/"
+  },
+  {
+   "datum": "2027-05-08",
+   "artiest": "Dries Heyneman",
+   "titel": "Voor Normale Mensen",
+   "soort": "comedy",
+   "zaal": "Schouwburg Noord (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.schouwburgnoord.be/nl/event/dries-heyneman"
+  },
+  {
+   "datum": "2027-05-15",
+   "artiest": "Wim Helsen",
+   "titel": "Welkom Ongemak",
+   "soort": "comedy",
+   "zaal": "Arenberg Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.cabaretinfo.nl/cabaret/voorstelling/459515/Wim-Helsen-Welkom-Ongemak/Arenberg-Schouwburg/"
+  },
+  {
+   "datum": "2027-05-26",
+   "artiest": "Elmer",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/elmer-3"
+  },
+  {
+   "datum": "2027-10-30",
+   "artiest": "Dressed Like Boys",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "Lotto Arena (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://concertje.be/en/concert/2027-10-30/antwerpen-lotto-arena/dressed-like-boys-17743"
+  }
+ ]
 }
