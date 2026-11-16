@@ -324,10 +324,10 @@ function build(d){
   GIGS=d.optredens||[];
   $("grid").innerHTML = CFG.secties.map(s=>{
     const v = d[s.key]; if (s.type==='uitgaan' && !GIGS.length) return ""; if (Array.isArray(v) && !v.length) return ""; const body = R[s.type](v, s); if (!body) return "";
-    return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2><span class="meta">${esc(s.meta||"")}</span></div>${body}</section>`;
+    return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2>${s.link?`<a class="meta" href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.meta||"")} ↗</a>`:`<span class="meta">${esc(s.meta||"")}</span>`}</div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v3";
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v4";
   initGigs(); loadImgs(); globe();
 }
 /* Foto's: opgezocht door een GitHub-taak (thumbs.json) */

@@ -3,7 +3,7 @@
 import json, re, sys, urllib.request, urllib.parse
 from html.parser import HTMLParser
 
-UA = "Mozilla/5.0 (compatible; StartpaginaBot/1.0)"
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15"
 BAD = re.compile(r"logo|favicon|subscribe|placeholder|avatar|icon|substack\.com/api|twitter_card|\.(svg|gif)(\?|$)", re.I)
 
 class Meta(HTMLParser):
@@ -65,7 +65,8 @@ def thumb(u):
         c = m.og or m.tw
         if not c: return None
         img = urllib.parse.urljoin(u, c)
-        if BAD.search(img) or GENERIC.search(img): return None
+        base = urllib.parse.urlparse(img).path.rsplit("/", 1)[-1]
+        if BAD.search(base) or GENERIC.search(base) or re.search(r"\.(svg|gif|ico)(\?|$)", img, re.I): return None
         h = home_og(u)
         if h and h.split('?')[0] == img.split('?')[0]: return None
         try:

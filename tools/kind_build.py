@@ -59,7 +59,7 @@ P = {
    "nacht":["Nog wakker, {naam}?","Slaap zacht straks, {naam}"]},
   sub={"ochtend":["Je dag in één oogopslag."],"middag":["Even bijlezen."],"avond":["Rustig afronden."],"nacht":["Kort bijlezen en dan slapen."]},
   secties=[
-   dict(key="gezondheid",type="gezond",titel="Gezondheid",meta="Je logboek",span=12,kleur="#0E9F6E"),
+   dict(key="gezondheid",type="gezond",titel="Gezondheid",meta="Logboek openen",link="https://script.google.com/macros/s/AKfycbzIBiIMwoLtahJRA20j8XZOK6MQju82M1FxBp5WHzFVs2UxWzyrmj1WupW6L2jHXj6zpA/exec?p=S&k=1591b8e135a14bb3b7554f45826f0b02",span=12,kleur="#0E9F6E"),
    dict(key="lifestyle",type="news",titel="Lifestyle",meta="Mode · wonen · interieur",span=12,kleur="#E03A3E",kolommen=True),
    dict(key="voeding",type="news",titel="Voeding",meta="Recepten · gezond leven",span=12,kleur="#10B981",kolommen=True),
    dict(key="boeken",type="tiles",titel="Nieuwe boeken",meta="Nederlandstalig",span=12,kleur="#8B5CF6",emoji="📖",portret=True),
