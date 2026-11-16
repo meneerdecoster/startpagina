@@ -70,7 +70,7 @@ NAMEN={"ida":"Ida","otto":"Otto","severine":"Sévérine"}
 tpl=open("tools/kind.tpl.html",encoding="utf-8").read()
 for k,p in P.items():
     cfg=dict(naam=NAMEN[k],json=f"{k}.json",iconen=p["iconen"],groet=p["groet"],sub=p["sub"],secties=p["secties"])
-    out=(tpl.replace("__TITLE__",p["titel"]).replace("__ICON__",p["icoon"]+"?v=1").replace("__ACCENT__",p["accent"])
+    out=(tpl.replace("__TITLE__",p["titel"]).replace("__ICON__",p["icoon"]+"?v=2").replace("__MANIFEST__","manifest-"+k+".json").replace("__ACCENT__",p["accent"])
             .replace("__SKIES__",p["sky"]).replace("/*CFG*/{}",json.dumps(cfg,ensure_ascii=False)))
     open(f"{k}.html","w",encoding="utf-8").write(out)
     print("gebouwd",k)
