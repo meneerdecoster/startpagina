@@ -1,444 +1,444 @@
 {
- "bijgewerkt": "2026-11-16T21:45:00+07:00",
- "gezondheid": {
-  "streak": 5,
-  "laatste": {
-   "datum": "2026-11-16",
-   "water": 2.66,
-   "sporttype": "Wandelen",
-   "notitie": null
+  "bijgewerkt": "2026-11-17T05:30:00+07:00",
+  "gezondheid": {
+    "streak": 5,
+    "laatste": {
+      "datum": "2026-11-16",
+      "water": 2.66,
+      "sporttype": "Wandelen",
+      "notitie": null
+    },
+    "week": {
+      "dagen": 5,
+      "water": 2.28,
+      "koffie": 0.2,
+      "sport": 4,
+      "sauna": 0,
+      "alcoholvrij": 5,
+      "alcohol": 0,
+      "fysiek": 2.0,
+      "mentaal": 2.0,
+      "ziek": 0,
+      "water25": 4
+    },
+    "jaar": {
+      "dagen": 35,
+      "sport_pct": 40,
+      "water": 2.17,
+      "alcohol_week": 4.4,
+      "sauna": 24,
+      "oneup": 9
+    },
+    "reeksen": {
+      "water": [
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-13",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-14",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-15",
+          "v": 1.25
+        },
+        {
+          "d": "2026-11-16",
+          "v": 2.66
+        }
+      ],
+      "koffie": [
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 1.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-16",
+          "v": 0.0
+        }
+      ],
+      "alcohol": [
+        {
+          "d": "2026-11-03",
+          "v": null
+        },
+        {
+          "d": "2026-11-04",
+          "v": null
+        },
+        {
+          "d": "2026-11-05",
+          "v": null
+        },
+        {
+          "d": "2026-11-06",
+          "v": null
+        },
+        {
+          "d": "2026-11-07",
+          "v": null
+        },
+        {
+          "d": "2026-11-08",
+          "v": null
+        },
+        {
+          "d": "2026-11-09",
+          "v": null
+        },
+        {
+          "d": "2026-11-10",
+          "v": null
+        },
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-16",
+          "v": 0.0
+        }
+      ]
+    },
+    "inzichten": [
+      "Water: gemiddeld 2,28 l per dag. Nog 0,22 l tot je doel van 2,5 l.",
+      "5 van 5 dagen alcoholvrij.",
+      "4 sportdagen deze week."
+    ]
   },
-  "week": {
-   "dagen": 5,
-   "water": 2.28,
-   "koffie": 0.2,
-   "sport": 4,
-   "sauna": 0,
-   "alcoholvrij": 5,
-   "alcohol": 0,
-   "fysiek": 2.0,
-   "mentaal": 2.0,
-   "ziek": 0,
-   "water25": 4
-  },
-  "jaar": {
-   "dagen": 35,
-   "sport_pct": 40,
-   "water": 2.17,
-   "alcohol_week": 4.4,
-   "sauna": 24,
-   "oneup": 9
-  },
-  "reeksen": {
-   "water": [
+  "lifestyle": [
     {
-     "d": "2026-11-03",
-     "v": null
+      "label": "Mode",
+      "titel": "Tweekleurige hakken: de speelse schoenentrend van dit najaar",
+      "samenvatting": "Schoenen in twee kleuren brengen een vrolijk accent in je herfstlook. Houd de rest van je outfit rustig en laat een tint uit de schoen terugkomen in een accessoire.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/442342-beste-tweekleurige-hakken-trend.html"
     },
     {
-     "d": "2026-11-04",
-     "v": null
+      "label": "Mode",
+      "titel": "Breigoed wordt verleidelijk: de sexy trui als trend",
+      "samenvatting": "Ontwerpers maken van de klassieke trui iets lichters, doorzichtigs en gedurfders, onder meer bij Schiaparelli en Tom Ford. De gewaagde trui is zo de draagbare tegenhanger van de doorschijnende jurk.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/441798-sexy-knitweartrend-2026.html"
     },
     {
-     "d": "2026-11-05",
-     "v": null
+      "label": "Mode",
+      "titel": "Satijnen tassen: de chique stof die straks je tassencollectie verovert",
+      "samenvatting": "Satijn dook op de catwalks op voor zowel dit najaar als volgend voorjaar. Nu vooral als clutch, later ook als schoudertas of tas met handvat.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/441644-trend-satijnen-tassen.html"
     },
     {
-     "d": "2026-11-06",
-     "v": null
+      "label": "Mode",
+      "titel": "De bootcut jeans is terug en krijgt een retro comeback",
+      "samenvatting": "Na de lage taille en de brede jeans keert ook de bootcut terug in de collecties van meerdere grote merken. Het model is nostalgisch en tegelijk draagbaarder en flatterender dan zijn voorgangers.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/442045-de-bootcut-jeans-is-helemaal-terug-dit-najaar-en-dit-legendarische-model-bewijst-het.html"
     },
     {
-     "d": "2026-11-07",
-     "v": null
+      "label": "Wonen",
+      "titel": "Zo richt je de perfecte ontbijthoek in",
+      "samenvatting": "Interieurontwerpers vertellen waarom de ontbijthoek het kookeiland aan het verdringen is. Je krijgt tips over duurzame materialen, maatwerk en een tafelhoogte die bij de zitplaatsen past.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/438907-ontwerpregels-voor-de-perfecte-ontbijthoek.html"
     },
     {
-     "d": "2026-11-08",
-     "v": null
+      "label": "Wonen",
+      "titel": "Acht interieurwinkels die een citytrip waard zijn",
+      "samenvatting": "Van Gent en Parijs tot Londen en Keulen: een selectie winkels waar design, ambacht en mooie vondsten samenkomen. Met praktische tips om er vanuit België te geraken.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/439948-interieurwinkels-parijs-londen-citytrip.html"
     },
     {
-     "d": "2026-11-09",
-     "v": null
+      "label": "Wonen",
+      "titel": "Het keukenschortrok komt terug in een moderne versie",
+      "samenvatting": "Het gordijntje onder de spoelbak maakt een comeback, maar strakker en met plooien en onverwachte stoffen. Interieurontwerpers zetten het in als verfijnd detail met karakter.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/434665-keukenschortrok-modern-huis.html"
     },
     {
-     "d": "2026-11-10",
-     "v": null
+      "label": "Interieur",
+      "titel": "Binnenkijken in de vernieuwde Delvaux-boetiek in Antwerpen",
+      "samenvatting": "De Antwerpse flagshipstore combineert historische meubels, Italiaans design en een glasraam van Ara Starck. Het resultaat voelt eigenzinnig en eert het Belgische erfgoed van het merk.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/442427-binnenkijken-nieuwe-delvaux-antwerpen.html"
     },
     {
-     "d": "2026-11-11",
-     "v": null
+      "label": "Interieur",
+      "titel": "Victoria Beckham lanceert haar eerste interieurcollectie",
+      "samenvatting": "In samenwerking met Westwing ontwerpt ze servies, textiel en decoratie voor de eettafel. De stijl put uit de Arts and Crafts-beweging, met gehamerde afwerking en een ingetogen palet van wit, zilver en donkergroen.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/440677-victoria-beckham-interieur-westwing.html"
     },
     {
-     "d": "2026-11-12",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-13",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-14",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-15",
-     "v": 1.25
-    },
-    {
-     "d": "2026-11-16",
-     "v": 2.66
+      "label": "Interieur",
+      "titel": "Wat is hot in design? De grootste trends tot nu toe",
+      "samenvatting": "Een terugblik op Milan Design Week en 3 Days of Design met de trends die je interieur gaan beïnvloeden. Denk aan zeventiger speelsheid, retro-stoelen, hergebruikte materialen en hotelsfeer.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/437404-grootste-design-trends-2026.html"
     }
-   ],
-   "koffie": [
+  ],
+  "voeding": [
     {
-     "d": "2026-11-03",
-     "v": null
+      "label": "Recept",
+      "titel": "Geroosterde pompoen met tahini en za'atar",
+      "samenvatting": "Zoete pompoen uit de oven met rode ui, een romige sesamsaus en Midden-Oosterse kruiden. Een echte Ottolenghi-klassieker voor koude dagen.",
+      "bron": "Ottolenghi",
+      "url": "https://ottolenghi.co.uk/roast-butternut-squash-and-red-onion-with-tahini-and-za-atar-shop"
     },
     {
-     "d": "2026-11-04",
-     "v": null
+      "label": "Recept",
+      "titel": "De ultieme wintercouscous",
+      "samenvatting": "Een groot bord vol geroosterde wintergroenten, kikkererwten en kruiden op couscous. Veel smaak en volledig plantaardig.",
+      "bron": "The Happy Foodie (Ottolenghi)",
+      "url": "https://thehappyfoodie.co.uk/recipes/the-ultimate-winter-couscous/"
     },
     {
-     "d": "2026-11-05",
-     "v": null
+      "label": "Recept",
+      "titel": "Geroosterde bloemkool met hazelnoten",
+      "samenvatting": "Knapperige bloemkool met hazelnoten en een frisse dressing. Past perfect bij het seizoen.",
+      "bron": "The Happy Foodie (Ottolenghi)",
+      "url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-roasted-cauliflower-and-hazelnut-salad/"
     },
     {
-     "d": "2026-11-06",
-     "v": null
+      "label": "Recept",
+      "titel": "Pompoen met zoete specerijen, limoen en groene chili",
+      "samenvatting": "Pompoen uit de oven met warme kruiden en een scheutje limoen. Een kleurrijk bijgerecht of lichte hoofdschotel.",
+      "bron": "The Happy Foodie (Ottolenghi)",
+      "url": "https://thehappyfoodie.co.uk/recipes/roasted-butternut-squash-with-sweet-spices-lime-and-green-chilli"
     },
     {
-     "d": "2026-11-07",
-     "v": null
+      "label": "Recept",
+      "titel": "Soep van sinaasappel en wortel",
+      "samenvatting": "Een fluweelzachte wortelsoep met een frisse toets van sinaasappel. Simpel, plantaardig en vol vitaminen.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/orange-carrot-soup/"
     },
     {
-     "d": "2026-11-08",
-     "v": null
+      "label": "Recept",
+      "titel": "Soep van spinazie en boerenkool",
+      "samenvatting": "Een groene soep boordevol bladgroenten, die je lang warm houdt. Snel gemaakt en erg voedzaam.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/spinach-kale-soup/"
     },
     {
-     "d": "2026-11-09",
-     "v": null
+      "label": "Recept",
+      "titel": "Falafel met kruiden en pistache",
+      "samenvatting": "Groene falafel met verse kruiden en pistachenoten. Heerlijk in een bowl of broodje met groenten.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/herb-pistachio-falafel/"
     },
     {
-     "d": "2026-11-10",
-     "v": null
+      "label": "Recept",
+      "titel": "Falafelbowl met groene erwten",
+      "samenvatting": "Een kleurrijke bowl met erwtenfalafel, groenten en een frisse saus. Een volledige, plantaardige maaltijd.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/green-pea-falafel-bowl/"
     },
     {
-     "d": "2026-11-11",
-     "v": null
+      "label": "Recept",
+      "titel": "Makkelijke chana masala",
+      "samenvatting": "Kikkererwten in een geurige tomatenkerrysaus, klaar in ongeveer 30 minuten. Lekker met rijst of naan.",
+      "bron": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/easy-chana-masala/comment-page-4/"
     },
     {
-     "d": "2026-11-12",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 1.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-16",
-     "v": 0.0
+      "label": "Recept",
+      "titel": "Geroosterde bloemkool met tomaten-cashewsaus",
+      "samenvatting": "Bloemkool uit de oven met een romige saus van tomaat en cashewnoten, zonder zuivel. Een mooi vegetarisch hoofdgerecht.",
+      "bron": "BBC Good Food Middle East",
+      "url": "https://www.bbcgoodfoodme.com/recipes/roasted-cauliflower-tomato-cashew-sauce/"
     }
-   ],
-   "alcohol": [
+  ],
+  "boeken": [
     {
-     "d": "2026-11-03",
-     "v": null
+      "titel": "Isola's testament – Tatiana de Rosnay",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/isola-s-testament/9300000269636031/",
+      "isbn": "9789026374562"
     },
     {
-     "d": "2026-11-04",
-     "v": null
+      "titel": "Zes jaar – Harlan Coben",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/zes-jaar/9300000319966692/",
+      "isbn": "9789049213985"
     },
     {
-     "d": "2026-11-05",
-     "v": null
+      "titel": "De heks – Freida McFadden",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/de-heks/9300000312026179/",
+      "isbn": "9789032521721"
     },
     {
-     "d": "2026-11-06",
-     "v": null
+      "titel": "De Franse illusie – John Grisham",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/de-franse-illusie/9300000312026233/",
+      "isbn": "9789400516120"
     },
     {
-     "d": "2026-11-07",
-     "v": null
+      "titel": "Breekpunt – David Baldacci",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/breekpunt/9300000312026131/",
+      "isbn": "9789400520578"
     },
     {
-     "d": "2026-11-08",
-     "v": null
+      "titel": "Texel – Kiki van Dijk",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/texel/9300000320406843/",
+      "isbn": "9789401626309"
     },
     {
-     "d": "2026-11-09",
-     "v": null
+      "titel": "Vrijdag – Loes den Hollander",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/vrijdag/9300000312026372/",
+      "isbn": "9789400520561"
     },
     {
-     "d": "2026-11-10",
-     "v": null
+      "titel": "Het flexibele brein – Steven Laureys",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/be/nl/p/het-flexibele-brein/9300000343364801/",
+      "isbn": "9789463377348"
     },
     {
-     "d": "2026-11-11",
-     "v": null
+      "titel": "Geef jezelf toestemming – Daphne Deckers",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/be/nl/p/geef-jezelf-toestemming/9300000311177847/",
+      "isbn": "9789464044249"
     },
     {
-     "d": "2026-11-12",
-     "v": 0.0
+      "titel": "Slaap lekker – Arne Wouters",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/be/nl/p/slaap-lekker/9300000271661601/",
+      "isbn": "9789465303789"
     },
     {
-     "d": "2026-11-13",
-     "v": 0.0
+      "titel": "Het lichtdieet – Inge Declercq en Jan Denneman",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/be/nl/p/het-lichtdieet/9300000271661600/",
+      "isbn": "9789465301235"
     },
     {
-     "d": "2026-11-14",
-     "v": 0.0
+      "titel": "Eén pan – Pascale Naessens",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/be/nl/p/een-pan/9300000227900646/",
+      "isbn": "9789020981612"
     },
     {
-     "d": "2026-11-15",
-     "v": 0.0
+      "titel": "Theo in Golden – Allen Levi",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/theo-in-golden/9300000267702676/",
+      "isbn": "9789049211929"
     },
     {
-     "d": "2026-11-16",
-     "v": 0.0
+      "titel": "Die ene dag – Rosie Walsh",
+      "bron": "bol.com",
+      "url": "https://www.bol.com/nl/nl/p/die-ene-dag/9300000279000836/",
+      "isbn": "9789401626415"
     }
-   ]
-  },
-  "inzichten": [
-   "Water: gemiddeld 2,28 l per dag. Nog 0,22 l tot je doel van 2,5 l.",
-   "5 van 5 dagen alcoholvrij.",
-   "4 sportdagen deze week."
   ]
- },
- "lifestyle": [
-  {
-   "label": "Mode",
-   "titel": "Tweekleurige hakken: de speelse schoenentrend van dit najaar",
-   "samenvatting": "Schoenen in twee kleuren brengen een vrolijk accent in je herfstlook. Houd de rest van je outfit rustig en laat een tint uit de schoen terugkomen in een accessoire.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/442342-beste-tweekleurige-hakken-trend.html"
-  },
-  {
-   "label": "Mode",
-   "titel": "Breigoed wordt verleidelijk: de sexy trui als trend",
-   "samenvatting": "Ontwerpers maken van de klassieke trui iets lichters, doorzichtigs en gedurfders, onder meer bij Schiaparelli en Tom Ford. De gewaagde trui is zo de draagbare tegenhanger van de doorschijnende jurk.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/441798-sexy-knitweartrend-2026.html"
-  },
-  {
-   "label": "Mode",
-   "titel": "Satijnen tassen: de chique stof die straks je tassencollectie verovert",
-   "samenvatting": "Satijn dook op de catwalks op voor zowel dit najaar als volgend voorjaar. Nu vooral als clutch, later ook als schoudertas of tas met handvat.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/441644-trend-satijnen-tassen.html"
-  },
-  {
-   "label": "Mode",
-   "titel": "De bootcut jeans is terug en krijgt een retro comeback",
-   "samenvatting": "Na de lage taille en de brede jeans keert ook de bootcut terug in de collecties van meerdere grote merken. Het model is nostalgisch en tegelijk draagbaarder en flatterender dan zijn voorgangers.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/442045-de-bootcut-jeans-is-helemaal-terug-dit-najaar-en-dit-legendarische-model-bewijst-het.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Zo richt je de perfecte ontbijthoek in",
-   "samenvatting": "Interieurontwerpers vertellen waarom de ontbijthoek het kookeiland aan het verdringen is. Je krijgt tips over duurzame materialen, maatwerk en een tafelhoogte die bij de zitplaatsen past.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/438907-ontwerpregels-voor-de-perfecte-ontbijthoek.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Acht interieurwinkels die een citytrip waard zijn",
-   "samenvatting": "Van Gent en Parijs tot Londen en Keulen: een selectie winkels waar design, ambacht en mooie vondsten samenkomen. Met praktische tips om er vanuit België te geraken.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/439948-interieurwinkels-parijs-londen-citytrip.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Het keukenschortrok komt terug in een moderne versie",
-   "samenvatting": "Het gordijntje onder de spoelbak maakt een comeback, maar strakker en met plooien en onverwachte stoffen. Interieurontwerpers zetten het in als verfijnd detail met karakter.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/434665-keukenschortrok-modern-huis.html"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Binnenkijken in de vernieuwde Delvaux-boetiek in Antwerpen",
-   "samenvatting": "De Antwerpse flagshipstore combineert historische meubels, Italiaans design en een glasraam van Ara Starck. Het resultaat voelt eigenzinnig en eert het Belgische erfgoed van het merk.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/442427-binnenkijken-nieuwe-delvaux-antwerpen.html"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Victoria Beckham lanceert haar eerste interieurcollectie",
-   "samenvatting": "In samenwerking met Westwing ontwerpt ze servies, textiel en decoratie voor de eettafel. De stijl put uit de Arts and Crafts-beweging, met gehamerde afwerking en een ingetogen palet van wit, zilver en donkergroen.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/440677-victoria-beckham-interieur-westwing.html"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Wat is hot in design? De grootste trends tot nu toe",
-   "samenvatting": "Een terugblik op Milan Design Week en 3 Days of Design met de trends die je interieur gaan beïnvloeden. Denk aan zeventiger speelsheid, retro-stoelen, hergebruikte materialen en hotelsfeer.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/437404-grootste-design-trends-2026.html"
-  }
- ],
- "voeding": [
-  {
-   "label": "Recept",
-   "titel": "Geroosterde pompoen met tahini en za'atar",
-   "samenvatting": "Zoete pompoen uit de oven met rode ui, een romige sesamsaus en Midden-Oosterse kruiden. Een echte Ottolenghi-klassieker voor koude dagen.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/roast-butternut-squash-and-red-onion-with-tahini-and-za-atar-shop"
-  },
-  {
-   "label": "Recept",
-   "titel": "De ultieme wintercouscous",
-   "samenvatting": "Een groot bord vol geroosterde wintergroenten, kikkererwten en kruiden op couscous. Veel smaak en volledig plantaardig.",
-   "bron": "The Happy Foodie (Ottolenghi)",
-   "url": "https://thehappyfoodie.co.uk/recipes/the-ultimate-winter-couscous/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde bloemkool met hazelnoten",
-   "samenvatting": "Knapperige bloemkool met hazelnoten en een frisse dressing. Past perfect bij het seizoen.",
-   "bron": "The Happy Foodie (Ottolenghi)",
-   "url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-roasted-cauliflower-and-hazelnut-salad/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Pompoen met zoete specerijen, limoen en groene chili",
-   "samenvatting": "Pompoen uit de oven met warme kruiden en een scheutje limoen. Een kleurrijk bijgerecht of lichte hoofdschotel.",
-   "bron": "The Happy Foodie (Ottolenghi)",
-   "url": "https://thehappyfoodie.co.uk/recipes/roasted-butternut-squash-with-sweet-spices-lime-and-green-chilli"
-  },
-  {
-   "label": "Recept",
-   "titel": "Soep van sinaasappel en wortel",
-   "samenvatting": "Een fluweelzachte wortelsoep met een frisse toets van sinaasappel. Simpel, plantaardig en vol vitaminen.",
-   "bron": "Green Kitchen Stories",
-   "url": "https://greenkitchenstories.com/orange-carrot-soup/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Soep van spinazie en boerenkool",
-   "samenvatting": "Een groene soep boordevol bladgroenten, die je lang warm houdt. Snel gemaakt en erg voedzaam.",
-   "bron": "Green Kitchen Stories",
-   "url": "https://greenkitchenstories.com/spinach-kale-soup/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Falafel met kruiden en pistache",
-   "samenvatting": "Groene falafel met verse kruiden en pistachenoten. Heerlijk in een bowl of broodje met groenten.",
-   "bron": "Green Kitchen Stories",
-   "url": "https://greenkitchenstories.com/herb-pistachio-falafel/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Falafelbowl met groene erwten",
-   "samenvatting": "Een kleurrijke bowl met erwtenfalafel, groenten en een frisse saus. Een volledige, plantaardige maaltijd.",
-   "bron": "Green Kitchen Stories",
-   "url": "https://greenkitchenstories.com/green-pea-falafel-bowl/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Makkelijke chana masala",
-   "samenvatting": "Kikkererwten in een geurige tomatenkerrysaus, klaar in ongeveer 30 minuten. Lekker met rijst of naan.",
-   "bron": "Minimalist Baker",
-   "url": "https://minimalistbaker.com/easy-chana-masala/comment-page-4/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde bloemkool met tomaten-cashewsaus",
-   "samenvatting": "Bloemkool uit de oven met een romige saus van tomaat en cashewnoten, zonder zuivel. Een mooi vegetarisch hoofdgerecht.",
-   "bron": "BBC Good Food Middle East",
-   "url": "https://www.bbcgoodfoodme.com/recipes/roasted-cauliflower-tomato-cashew-sauce/"
-  }
- ],
- "boeken": [
-  {
-   "titel": "Isola's testament – Tatiana de Rosnay",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/isola-s-testament/9300000269636031/",
-   "isbn": "9789026374562"
-  },
-  {
-   "titel": "Zes jaar – Harlan Coben",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/zes-jaar/9300000319966692/",
-   "isbn": "9789049213985"
-  },
-  {
-   "titel": "De heks – Freida McFadden",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/de-heks/9300000312026179/",
-   "isbn": "9789032521721"
-  },
-  {
-   "titel": "De Franse illusie – John Grisham",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/de-franse-illusie/9300000312026233/",
-   "isbn": "9789400516120"
-  },
-  {
-   "titel": "Breekpunt – David Baldacci",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/breekpunt/9300000312026131/",
-   "isbn": "9789400520578"
-  },
-  {
-   "titel": "Texel – Kiki van Dijk",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/texel/9300000320406843/",
-   "isbn": "9789401626309"
-  },
-  {
-   "titel": "Vrijdag – Loes den Hollander",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/vrijdag/9300000312026372/",
-   "isbn": "9789400520561"
-  },
-  {
-   "titel": "Het flexibele brein – Steven Laureys",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/be/nl/p/het-flexibele-brein/9300000343364801/",
-   "isbn": "9789463377348"
-  },
-  {
-   "titel": "Geef jezelf toestemming – Daphne Deckers",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/be/nl/p/geef-jezelf-toestemming/9300000311177847/",
-   "isbn": "9789464044249"
-  },
-  {
-   "titel": "Slaap lekker – Arne Wouters",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/be/nl/p/slaap-lekker/9300000271661601/",
-   "isbn": "9789465303789"
-  },
-  {
-   "titel": "Het lichtdieet – Inge Declercq en Jan Denneman",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/be/nl/p/het-lichtdieet/9300000271661600/",
-   "isbn": "9789465301235"
-  },
-  {
-   "titel": "Eén pan – Pascale Naessens",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/be/nl/p/een-pan/9300000227900646/",
-   "isbn": "9789020981612"
-  },
-  {
-   "titel": "Theo in Golden – Allen Levi",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/theo-in-golden/9300000267702676/",
-   "isbn": "9789049211929"
-  },
-  {
-   "titel": "Die ene dag – Rosie Walsh",
-   "bron": "bol.com",
-   "url": "https://www.bol.com/nl/nl/p/die-ene-dag/9300000279000836/",
-   "isbn": "9789401626415"
-  }
- ]
 }
