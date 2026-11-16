@@ -286,125 +286,159 @@
  "voeding": [
   {
    "label": "Recept",
-   "titel": "Aardpeersoep met gnocchi en basilicumpesto",
-   "samenvatting": "Een romige wintersoep van aardpeer en prei, afgewerkt met gnocchi en zelfgemaakte pesto. Vegetarisch en klaar in ongeveer anderhalf uur voor vier personen.",
-   "bron": "Dagelijkse kost (VRT)",
-   "url": "https://dagelijksekost.vrt.be/gerechten/aardpeersoep-met-gnocchi-en-basilicumpesto"
+   "titel": "Geroosterde pompoen met tahini en za'atar",
+   "samenvatting": "Zoete pompoen uit de oven met rode ui, een romige sesamsaus en Midden-Oosterse kruiden. Een echte Ottolenghi-klassieker voor koude dagen.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/roast-butternut-squash-and-red-onion-with-tahini-and-za-atar-shop"
   },
   {
    "label": "Recept",
-   "titel": "Witte bonensoep met champignonolie",
-   "samenvatting": "Een stevige soep met witte bonen, prei en knolselderij, geserveerd met een champignontapenade en krokant toastje. Vegetarisch en in een uur klaar.",
-   "bron": "Dagelijkse kost (VRT)",
-   "url": "https://dagelijksekost.vrt.be/gerechten/witte-bonensoep-met-champignonolie"
+   "titel": "De ultieme wintercouscous",
+   "samenvatting": "Een groot bord vol geroosterde wintergroenten, kikkererwten en kruiden op couscous. Veel smaak en volledig plantaardig.",
+   "bron": "The Happy Foodie (Ottolenghi)",
+   "url": "https://thehappyfoodie.co.uk/recipes/the-ultimate-winter-couscous/"
   },
   {
    "label": "Recept",
-   "titel": "Pompoen met venkel en burrata",
-   "samenvatting": "Geroosterde pompoen met venkel- en komijnzaad op gemasseerde cavolo nero, met burrata, hazelnoten en tijmhoning. Een vegetarisch ovengerecht voor twee.",
-   "bron": "Njam!",
-   "url": "https://njam.tv/recepten/pompoen-met-venkel-en-burrata"
+   "titel": "Geroosterde bloemkool met hazelnoten",
+   "samenvatting": "Knapperige bloemkool met hazelnoten en een frisse dressing. Past perfect bij het seizoen.",
+   "bron": "The Happy Foodie (Ottolenghi)",
+   "url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-roasted-cauliflower-and-hazelnut-salad/"
   },
   {
    "label": "Recept",
-   "titel": "Witloofsoep",
-   "samenvatting": "Een romige soep van gestoofd witloof met een toef zure room en gekaramelliseerd witloof als topping. Vegetarisch en in 20 tot 30 minuten klaar.",
-   "bron": "Njam!",
-   "url": "https://njam.tv/recepten/witloofsoep"
+   "titel": "Pompoen met zoete specerijen, limoen en groene chili",
+   "samenvatting": "Pompoen uit de oven met warme kruiden en een scheutje limoen. Een kleurrijk bijgerecht of lichte hoofdschotel.",
+   "bron": "The Happy Foodie (Ottolenghi)",
+   "url": "https://thehappyfoodie.co.uk/recipes/roasted-butternut-squash-with-sweet-spices-lime-and-green-chilli"
   },
   {
    "label": "Recept",
-   "titel": "Veggie stoemp",
-   "samenvatting": "Winterse stoemp van aardappelen, wortelen, rapen, spruitjes en prei met een scheutje olijfolie. Klaar in 35 minuten en lekker met mosterd of een vleesvervanger.",
-   "bron": "15gram",
-   "url": "https://15gram.be/recepten/veggie-stoemp"
+   "titel": "Soep van sinaasappel en wortel",
+   "samenvatting": "Een fluweelzachte wortelsoep met een frisse toets van sinaasappel. Simpel, plantaardig en vol vitaminen.",
+   "bron": "Green Kitchen Stories",
+   "url": "https://greenkitchenstories.com/orange-carrot-soup/"
   },
   {
-   "label": "Gezond leven",
-   "titel": "Eet de schil mee: vezels die je vaak weggooit",
-   "samenvatting": "Uit een Britse studie blijkt dat we bij veel groenten en fruit net de vezelrijkste delen weggooien, zoals wortel- en pompoenschillen. Een diëtist raadt aan ze goed te wassen en gewoon mee te eten.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/schil-je-groenten-en-fruit-niet-zomaar/"
+   "label": "Recept",
+   "titel": "Soep van spinazie en boerenkool",
+   "samenvatting": "Een groene soep boordevol bladgroenten, die je lang warm houdt. Snel gemaakt en erg voedzaam.",
+   "bron": "Green Kitchen Stories",
+   "url": "https://greenkitchenstories.com/spinach-kale-soup/"
   },
   {
-   "label": "Gezond leven",
-   "titel": "Waarom wintertijd beter bij je biologische klok past",
-   "samenvatting": "Slaapexperte Inge Declercq legt uit dat het ochtendlicht in de wintertijd gunstiger valt voor je bioritme. Zo is de extra slaaptijd eerder een voordeel.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/22/wintertijd-bioritme-inge-declercq/"
+   "label": "Recept",
+   "titel": "Falafel met kruiden en pistache",
+   "samenvatting": "Groene falafel met verse kruiden en pistachenoten. Heerlijk in een bowl of broodje met groenten.",
+   "bron": "Green Kitchen Stories",
+   "url": "https://greenkitchenstories.com/herb-pistachio-falafel/"
   },
   {
-   "label": "Gezond leven",
-   "titel": "Veerkracht komt van veel kleine dingen, niet van één wandeling",
-   "samenvatting": "Uit een Sciensano-enquête blijkt dat slechts 6 procent van de Vlamingen zijn veerkracht hoog inschat. Volgens de onderzoeker draagt vooral je sociale netwerk bij, zoals vrienden en familie.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/08/veerkracht-is-geen-individueel-probleem/"
+   "label": "Recept",
+   "titel": "Falafelbowl met groene erwten",
+   "samenvatting": "Een kleurrijke bowl met erwtenfalafel, groenten en een frisse saus. Een volledige, plantaardige maaltijd.",
+   "bron": "Green Kitchen Stories",
+   "url": "https://greenkitchenstories.com/green-pea-falafel-bowl/"
   },
   {
-   "label": "Gezond leven",
-   "titel": "Vitamine B12 is zelden de oorzaak van wintermoeheid",
-   "samenvatting": "Een tekort aan B12 komt zelden voor bij mensen die dierlijke producten eten, en supplementen verminderen vermoeidheid niet aantoonbaar. Wintermoeheid heeft vaker te maken met weinig daglicht en te weinig slaap.",
-   "bron": "Gezondheid en Wetenschap",
-   "url": "https://www.gezondheidenwetenschap.be/gezondheid-in-de-media/vitamine-b12-tekort-is-uiterst-zelden-oorzaak-van-wintermoeheid"
+   "label": "Recept",
+   "titel": "Makkelijke chana masala",
+   "samenvatting": "Kikkererwten in een geurige tomatenkerrysaus, klaar in ongeveer 30 minuten. Lekker met rijst of naan.",
+   "bron": "Minimalist Baker",
+   "url": "https://minimalistbaker.com/easy-chana-masala/comment-page-4/"
   },
   {
-   "label": "Gezond leven",
-   "titel": "Darmflora en darmgezondheid: wat helpt echt?",
-   "samenvatting": "Een vezelrijk eetpatroon met veel groenten en fruit beschermt je darmen, terwijl veel rood en bewerkt vlees, alcohol en weinig beweging het risico verhogen. Experts waarschuwen ook voor onbetrouwbare zelftests en supplementen zonder bewijs.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/02/18/darmkanker-darmen-darmgezondheid-verbeteren-darmflora-darmmicrob/"
+   "label": "Recept",
+   "titel": "Geroosterde bloemkool met tomaten-cashewsaus",
+   "samenvatting": "Bloemkool uit de oven met een romige saus van tomaat en cashewnoten, zonder zuivel. Een mooi vegetarisch hoofdgerecht.",
+   "bron": "BBC Good Food Middle East",
+   "url": "https://www.bbcgoodfoodme.com/recipes/roasted-cauliflower-tomato-cashew-sauce/"
   }
  ],
  "boeken": [
   {
-   "titel": "Himmler in New York – Arnon Grunberg",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/04/touche-arnon-grunberg-boek-himmler-in-new-york-zus-israel/"
+   "titel": "Isola's testament – Tatiana de Rosnay",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/isola-s-testament/9300000269636031/",
+   "isbn": "9789026374562"
   },
   {
-   "titel": "De laatste namen van Łukasz – Jaap Robben",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/29/jaap-robben-boekentip-ruth-joos/"
+   "titel": "Zes jaar – Harlan Coben",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/zes-jaar/9300000319966692/",
+   "isbn": "9789049213985"
   },
   {
-   "titel": "Auditie – Katie Kitamura",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/01/boekentip-kitamura-ruth-joos/"
+   "titel": "De heks – Freida McFadden",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/de-heks/9300000312026179/",
+   "isbn": "9789032521721"
   },
   {
-   "titel": "Eindtijdfascisme – Naomi Klein en Astra Taylor",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/26/boekentip-cultuurtip-eindtijfascisme-naomi-klein-en-astra-taylor/"
+   "titel": "De Franse illusie – John Grisham",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/de-franse-illusie/9300000312026233/",
+   "isbn": "9789400516120"
   },
   {
-   "titel": "Ho ho ho – Lex Boon",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/09/ho-ho-ho-lex-boon-jacotte-brokken-boekentip/"
+   "titel": "Breekpunt – David Baldacci",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/breekpunt/9300000312026131/",
+   "isbn": "9789400520578"
   },
   {
-   "titel": "Alleen de duivel heeft een plan – Mark Cloostermans",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/31/mark-cloostermans-wint-29ste-hercule-poirotprijs/"
+   "titel": "Texel – Kiki van Dijk",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/texel/9300000320406843/",
+   "isbn": "9789401626309"
   },
   {
-   "titel": "Peter Pan is niet dood – Geert Spillebeen",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/07/oud-vrt-journalist-geert-spillebeen-schrijft-roman-over-de-echte/"
+   "titel": "Vrijdag – Loes den Hollander",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/vrijdag/9300000312026372/",
+   "isbn": "9789400520561"
   },
   {
-   "titel": "Grondwerk – Tijl Nuyts",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/03/24/de-boon-voor-literatuur-2026/"
+   "titel": "Het flexibele brein – Steven Laureys",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/be/nl/p/het-flexibele-brein/9300000343364801/",
+   "isbn": "9789463377348"
   },
   {
-   "titel": "Ons Kookboek (9e editie, 100 jaar) – Ferm",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/10/01/ons-kookboek-bestaat-100-jaar/"
+   "titel": "Geef jezelf toestemming – Daphne Deckers",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/be/nl/p/geef-jezelf-toestemming/9300000311177847/",
+   "isbn": "9789464044249"
   },
   {
-   "titel": "Tot alles in beweging komt – Ester Naomi Perquin",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2025/12/25/boekentip-beste-boek-2025-ester-naomi-perquin-dader-ruth-joos/"
+   "titel": "Slaap lekker – Arne Wouters",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/be/nl/p/slaap-lekker/9300000271661601/",
+   "isbn": "9789465303789"
+  },
+  {
+   "titel": "Het lichtdieet – Inge Declercq en Jan Denneman",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/be/nl/p/het-lichtdieet/9300000271661600/",
+   "isbn": "9789465301235"
+  },
+  {
+   "titel": "Eén pan – Pascale Naessens",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/be/nl/p/een-pan/9300000227900646/",
+   "isbn": "9789020981612"
+  },
+  {
+   "titel": "Theo in Golden – Allen Levi",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/theo-in-golden/9300000267702676/",
+   "isbn": "9789049211929"
+  },
+  {
+   "titel": "Die ene dag – Rosie Walsh",
+   "bron": "bol.com",
+   "url": "https://www.bol.com/nl/nl/p/die-ene-dag/9300000279000836/",
+   "isbn": "9789401626415"
   }
  ]
 }
