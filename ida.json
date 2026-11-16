@@ -1,57 +1,57 @@
 {
- "bijgewerkt": "2026-11-16T14:45:00+01:00",
+ "bijgewerkt": "2026-11-16T20:50:00+07:00",
  "gebruikt": [
   "Vietnam"
  ],
  "nieuws": [
   {
+   "titel": "Starship-raket komt terug op aarde",
+   "samenvatting": "Voor het eerst is het bovenste stuk van een ruimteraket terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639544"
+  },
+  {
+   "titel": "Pech voor Sinterklaas in Amsterdam",
+   "samenvatting": "De stoomboot van Sinterklaas kon niet aanleggen omdat een brug kapot was. Gelukkig kwamen de Sint en zijn Pieten toch aan wal.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639611"
+  },
+  {
+   "titel": "Kinderen treden op voor Sinterklaas",
+   "samenvatting": "Kinderen die slecht zien, doen mee aan de intocht van Sinterklaas in hun stad. Ze oefenen heel hard voor de grote dag.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639202"
+  },
+  {
    "titel": "Word je gewelddadig van games?",
    "samenvatting": "Het Jeugdjournaal zoekt uit of je agressiever wordt van gamen of juist niet. Ze kijken wat onderzoekers hierover zeggen.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2639551-uitgezocht-word-je-gewelddadig-van-games-of-poeslief"
-  },
-  {
-   "titel": "Lily Yohannes opent een eigen voetbalveld",
-   "samenvatting": "Voetbalster Lily Yohannes heeft een eigen voetbalveld geopend. Ze vindt dat je alles kunt bereiken wat je wilt.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
-  },
-  {
-   "titel": "Neall (13) zet meubels in elkaar",
-   "samenvatting": "Neall is 13 en bouwt voor mensen hun meubels op. Veel volwassenen hebben daar zelf geen tijd voor.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2638760-neall-13-zet-meubels-in-elkaar-mensen-hebben-er-geen-tijd-voor"
-  },
-  {
-   "titel": "Xavi is drie maanden bondscoach",
-   "samenvatting": "Xavi Hernández is nu drie maanden trainer van een nationaal voetbalteam. Hij zegt dat hij heel dankbaar is.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2638765-xavi-hernandez-is-drie-maanden-bondscoach-heel-dankbaar"
   }
  ],
  "dieren": [
   {
-   "titel": "Rescue Kittens Love To Ride Around On Dad's Shoulders",
+   "titel": "Rescued Kitten Pulls Dad Along On Hikes",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=KM7fEPyT1AQ",
+   "url": "https://www.youtube.com/watch?v=6x2JW4r7FT4",
    "soort": "video"
   },
   {
-   "titel": "Rescued Kitten Now Sleeps In Guy's Beard",
+   "titel": "Rescue Kittens Live On Dad's Shoulders Now",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=RwdV-3UkLxk",
+   "url": "https://www.youtube.com/watch?v=3B5KoofeMmM",
    "soort": "video"
   },
   {
-   "titel": "Confused Husky Puppy Learns How To Be A Dog",
+   "titel": "Rescued Kittens Keep Escaping To Hang Out With The Dogs",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=SvZ9Dydzyfo",
+   "url": "https://www.youtube.com/watch?v=cnCCgrb1xck",
    "soort": "video"
   },
   {
-   "titel": "The Happiest Dog Rescue Stories",
+   "titel": "Horses Rescue A Tiny Kitten",
    "bron": "The Dodo",
-   "url": "https://www.youtube.com/watch?v=bvmvG7KNH9c",
+   "url": "https://www.youtube.com/watch?v=4eEmOVmijs0",
    "soort": "video"
   }
  ],
@@ -59,25 +59,25 @@
   {
    "titel": "Hoppers – officiële trailer",
    "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=-ULAH35bPAo",
+   "url": "https://www.youtube.com/watch?v=pIv63eoqTOk",
    "soort": "video"
   },
   {
-   "titel": "Toy Story 5 – officiële trailer",
+   "titel": "Gatto – officiële trailer",
    "bron": "Pixar",
-   "url": "https://www.youtube.com/watch?v=hQL8Bwxb_vY",
+   "url": "https://www.youtube.com/watch?v=2k7xIMeX7tI",
    "soort": "video"
   },
   {
-   "titel": "Moana 2",
-   "bron": "Disney",
-   "url": "https://www.youtube.com/watch?v=hDZ7y8RP5HE",
+   "titel": "Elio – trailer",
+   "bron": "Pixar",
+   "url": "https://www.youtube.com/watch?v=ETVi5_cnnaE",
    "soort": "video"
   },
   {
-   "titel": "Moana",
-   "bron": "Disney",
-   "url": "https://www.youtube.com/watch?v=hNXVKndALBI",
+   "titel": "Soul – trailer",
+   "bron": "Pixar",
+   "url": "https://www.youtube.com/watch?v=xOsLIiBStEs",
    "soort": "video"
   }
  ],
@@ -93,14 +93,14 @@
   ]
  },
  "raadsel": {
-  "vraag": "Ik heb steden, maar geen huizen. Ik heb bergen, maar geen bomen. Ik heb water, maar geen vissen. Wat ben ik?",
-  "oplossing": "Een landkaart",
-  "uitleg": "Op een kaart staan tekeningen van steden, bergen en water, maar het zijn geen echte.",
+  "vraag": "Ik heb een kop en een staart, maar geen lijf. Wat ben ik?",
+  "oplossing": "Een munt",
+  "uitleg": "Op een munt heb je kop en munt (de 'staart'-kant), maar het is geen dier.",
   "opties": [
-   "Een landkaart",
-   "Een computer",
-   "Een schilderij",
-   "Een globe-ijsje"
+   "Een munt",
+   "Een kikkervisje",
+   "Een kam",
+   "Een komeet"
   ]
  },
  "mensen": [

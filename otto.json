@@ -1,76 +1,76 @@
 {
- "bijgewerkt": "2026-11-16T14:45:00+01:00",
+ "bijgewerkt": "2026-11-16T20:50:00+07:00",
  "nieuws": [
+  {
+   "titel": "Starship-raket komt terug op aarde",
+   "samenvatting": "Voor het eerst is het bovenste stuk van een ruimteraket terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639544"
+  },
+  {
+   "titel": "Pech voor Sinterklaas in Amsterdam",
+   "samenvatting": "De stoomboot van Sinterklaas kon niet aanleggen omdat een brug kapot was. Gelukkig kwamen de Sint en zijn Pieten toch aan wal.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639611"
+  },
+  {
+   "titel": "Kinderen treden op voor Sinterklaas",
+   "samenvatting": "Kinderen die slecht zien, doen mee aan de intocht van Sinterklaas in hun stad. Ze oefenen heel hard voor de grote dag.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2639202"
+  },
   {
    "titel": "Lily Yohannes heeft een eigen voetbalveld",
    "samenvatting": "Een voetbalster heeft een nieuw veld gekregen. Ze zegt: je kunt alles bereiken wat je wilt.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
-  },
-  {
-   "titel": "Neall (13) bouwt meubels op",
-   "samenvatting": "Neall is 13 jaar. Hij zet kasten en tafels in elkaar voor mensen die geen tijd hebben.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2638760-neall-13-zet-meubels-in-elkaar-mensen-hebben-er-geen-tijd-voor"
-  },
-  {
-   "titel": "Word je gewelddadig van games?",
-   "samenvatting": "Het Jeugdjournaal onderzoekt of je boos wordt van gamen. Ze vragen het aan echte onderzoekers.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2639551-uitgezocht-word-je-gewelddadig-van-games-of-poeslief"
-  },
-  {
-   "titel": "Wonen op de maan, een robot en egels",
-   "samenvatting": "In dit journaal gaat het over wonen op de maan, een robot die over de Zuidpool loopt en egels die hulp nodig hebben.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2638823"
   }
  ],
  "wetenschap": [
   {
-   "emoji": "🐙",
-   "titel": "Drie harten",
-   "tekst": "Een octopus heeft drie harten. Zijn bloed is blauw!"
+   "emoji": "🦩",
+   "titel": "Roze flamingo's",
+   "tekst": "Flamingo's zijn roze door wat ze eten, zoals kleine garnaaltjes en algen. Jonge flamingo's zijn grijs."
   },
   {
    "emoji": "🪐",
-   "titel": "Een lange dag op Venus",
-   "tekst": "Op de planeet Venus duurt één dag langer dan een heel jaar. Ze draait heel traag rond zichzelf."
+   "titel": "Saturnus zou drijven",
+   "tekst": "Saturnus is zo licht dat hij zou blijven drijven in een heel groot bad met water."
   },
   {
-   "emoji": "🦴",
-   "titel": "Heel veel botjes",
-   "tekst": "Een volwassene heeft 206 botten. Baby's hebben er meer, want veel botjes groeien later aan elkaar."
+   "emoji": "🐌",
+   "titel": "Tandjes van een slak",
+   "tekst": "Een slak heeft duizenden piepkleine tandjes op zijn tong. Daarmee raspt hij zijn eten."
   },
   {
-   "emoji": "🐨",
-   "titel": "Vierkante drolletjes",
-   "tekst": "Een wombat maakt drolletjes in de vorm van blokjes. Zo rollen ze niet weg."
+   "emoji": "🦒",
+   "titel": "Lange nek",
+   "tekst": "Een giraf heeft net zoveel nekwervels als jij: zeven. Alleen zijn ze veel langer!"
   },
   {
-   "emoji": "⚡",
-   "titel": "Bliksem is superheet",
-   "tekst": "Een bliksemflits is veel heter dan het oppervlak van de zon. Daarom zie je hem zo fel."
+   "emoji": "❤️",
+   "titel": "Je hart werkt hard",
+   "tekst": "Je hart klopt ongeveer 100.000 keer per dag. Het stopt nooit, ook als je slaapt."
   }
  ],
  "films": [
   {
-   "titel": "Toy Story 5 is in de bioscoop",
-   "samenvatting": "Woody en Buzz krijgen een nieuw probleem: een tablet die Lilypad heet. Ze vindt dat zij weet wat het beste is voor Bonnie.",
-   "bron": "Disney UK",
-   "url": "https://press.disney.co.uk/news/disney-and-pixar-debut-new-toy-story-5-trailer-and-poster"
-  },
-  {
-   "titel": "Zootropolis 2",
-   "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Deze keer duikt er een slang op.",
-   "bron": "Disney UK",
-   "url": "https://press.disney.co.uk/news/final-trailer-and-brand-new-poster-available-now-for-walt-disney-animation-studios-zootropolis-2"
+   "titel": "Gatto: een nieuwe Pixar-film",
+   "samenvatting": "Een nieuwe tekenfilm van Pixar die zich afspeelt tussen de grachten van Venetië. De film komt in 2027 in de bioscoop en er is al een eerste teaser.",
+   "bron": "FilmVandaag",
+   "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld"
   },
   {
    "titel": "Hoppers van Pixar",
    "samenvatting": "Een nieuwe Pixar-film over een meisje dat van dieren houdt en hun wereld wil ontdekken. In Nederland heet de film Jumpers.",
    "bron": "FilmTotaal",
    "url": "https://www.filmtotaal.nl/nieuws/129535"
+  },
+  {
+   "titel": "Zootropolis 2",
+   "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Deze keer duikt er een slang op.",
+   "bron": "Disney UK",
+   "url": "https://press.disney.co.uk/news/final-trailer-and-brand-new-poster-available-now-for-walt-disney-animation-studios-zootropolis-2"
   }
  ],
  "duivels": [
@@ -94,13 +94,13 @@
   }
  ],
  "raadsel": {
-  "vraag": "Ik denk aan een getal. Als ik er 7 bij tel en dan 5 aftrek, krijg ik 20. Welk getal was het?",
-  "oplossing": "18",
-  "uitleg": "Doe het omgekeerde: 20 − 7 + 5 = 18. Controle: 18 + 7 = 25, 25 − 5 = 20."
+  "vraag": "Welk getal komt hierna? 3, 6, 9, 12, …",
+  "oplossing": "15",
+  "uitleg": "Elke keer komt er 3 bij. Dat is de tafel van 3: 12 + 3 = 15."
  },
  "mop": {
-  "vraag": "Wat zegt de nul tegen de acht?",
-  "antwoord": "Mooie riem!"
+  "vraag": "Wat zegt de grote schoorsteen tegen de kleine schoorsteen?",
+  "antwoord": "Jij mag nog niet roken!"
  },
  "land": {
   "week": "2026-W47",

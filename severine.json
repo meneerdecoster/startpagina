@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T14:45:00+01:00",
+ "bijgewerkt": "2026-11-16T20:50:00+07:00",
  "gezondheid": {
   "streak": 5,
   "laatste": {
@@ -211,7 +211,79 @@
    "4 sportdagen deze week."
   ]
  },
- "lifestyle": [],
- "voeding": [],
- "boeken": []
+ "lifestyle": [
+  {
+   "label": "Wonen",
+   "titel": "6 interieurtrends voor het najaar",
+   "samenvatting": "Donkere houtsoorten, hotelsfeer met laagjes licht en een eigen wellnesshoekje zijn in. Ook glanzende afwerkingen en materialen met een geleefd uiterlijk doen mee.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html"
+  },
+  {
+   "label": "Interieur",
+   "titel": "10 deco-items voor een warm najaar",
+   "samenvatting": "Kaarsen, kussens, een plaid en een lamp maken je woonkamer meteen gezelliger. Warme tinten en zachte stoffen zoals bouclé zijn de rode draad.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/439665-deze-deco-items-bepalen-het-najaar-van-2026.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "De 6 grote modetrends voor herfst 2026",
+   "samenvatting": "Herwerkte klassieke snitten, romantische looks met een rand, kroko-leer, sportieve stukken, fluweel en geweven bloemen. Alles gebaseerd op de catwalks van dit seizoen.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/?p=437406"
+  }
+ ],
+ "voeding": [
+  {
+   "label": "Recept",
+   "titel": "Makkelijke aardappel-preischotel",
+   "samenvatting": "Een ovenschotel met zoete aardappelpuree, prei en kaas. Klaar in ongeveer 20 minuten plus 25 minuten in de oven (met rundergehakt; je kunt dat vervangen).",
+   "bron": "Allerhande",
+   "url": "https://www.ah.be/allerhande/recept/R-R1192889/makkelijke-aardappel-preischotel"
+  },
+  {
+   "label": "Recept",
+   "titel": "Alcoholvrije glühwein",
+   "samenvatting": "Alcoholvrije merlot met sinaasappel, kaneel, steranijs en kruidnagel, zacht opgewarmd. Lekker voor koude novemberavonden.",
+   "bron": "Allerhande",
+   "url": "https://www.ah.be/allerhande/recept/R-R1303131/alcoholvrije-gluehwein"
+  },
+  {
+   "label": "Recept",
+   "titel": "Hollandse erwtensoep",
+   "samenvatting": "Stevige winterse soep met spliterwten, selderij, wortel en prei. Eén pot voor acht personen.",
+   "bron": "Allerhande",
+   "url": "https://www.ah.be/allerhande/recept/R-R377954/hollandse-erwtensoep"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Elke extra minuut beweging telt voor je hersenen",
+   "samenvatting": "Een onderzoek van KU Leuven en UGent bij 233 Vlaamse volwassenen toont dat stevig wandelen of fietsen samenhangt met beter geheugen en concentratie.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2025/11/12/elke-extra-minuut-beweging-telt-voor-betere-hersenfuncties-van-5/"
+  }
+ ],
+ "boeken": [
+  {
+   "titel": "Johnnie Walker – Connie Palmen",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/09/09/connie-palmen-johnnie-walker-nieuwe-roman/"
+  },
+  {
+   "titel": "Verloren schaapjes – Madeline Cash",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/10/15/madeline-cash-ruth-joos-dua-lipa-verloren-schaapjes/"
+  },
+  {
+   "titel": "De beste nieuwe boeken voor de herfst (o.a. Lucy Foley, Tim 'S Jongers)",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/439866-de-beste-nieuwe-boeken-voor-de-herfst.html"
+  },
+  {
+   "titel": "Boekenvooruitblik herfst 2026 (o.a. Grunberg, Mortier)",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/08/11/boeken-herfst-2026-vooruitblik/"
+  }
+ ]
 }
