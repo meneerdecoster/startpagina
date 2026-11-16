@@ -59,8 +59,11 @@ P = {
    "nacht":["Nog wakker, {naam}?","Slaap zacht straks, {naam}"]},
   sub={"ochtend":["Je dag in één oogopslag."],"middag":["Even bijlezen."],"avond":["Rustig afronden."],"nacht":["Kort bijlezen en dan slapen."]},
   secties=[
-   dict(key="nieuws",type="news",titel="Nieuws",meta="België · wereld",span=7,kleur="#E03A3E"),
-   dict(key="weetjes",type="feiten",titel="Weetjes",meta="Voor de nieuwsgierigen",span=5,kleur="#8B5CF6"),
+   dict(key="gezondheid",type="gezond",titel="Gezondheid",meta="Je logboek",span=12,kleur="#0E9F6E"),
+   dict(key="lifestyle",type="news",titel="Lifestyle",meta="Mode · wonen · interieur",span=12,kleur="#E03A3E",kolommen=True),
+   dict(key="voeding",type="news",titel="Voeding",meta="Recepten · gezond leven",span=12,kleur="#10B981",kolommen=True),
+   dict(key="boeken",type="tiles",titel="Nieuwe boeken",meta="Nederlandstalig",span=12,kleur="#8B5CF6",emoji="📖",portret=True),
+   dict(key="uitgaan",type="uitgaan",titel="Uitgaan in de buurt",meta="Muziek · comedy",span=12,kleur="#6366F1"),
   ]),
 }
 NAMEN={"ida":"Ida","otto":"Otto","severine":"Sévérine"}

@@ -1,46 +1,217 @@
 {
  "bijgewerkt": "2026-11-16T14:45:00+01:00",
- "nieuws": [
-  {
-   "titel": "Rode Duivels winnen met 4-1 van Italië",
-   "samenvatting": "In de Nations League won België in Brussel met 4-1 van Italië. Commentator Peter Vandenbempt noemt coach Mark van Bommel de grote winnaar van de avond.",
-   "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/16/vandenbempt-ziet-alle-lichten-op-groen-springen-bij-rode-duivels-met-vooral-een-grote-winnaar-daar-is-nu-toch-geen-discussie-meer-over~1794788558567/"
+ "gezondheid": {
+  "streak": 5,
+  "laatste": {
+   "datum": "2026-11-16",
+   "water": 2.66,
+   "sporttype": "Wandelen",
+   "notitie": null
   },
-  {
-   "titel": "Vrachtwagen rijdt woning binnen in Woumen",
-   "samenvatting": "Een vrachtwagenchauffeur van Rendac kreeg na een verkeersdrempel een black-out en reed in Woumen (Diksmuide) een huis binnen. Het bejaarde koppel kwam ongedeerd uit het slaapkamerraam, maar de woning is onbewoonbaar.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/woumen-vrachtwagen-huis-trucker-sint-pietersstraat-diksmuide/"
+  "week": {
+   "dagen": 5,
+   "water": 2.28,
+   "koffie": 0.2,
+   "sport": 4,
+   "sauna": 0,
+   "alcoholvrij": 5,
+   "alcohol": 0,
+   "fysiek": 2.0,
+   "mentaal": 2.0,
+   "ziek": 0,
+   "water25": 4
   },
-  {
-   "titel": "Aantal nepagenten-incidenten fors gestegen",
-   "samenvatting": "In Nederland nam het aantal gevallen van oplichters die zich als politie voordoen weer fors toe, met steeds slimmere babbeltrucs.",
-   "bron": "NOS",
-   "url": "https://nos.nl/artikel/2639662-aantal-incidenten-met-nepagenten-weer-fors-toegenomen-babbeltrucs-steeds-slimmer"
+  "jaar": {
+   "dagen": 35,
+   "sport_pct": 40,
+   "water": 2.17,
+   "alcohol_week": 4.4,
+   "sauna": 24,
+   "oneup": 9
   },
-  {
-   "titel": "Raketlancering mislukt: Amazon-satellieten verloren",
-   "samenvatting": "Een raketlancering in Florida liep mis, waarbij tientallen Amazon-satellieten verloren gingen.",
-   "bron": "NOS",
-   "url": "https://nos.nl/artikel/2639658-raketlancering-in-florida-gaat-fout-tientallen-amazon-satellieten-verloren-gegaan"
-  }
- ],
- "weetjes": [
-  {
-   "emoji": "🐙",
-   "titel": "Drie harten",
-   "tekst": "Een octopus heeft drie harten en blauw bloed."
+  "reeksen": {
+   "water": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 2.5
+    },
+    {
+     "d": "2026-11-13",
+     "v": 2.5
+    },
+    {
+     "d": "2026-11-14",
+     "v": 2.5
+    },
+    {
+     "d": "2026-11-15",
+     "v": 1.25
+    },
+    {
+     "d": "2026-11-16",
+     "v": 2.66
+    }
+   ],
+   "koffie": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 1.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 0.0
+    }
+   ],
+   "alcohol": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 0.0
+    }
+   ]
   },
-  {
-   "emoji": "🪐",
-   "titel": "Dag langer dan jaar",
-   "tekst": "Op Venus duurt een dag langer dan een jaar: ze draait trager rond haar as dan rond de zon."
-  },
-  {
-   "emoji": "🌋",
-   "titel": "Bos in een grot",
-   "tekst": "In de Vietnamese grot Son Doong, een van de grootste ter wereld, groeit een stuk oerwoud."
-  }
- ]
+  "inzichten": [
+   "Water: gemiddeld 2,28 l per dag. Nog 0,22 l tot je doel van 2,5 l.",
+   "5 van 5 dagen alcoholvrij.",
+   "4 sportdagen deze week."
+  ]
+ },
+ "lifestyle": [],
+ "voeding": [],
+ "boeken": []
 }

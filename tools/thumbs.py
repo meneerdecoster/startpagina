@@ -67,7 +67,7 @@ def thumb(u):
 
 def urls(d):
     out = []
-    for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels"):
+    for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels", "lifestyle", "voeding", "boeken"):
         out += [i.get("url") for i in d.get(k, []) if isinstance(i, dict)]
     for p in d.get("podcasts", []):
         out += [e.get("url") for e in p.get("afleveringen", [])]

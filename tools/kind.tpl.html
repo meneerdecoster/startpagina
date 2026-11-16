@@ -12,7 +12,7 @@
 <style>
 :root{
   --bg:#EEF1F6; --surface:#FFFFFF; --surface-2:#F5F7FA; --ink:#0E1424; --muted:#5B6478; --line:#E1E5EC;
-  --accent:__ACCENT__;
+  --accent:__ACCENT__; --health:#0E9F6E; --health-soft:#D9F3E8; --gold:#C98A12;
   --display:"Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
   --body:"Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono:"Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -22,6 +22,7 @@
 @media (prefers-color-scheme: dark){
   :root{
     --bg:#090C14; --surface:#121725; --surface-2:#182033; --ink:#EEF1F8; --muted:#97A0B5; --line:#232B3E;
+    --health:#34D399; --health-soft:#11392B; --gold:#F2B33D;
     --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 12px 32px -16px rgba(0,0,0,.6);
     color-scheme:dark;
   }
@@ -77,6 +78,8 @@ __SKIES__
 .tile .tp{aspect-ratio:16/9; border-radius:14px; overflow:hidden; position:relative; background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 35%,var(--surface-2)),var(--surface-2)); display:grid; place-items:center; font-size:34px}
 .tile .tp img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
 .tile .pl{position:absolute; right:8px; bottom:8px; width:30px; height:30px; border-radius:50%; background:rgba(0,0,0,.6); color:#fff; display:grid; place-items:center; font-size:12px; padding-left:2px}
+.tiles.bk{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+.tiles.bk .tp{aspect-ratio:2/3; font-size:40px}
 .tile .tt{font-weight:600; font-size:14px; line-height:1.3; margin-top:8px}
 .tile:hover .tt{text-decoration:underline; text-underline-offset:3px}
 .tile .ts{font:11px var(--mono); color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-top:3px}
@@ -100,6 +103,45 @@ __SKIES__
 .fe span{color:var(--muted); font-size:14px}
 .fe a{font:11px var(--mono); color:var(--muted); text-transform:uppercase}
 .mop{font-family:var(--display); font-size:clamp(19px,2.2vw,25px); line-height:1.35; margin:0}
+.health{display:grid; grid-template-columns:1.25fr 1fr; gap:22px}
+@media (max-width:820px){.health{grid-template-columns:1fr}}
+.streak{display:inline-flex; align-items:center; gap:8px; background:var(--health-soft); color:var(--health); padding:6px 12px; border-radius:999px; font-weight:600; font-size:13px}
+.kpis{display:grid; grid-template-columns:repeat(4,1fr); gap:10px}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--surface-2); border-radius:16px; padding:14px 14px 12px; display:flex; flex-direction:column; gap:2px; min-width:0}
+.kpi .l{font-size:12px; color:var(--muted)}
+.kpi .v{font-family:var(--display); font-weight:600; font-size:28px; letter-spacing:-.02em; font-variant-numeric:tabular-nums; line-height:1.1}
+.kpi .v small{font-size:14px; color:var(--muted); font-weight:400; margin-left:2px}
+.kpi .s{font-family:var(--mono); font-size:11px; color:var(--muted)}
+.bar{height:5px; border-radius:5px; background:var(--line); overflow:hidden; margin-top:8px}
+.bar i{display:block; height:100%; background:var(--health); border-radius:5px}
+.sparks{display:grid; gap:12px; margin-top:16px}
+.spark{display:grid; grid-template-columns:72px 1fr 64px; align-items:center; gap:10px}
+.spark .l{font-size:12.5px; color:var(--muted)}
+.spark .r{font-family:var(--mono); font-size:12px; text-align:right; font-variant-numeric:tabular-nums}
+.spark svg{width:100%; height:38px; display:block}
+.insights{list-style:none; margin:0; padding:0; display:grid; gap:10px}
+.insights li{display:grid; grid-template-columns:22px 1fr; gap:8px; align-items:start; font-size:14.5px; line-height:1.45}
+.insights li::before{content:""; width:8px; height:8px; margin:7px 0 0 6px; border-radius:50%; background:var(--health)}
+.gig-f{display:flex; gap:6px; flex-wrap:wrap}
+.gig-f button{font:500 12px var(--mono); letter-spacing:.04em; text-transform:uppercase; background:var(--surface-2); color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:5px 11px; cursor:pointer}
+.gig-f button[aria-pressed="true"]{background:var(--ink); color:var(--surface); border-color:var(--ink)}
+.gigs{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:28px}
+@media (max-width:820px){.gigs{grid-template-columns:1fr}}
+.gig{display:grid; grid-template-columns:54px 1fr; gap:14px; align-items:center; padding:12px 0; border-top:1px solid var(--line)}
+.gig .dt{background:var(--surface-2); border-radius:14px; text-align:center; padding:6px 0 7px; line-height:1.1}
+.gig .dt b{display:block; font-family:var(--display); font-weight:600; font-size:22px; letter-spacing:-.02em}
+.gig .dt span{font:11px var(--mono); color:var(--muted); text-transform:uppercase; letter-spacing:.05em}
+.gig a{font-weight:600; text-decoration:none; font-size:15px; line-height:1.3}
+.gig a:hover{text-decoration:underline; text-underline-offset:3px}
+.gig .sub2{font-size:13px; color:var(--muted); margin-top:2px}
+.gig .tags{display:flex; gap:6px; flex-wrap:wrap; margin-top:6px}
+.gig .tg{font:11px var(--mono); letter-spacing:.04em; padding:2px 8px; border-radius:999px; background:var(--surface-2); color:var(--muted)}
+.gig .tg.muziek{background:#6366F122; color:#6366F1} .gig .tg.comedy{background:#C98A1222; color:var(--gold)}
+.gig a.tg.ts{font-weight:400; font-size:11px; text-decoration:none; background:#00B4D822; color:#0891B2}
+.gig .tg.st{background:#E03A3E1A; color:var(--accent)}
+.gig-more{margin-top:14px}
+.btn{font:inherit; font-size:13px; font-weight:500; background:var(--ink); color:var(--surface); border:0; border-radius:999px; padding:9px 16px; cursor:pointer}
 .err{padding:30px; text-align:center; color:var(--muted)}
 footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:center}
 </style>
@@ -169,14 +211,30 @@ function renderWx(w){
   try{ const r=await tfetch("https://api.open-meteo.com/v1/forecast?latitude=51.248&longitude=4.45&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FBrussels&forecast_days=4",10000);
     const w=await r.json(); renderWx(w); try{ localStorage.setItem("wx",JSON.stringify(w)); }catch(e){} }catch(e){} })();
 
+function spark(series, color){
+  const pts = series.map((p,i) => ({i, v:p.v})).filter(p => p.v != null);
+  const n = series.length, w = 300, hgt = 38, pad = 4;
+  if (!pts.length) return `<svg viewBox="0 0 ${w} ${hgt}" preserveAspectRatio="none"><line x1="0" y1="${hgt-2}" x2="${w}" y2="${hgt-2}" stroke="var(--line)" stroke-dasharray="3 4"/></svg>`;
+  const vs = pts.map(p => p.v), mn = Math.min(...vs), mx = Math.max(...vs), rg = (mx - mn) || 1;
+  const X = i => pad + i * (w - 2*pad) / Math.max(n-1,1), Y = v => hgt - pad - (v - mn) / rg * (hgt - 2*pad - 4);
+  const line = pts.map((p,k) => `${k?"L":"M"}${X(p.i).toFixed(1)},${Y(p.v).toFixed(1)}`).join("");
+  const area = `${line}L${X(pts.at(-1).i).toFixed(1)},${hgt}L${X(pts[0].i).toFixed(1)},${hgt}Z`;
+  const last = pts.at(-1);
+  const dots = series.map((p,i) => p.v == null ? `<circle cx="${X(i)}" cy="${hgt-3}" r="1.6" fill="var(--line)"/>` : "").join("");
+  return `<svg viewBox="0 0 ${w} ${hgt}" preserveAspectRatio="none" role="img" aria-label="Verloop laatste 14 dagen">
+    <defs><linearGradient id="g${color.length}${n}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".28"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+    ${dots}<path d="${area}" fill="url(#g${color.length}${n})"/><path d="${line}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+    <circle cx="${X(last.i)}" cy="${Y(last.v)}" r="3.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/></svg>`;
+}
+
 /* Onderdelen */
 const R = {
   news:(items,s)=> `<ul class="news${s.kolommen?" cols":""}">`+(items||[]).map((n,i)=>`<li class="${i===0&&!s.kolommen?"lead":""}">
     <a class="ph" href="${esc(n.url)}" target="_blank" rel="noopener" data-u="${esc(n.url)}" tabindex="-1" aria-hidden="true"></a>
     ${n.label?`<span class="lab">${esc(n.label)}</span><br>`:""}<a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titel)}</a>
     <p>${esc(n.samenvatting||"")}</p><span class="src">${esc(n.bron||"")}</span></li>`).join("")+`</ul>`,
-  tiles:(items,s)=> `<div class="tiles">`+(items||[]).map(n=>`<a class="tile" href="${esc(n.url)}" target="_blank" rel="noopener">
-    <div class="tp" data-t="${esc(n.url)}">${esc(n.emoji||s.emoji||"🎬")}${n.soort==="foto"?"":`<span class="pl">▶</span>`}</div>
+  tiles:(items,s)=> `<div class="tiles${s.portret?" bk":""}">`+(items||[]).map(n=>`<a class="tile" href="${esc(n.url)}" target="_blank" rel="noopener">
+    <div class="tp" data-t="${esc(n.url)}"${s.portret?" data-p=\"1\"":""}>${esc(n.emoji||s.emoji||"🎬")}${n.soort==="foto"||s.portret?"":`<span class="pl">▶</span>`}</div>
     <div class="tt">${esc(n.titel)}</div><div class="ts">${esc(n.bron||"")}</div></a>`).join("")+`</div>`,
   land:(l)=> !l?"":`<div class="land"><div class="vl">${esc(l.vlag)}</div><div><h3>${esc(l.naam)}</h3><div class="hs">Hoofdstad: <b>${esc(l.hoofdstad)}</b></div></div>
     <ul>${(l.weetjes||[]).map(w=>`<li>${esc(w)}</li>`).join("")}</ul></div>`,
@@ -184,16 +242,46 @@ const R = {
     <details><summary>Toon de oplossing</summary><div class="a">${esc(q.oplossing)}${q.uitleg?`<br><span style="color:var(--muted)">${esc(q.uitleg)}</span>`:""}</div></details></div>`,
   feiten:(items)=> `<div class="feiten">`+(items||[]).map(f=>{ if(typeof f==="string") f={tekst:f};
     return `<div class="fe"><div class="em">${esc(f.emoji||"✨")}</div><div>${f.titel?`<b>${esc(f.titel)}</b>`:""}<span>${esc(f.tekst)}</span>${f.url?` <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.bron||"bron")} ↗</a>`:""}</div></div>`; }).join("")+`</div>`,
+  gezond:(g)=>{ if(!g) return ""; const w=g.week||{}, L=g.laatste||{}, y=g.jaar||{}, nl=n=>n==null?"–":Number(n).toLocaleString("nl-BE",{maximumFractionDigits:1});
+    const wp=Math.min(100,Math.round((w.water||0)/2.5*100));
+    const kpi=(l,v,u,s,x="")=>`<div class="kpi"><span class="l">${l}</span><span class="v">${v}<small>${u}</small></span><span class="s">${s}</span>${x}</div>`;
+    const lastD=L.datum?new Date(L.datum+"T12:00").toLocaleDateString("nl-BE",{weekday:"short",day:"numeric",month:"short"}):"–";
+    return `<div class="health"><div><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px"><span class="streak">● ${g.streak||0} ${g.streak===1?"dag":"dagen"} op rij ingevuld</span><span class="count" style="font-size:12px;color:var(--muted)">Laatste 7 dagen · laatste invoer ${esc(lastD)}</span></div>
+      <div class="kpis">${kpi("Water",nl(w.water),"l",`doel 2,5 l · ${w.water25??0}× gehaald`,`<div class="bar"><i style="width:${wp}%"></i></div>`)}
+      ${kpi("Sport",w.sport??0,"×",`op ${w.dagen??0} ingevulde dagen`)}${kpi("Alcoholvrij",w.alcoholvrij??0,"/"+(w.dagen??0),"dagen")}${kpi("Koffie",nl(w.koffie),"","per dag")}</div>
+      <div class="sparks"><div class="spark"><span class="l">Water</span>${spark(g.reeksen.water,"var(--health)")}<span class="r">${nl(L.water)} l</span></div>
+      <div class="spark"><span class="l">Koffie</span>${spark(g.reeksen.koffie,"var(--gold)")}<span class="r"></span></div>
+      <div class="spark"><span class="l">Alcohol</span>${spark(g.reeksen.alcohol,"#6366F1")}<span class="r"></span></div></div></div>
+      <div><ul class="insights">${(g.inzichten||[]).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
+      <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
+  uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
   mop:(m)=> !m?"":(m.vraag?`<p class="mop">${esc(m.vraag)}</p><div class="quiz" style="margin-top:12px"><details><summary>Toon het antwoord</summary><div class="a">${esc(m.antwoord)}</div></details></div>`:`<p class="mop">${esc(m.tekst)}</p>`)
 };
+
+let GIGS=[], gigF="", gigAll=false;
+function renderGigs(){
+  const today=new Date(); today.setHours(0,0,0,0);
+  const list=GIGS.filter(g=>g.datum && new Date(g.datum+"T23:59")>=today && (!gigF||g.soort===gigF)).sort((a,b)=>a.datum.localeCompare(b.datum));
+  const shown=gigAll?list:list.slice(0,8);
+  $("gigs").innerHTML = shown.map(g=>{ const d=new Date(g.datum+"T12:00");
+    return `<li class="gig"><div class="dt"><span>${d.toLocaleDateString("nl-BE",{weekday:"short"})}</span><b>${d.getDate()}</b><span>${d.toLocaleDateString("nl-BE",{month:"short"})}${d.getFullYear()!==today.getFullYear()?" "+String(d.getFullYear()).slice(2):""}</span></div>
+    <div><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.artiest)}</a>${g.titel?`<div class="sub2">${esc(g.titel)}</div>`:""}
+    <div class="tags"><span class="tg">${esc(g.zaal)}${g.uur?" · "+esc(g.uur):""}</span>${g.soort?`<span class="tg ${esc(g.soort)}">${esc(g.soort)}</span>`:""}${/uitverkocht|wachtlijst/i.test(g.status||"")?`<span class="tg st">uitverkocht</span><a class="tg ts" href="https://www.ticketswap.be/search?query=${encodeURIComponent(g.artiest)}" target="_blank" rel="noopener">Ticketswap ↗</a>`:g.status?`<span class="tg st">${esc(g.status)}</span>`:""}</div></div></li>`; }).join("") || `<li class="err" style="grid-column:1/-1">Geen optredens gevonden.</li>`;
+  $("gigmore").hidden = list.length<=8;
+  $("gigmore").textContent = gigAll?"Toon minder":`Toon alles (${list.length})`;
+}
+function initGigs(){ if(!$("gigs")) return; renderGigs();
+  $("gigf").addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; gigF=b.dataset.f; $("gigf").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b)); renderGigs(); });
+  $("gigmore").addEventListener("click", ()=>{ gigAll=!gigAll; renderGigs(); }); }
 function build(d){
+  GIGS=d.optredens||[];
   $("grid").innerHTML = CFG.secties.map(s=>{
-    const v = d[s.key]; if (Array.isArray(v) && !v.length) return ""; const body = R[s.type](v, s); if (!body) return "";
+    const v = d[s.key]; if (s.type==='uitgaan' && !GIGS.length) return ""; if (Array.isArray(v) && !v.length) return ""; const body = R[s.type](v, s); if (!body) return "";
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2><span class="meta">${esc(s.meta||"")}</span></div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v1";
-  loadImgs();
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v2";
+  initGigs(); loadImgs();
 }
 /* Foto's: opgezocht door een GitHub-taak (thumbs.json) */
 let TH=null;
@@ -212,10 +300,10 @@ async function loadImgs(){
     const src=T[el.dataset.t]; if(!src) return;
     const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
     im.onload=()=>{ if(im.naturalWidth<250){ return; } el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.prepend(im); };
-    im.src="https://wsrv.nl/?w=480&h=270&fit=cover&output=webp&q=72&url="+encodeURIComponent(src);
+    im.src=(el.dataset.p?"https://wsrv.nl/?w=360&h=540&fit=cover&output=webp&q=75&url=":"https://wsrv.nl/?w=480&h=270&fit=cover&output=webp&q=72&url=")+encodeURIComponent(src);
   });
 }
-fetch(CFG.json+"?"+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(build).catch(()=>{ $("grid").innerHTML=`<section class="card span-12"><div class="err">De pagina wordt straks voor het eerst gevuld. Probeer het later nog eens.</div></section>`; });
+fetch(CFG.json+"?"+Date.now()).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(async d=>{ if(CFG.secties.some(s=>s.type==="uitgaan")){ try{ d.optredens=(await (await tfetch("data.json?"+Date.now(),10000)).json()).optredens||[]; }catch(e){} } return d; }).then(build).catch(()=>{ $("grid").innerHTML=`<section class="card span-12"><div class="err">De pagina wordt straks voor het eerst gevuld. Probeer het later nog eens.</div></section>`; });
 })();
 </script>
 </body>

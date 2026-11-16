@@ -22,20 +22,19 @@ ALIASES = {
 TRUTHY = {"x", "X", 1, 1.0, True, "ja", "1"}
 
 
-def sheet_for_year(wb, year):
-    cur = dt.date.today().year
-    names = [f"{str(year)[2:]}_Michaël"]
+def sheet_for_year(wb, year, persoon="Michaël"):
+    names = [f"{str(year)[2:]}_{persoon}"]
     if year == 2026:
-        names.insert(0, "Michaël")
+        names.insert(0, persoon)
     for n in names:
         if n in wb.sheetnames:
             return wb[n]
-    raise SystemExit(f"Geen tabblad voor Michaël in {year}")
+    raise SystemExit(f"Geen tabblad voor {persoon} in {year}")
 
 
 def parse(ws, year):
     rows = list(ws.iter_rows(values_only=True))
-    hdr_i = next(i for i, r in enumerate(rows) if any(str(c).strip().lower() == "stappen" for c in r if c))
+    hdr_i = next(i for i, r in enumerate(rows) if any(str(c).strip().lower() in ("stappen", "fysiek (0 - 2)") for c in r if c))
     cols = {}
     for j, c in enumerate(rows[hdr_i]):
         if c is None:
