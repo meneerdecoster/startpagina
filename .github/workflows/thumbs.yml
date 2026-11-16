@@ -1,7 +1,7 @@
 name: thumbs
 on:
   push:
-    paths: ["data.json", "tools/thumbs.py"]
+    paths: ["data.json", "ida.json", "otto.json", "severine.json", "tools/thumbs.py"]
   schedule:
     - cron: "40 23 * * *"
   workflow_dispatch:

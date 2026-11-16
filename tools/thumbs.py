@@ -67,19 +67,25 @@ def thumb(u):
 
 def urls(d):
     out = []
-    for k in ("markten", "tech"):
-        out += [i.get("url") for i in d.get(k, [])]
+    for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels"):
+        out += [i.get("url") for i in d.get(k, []) if isinstance(i, dict)]
     for p in d.get("podcasts", []):
         out += [e.get("url") for e in p.get("afleveringen", [])]
     for lst in (d.get("sport") or {}).values():
         out += [i.get("url") for i in lst]
     return [u for u in dict.fromkeys(out) if u]
 
-d = json.load(open("data.json"))
+import os
+src = {}
+for f in ("data.json", "ida.json", "otto.json", "severine.json"):
+    if os.path.exists(f):
+        try: src[f] = json.load(open(f))
+        except Exception as e: print("fout", f, e, file=sys.stderr)
 try: old = json.load(open("thumbs.json"))
 except Exception: old = {}
 res = {}
-for u in urls(d):
+for d in src.values():
+  for u in urls(d):
     res[u] = old[u] if u in old else thumb(u)
 json.dump(res, open("thumbs.json", "w"), ensure_ascii=False, indent=1)
 print(sum(1 for v in res.values() if v), "van", len(res), "met afbeelding")
