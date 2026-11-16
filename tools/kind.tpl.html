@@ -188,7 +188,7 @@ const R = {
 };
 function build(d){
   $("grid").innerHTML = CFG.secties.map(s=>{
-    const body = R[s.type](d[s.key], s); if (!body) return "";
+    const v = d[s.key]; if (Array.isArray(v) && !v.length) return ""; const body = R[s.type](v, s); if (!body) return "";
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2><span class="meta">${esc(s.meta||"")}</span></div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
