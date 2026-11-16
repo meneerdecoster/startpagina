@@ -68,12 +68,20 @@ def thumb(u):
 def urls(d):
     out = []
     for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels", "lifestyle", "voeding", "boeken"):
-        out += [i.get("url") for i in d.get(k, []) if isinstance(i, dict)]
+        out += [x for i in d.get(k, []) if isinstance(i, dict) for x in (i.get("url"), i.get("video"))]
     for p in d.get("podcasts", []):
         out += [e.get("url") for e in p.get("afleveringen", [])]
     for lst in (d.get("sport") or {}).values():
         out += [i.get("url") for i in lst]
     return [u for u in dict.fromkeys(out) if u]
+
+def embeddable(u):
+    try:
+        get("https://www.youtube.com/oembed?format=json&url=" + urllib.parse.quote(u, safe=""), n=3000); return True
+    except urllib.error.HTTPError as e:
+        return False if e.code in (401, 403, 404) else None
+    except Exception:
+        return None
 
 import os
 src = {}
@@ -89,3 +97,12 @@ for d in src.values():
     res[u] = old[u] if u in old else thumb(u)
 json.dump(res, open("thumbs.json", "w"), ensure_ascii=False, indent=1)
 print(sum(1 for v in res.values() if v), "van", len(res), "met afbeelding")
+
+# Kan elke YouTube-video ingebed worden? (embed.json: url -> true/false)
+try: emb = json.load(open("embed.json"))
+except Exception: emb = {}
+for u in res:
+    if yt_thumb(u) and emb.get(u) is None:
+        v = embeddable(u)
+        if v is not None: emb[u] = v
+json.dump({u: v for u, v in emb.items() if u in res}, open("embed.json", "w"), indent=1)

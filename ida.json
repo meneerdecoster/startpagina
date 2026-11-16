@@ -90,7 +90,12 @@
    "Hanoi is de hoofdstad van Vietnam. De grootste stad is Ho Chi Minh-Stad.",
    "De Baai van Ha Long staat op de werelderfgoedlijst van UNESCO, met duizenden rotsen die uit het water steken.",
    "Son Doong is een van de grootste grotten ter wereld. Er groeit zelfs een stukje bos in de grot."
-  ]
+  ],
+  "iso2": "vn",
+  "iso": "704",
+  "lat": 16.0,
+  "lon": 106.0,
+  "inwoners": "ongeveer 100 miljoen"
  },
  "raadsel": {
   "vraag": "Ik heb een kop en een staart, maar geen lijf. Wat ben ik?",
