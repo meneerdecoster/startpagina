@@ -52,7 +52,7 @@ a{color:inherit}
 .wx .i{font-size:20px; line-height:1.2}
 .wx .tt{font-weight:600; font-size:15px}
 .wx .r{opacity:.9}
-.grid{display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:-60px; position:relative}
+.grid{display:grid; grid-template-columns:repeat(12,1fr); gap:18px; align-items:start; margin-top:-60px; position:relative}
 .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:22px 22px 20px; min-width:0}
 .span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}
 @media (max-width:980px){.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}}
@@ -82,7 +82,9 @@ a{color:inherit}
 .tp img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
 .pl{position:absolute; right:8px; bottom:8px; width:30px; height:30px; border-radius:50%; background:rgba(0,0,0,.6); color:#fff; display:grid; place-items:center; font-size:12px; padding-left:2px}
 .tiles.bk{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
-.tiles.bk .tp{aspect-ratio:2/3; font-size:40px}
+.tiles.bk .tp{aspect-ratio:2/3; font-size:40px; background:var(--surface-2)}
+.tiles.bk .tp img{object-fit:contain; background:var(--surface-2)}
+.tiles.bk .tile.x{display:none}
 .tile .tt{font-weight:600; font-size:14px; line-height:1.3; margin-top:8px}
 .tile:hover .tt{text-decoration:underline; text-underline-offset:3px}
 .tile .ts{font:11px var(--mono); color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-top:3px}
@@ -96,6 +98,12 @@ a{color:inherit}
 .land ul{margin:0; padding-left:20px; display:grid; gap:8px}
 .land li::marker{color:var(--accent)}
 .land .gl canvas{width:190px; height:190px; display:block}
+.yr{margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); font-size:13px; line-height:1.5; color:var(--muted)}
+.health .count{font-size:12px; color:var(--muted)}
+.health .insights{margin-top:2px}
+.mc .ph{display:grid; place-items:center; font-size:34px; aspect-ratio:16/9}
+.mc .ph img{position:absolute; inset:0}
+.mb p{display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden}
 .media{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:20px}
 .mc{display:flex; flex-direction:column; gap:10px; min-width:0}
 .vm{aspect-ratio:16/9; border-radius:14px; overflow:hidden; cursor:pointer; position:relative; background:var(--surface-2)}
@@ -247,6 +255,7 @@ function spark(series, color){
 }
 
 let EMB={};
+const lastV=a=>{ const v=[...(a||[])].reverse().find(p=>p.v!=null); return v?Number(v.v).toLocaleString("nl-BE",{maximumFractionDigits:1}):""; };
 const ytId=u=>{ const m=String(u||"").match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{11})/); return m?m[1]:null; };
 /* Onderdelen */
 const R = {
@@ -255,7 +264,7 @@ const R = {
     ${n.label?`<span class="lab">${esc(n.label)}</span><br>`:""}<a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titel)}</a>
     <p>${esc(n.samenvatting||"")}</p><span class="src">${esc(n.bron||"")}</span></li>`).join("")+`</ul>`,
   tiles:(items,s)=> `<div class="tiles${s.portret?" bk":""}">`+(items||[]).map(n=>`<a class="tile" href="${esc(n.url)}" target="_blank" rel="noopener">
-    <div class="tp" data-t="${esc(n.url)}"${s.portret?" data-p=\"1\"":""}>${esc(n.emoji||s.emoji||"🎬")}${n.soort==="foto"||s.portret?"":`<span class="pl">▶</span>`}</div>
+    <div class="tp" data-t="${esc(n.url)}"${s.portret?` data-p="1" data-i="${esc(String(n.isbn||"").replace(/[^0-9Xx]/g,""))}"`:""}>${esc(n.emoji||s.emoji||"🎬")}${n.soort==="foto"||s.portret?"":`<span class="pl">▶</span>`}</div>
     <div class="tt">${esc(n.titel)}</div><div class="ts">${esc(n.bron||"")}</div></a>`).join("")+`</div>`,
   land:(l)=> { if(!l) return ""; const fl=l.iso2?`<img class="fl" alt="" src="https://flagcdn.com/w320/${esc(String(l.iso2).toLowerCase())}.png" data-e="${esc(l.vlag||"")}">`:`<span class="fl e">${esc(l.vlag)}</span>`;
     return `<div class="land"><div class="lid">${fl}<div><h3>${esc(l.naam)}</h3><div class="hs">Hoofdstad: <b>${esc(l.hoofdstad)}</b></div>${l.inwoners?`<div class="hs">Inwoners: <b>${esc(l.inwoners)}</b></div>`:""}</div></div>
@@ -263,7 +272,7 @@ const R = {
   media:(items,s)=>{ let L=(items||[]).map(n=>{ const yv=ytId(n.url); const v=n.video||(yv?n.url:null); return {...n,v,id:ytId(v),art:yv?null:n.url}; });
     L=L.filter(n=>{ if(n.id&&EMB[n.v]===false){ if(!n.art) return false; n.id=null; n.v=null; } return true; });
     if(s.max) L=L.slice(0,s.max);
-    return `<div class="media">`+L.map(n=>`<article class="mc">${n.id?`<div class="vm" data-id="${esc(n.id)}" role="button" tabindex="0" aria-label="Speel af"><div class="tp" data-t="${esc(n.v)}">🎬<span class="pl">▶</span></div></div>`:(n.art?`<a class="ph" href="${esc(n.art)}" target="_blank" rel="noopener" data-u="${esc(n.art)}" tabindex="-1" aria-hidden="true"></a>`:"")}
+    return `<div class="media">`+L.map(n=>`<article class="mc">${n.id?`<div class="vm" data-id="${esc(n.id)}" role="button" tabindex="0" aria-label="Speel af"><div class="tp" data-t="${esc(n.v)}">🎬<span class="pl">▶</span></div></div>`:(n.art?`<a class="ph" href="${esc(n.art)}" target="_blank" rel="noopener" data-u="${esc(n.art)}" tabindex="-1" aria-hidden="true">🎬</a>`:"")}
       <div class="mb">${n.label?`<span class="lab">${esc(n.label)}</span>`:""}${n.art?`<a class="t" href="${esc(n.art)}" target="_blank" rel="noopener">${esc(n.titel)}</a>`:`<span class="t">${esc(n.titel)}</span>`}${n.samenvatting?`<p>${esc(n.samenvatting)}</p>`:""}<span class="src">${esc(n.bron||"")}</span></div></article>`).join("")+`</div>`; },
   quiz:(q)=> !q?"":`<div class="quiz"><p class="q">${esc(q.vraag)}</p>${q.opties?`<ol type="A">${q.opties.map(o=>`<li>${esc(o)}</li>`).join("")}</ol>`:""}
     <details><summary>Toon de oplossing</summary><div class="a">${esc(q.oplossing)}${q.uitleg?`<br><span style="color:var(--muted)">${esc(q.uitleg)}</span>`:""}</div></details></div>`,
@@ -277,8 +286,8 @@ const R = {
       <div class="kpis">${kpi("Water",nl(w.water),"l",`doel 2,5 l · ${w.water25??0}× gehaald`,`<div class="bar"><i style="width:${wp}%"></i></div>`)}
       ${kpi("Sport",w.sport??0,"×",`op ${w.dagen??0} ingevulde dagen`)}${kpi("Alcoholvrij",w.alcoholvrij??0,"/"+(w.dagen??0),"dagen")}${kpi("Koffie",nl(w.koffie),"","per dag")}</div>
       <div class="sparks"><div class="spark"><span class="l">Water</span>${spark(g.reeksen.water,"var(--health)")}<span class="r">${nl(L.water)} l</span></div>
-      <div class="spark"><span class="l">Koffie</span>${spark(g.reeksen.koffie,"var(--gold)")}<span class="r"></span></div>
-      <div class="spark"><span class="l">Alcohol</span>${spark(g.reeksen.alcohol,"#6366F1")}<span class="r"></span></div></div></div>
+      <div class="spark"><span class="l">Koffie</span>${spark(g.reeksen.koffie,"var(--gold)")}<span class="r">${lastV(g.reeksen.koffie)}</span></div>
+      <div class="spark"><span class="l">Alcohol</span>${spark(g.reeksen.alcohol,"#6366F1")}<span class="r">${lastV(g.reeksen.alcohol)}</span></div></div></div>
       <div><ul class="insights">${(g.inzichten||[]).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
       <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
   uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
@@ -323,6 +332,9 @@ async function globe(){ const cv=$("globe"); if(!cv) return;
     ctx.beginPath(); path({type:"Sphere"}); ctx.strokeStyle=dark?"#42527A":"#9CC3E0"; ctx.lineWidth=3; ctx.stroke();
   }catch(e){ cv.parentNode.remove(); }
 }
+
+function fitBooks(){ document.querySelectorAll(".tiles.bk").forEach(g=>{ const tl=[...g.children]; tl.forEach(x=>x.classList.remove("x")); const cols=getComputedStyle(g).gridTemplateColumns.split(" ").length; const keep=tl.length>=cols?Math.floor(tl.length/cols)*cols:tl.length; tl.forEach((x,i)=>{ if(i>=keep) x.classList.add("x"); }); }); }
+addEventListener("resize",fitBooks);
 function build(d){
   GIGS=d.optredens||[];
   $("grid").innerHTML = CFG.secties.map(s=>{
@@ -330,8 +342,8 @@ function build(d){
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2>${s.link?`<a class="meta" href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.meta||"")} ↗</a>`:`<span class="meta">${esc(s.meta||"")}</span>`}</div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v4";
-  initGigs(); loadImgs(); globe();
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v5";
+  initGigs(); fitBooks(); loadImgs(); globe();
 }
 /* Foto's: opgezocht door een GitHub-taak (thumbs.json) */
 let TH=null;
@@ -346,7 +358,19 @@ async function loadImgs(){
     im.src="https://wsrv.nl/?w=800&h=450&fit=cover&a=attention&output=webp&q=72&url="+encodeURIComponent(src);
     el.prepend(im);
   });
-  document.querySelectorAll(".tp[data-t]").forEach(el=>{
+  document.querySelectorAll(".vm .tp[data-t]").forEach(el=>{ const id=el.parentNode.dataset.id, src=T[el.dataset.t];
+    const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
+    im.onload=()=>{ if(im.naturalWidth<600){ im.onload=null; im.src="https://i.ytimg.com/vi/"+id+"/hqdefault.jpg"; el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.prepend(im); im.style.objectFit="cover"; return; } el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.prepend(im); };
+    im.onerror=()=>{ if(src){ const i2=new Image(); i2.alt=""; i2.onload=()=>{ el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.prepend(i2); }; i2.src=src; } };
+    im.src="https://i.ytimg.com/vi/"+id+"/maxresdefault.jpg"; });
+  document.querySelectorAll(".tp[data-i]").forEach(el=>{ const isbn=el.dataset.i, art=T[el.dataset.t];
+    const srcs=[]; if(isbn){ srcs.push("https://covers.openlibrary.org/b/isbn/"+isbn+"-L.jpg?default=false"); srcs.push("https://books.google.com/books/content?vid=ISBN:"+isbn+"&printsec=frontcover&img=1&zoom=1"); }
+    if(art) srcs.push("https://wsrv.nl/?w=360&h=540&fit=cover&output=webp&q=75&url="+encodeURIComponent(art));
+    const tryNext=()=>{ const s=srcs.shift(); if(!s){ return; } const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
+      im.onload=()=>{ if(im.naturalWidth<90||im.naturalHeight<120){ tryNext(); return; } el.firstChild&&el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.classList.add("cv"); el.prepend(im); };
+      im.onerror=tryNext; im.src=s; };
+    tryNext(); });
+  document.querySelectorAll(".tp[data-t]:not([data-i])").forEach(el=>{ if(el.closest(".vm")) return;
     const src=T[el.dataset.t]; if(!src) return;
     const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
     im.onload=()=>{ if(im.naturalWidth<250){ return; } el.firstChild.nodeType===3&&(el.firstChild.textContent=""); el.prepend(im); };
