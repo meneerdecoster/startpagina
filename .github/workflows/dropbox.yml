@@ -12,7 +12,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Nieuwste bestand uit Dropbox halen
         env:
           DROPBOX_URL: "https://www.dropbox.com/scl/fo/9o00i82d0kudmikns7d1e/AH-e2QLIaQV-fxOnBBSUilg?rlkey=xmaskfu55msvecf8kjym0e0vk&dl=0"
