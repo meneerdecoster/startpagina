@@ -1,0 +1,53 @@
+name: dropbox
+# Haalt elke ochtend de nieuwste data-*.json uit de gedeelde Dropbox-map /Startpagina
+# en zet die online als data.json (+ foto's via tools/thumbs.py).
+on:
+  schedule:
+    - cron: "15 23 * * *"   # 06:15 Phnom Penh
+    - cron: "5 1 * * *"     # 08:05 Phnom Penh (tweede kans)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Nieuwste bestand uit Dropbox halen
+        env:
+          DROPBOX_URL: "https://www.dropbox.com/scl/fo/9o00i82d0kudmikns7d1e/AH-e2QLIaQV-fxOnBBSUilg?rlkey=xmaskfu55msvecf8kjym0e0vk&dl=0"
+        run: |
+          link="${DROPBOX_URL/dl=0/dl=1}"
+          case "$link" in *dl=1*) ;; *\?*) link="$link&dl=1" ;; *) link="$link?dl=1" ;; esac
+          curl -fsSL "$link" -o map.zip
+          mkdir -p dbx
+          unzip -o -q map.zip -d dbx || [ $? -eq 1 ]
+          f=$(find dbx -type f -name 'data-*.json' -printf '%f\t%p\n' | sort | tail -1 | cut -f2)
+          [ -n "$f" ] || { echo "Geen data-*.json gevonden"; exit 1; }
+          echo "Nieuwste: $f"
+          python3 - "$f" <<'PY'
+          import json, sys, datetime as dt, shutil
+          new = json.load(open(sys.argv[1]))
+          for k in ("bijgewerkt", "markten", "tech", "sport", "gezondheid"):
+              assert k in new, f"veld {k} ontbreekt"
+          try:
+              old = json.load(open("data.json"))["bijgewerkt"]
+          except Exception:
+              old = "2000-01-01T00:00:00+00:00"
+          if dt.datetime.fromisoformat(new["bijgewerkt"]) <= dt.datetime.fromisoformat(old):
+              print("Niet nieuwer dan de huidige data.json, niets te doen")
+              sys.exit(0)
+          json.dump(new, open("data.json", "w"), ensure_ascii=False, indent=1)
+          print("data.json bijgewerkt naar", new["bijgewerkt"])
+          PY
+          rm -rf dbx map.zip
+      - name: Foto's en commit
+        run: |
+          git diff --quiet data.json && exit 0
+          python3 tools/thumbs.py || echo "thumbs.py mislukt, data.json gaat toch online"
+          git config user.name "startpagina-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.json thumbs.json
+          git commit -m "Dagelijkse update uit Dropbox"
+          git pull --rebase origin main
+          git push
