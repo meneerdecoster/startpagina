@@ -4,7 +4,7 @@ import json, re, sys, urllib.request, urllib.parse
 from html.parser import HTMLParser
 
 UA = "Mozilla/5.0 (compatible; StartpaginaBot/1.0)"
-BAD = re.compile(r"logo|favicon|subscribe|placeholder|avatar|icon|substack\.com/api|twitter_card|\.(png|svg|gif)(\?|$)", re.I)
+BAD = re.compile(r"logo|favicon|subscribe|placeholder|avatar|icon|substack\.com/api|twitter_card|\.(svg|gif)(\?|$)", re.I)
 
 class Meta(HTMLParser):
     def __init__(self):
@@ -36,13 +36,23 @@ def home_og(u):
     if root not in _home: _home[root] = og_of(root)
     return _home[root]
 
-GENERIC = re.compile(r"opengraph|og[-_]?image|og[-_]?default|default|share[-_]?image|fallback|brand|omslag|logo", re.I)
+GENERIC = re.compile(r"opengraph[-_.]|og[-_]?default|default[-_]?(og|share|image|social)|share[-_]?image[-_]?default|fallback|logo", re.I)
 
 def yt_thumb(u):
     m = re.search(r"youtube\.com/watch\?v=([\w-]{11})|youtu\.be/([\w-]{11})", u)
     return f"https://i.ytimg.com/vi/{m.group(1) or m.group(2)}/mqdefault.jpg" if m else None
 
 NOPHOTO = ("veb.net",)
+
+def microlink(u):
+    """Voor sites die bots blokkeren (403): laat een externe dienst de hoofdfoto opzoeken."""
+    try:
+        r, body = get("https://api.microlink.io/?url=" + urllib.parse.quote(u, safe=""), n=200000)
+        img = ((json.loads(body).get("data") or {}).get("image") or {}).get("url")
+        if img and not BAD.search(img): return img
+    except Exception as e:
+        print("microlink fout", u, e, file=sys.stderr)
+    return None
 
 def thumb(u):
     if any(h in urllib.parse.urlparse(u).netloc for h in NOPHOTO): return None
@@ -58,12 +68,16 @@ def thumb(u):
         if BAD.search(img) or GENERIC.search(img): return None
         h = home_og(u)
         if h and h.split('?')[0] == img.split('?')[0]: return None
-        r2, _ = get(img, "HEAD")
-        ct = r2.headers.get("Content-Type", ""); ln = int(r2.headers.get("Content-Length") or 0)
-        if not ct.startswith("image/") or (ln and ln < 25000): return None
+        try:
+            r2, _ = get(img, "HEAD")
+            ct = r2.headers.get("Content-Type", ""); ln = int(r2.headers.get("Content-Length") or 0)
+            if (ct and not ct.startswith("image/")) or (ln and ln < 25000): return None
+        except Exception:
+            pass  # sommige servers weigeren HEAD; de pagina controleert zelf de afmetingen
         return img
     except Exception as e:
-        print("fout", u, e, file=sys.stderr); return None
+        print("fout", u, e, file=sys.stderr)
+        return microlink(u)
 
 def urls(d):
     out = []
@@ -94,7 +108,7 @@ except Exception: old = {}
 res = {}
 for d in src.values():
   for u in urls(d):
-    res[u] = old[u] if u in old else thumb(u)
+    res[u] = old[u] if old.get(u) else thumb(u)
 json.dump(res, open("thumbs.json", "w"), ensure_ascii=False, indent=1)
 print(sum(1 for v in res.values() if v), "van", len(res), "met afbeelding")
 
