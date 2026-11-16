@@ -21,7 +21,7 @@ jobs:
           case "$link" in *dl=1*) ;; *\?*) link="$link&dl=1" ;; *) link="$link?dl=1" ;; esac
           curl -fsSL "$link" -o map.zip
           mkdir -p dbx
-          unzip -o -q map.zip -d dbx || [ $? -eq 1 ]
+          python3 -m zipfile -e map.zip dbx
           f=$(find dbx -type f -name 'data-*.json' -printf '%f\t%p\n' | sort | tail -1 | cut -f2)
           [ -n "$f" ] || { echo "Geen data-*.json gevonden"; exit 1; }
           echo "Nieuwste: $f"
