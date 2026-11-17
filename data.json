@@ -1,73 +1,73 @@
 {
- "bijgewerkt": "2026-11-16T16:12:01+07:00",
+ "bijgewerkt": "2026-11-17T08:00:13+07:00",
  "vandaag": [
   {
-   "wanneer": "Di 17 nov, na slot Wall Street",
-   "wat": "Kwartaalcijfers Nvidia, de eerste zonder Jensen Huang aan het roer"
+   "wanneer": "Di 17 nov, ca. 22.20 u (BE)",
+   "wat": "Nvidia publiceert kwartaalcijfers, de eerste zonder Jensen Huang; aandeel al −25% op een maand"
   },
   {
    "wanneer": "Wo 18 nov",
-   "wat": "Beursgang Anthropic wordt geprijsd, handel op Nasdaq (ticker ANT) vanaf do 19 nov"
+   "wat": "Prijszetting beursgang Anthropic (vork 70–78 dollar) en notulen van de Fed; handel op Nasdaq (ANT) vanaf do 19 nov"
   },
   {
    "wanneer": "Za 21 nov (BE)",
-   "wat": "Zulte Waregem – Antwerp: een must-win voor trainer Compper"
+   "wat": "Zulte Waregem – Antwerp, en HG Cross in Lokeren (mannen ca. 14.55 u)"
   },
   {
-   "wanneer": "Zo 22 nov 15.00 u (BE)",
-   "wat": "BE-Mine Cross in Beringen (X²O-trofee)"
+   "wanneer": "Zo 22 nov ca. 14.55 u (BE)",
+   "wat": "X²O-cross in Beringen, waar Thibau Nys Belgisch kampioen werd"
   }
  ],
  "markten": [
   {
-   "titel": "Fed overweegt zelfs een dubbele renteverhoging in december",
-   "samenvatting": "Raakt je obligatie-ETF: de Amerikaanse kerninflatie viel in oktober opnieuw hoger uit dan verwacht, waardoor Fed-bestuurders nu ook een stap van 0,5 procentpunt op tafel leggen. De obligatierendementen stegen verder (de tienjarige rond 5,1%), wat de koers van bestaande obligaties drukt. Het besluit valt op 8 en 9 december.",
-   "bron": "HBP Media",
-   "url": "https://hbpmedia.nl/nieuws/amerikaanse-centrale-bank-overweegt-dubbele-renteverhoging-na-tegenvallende-inflatiecijfers"
+   "titel": "Wall Street zakt opnieuw: Nasdaq −2,5%, Nvidia −4,1%",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: de S&P 500 verloor maandag 1,9% en de Nasdaq 2,5%, de derde verliesdag op rij. Beleggers ruilen grote AI-aandelen in voor waardeaandelen in aanloop naar de Nvidia-cijfers van vanavond; ook Intel (−7%) en chipgenoten moesten flink terrein prijsgeven.",
+   "bron": "CashCow",
+   "url": "https://cashcow.nl/wall-street-sluit-flink-lager-door-verdere-rotatie-uit-technologie/"
   },
   {
-   "titel": "Week van de waarheid: Nvidia-cijfers en beursgang Anthropic",
-   "samenvatting": "Raakt je wereld-ETF: na het vertrek van Jensen Huang zakten techaandelen en Wall Street vorige week. Dinsdag publiceert Nvidia, het zwaarste gewicht in veel wereldindexen, zijn cijfers; woensdag volgt de prijszetting van Anthropic. Beide bepalen het sentiment rond AI-aandelen.",
-   "bron": "De Aandeelhouder",
-   "url": "https://www.deaandeelhouder.nl/nieuws/2026/11/15/komende-week-in-het-teken-van-nvidia-en-beursgang-anthropic/"
+   "titel": "Zilver duikt 3,7% lager, onder 47 dollar",
+   "samenvatting": "Raakt je zilver: de prijs zakte maandag naar zowat 46,97 dollar per ounce, ruim 60% onder het record van januari. Een bijna zekere Fed-renteverhoging in december en een sterke dollar wegen; zilver deed het slechter dan goud, de goud-zilverratio steeg boven 82.",
+   "bron": "USAGOLD",
+   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-16-2026/"
   },
   {
-   "titel": "Bitcoin zakt naar 63.500 dollar",
-   "samenvatting": "Raakt je bitcoin: de koers verloor zo'n 16% op een week, onder druk van de verwachte Fed-renteverhoging, ruim een miljard dollar aan gedwongen liquidaties en circa 1,07 miljard dollar uitstroom uit Amerikaanse bitcoin-ETF's. Het jaardieptepunt van 58.566 dollar (1 juli) komt in zicht.",
-   "bron": "Cryptoticker",
-   "url": "https://cryptoticker.io/nl/crypto-nieuws-bitcoin-zakt-naar-63500-dollar-14-november-2026/"
+   "titel": "Bitcoin rond 64.000 dollar, −22% op een maand",
+   "samenvatting": "Raakt je bitcoin: de koers verloor maandag nog eens ruim 2%. Amerikaanse bitcoin-ETF's zagen in november al zo'n 2,1 miljard dollar wegvloeien en de sentimentsindex staat op 'extreme angst'; ook cryptoaandelen als Strategy en Coinbase gingen fors onderuit.",
+   "bron": "Fortune",
+   "url": "https://fortune.com/article/price-of-bitcoin-11-16-2026/"
   },
   {
-   "titel": "Zilver op laagste peil in een jaar",
-   "samenvatting": "Raakt je zilver: de prijs zakte vrijdag 2,6% tot 48,65 dollar per ounce, zowat 58% onder de piek van eind januari. Hogere rentes, een sterke dollar en zwakkere industriële vraag wegen; goud hield beter stand rond 3.888 dollar.",
-   "bron": "Rio Times",
-   "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-13-2026/"
+   "titel": "Amerikaanse tienjarige rente blijft rond 5,14%",
+   "samenvatting": "Raakt je obligatie-ETF: na drie maanden op rij hogere kerninflatie rekenen de markten volledig op een Fed-renteverhoging van een kwartpunt in december. Fed-voorzitter Warsh gaf maandag in zijn toespraak geen nieuwe rentehints; woensdag volgen de notulen van de oktobervergadering.",
+   "bron": "Pomegra",
+   "url": "https://pomegra.io/news/warsh-speaks-as-fed-rate-hike-priced-in-10-year-at-514"
   }
  ],
  "tech": [
   {
-   "titel": "Petitie wil Jensen Huang terug bij Nvidia",
-   "samenvatting": "Meer dan 115.000 mensen, onder wie Elon Musk en Tim Sweeney, vragen het bestuur om Huang te herstellen en een onafhankelijk onderzoek te voeren. Ook grote aandeelhouders Altimeter en Atreides willen zijn terugkeer als optie openhouden. CFO Colette Kress leidt intussen tijdelijk.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
-  },
-  {
-   "titel": "Anthropic mikt op waardering tot 1,4 biljoen dollar",
-   "samenvatting": "Dat is minder dan de 2 biljoen waar sommige investeerders eerder op rekenden, door de verkoopgolf in AI-aandelen. De prijs wordt woensdag vastgelegd, de handel op Nasdaq start donderdag.",
+   "titel": "Bessent zet Nvidia-bestuur tien dagen ultimatum",
+   "samenvatting": "De Amerikaanse minister van Financiën wil binnen tien dagen uitleg over hoe Nvidia onder Huang het chipexportverbod naar China naleefde, met vragen over sterk gestegen verkopen via Singapore. Intussen heeft een 'war room' rond Huang al 175.000 handtekeningen voor zijn terugkeer.",
    "bron": "Fortune",
-   "url": "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/"
+   "url": "https://fortune.com/2026/11/16/war-room-jensen-huang-nvidia-treasury-scott-bessent/"
   },
   {
-   "titel": "Microsoft-storing groeit uit tot wereldwijde cloudcrisis",
-   "samenvatting": "Wat begon bij Outlook en Teams legde zowat 18 uur lang ook bestanden, Copilot, Defender en Intune plat voor miljoenen gebruikers. Microsoft spreekt van 'een groot aantal servers' dat onverwacht wegviel; de oorzaak wordt nog onderzocht.",
+   "titel": "Anthropic-beursgang zes keer overtekend",
+   "samenvatting": "Anthropic biedt 825 miljoen aandelen aan tegen 70 tot 78 dollar, goed voor een waardering tot zowat 1,4 biljoen dollar. Strategische partners als Google, Nvidia en Microsoft kopen samen voor 26 miljard dollar in; de prijs valt woensdag vast.",
+   "bron": "Asia Times",
+   "url": "https://asiatimes.com/2026/11/anthropic-ipo-the-age-of-miracles-priced-at-78-a-share/"
+  },
+  {
+   "titel": "AMD rondt overname van World Labs af",
+   "samenvatting": "De deal van 8,2 miljard dollar in aandelen is maandag afgerond. Oprichter Fei-Fei Li wordt chief scientist en rapporteert rechtstreeks aan Lisa Su; haar team werkt aan 3D-wereldmodellen en robotleren.",
+   "bron": "The AI Insider",
+   "url": "https://theaiinsider.tech/2026/11/16/amd-completes-world-labs-acquisition-names-fei-fei-li-chief-scientist/"
+  },
+  {
+   "titel": "OpenAI haalt externe onderzoekers binnen om AI-sabotage te testen",
+   "samenvatting": "Onderzoekers van Apollo gaan bij OpenAI zelf onderzoeken of modellen hun makers kunnen misleiden of ondermijnen. Dezelfde dag kreeg OpenAI een rechtszaak van de staat Californië aan de broek over hackingrisico's.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/"
-  },
-  {
-   "titel": "OpenAI doekt apart roboticateam op",
-   "samenvatting": "De onderzoekers schuiven door naar de hoofdonderzoeksgroep en de Applied-afdeling. Volgens OpenAI kunnen algemene modellen zoals GPT-6 Astra robots nu rechtstreeks aansturen. Het bedrijf staat onder druk om kosten te drukken na een kwartaalverlies van 10,9 miljard dollar.",
-   "bron": "Fortune",
-   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+   "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
   }
  ],
  "podcasts": [
@@ -106,289 +106,54 @@
  "sport": {
   "duivels": [
    {
-    "titel": "Rode Duivels verpletteren Italië (4-1) en staan in de kwartfinale",
-    "samenvatting": "Na een vroege Italiaanse goal zetten De Cuyper, Ngoy en Doku het binnen elf minuten recht; Moreira maakte er laat 4-1 van. Lammens stopte in de toegevoegde tijd nog een strafschop. In maart 2027 volgen de kwartfinales van de Nations League.",
-    "url": "https://sporza.be/nl/matches/voetbal/eur/uefa-nations-league/2026-2027/groep-1/06/belgie-italie-rode-duivels-verpletteren-italie-met-knalprestatie-en-swingen-naar-kwartfinales-nations-league~1770981782507/"
+    "titel": "Romelu Lukaku stopt onverwacht als Rode Duivel",
+    "samenvatting": "De recordschutter van de nationale ploeg maakte maandag op Instagram bekend dat hij na zestien jaar een punt zet achter zijn interlandcarrière. Bondscoach Van Bommel zegt de beslissing te respecteren.",
+    "url": "https://sporza.be/nl/2026/11/16/romelu-lukaku-stopt-onverwacht-bij-rode-duivels-ik-heb-van-elk-moment-genoten~1794822218090/"
    },
    {
-    "titel": "Doku dribbelt Italiaanse defensie dol",
-    "samenvatting": "Jérémy Doku slalomde langs drie verdedigers voor de 3-1, hét doelpunt van de avond.",
-    "url": "https://sporza.be/nl/2026/11/15/momentje-van-pure-magie-jeremy-doku-dribbelt-italiaanse-defensie-tureluurs-en-zorgt-voor-de-goal-van-de-avond~1794773729355/"
+    "titel": "Zo verliep Lukaku's laatste avond",
+    "samenvatting": "Tegen Italië bleef hij na een heupblessure op de bank, ondanks een halfuur opwarmen. Hij sprak de groep vooraf nog toe, kreeg een tifo van de fans en liep na afloop een ereronde, verstopt onder zijn kap.",
+    "url": "https://sporza.be/nl/2026/11/16/het-begon-met-vurige-speech-maar-eindigde-verdoken-onder-een-kap-dit-was-de-laatste-avond-van-romelu-lukaku-als-rode-duivel~1794826596249/"
    }
   ],
   "antwerp": [
    {
-    "titel": "Druk op Compper blijft groot",
-    "samenvatting": "Clubicoon Patrick Goots verwacht dat Antwerp de trainer tot de winterstop behoudt, maar de match in Waregem na de interlandbreak moet gewonnen worden.",
-    "url": "https://www.voetbalnieuws.be/news/934175/code-rood-bij-antwerp-marvin-compper-krijgt-deadline"
-   },
-   {
-    "titel": "Antwerp blijft steken op 2-2 tegen Lommel",
-    "samenvatting": "Twee keer op voorsprong op de Bosuil, twee keer Konadu. Met 11 op 33 staat de Great Old 13e.",
-    "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/11/antwerp-lommel-sk-live-antwerp-slaat-zichzelf-even-om-de-oren-na-lommelse-gelijkmaker-maar-klimt-5-minuten-later-weer-op-voorsprong~1781871729145/"
+    "titel": "Faris Haroun wordt Head of Football bij Antwerp",
+    "samenvatting": "Na het vertrek van Overmars hertekent Antwerp zijn sportieve structuur: assistent-trainer Haroun wordt eindverantwoordelijke voor het sportbeleid, Peter Catteeuw Head of Sports & Data. Ex-RSCA Futures-coach Jelle Coen volgt Haroun op als assistent van Compper.",
+    "url": "https://www.voetbalkrant.com/nieuws/2026-11-16/antwerp-hertekent-structuur-om-overmars-te-vervangen-voormalig-anderlecht-trainer-naar-a-ploeg"
    }
   ],
   "cross": [
    {
-    "titel": "Thibau Nys wint Bollekescross in Hamme-Zogge",
-    "samenvatting": "Nys reed lang rond plek acht, schoof in de voorlaatste ronde op en won de sprint van vier voor Vandeputte en Vanthourenhout. Hij leidt de X²O-trofee met 7 seconden voor Vanthourenhout. Zondag volgt Beringen.",
-    "url": "https://sporza.be/nl/matches/veldrijden/x-o-trofee/2026/bollekescross-livestream-bollekescross-thibau-nys-schuift-op-met-de-finale-in-hamme-zogge-in-zicht~1789392900429"
+    "titel": "Nys wipt Van der Poel voorbij in UCI-ranking",
+    "samenvatting": "Na zijn zege in Hamme-Zogge blijft Thibau Nys dit seizoen ongeslagen en klimt hij naar de tweede plaats in de wereldranking, achter Niels Vandeputte. Van der Poel, die deze winter nog niet reed, zakt naar drie.",
+    "url": "https://www.wielernieuws.be/news/59548/nys-houdt-perfect-rapport-en-deelt-tik-uit-aan-mathieu-van-der-poel"
    },
    {
-    "titel": "Perfect weekend voor Lucinda Brand",
-    "samenvatting": "Na Merksplas won de wereldkampioene ook in Hamme-Zogge, met een explosieve sprint tegen de Italiaanse kampioene Sara Casasola.",
-    "url": "https://sporza.be/nl/matches/veldrijden/x-o-trofee-vrouwen/2026/bollekescross-dankzij-explosieve-sprint-houdt-lucinda-brand-italiaans-kampioene-sara-casasola-af-in-hamme-zogge~1789393860394"
+    "titel": "Dubbel crossweekend: Lokeren en Beringen",
+    "samenvatting": "Zaterdag staat de HG Cross in Lokeren op het programma, zondag de X²O-manche in Beringen, waar Nys Belgisch kampioen werd. De mannen starten telkens rond 14.55 uur.",
+    "url": "https://www.indeleiderstrui.nl/veldrijden/veldrijden-op-tv-hoe-laat-moet-je-inschakelen-voor-thibau-nys-op-plek-waar-hij-belgisch-kampioen-werd"
    }
   ]
  },
  "weetjes": [
   {
-   "tekst": "De vloer van de Zilveren Pagode in het Koninklijk Paleis van Phnom Penh bestaat uit meer dan 5.000 zilveren tegels van elk ruim een kilo. Bezoekers zien er meestal maar een klein stukje van, de rest ligt onder tapijt.",
-   "bron": "https://en.wikipedia.org/wiki/Silver_Pagoda"
+   "tekst": "Angkor Wat staat al sinds de 19e eeuw in een of andere vorm op de vlag van Cambodja; het is een van de weinige nationale vlaggen met een gebouw erop.",
+   "bron": "https://en.wikipedia.org/wiki/Flag_of_Cambodia"
   },
   {
-   "tekst": "Kampotpeper was in 2016 het eerste Cambodjaanse product met een beschermde geografische aanduiding in de EU, net als champagne of parmaham.",
-   "bron": "https://en.wikipedia.org/wiki/Kampot_pepper"
+   "tekst": "Het Plantin-Moretusmuseum in Antwerpen was in 2005 het allereerste museum ter wereld dat op de UNESCO-Werelderfgoedlijst kwam. Er staan nog altijd de twee oudste bewaarde drukpersen ter wereld.",
+   "bron": "https://en.wikipedia.org/wiki/Plantin-Moretus_Museum"
   },
   {
-   "tekst": "De allereerste officiële interland van België werd in 1904 in Ukkel gespeeld tegen Frankrijk en eindigde op 3-3.",
-   "bron": "https://en.wikipedia.org/wiki/Belgium_national_football_team"
+   "tekst": "Op Venus duurt één dag (een volledige draai om de as, 243 aardse dagen) langer dan een heel jaar (een rondje rond de zon, 225 aardse dagen). Bovendien draait Venus achterstevoren.",
+   "bron": "https://en.wikipedia.org/wiki/Venus"
   },
   {
-   "tekst": "In het allereerste bitcoinblok (januari 2009) verstopte Satoshi Nakamoto een krantenkop van The Times over een tweede bankenreddingsoperatie, als knipoog naar waarom bitcoin bestaat.",
-   "bron": "https://en.bitcoin.it/wiki/Genesis_block"
+   "tekst": "Het woord 'beurs' komt uit Brugge: kooplui kwamen in de 13e-15e eeuw samen bij de herberg van de familie Van der Beurse, en die naam ging over op handelsplaatsen in heel Europa.",
+   "bron": "https://en.wikipedia.org/wiki/Stock_exchange"
   }
  ],
- "gezondheid": {
-  "streak": 4,
-  "laatste": {
-   "datum": "2026-11-15",
-   "stappen": 9422.0,
-   "slaap": 6.11,
-   "hrv": 51.0,
-   "rhr": 51.0,
-   "water": 1.25,
-   "sporttype": null,
-   "bedtijd": "00:16",
-   "opstaan": "06:44"
-  },
-  "week": {
-   "stappen": 9200.5,
-   "slaap": 7.42,
-   "hrv": 51.5,
-   "rhr": 49.5,
-   "water": 2.49,
-   "diep": 40.0,
-   "rem": 114.5,
-   "dagen": 4,
-   "sportdagen": 3,
-   "alcoholvrij": 4,
-   "koffie": 0.25,
-   "stappen10k": 2,
-   "water3l": 1
-  },
-  "jaar": {
-   "dagen": 67,
-   "sport_pct": 48,
-   "water": 2.64,
-   "alcohol_week": 8.0
-  },
-  "reeksen": {
-   "stappen": [
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 10436.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 6684.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 10260.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 9422.0
-    },
-    {
-     "d": "2026-11-16",
-     "v": null
-    }
-   ],
-   "slaap": [
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 8.47
-    },
-    {
-     "d": "2026-11-13",
-     "v": 8.09
-    },
-    {
-     "d": "2026-11-14",
-     "v": 7.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 6.11
-    },
-    {
-     "d": "2026-11-16",
-     "v": null
-    }
-   ],
-   "hrv": [
-    {
-     "d": "2026-11-02",
-     "v": null
-    },
-    {
-     "d": "2026-11-03",
-     "v": null
-    },
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 57.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 48.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 50.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 51.0
-    },
-    {
-     "d": "2026-11-16",
-     "v": null
-    }
-   ]
-  },
-  "inzichten": [
-   "Gemiddeld 9.200 stappen per dag; 2 van 4 dagen boven 10.000.",
-   "Water: gemiddeld 2,49 l. Nog 0,51 l per dag tot je doel van 3 l.",
-   "4 van 4 dagen alcoholvrij.",
-   "Afgelopen nacht 6,11 u slaap, onder je weekgemiddelde van 7,42 u. Bedtijd was 00:16."
-  ],
-  "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
- },
  "optredens": [
   {
    "datum": "2026-12-20",
@@ -650,5 +415,234 @@
    "status": null,
    "url": "https://concertje.be/en/concert/2027-10-30/antwerpen-lotto-arena/dressed-like-boys-17743"
   }
- ]
+ ],
+ "gezondheid": {
+  "streak": 5,
+  "laatste": {
+   "datum": "2026-11-16",
+   "stappen": 15133.0,
+   "slaap": 8.56,
+   "hrv": 51.0,
+   "rhr": 54.0,
+   "water": 2.5,
+   "sporttype": "Wandelen",
+   "bedtijd": "22:17",
+   "opstaan": "06:58"
+  },
+  "week": {
+   "stappen": 11184.4,
+   "slaap": 7.35,
+   "hrv": 52.0,
+   "rhr": 50.2,
+   "water": 2.49,
+   "diep": 33.4,
+   "rem": 117.2,
+   "dagen": 5,
+   "sportdagen": 4,
+   "alcoholvrij": 5,
+   "koffie": 0.4,
+   "stappen10k": 4,
+   "water3l": 1
+  },
+  "jaar": {
+   "dagen": 68,
+   "sport_pct": 49,
+   "water": 2.64,
+   "alcohol_week": 7.9
+  },
+  "reeksen": {
+   "stappen": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 10566.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 10402.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 10270.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 9551.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 15133.0
+    },
+    {
+     "d": "2026-11-17",
+     "v": null
+    }
+   ],
+   "slaap": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 7.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 8.09
+    },
+    {
+     "d": "2026-11-14",
+     "v": 7.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 6.11
+    },
+    {
+     "d": "2026-11-16",
+     "v": 8.56
+    },
+    {
+     "d": "2026-11-17",
+     "v": null
+    }
+   ],
+   "hrv": [
+    {
+     "d": "2026-11-03",
+     "v": null
+    },
+    {
+     "d": "2026-11-04",
+     "v": null
+    },
+    {
+     "d": "2026-11-05",
+     "v": null
+    },
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 57.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 48.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 50.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 54.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 51.0
+    },
+    {
+     "d": "2026-11-17",
+     "v": null
+    }
+   ]
+  },
+  "inzichten": [
+   "Gemiddeld 11.184 stappen per dag; 4 van 5 dagen boven 10.000.",
+   "Water: gemiddeld 2,49 l. Nog 0,51 l per dag tot je doel van 3 l.",
+   "5 van 5 dagen alcoholvrij."
+  ],
+  "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
+ }
 }
