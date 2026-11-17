@@ -1,69 +1,77 @@
 {
-  "bijgewerkt": "2026-11-17T06:30:00+07:00",
+  "bijgewerkt": "2026-11-17T08:30:00+07:00",
   "gebruikt": [
     "Vietnam",
-    "Maleisië"
+    "Maleisië",
+    "Cambodja"
   ],
   "nieuws": [
     {
-      "titel": "Het nieuws van de week in Karrewiet",
-      "samenvatting": "Karrewiet zet het nieuws van maandag tot vrijdag op een rijtje. Zo mis je niets van wat er in de wereld gebeurde.",
+      "titel": "Lily Yohannes heeft een eigen voetbalveld",
+      "samenvatting": "Voetbalster Lily Yohannes heeft een nieuw voetbalveld gekregen. Ze zegt: je kan alles bereiken wat je wilt.",
+      "bron": "NOS Jeugdjournaal",
+      "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
+    },
+    {
+      "titel": "Nepagenten: dit jaar al 14.000 meldingen",
+      "samenvatting": "Er zijn oplichters die zich voordoen als agent. Een echte agent komt je spullen nooit meebrengen: twijfel je, bel dan altijd de politie of vraag het aan een volwassene.",
+      "bron": "NOS Jeugdjournaal",
+      "url": "https://jeugdjournaal.nl/artikel/2639678-meer-meldingen-van-nepagenten-dit-jaar-al-14-000"
+    },
+    {
+      "titel": "NASA zoekt astronauten voor de maan",
+      "samenvatting": "NASA wil een grote basis op de maan bouwen en zoekt mensen die daar willen werken. Het is ook een oefening voor latere reizen naar Mars.",
+      "bron": "NOS Jeugdjournaal",
+      "url": "https://jeugdjournaal.nl/l/2638816"
+    },
+    {
+      "titel": "Karrewiet: het nieuws van vrijdag 13 november",
+      "samenvatting": "In Karrewiet zie je wat er vorige week gebeurde in de wereld, verteld voor kinderen.",
       "bron": "Karrewiet (VRT)",
-      "url": "https://www.vrt.be/vrtmax/a-z/de-week-van-karrewiet/2026/de-week-van-karrewiet-d20261114/"
-    },
-    {
-      "titel": "Portugal bedankt Ronaldo met shirts met nummer 7",
-      "samenvatting": "De voetballers van Portugal droegen shirts met nummer 7 om Cristiano Ronaldo te bedanken. Hij stopt met spelen voor het nationale team.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2639541"
-    },
-    {
-      "titel": "Walvishaaien zijn populair, maar dierenbeschermers maken zich zorgen",
-      "samenvatting": "In een dorpje in Indonesië komen veel toeristen walvishaaien bekijken. De dieren worden gevoerd en dat is slecht voor ze, dus beschermers willen strengere regels.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2638260-walvishaaien-populair-bij-toeristen-maar-dierenbeschermers-zijn-het-zat"
-    },
-    {
-      "titel": "K-popgroep Stray Kids komt terug naar Nederland",
-      "samenvatting": "De Koreaanse groep Stray Kids komt volgend jaar weer naar Nederland. Ze geven op 27 juli 2027 een groot concert in Arnhem.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2638740"
+      "url": "https://www.vrt.be/vrtmax/a-z/karrewiet/2026/karrewiet-d20261113/"
     }
   ],
   "dieren": [
     {
-      "titel": "Katjes ontsnappen steeds om bij de honden te spelen",
+      "titel": "Klein katje doet alles na wat de herder doet",
       "bron": "The Dodo",
-      "url": "https://www.youtube.com/watch?v=cnCCgrb1xck",
+      "url": "https://www.youtube.com/watch?v=KVfQa9wZZEQ",
       "soort": "video"
     },
     {
-      "titel": "Katje neemt baasje mee op wandeltocht",
+      "titel": "Katje denkt dat haar hond-broer haar papa is",
       "bron": "The Dodo",
-      "url": "https://www.youtube.com/watch?v=6x2JW4r7FT4",
+      "url": "https://www.youtube.com/watch?v=bDeYlkdmvxU",
       "soort": "video"
     },
     {
-      "titel": "Katje slaapt het liefst in de baard van zijn baasje",
+      "titel": "Kat adopteert meteen zijn nieuwe hondenbroertje",
       "bron": "The Dodo",
-      "url": "https://www.youtube.com/watch?v=RwdV-3UkLxk",
+      "url": "https://www.youtube.com/watch?v=ntmy_ZdORZ4",
       "soort": "video"
     }
   ],
   "films": [
     {
       "titel": "Gatto: kat in Venetië",
-      "samenvatting": "Een nieuwe Pixar-film over de zwarte kat Nero in de stad Venetië. Hij begint na te denken over zijn keuzes en krijgt een onverwachte vriend. De film komt op 5 maart 2027 in de bioscoop.",
-      "bron": "FilmVandaag",
-      "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld",
+      "samenvatting": "Een nieuwe Pixar-film over de zwarte kat Nero in Venetië. Er is nu een nieuwe trailer en er zijn nieuwe stemmen bekend. Je ziet de film vanaf 5 maart 2027 in de bioscoop.",
+      "bron": "Disney UK",
+      "url": "https://press.disney.co.uk/news/new-trailer-and-poster-for-disney-and-pixars-gatto-available-now-additional-voice-cast-announced",
       "video": "https://www.youtube.com/watch?v=oEvTCd5Q2LY"
     },
     {
-      "titel": "Toy Story 5",
-      "samenvatting": "Woody, Buzz en Jessie krijgen een nieuw speelgoed-tablet op bezoek dat het allemaal beter denkt te weten. De film kwam op 19 juni 2026 in de bioscoop uit.",
-      "bron": "Pixar",
-      "url": "https://wdwnt.com/2026/02/watch-official-trailer-toy-story-5/",
-      "video": "https://www.youtube.com/watch?v=c51ND9Hdbw0"
+      "titel": "Coco (en Coco 2 komt eraan)",
+      "samenvatting": "Miguel komt in het land van de doden terecht en zoekt daar zijn familie. Pixar maakt een tweede deel, dat in november 2029 verschijnt. De eerste film kan je op Disney+ kijken.",
+      "bron": "The Playlist",
+      "url": "https://theplaylist.net/incredibles-3-first-look-benjamin-bratt-coco-2-return-d23-20260814/",
+      "video": "https://www.youtube.com/watch?v=Rvr68u6k5sI"
+    },
+    {
+      "titel": "Frozen 3",
+      "samenvatting": "Anna en Elsa beleven een nieuw avontuur, en er is ook een nieuwe slechterik. De film komt in 2027 in de bioscoop.",
+      "bron": "IBTimes",
+      "url": "https://www.ibtimes.co.uk/frozen-3-release-date-announcement-1814429",
+      "video": "https://www.youtube.com/watch?v=rzYAcnDiUig"
     },
     {
       "titel": "Hoppers",
@@ -71,105 +79,132 @@
       "bron": "WDWNT",
       "url": "https://wdwnt.com/2026/05/hoppers-disney-streaming-date-revealed/",
       "video": "https://www.youtube.com/watch?v=pIv63eoqTOk"
-    },
-    {
-      "titel": "Zootropolis 2",
-      "samenvatting": "Judy Hopps en Nick lossen weer een groot mysterie op in de dierenstad. Deze keer duikt er een slang op. De film staat op Disney+.",
-      "bron": "Disney UK",
-      "url": "https://press.disney.co.uk/news/final-trailer-and-brand-new-poster-available-now-for-walt-disney-animation-studios-zootropolis-2",
-      "video": "https://www.youtube.com/watch?v=hJB98KTb1CQ"
     }
   ],
   "land": {
     "datum": "2026-11-17",
-    "naam": "Maleisië",
-    "hoofdstad": "Kuala Lumpur",
-    "vlag": "🇲🇾",
-    "iso2": "my",
-    "iso": "458",
-    "lat": 4.2,
-    "lon": 102.0,
-    "inwoners": "ongeveer 34 miljoen",
+    "naam": "Cambodja",
+    "hoofdstad": "Phnom Penh",
+    "vlag": "🇰🇭",
+    "iso2": "kh",
+    "iso": "116",
+    "lat": 12.5,
+    "lon": 105.0,
+    "inwoners": "ongeveer 17 miljoen",
     "weetjes": [
-      "De Petronas Twin Towers in Kuala Lumpur waren jarenlang de hoogste gebouwen ter wereld. Ze zijn 452 meter hoog.",
-      "Een deel van Maleisië ligt op het eiland Borneo. In het regenwoud daar wonen orang-oetans.",
-      "De vlag van Maleisië heeft 14 strepen en een ster met een maan."
+      "Bij Angkor Wat staat de grootste tempel ter wereld. Hij is bijna 900 jaar oud en staat zelfs op de vlag van Cambodja.",
+      "Het meer Tonlé Sap is bijzonder: in het regenseizoen stroomt de rivier ernaartoe en wordt het meer veel groter. In het droge seizoen stroomt het water weer weg.",
+      "Veel mensen in Cambodja eten rijst met vis. Een bekend gerecht heet amok: vis in een zachte kokossaus."
     ]
   },
   "raadsel": {
-    "vraag": "Wat reist de hele wereld rond maar blijft toch in een hoekje zitten?",
-    "oplossing": "Een postzegel",
-    "uitleg": "Een postzegel zit op een brief die ver reist, maar zit zelf vast in de hoek van de enveloppe.",
+    "vraag": "Ik heb steden maar geen huizen, bergen maar geen sneeuw en zeeën maar geen water. Wat ben ik?",
+    "oplossing": "Een landkaart",
+    "uitleg": "Op een landkaart staan alle steden, bergen en zeeën getekend, maar er is niets echts aan.",
     "opties": [
-      "Een postzegel",
-      "Een bal",
-      "Een wolk",
-      "Een vliegtuig"
+      "Een landkaart",
+      "Een droom",
+      "Een boek",
+      "Een eiland"
     ]
   },
   "mensen": [
     {
       "label": "Camille",
-      "titel": "Duizenden fans op gratis concert van Camille",
-      "samenvatting": "De Vlaamse zangeres Camille (Camille Dhont) gaf een gratis concert waar duizenden fans enthousiast meezongen. Ze bracht dit jaar ook haar album 'Negen Levens' uit.",
+      "titel": "Wintercircus Camille in Hasselt",
+      "samenvatting": "Camille Dhont brengt haar nieuwe show Wintercircus Camille in de kerstvakantie naar de Trixxo Arena in Hasselt. Je kan er op 19 en 20 december naartoe.",
       "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/05/24/duizenden-fans-gaan-uit-de-bol-op-gratis-concert-van-camille-in/"
+      "url": "https://www.vrt.be/vrtnws/nl/2026/06/08/wintercircus-camille-dhont-trixxo-arena-hasselt/"
     },
     {
       "label": "Pommelien Thijs",
-      "titel": "Pommelien zingt op Rock Werchter met een beroemde band",
-      "samenvatting": "Pommelien verraste het publiek op Rock Werchter. Ze zong haar liedje 'Atlas' samen met de band Mumford & Sons.",
+      "titel": "Komt er een film van Knokke Off?",
+      "samenvatting": "Pommelien, de hoofdrolspeelster van de tv-reeks Knokke Off, vertelde op haar concert dat er een film aankomt. Over wanneer en wie er meespeelt is nog niets bekend.",
       "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/07/02/pommelien-thijs-bij-mumford-sons/"
+      "url": "https://www.vrt.be/vrtnws/nl/2026/04/26/film-knokke-off-pommelien-thijs/"
     },
     {
       "label": "Aaron Blommaert",
-      "titel": "Aaron staat op nummer 1",
-      "samenvatting": "Aaron Blommaert staat met zijn nummer 'Hoe is het zover kunnen komen?' bovenaan de Vlaamse Top 30. Hij klom van plaats drie naar plaats één.",
-      "bron": "Showbizz24",
-      "url": "https://www.showbizz24.be/artiesten-vlaanderen/aaron-blommaert-blaast-iedereen-weg-in-ultratop-55974"
+      "titel": "Aaron op clubtour en genomineerd voor de Zomerhit",
+      "samenvatting": "Aaron Blommaert speelt dit najaar in clubs. Zijn liedje 'Tranen van goud' met Zoë Livay was genomineerd voor de VRT Zomerhit.",
+      "bron": "TRIX / VRT NWS",
+      "url": "https://trixonline.be/en/program/aaron-blommaert/3606"
     },
     {
       "label": "Maksim",
-      "titel": "Maksim: krachtige stem, mooie liedjes",
-      "samenvatting": "Maksim is een Antwerpse zanger die ook acteur is (bekend van #LikeMe). Hij speelde een groot concert in de Lotto Arena in Antwerpen.",
-      "bron": "AB",
-      "url": "https://www.abconcerts.be/en/agenda/maksim/a10Qw000000x8BHIAY"
+      "titel": "Maksim genomineerd voor de Zomerhit",
+      "samenvatting": "Maksim zong 'Hoe dan ook' samen met Babet. Het liedje stond bij de 20 genomineerden voor de VRT Zomerhit van 2026.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/07/06/zomerhit-2026-20-genomineerden/"
     }
   ],
   "header": {
     "ochtend": {
-      "titel": "Goeiemorgen, Ida! Vandaag knip je een sneeuwvlok 🌨️",
-      "sub": "Maleisië is je land van de dag, en er is nieuws over Ronaldo."
+      "titel": "Goeiemorgen, Ida! Welk land ontdek je vandaag? 🌏",
+      "sub": "Vandaag is Cambodja je land, en er is een wollen bandje om te vlechten.",
+      "iconen": [
+        "🌏",
+        "🏯",
+        "🐘",
+        "🍚",
+        "🧶",
+        "☀️"
+      ]
     },
     "middag": {
-      "titel": "Hoi Ida, tijd voor een knutselpauze ✂️",
-      "sub": "Kijk eens hoe katjes met baasjes gaan wandelen."
+      "titel": "Hoi Ida, tijd voor een knutselpauze 🧶",
+      "sub": "Kijk hoe een katje alles nadoet wat een herder doet.",
+      "iconen": [
+        "🧶",
+        "✂️",
+        "🐱",
+        "🎬",
+        "🎨",
+        "🌸"
+      ]
     },
     "avond": {
-      "titel": "Goeienavond, Ida! Wat was het leukste van vandaag?",
-      "sub": "Nog even een raadsel voor het slapengaan."
+      "titel": "Goeienavond, Ida! Welke film wil je zien? 🎬",
+      "sub": "Er is een nieuwe trailer van Gatto, de kat van Pixar.",
+      "iconen": [
+        "🎬",
+        "🍿",
+        "🌙",
+        "⭐",
+        "🎵",
+        "📖"
+      ]
     },
     "nacht": {
       "titel": "Slaap zacht, Ida! 🌙",
-      "sub": "Tot morgen, dan is er weer van alles nieuw."
+      "sub": "Morgen is er weer een nieuw land en een nieuw raadsel.",
+      "iconen": [
+        "🌙",
+        "⭐",
+        "😴",
+        "🧸",
+        "✨",
+        "☁️"
+      ]
     }
   },
   "knutsel": {
-    "titel": "Een papieren sneeuwvlok",
-    "intro": "Elke sneeuwvlok is anders, en jouw vlok ook. Hang hem aan het raam!",
+    "titel": "Een vriendschapsbandje van wol",
+    "intro": "Maak een gevlochten bandje voor jezelf of voor iemand die je graag ziet.",
     "materiaal": [
-      "Een vierkant wit blaadje (zo'n 15 cm)",
+      "Wol of draad in 3 kleuren (elk zo'n 40 cm)",
       "Een schaar",
-      "Een potlood"
+      "Plakband",
+      "Een tafel of kussen om op vast te plakken"
     ],
     "stappen": [
-      "Vouw het vierkant in tweeën tot een driehoek.",
-      "Vouw die driehoek nog eens dubbel, en nog eens, zodat je een smal puntig stukje krijgt.",
-      "Teken kleine streepjes, boogjes en driehoekjes langs de randen.",
-      "Knip de tekeningen uit. Knip nooit de hele breedte door!",
-      "Vouw voorzichtig open en kijk wat voor vlok je gemaakt hebt."
+      "Knip van elke kleur een draad en knoop de drie draden samen aan één uiteinde.",
+      "Plak de knoop met plakband vast op de tafel.",
+      "Vlecht de drie draden: leg de linkerdraad over de middelste, dan de rechterdraad over de middelste.",
+      "Blijf zo vlechten tot het bandje lang genoeg is voor je pols.",
+      "Knoop het uiteinde dicht en knip de losse draadjes af.",
+      "Bind het bandje om je pols of geef het cadeau."
     ],
-    "tip": "Vraag hulp bij het vouwen als het papier te dik wordt, en probeer eens een vlok van gekleurd papier."
+    "tip": "Met dikkere wol gaat het sneller. Probeer eens vijf draden voor een ander patroon."
   }
 }

@@ -1,17 +1,17 @@
 {
-  "bijgewerkt": "2026-11-17T06:30:00+07:00",
+  "bijgewerkt": "2026-11-17T08:30:00+07:00",
   "nieuws": [
     {
-      "titel": "Portugal bedankt Ronaldo",
-      "samenvatting": "De voetballers van Portugal droegen shirts met nummer 7. Zo zeiden ze dank je wel aan Ronaldo, die stopt voor het nationale team.",
+      "titel": "NASA zoekt astronauten voor de maan",
+      "samenvatting": "NASA wil een grote basis op de maan bouwen. Ze zoeken mensen die daar willen werken.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2639541"
+      "url": "https://jeugdjournaal.nl/l/2638816"
     },
     {
-      "titel": "Starship-raket komt terug op aarde",
-      "samenvatting": "Het bovenste stuk van een ruimteraket is terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+      "titel": "Bavianen in de stad Kaapstad",
+      "samenvatting": "In Kaapstad komen apen in de wijken. Ze pakken soms eten, dus de stad wil ze naar een groot verblijf brengen.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2639544"
+      "url": "https://jeugdjournaal.nl/l/2638593"
     },
     {
       "titel": "Pech voor Sinterklaas in Amsterdam",
@@ -20,67 +20,67 @@
       "url": "https://jeugdjournaal.nl/l/2639611"
     },
     {
-      "titel": "Lily Yohannes heeft een eigen voetbalveld",
-      "samenvatting": "Een voetbalster heeft een nieuw veld gekregen. Ze zegt: je kunt alles bereiken wat je wilt.",
+      "titel": "Portugal bedankt Ronaldo",
+      "samenvatting": "De voetballers van Portugal droegen shirts met nummer 7. Zo zeiden ze dank je wel aan Ronaldo, die stopt voor het nationale team.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
+      "url": "https://jeugdjournaal.nl/l/2639541"
     }
   ],
   "wetenschap": [
     {
-      "emoji": "🐙",
-      "titel": "Drie harten",
-      "tekst": "Een octopus heeft drie harten en blauw bloed. Twee harten pompen het bloed langs de kieuwen, het derde naar de rest van het lijf."
+      "emoji": "🐌",
+      "titel": "Slakken hebben veel tandjes",
+      "tekst": "Een slak heeft duizenden piepkleine tandjes op zijn tong. Daarmee schraapt hij zijn eten af."
     },
     {
-      "emoji": "🍯",
-      "titel": "Honing blijft lang goed",
-      "tekst": "Honing kan heel, heel lang bewaard worden zonder slecht te worden. Bacteriën houden niet van zo'n dikke, zoete stroop."
+      "emoji": "🦒",
+      "titel": "Een giraf heeft ook 7 nekwervels",
+      "tekst": "Een giraf heeft net zoveel nekbotjes als jij: zeven. Alleen zijn ze bij een giraf heel erg lang."
     },
     {
-      "emoji": "⚡",
-      "titel": "Bliksem is superheet",
-      "tekst": "Een bliksemflits is veel heter dan het oppervlak van de zon. De lucht om de flits heen wordt zo heet dat hij knalt: dat hoor je als donder."
+      "emoji": "🦈",
+      "titel": "Haaien hebben geen echte botten",
+      "tekst": "Het lijf van een haai is gemaakt van kraakbeen. Dat is zacht en buigzaam, zoals je oor."
     },
     {
-      "emoji": "🦴",
-      "titel": "Baby's hebben meer botjes",
-      "tekst": "Een baby heeft ongeveer 300 botjes, een volwassene maar 206. Tijdens het groeien groeien er botjes aan elkaar vast."
+      "emoji": "🌈",
+      "titel": "Een regenboog is een cirkel",
+      "tekst": "Een regenboog is eigenlijk een hele cirkel. Op de grond zie je meestal maar de helft. Vanuit een vliegtuig kan je soms de cirkel zien."
     },
     {
-      "emoji": "🪐",
-      "titel": "Een lange dag op Venus",
-      "tekst": "Venus draait heel traag rond zichzelf. Daardoor duurt een dag op Venus langer dan een jaar op die planeet!"
+      "emoji": "🔊",
+      "titel": "Geluid reist sneller door water",
+      "tekst": "Geluid gaat ongeveer vier keer sneller door water dan door lucht. Walvissen kunnen elkaar daarom van ver horen."
     }
   ],
   "films": [
     {
       "titel": "Gatto: kat in Venetië",
-      "samenvatting": "Een nieuwe Pixar-film over een zwarte kat in de stad Venetië. Hij krijgt een onverwachte vriend. Je kan hem in maart 2027 in de bioscoop zien.",
-      "bron": "FilmVandaag",
-      "url": "https://www.filmvandaag.nl/nieuws/31314-dit-is-de-allernieuwste-animatiefilm-van-disney-pixar-eerste-teaser-van-gatto-nu-al-onthuld",
+      "samenvatting": "Een nieuwe Pixar-film over de zwarte kat Nero in Venetië. Er is een nieuwe trailer. Je ziet de film in maart 2027 in de bioscoop.",
+      "bron": "Disney UK",
+      "url": "https://press.disney.co.uk/news/new-trailer-and-poster-for-disney-and-pixars-gatto-available-now-additional-voice-cast-announced",
       "video": "https://www.youtube.com/watch?v=oEvTCd5Q2LY"
     },
     {
+      "titel": "Incredibles 3",
+      "samenvatting": "De superheldenfamilie krijgt een derde film. Dit keer krijgen de kinderen een grote rol. De film komt in juni 2028.",
+      "bron": "The Wrap",
+      "url": "https://www.thewrap.com/creative-content/movies/incredibles-3-first-details-explained/",
+      "video": "https://www.youtube.com/watch?v=i5qOzqD9Rms"
+    },
+    {
+      "titel": "Frozen 3",
+      "samenvatting": "Anna en Elsa beleven weer een avontuur. Er is een nieuwe slechterik. De film komt in 2027.",
+      "bron": "IBTimes",
+      "url": "https://www.ibtimes.co.uk/frozen-3-release-date-announcement-1814429",
+      "video": "https://www.youtube.com/watch?v=rzYAcnDiUig"
+    },
+    {
       "titel": "Toy Story 5",
-      "samenvatting": "Woody en Buzz krijgen een nieuw speelgoed-tablet op bezoek. Dat tablet denkt dat het alles beter weet. De film kwam in juni 2026 uit.",
+      "samenvatting": "Woody, Buzz en Jessie krijgen een nieuw speelgoed-tablet op bezoek dat het allemaal beter denkt te weten. De film kwam op 19 juni 2026 in de bioscoop uit.",
       "bron": "Pixar",
       "url": "https://wdwnt.com/2026/02/watch-official-trailer-toy-story-5/",
       "video": "https://www.youtube.com/watch?v=c51ND9Hdbw0"
-    },
-    {
-      "titel": "Hoppers",
-      "samenvatting": "Een meisje houdt heel veel van dieren en wil hun wereld ontdekken. Je kan de film nu op Disney+ kijken.",
-      "bron": "WDWNT",
-      "url": "https://wdwnt.com/2026/05/hoppers-disney-streaming-date-revealed/",
-      "video": "https://www.youtube.com/watch?v=pIv63eoqTOk"
-    },
-    {
-      "titel": "Zootropolis 2",
-      "samenvatting": "Judy en Nick lossen weer een groot mysterie op in de dierenstad. Deze keer is er een slang. Je kan de film op Disney+ kijken.",
-      "bron": "Disney UK",
-      "url": "https://press.disney.co.uk/news/final-trailer-and-brand-new-poster-available-now-for-walt-disney-animation-studios-zootropolis-2",
-      "video": "https://www.youtube.com/watch?v=hJB98KTb1CQ"
     }
   ],
   "duivels": [
@@ -91,64 +91,98 @@
       "url": "https://sporza.be/nl/2026/11/16/romelu-lukaku-stopt-onverwacht-bij-rode-duivels-ik-heb-van-elk-moment-genoten~1794822218090/"
     },
     {
-      "titel": "Wintam reageert op het afscheid van Lukaku",
-      "samenvatting": "In Wintam, waar Lukaku ooit voetbalde, zijn ze verrast. Zo'n goede speler komt er volgens hen nooit meer.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/lukaku-stopt-als-rode-duivel-wintam-vorige-voetalclub-reageert/"
+      "titel": "Van Bommel: Lukaku schreef geschiedenis",
+      "samenvatting": "De bondscoach respecteert de keuze van Lukaku. Hij zegt dat Lukaku veel betekende voor de groep.",
+      "bron": "Sporza",
+      "url": "https://sporza.be/nl/2026/11/16/bondscoach-mark-van-bommel-respecteert-beslissing-van-lukaku-hij-heeft-geschiedenis-geschreven-bij-de-duivels~1794824401905/"
     },
     {
-      "titel": "Rode Duivels winnen met 4-1 van Italië",
-      "samenvatting": "België speelde een supermatch tegen Italië en won met 4-1. Trainer Mark van Bommel is blij met zijn team.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/16/vandenbempt-ziet-alle-lichten-op-groen-springen-bij-rode-duivels-met-vooral-een-grote-winnaar-daar-is-nu-toch-geen-discussie-meer-over~1794788558567/"
+      "titel": "Wie wordt de nieuwe spits van de Duivels?",
+      "samenvatting": "Nu Lukaku stopt, zoeken de fans een nieuwe spits. Namen zijn onder meer Charles De Ketelaere, Loïs Openda en Hugo Cuypers.",
+      "bron": "Voetbalprimeur",
+      "url": "https://www.voetbalprimeur.be/nieuws/2159410/opvolger-lukaku-acht-kandidaten-bij-rode-duivels.html"
     }
   ],
   "raadsel": {
-    "vraag": "In een mand liggen 8 appels. Jij haalt er 3 uit. Hoeveel appels heb jij dan?",
-    "oplossing": "3",
-    "uitleg": "Jij hebt de 3 appels die je eruit haalde. In de mand liggen er nog 5."
+    "vraag": "Ik heb 3 zakjes met in elk zakje 4 knikkers. Mijn vriend geeft me er nog 5. Hoeveel knikkers heb ik nu?",
+    "oplossing": "17",
+    "uitleg": "3 keer 4 is 12 knikkers. Met de 5 erbij is dat 17."
   },
   "mop": {
-    "vraag": "Wat zegt de nul tegen de acht?",
-    "antwoord": "Mooie riem!"
+    "vraag": "Wat zegt de grote schoorsteen tegen de kleine schoorsteen?",
+    "antwoord": "Jij bent nog te jong om te roken!"
   },
   "land": {
     "datum": "2026-11-17",
-    "naam": "Maleisië",
-    "hoofdstad": "Kuala Lumpur",
-    "vlag": "🇲🇾",
-    "iso2": "my",
-    "iso": "458",
-    "lat": 4.2,
-    "lon": 102.0,
-    "inwoners": "ongeveer 34 miljoen",
+    "naam": "Cambodja",
+    "hoofdstad": "Phnom Penh",
+    "vlag": "🇰🇭",
+    "iso2": "kh",
+    "iso": "116",
+    "lat": 12.5,
+    "lon": 105.0,
+    "inwoners": "ongeveer 17 miljoen",
     "weetjes": [
-      "De hoofdstad heet Kuala Lumpur. Daar staan twee superhoge torens.",
-      "In het regenwoud van Maleisië wonen orang-oetans.",
-      "De vlag heeft een ster en een maan."
+      "In Cambodja staat een heel grote oude tempel: Angkor Wat. Hij staat zelfs op de vlag!",
+      "Er is een meer dat in de regentijd veel groter wordt. Dan zwemmen er heel veel vissen in.",
+      "De hoofdstad heet Phnom Penh. Daar rijden veel mensen met een tuktuk."
     ]
   },
   "header": {
     "ochtend": {
-      "titel": "Goeiemorgen, Otto! Welke missie vandaag? 🚀",
-      "sub": "Er staat een superzware ster in je heelalweetje."
+      "titel": "Goeiemorgen, Otto! Op naar de maan 🚀",
+      "sub": "NASA zoekt astronauten, en in je heelalweetje staat de grootste maan.",
+      "iconen": [
+        "🚀",
+        "🌙",
+        "🌍",
+        "⭐",
+        "🛰️",
+        "☀️"
+      ]
     },
     "middag": {
       "titel": "Hoi Otto, tijd voor een voetbalpauze ⚽",
-      "sub": "Lukaku stopt bij de Rode Duivels. Lees het hier."
+      "sub": "Wie wordt de nieuwe spits van de Rode Duivels?",
+      "iconen": [
+        "⚽",
+        "🥅",
+        "🏟️",
+        "🦁",
+        "🏃",
+        "🎯"
+      ]
     },
     "avond": {
-      "titel": "Goeienavond, astronaut Otto! 🌙",
-      "sub": "Nog één raadsel en een mop, dan slapen."
+      "titel": "Goeienavond, Otto! Kan jij dit raadsel kraken? 🧠",
+      "sub": "Er zijn knikkers te tellen en een nieuwe mop.",
+      "iconen": [
+        "🧠",
+        "🔮",
+        "🎲",
+        "🌙",
+        "🦉",
+        "✨"
+      ]
     },
     "nacht": {
       "titel": "Welterusten, Otto! 🌙",
-      "sub": "Tot morgen, dan is er weer van alles nieuw."
+      "sub": "Morgen is er weer van alles nieuw.",
+      "iconen": [
+        "🌙",
+        "⭐",
+        "😴",
+        "🧸",
+        "🌌",
+        "☁️"
+      ]
     }
   },
   "heelal": {
-    "emoji": "🌟",
-    "titel": "De zwaarste lepel van het heelal",
-    "tekst": "Als een hele grote ster op is, kan er een kleine, superzware bol overblijven: een neutronenster. Zo'n ster is maar zo groot als een stad, maar bijna net zo zwaar als onze zon. Een theelepel van dat spul zou op aarde meer wegen dan alle mensen samen! Sommige neutronensterren draaien ook razendsnel, wel honderden keren per seconde."
+    "emoji": "🌙",
+    "titel": "De grootste maan van ons zonnestelsel",
+    "tekst": "Ganymedes draait rond de planeet Jupiter. Het is de grootste maan van ons hele zonnestelsel. Hij is zelfs groter dan de planeet Mercurius! Er zijn al meer dan 400 manen ontdekt rond planeten. Titan, een maan van Saturnus, heeft als enige maan een dikke dampkring.",
+    "bron": "NASA",
+    "url": "https://science.nasa.gov/solar-system/moons/facts/"
   }
 }

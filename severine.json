@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-11-17T06:30:00+07:00",
+  "bijgewerkt": "2026-11-17T08:30:00+07:00",
   "gezondheid": {
     "streak": 5,
     "laatste": {
@@ -31,10 +31,6 @@
     },
     "reeksen": {
       "water": [
-        {
-          "d": "2026-11-03",
-          "v": null
-        },
         {
           "d": "2026-11-04",
           "v": null
@@ -86,13 +82,13 @@
         {
           "d": "2026-11-16",
           "v": 2.66
+        },
+        {
+          "d": "2026-11-17",
+          "v": null
         }
       ],
       "koffie": [
-        {
-          "d": "2026-11-03",
-          "v": null
-        },
         {
           "d": "2026-11-04",
           "v": null
@@ -144,13 +140,13 @@
         {
           "d": "2026-11-16",
           "v": 0.0
+        },
+        {
+          "d": "2026-11-17",
+          "v": null
         }
       ],
       "alcohol": [
-        {
-          "d": "2026-11-03",
-          "v": null
-        },
         {
           "d": "2026-11-04",
           "v": null
@@ -202,6 +198,10 @@
         {
           "d": "2026-11-16",
           "v": 0.0
+        },
+        {
+          "d": "2026-11-17",
+          "v": null
         }
       ]
     },
@@ -214,52 +214,52 @@
   "lifestyle": [
     {
       "label": "Mode",
+      "titel": "De damesschoenentrends voor herfst en winter 2026",
+      "samenvatting": "Een overzicht van de schoenmodellen die dit seizoen opvallen, van laarzen tot ballerina's.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/442290-de-damesschoenen-trends-voor-de-herfst-en-winter-2026.html"
+    },
+    {
+      "label": "Mode",
+      "titel": "Kobaltblauw is de volgende grote kleurcrush",
+      "samenvatting": "Het felle blauw duikt op in de collecties voor herfst en winter. Zo draag je de kleur zonder dat het te druk wordt.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/440157-kobaltblauw-trend-herfst-winter-2026.html"
+    },
+    {
+      "label": "Mode",
+      "titel": "Deze klassieke tassentrend duikt overal op",
+      "samenvatting": "Tassen met krokodilleneffect keren terug voor herfst en winter 2026.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/438487-beste-crocodile-embossed-tassen-trend.html"
+    },
+    {
+      "label": "Mode",
       "titel": "Tweekleurige hakken: de speelse schoenentrend van dit najaar",
       "samenvatting": "Schoenen in twee kleuren brengen een vrolijk accent in je herfstlook. Houd de rest van je outfit rustig en laat een tint uit de schoen terugkomen in een accessoire.",
       "bron": "ELLE België",
       "url": "https://www.elle.be/nl/442342-beste-tweekleurige-hakken-trend.html"
     },
     {
-      "label": "Mode",
-      "titel": "Breigoed wordt verleidelijk: de sexy trui als trend",
-      "samenvatting": "Ontwerpers maken van de klassieke trui iets lichters, doorzichtigs en gedurfders, onder meer bij Schiaparelli en Tom Ford. De gewaagde trui is zo de draagbare tegenhanger van de doorschijnende jurk.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/441798-sexy-knitweartrend-2026.html"
-    },
-    {
-      "label": "Mode",
-      "titel": "Satijnen tassen: de chique stof die straks je tassencollectie verovert",
-      "samenvatting": "Satijn dook op de catwalks op voor zowel dit najaar als volgend voorjaar. Nu vooral als clutch, later ook als schoudertas of tas met handvat.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/441644-trend-satijnen-tassen.html"
-    },
-    {
-      "label": "Mode",
-      "titel": "De bootcut jeans is terug en krijgt een retro comeback",
-      "samenvatting": "Na de lage taille en de brede jeans keert ook de bootcut terug in de collecties van meerdere grote merken. Het model is nostalgisch en tegelijk draagbaarder en flatterender dan zijn voorgangers.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/442045-de-bootcut-jeans-is-helemaal-terug-dit-najaar-en-dit-legendarische-model-bewijst-het.html"
+      "label": "Wonen",
+      "titel": "10 deco-items die je interieur klaarstomen voor het najaar",
+      "samenvatting": "Met een handvol decoratie-items geef je je huis een warme herfststemming.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/439665-deze-deco-items-bepalen-het-najaar-van-2026.html"
     },
     {
       "label": "Wonen",
-      "titel": "Zo richt je de perfecte ontbijthoek in",
-      "samenvatting": "Interieurontwerpers vertellen waarom de ontbijthoek het kookeiland aan het verdringen is. Je krijgt tips over duurzame materialen, maatwerk en een tafelhoogte die bij de zitplaatsen past.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/438907-ontwerpregels-voor-de-perfecte-ontbijthoek.html"
+      "titel": "Zo maak je het deze winter gezellig in huis",
+      "samenvatting": "Praktische ideeën voor licht, textiel en kleur om de donkere maanden warmer te maken.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/416705-zo-maak-je-het-deze-winter-gezellig-in-huis.html"
     },
     {
       "label": "Wonen",
-      "titel": "Acht interieurwinkels die een citytrip waard zijn",
-      "samenvatting": "Van Gent en Parijs tot Londen en Keulen: een selectie winkels waar design, ambacht en mooie vondsten samenkomen. Met praktische tips om er vanuit België te geraken.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/439948-interieurwinkels-parijs-londen-citytrip.html"
-    },
-    {
-      "label": "Wonen",
-      "titel": "Het keukenschortrok komt terug in een moderne versie",
-      "samenvatting": "Het gordijntje onder de spoelbak maakt een comeback, maar strakker en met plooien en onverwachte stoffen. Interieurontwerpers zetten het in als verfijnd detail met karakter.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/434665-keukenschortrok-modern-huis.html"
+      "titel": "12 iconische geurkaarsen voor een luxe chaletsfeer",
+      "samenvatting": "Een selectie geurkaarsen die je woonkamer in winterse sfeer brengt.",
+      "bron": "Elle",
+      "url": "https://www.elle.be/nl/421574-12-iconische-geurkaarsen-luxe-chalet-sfeer.html"
     },
     {
       "label": "Interieur",
@@ -270,10 +270,10 @@
     },
     {
       "label": "Interieur",
-      "titel": "Victoria Beckham lanceert haar eerste interieurcollectie",
-      "samenvatting": "In samenwerking met Westwing ontwerpt ze servies, textiel en decoratie voor de eettafel. De stijl put uit de Arts and Crafts-beweging, met gehamerde afwerking en een ingetogen palet van wit, zilver en donkergroen.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/440677-victoria-beckham-interieur-westwing.html"
+      "titel": "De leukste ideeën voor een retro kerst",
+      "samenvatting": "Kerstdecoratie met een vintage knipoog, van kleurrijke kogels tot oude versiering.",
+      "bron": "Elle Decoration",
+      "url": "https://www.elle.be/nl/392102-retro-kerst-decoratie-feest.html"
     },
     {
       "label": "Interieur",
@@ -286,10 +286,38 @@
   "voeding": [
     {
       "label": "Recept",
-      "titel": "Geroosterde pompoen met tahini en za'atar",
-      "samenvatting": "Zoete pompoen uit de oven met rode ui, een romige sesamsaus en Midden-Oosterse kruiden. Een echte Ottolenghi-klassieker voor koude dagen.",
-      "bron": "Ottolenghi",
-      "url": "https://ottolenghi.co.uk/roast-butternut-squash-and-red-onion-with-tahini-and-za-atar-shop"
+      "titel": "Indiase linzensoep",
+      "samenvatting": "Een warme soep van linzen met Indiase kruiden, vol plantaardige eiwitten en perfect voor een koude dag.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/indian-lentil-soup/"
+    },
+    {
+      "label": "Recept",
+      "titel": "Pompoen- en boerenkoolsalade",
+      "samenvatting": "Een seizoenssalade met pompoen en boerenkool, een goed idee voor een lichte maaltijd in de herfst.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/pumpkin-salad-just-married/"
+    },
+    {
+      "label": "Recept",
+      "titel": "Gevulde pompoen voor de feestdagen",
+      "samenvatting": "Een hele pompoen uit de oven met een hartige vulling, een mooi plantaardig hoofdgerecht.",
+      "bron": "Green Kitchen Stories",
+      "url": "https://greenkitchenstories.com/holiday-stuffed-pumpkin/"
+    },
+    {
+      "label": "Recept",
+      "titel": "Veganistische glutenvrije minestrone",
+      "samenvatting": "Een stevige groentesoep in één pot, zonder gluten en zonder dierlijke producten.",
+      "bron": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/1-pot-vegan-minestrone-gluten-free/"
+    },
+    {
+      "label": "Recept",
+      "titel": "Romige wortelsoep in één pot",
+      "samenvatting": "Een zijdezachte soep van wortel, makkelijk te maken met weinig ingrediënten.",
+      "bron": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/creamy-vegan-carrot-soup-1-pot/"
     },
     {
       "label": "Recept",
@@ -299,60 +327,32 @@
       "url": "https://thehappyfoodie.co.uk/recipes/the-ultimate-winter-couscous/"
     },
     {
-      "label": "Recept",
-      "titel": "Geroosterde bloemkool met hazelnoten",
-      "samenvatting": "Knapperige bloemkool met hazelnoten en een frisse dressing. Past perfect bij het seizoen.",
-      "bron": "The Happy Foodie (Ottolenghi)",
-      "url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-roasted-cauliflower-and-hazelnut-salad/"
+      "label": "Gezond leven",
+      "titel": "Is alle ultrabewerkte voeding even ongezond?",
+      "samenvatting": "VRT NWS legt uit dat niet alle ultrabewerkte producten even slecht zijn, en waar je beter op let.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2025/01/24/is-alle-ultrabewerkte-voeding-even-ongezond/"
     },
     {
-      "label": "Recept",
-      "titel": "Pompoen met zoete specerijen, limoen en groene chili",
-      "samenvatting": "Pompoen uit de oven met warme kruiden en een scheutje limoen. Een kleurrijk bijgerecht of lichte hoofdschotel.",
-      "bron": "The Happy Foodie (Ottolenghi)",
-      "url": "https://thehappyfoodie.co.uk/recipes/roasted-butternut-squash-with-sweet-spices-lime-and-green-chilli"
+      "label": "Gezond leven",
+      "titel": "Waarom zijn vezels goed voor het hart?",
+      "samenvatting": "Wetenschappers ontrafelen hoe vezels je hart helpen, en welke voeding ze bevat.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2019/05/27/waarom-zijn-vezels-goed-voor-het-hart-wetenschappers-ontrafelen/"
     },
     {
-      "label": "Recept",
-      "titel": "Soep van sinaasappel en wortel",
-      "samenvatting": "Een fluweelzachte wortelsoep met een frisse toets van sinaasappel. Simpel, plantaardig en vol vitaminen.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/orange-carrot-soup/"
+      "label": "Gezond leven",
+      "titel": "Minder vlees, meer peulvruchten, groenten en fruit",
+      "samenvatting": "Een blik op een dieet met meer plantaardig eten en wat dat betekent voor je gezondheid en de planeet.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2019/01/17/minder-vlees-meer-noten-meer-peulvruchten-meer-groenten-en-fr/"
     },
     {
-      "label": "Recept",
-      "titel": "Soep van spinazie en boerenkool",
-      "samenvatting": "Een groene soep boordevol bladgroenten, die je lang warm houdt. Snel gemaakt en erg voedzaam.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/spinach-kale-soup/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Falafel met kruiden en pistache",
-      "samenvatting": "Groene falafel met verse kruiden en pistachenoten. Heerlijk in een bowl of broodje met groenten.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/herb-pistachio-falafel/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Falafelbowl met groene erwten",
-      "samenvatting": "Een kleurrijke bowl met erwtenfalafel, groenten en een frisse saus. Een volledige, plantaardige maaltijd.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/green-pea-falafel-bowl/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Makkelijke chana masala",
-      "samenvatting": "Kikkererwten in een geurige tomatenkerrysaus, klaar in ongeveer 30 minuten. Lekker met rijst of naan.",
-      "bron": "Minimalist Baker",
-      "url": "https://minimalistbaker.com/easy-chana-masala/comment-page-4/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Geroosterde bloemkool met tomaten-cashewsaus",
-      "samenvatting": "Bloemkool uit de oven met een romige saus van tomaat en cashewnoten, zonder zuivel. Een mooi vegetarisch hoofdgerecht.",
-      "bron": "BBC Good Food Middle East",
-      "url": "https://www.bbcgoodfoodme.com/recipes/roasted-cauliflower-tomato-cashew-sauce/"
+      "label": "Gezond leven",
+      "titel": "Gezond en duurzaam eten met de voedingsdriehoek",
+      "samenvatting": "Diëtist Michaël Sels geeft tips om gezond én milieuverantwoord te eten.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2021/05/04/vrt-nws-live-gezond-en-duurzaam-eten/"
     }
   ],
   "boeken": [
@@ -444,15 +444,15 @@
   "header": {
     "ochtend": {
       "titel": "Goeiemorgen, Sévérine",
-      "sub": "Winter in Antwerpen start binnenkort, en er staan nieuwe plekken om te eten op je lijst."
+      "sub": "Het Plantin-Moretus heropent begin december, en er staan nieuwe soepen op je lijst."
     },
     "middag": {
       "titel": "Fijne middag, Sévérine",
-      "sub": "Tijd voor een recept en een tentoonstelling om te noteren."
+      "sub": "Een pompoenrecept en Lee Bul in het M HKA om te noteren."
     },
     "avond": {
       "titel": "Goeienavond, Sévérine",
-      "sub": "Rustig bijlezen: Antwerpen, boeken en je logboek van de week."
+      "sub": "Rustig bijlezen: kerstdecoratie met een retro knipoog en je logboek van de week."
     },
     "nacht": {
       "titel": "Nog even bijlezen, Sévérine?",
@@ -468,6 +468,27 @@
       "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
     },
     {
+      "label": "Evenement",
+      "titel": "Museum Plantin-Moretus heropent op 5 en 6 december",
+      "samenvatting": "Na een renovatie van vier maanden opent het museum met een feestweekend en een volledig vernieuwde vaste tentoonstelling.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/07/06/antwerps-museum-plantin-moretus-to-close-for-four-month-renovation-ahead-of-anniversary-relaunch/"
+    },
+    {
+      "label": "Tentoonstelling",
+      "titel": "Lee Bul in het M HKA",
+      "samenvatting": "Het museum voor hedendaagse kunst toont sinds 13 november een retrospectieve van Lee Bul. In 2027 viert het M HKA zijn 40-jarig bestaan.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/10/07/antwerp-contemporary-art-museum-m-hka-one-year-on-audience-remains-as-museum-sets-new-course/"
+    },
+    {
+      "label": "Tentoonstelling",
+      "titel": "Between Us: queer ruimtes in het MAS",
+      "samenvatting": "Vanaf 26 februari tot 30 augustus 2027 vertelt het MAS aan de hand van persoonlijke verhalen en foto's over queer levens in de stad.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/07/15/antwerp-between-us-exploring-queer-spaces-museum-aan-de-stroom-hosts-exhibition-for-20-years-antwerp-pride-from-26-february-to-30-august-2027"
+    },
+    {
       "label": "Nieuws",
       "titel": "450 jaar Rubens: Antwerpen viert groots in 2027",
       "samenvatting": "Rond de geboortedag van Peter Paul Rubens komt er een heel jaar vol tentoonstellingen, concerten en hedendaagse kunst.",
@@ -475,46 +496,25 @@
       "url": "https://tripbytrip.org/2026/11/12/antwerp-marks-450-years-since-the-birth-of-peter-paul-rubens-with-year-long-programme/"
     },
     {
-      "label": "Tentoonstelling",
-      "titel": "Philip Aguirre y Otegui in het KMSKA",
-      "samenvatting": "Een grote overzichtstentoonstelling met monumentale beelden en kleinere werken van de Antwerpse kunstenaar. Te zien tot en met 17 januari 2027.",
-      "bron": "Trip by Trip",
-      "url": "https://tripbytrip.org/2026/09/23/antwerp-kmska-museum-presents-major-retrospective-of-belgian-sculptor-philip-aguirre-y-otegui-from-3-october-2026-to-17-january-2027/"
-    },
-    {
-      "label": "Tentoonstelling",
-      "titel": "Zadkine en België in het KMSKA",
-      "samenvatting": "Het museum toont hoe de beeldhouwer Ossip Zadkine met België verbonden was. De expo loopt van 31 oktober tot 18 april 2027.",
-      "bron": "Trip by Trip",
-      "url": "https://tripbytrip.org/2026/10/28/antwerp-kmska-explores-ossip-zadkines-ties-to-belgium-in-new-exhibition/"
-    },
-    {
-      "label": "Evenement",
-      "titel": "De Space Walk: wandelen door de ruimtevaart",
-      "samenvatting": "Een gratis wandeling van 4,5 km met tien haltes over de geschiedenis van de ruimtevaart. Nog tot en met 22 november.",
-      "bron": "Trip by Trip",
-      "url": "https://tripbytrip.org/2026/10/22/the-space-walk-brings-the-history-of-space-exploration-to-antwerp-streets/"
-    },
-    {
-      "label": "Resto",
-      "titel": "13 nieuwe restaurants in Antwerpen voor op je lijst",
-      "samenvatting": "Denk aan Eldo (hout vuur), Spice Bank in een oude bankzaal en het Poolse Soixante. Een handig overzicht om iets nieuws uit te proberen.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/321059-nieuwe-hotspots-antwerpen-restaurants.html"
-    },
-    {
-      "label": "Resto",
-      "titel": "Bracc: klassiek met een moderne twist",
-      "samenvatting": "Een klein restaurant in de Hofstraat met een warm Frans interieur. Op donderdag en zondag speelt er live jazz.",
-      "bron": "Le Fooding",
-      "url": "https://lefooding.com/en/restaurants/bracc"
-    },
-    {
       "label": "Nieuws",
       "titel": "Plannen voor het Koning Albertpark en de Grotesteenweg",
       "samenvatting": "De stad en twee districten leggen vast hoe het verkeer rond het park en de Grotesteenweg later moet verlopen.",
       "bron": "Trip by Trip",
       "url": "https://tripbytrip.org/2026/11/04/antwerp-sets-mobility-vision-for-redevelopment-of-koning-albertpark-and-grotesteenweg/"
+    },
+    {
+      "label": "Resto",
+      "titel": "Plump: smashed burgers in Antwerpen",
+      "samenvatting": "De makers van Burgers & Grapes uit Mechelen serveren burgers van rund, kip of groenten, met cocktails en bier. Maandag tot woensdag gesloten.",
+      "bron": "Le Fooding",
+      "url": "https://lefooding.com/nl/restaurants/plump"
+    },
+    {
+      "label": "Resto",
+      "titel": "Butchers Coffee in Borgerhout",
+      "samenvatting": "Brunch en comfortfood in een voormalige slagerij, van de vroege ochtend tot de middag.",
+      "bron": "Le Fooding",
+      "url": "https://lefooding.com/nl/restaurants/butchers-coffee-3"
     }
   ]
 }
