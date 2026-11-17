@@ -166,6 +166,11 @@ __SKIES__
 .gig .tg.st{background:#E03A3E1A; color:var(--accent)}
 .gig-more{margin-top:14px}
 .btn{font:inherit; font-size:13px; font-weight:500; background:var(--ink); color:var(--surface); border:0; border-radius:999px; padding:9px 16px; cursor:pointer}
+.knut h3,.heel h3{margin:0 0 6px;font-size:18px}.knut p,.heel p{margin:0 0 10px;line-height:1.55}
+.kn2{display:grid;grid-template-columns:1fr 1.6fr;gap:18px}.kn2 ul,.kn2 ol{margin:6px 0 0;padding-left:20px;line-height:1.55}.kn2 b{font-size:13px;color:var(--muted)}
+.knut .tip{margin:12px 0 0;padding:10px 12px;border-radius:12px;background:var(--bg);font-size:14px}
+.heel{display:flex;gap:16px;align-items:flex-start}.heel .em{font-size:44px;line-height:1}.heel a{font-size:13px}
+@media(max-width:640px){.kn2{grid-template-columns:1fr}}
 .err{padding:30px; text-align:center; color:var(--muted)}
 footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:center}
 </style>
@@ -177,7 +182,7 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     <div class="topbar"><span id="datum">&nbsp;</span><span class="clocks" id="clocks"></span></div>
     <h1 class="greet" id="greet"></h1>
     <p class="sub" id="sub"></p>
-    <div class="wx" id="wx" aria-label="Weer Merksem"></div>
+    <div class="wx" id="wx" aria-label="Weer"></div>
   </div>
 </header>
 <main class="wrap">
@@ -210,31 +215,42 @@ function clocks(){
 clocks(); setInterval(clocks,20000);
 
 /* Icoontjes in de header: bij kinderen enkele statische, subtiele icoontjes; anders sterretjes */
+let SKYI=CFG.iconen, skyRedo=()=>{};
 (function sky(){
-  const c=$("sky"), x=c.getContext("2d"); const has=!!(CFG.iconen&&CFG.iconen.length); const ic=has?CFG.iconen.slice(0,6):["✦"]; let W,H,P=[];
+  const c=$("sky"), x=c.getContext("2d"); const has=!!(SKYI&&SKYI.length); let ic=has?SKYI.slice(0,6):["✦"]; let W,H,P=[];
   const still=has||matchMedia("(prefers-reduced-motion: reduce)").matches;
   function size(){ const r=devicePixelRatio||1; W=c.width=c.offsetWidth*r; H=c.height=c.offsetHeight*r;
     P=has?ic.map((e,i)=>({e, x:W*(i+.5)/ic.length+Math.sin(i*2.1)*W*.03, y:H*(.2+.55*((i*.618)%1)), s:(15+(i*5)%9)*r, p:0, a:.2+((i*3)%4)*.03}))
          :Array.from({length:60},(_,i)=>({e:ic[0], x:Math.random()*W, y:Math.random()*H, s:(6+Math.random()*6)*r, p:Math.random()*6.28, v:.0035+Math.random()*.006, a:.28+Math.random()*.3, vy:(.12+Math.random()*.25)*r})); }
   function draw(){ x.clearRect(0,0,W,H); for(const p of P){ x.globalAlpha=p.a; x.font=p.s+"px serif"; x.textAlign="center"; x.fillText(p.e,p.x+Math.sin(p.p)*10,p.y); } x.globalAlpha=1; }
+  skyRedo=()=>{ ic=SKYI.slice(0,6); size(); draw(); };
   size(); addEventListener("resize",()=>{size();draw();}); draw();
   if (still) return;
   (function frame(){ for(const p of P){ p.p+=p.v; p.y-=p.vy; if(p.y<-60){ p.y=H+40; p.x=Math.random()*W; } } draw(); requestAnimationFrame(frame); })();
 })();
 
-/* Weer Merksem */
+/* Weer ter plaatse (IP-locatie, anders Merksem) */
+let LOC={name:"Merksem",lat:51.248,lon:4.45};
 const WI=c=>c===0?"☀️":c<=2?"🌤️":c===3?"☁️":c<=48?"🌫️":c<=57?"🌦️":c<=67?"🌧️":c<=77?"🌨️":c<=82?"🌦️":c<=86?"🌨️":"⛈️";
 const WT=c=>c===0?"Helder":c<=2?"Licht bewolkt":c===3?"Bewolkt":c<=48?"Mist":c<=57?"Motregen":c<=67?"Regen":c<=77?"Sneeuw":c<=82?"Buien":c<=86?"Sneeuwbuien":"Onweer";
 function renderWx(w){
   const el=$("wx"); if(!w||!w.daily) return; const dg=v=>Math.round(v)+"°", dd=w.daily, c=w.current;
-  let s=`<div class="d now"><div class="k">Merksem · nu</div><div class="tt"><span class="i">${WI(c.weather_code)}</span> ${dg(c.temperature_2m)}</div><div class="r">${WT(c.weather_code)} · ${dg(dd.temperature_2m_min[0])} / ${dg(dd.temperature_2m_max[0])} · ${dd.precipitation_probability_max[0]??0}% regen</div></div>`;
+  let s=`<div class="d now"><div class="k">${esc(LOC.name)} · nu</div><div class="tt"><span class="i">${WI(c.weather_code)}</span> ${dg(c.temperature_2m)}</div><div class="r">${WT(c.weather_code)} · ${dg(dd.temperature_2m_min[0])} / ${dg(dd.temperature_2m_max[0])} · ${dd.precipitation_probability_max[0]??0}% regen</div></div>`;
   for(let i=1;i<dd.time.length;i++){ const d=new Date(dd.time[i]+"T12:00").toLocaleDateString("nl-BE",{weekday:"short"});
     s+=`<div class="d"><div class="k">${d}</div><div class="tt"><span class="i">${WI(dd.weather_code[i])}</span> ${dg(dd.temperature_2m_max[i])}</div><div class="r">${dg(dd.temperature_2m_min[i])} · ${dd.precipitation_probability_max[i]??0}%</div></div>`; }
   el.innerHTML=s;
 }
-(async()=>{ try{ const c=localStorage.getItem("wx"); if(c) renderWx(JSON.parse(c)); }catch(e){}
-  try{ const r=await tfetch("https://api.open-meteo.com/v1/forecast?latitude=51.248&longitude=4.45&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FBrussels&forecast_days=4",10000);
-    const w=await r.json(); renderWx(w); try{ localStorage.setItem("wx",JSON.stringify(w)); }catch(e){} }catch(e){} })();
+async function getLoc(){
+  try{ const c=JSON.parse(localStorage.getItem("loc")||"null"); if(c&&Date.now()-c.t<108e5) return c; }catch(e){}
+  try{ const r=await (await tfetch("https://get.geojs.io/v1/ip/geo.json",6000)).json(); const la=parseFloat(r.latitude), lo=parseFloat(r.longitude);
+    if(!isNaN(la)&&!isNaN(lo)){ const c={name:r.city||r.region||r.country||"Hier",lat:la,lon:lo,t:Date.now()}; try{ localStorage.setItem("loc",JSON.stringify(c)); }catch(e){} return c; } }catch(e){}
+  try{ const c=JSON.parse(localStorage.getItem("loc")||"null"); if(c) return c; }catch(e){}
+  return null;
+}
+(async()=>{ try{ const c=localStorage.getItem("wx"); if(c){ const o=JSON.parse(c); if(o.loc) LOC=o.loc; renderWx(o.w); } }catch(e){}
+  const l=await getLoc(); if(l) LOC={name:l.name,lat:l.lat,lon:l.lon};
+  try{ const r=await tfetch("https://api.open-meteo.com/v1/forecast?latitude="+LOC.lat+"&longitude="+LOC.lon+"&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=4",10000);
+    const w=await r.json(); renderWx(w); try{ localStorage.setItem("wx",JSON.stringify({w,loc:LOC})); }catch(e){} }catch(e){} })();
 
 function spark(series, color){
   const pts = series.map((p,i) => ({i, v:p.v})).filter(p => p.v != null);
@@ -289,6 +305,8 @@ const R = {
       <div><ul class="insights">${(g.inzichten||[]).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
       <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
   uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
+  knutsel:(k)=> !k?"":`<div class="knut"><h3>${esc(k.titel)}</h3>${k.intro?`<p>${esc(k.intro)}</p>`:""}<div class="kn2"><div><b>Dit heb je nodig</b><ul>${(k.materiaal||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ul></div><div><b>Zo doe je het</b><ol>${(k.stappen||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ol></div></div>${k.tip?`<p class="tip">💡 ${esc(k.tip)}</p>`:""}</div>`,
+  heelal:(h)=> !h?"":`<div class="heel"><div class="em">${esc(h.emoji||"🌌")}</div><div><h3>${esc(h.titel)}</h3><p>${esc(h.tekst)}</p>${h.url?`<a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
   mop:(m)=> !m?"":(m.vraag?`<p class="mop">${esc(m.vraag)}</p><div class="quiz" style="margin-top:12px"><details><summary>Toon het antwoord</summary><div class="a">${esc(m.antwoord)}</div></details></div>`:`<p class="mop">${esc(m.tekst)}</p>`)
 };
 
@@ -334,13 +352,14 @@ async function globe(){ const cv=$("globe"); if(!cv) return;
 function fitBooks(){ document.querySelectorAll(".tiles.bk").forEach(g=>{ const tl=[...g.children]; tl.forEach(x=>x.classList.remove("x")); const cols=getComputedStyle(g).gridTemplateColumns.split(" ").length; const keep=tl.length>=cols?Math.floor(tl.length/cols)*cols:tl.length; tl.forEach((x,i)=>{ if(i>=keep) x.classList.add("x"); }); }); }
 addEventListener("resize",fitBooks);
 function build(d){
+  const HD=(d.header||{})[part]; if(HD){ if(HD.titel) $("greet").textContent=HD.titel; if(HD.sub) $("sub").textContent=HD.sub; if(HD.iconen&&HD.iconen.length&&CFG.iconen&&CFG.iconen.length){ SKYI=HD.iconen; skyRedo(); } }
   GIGS=d.optredens||[];
   $("grid").innerHTML = CFG.secties.map(s=>{
     const v = d[s.key]; if (s.type==='uitgaan' && !GIGS.length) return ""; if (Array.isArray(v) && !v.length) return ""; const body = R[s.type](v, s); if (!body) return "";
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2>${s.link?`<a class="meta" href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.meta||"")} ↗</a>`:`<span class="meta">${esc(s.meta||"")}</span>`}</div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v5";
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v6";
   initGigs(); fitBooks(); loadImgs(); globe();
 }
 /* Foto's: opgezocht door een GitHub-taak (thumbs.json) */

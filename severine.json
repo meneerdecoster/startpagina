@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-11-17T05:30:00+07:00",
+  "bijgewerkt": "2026-11-17T06:30:00+07:00",
   "gezondheid": {
     "streak": 5,
     "laatste": {
@@ -439,6 +439,82 @@
       "bron": "bol.com",
       "url": "https://www.bol.com/nl/nl/p/die-ene-dag/9300000279000836/",
       "isbn": "9789401626415"
+    }
+  ],
+  "header": {
+    "ochtend": {
+      "titel": "Goeiemorgen, Sévérine",
+      "sub": "Winter in Antwerpen start binnenkort, en er staan nieuwe plekken om te eten op je lijst."
+    },
+    "middag": {
+      "titel": "Fijne middag, Sévérine",
+      "sub": "Tijd voor een recept en een tentoonstelling om te noteren."
+    },
+    "avond": {
+      "titel": "Goeienavond, Sévérine",
+      "sub": "Rustig bijlezen: Antwerpen, boeken en je logboek van de week."
+    },
+    "nacht": {
+      "titel": "Nog even bijlezen, Sévérine?",
+      "sub": "Tot morgen met nieuwe tips."
+    }
+  },
+  "antwerpen": [
+    {
+      "label": "Evenement",
+      "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
+      "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
+    },
+    {
+      "label": "Nieuws",
+      "titel": "450 jaar Rubens: Antwerpen viert groots in 2027",
+      "samenvatting": "Rond de geboortedag van Peter Paul Rubens komt er een heel jaar vol tentoonstellingen, concerten en hedendaagse kunst.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/11/12/antwerp-marks-450-years-since-the-birth-of-peter-paul-rubens-with-year-long-programme/"
+    },
+    {
+      "label": "Tentoonstelling",
+      "titel": "Philip Aguirre y Otegui in het KMSKA",
+      "samenvatting": "Een grote overzichtstentoonstelling met monumentale beelden en kleinere werken van de Antwerpse kunstenaar. Te zien tot en met 17 januari 2027.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/09/23/antwerp-kmska-museum-presents-major-retrospective-of-belgian-sculptor-philip-aguirre-y-otegui-from-3-october-2026-to-17-january-2027/"
+    },
+    {
+      "label": "Tentoonstelling",
+      "titel": "Zadkine en België in het KMSKA",
+      "samenvatting": "Het museum toont hoe de beeldhouwer Ossip Zadkine met België verbonden was. De expo loopt van 31 oktober tot 18 april 2027.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/10/28/antwerp-kmska-explores-ossip-zadkines-ties-to-belgium-in-new-exhibition/"
+    },
+    {
+      "label": "Evenement",
+      "titel": "De Space Walk: wandelen door de ruimtevaart",
+      "samenvatting": "Een gratis wandeling van 4,5 km met tien haltes over de geschiedenis van de ruimtevaart. Nog tot en met 22 november.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/10/22/the-space-walk-brings-the-history-of-space-exploration-to-antwerp-streets/"
+    },
+    {
+      "label": "Resto",
+      "titel": "13 nieuwe restaurants in Antwerpen voor op je lijst",
+      "samenvatting": "Denk aan Eldo (hout vuur), Spice Bank in een oude bankzaal en het Poolse Soixante. Een handig overzicht om iets nieuws uit te proberen.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/321059-nieuwe-hotspots-antwerpen-restaurants.html"
+    },
+    {
+      "label": "Resto",
+      "titel": "Bracc: klassiek met een moderne twist",
+      "samenvatting": "Een klein restaurant in de Hofstraat met een warm Frans interieur. Op donderdag en zondag speelt er live jazz.",
+      "bron": "Le Fooding",
+      "url": "https://lefooding.com/en/restaurants/bracc"
+    },
+    {
+      "label": "Nieuws",
+      "titel": "Plannen voor het Koning Albertpark en de Grotesteenweg",
+      "samenvatting": "De stad en twee districten leggen vast hoe het verkeer rond het park en de Grotesteenweg later moet verlopen.",
+      "bron": "Trip by Trip",
+      "url": "https://tripbytrip.org/2026/11/04/antwerp-sets-mobility-vision-for-redevelopment-of-koning-albertpark-and-grotesteenweg/"
     }
   ]
 }

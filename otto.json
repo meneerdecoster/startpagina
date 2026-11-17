@@ -1,17 +1,17 @@
 {
-  "bijgewerkt": "2026-11-17T05:30:00+07:00",
+  "bijgewerkt": "2026-11-17T06:30:00+07:00",
   "nieuws": [
     {
-      "titel": "Lily Yohannes heeft een eigen voetbalveld",
-      "samenvatting": "Een voetbalster heeft een nieuw veld gekregen. Ze zegt: je kunt alles bereiken wat je wilt.",
+      "titel": "Portugal bedankt Ronaldo",
+      "samenvatting": "De voetballers van Portugal droegen shirts met nummer 7. Zo zeiden ze dank je wel aan Ronaldo, die stopt voor het nationale team.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
+      "url": "https://jeugdjournaal.nl/l/2639541"
     },
     {
-      "titel": "Nieuwe studio voor het Jeugdjournaal",
-      "samenvatting": "Het Jeugdjournaal heeft een gloednieuwe studio. De eerste uitzending was op 2 november.",
+      "titel": "Starship-raket komt terug op aarde",
+      "samenvatting": "Het bovenste stuk van een ruimteraket is terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2637692"
+      "url": "https://jeugdjournaal.nl/l/2639544"
     },
     {
       "titel": "Pech voor Sinterklaas in Amsterdam",
@@ -20,10 +20,10 @@
       "url": "https://jeugdjournaal.nl/l/2639611"
     },
     {
-      "titel": "Starship-raket komt terug op aarde",
-      "samenvatting": "Het bovenste stuk van een ruimteraket is terug op aarde gezet op een speciale plek. Het ging eerst 14 keer rond de aarde.",
+      "titel": "Lily Yohannes heeft een eigen voetbalveld",
+      "samenvatting": "Een voetbalster heeft een nieuw veld gekregen. Ze zegt: je kunt alles bereiken wat je wilt.",
       "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2639544"
+      "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
     }
   ],
   "wetenschap": [
@@ -85,22 +85,22 @@
   ],
   "duivels": [
     {
+      "titel": "Lukaku stopt bij de Rode Duivels",
+      "samenvatting": "Romelu Lukaku zegt dat hij niet meer voor de Rode Duivels speelt. Hij zegt zelf dat hij van elk moment genoten heeft.",
+      "bron": "Sporza",
+      "url": "https://sporza.be/nl/2026/11/16/romelu-lukaku-stopt-onverwacht-bij-rode-duivels-ik-heb-van-elk-moment-genoten~1794822218090/"
+    },
+    {
+      "titel": "Wintam reageert op het afscheid van Lukaku",
+      "samenvatting": "In Wintam, waar Lukaku ooit voetbalde, zijn ze verrast. Zo'n goede speler komt er volgens hen nooit meer.",
+      "bron": "VRT NWS",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/lukaku-stopt-als-rode-duivel-wintam-vorige-voetalclub-reageert/"
+    },
+    {
       "titel": "Rode Duivels winnen met 4-1 van Italië",
       "samenvatting": "België speelde een supermatch tegen Italië en won met 4-1. Trainer Mark van Bommel is blij met zijn team.",
       "bron": "Sporza",
       "url": "https://sporza.be/nl/2026/11/16/vandenbempt-ziet-alle-lichten-op-groen-springen-bij-rode-duivels-met-vooral-een-grote-winnaar-daar-is-nu-toch-geen-discussie-meer-over~1794788558567/"
-    },
-    {
-      "titel": "Lukaku mist de match tegen Turkije",
-      "samenvatting": "Romelu Lukaku heeft een beetje last van zijn heup. Hij blijft thuis om beter te worden.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/11/domper-voor-rode-duivels-romelu-lukaku-mist-duel-met-turkije-door-heupproblemen~1794399617809/"
-    },
-    {
-      "titel": "Diego Moreira: niet op mijn lauweren rusten",
-      "samenvatting": "De Duivels trainden in Tubeke voor ze naar Turkije vertrokken. Moreira zegt dat hij niet zomaar tevreden gaat zijn.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/11/moreira-en-rode-duivels-trainden-in-tubeke-voor-vertrek-naar-turkije-niet-op-mijn-lauweren-rusten~1794406587555/"
     }
   ],
   "raadsel": {
@@ -113,19 +113,42 @@
     "antwoord": "Mooie riem!"
   },
   "land": {
-    "week": "2026-W47",
-    "naam": "Vietnam",
-    "hoofdstad": "Hanoi",
-    "vlag": "🇻🇳",
+    "datum": "2026-11-17",
+    "naam": "Maleisië",
+    "hoofdstad": "Kuala Lumpur",
+    "vlag": "🇲🇾",
+    "iso2": "my",
+    "iso": "458",
+    "lat": 4.2,
+    "lon": 102.0,
+    "inwoners": "ongeveer 34 miljoen",
     "weetjes": [
-      "De hoofdstad van Vietnam heet Hanoi.",
-      "In Vietnam rijden heel veel mensen met een scooter of brommer.",
-      "In een enorme grot in Vietnam groeit zelfs een stukje bos!"
-    ],
-    "iso2": "vn",
-    "iso": "704",
-    "lat": 16.0,
-    "lon": 106.0,
-    "inwoners": "ongeveer 100 miljoen"
+      "De hoofdstad heet Kuala Lumpur. Daar staan twee superhoge torens.",
+      "In het regenwoud van Maleisië wonen orang-oetans.",
+      "De vlag heeft een ster en een maan."
+    ]
+  },
+  "header": {
+    "ochtend": {
+      "titel": "Goeiemorgen, Otto! Welke missie vandaag? 🚀",
+      "sub": "Er staat een superzware ster in je heelalweetje."
+    },
+    "middag": {
+      "titel": "Hoi Otto, tijd voor een voetbalpauze ⚽",
+      "sub": "Lukaku stopt bij de Rode Duivels. Lees het hier."
+    },
+    "avond": {
+      "titel": "Goeienavond, astronaut Otto! 🌙",
+      "sub": "Nog één raadsel en een mop, dan slapen."
+    },
+    "nacht": {
+      "titel": "Welterusten, Otto! 🌙",
+      "sub": "Tot morgen, dan is er weer van alles nieuw."
+    }
+  },
+  "heelal": {
+    "emoji": "🌟",
+    "titel": "De zwaarste lepel van het heelal",
+    "tekst": "Als een hele grote ster op is, kan er een kleine, superzware bol overblijven: een neutronenster. Zo'n ster is maar zo groot als een stad, maar bijna net zo zwaar als onze zon. Een theelepel van dat spul zou op aarde meer wegen dan alle mensen samen! Sommige neutronensterren draaien ook razendsnel, wel honderden keren per seconde."
   }
 }

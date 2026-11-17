@@ -1,32 +1,33 @@
 {
-  "bijgewerkt": "2026-11-17T05:30:00+07:00",
+  "bijgewerkt": "2026-11-17T06:30:00+07:00",
   "gebruikt": [
-    "Vietnam"
+    "Vietnam",
+    "Maleisië"
   ],
   "nieuws": [
+    {
+      "titel": "Het nieuws van de week in Karrewiet",
+      "samenvatting": "Karrewiet zet het nieuws van maandag tot vrijdag op een rijtje. Zo mis je niets van wat er in de wereld gebeurde.",
+      "bron": "Karrewiet (VRT)",
+      "url": "https://www.vrt.be/vrtmax/a-z/de-week-van-karrewiet/2026/de-week-van-karrewiet-d20261114/"
+    },
+    {
+      "titel": "Portugal bedankt Ronaldo met shirts met nummer 7",
+      "samenvatting": "De voetballers van Portugal droegen shirts met nummer 7 om Cristiano Ronaldo te bedanken. Hij stopt met spelen voor het nationale team.",
+      "bron": "NOS Jeugdjournaal",
+      "url": "https://jeugdjournaal.nl/l/2639541"
+    },
+    {
+      "titel": "Walvishaaien zijn populair, maar dierenbeschermers maken zich zorgen",
+      "samenvatting": "In een dorpje in Indonesië komen veel toeristen walvishaaien bekijken. De dieren worden gevoerd en dat is slecht voor ze, dus beschermers willen strengere regels.",
+      "bron": "NOS Jeugdjournaal",
+      "url": "https://jeugdjournaal.nl/artikel/2638260-walvishaaien-populair-bij-toeristen-maar-dierenbeschermers-zijn-het-zat"
+    },
     {
       "titel": "K-popgroep Stray Kids komt terug naar Nederland",
       "samenvatting": "De Koreaanse groep Stray Kids komt volgend jaar weer naar Nederland. Ze geven op 27 juli 2027 een groot concert in Arnhem.",
       "bron": "NOS Jeugdjournaal",
       "url": "https://jeugdjournaal.nl/l/2638740"
-    },
-    {
-      "titel": "Word je gewelddadig van games?",
-      "samenvatting": "Het Jeugdjournaal zoekt uit of je agressiever wordt van gamen of juist niet. Ze kijken wat onderzoekers hierover zeggen.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639551-uitgezocht-word-je-gewelddadig-van-games-of-poeslief"
-    },
-    {
-      "titel": "Het Jeugdjournaal heeft een nieuwe studio",
-      "samenvatting": "Sinds 2 november zendt het Jeugdjournaal uit vanuit een gloednieuwe studio. Binnenkort volgt ook het ochtendjournaal.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2637692"
-    },
-    {
-      "titel": "Lily Yohannes heeft een eigen voetbalveld",
-      "samenvatting": "Voetbalster Lily Yohannes heeft een nieuw veld geopend. Ze zegt: je kunt alles bereiken wat je wilt.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639599-lily-yohannes-opent-eigen-voetbalveld-je-kan-alles-behalen-wat-je-wilt"
     }
   ],
   "dieren": [
@@ -80,20 +81,20 @@
     }
   ],
   "land": {
-    "week": "2026-W47",
-    "naam": "Vietnam",
-    "hoofdstad": "Hanoi",
-    "vlag": "🇻🇳",
+    "datum": "2026-11-17",
+    "naam": "Maleisië",
+    "hoofdstad": "Kuala Lumpur",
+    "vlag": "🇲🇾",
+    "iso2": "my",
+    "iso": "458",
+    "lat": 4.2,
+    "lon": 102.0,
+    "inwoners": "ongeveer 34 miljoen",
     "weetjes": [
-      "Hanoi is de hoofdstad van Vietnam. De grootste stad is Ho Chi Minh-Stad.",
-      "De Baai van Ha Long staat op de werelderfgoedlijst van UNESCO, met duizenden rotsen die uit het water steken.",
-      "Son Doong is een van de grootste grotten ter wereld. Er groeit zelfs een stukje bos in de grot."
-    ],
-    "iso2": "vn",
-    "iso": "704",
-    "lat": 16.0,
-    "lon": 106.0,
-    "inwoners": "ongeveer 100 miljoen"
+      "De Petronas Twin Towers in Kuala Lumpur waren jarenlang de hoogste gebouwen ter wereld. Ze zijn 452 meter hoog.",
+      "Een deel van Maleisië ligt op het eiland Borneo. In het regenwoud daar wonen orang-oetans.",
+      "De vlag van Maleisië heeft 14 strepen en een ster met een maan."
+    ]
   },
   "raadsel": {
     "vraag": "Wat reist de hele wereld rond maar blijft toch in een hoekje zitten?",
@@ -135,5 +136,40 @@
       "bron": "AB",
       "url": "https://www.abconcerts.be/en/agenda/maksim/a10Qw000000x8BHIAY"
     }
-  ]
+  ],
+  "header": {
+    "ochtend": {
+      "titel": "Goeiemorgen, Ida! Vandaag knip je een sneeuwvlok 🌨️",
+      "sub": "Maleisië is je land van de dag, en er is nieuws over Ronaldo."
+    },
+    "middag": {
+      "titel": "Hoi Ida, tijd voor een knutselpauze ✂️",
+      "sub": "Kijk eens hoe katjes met baasjes gaan wandelen."
+    },
+    "avond": {
+      "titel": "Goeienavond, Ida! Wat was het leukste van vandaag?",
+      "sub": "Nog even een raadsel voor het slapengaan."
+    },
+    "nacht": {
+      "titel": "Slaap zacht, Ida! 🌙",
+      "sub": "Tot morgen, dan is er weer van alles nieuw."
+    }
+  },
+  "knutsel": {
+    "titel": "Een papieren sneeuwvlok",
+    "intro": "Elke sneeuwvlok is anders, en jouw vlok ook. Hang hem aan het raam!",
+    "materiaal": [
+      "Een vierkant wit blaadje (zo'n 15 cm)",
+      "Een schaar",
+      "Een potlood"
+    ],
+    "stappen": [
+      "Vouw het vierkant in tweeën tot een driehoek.",
+      "Vouw die driehoek nog eens dubbel, en nog eens, zodat je een smal puntig stukje krijgt.",
+      "Teken kleine streepjes, boogjes en driehoekjes langs de randen.",
+      "Knip de tekeningen uit. Knip nooit de hele breedte door!",
+      "Vouw voorzichtig open en kijk wat voor vlok je gemaakt hebt."
+    ],
+    "tip": "Vraag hulp bij het vouwen als het papier te dik wordt, en probeer eens een vlok van gekleurd papier."
+  }
 }

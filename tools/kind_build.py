@@ -26,7 +26,8 @@ P = {
    dict(key="raadsel",type="quiz",titel="Raadsel van de dag",meta="Kan jij het oplossen?",span=5,kleur="#8B5CF6"),
    dict(key="dieren",type="media",titel="Schattig",meta="Hondjes en katjes",span=5,kleur="#F59E0B",max=2),
    dict(key="mensen",type="media",titel="Je favorieten",meta="Camille · Pommelien · Aaron · Maksim",span=7,kleur="#EC4899"),
-   dict(key="land",type="land",titel="Land van de week",meta="Elke week een nieuw land",span=12,kleur="#10B981"),
+   dict(key="knutsel",type="knutsel",titel="Knutselidee van de dag",meta="Zelf maken",span=12,kleur="#F472B6"),
+   dict(key="land",type="land",titel="Land van de dag",meta="Elke dag een nieuw land",span=12,kleur="#10B981"),
    dict(key="films",type="media",titel="Tekenfilms",meta="Pixar en Disney",span=12,kleur="#3B82F6"),
   ]),
  "otto": dict(
@@ -44,10 +45,11 @@ P = {
    dict(key="nieuws",type="news",titel="Karrewiet",meta="Nieuws voor jou",span=7,kleur="#EF4444"),
    dict(key="raadsel",type="quiz",titel="Wiskunderaadsel",meta="Kan jij het oplossen?",span=5,kleur="#10B981"),
    dict(key="wetenschap",type="feiten",titel="Wist je dat?",meta="Ruimte · dieren · lichaam",span=12,kleur="#8B5CF6",breed=True),
+   dict(key="heelal",type="heelal",titel="Het heelal",meta="Groot weetje van de dag",span=12,kleur="#6366F1"),
    dict(key="films",type="media",titel="Nieuwe films",meta="Pixar en Disney",span=12,kleur="#3B82F6"),
    dict(key="duivels",type="news",titel="Rode Duivels",meta="Voetbal",span=7,kleur="#DC2626"),
    dict(key="mop",type="mop",titel="Mop van de dag",meta="Even lachen",span=5,kleur="#F59E0B"),
-   dict(key="land",type="land",titel="Land van de week",meta="Elke week een nieuw land",span=12,kleur="#0EA5E9"),
+   dict(key="land",type="land",titel="Land van de dag",meta="Elke dag een nieuw land",span=12,kleur="#0EA5E9"),
   ]),
  "severine": dict(
   titel="Sévérines Startpagina", accent="#E03A3E", icoon="icon-severine.png",
@@ -63,6 +65,7 @@ P = {
    dict(key="lifestyle",type="news",titel="Lifestyle",meta="Mode · wonen · interieur",span=12,kleur="#E03A3E",kolommen=True),
    dict(key="voeding",type="news",titel="Voeding",meta="Recepten · gezond leven",span=12,kleur="#10B981",kolommen=True),
    dict(key="boeken",type="tiles",titel="Nieuwe boeken",meta="Nederlandstalig",span=12,kleur="#8B5CF6",emoji="📖",portret=True),
+   dict(key="antwerpen",type="news",titel="Antwerpen",meta="Evenementen · tentoonstellingen · nieuws · resto's",span=12,kleur="#F59E0B",kolommen=True),
    dict(key="uitgaan",type="uitgaan",titel="Uitgaan in de buurt",meta="Muziek · comedy",span=12,kleur="#6366F1"),
   ]),
 }
