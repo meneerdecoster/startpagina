@@ -3,8 +3,10 @@ name: dropbox
 # en zet die online als data.json (+ foto's via tools/thumbs.py).
 on:
   schedule:
-    - cron: "15 23 * * *"   # 06:15 Phnom Penh
-    - cron: "5 1 * * *"     # 08:05 Phnom Penh (tweede kans)
+    - cron: "30-50/10 21 * * *"  # 04:30-04:50 Phnom Penh
+    - cron: "*/10 22 * * *"      # 05:00-05:50 Phnom Penh
+    - cron: "0 23 * * *"         # 06:00 Phnom Penh
+    - cron: "5 1 * * *"          # 08:05 Phnom Penh (laatste vangnet)
   workflow_dispatch:
 permissions:
   contents: write
