@@ -381,7 +381,7 @@ let TH=null;
 async function th(){ if(TH===null){ try{ TH=await (await tfetch("thumbs.json?"+Date.now(),8000)).json(); }catch(e){ TH={}; } } return TH; }
 async function loadImgs(){
   document.querySelectorAll(".ph[data-wiki]").forEach(async el=>{
-    try{ const u=new URL(el.dataset.wiki); if(!/wikipedia\.org$/.test(u.hostname)) return;
+    try{ const u=new URL(el.dataset.wiki); if(!/wikipedia\.org$/.test(u.hostname)){ el.dataset.u=el.dataset.wiki; return; }
       const r=await fetch(u.origin+"/api/rest_v1/page/summary/"+u.pathname.replace("/wiki/","")); const j=await r.json();
       const src=(j.originalimage&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source); if(!src) return;
       const im=new Image(); im.alt=j.title||""; im.referrerPolicy="no-referrer";
