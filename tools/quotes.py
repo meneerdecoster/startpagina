@@ -52,6 +52,7 @@ for p in json.load(open("tools/positions.json")):
         if d.get("regularMarketTime"):
             it["datum"] = datetime.datetime.utcfromtimestamp(d["regularMarketTime"]).strftime("%Y-%m-%d")
     it["maand"] = maand_pct(p["ticker"])
+    if it["maand"] is None and p.get("maand_ticker"): it["maand"] = maand_pct(p["maand_ticker"])
     items.append(it)
 try: old = {i["naam"]: i for i in json.load(open("quotes.json")).get("items", [])}
 except Exception: old = {}

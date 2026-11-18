@@ -1,6 +1,6 @@
 [
   {"naam": "Wereld-ETF", "ticker": "SPYI.DE"},
   {"naam": "Obligaties", "ticker": "0GGH.L"},
-  {"naam": "Bitcoin", "ticker": "XS2940466316.SG"},
+  {"naam": "Bitcoin", "ticker": "XS2940466316.SG", "maand_ticker": "BTC-EUR"},
   {"naam": "Zilver", "ticker": "PHAG.AS"}
 ]
