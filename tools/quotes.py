@@ -4,15 +4,36 @@ import json, sys, datetime, urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; StartpaginaBot/1.0)"}
 
-def meta(t, rng):
+def chart(t, rng):
     for host in ("query1", "query2"):
         try:
             u = f"https://{host}.finance.yahoo.com/v8/finance/chart/{t}?range={rng}&interval=1d"
             with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=20) as r:
-                return json.load(r)["chart"]["result"][0]["meta"]
+                return json.load(r)["chart"]["result"][0]
         except Exception as e:
             print("fout", t, rng, host, e, file=sys.stderr)
     return None
+
+def meta(t, rng):
+    c = chart(t, rng)
+    return c["meta"] if c else None
+
+def maand_pct(t):
+    """Koers nu t.o.v. de laatste slotkoers op of vóór dezelfde dag een maand geleden (niet chartPreviousClose, dat bij dun verhandelde fondsen gewoon gisteren is)."""
+    c = chart(t, "3mo")
+    if not c: return None
+    ts = c.get("timestamp") or []
+    cl = (c.get("indicators", {}).get("quote") or [{}])[0].get("close") or []
+    pts = [(a, b) for a, b in zip(ts, cl) if b]
+    if len(pts) < 2: return None
+    now_ts, now = pts[-1]
+    nu = datetime.datetime.utcfromtimestamp(now_ts)
+    m = nu.month - 1 or 12; y = nu.year - (1 if nu.month == 1 else 0)
+    day = min(nu.day, 28)
+    cut = datetime.datetime(y, m, day, 23, 59).timestamp()
+    ref = [b for a, b in pts if a <= cut]
+    if not ref: return None
+    return round((now / ref[-1] - 1) * 100, 2)
 
 items = []
 for p in json.load(open("tools/positions.json")):
@@ -26,9 +47,7 @@ for p in json.load(open("tools/positions.json")):
         it["koers"] = d["regularMarketPrice"]; it["valuta"] = d.get("currency")
         if d.get("regularMarketTime"):
             it["datum"] = datetime.datetime.utcfromtimestamp(d["regularMarketTime"]).strftime("%Y-%m-%d")
-    m = meta(p["ticker"], "1mo")
-    if m and m.get("regularMarketPrice") and m.get("chartPreviousClose"):
-        it["maand"] = round((m["regularMarketPrice"] / m["chartPreviousClose"] - 1) * 100, 2)
+    it["maand"] = maand_pct(p["ticker"])
     items.append(it)
 try: old = {i["naam"]: i for i in json.load(open("quotes.json")).get("items", [])}
 except Exception: old = {}
