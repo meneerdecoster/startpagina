@@ -46,6 +46,8 @@ P = {
    dict(key="raadsel",type="quiz",titel="Wiskunderaadsel",meta="Kan jij het oplossen?",span=5,kleur="#10B981"),
    dict(key="wetenschap",type="feiten",titel="Wist je dat?",meta="Ruimte · dieren · lichaam",span=12,kleur="#8B5CF6",breed=True),
    dict(key="heelal",type="heelal",titel="Het heelal",meta="Groot weetje van de dag",span=12,kleur="#6366F1"),
+   dict(key="dino",type="dino",titel="Dino van de dag",meta="Elke dag een nieuwe dinosaurus",span=12,kleur="#16A34A"),
+   dict(key="engels",type="engels",titel="3 Engelse woorden",meta="Elke dag drie nieuwe woorden",span=12,kleur="#F97316"),
    dict(key="films",type="media",titel="Nieuwe films",meta="Pixar en Disney",span=12,kleur="#3B82F6"),
    dict(key="duivels",type="news",titel="Rode Duivels",meta="Voetbal",span=7,kleur="#DC2626"),
    dict(key="mop",type="mop",titel="Mop van de dag",meta="Even lachen",span=5,kleur="#F59E0B"),

@@ -171,6 +171,15 @@ __SKIES__
 .knut .tip{margin:12px 0 0;padding:10px 12px;border-radius:12px;background:var(--bg);font-size:14px}
 .heel{display:flex;gap:16px;align-items:flex-start}.heel .em{font-size:44px;line-height:1}.heel a{font-size:13px}
 @media(max-width:640px){.kn2{grid-template-columns:1fr}}
+.dino{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}
+.dino .ph{margin:0;aspect-ratio:4/3}.dino .em{font-size:64px;line-height:1;display:grid;place-items:center;aspect-ratio:4/3;border-radius:14px;background:var(--bg)}
+.dino .ph.has+.em{display:none}.dino h3{margin:0 0 4px;font-size:22px}.dino .sub{color:var(--muted);font-size:13px;margin:0 0 10px}
+.dino .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.dino .chips span{background:var(--bg);border-radius:999px;padding:5px 11px;font-size:13px}
+.dino p{margin:0 0 10px;line-height:1.55}.dino .wd{padding:10px 12px;border-radius:12px;background:var(--bg);font-size:14px}.dino a{font-size:13px}
+.eng{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.eng .w{background:var(--bg);border-radius:14px;padding:14px}
+.eng .en{font-family:var(--display);font-size:24px;font-weight:700;line-height:1.1}.eng .nl{color:var(--muted);font-size:14px;margin:3px 0 8px}
+.eng .ex{font-size:14px;line-height:1.45}.eng .ex i{display:block;color:var(--muted);font-size:13px;margin-top:2px}.eng .pr{font-family:var(--mono);font-size:12px;color:var(--muted)}
+@media(max-width:700px){.dino{grid-template-columns:1fr}.eng{grid-template-columns:1fr}}
 .err{padding:30px; text-align:center; color:var(--muted)}
 footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:center}
 </style>
@@ -306,6 +315,11 @@ const R = {
       <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
   uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
   knutsel:(k)=> !k?"":`<div class="knut"><h3>${esc(k.titel)}</h3>${k.intro?`<p>${esc(k.intro)}</p>`:""}<div class="kn2"><div><b>Dit heb je nodig</b><ul>${(k.materiaal||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ul></div><div><b>Zo doe je het</b><ol>${(k.stappen||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ol></div></div>${k.tip?`<p class="tip">💡 ${esc(k.tip)}</p>`:""}</div>`,
+  dino:(d)=> !d?"":`<div class="dino"><div>${d.url?`<a class="ph" href="${esc(d.url)}" target="_blank" rel="noopener" data-u="${esc(d.url)}" tabindex="-1" aria-hidden="true"></a>`:""}<div class="em">${esc(d.emoji||"🦖")}</div></div>
+    <div><h3>${esc(d.naam)}</h3><p class="sub">${esc(d.betekenis||"")}</p>
+    <div class="chips">${[["🕰️",d.periode],["🍽️",d.dieet],["📏",d.grootte],["⚖️",d.gewicht],["🌍",d.plaats]].filter(x=>x[1]).map(x=>`<span>${x[0]} ${esc(x[1])}</span>`).join("")}</div>
+    <p>${esc(d.tekst||"")}</p>${d.weetje?`<p class="wd">⭐ ${esc(d.weetje)}</p>`:""}${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
+  engels:(w)=> `<div class="eng">`+(w||[]).map(x=>`<div class="w"><div class="en">${esc(x.emoji||"")} ${esc(x.en)}</div><div class="pr">${esc(x.uitspraak||"")}</div><div class="nl">${esc(x.nl)}</div><div class="ex">${esc(x.voorbeeld||"")}<i>${esc(x.voorbeeld_nl||"")}</i></div></div>`).join("")+`</div>`,
   heelal:(h)=> !h?"":`<div class="heel"><div class="em">${esc(h.emoji||"🌌")}</div><div><h3>${esc(h.titel)}</h3><p>${esc(h.tekst)}</p>${h.url?`<a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
   mop:(m)=> !m?"":(m.vraag?`<p class="mop">${esc(m.vraag)}</p><div class="quiz" style="margin-top:12px"><details><summary>Toon het antwoord</summary><div class="a">${esc(m.antwoord)}</div></details></div>`:`<p class="mop">${esc(m.tekst)}</p>`)
 };

@@ -84,6 +84,7 @@ def urls(d):
     out = []
     for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels", "lifestyle", "voeding", "boeken"):
         out += [x for i in d.get(k, []) if isinstance(i, dict) for x in (i.get("url"), i.get("video"))]
+    if isinstance(d.get("dino"), dict): out.append(d["dino"].get("url"))
     for p in d.get("podcasts", []):
         out += [e.get("url") for e in p.get("afleveringen", [])]
     for lst in (d.get("sport") or {}).values():

@@ -1,188 +1,228 @@
 {
-  "bijgewerkt": "2026-11-18T05:35:01+07:00",
-  "nieuws": [
-    {
-      "titel": "Honden leren omgaan met knallen",
-      "samenvatting": "Sommige honden schrikken van vuurwerk. Daarom oefenen ze nu al met harde knallen, zodat ze later rustig blijven.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639726-deze-honden-krijgen-vuurwerk-training-wieeee-boem-boem-boem"
-    },
-    {
-      "titel": "Het Jeugdjournaal heeft een nieuwe studio",
-      "samenvatting": "De studio van het Jeugdjournaal ziet er helemaal anders uit. Je ziet de eerste uitzending om 19:00 uur op NPO Zapp.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/l/2637692"
-    },
-    {
-      "titel": "Sinterklaas is er!",
-      "samenvatting": "Sinterklaas is aangekomen in Antwerpen. Hij vindt de kerstperiode veel te lang duren.",
-      "bron": "VRT NWS",
-      "url": "https://vrt.be/vrtnws/nl/2026/11/13/sinterklaas-kerstman-wanneer-kerstboom-plaatsen"
-    },
-    {
-      "titel": "Een bedje in de bibliotheek",
-      "samenvatting": "In de bib van Genk staan bedjes. Je ligt erin met mama, papa, opa of oma en leest samen een boekje.",
-      "bron": "VRT NWS",
-      "url": "https://vrt.be/vrtnws/nl/2026/11/17/voorleesbedjes-in-bibliotheek-genk"
-    }
-  ],
-  "wetenschap": [
-    {
-      "emoji": "🐙",
-      "titel": "Een octopus heeft drie harten",
-      "tekst": "Twee harten pompen bloed naar de kieuwen. Het derde hart pompt het bloed door de rest van het lijf."
-    },
-    {
-      "emoji": "🦋",
-      "titel": "Vlinders proeven met hun pootjes",
-      "tekst": "Als een vlinder op een blaadje landt, proeft hij meteen met zijn pootjes of het lekker is."
-    },
-    {
-      "emoji": "🦦",
-      "titel": "Zeeotters houden elkaars pootje vast",
-      "tekst": "Als zeeotters in het water slapen, houden ze vaak elkaars pootje vast. Zo drijven ze niet uit elkaar."
-    },
-    {
-      "emoji": "🦩",
-      "titel": "Flamingo's worden roze door hun eten",
-      "tekst": "Flamingo's eten kleine kreeftjes en algen. Daar zit een stof in die hun veren roze kleurt."
-    },
-    {
-      "emoji": "🍌",
-      "titel": "Een banaan is eigenlijk een bes",
-      "tekst": "Voor een plantkundige is een banaan een bes, net als een druif. Een aardbei is dat juist niet."
-    }
-  ],
-  "films": [
-    {
-      "titel": "Hoppers",
-      "samenvatting": "Een Pixar-film over een meisje dat zich in een robotdier kan verstoppen om de dieren in het bos te leren kennen. Je kan de film nu op Disney+ zien.",
-      "bron": "Pulse",
-      "url": "https://www.pulse.bot/movies/news/pixars-hoppers-is-now-streaming-on-disney-heres-why-you-should-watch-it-d770eac1-4302-4e08-89cf-5f937eb7e609/",
-      "video": "https://www.youtube.com/watch?v=T2_c2sZJrUo"
-    },
-    {
-      "titel": "Elio",
-      "samenvatting": "Elio is gek op de ruimte en ontmoet echte aliens. Je kan de film op Disney+ zien.",
-      "bron": "Disney UK",
-      "url": "https://press.disney.co.uk/news/disney-and-pixars-out-of-this-world-adventure-film-elio-will-land-on-disney%2B-on-sept-17",
-      "video": "https://www.youtube.com/watch?v=05HIYPh1MwY"
-    },
-    {
-      "titel": "Zootropolis 2",
-      "samenvatting": "Judy het konijn en Nick de vos zoeken een slang in hun stad. Je ziet de film op Disney+.",
-      "bron": "Variety",
-      "url": "https://au.variety.com/2026/film/global/zootopia-2-disney-release-date-streaming-how-to-watch-33814/",
-      "video": "https://www.youtube.com/watch?v=9BF4YfxVcjc"
-    },
-    {
-      "titel": "Gatto: kat in Venetië",
-      "samenvatting": "Een nieuwe Pixar-film over de zwarte kat Nero in Venetië. Je ziet hem in maart 2027 in de bioscoop.",
-      "bron": "Disney UK",
-      "url": "https://press.disney.co.uk/news/new-trailer-and-poster-for-disney-and-pixars-gatto-available-now-additional-voice-cast-announced",
-      "video": "https://www.youtube.com/watch?v=oEvTCd5Q2LY"
-    }
-  ],
-  "duivels": [
-    {
-      "titel": "Duivels winnen met 4-1 van Italië",
-      "samenvatting": "De Rode Duivels wonnen met 4-1 en zijn door naar de kwartfinale van de Nations League. Ngoy en Moreira scoorden hun eerste doelpunt voor de Duivels, en keeper Lammens hield een strafschop tegen.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/15/-we-hebben-echt-een-goeie-ploeg-rode-duivels-genieten-na-van-knappe-zege-tegen-italie-waarin-plezier-ervanaf-spatte~1794772457313/"
-    },
-    {
-      "titel": "Tegen wie spelen de Duivels straks?",
-      "samenvatting": "In maart 2027 spelen de Duivels tegen Engeland, Duitsland of Portugal. Op 6 december is de loting voor het EK.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/17/al-zeker-een-absolute-topaffiche-dit-zijn-de-mogelijke-tegenstanders-van-de-rode-duivels-die-zelfs-ek-al-vorm-zien-krijgen~1794941496792/"
-    },
-    {
-      "titel": "Twee nieuwe spelers bij de Duivels",
-      "samenvatting": "Josué Kongolo van Genk en spits Hugo Cuypers mochten voor het eerst mee met de Rode Duivels.",
-      "bron": "Sporza",
-      "url": "https://sporza.be/nl/2026/11/05/twee-grote-verrassingen-kongolo-en-cuypers-maken-debuut-bij-rode-duivels-de-winter-weigerde-selectie~1793900077484/"
-    }
-  ],
-  "raadsel": {
-    "vraag": "In een bus zitten 9 kinderen. Bij de eerste halte stappen er 4 uit en 6 in. Bij de tweede halte stappen er 3 uit. Hoeveel kinderen zitten er nu in de bus?",
-    "oplossing": "8",
-    "uitleg": "9 min 4 is 5. Dan plus 6 is 11. En 11 min 3 is 8."
+ "bijgewerkt": "2026-11-18T05:35:01+07:00",
+ "nieuws": [
+  {
+   "titel": "Honden leren omgaan met knallen",
+   "samenvatting": "Sommige honden schrikken van vuurwerk. Daarom oefenen ze nu al met harde knallen, zodat ze later rustig blijven.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2639726-deze-honden-krijgen-vuurwerk-training-wieeee-boem-boem-boem"
   },
-  "mop": {
-    "vraag": "Waarom is een spin zo goed met computers?",
-    "antwoord": "Omdat ze altijd op het web zit!"
+  {
+   "titel": "Het Jeugdjournaal heeft een nieuwe studio",
+   "samenvatting": "De studio van het Jeugdjournaal ziet er helemaal anders uit. Je ziet de eerste uitzending om 19:00 uur op NPO Zapp.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2637692"
   },
-  "land": {
-    "datum": "2026-11-17",
-    "naam": "Laos",
-    "hoofdstad": "Vientiane",
-    "vlag": "🇱🇦",
-    "iso2": "la",
-    "iso": "418",
-    "lat": 19.0,
-    "lon": 102.5,
-    "inwoners": "ongeveer 7,5 miljoen",
-    "weetjes": [
-      "Laos heeft geen zee. Het ligt tussen andere landen in.",
-      "Er stroomt een heel grote rivier door, de Mekong.",
-      "In Laos staan oude stenen potten die reuzegroot zijn. Niemand weet precies waarvoor ze dienden."
-    ]
+  {
+   "titel": "Sinterklaas is er!",
+   "samenvatting": "Sinterklaas is aangekomen in Antwerpen. Hij vindt de kerstperiode veel te lang duren.",
+   "bron": "VRT NWS",
+   "url": "https://vrt.be/vrtnws/nl/2026/11/13/sinterklaas-kerstman-wanneer-kerstboom-plaatsen"
   },
-  "header": {
-    "ochtend": {
-      "titel": "Goeiemorgen, Otto! Een dag langer dan een jaar 🪐",
-      "sub": "Op Venus duurt één dag langer dan een jaar. Lees je heelalweetje.",
-      "iconen": [
-        "🪐",
-        "🚀",
-        "🌍",
-        "⭐",
-        "🛰️",
-        "☀️"
-      ]
-    },
-    "middag": {
-      "titel": "Hoi Otto, voetbaltijd ⚽",
-      "sub": "De Duivels wonnen met 4-1 van Italië.",
-      "iconen": [
-        "⚽",
-        "🥅",
-        "🏟️",
-        "🦁",
-        "🏃",
-        "🎯"
-      ]
-    },
-    "avond": {
-      "titel": "Goeienavond, Otto! Rekenen maar 🧠",
-      "sub": "Er rijdt een bus vol kinderen, en een spinnenmop wacht.",
-      "iconen": [
-        "🧠",
-        "🚌",
-        "🎲",
-        "🌙",
-        "🦉",
-        "✨"
-      ]
-    },
-    "nacht": {
-      "titel": "Welterusten, Otto! 🌙",
-      "sub": "Morgen is er weer van alles nieuw.",
-      "iconen": [
-        "🌙",
-        "⭐",
-        "😴",
-        "🧸",
-        "🌌",
-        "☁️"
-      ]
-    }
-  },
-  "heelal": {
-    "emoji": "🪐",
-    "titel": "Een dag op Venus duurt langer dan een jaar",
-    "tekst": "Venus draait super langzaam om zichzelf. Eén dag op Venus duurt zo'n 243 aardse dagen. Maar een rondje om de zon duurt maar 225 aardse dagen. Een dag is er dus langer dan een jaar! Venus is ook de heetste planeet, wel zo'n 465 graden.",
-    "bron": "NASA Space Place",
-    "url": "https://spaceplace.nasa.gov/all-about-venus/"
+  {
+   "titel": "Een bedje in de bibliotheek",
+   "samenvatting": "In de bib van Genk staan bedjes. Je ligt erin met mama, papa, opa of oma en leest samen een boekje.",
+   "bron": "VRT NWS",
+   "url": "https://vrt.be/vrtnws/nl/2026/11/17/voorleesbedjes-in-bibliotheek-genk"
   }
+ ],
+ "wetenschap": [
+  {
+   "emoji": "🐙",
+   "titel": "Een octopus heeft drie harten",
+   "tekst": "Twee harten pompen bloed naar de kieuwen. Het derde hart pompt het bloed door de rest van het lijf."
+  },
+  {
+   "emoji": "🦋",
+   "titel": "Vlinders proeven met hun pootjes",
+   "tekst": "Als een vlinder op een blaadje landt, proeft hij meteen met zijn pootjes of het lekker is."
+  },
+  {
+   "emoji": "🦦",
+   "titel": "Zeeotters houden elkaars pootje vast",
+   "tekst": "Als zeeotters in het water slapen, houden ze vaak elkaars pootje vast. Zo drijven ze niet uit elkaar."
+  },
+  {
+   "emoji": "🦩",
+   "titel": "Flamingo's worden roze door hun eten",
+   "tekst": "Flamingo's eten kleine kreeftjes en algen. Daar zit een stof in die hun veren roze kleurt."
+  },
+  {
+   "emoji": "🍌",
+   "titel": "Een banaan is eigenlijk een bes",
+   "tekst": "Voor een plantkundige is een banaan een bes, net als een druif. Een aardbei is dat juist niet."
+  }
+ ],
+ "films": [
+  {
+   "titel": "Hoppers",
+   "samenvatting": "Een Pixar-film over een meisje dat zich in een robotdier kan verstoppen om de dieren in het bos te leren kennen. Je kan de film nu op Disney+ zien.",
+   "bron": "Pulse",
+   "url": "https://www.pulse.bot/movies/news/pixars-hoppers-is-now-streaming-on-disney-heres-why-you-should-watch-it-d770eac1-4302-4e08-89cf-5f937eb7e609/",
+   "video": "https://www.youtube.com/watch?v=T2_c2sZJrUo"
+  },
+  {
+   "titel": "Elio",
+   "samenvatting": "Elio is gek op de ruimte en ontmoet echte aliens. Je kan de film op Disney+ zien.",
+   "bron": "Disney UK",
+   "url": "https://press.disney.co.uk/news/disney-and-pixars-out-of-this-world-adventure-film-elio-will-land-on-disney%2B-on-sept-17",
+   "video": "https://www.youtube.com/watch?v=05HIYPh1MwY"
+  },
+  {
+   "titel": "Zootropolis 2",
+   "samenvatting": "Judy het konijn en Nick de vos zoeken een slang in hun stad. Je ziet de film op Disney+.",
+   "bron": "Variety",
+   "url": "https://au.variety.com/2026/film/global/zootopia-2-disney-release-date-streaming-how-to-watch-33814/",
+   "video": "https://www.youtube.com/watch?v=9BF4YfxVcjc"
+  },
+  {
+   "titel": "Gatto: kat in Venetië",
+   "samenvatting": "Een nieuwe Pixar-film over de zwarte kat Nero in Venetië. Je ziet hem in maart 2027 in de bioscoop.",
+   "bron": "Disney UK",
+   "url": "https://press.disney.co.uk/news/new-trailer-and-poster-for-disney-and-pixars-gatto-available-now-additional-voice-cast-announced",
+   "video": "https://www.youtube.com/watch?v=oEvTCd5Q2LY"
+  }
+ ],
+ "duivels": [
+  {
+   "titel": "Duivels winnen met 4-1 van Italië",
+   "samenvatting": "De Rode Duivels wonnen met 4-1 en zijn door naar de kwartfinale van de Nations League. Ngoy en Moreira scoorden hun eerste doelpunt voor de Duivels, en keeper Lammens hield een strafschop tegen.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/15/-we-hebben-echt-een-goeie-ploeg-rode-duivels-genieten-na-van-knappe-zege-tegen-italie-waarin-plezier-ervanaf-spatte~1794772457313/"
+  },
+  {
+   "titel": "Tegen wie spelen de Duivels straks?",
+   "samenvatting": "In maart 2027 spelen de Duivels tegen Engeland, Duitsland of Portugal. Op 6 december is de loting voor het EK.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/17/al-zeker-een-absolute-topaffiche-dit-zijn-de-mogelijke-tegenstanders-van-de-rode-duivels-die-zelfs-ek-al-vorm-zien-krijgen~1794941496792/"
+  },
+  {
+   "titel": "Twee nieuwe spelers bij de Duivels",
+   "samenvatting": "Josué Kongolo van Genk en spits Hugo Cuypers mochten voor het eerst mee met de Rode Duivels.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/05/twee-grote-verrassingen-kongolo-en-cuypers-maken-debuut-bij-rode-duivels-de-winter-weigerde-selectie~1793900077484/"
+  }
+ ],
+ "raadsel": {
+  "vraag": "In een bus zitten 9 kinderen. Bij de eerste halte stappen er 4 uit en 6 in. Bij de tweede halte stappen er 3 uit. Hoeveel kinderen zitten er nu in de bus?",
+  "oplossing": "8",
+  "uitleg": "9 min 4 is 5. Dan plus 6 is 11. En 11 min 3 is 8."
+ },
+ "mop": {
+  "vraag": "Waarom is een spin zo goed met computers?",
+  "antwoord": "Omdat ze altijd op het web zit!"
+ },
+ "land": {
+  "datum": "2026-11-17",
+  "naam": "Laos",
+  "hoofdstad": "Vientiane",
+  "vlag": "🇱🇦",
+  "iso2": "la",
+  "iso": "418",
+  "lat": 19.0,
+  "lon": 102.5,
+  "inwoners": "ongeveer 7,5 miljoen",
+  "weetjes": [
+   "Laos heeft geen zee. Het ligt tussen andere landen in.",
+   "Er stroomt een heel grote rivier door, de Mekong.",
+   "In Laos staan oude stenen potten die reuzegroot zijn. Niemand weet precies waarvoor ze dienden."
+  ]
+ },
+ "header": {
+  "ochtend": {
+   "titel": "Goeiemorgen, Otto! Een dag langer dan een jaar 🪐",
+   "sub": "Op Venus duurt één dag langer dan een jaar. Lees je heelalweetje.",
+   "iconen": [
+    "🪐",
+    "🚀",
+    "🌍",
+    "⭐",
+    "🛰️",
+    "☀️"
+   ]
+  },
+  "middag": {
+   "titel": "Hoi Otto, voetbaltijd ⚽",
+   "sub": "De Duivels wonnen met 4-1 van Italië.",
+   "iconen": [
+    "⚽",
+    "🥅",
+    "🏟️",
+    "🦁",
+    "🏃",
+    "🎯"
+   ]
+  },
+  "avond": {
+   "titel": "Goeienavond, Otto! Rekenen maar 🧠",
+   "sub": "Er rijdt een bus vol kinderen, en een spinnenmop wacht.",
+   "iconen": [
+    "🧠",
+    "🚌",
+    "🎲",
+    "🌙",
+    "🦉",
+    "✨"
+   ]
+  },
+  "nacht": {
+   "titel": "Welterusten, Otto! 🌙",
+   "sub": "Morgen is er weer van alles nieuw.",
+   "iconen": [
+    "🌙",
+    "⭐",
+    "😴",
+    "🧸",
+    "🌌",
+    "☁️"
+   ]
+  }
+ },
+ "heelal": {
+  "emoji": "🪐",
+  "titel": "Een dag op Venus duurt langer dan een jaar",
+  "tekst": "Venus draait super langzaam om zichzelf. Eén dag op Venus duurt zo'n 243 aardse dagen. Maar een rondje om de zon duurt maar 225 aardse dagen. Een dag is er dus langer dan een jaar! Venus is ook de heetste planeet, wel zo'n 465 graden.",
+  "bron": "NASA Space Place",
+  "url": "https://spaceplace.nasa.gov/all-about-venus/"
+ },
+ "dino": {
+  "emoji": "🦕",
+  "naam": "Triceratops",
+  "betekenis": "Betekent 'gezicht met drie hoorns'",
+  "periode": "Laat-Krijt, 68 tot 66 miljoen jaar geleden",
+  "dieet": "Planteneter",
+  "grootte": "ongeveer 8 meter lang",
+  "gewicht": "6 tot 10 ton",
+  "plaats": "Noord-Amerika",
+  "tekst": "De Triceratops had drie scherpe hoorns en een brede nekkraag van bot. Met zijn snavel beet hij taaie planten af en met honderden tanden maalde hij ze fijn. Hij leefde vlak voor de dinosaurussen uitstierven, samen met de Tyrannosaurus.",
+  "weetje": "Waarom die hoorns en nekkraag? Waarschijnlijk om rivalen te imponeren en om zich te verdedigen tegen roofdieren.",
+  "bron": "Wikipedia",
+  "url": "https://nl.wikipedia.org/wiki/Triceratops"
+ },
+ "engels": [
+  {
+   "emoji": "☂️",
+   "en": "umbrella",
+   "uitspraak": "um-BRELL-uh",
+   "nl": "paraplu",
+   "voorbeeld": "Take your umbrella, it is raining.",
+   "voorbeeld_nl": "Neem je paraplu mee, het regent."
+  },
+  {
+   "emoji": "🪥",
+   "en": "toothbrush",
+   "uitspraak": "TOEFT-brusj",
+   "nl": "tandenborstel",
+   "voorbeeld": "I brush my teeth with my toothbrush.",
+   "voorbeeld_nl": "Ik poets mijn tanden met mijn tandenborstel."
+  },
+  {
+   "emoji": "🪜",
+   "en": "staircase",
+   "uitspraak": "STEHR-kees",
+   "nl": "trap",
+   "voorbeeld": "The bedroom is at the top of the staircase.",
+   "voorbeeld_nl": "De slaapkamer is boven aan de trap."
+  }
+ ]
 }
