@@ -175,7 +175,7 @@ a{color:inherit}
 .heel{display:flex;gap:16px;align-items:flex-start}.heel .em{font-size:44px;line-height:1}.heel a{font-size:13px}
 @media(max-width:640px){.kn2{grid-template-columns:1fr}}
 .dino{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}
-.dino .ph{margin:0;aspect-ratio:4/3}.dino .em{font-size:64px;line-height:1;display:grid;place-items:center;aspect-ratio:4/3;border-radius:14px;background:var(--bg)}
+.dino .ph{margin:0;aspect-ratio:4/3;background:var(--bg)}.dino .ph img{object-fit:contain}.dino .em{font-size:64px;line-height:1;display:grid;place-items:center;aspect-ratio:4/3;border-radius:14px;background:var(--bg)}
 .dino .ph.has+.em{display:none}.dino h3{margin:0 0 4px;font-size:22px}.dino .sub{color:var(--muted);font-size:13px;margin:0 0 10px}
 .dino .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.dino .chips span{background:var(--bg);border-radius:999px;padding:5px 11px;font-size:13px}
 .dino p{margin:0 0 10px;line-height:1.55}.dino .wd{padding:10px 12px;border-radius:12px;background:var(--bg);font-size:14px}.dino a{font-size:13px}
@@ -318,7 +318,7 @@ const R = {
       <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
   uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
   knutsel:(k)=> !k?"":`<div class="knut"><h3>${esc(k.titel)}</h3>${k.intro?`<p>${esc(k.intro)}</p>`:""}<div class="kn2"><div><b>Dit heb je nodig</b><ul>${(k.materiaal||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ul></div><div><b>Zo doe je het</b><ol>${(k.stappen||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ol></div></div>${k.tip?`<p class="tip">💡 ${esc(k.tip)}</p>`:""}</div>`,
-  dino:(d)=> !d?"":`<div class="dino"><div>${d.url?`<a class="ph" href="${esc(d.url)}" target="_blank" rel="noopener" data-u="${esc(d.url)}" tabindex="-1" aria-hidden="true"></a>`:""}<div class="em">${esc(d.emoji||"🦖")}</div></div>
+  dino:(d)=> !d?"":`<div class="dino"><div>${d.url?`<a class="ph" href="${esc(d.url)}" target="_blank" rel="noopener" data-wiki="${esc(d.url)}" tabindex="-1" aria-hidden="true"></a>`:""}<div class="em">${esc(d.emoji||"🦖")}</div></div>
     <div><h3>${esc(d.naam)}</h3><p class="sub">${esc(d.betekenis||"")}</p>
     <div class="chips">${[["🕰️",d.periode],["🍽️",d.dieet],["📏",d.grootte],["⚖️",d.gewicht],["🌍",d.plaats]].filter(x=>x[1]).map(x=>`<span>${x[0]} ${esc(x[1])}</span>`).join("")}</div>
     <p>${esc(d.tekst||"")}</p>${d.weetje?`<p class="wd">⭐ ${esc(d.weetje)}</p>`:""}${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
@@ -383,6 +383,16 @@ function build(d){
 let TH=null;
 async function th(){ if(TH===null){ try{ TH=await (await tfetch("thumbs.json?"+Date.now(),8000)).json(); }catch(e){ TH={}; } } return TH; }
 async function loadImgs(){
+  document.querySelectorAll(".ph[data-wiki]").forEach(async el=>{
+    try{ const u=new URL(el.dataset.wiki); if(!/wikipedia\.org$/.test(u.hostname)) return;
+      const r=await fetch(u.origin+"/api/rest_v1/page/summary/"+u.pathname.replace("/wiki/","")); const j=await r.json();
+      const src=(j.originalimage&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source); if(!src) return;
+      const im=new Image(); im.alt=j.title||""; im.referrerPolicy="no-referrer";
+      im.onload=()=>{ el.classList.add("has"); im.classList.add("on"); };
+      im.onerror=()=>{ im.remove(); };
+      im.src="https://wsrv.nl/?w=900&output=webp&q=80&url="+encodeURIComponent(src); el.prepend(im);
+    }catch(e){}
+  });
   const T=await th();
   document.querySelectorAll(".ph[data-u]").forEach(el=>{
     const src=T[el.dataset.u]; if(!src) return;
