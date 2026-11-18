@@ -54,7 +54,20 @@ def microlink(u):
         print("microlink fout", u, e, file=sys.stderr)
     return None
 
+def wiki_img(u):
+    p = urllib.parse.urlparse(u)
+    if not p.netloc.endswith("wikipedia.org") or not p.path.startswith("/wiki/"): return None
+    try:
+        r, body = get(f"{p.scheme}://{p.netloc}/api/rest_v1/page/summary/" + p.path[6:], n=300000)
+        j = json.loads(body)
+        return (j.get("originalimage") or j.get("thumbnail") or {}).get("source")
+    except Exception as e:
+        print("wiki fout", u, e, file=sys.stderr)
+        return None
+
 def thumb(u):
+    w = wiki_img(u)
+    if w: return w
     if any(h in urllib.parse.urlparse(u).netloc for h in NOPHOTO): return None
     y = yt_thumb(u)
     if y: return y

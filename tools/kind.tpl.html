@@ -380,15 +380,17 @@ function build(d){
 let TH=null;
 async function th(){ if(TH===null){ try{ TH=await (await tfetch("thumbs.json?"+Date.now(),8000)).json(); }catch(e){ TH={}; } } return TH; }
 async function loadImgs(){
+  const TW=await th();
   document.querySelectorAll(".ph[data-wiki]").forEach(async el=>{
-    try{ const u=new URL(el.dataset.wiki); if(!/wikipedia\.org$/.test(u.hostname)){ el.dataset.u=el.dataset.wiki; return; }
+    const show=src=>new Promise(ok=>{ const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
+      im.onload=()=>{ el.classList.add("has"); im.classList.add("on"); ok(true); }; im.onerror=()=>{ im.remove(); ok(false); };
+      im.src="https://wsrv.nl/?w=900&output=webp&q=80&url="+encodeURIComponent(src); el.prepend(im); });
+    const raw=el.dataset.wiki; let ok=false;
+    try{ const u=new URL(raw); if(/wikipedia\.org$/.test(u.hostname)){
       const r=await fetch(u.origin+"/api/rest_v1/page/summary/"+u.pathname.replace("/wiki/","")); const j=await r.json();
-      const src=(j.originalimage&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source); if(!src) return;
-      const im=new Image(); im.alt=j.title||""; im.referrerPolicy="no-referrer";
-      im.onload=()=>{ el.classList.add("has"); im.classList.add("on"); };
-      im.onerror=()=>{ im.remove(); };
-      im.src="https://wsrv.nl/?w=900&output=webp&q=80&url="+encodeURIComponent(src); el.prepend(im);
-    }catch(e){}
+      const src=(j.originalimage&&j.originalimage.source)||(j.thumbnail&&j.thumbnail.source); if(src) ok=await show(src); } }catch(e){}
+    if(!ok && TW[raw]) ok=await show(TW[raw]);
+    if(!ok){ el.dataset.u=raw; }
   });
   const T=await th();
   document.querySelectorAll(".ph[data-u]").forEach(el=>{
