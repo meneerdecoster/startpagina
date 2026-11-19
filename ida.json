@@ -1,55 +1,56 @@
 {
- "bijgewerkt": "2026-11-19T20:21:33+07:00",
+ "bijgewerkt": "2026-11-20T05:33:18+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
   "Cambodja",
   "Laos",
-  "Filipijnen"
+  "Filipijnen",
+  "Thailand"
  ],
  "nieuws": [
   {
-   "titel": "Een kind wint de Kindervredesprijs",
-   "samenvatting": "Vandaag wordt de Internationale Kindervredesprijs uitgereikt aan een kind dat de wereld beter maakt voor andere kinderen. De winnaar krijgt 50.000 euro en mag praten met wereldleiders.",
+   "titel": "William (11) haalt twee wereldrecords",
+   "samenvatting": "Op Wereldrecorddag kreeg William twee officiële certificaten. Hij kreeg ze op een parkeerplaats waar ook stuntauto's en een stuntstep stonden.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640103-nieuwswekker-recordbedrag-voor-schilderij-gta-vi-komt-uit"
+   "url": "https://jeugdjournaal.nl/l/2640139"
   },
   {
-   "titel": "Een schilderij van Van Gogh kost 173 miljoen euro",
-   "samenvatting": "Het schilderij 'Bloeiende Kastanjebomen' uit 1890 is verkocht voor een recordbedrag. Nooit eerder werd er zoveel betaald voor een werk van Van Gogh.",
+   "titel": "Welke plek heeft de beste wc's?",
+   "samenvatting": "Op Wereld Toiletdag is de gemeente Veere uitgeroepen tot de meest wc-vriendelijke plek van Nederland. Ze kreeg een 7,5.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640106-schilderij-van-van-gogh-geveild-voor-recordbedrag"
+   "url": "https://jeugdjournaal.nl/l/2640124"
+  },
+  {
+   "titel": "Obama verrast IShowSpeed in zijn livestream",
+   "samenvatting": "De bekende YouTuber IShowSpeed kreeg tijdens zijn livestream onverwacht bezoek van oud-president Barack Obama. Ze praatten over een nieuwe documentaire.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640130"
   },
   {
    "titel": "Zoek mee naar het Kinderwoord van het jaar",
    "samenvatting": "Karrewiet zoekt voor de 15e keer het Kinderwoord. Je kan woorden insturen, vanaf 23 november stemmen en op 30 november hoor je welk woord wint.",
    "bron": "Ketnet",
    "url": "https://www.vrt.be/nl/ketnet-voor-ouders/nieuws-van-ketnet-en-ketnet-junior/wat-wordt-het-kinderwoord-2026-van-karrewiet"
-  },
-  {
-   "titel": "Bedjes in de bib van Genk",
-   "samenvatting": "In de bibliotheek van Genk staan bedjes waarin je samen met mama, papa of opa en oma kan voorlezen. Ze blijven staan tot de voorleesweek van 21 tot 29 november.",
-   "bron": "VRT NWS",
-   "url": "https://vrt.be/vrtnws/nl/2026/11/17/voorleesbedjes-in-bibliotheek-genk"
   }
  ],
  "dieren": [
   {
-   "titel": "Babypanda speelt met mama in de dierentuin",
+   "titel": "Babycapibara's in de dierentuin",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=Z_aCb4IXVww",
+   "url": "https://www.youtube.com/watch?v=KEjDiUSDg7I",
    "soort": "video"
   },
   {
-   "titel": "Babyotters leren spelen in de dierentuin",
+   "titel": "Babyolifantje leert zijn slurf gebruiken",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=G2xAHB-L6do",
+   "url": "https://www.youtube.com/watch?v=D5fzvpjfSLQ",
    "soort": "video"
   },
   {
-   "titel": "Eendenkuikentjes dansen in de regen",
+   "titel": "Pinguïnkuikentje in de dierentuin",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=0m3RZNTSruc",
+   "url": "https://www.youtube.com/watch?v=AQKpGOdrPdo",
    "soort": "video"
   }
  ],
@@ -73,94 +74,92 @@
  ],
  "land": {
   "datum": "2026-11-19",
-  "naam": "Filipijnen",
-  "hoofdstad": "Manilla",
-  "vlag": "🇵🇭",
-  "iso2": "ph",
-  "iso": "608",
-  "lat": 12.9,
-  "lon": 121.8,
-  "inwoners": "ongeveer 115 miljoen",
+  "naam": "Thailand",
+  "hoofdstad": "Bangkok",
+  "vlag": "🇹🇭",
+  "iso2": "th",
+  "iso": "764",
+  "lat": 15.9,
+  "lon": 101.0,
+  "inwoners": "ongeveer 70 miljoen",
   "weetjes": [
-   "De Filipijnen bestaan uit meer dan 7.600 eilanden. Je kan er dus eindeloos eilandhoppen.",
-   "Op sommige eilanden leeft de tarsius, een heel klein aapje met reuzenogen. Hij past in je hand.",
-   "Rond kleurrijke jeepneys, oude bussen versierd met schilderingen, rijden de mensen door de stad. In september begint er al kerstsfeer."
+   "In Thailand lopen veel olifanten rond en de olifant is het nationale dier. Vroeger hielpen ze mensen bij zwaar werk in het bos.",
+   "Met het Songkranfeest in april gooien mensen op straat emmers water naar elkaar. Zo wensen ze elkaar een goed nieuw jaar.",
+   "Thailand grenst aan Myanmar, Laos, Cambodja en Maleisië. Op de kaart lijkt het land een beetje op de kop van een olifant."
   ]
  },
  "raadsel": {
-  "vraag": "Ik heb steden maar geen huizen, bergen maar geen bomen en water maar geen vissen. Wat ben ik?",
-  "oplossing": "Een kaart",
-  "uitleg": "Op een kaart staan steden, bergen en water getekend, maar het zijn maar tekeningen.",
+  "vraag": "Wat wordt natter naarmate het meer droogt?",
+  "oplossing": "Een handdoek",
+  "uitleg": "Een handdoek neemt het water van je lijf op, en wordt zelf dus steeds natter.",
   "opties": [
-   "Een kaart",
-   "Een droom",
-   "Een boek",
-   "Een foto"
+   "Een handdoek",
+   "Een spons",
+   "Een zeep",
+   "Een badeend"
   ]
  },
  "mensen": [
   {
    "label": "Camille",
-   "titel": "Camille zingt 'Geen Tranen Meer Over'",
-   "samenvatting": "Bekijk de clip van dit nummer van Camille. Op 19 en 20 december komt ze met Wintercircus naar Hasselt.",
-   "bron": "YouTube",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/06/08/wintercircus-camille-dhont-trixxo-arena-hasselt/",
-   "video": "https://www.youtube.com/watch?v=o6bQaCUQ6ss"
+   "titel": "Camille telt af naar haar winterse circusshow",
+   "samenvatting": "Camille maakt een Wintercircus in Hasselt, de stad waar ze vroeger studeerde. Het circus komt op 19 en 20 december.",
+   "bron": "AFAS Dome",
+   "url": "https://www.afas-dome.be/nieuws/camille-telt-af-naar-winter-circus-hasselt"
   },
   {
    "label": "Pommelien Thijs",
-   "titel": "Pommelien en 'Onomatopee'",
-   "samenvatting": "Pommelien heeft een nieuw nummer, 'Onomatopee'. Op 4 december komt er een deluxe-versie van haar album 'Gedoe' met zes nieuwe nummers.",
-   "bron": "VRT nws.nws.nws",
-   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/",
-   "video": "https://www.youtube.com/watch?v=f1y1B2tCB4A"
+   "titel": "'Onomatopee' is de Megahit van de week",
+   "samenvatting": "Pommelien speelt in haar nieuwe liedje met woorden. Ze zong het voor het eerst live in de Ziggo Dome en nu is het de 3FM Megahit.",
+   "bron": "NPO 3FM",
+   "url": "https://www.npo3fm.nl/nieuws/3fm-megahit/cf5e4267-8813-41f6-8ff3-96ffb29fbe04/hoe-doet-ze-dat-onomatopee-van-pommelien-thijs-is-deze-week-de-3fm-megahit",
+   "video": "https://www.youtube.com/watch?v=l9e4V8ht5Ek"
   },
   {
    "label": "Aaron Blommaert",
-   "titel": "Aaron zingt 'Hoe zit het met ons?'",
-   "samenvatting": "Aaron heeft zijn eerste soloalbum 'Oorsprong' gemaakt. Kijk of luister naar zijn nummer 'Hoe zit het met ons?'.",
+   "titel": "Aaron en Zoë Livay zingen 'Tranen van goud'",
+   "samenvatting": "Aaron zingt dit liedje samen met zangeres Zoë Livay. Kijk de clip en luister mee.",
    "bron": "YouTube",
-   "url": "https://www.dezondag.be/gezellig-thuis/entertainment/ik-vraag-me-wel-eens-af-of-het-allemaal-niet-te-snel-gaat-aaron-blommaert-lanceert-debuutalbum-oorsprong-en-kijkt-uit-naar-een-zomer-vol-optredens/",
-   "video": "https://www.youtube.com/watch?v=M-BTdd1mWh4"
+   "video": "https://www.youtube.com/watch?v=EcgZxJ9QV1E"
   },
   {
    "label": "Maksim",
-   "titel": "Morgen begint Night of the Proms met Maksim",
-   "samenvatting": "Morgen start Night of the Proms in de AFAS Dome, nog tot en met 22 november. Maksim zingt zijn liedjes met een groot orkest en koor.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/09/17/maksim-night-of-the-proms-afas-dome-klassiek-koor-symfonisch-ork/"
+   "titel": "Maksim doet voor het eerst mee aan Night of the Proms",
+   "samenvatting": "Morgen start Night of the Proms in de AFAS Dome in Antwerpen, tot en met 22 november. Maksim zingt er met een groot orkest en koor.",
+   "bron": "AFAS Dome",
+   "url": "https://www.afas-dome.be/nieuws/maksim-meedoen-aan-night-of-the-proms-is-een-droom-die-uitkomt"
   }
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Welkom op de Filipijnen 🌴",
-   "sub": "Vandaag ontdek je een land met meer dan 7.600 eilanden en leer je een vouwspel maken.",
+   "titel": "Goeiemorgen, Ida! Hallo Thailand 🐘",
+   "sub": "Vandaag leer je een land kennen waar olifanten rondlopen en maak je een sneeuwpop van papier.",
    "iconen": [
+    "🐘",
     "🌴",
-    "🏝️",
-    "🐒",
-    "🧭",
-    "📄",
-    "☀️"
+    "🛕",
+    "⛄",
+    "☀️",
+    "🍜"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, tijd om te vouwen 📄",
-   "sub": "Maak 'hemel en hel' en kijk hoe een babypanda met mama speelt.",
+   "titel": "Hoi Ida, zin om te knippen en te plakken? ✂️",
+   "sub": "Maak een papieren sneeuwpop en kijk hoe babycapibara's het doen in de dierentuin.",
    "iconen": [
-    "📄",
-    "🐼",
-    "🦦",
+    "⛄",
+    "✂️",
+    "🐹",
     "🎨",
-    "✏️",
-    "🌸"
+    "🐘",
+    "❄️"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Wat eet je straks? 🍛",
-   "sub": "Er is een kikkererwtencurry om te proeven en een raadsel over een kaart.",
+   "titel": "Goeienavond, Ida! Spaghetti-tijd 🍝",
+   "sub": "Je ontdekt een saus vol verborgen groenten en een raadsel over een natte handdoek.",
    "iconen": [
-    "🍛",
+    "🍝",
     "🧩",
     "🎬",
     "🌙",
@@ -170,7 +169,7 @@
   },
   "nacht": {
    "titel": "Slaap zacht, Ida! 🌙",
-   "sub": "Morgen wacht er een nieuw land, een nieuw raadsel en een nieuwe knutsel.",
+   "sub": "Morgen wacht er weer een nieuw land, een nieuw raadsel en een nieuwe knutsel.",
    "iconen": [
     "🌙",
     "⭐",
@@ -182,55 +181,57 @@
   }
  },
  "knutsel": {
-  "titel": "Een vouwspel: hemel en hel",
-  "intro": "Vouw een papieren speeltje dat je met je vingers open en dicht knijpt.",
+  "titel": "Een sneeuwpop van papier",
+  "intro": "Knip en plak een vrolijke sneeuwpop die je op het raam kan hangen.",
   "materiaal": [
-   "Een vierkant blaadje",
-   "Een potlood of stiften",
-   "Een gum"
+   "Wit en oranje papier of karton",
+   "Een stukje zwart of gekleurd papier",
+   "Een kinderschaar",
+   "Lijm",
+   "Een stift"
   ],
   "stappen": [
-   "Vouw je vierkant blaadje diagonaal dubbel, open het en doe dat nog eens met de andere hoek.",
-   "Vouw alle vier de hoeken naar het midden toe.",
-   "Draai het blaadje om en vouw weer alle vier de hoeken naar het midden.",
-   "Vouw het dubbel en steek je duimen en wijsvingers onder de vier flapjes.",
-   "Knijp ze samen en trek ze weer open: het speeltje beweegt in twee richtingen.",
-   "Schrijf kleuren of cijfers op de buitenkant en grappige opdrachtjes onder de flapjes."
+   "Knip drie cirkels uit wit papier: een grote, een middelgrote en een kleine.",
+   "Plak de cirkels onder elkaar, met de kleinste bovenaan.",
+   "Knip een kleine oranje driehoek en plak die als wortelneus op het hoofd.",
+   "Teken ogen, een mond en knopen met je stift.",
+   "Knip een hoedje uit zwart papier en plak het op het hoofd.",
+   "Knip een reepje gekleurd papier als sjaal en plak het tussen hoofd en buik."
   ],
-  "tip": "Laat een vriendje een kleur en een getal kiezen en lees dan zijn opdrachtje voor.",
-  "video": "https://www.youtube.com/watch?v=VODZD3PDP-o",
+  "tip": "Plak er watjes of kleine papiersnippers rond: dan lijkt het of het sneeuwt.",
+  "video": "https://www.youtube.com/watch?v=VGVe5YQthSM",
   "bron": "YouTube"
  },
  "eten": {
-  "titel": "Kikkererwtencurry met spinazie en tomaat",
-  "intro": "Een zachte, kruidige curry met rijst die lekker vult en vol groenten zit.",
+  "titel": "Spaghetti met verborgen groenten",
+  "intro": "Een lekkere saus waarin je bijna niet merkt dat er veel groenten in zitten.",
   "ingredienten": [
-   "500 g gekookte kikkererwten",
-   "300 g verse spinazie",
-   "400 g kerstomaatjes",
-   "1 rode paprika",
-   "350 g basmatirijst",
+   "400 g spaghetti",
+   "400 g gehakt",
+   "2 wortels",
+   "1 courgette",
    "1 ui",
    "2 teentjes knoflook",
-   "1 theelepel komijn",
-   "2 eetlepels olijfolie",
+   "500 g tomatenpassata",
    "1 eetlepel tomatenpuree",
-   "1 eetlepel tahin",
-   "100 ml water"
+   "2 eetlepels olijfolie",
+   "1 theelepel oregano",
+   "Geraspte kaas om te strooien"
   ],
   "stappen": [
-   "Kook de rijst volgens de verpakking.",
-   "Snijd de ui, knoflook en paprika klein, met hulp van een volwassene.",
-   "Bak de ui en knoflook zacht in de olijfolie, met hulp van een volwassene.",
-   "Voeg de paprika, de tomaatjes en de komijn toe en bak alles 5 minuten.",
-   "Roer de spinazie erdoor tot ze slinkt en voeg dan de tomatenpuree, de tahin, het water en de kikkererwten toe.",
-   "Laat de curry 15 minuten zachtjes pruttelen en serveer met de rijst."
+   "Rasp de wortels en de courgette fijn, met hulp van een volwassene.",
+   "Snijd de ui en de knoflook klein, met hulp van een volwassene.",
+   "Bak de ui en het gehakt in de olijfolie tot het gehakt bruin is, met hulp van een volwassene.",
+   "Voeg de wortel, courgette, knoflook en tomatenpuree toe en bak nog 3 minuten.",
+   "Schenk de passata erbij, voeg de oregano toe en laat 20 minuten zachtjes pruttelen.",
+   "Kook ondertussen de spaghetti volgens de verpakking en schep er de saus over."
   ],
-  "tip": "Heb je het liever frisser? Druk er wat citroensap over en strooi er verse koriander op.",
-  "url": "https://njam.tv/recepten/kikkererwtencurry-met-spinazie-en-tomaat",
+  "tip": "Mix de saus even fijn met een staafmixer als je de groenten helemaal niet wil zien.",
+  "url": "https://njam.tv/recepten/spaghetti-met-verborgen-groenten",
   "bron": "Njam!"
  },
  "eten_gebruikt": [
-  "Kikkererwtencurry met spinazie en tomaat"
+  "Kikkererwtencurry met spinazie en tomaat",
+  "Spaghetti met verborgen groenten"
  ]
 }
