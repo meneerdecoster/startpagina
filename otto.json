@@ -79,8 +79,8 @@
   "uitleg": "24 gedeeld door 6 is 4 koekjes per kind. Min het koekje dat ze opeten is 3."
  },
  "mop": {
-  "vraag": "Wat zegt de nul tegen de acht?",
-  "antwoord": "Mooie riem!"
+  "vraag": "Hoe noem je een beer zonder tanden?",
+  "antwoord": "Een gummybeer!"
  },
  "land": {
   "datum": "2026-11-19",
@@ -167,7 +167,7 @@
   "tekst": "De Stegosaurus had grote platen op zijn rug en vier scherpe punten aan zijn staart. Hij at lage planten zoals varens en mos met zijn kleine tandjes. Hij liep langzaam rond in bossen en vlaktes.",
   "weetje": "Zijn hersenen waren niet groter dan die van een hond, ook al was hij zo groot als een bus.",
   "bron": "Wikipedia",
-  "url": "https://nl.wikipedia.org/wiki/Stegosaurus"
+  "url": "https://en.wikipedia.org/wiki/Stegosaurus"
  },
  "engels": [
   {
@@ -206,5 +206,13 @@
   "backpack",
   "to borrow",
   "delicious"
+ ],
+ "mop_gebruikt": [
+  "Waarom is een spin zo goed met computers?",
+  "Waarom neemt een schaap een trui mee naar school?",
+  "Wat is groen en zit in een hoekje te huilen?",
+  "Wat zegt de grote schoorsteen tegen de kleine schoorsteen?",
+  "Wat zegt de nul tegen de acht?",
+  "Hoe noem je een beer zonder tanden?"
  ]
 }
