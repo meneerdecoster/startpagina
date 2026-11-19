@@ -1,520 +1,448 @@
 {
-  "bijgewerkt": "2026-11-18T05:35:01+07:00",
-  "gezondheid": {
-    "streak": 6,
-    "laatste": {
-      "datum": "2026-11-17",
-      "water": 1.5,
-      "sporttype": null,
-      "notitie": null
-    },
-    "week": {
-      "dagen": 6,
-      "water": 2.15,
-      "koffie": 0.17,
-      "sport": 4,
-      "sauna": 0,
-      "alcoholvrij": 6,
-      "alcohol": 0,
-      "fysiek": 2.0,
-      "mentaal": 2.0,
-      "ziek": 0,
-      "water25": 4
-    },
-    "jaar": {
-      "dagen": 36,
-      "sport_pct": 39,
-      "water": 2.15,
-      "alcohol_week": 4.3,
-      "sauna": 24,
-      "oneup": 9
-    },
-    "reeksen": {
-      "water": [
-        {
-          "d": "2026-11-04",
-          "v": null
-        },
-        {
-          "d": "2026-11-05",
-          "v": null
-        },
-        {
-          "d": "2026-11-06",
-          "v": null
-        },
-        {
-          "d": "2026-11-07",
-          "v": null
-        },
-        {
-          "d": "2026-11-08",
-          "v": null
-        },
-        {
-          "d": "2026-11-09",
-          "v": null
-        },
-        {
-          "d": "2026-11-10",
-          "v": null
-        },
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
-        {
-          "d": "2026-11-12",
-          "v": 2.5
-        },
-        {
-          "d": "2026-11-13",
-          "v": 2.5
-        },
-        {
-          "d": "2026-11-14",
-          "v": 2.5
-        },
-        {
-          "d": "2026-11-15",
-          "v": 1.25
-        },
-        {
-          "d": "2026-11-16",
-          "v": 2.66
-        },
-        {
-          "d": "2026-11-17",
-          "v": 1.5
-        }
-      ],
-      "koffie": [
-        {
-          "d": "2026-11-04",
-          "v": null
-        },
-        {
-          "d": "2026-11-05",
-          "v": null
-        },
-        {
-          "d": "2026-11-06",
-          "v": null
-        },
-        {
-          "d": "2026-11-07",
-          "v": null
-        },
-        {
-          "d": "2026-11-08",
-          "v": null
-        },
-        {
-          "d": "2026-11-09",
-          "v": null
-        },
-        {
-          "d": "2026-11-10",
-          "v": null
-        },
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
-        {
-          "d": "2026-11-12",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-13",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-14",
-          "v": 1.0
-        },
-        {
-          "d": "2026-11-15",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-16",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-17",
-          "v": 0.0
-        }
-      ],
-      "alcohol": [
-        {
-          "d": "2026-11-04",
-          "v": null
-        },
-        {
-          "d": "2026-11-05",
-          "v": null
-        },
-        {
-          "d": "2026-11-06",
-          "v": null
-        },
-        {
-          "d": "2026-11-07",
-          "v": null
-        },
-        {
-          "d": "2026-11-08",
-          "v": null
-        },
-        {
-          "d": "2026-11-09",
-          "v": null
-        },
-        {
-          "d": "2026-11-10",
-          "v": null
-        },
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
-        {
-          "d": "2026-11-12",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-13",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-14",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-15",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-16",
-          "v": 0.0
-        },
-        {
-          "d": "2026-11-17",
-          "v": 0.0
-        }
-      ]
-    },
-    "inzichten": [
-      "Water: gemiddeld 2,15 l per dag. Nog 0,35 l tot je doel van 2,5 l.",
-      "6 van 6 dagen alcoholvrij.",
-      "4 sportdagen deze week."
-    ]
+ "bijgewerkt": "2026-11-19T20:22:12+07:00",
+ "gezondheid": {
+  "streak": 8,
+  "laatste": {
+   "datum": "2026-11-19",
+   "water": 2.49,
+   "sporttype": null,
+   "notitie": null
   },
-  "lifestyle": [
-    {
-      "label": "Mode",
-      "titel": "Statement-oorringen worden groter dan ooit",
-      "samenvatting": "Voor dit seizoen kiezen ontwerpers voor extra grote oorbellen in de stijl van de jaren tachtig en negentig. Ze vallen vooral op onder een dikke winterjas.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/438489-statement-oorringen-trend.html"
-    },
-    {
-      "label": "Mode",
-      "titel": "De zes trendkleuren van herfst en winter",
-      "samenvatting": "Op de catwalks vielen hemelsblauw, tomaatrood, magenta, mandarijn, aubergine en chartreuse op. Hemelsblauw lijkt de grote favoriet.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/437558-grootste-trendkleuren-catwalk-herfst-en-winter-2026.html"
-    },
-    {
-      "label": "Mode",
-      "titel": "Trend alert: faux fur is overal",
-      "samenvatting": "Nepbont duikt dit seizoen overal op. Feeling toont hoe je de trend draagt zonder te overdrijven.",
-      "bron": "Feeling",
-      "url": "https://www.feeling.be/mode/trend-alert-faux-fur-is-overal-zo-style-je-m/"
-    },
-    {
-      "label": "Mode",
-      "titel": "Zo draag je knielaarzen van winter tot zomer",
-      "samenvatting": "Knielaarzen zijn handiger dan je denkt. Feeling geeft stylingtips om ze in elk seizoen te dragen.",
-      "bron": "Feeling",
-      "url": "https://www.feeling.be/mode/styling-tips-knielaarzen/"
-    },
-    {
-      "label": "Wonen",
-      "titel": "Interieurtrends van het najaar volgens experts",
-      "samenvatting": "Donkere houttinten, glanzende en spiegelende oppervlakken en hotelachtige inkomhallen staan centraal. Mensen kiezen ook vaker voor persoonlijk design met een geleefd randje.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html"
-    },
-    {
-      "label": "Wonen",
-      "titel": "Binnenkijken in een winterse woonboerderij",
-      "samenvatting": "Vtwonen neemt je mee in een woonboerderij die helemaal in winterse sfeer is ingericht, met veel wol en warme texturen.",
-      "bron": "vtwonen",
-      "url": "https://www.vtwonen.be/binnenkijken/binnenkijken-in-een-winterse-woonboerderij~def543e"
-    },
-    {
-      "label": "Wonen",
-      "titel": "12 iconische geurkaarsen voor een luxe chaletsfeer",
-      "samenvatting": "Een selectie geurkaarsen die je huis laat ruiken naar een chalet in de bergen.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/421574-12-iconische-geurkaarsen-luxe-chalet-sfeer.html"
-    },
-    {
-      "label": "Wonen",
-      "titel": "Zo maak je het deze winter gezellig in huis",
-      "samenvatting": "Simpele ideeën om je huis warmer en knusser te maken tijdens de koude maanden.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/416705-zo-maak-je-het-deze-winter-gezellig-in-huis.html"
-    },
-    {
-      "label": "Interieur",
-      "titel": "De salontafel als middelpunt van je woonkamer",
-      "samenvatting": "Ronde en organische vormen blijven populair en maken een zithoek gezelliger dan strakke lijnen. De salontafel bepaalt de sfeer, met natuurlijke materialen en aardse kleuren.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/432190-de-salontafel-als-middelpunt-interieurtrends-voor-2026.html"
-    },
-    {
-      "label": "Interieur",
-      "titel": "Binnenkijken in de vernieuwde Delvaux-boetiek in Antwerpen",
-      "samenvatting": "De Antwerpse boetiek van Delvaux kreeg een nieuwe look.",
-      "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/442427-binnenkijken-nieuwe-delvaux-antwerpen.html"
-    }
-  ],
-  "voeding": [
-    {
-      "label": "Recept",
-      "titel": "Geroosterde pompoen met hummus: wintersalade",
-      "samenvatting": "Pompoen, paddenstoelen, boerenkool, gekleurde bietjes en rode druiven op een bedje hummus. Afgewerkt met gekruide geroosterde zaden en peterselie.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/roasted-pumpkin-hummus-winter-salad/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Marokkaanse stoof van aubergine en kikkererwten",
-      "samenvatting": "Een kruidige stoof met saffraan, kaneel en komijn. Je serveert ze met gierst, avocadosalade, amandelen en granaatappelpitjes.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/moroccan-aubergine-chickpea-stew/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Saffraanmillet met geroosterde wortelgroenten",
-      "samenvatting": "Geroosterde pastinaak, zoete aardappel, knolselderij en wortel met saffraanmillet, pecannoten en granaatappel. Frisse kruiden en een mosterddressing maken het af.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/winter-holiday-saffron-millet-salad/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Groentecurry met pompoen, aubergine, linzen en kikkererwten",
-      "samenvatting": "Een plantaardige curry met rode currypasta, tomaat en veel koriander. Vol peulvruchten en seizoensgroenten.",
-      "bron": "Pure Pascale",
-      "url": "https://purepascale.com/en/recipes/groentecurry-met-pompoen-aubergine-linzen-en-kikkererwten"
-    },
-    {
-      "label": "Recept",
-      "titel": "Groene linzencurry in één pot",
-      "samenvatting": "Groene linzen sudderen in lichte kokosmelk met groene currypasta, gember en knoflook. Een verwarmend gerecht in één pot.",
-      "bron": "Minimalist Baker",
-      "url": "https://minimalistbaker.com/1-pot-lentil-dal/"
-    },
-    {
-      "label": "Recept",
-      "titel": "Soep van zoete aardappel en rode linzen",
-      "samenvatting": "Een romige soep met zoete aardappel, wortel en rode linzen. De topping van gekruide aubergine en boerenkool geeft er bite aan.",
-      "bron": "Green Kitchen Stories",
-      "url": "https://greenkitchenstories.com/sweet-potato-red-lentil-soup/"
-    },
-    {
-      "label": "Gezond leven",
-      "titel": "Gooi de schil van je groenten niet zomaar weg",
-      "samenvatting": "Een Britse studie toont dat we bij tien van de twaalf onderzochte groenten en fruit juist de voedzaamste delen weggooien, zoals wortel- en pompoenschillen. Goed gewassen kunnen die je vezelinname verhogen.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/schil-je-groenten-en-fruit-niet-zomaar/"
-    },
-    {
-      "label": "Gezond leven",
-      "titel": "Plantaardig eten: wat toont de tweelingstudie?",
-      "samenvatting": "In een Stanford-studie met eeneiige tweelingen deden een veganistisch en een omnivoor dieet het acht weken lang tegen elkaar. Het veganistische dieet gaf lagere cholesterol- en insulinewaarden. Volgens de diëtist werkt een aanpak die je volhoudt beter dan alles schrappen.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2023/12/19/veganisme-dieet-gezond-onderzoek/"
-    },
-    {
-      "label": "Gezond leven",
-      "titel": "Hele sinaasappel of vers sap?",
-      "samenvatting": "Sap verliest bij bewaren wat vitamine C, maar volgens een recente studie valt dat mee. Wie vezels wil en minder suiker, kiest beter de hele vrucht.",
-      "bron": "Gezondheid en Wetenschap",
-      "url": "https://www.gezondheidenwetenschap.be/gezondheid-in-de-media/een-sinaasappel-is-gezonder-dan-vers-sinaasappelsap"
-    },
-    {
-      "label": "Gezond leven",
-      "titel": "Groene kiwi tegen darmproblemen",
-      "samenvatting": "Een Vlaamse darmspecialist en een diëtist raden groene kiwi al jaren aan bij een trage darm. Ze zeggen dat het effect op de stoelgang echt is.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2025/08/20/gezondheidsclaim-eu-groene-kiwi/"
-    }
-  ],
-  "boeken": [
-    {
-      "titel": "Pak de regie – Astrid Holleeder",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/non-fictie/astrid-holleeder/pak-de-regie/",
-      "isbn": "9789400520844"
-    },
-    {
-      "titel": "De dagelijkse stoïcijn – Ryan Holiday en Stephen Hanselman",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/non-fictie/ryan-holiday/de-dagelijkse-stoicijn/",
-      "isbn": "9789400520745"
-    },
-    {
-      "titel": "Alles wat je bent – Nicole Huisman",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/non-fictie/nicole-huisman/alles-wat-je-bent/",
-      "isbn": "9789400520158"
-    },
-    {
-      "titel": "Tom Clancy Defensieprotocol – Brian Andrews en Jeffrey Wilson",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/thrillers/brian-andrews/tom-clancy-defensieprotocol/",
-      "isbn": "9789400520554"
-    },
-    {
-      "titel": "Huppel het gareel eens uit – Loesje",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/huppel-het-gareel-eens-uit/",
-      "isbn": "9789400520738"
-    },
-    {
-      "titel": "Wie is de Mol? Molboekje 2027",
-      "bron": "AW Bruna",
-      "url": "https://www.awbruna.nl/boek/non-fictie/wie-is-de-mol/wie-is-de-mol-molboekje/",
-      "isbn": "9789400520837"
-    },
-    {
-      "titel": "Breekpunt – David Baldacci",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/nl/nl/p/breekpunt/9300000312026131/",
-      "isbn": "9789400520578"
-    },
-    {
-      "titel": "Vrijdag – Loes den Hollander",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/nl/nl/p/vrijdag/9300000312026372/",
-      "isbn": "9789400520561"
-    },
-    {
-      "titel": "Het flexibele brein – Steven Laureys",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/be/nl/p/het-flexibele-brein/9300000343364801/",
-      "isbn": "9789463377348"
-    },
-    {
-      "titel": "Geef jezelf toestemming – Daphne Deckers",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/be/nl/p/geef-jezelf-toestemming/9300000311177847/",
-      "isbn": "9789464044249"
-    },
-    {
-      "titel": "Slaap lekker – Arne Wouters",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/be/nl/p/slaap-lekker/9300000271661601/",
-      "isbn": "9789465303789"
-    },
-    {
-      "titel": "Het lichtdieet – Inge Declercq en Jan Denneman",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/be/nl/p/het-lichtdieet/9300000271661600/",
-      "isbn": "9789465301235"
-    },
-    {
-      "titel": "Eén pan – Pascale Naessens",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/be/nl/p/een-pan/9300000227900646/",
-      "isbn": "9789020981612"
-    },
-    {
-      "titel": "Die ene dag – Rosie Walsh",
-      "bron": "bol.com",
-      "url": "https://www.bol.com/nl/nl/p/die-ene-dag/9300000279000836/",
-      "isbn": "9789401626415"
-    }
-  ],
-  "header": {
-    "ochtend": {
-      "titel": "Goeiemorgen, Sévérine",
-      "sub": "Film Fest Antwerp en een expo over Zadkine staan op je lijst, plus een nieuwe wintersalade."
-    },
-    "middag": {
-      "titel": "Fijne middag, Sévérine",
-      "sub": "Een Marokkaanse stoof en de Belgian Fashion Awards in Antwerpen."
-    },
-    "avond": {
-      "titel": "Goeienavond, Sévérine",
-      "sub": "Rustig bladeren door interieurtrends en nieuwe boeken, met je logboek van de week."
-    },
-    "nacht": {
-      "titel": "Nog even bijlezen, Sévérine?",
-      "sub": "Morgen weer nieuwe tips."
-    }
+  "week": {
+   "dagen": 7,
+   "water": 2.25,
+   "koffie": 0.14,
+   "sport": 3,
+   "sauna": 0,
+   "alcoholvrij": 7,
+   "alcohol": 0,
+   "fysiek": 2.0,
+   "mentaal": 2.0,
+   "ziek": 0,
+   "water25": 4
   },
-  "antwerpen": [
+  "jaar": {
+   "dagen": 38,
+   "sport_pct": 37,
+   "water": 2.18,
+   "alcohol_week": 4.1,
+   "sauna": 24,
+   "oneup": 9
+  },
+  "reeksen": {
+   "water": [
     {
-      "label": "Evenement",
-      "titel": "Film Fest Antwerp: eerste editie in Kinepolis",
-      "samenvatting": "Op 19 en 20 december krijgt Antwerpen een nieuw filmfestival met kortfilms, documentaires en langspeelfilms. Initiatiefnemer Gilles Schijvens wil lokaal talent een podium geven.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/film-fest-antwerp-antwerpen-kinepolis-filmfestival-gilles-schijv/"
+     "d": "2026-11-06",
+     "v": null
     },
     {
-      "label": "Evenement",
-      "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
-      "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
-      "bron": "Trip by Trip",
-      "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
+     "d": "2026-11-07",
+     "v": null
     },
     {
-      "label": "Tentoonstelling",
-      "titel": "Ossip Zadkine and Belgium in het KMSKA",
-      "samenvatting": "De expo onderzoekt de Belgische banden van de beeldhouwer, met werk van zijn echtgenote Valentine Prax en van Belgische tijdgenoten. Te zien van 31 oktober 2026 tot en met 18 april 2027.",
-      "bron": "Trip by Trip",
-      "url": "https://tripbytrip.org/2026/10/28/antwerp-kmska-explores-ossip-zadkines-ties-to-belgium-in-new-exhibition/"
+     "d": "2026-11-08",
+     "v": null
     },
     {
-      "label": "Tentoonstelling",
-      "titel": "Van Hemessen & Vader in het Snijders&Rockoxhuis",
-      "samenvatting": "Werk van Jan van Hemessen en zijn dochter Catharina hangt samen. Zij kreeg weinig erkenning, ondanks haar zelfportret van 1548 achter een ezel. Tot 31 januari 2027, daarna reist de expo naar Londen.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/10/22/van-hemessen-vader-museum-snijders-rockoxhuis-antwerpen-expotip/"
+     "d": "2026-11-09",
+     "v": null
     },
     {
-      "label": "Nieuws",
-      "titel": "Belgian Fashion Awards in Theater Elckerlyc",
-      "samenvatting": "Op 17 november worden in Antwerpen de prijzen voor Belgisch modetalent uitgereikt, ook aan bedrijven en vakmensen. Een deel van de ticketopbrengst gaat naar een prijs voor opkomend talent.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/feest-van-belgische-mode-de-belgian-fashion-awards-2026/"
+     "d": "2026-11-10",
+     "v": null
     },
     {
-      "label": "Nieuws",
-      "titel": "Antwerpen-Centraal werd een feestzaal",
-      "samenvatting": "Voor 100 jaar NMBS veranderde de stationshal op 12 november in een gratis dansfeest voor meer dan duizend bezoekers. De reeks trekt op 20 november verder naar Brussel.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/13/antwerpen-centraal-station-nmbs-100-feest-tracks-beats-average/"
+     "d": "2026-11-11",
+     "v": null
     },
     {
-      "label": "Resto",
-      "titel": "Harvest: regionaal en vegetarisch met een twist",
-      "samenvatting": "Een chic restaurant in een wit herenhuis met terras. De keuken is regionaal en vegetarisch, met speelse accenten zoals een shiso-bearnaise.",
-      "bron": "Le Fooding",
-      "url": "https://lefooding.com/en/restaurants/harvest"
+     "d": "2026-11-12",
+     "v": 2.5
     },
     {
-      "label": "Resto",
-      "titel": "Nage: sobere, verfijnde bistro",
-      "samenvatting": "Een elegante bistro met een rustige sfeer en een verfijnde keuken, met gerechten als zeebaars met kaviaar en zelfgebakken brood. Dinsdag en woensdag gesloten.",
-      "bron": "Le Fooding",
-      "url": "https://lefooding.com/en/restaurants/nage"
+     "d": "2026-11-13",
+     "v": 2.5
+    },
+    {
+     "d": "2026-11-14",
+     "v": 2.5
+    },
+    {
+     "d": "2026-11-15",
+     "v": 1.25
+    },
+    {
+     "d": "2026-11-16",
+     "v": 2.66
+    },
+    {
+     "d": "2026-11-17",
+     "v": 1.5
+    },
+    {
+     "d": "2026-11-18",
+     "v": 2.83
+    },
+    {
+     "d": "2026-11-19",
+     "v": 2.49
     }
+   ],
+   "koffie": [
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 1.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-17",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-18",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-19",
+     "v": 0.0
+    }
+   ],
+   "alcohol": [
+    {
+     "d": "2026-11-06",
+     "v": null
+    },
+    {
+     "d": "2026-11-07",
+     "v": null
+    },
+    {
+     "d": "2026-11-08",
+     "v": null
+    },
+    {
+     "d": "2026-11-09",
+     "v": null
+    },
+    {
+     "d": "2026-11-10",
+     "v": null
+    },
+    {
+     "d": "2026-11-11",
+     "v": null
+    },
+    {
+     "d": "2026-11-12",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-13",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-14",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-15",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-16",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-17",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-18",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-19",
+     "v": 0.0
+    }
+   ]
+  },
+  "inzichten": [
+   "Water: gemiddeld 2,25 l per dag. Nog 0,25 l tot je doel van 2,5 l.",
+   "7 van 7 dagen alcoholvrij.",
+   "3 sportdagen deze week."
   ]
+ },
+ "lifestyle": [
+  {
+   "label": "Mode",
+   "titel": "De schoenentrends van herfst en winter",
+   "samenvatting": "Enkellaarsjes en hoge laarzen in warme aardetinten leiden deze winter. Daarnaast zie je slanke retrosneakers en loafers met een zachte, pluizige voering.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/442290-de-damesschoenen-trends-voor-de-herfst-en-winter-2026.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "Tassen met krokodillenprint zijn terug",
+   "samenvatting": "Op de catwalks van Gucci, Prada, Chanel en Celine zag je tassen met krokodillenreliëf. ELLE zet een rij betaalbare en luxe versies op een rij.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/438487-beste-crocodile-embossed-tassen-trend.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "Satijnen tassen vervagen de grens tussen dag en avond",
+   "samenvatting": "Satijn wordt de volgende tassentrend en past zowel bij een avondoutfit als bij een gewone werkdag.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/441644-trend-satijnen-tassen.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "Olijfgroen is dé kleur van de winter",
+   "samenvatting": "Olijfgroen voelt warmer en verzorgder dan kaki en past bij elke huidskleur. Combineer het met bordeaux en camel, of met roze en lila voor meer contrast.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/420089-bye-bruin-deze-groene-tint-is-de-modekleur-van-winter-2026.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "De zes trendkleuren van herfst en winter",
+   "samenvatting": "Op de catwalks vielen hemelsblauw, tomaatrood, magenta, mandarijn, aubergine en chartreuse op. Hemelsblauw lijkt de grote favoriet.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/437558-grootste-trendkleuren-catwalk-herfst-en-winter-2026.html"
+  },
+  {
+   "label": "Wonen",
+   "titel": "Interieurtrends van het najaar volgens experts",
+   "samenvatting": "Donkere houttinten, glanzende en spiegelende oppervlakken en hotelachtige inkomhallen staan centraal. Mensen kiezen ook vaker voor persoonlijk design met een geleefd randje.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html"
+  },
+  {
+   "label": "Wonen",
+   "titel": "12 iconische geurkaarsen voor een luxe chaletsfeer",
+   "samenvatting": "Een selectie geurkaarsen die je huis laat ruiken naar een chalet in de bergen.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/421574-12-iconische-geurkaarsen-luxe-chalet-sfeer.html"
+  },
+  {
+   "label": "Wonen",
+   "titel": "Zo maak je het deze winter gezellig in huis",
+   "samenvatting": "Simpele ideeën om je huis warmer en knusser te maken tijdens de koude maanden.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/416705-zo-maak-je-het-deze-winter-gezellig-in-huis.html"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Cottagecore: wonen als op het platteland",
+   "samenvatting": "Lichte houten meubels, handgemaakte vintagestukken en Engelse details maken deze stijl. vtwonen laat vijf huizen zien, van een omgebouwde hoeve tot een kustcottage.",
+   "bron": "vtwonen",
+   "url": "https://www.vtwonen.be/binnenkijken/5x-binnenkijken-cottagecore-trend~5943e11"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Dopamine decor: kleur in huis",
+   "samenvatting": "Vijf interieurs tonen hoe je met kleur durft te wonen, van één accent tot volledig gekleurde kamers. Begin klein met een kunstwerk of snel te vervangen accessoires.",
+   "bron": "vtwonen",
+   "url": "https://www.vtwonen.be/binnenkijken/binnenkijken-huizen-dopamine-decor-kleur-trend~c11c8cb"
+  }
+ ],
+ "voeding": [
+  {
+   "label": "Recept",
+   "titel": "Geroosterde pompoen met harissa en tahinisaus",
+   "samenvatting": "Pompoenblokjes uit de oven met harissa en knoflook, overgoten met een saus van tahini, limoen en ahornsiroop. Werk af met koriander en lente-ui.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/harissa-roast-pumpkin-tahini-sauce"
+  },
+  {
+   "label": "Recept",
+   "titel": "Hummus met geroosterde spruitjes en kastanjes",
+   "samenvatting": "Gladde hummus met tahini als bedje voor geroosterde spruitjes, kastanjes en krokante salie. Een feestelijk wintergerecht met citroen en komijn.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/festive-hummus-roasted-brussels-sprouts-chestnuts"
+  },
+  {
+   "label": "Recept",
+   "titel": "Gestampte puy-linzen met tahin en komijn",
+   "samenvatting": "Linzen met tomaat, knoflook, komijn en tahin, grof gestampt tot een dikke, warme brij. Lekker met rode ui, koriander en een ei.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/crushed-puy-lentils-tahini-cumin"
+  },
+  {
+   "label": "Recept",
+   "titel": "Bakaardappel met aubergine en groene tahini",
+   "samenvatting": "Een gebakken aardappel gevuld met gekruide aubergine, groene tahinisaus en gepekelde rode kool. Met munt en chutney erbij.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/jacket-potatoes-aubergine-green-tahini"
+  },
+  {
+   "label": "Recept",
+   "titel": "Romige wortelsoep met kokosmelk",
+   "samenvatting": "Wortel, ui en selder gaar gesudderd met bouillon en gemixt met kokosmelk. Een soep in één pot, met een snuifje chili.",
+   "bron": "Minimalist Baker",
+   "url": "https://minimalistbaker.com/creamy-vegan-carrot-soup-1-pot/"
+  },
+  {
+   "label": "Recept",
+   "titel": "Marokkaanse stoof van aubergine en kikkererwten",
+   "samenvatting": "Een kruidige stoof met saffraan, kaneel en komijn. Je serveert ze met gierst, avocadosalade, amandelen en granaatappelpitjes.",
+   "bron": "Green Kitchen Stories",
+   "url": "https://greenkitchenstories.com/moroccan-aubergine-chickpea-stew/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Wapen je tegen de winter met groenten en fruit",
+   "samenvatting": "Een diëtist raadt aan om in de winter bij twee maaltijden per dag groenten of fruit te eten en niets te verbieden. Drink genoeg water en kies bij zoetigheid voor kwaliteit.",
+   "bron": "Gezond.be",
+   "url": "https://gezond.be/wapen-je-tegen-de-winter-eet-je-winterklaar-met-de-tips-van-dietist-michael-sels/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Zo houd je je weerstand op peil in de winter",
+   "samenvatting": "Slaap, beweging, stressbeheer en gevarieerd eten ondersteunen je afweer. Omdat de zon in de winter zwak is, kan een vitamine D-supplement nuttig zijn.",
+   "bron": "Gezond.be",
+   "url": "https://gezond.be/hoe-je-weerstand-opbouwen-en-verhogen-in-de-winter/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Gooi de schil van je groenten niet zomaar weg",
+   "samenvatting": "Een Britse studie toont dat we bij tien van de twaalf onderzochte groenten en fruit juist de voedzaamste delen weggooien, zoals wortel- en pompoenschillen. Goed gewassen kunnen die je vezelinname verhogen.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/schil-je-groenten-en-fruit-niet-zomaar/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Hele sinaasappel of vers sap?",
+   "samenvatting": "Sap verliest bij bewaren wat vitamine C, maar volgens een recente studie valt dat mee. Wie vezels wil en minder suiker, kiest beter de hele vrucht.",
+   "bron": "Gezondheid en Wetenschap",
+   "url": "https://www.gezondheidenwetenschap.be/gezondheid-in-de-media/een-sinaasappel-is-gezonder-dan-vers-sinaasappelsap"
+  }
+ ],
+ "header": {
+  "ochtend": {
+   "titel": "Goeiemorgen, Sévérine",
+   "sub": "Een nieuw boek van Rebecca Yarros en een winterse Ottolenghi-schotel staan klaar."
+  },
+  "middag": {
+   "titel": "Fijne middag, Sévérine",
+   "sub": "Olijfgroen als modekleur en de Antwerpse Zes in het MoMu."
+  },
+  "avond": {
+   "titel": "Goeienavond, Sévérine",
+   "sub": "Cottagecore en dopamine decor voor de woonkamer, en je logboek van de week."
+  },
+  "nacht": {
+   "titel": "Nog even bijlezen, Sévérine?",
+   "sub": "Morgen weer nieuwe tips."
+  }
+ },
+ "antwerpen": [
+  {
+   "label": "Evenement",
+   "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
+   "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
+   "bron": "Trip by Trip",
+   "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
+  },
+  {
+   "label": "Evenement",
+   "titel": "Film Fest Antwerp: eerste editie in Kinepolis",
+   "samenvatting": "Op 19 en 20 december krijgt Antwerpen een nieuw filmfestival met kortfilms, documentaires en langspeelfilms. Initiatiefnemer Gilles Schijvens wil lokaal talent een podium geven.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/16/film-fest-antwerp-antwerpen-kinepolis-filmfestival-gilles-schijv/"
+  },
+  {
+   "label": "Tentoonstelling",
+   "titel": "Guy Vandenbranden in het KMSKA",
+   "samenvatting": "Het KMSKA eert de abstracte kunstenaar Guy Vandenbranden bij zijn honderdste geboortedag, met felle kleuren en geometrische vormen. Te zien van 16 oktober 2026 tot en met 17 januari 2027.",
+   "bron": "Trip by Trip",
+   "url": "https://tripbytrip.org/2026/10/19/antwerp-kmska-fine-arts-museum-puts-belgian-abstract-artist-guy-vandenbranden-in-the-european-avant-garde/"
+  },
+  {
+   "label": "Tentoonstelling",
+   "titel": "De Antwerpse Zes in het MoMu",
+   "samenvatting": "Veertig jaar na hun internationale doorbraak krijgen Dries Van Noten, Ann Demeulemeester en hun collega's een expo in het ModeMuseum. Te zien tot 17 januari 2027.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/01/14/modemuseum-antwerpen-de-antwerpse-zes-expo/"
+  },
+  {
+   "label": "Nieuws",
+   "titel": "Nieuw ponton aan de vijver van het Stadspark",
+   "samenvatting": "Aan de vijver in het Stadspark ligt een houten ponton om aan het water te zitten. Het hoort bij de heraanleg van de vijver en studenten gebruiken het al als pauzeplek.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/10/06/ponton-stadspark-vijver-antwerpen-ken-casier-heraanleg-herwaarde/"
+  },
+  {
+   "label": "Nieuws",
+   "titel": "Antwerpen-Centraal werd een feestzaal",
+   "samenvatting": "Voor 100 jaar NMBS veranderde de stationshal op 12 november in een gratis dansfeest voor meer dan duizend bezoekers. De reeks trekt op 20 november verder naar Brussel.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/13/antwerpen-centraal-station-nmbs-100-feest-tracks-beats-average/"
+  },
+  {
+   "label": "Resto",
+   "titel": "Veranda: eigentijdse bistro in Antwerpen",
+   "samenvatting": "Chef Davy Schellemans werkt met menu's met onder meer crudo van hamachi en houtskoolgegrilde varkensnek. Ze zijn open voor lunch en diner, niet op zondag en maandag.",
+   "bron": "Le Fooding",
+   "url": "https://lefooding.com/nl/restaurants/veranda"
+  },
+  {
+   "label": "Resto",
+   "titel": "Plump: burgers met vegetarische opties",
+   "samenvatting": "In de Antwerpse binnenstad serveert Plump smashed burgers, met vegetarische keuzes en take-away. Open van donderdag tot en met zondag, 's avonds.",
+   "bron": "Le Fooding",
+   "url": "https://lefooding.com/nl/restaurants/plump"
+  }
+ ],
+ "boek_gebruikt": [
+  "Peculiar Stars"
+ ],
+ "boek": {
+  "titel": "Peculiar Stars",
+  "auteur": "Rebecca Yarros",
+  "samenvatting": "Callista Moran zette jarenlang haar eigen plannen opzij om voor anderen te zorgen. Net als haar toekomst vastligt, loopt een zeiltocht uit de hand en een cycloon gooit alles om. Op een eiland ontdekt ze hoe sterk ze eigenlijk is en groeit er een band met een voormalige legermedicus.",
+  "waarom": "Het is net verschenen (17 november) en komt van de auteur van de BookTok-hit Fourth Wing.",
+  "sterren": 4.68,
+  "aantal": "1.472 beoordelingen",
+  "bron": "Goodreads",
+  "url": "https://www.goodreads.com/book/show/251612960-peculiar-stars",
+  "isbn": "9781662545634"
+ }
 }

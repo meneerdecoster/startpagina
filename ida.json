@@ -1,213 +1,236 @@
 {
-  "bijgewerkt": "2026-11-18T05:35:01+07:00",
-  "gebruikt": [
-    "Vietnam",
-    "Maleisië",
-    "Cambodja",
-    "Laos"
-  ],
-  "nieuws": [
-    {
-      "titel": "Wie wint de Kindervredesprijs?",
-      "samenvatting": "Er komt binnenkort een winnaar van de Internationale Kindervredesprijs. Drie kinderen uit Chili, Myanmar en Colombia zijn finalist. De winnaar krijgt 50.000 euro voor zijn of haar plannen.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639748-dit-zijn-de-finalisten-van-de-kindervredesprijs"
-    },
-    {
-      "titel": "Bedjes in de bib van Genk",
-      "samenvatting": "In de bibliotheek van Genk staan bedjes waarin je samen met mama, papa of opa en oma kan voorlezen. Ze blijven staan tot de voorleesweek van 21 tot 29 november.",
-      "bron": "VRT NWS",
-      "url": "https://vrt.be/vrtnws/nl/2026/11/17/voorleesbedjes-in-bibliotheek-genk"
-    },
-    {
-      "titel": "Sinterklaas komt aan in Antwerpen",
-      "samenvatting": "De Sint is vandaag aangekomen in Antwerpen. Hij vindt dat de kerstperiode veel te lang duurt.",
-      "bron": "VRT NWS",
-      "url": "https://vrt.be/vrtnws/nl/2026/11/13/sinterklaas-kerstman-wanneer-kerstboom-plaatsen"
-    },
-    {
-      "titel": "Honden oefenen alvast met vuurwerk",
-      "samenvatting": "Bij Beerzerveld leren honden al om te gaan met harde knallen en lichtflitsen. Zo schrikken ze minder als er met oud en nieuw toch vuurwerk wordt afgestoken.",
-      "bron": "NOS Jeugdjournaal",
-      "url": "https://jeugdjournaal.nl/artikel/2639726-deze-honden-krijgen-vuurwerk-training-wieeee-boem-boem-boem"
-    }
-  ],
-  "dieren": [
-    {
-      "titel": "Reuzenhondjes met hun piepkleine vriendjes",
-      "bron": "The Dodo",
-      "url": "https://www.youtube.com/watch?v=2iuw8cqL5bY",
-      "soort": "video"
-    },
-    {
-      "titel": "Hondje denkt dat hij een konijntje is",
-      "bron": "The Dodo",
-      "url": "https://www.youtube.com/watch?v=1d6ZRI02c_A",
-      "soort": "video"
-    },
-    {
-      "titel": "Deze oude kat speelt nog als een katje",
-      "bron": "YouTube",
-      "url": "https://www.youtube.com/watch?v=PqHQnHT9POM",
-      "soort": "video"
-    }
-  ],
-  "films": [
-    {
-      "titel": "Toy Story 5",
-      "samenvatting": "Woody, Buzz en hun vriendjes krijgen te maken met Lillypad, een tablet die Bonnies nieuwe favoriet wordt. De film kwam in juni 2026 in de bioscoop.",
-      "bron": "FilmVandaag",
-      "url": "https://www.filmvandaag.nl/nieuws/25989-pixar-onthult-nieuwe-blik-op-toy-story-5-en-kondigt-nieuwe-film-aan-van-luca-regisseur",
-      "video": "https://www.youtube.com/watch?v=-Ax3Zmd9S_o"
-    },
-    {
-      "titel": "Zootropolis 2",
-      "samenvatting": "Konijn Judy en vos Nick zoeken een mysterieuze slang in hun stad. Je kan de film sinds 11 maart op Disney+ zien.",
-      "bron": "Variety",
-      "url": "https://au.variety.com/2026/film/global/zootopia-2-disney-release-date-streaming-how-to-watch-33814/",
-      "video": "https://www.youtube.com/watch?v=9BF4YfxVcjc"
-    },
-    {
-      "titel": "Elio",
-      "samenvatting": "Elio is gek op de ruimte en wordt per ongeluk gezien als de leider van de aarde. Hij leert er vreemde aliens kennen. Je ziet de film sinds 17 september 2025 op Disney+.",
-      "bron": "Disney UK",
-      "url": "https://press.disney.co.uk/news/disney-and-pixars-out-of-this-world-adventure-film-elio-will-land-on-disney%2B-on-sept-17",
-      "video": "https://www.youtube.com/watch?v=05HIYPh1MwY"
-    },
-    {
-      "titel": "Frozen 3",
-      "samenvatting": "Het begint met de bruiloft van Anna en Kristoff, maar dan verschijnt er een mysterieuze figuur in Arendelle. De film komt op 24 november 2027 in de bioscoop.",
-      "bron": "Bright",
-      "url": "https://www.bright.nl/nieuws/2123683/eerste-beelden-frozen-3-onthuld-bruiloft-anna-en-nieuwe-schurk-centraal.html",
-      "video": "https://www.youtube.com/watch?v=rzYAcnDiUig"
-    }
-  ],
-  "land": {
-    "datum": "2026-11-17",
-    "naam": "Laos",
-    "hoofdstad": "Vientiane",
-    "vlag": "🇱🇦",
-    "iso2": "la",
-    "iso": "418",
-    "lat": 19.0,
-    "lon": 102.5,
-    "inwoners": "ongeveer 7,5 miljoen",
-    "weetjes": [
-      "Laos is het enige land in Zuidoost-Azië zonder kust. Er is dus nergens zee, maar wel de grote Mekong-rivier.",
-      "Op een hoogvlakte in het noorden liggen grote stenen potten van heel lang geleden. Die plek heet de Vlakte van Kruiken, en niemand weet helemaal zeker waarvoor ze dienden.",
-      "Rijst en vis zijn de basis van het eten in Laos. Veel mensen eten er plakkerige kleefrijst."
-    ]
+ "bijgewerkt": "2026-11-19T20:21:33+07:00",
+ "gebruikt": [
+  "Vietnam",
+  "Maleisië",
+  "Cambodja",
+  "Laos",
+  "Filipijnen"
+ ],
+ "nieuws": [
+  {
+   "titel": "Een kind wint de Kindervredesprijs",
+   "samenvatting": "Vandaag wordt de Internationale Kindervredesprijs uitgereikt aan een kind dat de wereld beter maakt voor andere kinderen. De winnaar krijgt 50.000 euro en mag praten met wereldleiders.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640103-nieuwswekker-recordbedrag-voor-schilderij-gta-vi-komt-uit"
   },
-  "raadsel": {
-    "vraag": "Wat wordt natter naarmate het meer droogt?",
-    "oplossing": "Een handdoek",
-    "uitleg": "Een handdoek maakt je droog, maar wordt daardoor zelf steeds natter.",
-    "opties": [
-      "Een spons",
-      "Een handdoek",
-      "Een paraplu",
-      "Een zeepje"
-    ]
+  {
+   "titel": "Een schilderij van Van Gogh kost 173 miljoen euro",
+   "samenvatting": "Het schilderij 'Bloeiende Kastanjebomen' uit 1890 is verkocht voor een recordbedrag. Nooit eerder werd er zoveel betaald voor een werk van Van Gogh.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640106-schilderij-van-van-gogh-geveild-voor-recordbedrag"
   },
-  "mensen": [
-    {
-      "label": "Camille",
-      "titel": "Camille danst mee met 'Isabella'",
-      "samenvatting": "In het vrolijke nummer 'Isabella' kiest Camille voor een vlotte, nieuwe stijl. Het hoort bij haar Circus Camille. Op 19 en 20 december komt ze met Wintercircus naar Hasselt.",
-      "bron": "YouTube",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/06/08/wintercircus-camille-dhont-trixxo-arena-hasselt/",
-      "video": "https://www.youtube.com/watch?v=Ju4o4_zpVTA"
-    },
-    {
-      "label": "Pommelien Thijs",
-      "titel": "Pommelien brengt een deluxe-album uit",
-      "samenvatting": "Pommelien kondigde tijdens een concert in Amsterdam een deluxe-versie van haar album 'Gedoe' aan. Er komen zes nieuwe nummers bij, zoals 'Onomatopee'. Het album verschijnt op 4 december.",
-      "bron": "VRT nws.nws.nws",
-      "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/",
-      "video": "https://www.youtube.com/watch?v=f1y1B2tCB4A"
-    },
-    {
-      "label": "Aaron Blommaert",
-      "titel": "Aaron en zijn eerste album 'Oorsprong'",
-      "samenvatting": "Aaron maakte een eigen soloalbum met de naam 'Oorsprong'. Hij noemt het het grootste project dat hij ooit gemaakt heeft.",
-      "bron": "De Zondag",
-      "url": "https://www.dezondag.be/gezellig-thuis/entertainment/ik-vraag-me-wel-eens-af-of-het-allemaal-niet-te-snel-gaat-aaron-blommaert-lanceert-debuutalbum-oorsprong-en-kijkt-uit-naar-een-zomer-vol-optredens/"
-    },
-    {
-      "label": "Maksim",
-      "titel": "Maksim op Night of the Proms",
-      "samenvatting": "Maksim zingt voor het eerst zijn liedjes met een groot orkest en koor. Night of the Proms is op 20, 21 en 22 november in de AFAS Dome. Hij vindt het spannend.",
-      "bron": "VRT NWS",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/09/17/maksim-night-of-the-proms-afas-dome-klassiek-koor-symfonisch-ork/"
-    }
-  ],
-  "header": {
-    "ochtend": {
-      "titel": "Goeiemorgen, Ida! Welk land ontdek je? 🐘",
-      "sub": "Vandaag is Laos je land, en er is een sneeuwvlok om te knippen.",
-      "iconen": [
-        "🌏",
-        "🐘",
-        "🍚",
-        "❄️",
-        "✂️",
-        "☀️"
-      ]
-    },
-    "middag": {
-      "titel": "Hoi Ida, tijd voor een knutselpauze ✂️",
-      "sub": "Maak een papieren sneeuwvlok en kijk hoe hondjes met kleine vriendjes spelen.",
-      "iconen": [
-        "❄️",
-        "✂️",
-        "🐶",
-        "🐱",
-        "🎨",
-        "🌸"
-      ]
-    },
-    "avond": {
-      "titel": "Goeienavond, Ida! Welke film kijk je? 🍿",
-      "sub": "Er zijn trailers van Toy Story 5, Zootropolis 2 en Elio.",
-      "iconen": [
-        "🎬",
-        "🍿",
-        "🌙",
-        "⭐",
-        "🎵",
-        "📖"
-      ]
-    },
-    "nacht": {
-      "titel": "Slaap zacht, Ida! 🌙",
-      "sub": "Morgen staat er weer een nieuw land en een nieuw raadsel klaar.",
-      "iconen": [
-        "🌙",
-        "⭐",
-        "😴",
-        "🧸",
-        "✨",
-        "☁️"
-      ]
-    }
+  {
+   "titel": "Zoek mee naar het Kinderwoord van het jaar",
+   "samenvatting": "Karrewiet zoekt voor de 15e keer het Kinderwoord. Je kan woorden insturen, vanaf 23 november stemmen en op 30 november hoor je welk woord wint.",
+   "bron": "Ketnet",
+   "url": "https://www.vrt.be/nl/ketnet-voor-ouders/nieuws-van-ketnet-en-ketnet-junior/wat-wordt-het-kinderwoord-2026-van-karrewiet"
   },
-  "knutsel": {
-    "titel": "Een papieren sneeuwvlok",
-    "intro": "Knip je eigen winterse sneeuwvlok, elke is anders.",
-    "materiaal": [
-      "Een vierkant wit blaadje",
-      "Een kinderschaar",
-      "Een potlood",
-      "Draadje of plakband om op te hangen"
-    ],
-    "stappen": [
-      "Vouw het vierkante blaadje diagonaal dubbel, zodat je een driehoek krijgt.",
-      "Vouw de driehoek nog eens dubbel.",
-      "Vouw hem nog een derde keer dicht, tot je een smalle puntige driehoek hebt.",
-      "Teken met potlood kleine boogjes, hartjes en driehoekjes langs de randen.",
-      "Knip die vormpjes er voorzichtig uit, maar knip nooit helemaal door de vouw.",
-      "Vouw je sneeuwvlok open en strijk hem plat."
-    ],
-    "tip": "Hang je sneeuwvlok aan een draadje voor het raam. Maak er meer in verschillende maten."
+  {
+   "titel": "Bedjes in de bib van Genk",
+   "samenvatting": "In de bibliotheek van Genk staan bedjes waarin je samen met mama, papa of opa en oma kan voorlezen. Ze blijven staan tot de voorleesweek van 21 tot 29 november.",
+   "bron": "VRT NWS",
+   "url": "https://vrt.be/vrtnws/nl/2026/11/17/voorleesbedjes-in-bibliotheek-genk"
   }
+ ],
+ "dieren": [
+  {
+   "titel": "Babypanda speelt met mama in de dierentuin",
+   "bron": "YouTube",
+   "url": "https://www.youtube.com/watch?v=Z_aCb4IXVww",
+   "soort": "video"
+  },
+  {
+   "titel": "Babyotters leren spelen in de dierentuin",
+   "bron": "YouTube",
+   "url": "https://www.youtube.com/watch?v=G2xAHB-L6do",
+   "soort": "video"
+  },
+  {
+   "titel": "Eendenkuikentjes dansen in de regen",
+   "bron": "YouTube",
+   "url": "https://www.youtube.com/watch?v=0m3RZNTSruc",
+   "soort": "video"
+  }
+ ],
+ "films": [
+  {
+   "titel": "Hexed",
+   "samenvatting": "Billie ontdekt dat ze geheime heksenkrachten heeft en belandt met haar mama in een magische wereld vol heksen. Je ziet de Disney-film vanaf 25 november in de bioscoop.",
+   "bron": "Kidshoekje",
+   "url": "https://kidshoekje.nl/2026/11/18/disneys-hexed-nieuwe-magische-disney-film/",
+   "video": "https://www.youtube.com/watch?v=4qMlKkC9V3M",
+   "datum": "2026-11-25"
+  },
+  {
+   "titel": "Miraculous: Ladybug & Cat Noir, seizoen 7",
+   "samenvatting": "Ladybug en Cat Noir beleven nieuwe superheldenavonturen in Parijs. Het nieuwe seizoen komt eind november op Disney+.",
+   "bron": "Señal News",
+   "url": "https://senalnews.com/en/content/miraculous-season-7-set-for-global-rollout-across-disney-globo-and-tf1",
+   "video": "https://www.youtube.com/watch?v=M6riW0bZigY",
+   "datum": "2026-11-21"
+  }
+ ],
+ "land": {
+  "datum": "2026-11-19",
+  "naam": "Filipijnen",
+  "hoofdstad": "Manilla",
+  "vlag": "🇵🇭",
+  "iso2": "ph",
+  "iso": "608",
+  "lat": 12.9,
+  "lon": 121.8,
+  "inwoners": "ongeveer 115 miljoen",
+  "weetjes": [
+   "De Filipijnen bestaan uit meer dan 7.600 eilanden. Je kan er dus eindeloos eilandhoppen.",
+   "Op sommige eilanden leeft de tarsius, een heel klein aapje met reuzenogen. Hij past in je hand.",
+   "Rond kleurrijke jeepneys, oude bussen versierd met schilderingen, rijden de mensen door de stad. In september begint er al kerstsfeer."
+  ]
+ },
+ "raadsel": {
+  "vraag": "Ik heb steden maar geen huizen, bergen maar geen bomen en water maar geen vissen. Wat ben ik?",
+  "oplossing": "Een kaart",
+  "uitleg": "Op een kaart staan steden, bergen en water getekend, maar het zijn maar tekeningen.",
+  "opties": [
+   "Een kaart",
+   "Een droom",
+   "Een boek",
+   "Een foto"
+  ]
+ },
+ "mensen": [
+  {
+   "label": "Camille",
+   "titel": "Camille zingt 'Geen Tranen Meer Over'",
+   "samenvatting": "Bekijk de clip van dit nummer van Camille. Op 19 en 20 december komt ze met Wintercircus naar Hasselt.",
+   "bron": "YouTube",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/06/08/wintercircus-camille-dhont-trixxo-arena-hasselt/",
+   "video": "https://www.youtube.com/watch?v=o6bQaCUQ6ss"
+  },
+  {
+   "label": "Pommelien Thijs",
+   "titel": "Pommelien en 'Onomatopee'",
+   "samenvatting": "Pommelien heeft een nieuw nummer, 'Onomatopee'. Op 4 december komt er een deluxe-versie van haar album 'Gedoe' met zes nieuwe nummers.",
+   "bron": "VRT nws.nws.nws",
+   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/",
+   "video": "https://www.youtube.com/watch?v=f1y1B2tCB4A"
+  },
+  {
+   "label": "Aaron Blommaert",
+   "titel": "Aaron zingt 'Hoe zit het met ons?'",
+   "samenvatting": "Aaron heeft zijn eerste soloalbum 'Oorsprong' gemaakt. Kijk of luister naar zijn nummer 'Hoe zit het met ons?'.",
+   "bron": "YouTube",
+   "url": "https://www.dezondag.be/gezellig-thuis/entertainment/ik-vraag-me-wel-eens-af-of-het-allemaal-niet-te-snel-gaat-aaron-blommaert-lanceert-debuutalbum-oorsprong-en-kijkt-uit-naar-een-zomer-vol-optredens/",
+   "video": "https://www.youtube.com/watch?v=M-BTdd1mWh4"
+  },
+  {
+   "label": "Maksim",
+   "titel": "Morgen begint Night of the Proms met Maksim",
+   "samenvatting": "Morgen start Night of the Proms in de AFAS Dome, nog tot en met 22 november. Maksim zingt zijn liedjes met een groot orkest en koor.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/09/17/maksim-night-of-the-proms-afas-dome-klassiek-koor-symfonisch-ork/"
+  }
+ ],
+ "header": {
+  "ochtend": {
+   "titel": "Goeiemorgen, Ida! Welkom op de Filipijnen 🌴",
+   "sub": "Vandaag ontdek je een land met meer dan 7.600 eilanden en leer je een vouwspel maken.",
+   "iconen": [
+    "🌴",
+    "🏝️",
+    "🐒",
+    "🧭",
+    "📄",
+    "☀️"
+   ]
+  },
+  "middag": {
+   "titel": "Hoi Ida, tijd om te vouwen 📄",
+   "sub": "Maak 'hemel en hel' en kijk hoe een babypanda met mama speelt.",
+   "iconen": [
+    "📄",
+    "🐼",
+    "🦦",
+    "🎨",
+    "✏️",
+    "🌸"
+   ]
+  },
+  "avond": {
+   "titel": "Goeienavond, Ida! Wat eet je straks? 🍛",
+   "sub": "Er is een kikkererwtencurry om te proeven en een raadsel over een kaart.",
+   "iconen": [
+    "🍛",
+    "🧩",
+    "🎬",
+    "🌙",
+    "⭐",
+    "🎵"
+   ]
+  },
+  "nacht": {
+   "titel": "Slaap zacht, Ida! 🌙",
+   "sub": "Morgen wacht er een nieuw land, een nieuw raadsel en een nieuwe knutsel.",
+   "iconen": [
+    "🌙",
+    "⭐",
+    "😴",
+    "🧸",
+    "🌌",
+    "☁️"
+   ]
+  }
+ },
+ "knutsel": {
+  "titel": "Een vouwspel: hemel en hel",
+  "intro": "Vouw een papieren speeltje dat je met je vingers open en dicht knijpt.",
+  "materiaal": [
+   "Een vierkant blaadje",
+   "Een potlood of stiften",
+   "Een gum"
+  ],
+  "stappen": [
+   "Vouw je vierkant blaadje diagonaal dubbel, open het en doe dat nog eens met de andere hoek.",
+   "Vouw alle vier de hoeken naar het midden toe.",
+   "Draai het blaadje om en vouw weer alle vier de hoeken naar het midden.",
+   "Vouw het dubbel en steek je duimen en wijsvingers onder de vier flapjes.",
+   "Knijp ze samen en trek ze weer open: het speeltje beweegt in twee richtingen.",
+   "Schrijf kleuren of cijfers op de buitenkant en grappige opdrachtjes onder de flapjes."
+  ],
+  "tip": "Laat een vriendje een kleur en een getal kiezen en lees dan zijn opdrachtje voor.",
+  "video": "https://www.youtube.com/watch?v=VODZD3PDP-o",
+  "bron": "YouTube"
+ },
+ "eten": {
+  "titel": "Kikkererwtencurry met spinazie en tomaat",
+  "intro": "Een zachte, kruidige curry met rijst die lekker vult en vol groenten zit.",
+  "ingredienten": [
+   "500 g gekookte kikkererwten",
+   "300 g verse spinazie",
+   "400 g kerstomaatjes",
+   "1 rode paprika",
+   "350 g basmatirijst",
+   "1 ui",
+   "2 teentjes knoflook",
+   "1 theelepel komijn",
+   "2 eetlepels olijfolie",
+   "1 eetlepel tomatenpuree",
+   "1 eetlepel tahin",
+   "100 ml water"
+  ],
+  "stappen": [
+   "Kook de rijst volgens de verpakking.",
+   "Snijd de ui, knoflook en paprika klein, met hulp van een volwassene.",
+   "Bak de ui en knoflook zacht in de olijfolie, met hulp van een volwassene.",
+   "Voeg de paprika, de tomaatjes en de komijn toe en bak alles 5 minuten.",
+   "Roer de spinazie erdoor tot ze slinkt en voeg dan de tomatenpuree, de tahin, het water en de kikkererwten toe.",
+   "Laat de curry 15 minuten zachtjes pruttelen en serveer met de rijst."
+  ],
+  "tip": "Heb je het liever frisser? Druk er wat citroensap over en strooi er verse koriander op.",
+  "url": "https://njam.tv/recepten/kikkererwtencurry-met-spinazie-en-tomaat",
+  "bron": "Njam!"
+ },
+ "eten_gebruikt": [
+  "Kikkererwtencurry met spinazie en tomaat"
+ ]
 }
