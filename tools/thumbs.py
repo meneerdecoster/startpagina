@@ -95,13 +95,16 @@ def thumb(u):
 
 def urls(d):
     out = []
-    for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels", "lifestyle", "voeding", "boeken"):
+    for k in ("markten", "tech", "nieuws", "films", "dieren", "mensen", "duivels", "lifestyle", "voeding", "boeken", "opkomend", "fire", "eten", "boek_van_de_dag"):
         out += [x for i in d.get(k, []) if isinstance(i, dict) for x in (i.get("url"), i.get("video"))]
     if isinstance(d.get("dino"), dict): out.append(d["dino"].get("url"))
     for p in d.get("podcasts", []):
         out += [e.get("url") for e in p.get("afleveringen", [])]
-    for lst in (d.get("sport") or {}).values():
+    sp = d.get("sport") or {}
+    for lst in ([sp] if isinstance(sp, list) else sp.values()):
         out += [i.get("url") for i in lst]
+    for k in ("boek_van_de_dag", "eten", "knutsel"):
+        if isinstance(d.get(k), dict): out += [d[k].get("url"), d[k].get("video")]
     return [u for u in dict.fromkeys(out) if u]
 
 def embeddable(u):

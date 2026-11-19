@@ -237,6 +237,16 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
       <div id="sport"></div>
     </section>
 
+    <section class="card span-6" aria-labelledby="h-op">
+      <div class="card-h"><h2 id="h-op"><span class="dot" style="background:#EC4899"></span>Vlaamse muziek in opmars</h2><span class="meta">Nieuwe namen</span></div>
+      <ul class="news" id="opkomend"></ul>
+    </section>
+
+    <section class="card span-6" aria-labelledby="h-fire">
+      <div class="card-h"><h2 id="h-fire"><span class="dot" style="background:#F59E0B"></span>FIRE</h2><span class="meta">Vroeger stoppen met werken</span></div>
+      <ul class="news" id="fire"></ul>
+    </section>
+
     <section class="card span-12" aria-labelledby="h-gig" id="c-gig">
       <div class="card-h"><h2 id="h-gig"><span class="dot" style="background:#6366F1"></span>Uitgaan in de buurt</h2>
         <div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div></div>
@@ -244,11 +254,6 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
       <button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>
     </section>
 
-    <section class="card span-12" aria-labelledby="h-fact">
-      <div class="card-h"><h2 id="h-fact"><span class="dot" style="background:var(--ink)"></span>Weetje van de dag</h2></div>
-      <p class="fact" id="fact"></p>
-      <div class="fact-foot"><span class="count" id="factcount"></span><button class="btn" id="nextfact" type="button">Nog een weetje</button></div>
-    </section>
   </div>
   <footer id="foot"></footer>
 </main>
@@ -435,9 +440,10 @@ function renderFin(q){
   $("fin").querySelectorAll("[data-pos]").forEach(a=>a.onclick=()=>setPos(a.dataset.pos));
 }
 function renderSport(s){
-  const sec = (label, color, items) => items && items.length ? `<div class="sport-sec"><div class="tag"><i style="background:${color}"></i>${label}</div>
-    ${items.map(i => `<div class="sport-item"><a class="ph" href="${esc(i.url)}" target="_blank" rel="noopener" data-u="${esc(i.url)}" tabindex="-1" aria-hidden="true"><b>${esc(i.bron||"")}</b></a><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.titel)}</a><p>${esc(i.samenvatting)}</p></div>`).join("")}</div>` : "";
-  $("sport").innerHTML = sec("Rode Duivels","var(--accent)", s.duivels) + sec("Royal Antwerp FC","#B91C1C", s.antwerp) + sec("Veldrijden","#64748B", s.cross);
+  const col={"Rode Duivels":"var(--accent)","Royal Antwerp FC":"#B91C1C","Veldrijden":"#64748B"};
+  let L = Array.isArray(s) ? s : [].concat((s.duivels||[]).map(i=>({...i,label:"Rode Duivels"})), (s.antwerp||[]).map(i=>({...i,label:"Royal Antwerp FC"})), (s.cross||[]).map(i=>({...i,label:"Veldrijden"})));
+  L = L.slice(0,2);
+  $("sport").innerHTML = L.map(i=>`<div class="sport-sec"><div class="tag"><i style="background:${col[i.label]||"var(--ink)"}"></i>${esc(i.label||"Sport")}</div><div class="sport-item"><a class="ph" href="${esc(i.url)}" target="_blank" rel="noopener" data-u="${esc(i.url)}" tabindex="-1" aria-hidden="true"><b>${esc(i.bron||"")}</b></a><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.titel)}</a><p>${esc(i.samenvatting)}</p></div></div>`).join("");
 }
 
 let _q=0; const _w=[];
@@ -517,14 +523,6 @@ function renderGigs(){
 }
 $("gigf").addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; gigF=b.dataset.f; $("gigf").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b)); renderGigs(); });
 $("gigmore").addEventListener("click", ()=>{ gigAll=!gigAll; renderGigs(); });
-let facts = [], fi = 0;
-function showFact(){
-  if (!facts.length){ $("fact").textContent = "Geen weetje vandaag."; return; }
-  const f = facts[fi % facts.length];
-  $("fact").innerHTML = esc(f.tekst) + (f.bron ? ` <a href="${esc(f.bron)}" target="_blank" rel="noopener" style="font-size:.55em; color:var(--muted)">bron ↗</a>` : "");
-  $("factcount").textContent = `${(fi % facts.length) + 1} / ${facts.length}`;
-}
-$("nextfact").addEventListener("click", () => { fi++; showFact(); });
 
 fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   $("chips").innerHTML = (d.vandaag || []).map(c => `<span class="chip"><em>${esc(c.wanneer)}</em>${esc(c.wat)}</span>`).join("");
@@ -533,13 +531,14 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   fetch("quotes.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(renderFin).catch(()=>{ $("fin").remove(); });
   renderNews("tech", d.tech);
   renderPods(d.podcasts);
+  if ((d.opkomend||[]).length) renderNews("opkomend", d.opkomend.slice(0,4)); else $("opkomend").closest("section").remove();
+  if ((d.fire||[]).length) renderNews("fire", d.fire.slice(0,4)); else $("fire").closest("section").remove();
   renderSport(d.sport || {});
   GIGS = d.optredens || []; if (!GIGS.length) $("c-gig").remove(); else renderGigs();
   loadThumbs();
   podThumbs();
-  facts = d.weetjes || []; fi = seed % Math.max(facts.length,1); showFact();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v24` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v25` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });

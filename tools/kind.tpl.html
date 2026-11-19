@@ -42,6 +42,7 @@ __SKIES__
 .clocks span b{font-weight:500; margin-left:6px}
 .greet{font-family:var(--display); font-weight:800; font-size:clamp(44px,8.2vw,104px); line-height:.95; letter-spacing:-.035em; margin:56px 0 16px; text-wrap:balance; max-width:14ch}
 .sub{font-size:clamp(16px,2vw,20px); opacity:.95; max-width:60ch; margin:0}
+.cd{display:inline-block; margin:14px 0 0; padding:8px 16px; border-radius:999px; background:rgba(255,255,255,.2); border:1px solid rgba(255,255,255,.35); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); font-weight:600; font-size:15px}
 .wx{display:flex; gap:8px; margin-top:22px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none}
 .wx::-webkit-scrollbar{display:none}
 .wx .d{flex:1 0 auto; min-width:86px; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.3); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-radius:16px; padding:9px 12px; font-size:12.5px; line-height:1.35}
@@ -86,8 +87,8 @@ __SKIES__
 .tile .tt{font-weight:600; font-size:14px; line-height:1.3; margin-top:8px}
 .tile:hover .tt{text-decoration:underline; text-underline-offset:3px}
 .tile .ts{font:11px var(--mono); color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-top:3px}
-.land{display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1.3fr) 190px; gap:26px; align-items:center}
-@media (max-width:820px){.land{grid-template-columns:1fr}.land .gl{justify-self:center}}
+.land{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) minmax(0,1.5fr); gap:26px; align-items:center}
+@media (max-width:820px){.land{grid-template-columns:1fr}}
 .land .lid{display:flex; gap:18px; align-items:center}
 .land .fl{width:140px; height:auto; border-radius:12px; box-shadow:0 4px 18px -6px rgba(0,0,0,.35); display:block}
 .land .fl.e{font-size:100px; line-height:1; box-shadow:none; width:auto}
@@ -95,13 +96,14 @@ __SKIES__
 .land .hs{color:var(--muted); font-size:14.5px}
 .land ul{margin:0; padding-left:20px; display:grid; gap:8px}
 .land li::marker{color:var(--accent)}
-.land .gl canvas{width:190px; height:190px; display:block}
+.land .gl canvas{width:100%; height:auto; display:block; border-radius:14px}
 .yr{margin-top:16px; padding-top:14px; border-top:1px dashed var(--line); font-size:13px; line-height:1.5; color:var(--muted)}
 .health .count{font-size:12px; color:var(--muted)}
 .health .insights{margin-top:2px}
 .mc .ph{display:grid; place-items:center; font-size:34px; aspect-ratio:16/9}
 .mc .ph img{position:absolute; inset:0}
 .mb p{display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden}
+.media.beeld .mc{display:none}.media.beeld .mc.ok{display:flex}
 .media{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:20px}
 .mc{display:flex; flex-direction:column; gap:10px; min-width:0}
 .vm{aspect-ratio:16/9; border-radius:14px; overflow:hidden; cursor:pointer; position:relative; background:var(--surface-2)}
@@ -120,6 +122,10 @@ __SKIES__
 .quiz summary::-webkit-details-marker{display:none}
 .quiz details[open] summary{margin-bottom:8px}
 .quiz .a{font-size:15px}
+.qz .qo{display:grid;gap:8px;margin:0 0 12px}.qb{font:inherit;text-align:left;background:var(--surface-2);border:2px solid var(--line);border-radius:14px;padding:10px 14px;cursor:pointer;display:flex;gap:10px;align-items:center}.qb b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;flex:none}
+.qb.ok{border-color:#16A34A;background:#DCFCE7}.qb.no{border-color:#EF4444;background:#FEE2E2}.qb[disabled]{cursor:default}
+.qf{display:flex;gap:8px;margin:0 0 12px}.qf input{flex:1;min-width:0;font:inherit;font-size:17px;padding:10px 14px;border-radius:14px;border:2px solid var(--line);background:var(--surface);color:var(--ink)}.qf input:focus{outline:none;border-color:var(--accent)}
+.qm{min-height:24px;font-weight:600;margin:0 0 8px}.qm.ok{color:#16A34A}.qm.no{color:#DC2626}.qz .a{background:var(--surface-2);border-radius:14px;padding:12px 14px;font-size:15px}.qg{font:inherit;font-size:13px;background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:6px 0}
 .feiten{display:grid; grid-template-columns:1fr; gap:12px}
 .fe{display:grid; grid-template-columns:40px 1fr; gap:12px; align-items:start; background:var(--surface-2); border-radius:16px; padding:12px 14px}
 .fe .em{font-size:30px; line-height:1.1}
@@ -171,6 +177,10 @@ __SKIES__
 .knut .tip{margin:12px 0 0;padding:10px 12px;border-radius:12px;background:var(--bg);font-size:14px}
 .heel{display:flex;gap:16px;align-items:flex-start}.heel .em{font-size:44px;line-height:1}.heel a{font-size:13px}
 @media(max-width:640px){.kn2{grid-template-columns:1fr}}
+.knut.kb{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}.knut .kph{margin:0;aspect-ratio:4/3;border-radius:14px;display:block;position:relative;overflow:hidden;background:var(--bg)}.knut .ph.kph{display:none}.knut .ph.kph.has{display:block}.knut .kph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bk1{display:grid;grid-template-columns:150px minmax(0,1fr);gap:22px;align-items:start}.bk1 .cvr{aspect-ratio:2/3;border-radius:8px;display:grid;place-items:center;font-size:44px;background:var(--bg);overflow:hidden;box-shadow:0 10px 26px -10px rgba(0,0,0,.45);text-decoration:none}.bk1 .cvr img{width:100%;height:100%;object-fit:cover}.bk1 h3{margin:0 0 2px;font-size:22px}.bk1 .au{color:var(--muted);margin:0 0 8px}.bk1 p{line-height:1.55;margin:0 0 10px}
+.stars{position:relative;display:inline-block;color:#D1D5DB;letter-spacing:2px;font-size:18px}.stars::before{content:"★★★★★";position:absolute;left:0;top:0;width:var(--p);overflow:hidden;color:#F59E0B;white-space:nowrap}.st{margin:0 0 10px;font-size:14px}
+@media(max-width:700px){.knut.kb{grid-template-columns:1fr}.bk1{grid-template-columns:110px minmax(0,1fr);gap:14px}}
 .dino{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}
 .dino .ph{margin:0;aspect-ratio:4/3;background:var(--bg)}.dino .ph img{object-fit:contain}.dino .em{font-size:64px;line-height:1;display:grid;place-items:center;aspect-ratio:4/3;border-radius:14px;background:var(--bg)}
 .dino .ph.has+.em{display:none}.dino h3{margin:0 0 4px;font-size:22px}.dino .sub{color:var(--muted);font-size:13px;margin:0 0 10px}
@@ -191,6 +201,7 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     <div class="topbar"><span id="datum">&nbsp;</span><span class="clocks" id="clocks"></span></div>
     <h1 class="greet" id="greet"></h1>
     <p class="sub" id="sub"></p>
+    <p class="cd" id="cd" hidden></p>
     <div class="wx" id="wx" aria-label="Weer"></div>
   </div>
 </header>
@@ -213,6 +224,10 @@ const pick = arr => arr[(seed*7+arr.length)%arr.length];
 const fill = t => t.replaceAll("{dag}",dag).replaceAll("{naam}",CFG.naam);
 $("greet").textContent = fill(pick(CFG.groet[part]));
 $("sub").textContent = fill(pick(CFG.sub[part]));
+(function(){ const v=CFG.verjaardag; if(!v) return; const t=new Date(); t.setHours(0,0,0,0); let n=new Date(t.getFullYear(),v[1]-1,v[0]); if(n<t) n=new Date(t.getFullYear()+1,v[1]-1,v[0]);
+  const d=Math.round((n-t)/864e5), el=$("cd"); el.hidden=false;
+  el.textContent = d===0 ? "🎂 Hoera, vandaag is het je verjaardag!" : d===1 ? "🎂 Nog 1 keer slapen tot je verjaardag!" : "🎂 Nog "+d+" keer slapen tot je verjaardag";
+})();
 const dt = now.toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 $("datum").textContent = dt.charAt(0).toUpperCase()+dt.slice(1);
 function clocks(){
@@ -280,6 +295,10 @@ function spark(series, color){
 let EMB={};
 const lastV=a=>{ const v=[...(a||[])].reverse().find(p=>p.v!=null); return v?Number(v.v).toLocaleString("nl-BE",{maximumFractionDigits:1}):""; };
 const ytId=u=>{ const m=String(u||"").match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{11})/); return m?m[1]:null; };
+function kn(k,lab,mat){ if(!k) return ""; const yid=ytId(k.video);
+  const beeld = yid?`<div class="vm kph" data-id="${esc(yid)}" role="button" tabindex="0" aria-label="Speel af"><div class="tp" data-t="${esc(k.video)}">🎬<span class="pl">▶</span></div></div>`
+    : (k.url?`<a class="ph kph" href="${esc(k.url)}" target="_blank" rel="noopener" data-u="${esc(k.url)}" tabindex="-1" aria-hidden="true"></a>`:"");
+  return `<div class="knut${beeld?" kb":""}">${beeld}<div><h3>${esc(k.titel)}</h3>${k.intro?`<p>${esc(k.intro)}</p>`:""}<div class="kn2"><div><b>${lab}</b><ul>${(mat||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ul></div><div><b>Zo doe je het</b><ol>${(k.stappen||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ol></div></div>${k.tip?`<p class="tip">💡 ${esc(k.tip)}</p>`:""}${k.url&&!yid?`<a href="${esc(k.url)}" target="_blank" rel="noopener" style="font-size:13px">${esc(k.bron||"meer lezen")} ↗</a>`:""}</div></div>`; }
 /* Onderdelen */
 const R = {
   news:(items,s)=> `<ul class="news${s.kolommen?" cols":""}">`+(items||[]).map((n,i)=>`<li class="${i===0&&!s.kolommen?"lead":""}">
@@ -291,14 +310,16 @@ const R = {
     <div class="tt">${esc(n.titel)}</div><div class="ts">${esc(n.bron||"")}</div></a>`).join("")+`</div>`,
   land:(l)=> { if(!l) return ""; const fl=l.iso2?`<img class="fl" alt="" src="https://flagcdn.com/w320/${esc(String(l.iso2).toLowerCase())}.png" data-e="${esc(l.vlag||"")}">`:`<span class="fl e">${esc(l.vlag)}</span>`;
     return `<div class="land"><div class="lid">${fl}<div><h3>${esc(l.naam)}</h3><div class="hs">Hoofdstad: <b>${esc(l.hoofdstad)}</b></div>${l.inwoners?`<div class="hs">Inwoners: <b>${esc(l.inwoners)}</b></div>`:""}</div></div>
-    <ul>${(l.weetjes||[]).map(w=>`<li>${esc(w)}</li>`).join("")}</ul>${l.lat!=null&&l.lon!=null?`<div class="gl"><canvas id="globe" width="400" height="400" data-lat="${esc(l.lat)}" data-lon="${esc(l.lon)}" data-iso="${esc(l.iso||"")}" role="img" aria-label="Ligging op de wereldbol"></canvas></div>`:""}</div>`; },
+    <ul>${(l.weetjes||[]).map(w=>`<li>${esc(w)}</li>`).join("")}</ul>${l.lat!=null&&l.lon!=null?`<div class="gl"><canvas id="globe" width="720" height="540" data-lat="${esc(l.lat)}" data-lon="${esc(l.lon)}" data-iso="${esc(l.iso||"")}" role="img" aria-label="Kaart met de buurlanden"></canvas></div>`:""}</div>`; },
   media:(items,s)=>{ let L=(items||[]).map(n=>{ const yv=ytId(n.url); const v=n.video||(yv?n.url:null); return {...n,v,id:ytId(v),art:yv?null:n.url}; });
     L=L.filter(n=>{ if(n.id&&EMB[n.v]===false){ if(!n.art) return false; n.id=null; n.v=null; } return true; });
     if(s.max) L=L.slice(0,s.max);
-    return `<div class="media">`+L.map(n=>`<article class="mc">${n.id?`<div class="vm" data-id="${esc(n.id)}" role="button" tabindex="0" aria-label="Speel af"><div class="tp" data-t="${esc(n.v)}">🎬<span class="pl">▶</span></div></div>`:(n.art?`<a class="ph" href="${esc(n.art)}" target="_blank" rel="noopener" data-u="${esc(n.art)}" tabindex="-1" aria-hidden="true">🎬</a>`:"")}
+    return `<div class="media${s.beeld?" beeld":""}">`+L.map(n=>`<article class="mc">${n.id?`<div class="vm" data-id="${esc(n.id)}" role="button" tabindex="0" aria-label="Speel af"><div class="tp" data-t="${esc(n.v)}">🎬<span class="pl">▶</span></div></div>`:(n.art?`<a class="ph" href="${esc(n.art)}" target="_blank" rel="noopener" data-u="${esc(n.art)}" tabindex="-1" aria-hidden="true">🎬</a>`:"")}
       <div class="mb">${n.label?`<span class="lab">${esc(n.label)}</span>`:""}${n.art?`<a class="t" href="${esc(n.art)}" target="_blank" rel="noopener">${esc(n.titel)}</a>`:`<span class="t">${esc(n.titel)}</span>`}${n.samenvatting?`<p>${esc(n.samenvatting)}</p>`:""}<span class="src">${esc(n.bron||"")}</span></div></article>`).join("")+`</div>`; },
-  quiz:(q)=> !q?"":`<div class="quiz"><p class="q">${esc(q.vraag)}</p>${q.opties?`<ol type="A">${q.opties.map(o=>`<li>${esc(o)}</li>`).join("")}</ol>`:""}
-    <details><summary>Toon de oplossing</summary><div class="a">${esc(q.oplossing)}${q.uitleg?`<br><span style="color:var(--muted)">${esc(q.uitleg)}</span>`:""}</div></details></div>`,
+  quiz:(q,s)=> !q?"":(s&&s.interactief?`<div class="quiz qz" data-sol="${esc(q.oplossing)}"><p class="q">${esc(q.vraag)}</p>${q.opties?`<div class="qo">${q.opties.map((o,i)=>`<button type="button" class="qb" data-o="${esc(o)}"><b>${"ABCD"[i]||i+1}</b>${esc(o)}</button>`).join("")}</div>`:`<form class="qf"><input type="text" autocomplete="off" autocapitalize="off" placeholder="Jouw antwoord…" aria-label="Jouw antwoord"><button class="btn" type="submit">Controleer</button></form>`}
+    <div class="qm" aria-live="polite"></div><div class="a" hidden>${esc(q.oplossing)}${q.uitleg?`<br><span style="color:var(--muted)">${esc(q.uitleg)}</span>`:""}</div><button type="button" class="qg" hidden>Ik weet het niet, toon de oplossing</button></div>`
+   :`<div class="quiz"><p class="q">${esc(q.vraag)}</p>${q.opties?`<ol type="A">${q.opties.map(o=>`<li>${esc(o)}</li>`).join("")}</ol>`:""}
+    <details><summary>Toon de oplossing</summary><div class="a">${esc(q.oplossing)}${q.uitleg?`<br><span style="color:var(--muted)">${esc(q.uitleg)}</span>`:""}</div></details></div>`),
   feiten:(items,s)=> `<div class="feiten${s.breed?" w":""}">`+(items||[]).map(f=>{ if(typeof f==="string") f={tekst:f};
     return `<div class="fe"><div class="em">${esc(f.emoji||"✨")}</div><div>${f.titel?`<b>${esc(f.titel)}</b>`:""}<span>${esc(f.tekst)}</span>${f.url?` <a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.bron||"bron")} ↗</a>`:""}</div></div>`; }).join("")+`</div>`,
   gezond:(g)=>{ if(!g) return ""; const w=g.week||{}, L=g.laatste||{}, y=g.jaar||{}, nl=n=>n==null?"–":Number(n).toLocaleString("nl-BE",{maximumFractionDigits:1});
@@ -314,7 +335,11 @@ const R = {
       <div><ul class="insights">${(g.inzichten||[]).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
       <div class="yr">Dit jaar: ${y.dagen??0} dagen ingevuld · sport op ${y.sport_pct??"–"}% van die dagen · gemiddeld ${nl(y.water)} l water · ${nl(y.alcohol_week)} glazen alcohol per week · ${y.sauna??0}× sauna · ${y.oneup??0} 1ups.</div></div></div>`; },
   uitgaan:(g)=>`<div class="gig-f" id="gigf"><button type="button" data-f="" aria-pressed="true">Alles</button><button type="button" data-f="muziek" aria-pressed="false">Muziek</button><button type="button" data-f="comedy" aria-pressed="false">Comedy</button></div><ul class="gigs" id="gigs" style="margin-top:12px"></ul><button class="btn gig-more" id="gigmore" type="button" hidden>Toon alles</button>`,
-  knutsel:(k)=> !k?"":`<div class="knut"><h3>${esc(k.titel)}</h3>${k.intro?`<p>${esc(k.intro)}</p>`:""}<div class="kn2"><div><b>Dit heb je nodig</b><ul>${(k.materiaal||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ul></div><div><b>Zo doe je het</b><ol>${(k.stappen||[]).map(m=>`<li>${esc(m)}</li>`).join("")}</ol></div></div>${k.tip?`<p class="tip">💡 ${esc(k.tip)}</p>`:""}</div>`,
+  knutsel:(k)=> kn(k,"Dit heb je nodig",k&&k.materiaal),
+  eten:(k)=> kn(k,"Ingrediënten",k&&(k.ingredienten||k.materiaal)),
+  boek:(b)=> !b?"":`<div class="bk1"><a class="tp cvr" href="${esc(b.url||"#")}" target="_blank" rel="noopener" data-t="${esc(b.url||"")}" data-p="1" data-i="${esc(String(b.isbn||"").replace(/[^0-9Xx]/g,""))}">📖</a>
+    <div><h3>${esc(b.titel)}</h3><p class="au">${esc(b.auteur||"")}</p>${b.sterren!=null?`<div class="st" aria-label="${esc(b.sterren)} van 5 sterren"><span class="stars" style="--p:${Math.max(0,Math.min(5,+b.sterren))/5*100}%">★★★★★</span> <b>${Number(b.sterren).toLocaleString("nl-BE",{minimumFractionDigits:1,maximumFractionDigits:2})}</b> / 5${b.bron?` · ${esc(b.bron)}`:""}${b.aantal?` · ${esc(b.aantal)} beoordelingen`:""}</div>`:""}
+    <p>${esc(b.samenvatting||"")}</p>${b.waarom?`<p class="tip">🔥 ${esc(b.waarom)}</p>`:""}${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener" style="font-size:13px">Meer over dit boek ↗</a>`:""}</div></div>`,
   dino:(d)=> !d?"":`<div class="dino"><div>${d.url?`<a class="ph" href="${esc(d.url)}" target="_blank" rel="noopener" data-wiki="${esc(d.url)}" tabindex="-1" aria-hidden="true"></a>`:""}<div class="em">${esc(d.emoji||"🦖")}</div></div>
     <div><h3>${esc(d.naam)}</h3><p class="sub">${esc(d.betekenis||"")}</p>
     <div class="chips">${[["🕰️",d.periode],["🍽️",d.dieet],["📏",d.grootte],["⚖️",d.gewicht],["🌍",d.plaats]].filter(x=>x[1]).map(x=>`<span>${x[0]} ${esc(x[1])}</span>`).join("")}</div>
@@ -324,6 +349,20 @@ const R = {
   mop:(m)=> !m?"":(m.vraag?`<p class="mop">${esc(m.vraag)}</p><div class="quiz" style="margin-top:12px"><details><summary>Toon het antwoord</summary><div class="a">${esc(m.antwoord)}</div></details></div>`:`<p class="mop">${esc(m.tekst)}</p>`)
 };
 
+(function(){ const nz=t=>String(t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9, ]/g," ").replace(/\s+/g," ").trim();
+  const nums=t=>(String(t).replace(/(\d)[.](\d{3})/g,"$1$2").replace(/,/g,".").match(/-?\d+(?:\.\d+)?/g)||[]).map(Number);
+  function ok(inp,sol){ const a=nz(inp), b=nz(sol); if(!a) return false; const ns=nums(sol), ni=nums(inp);
+    if(ns.length&&ni.length){ return ni.some(x=>x===ns[0]); } if(ns.length&&!ni.length&&b.length<=3) return false;
+    return a===b||(a.length>=3&&(b.includes(a)||a.includes(b))); }
+  function done(q,good){ q.querySelector(".a").hidden=false; q.querySelector(".qg").hidden=true; q.querySelectorAll("button,input").forEach(x=>x.disabled=true); q.dataset.done=1; }
+  const msg=(q,t,c)=>{ const m=q.querySelector(".qm"); m.textContent=t; m.className="qm "+c; };
+  document.addEventListener("submit",e=>{ const f=e.target.closest(".qf"); if(!f) return; e.preventDefault(); const q=f.closest(".qz"); if(q.dataset.done) return;
+    const v=f.querySelector("input").value; if(!v.trim()) return;
+    if(ok(v,q.dataset.sol)){ msg(q,"Goed zo! 🎉 Dat is juist.","ok"); done(q,1); } else { q.dataset.t=(+q.dataset.t||0)+1; msg(q,"Nog niet helemaal… probeer nog eens! 🤔","no"); if(+q.dataset.t>=2) q.querySelector(".qg").hidden=false; } });
+  document.addEventListener("click",e=>{ const b=e.target.closest(".qb"); if(b){ const q=b.closest(".qz"); if(q.dataset.done||b.disabled) return; const sol=q.dataset.sol, o=b.dataset.o, L="ABCD"[[...q.querySelectorAll(".qb")].indexOf(b)];
+      const good=ok(o,sol)||nz(sol).startsWith(nz(L)+" ")||nz(sol)===nz(L); if(good){ b.classList.add("ok"); msg(q,"Goed zo! 🎉 Dat is juist.","ok"); done(q,1); } else { b.classList.add("no"); b.disabled=true; msg(q,"Oei, dat is het niet. Kies nog eens! 🤔","no"); q.dataset.t=(+q.dataset.t||0)+1; if(+q.dataset.t>=2) q.querySelector(".qg").hidden=false; } return; }
+    const g=e.target.closest(".qg"); if(g){ const q=g.closest(".qz"); msg(q,"Dit is de oplossing:","no"); done(q,0); } });
+})();
 let GIGS=[], gigF="", gigAll=false;
 function renderGigs(){
   const today=new Date(); today.setHours(0,0,0,0);
@@ -350,16 +389,22 @@ async function globe(){ const cv=$("globe"); if(!cv) return;
   try{
     if(!window.d3) await lib("https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js");
     if(!window.topojson) await lib("https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js");
-    const w=await (await tfetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",15000)).json();
-    const fs=topojson.feature(w,w.objects.countries).features, land=topojson.feature(w,w.objects.land);
-    const S=cv.width, proj=d3.geoOrthographic().rotate([-lon,-lat]).scale(S/2-8).translate([S/2,S/2]).clipAngle(90), ctx=cv.getContext("2d"), path=d3.geoPath(proj,ctx);
-    const dark=matchMedia("(prefers-color-scheme: dark)").matches, acc=getComputedStyle(document.documentElement).getPropertyValue("--accent").trim()||"#0EA5E9";
-    ctx.clearRect(0,0,S,S);
-    ctx.beginPath(); path({type:"Sphere"}); ctx.fillStyle=dark?"#1B2A4A":"#CFE8FA"; ctx.fill();
-    ctx.beginPath(); path(land); ctx.fillStyle=dark?"#42527A":"#EDE8D8"; ctx.fill();
-    ctx.beginPath(); fs.filter(f=>+f.id===+cv.dataset.iso).forEach(f=>path(f)); ctx.fillStyle=acc; ctx.fill();
-    const p=proj([lon,lat]); ctx.beginPath(); ctx.arc(p[0],p[1],20,0,7); ctx.strokeStyle=acc; ctx.lineWidth=5; ctx.stroke();
-    ctx.beginPath(); path({type:"Sphere"}); ctx.strokeStyle=dark?"#42527A":"#9CC3E0"; ctx.lineWidth=3; ctx.stroke();
+    let w; try{ w=await (await tfetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",20000)).json(); }catch(e){ w=await (await tfetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",15000)).json(); }
+    const fs=topojson.feature(w,w.objects.countries).features.filter(f=>f.properties&&f.properties.name!=="Antarctica"), me=fs.find(f=>+f.id===+cv.dataset.iso);
+    const W=cv.width, H=cv.height, ctx=cv.getContext("2d"), dark=matchMedia("(prefers-color-scheme: dark)").matches, acc=getComputedStyle(document.documentElement).getPropertyValue("--accent").trim()||"#0EA5E9";
+    const proj=d3.geoMercator().center([lon,lat]).translate([W/2,H/2]); let sc=W/(2*Math.PI)*8;
+    if(me){ proj.scale(1000); const b=d3.geoPath(proj).bounds(me), bw=b[1][0]-b[0][0], bh=b[1][1]-b[0][1];
+      if(bw>0&&bh>0&&bw<1500){ const k=Math.min((W*.36)/bw,(H*.36)/bh); sc=1000*k; const c=d3.geoCentroid(me); if(Math.abs(c[0]-lon)<40) proj.center(c); else proj.center([lon,lat]); } }
+    proj.scale(Math.max(sc,150)); const path=d3.geoPath(proj,ctx);
+    ctx.clearRect(0,0,W,H); ctx.fillStyle=dark?"#1B2A4A":"#CFE8FA"; ctx.fillRect(0,0,W,H);
+    ctx.lineJoin="round";
+    fs.forEach(f=>{ ctx.beginPath(); path(f); ctx.fillStyle=(me&&f===me)?acc:(dark?"#42527A":"#EDE8D8"); ctx.fill(); ctx.strokeStyle=dark?"#0F1A33":"#fff"; ctx.lineWidth=2.5; ctx.stroke(); });
+    if(me){ ctx.beginPath(); path(me); ctx.strokeStyle=dark?"#fff":"#111"; ctx.lineWidth=3; ctx.stroke(); }
+    ctx.textAlign="center"; ctx.textBaseline="middle"; ctx.font="600 22px system-ui,sans-serif"; ctx.lineWidth=5; ctx.lineJoin="round";
+    const placed=[]; fs.sort((a,b)=>(f=>f===me?-1:0)(a)-(f=>f===me?-1:0)(b)).forEach(f=>{ const c=path.centroid(f); if(!isFinite(c[0])||c[0]<40||c[0]>W-40||c[1]<20||c[1]>H-20) return;
+      const bb=path.bounds(f); if((bb[1][0]-bb[0][0])<38||(bb[1][1]-bb[0][1])<22) return; const n=f.properties.name; const tw=ctx.measureText(n).width;
+      if(placed.some(q=>Math.abs(q[0]-c[0])<(q[2]+tw)/2+6&&Math.abs(q[1]-c[1])<26)) return; placed.push([c[0],c[1],tw]);
+      ctx.strokeStyle=dark?"#0F1A33":"#fff"; ctx.strokeText(n,c[0],c[1]); ctx.fillStyle=f===me?"#fff":(dark?"#E2E8F0":"#334155"); if(f===me){ ctx.strokeStyle="#111"; ctx.strokeText(n,c[0],c[1]); } ctx.fillText(n,c[0],c[1]); });
   }catch(e){ cv.parentNode.remove(); }
 }
 
@@ -373,8 +418,10 @@ function build(d){
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2>${s.link?`<a class="meta" href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.meta||"")} ↗</a>`:`<span class="meta">${esc(s.meta||"")}</span>`}</div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v6";
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v7";
   initGigs(); fitBooks(); loadImgs(); globe();
+  if(document.querySelector(".media.beeld")){ let n=0; const iv=setInterval(()=>{ n++; document.querySelectorAll(".media.beeld .mc").forEach(c=>{ if(c.querySelector(".vm .tp img, .ph.has")) c.classList.add("ok"); });
+    if(n>=30){ clearInterval(iv); document.querySelectorAll(".media.beeld").forEach(m=>{ if(!m.querySelector(".mc.ok")){ const sec=m.closest("section"); sec&&sec.remove(); } }); } },400); }
 }
 /* Foto's: opgezocht door een GitHub-taak (thumbs.json) */
 let TH=null;

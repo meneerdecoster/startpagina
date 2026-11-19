@@ -11,9 +11,9 @@ DEF_SKY = SKY("#FF9A62 0%,#F7678A 38%,#5B5BD6 78%,#2B2F77 100%","#38BDF8 0%,#2F7
 
 P = {
  "ida": dict(
-  titel="Idas Startpagina", accent="#EC4899", icoon="icon-ida.png",
-  sky=SKY("#FFB38A 0%,#FF7EB6 40%,#B47BFF 80%,#6A4FD6 100%","#7DD3FC 0%,#A78BFA 50%,#F472B6 100%",
-          "#FB7185 0%,#C026D3 45%,#5B21B6 80%,#1E1B4B 100%","#312E81 0%,#1E1B4B 55%,#0B0B24 100%"),
+  titel="Idas Startpagina", accent="#EC4899", icoon="icon-ida.png", verjaardag=[26,4],
+  sky=SKY("#FFD1E3 0%,#FF9EC7 45%,#F472B6 100%","#C4B5FD 0%,#A78BFA 50%,#8B5CF6 100%",
+          "#F59E0B 0%,#EA580C 45%,#B45309 80%,#7C2D12 100%","#312E81 0%,#1E1B4B 55%,#0B0B24 100%"),
   iconen=["🦄","🌈","🦋","🌸","⭐","💖","🐱","🐶","🎀","🍓","🧁","🌷"],
   groet={
    "ochtend":["Goeiemorgen, {naam}!","Hoi {naam}! Klaar voor een toffe {dag}?","Goeiemorgen, zonnetje!","Hey {naam}, wat gaan we vandaag beleven?","Nieuwe dag, nieuwe avonturen, {naam}!","Opstaan, slaapkop! 😄","Fijne {dag}, {naam}!"],
@@ -23,15 +23,16 @@ P = {
   sub={"ochtend":["Dit is er vandaag te beleven voor jou.","Kijk eens wat er vandaag nieuw is!"],"middag":["Tijd voor wat leuks lezen en kijken.","Kijk eens wat er nieuw is!"],"avond":["Nog even snuisteren voor het slapengaan.","Zie je morgen weer?"],"nacht":["Tijd om te gaan slapen."]},
   secties=[
    dict(key="nieuws",type="news",titel="Karrewiet",meta="Nieuws voor jou",span=7,kleur="#EF4444"),
-   dict(key="raadsel",type="quiz",titel="Raadsel van de dag",meta="Kan jij het oplossen?",span=5,kleur="#8B5CF6"),
-   dict(key="dieren",type="media",titel="Schattig",meta="Hondjes en katjes",span=5,kleur="#F59E0B",max=2),
-   dict(key="mensen",type="media",titel="Je favorieten",meta="Camille · Pommelien · Aaron · Maksim",span=7,kleur="#EC4899"),
+   dict(key="raadsel",type="quiz",titel="Raadsel van de dag",meta="Kan jij het oplossen?",span=5,kleur="#8B5CF6",interactief=True),
+   dict(key="dieren",type="media",titel="Schattig",meta="Babydiertjes",span=5,kleur="#F59E0B",max=2,beeld=True),
+   dict(key="mensen",type="media",titel="Je favorieten",meta="Camille · Pommelien · Aaron · Maksim",span=7,kleur="#EC4899",beeld=True),
    dict(key="knutsel",type="knutsel",titel="Knutselidee van de dag",meta="Zelf maken",span=12,kleur="#F472B6"),
+   dict(key="eten",type="eten",titel="Eten van de dag",meta="Zin om dit te koken?",span=12,kleur="#EA580C"),
    dict(key="land",type="land",titel="Land van de dag",meta="Elke dag een nieuw land",span=12,kleur="#10B981"),
    dict(key="films",type="media",titel="Tekenfilms",meta="Pixar en Disney",span=12,kleur="#3B82F6"),
   ]),
  "otto": dict(
-  titel="Otto's Startpagina", accent="#0EA5E9", icoon="icon-otto.png",
+  titel="Otto's Startpagina", accent="#0EA5E9", icoon="icon-otto.png", verjaardag=[16,9],
   sky=SKY("#FDBA74 0%,#38BDF8 45%,#2563EB 80%,#1E3A8A 100%","#67E8F9 0%,#3B82F6 50%,#1D4ED8 100%",
           "#FB923C 0%,#DB2777 40%,#4338CA 80%,#0F172A 100%","#1E3A8A 0%,#0F172A 60%,#020617 100%"),
   iconen=["🚀","⚽","🦖","🦈","🤖","🌍","⭐","🪐","🦁","🏎️","🔭","🐙"],
@@ -48,7 +49,6 @@ P = {
    dict(key="heelal",type="heelal",titel="Het heelal",meta="Groot weetje van de dag",span=12,kleur="#6366F1"),
    dict(key="dino",type="dino",titel="Dino van de dag",meta="Elke dag een nieuwe dinosaurus",span=12,kleur="#16A34A"),
    dict(key="engels",type="engels",titel="3 Engelse woorden",meta="Elke dag drie nieuwe woorden",span=12,kleur="#F97316"),
-   dict(key="films",type="media",titel="Nieuwe films",meta="Pixar en Disney",span=12,kleur="#3B82F6"),
    dict(key="duivels",type="news",titel="Rode Duivels",meta="Voetbal",span=7,kleur="#DC2626"),
    dict(key="mop",type="mop",titel="Mop van de dag",meta="Even lachen",span=5,kleur="#F59E0B"),
    dict(key="land",type="land",titel="Land van de dag",meta="Elke dag een nieuw land",span=12,kleur="#0EA5E9"),
@@ -66,7 +66,7 @@ P = {
    dict(key="gezondheid",type="gezond",titel="Gezondheid",meta="Logboek openen",link="https://script.google.com/macros/s/AKfycbzIBiIMwoLtahJRA20j8XZOK6MQju82M1FxBp5WHzFVs2UxWzyrmj1WupW6L2jHXj6zpA/exec?p=S&k=1591b8e135a14bb3b7554f45826f0b02",span=12,kleur="#0E9F6E"),
    dict(key="lifestyle",type="news",titel="Lifestyle",meta="Mode · wonen · interieur",span=12,kleur="#E03A3E",kolommen=True),
    dict(key="voeding",type="news",titel="Voeding",meta="Recepten · gezond leven",span=12,kleur="#10B981",kolommen=True),
-   dict(key="boeken",type="tiles",titel="Nieuwe boeken",meta="Nederlandstalig",span=12,kleur="#8B5CF6",emoji="📖",portret=True),
+   dict(key="boek",type="boek",titel="Boek van het moment",meta="BookTok-favoriet",span=12,kleur="#8B5CF6"),
    dict(key="antwerpen",type="news",titel="Antwerpen",meta="Evenementen · tentoonstellingen · nieuws · resto's",span=12,kleur="#F59E0B",kolommen=True),
    dict(key="uitgaan",type="uitgaan",titel="Uitgaan in de buurt",meta="Muziek · comedy",span=12,kleur="#6366F1"),
   ]),
@@ -74,7 +74,7 @@ P = {
 NAMEN={"ida":"Ida","otto":"Otto","severine":"Sévérine"}
 tpl=open("tools/kind.tpl.html",encoding="utf-8").read()
 for k,p in P.items():
-    cfg=dict(naam=NAMEN[k],json=f"{k}.json",iconen=p["iconen"],groet=p["groet"],sub=p["sub"],secties=p["secties"])
+    cfg=dict(verjaardag=p.get("verjaardag"),naam=NAMEN[k],json=f"{k}.json",iconen=p["iconen"],groet=p["groet"],sub=p["sub"],secties=p["secties"])
     out=(tpl.replace("__TITLE__",p["titel"]).replace("__ICON__",p["icoon"]+"?v=2").replace("__MANIFEST__","manifest-"+k+".json").replace("__ACCENT__",p["accent"])
             .replace("__SKIES__",p["sky"]).replace("/*CFG*/{}",json.dumps(cfg,ensure_ascii=False)))
     open(f"{k}.html","w",encoding="utf-8").write(out)
