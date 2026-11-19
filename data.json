@@ -1,73 +1,73 @@
 {
- "bijgewerkt": "2026-11-18T05:46:16+07:00",
+ "bijgewerkt": "2026-11-19T20:44:43+07:00",
  "vandaag": [
   {
-   "wanneer": "Wo 18 nov",
-   "wat": "Anthropic legt de prijs van zijn beursgang vast (vork 70–78 dollar); om 20 u (BE) volgen de notulen van de Fed"
-  },
-  {
-   "wanneer": "Do 19 nov (BE)",
-   "wat": "Eerste handelsdag van Anthropic op Nasdaq (ANT)"
+   "wanneer": "Do 19 nov, 15.30 u (BE)",
+   "wat": "Anthropic (ANT) begint te handelen op Nasdaq na de grootste beursgang ooit; Walmart brengt kwartaalcijfers"
   },
   {
    "wanneer": "Vr 20 nov",
-   "wat": "Loting kwartfinales Nations League: Rode Duivels tegen Duitsland, Engeland of Portugal/Denemarken"
+   "wat": "Loting kwartfinales Nations League: Rode Duivels kennen hun topaffiche voor maart"
   },
   {
-   "wanneer": "Za 21 – zo 22 nov (BE)",
-   "wat": "Zulte Waregem – Antwerp; crossen in Lokeren (za) en Beringen (zo), mannen telkens ca. 14.55 u"
+   "wanneer": "Za 21 nov (BE)",
+   "wat": "Zulte Waregem – Antwerp om 20.45 u; cross in Lokeren (mannen rond 14.55 u)"
+  },
+  {
+   "wanneer": "Zo 22 nov (BE)",
+   "wat": "X²O-cross in Beringen; 's avonds finale van Humo's Rock Rally in de AB"
   }
  ],
  "markten": [
   {
-   "titel": "Nvidia verdubbelt omzet en klopt verwachtingen",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: Nvidia boekte 115,8 miljard dollar omzet (+103%) en mikt volgend kwartaal op 130 miljard. Het aandeel won nabeurs zo'n 2%, na een dag waarop de S&P 500 1% en de Dow 1,6% verloren door verkoop van chipaandelen.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/17/nvidia-kwartaalcijfers/"
+   "titel": "Anthropic haalt 81 miljard op, Nasdaq-futures veren 2% op",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: Anthropic prijsde zijn aandelen op 83 dollar, boven de vork, goed voor de grootste beursgang ooit en een waardering van zo'n 1,5 biljoen dollar. Donderdagochtend stegen de Nasdaq-futures ruim 2% en de S&P 500-futures meer dan 1%, na vijf verliesdagen op rij voor de S&P 500.",
+   "bron": "Forbes",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-nasdaq-futures-jump-2-ahead-of-record-stock-debut/"
   },
   {
-   "titel": "Tienjarige VS-rente al 27 dagen boven 5%",
-   "samenvatting": "Raakt je obligatie-ETF: de Amerikaanse tienjarige rente sloot dinsdag rond 5,14%, dicht bij het record van 29 dagen boven 5% uit 2007. Hogere importprijzen (+1,1%) en sterke kernverkopen in de detailhandel versterken de verwachting van een Fed-renteverhoging in december en wellicht nog een in januari.",
-   "bron": "BigGo Finance",
-   "url": "https://finance.biggo.com/news/2c539a44-8b31-4aea-ab87-84d0dfef5f01"
+   "titel": "Fed-notulen: bijna iedereen wil de rente nog verhogen",
+   "samenvatting": "Raakt je obligatie-ETF: volgens de notulen van oktober vinden vrijwel alle Fed-leden verdere renteverhogingen nodig, en sommigen sluiten in december zelfs een stap van meer dan 0,25 procentpunt niet uit. De markt prijst nu zo'n 95% kans op een verhoging in december; de tienjarige VS-rente klom richting 5,15%.",
+   "bron": "Investing.com",
+   "url": "https://nl.investing.com/news/economy-news/enkele-beleidsmakers-zien-ruimte-voor-renteverhoging-van-meer-dan-25-bp-in-december--fednotulen-979682"
   },
   {
-   "titel": "Bitcoin blijft hangen rond 64.000 dollar",
-   "samenvatting": "Raakt je bitcoin: de koers stabiliseerde dinsdag, maar staat bijna 14% lager dan een week geleden en vlak bij de onderkant van de range van de voorbije maand. De sentimentsindex zakte naar 12, 'extreme angst'.",
-   "bron": "The Daily Coins",
-   "url": "https://thedailycoins.io/2026/11/crypto-market-today-2026-11-17/"
+   "titel": "Bitcoin zakt onder 63.000 dollar na strenge Fed-toon",
+   "samenvatting": "Raakt je bitcoin: na de Fed-notulen en een dollar op het hoogste peil in 19 maanden gleed bitcoin bijna tot 62.000 dollar. De Amerikaanse bitcoin-ETF's verloren in november al zo'n 2,6 miljard dollar aan uitstromen en de angstindex staat op 10.",
+   "bron": "KuCoin",
+   "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-19-2026"
   },
   {
-   "titel": "Zilver veert licht op, goud zakt verder",
-   "samenvatting": "Raakt je zilver: na de forse val van maandag won zilver dinsdag 0,8%. Goud gleed weg naar 3.842 dollar; de World Gold Council wijst op de dubbele druk van een sterke dollar en hoge rentes.",
+   "titel": "Zilver verliest 3% door sterke dollar",
+   "samenvatting": "Raakt je zilver: zilver zakte woensdag naar 46,38 dollar per ounce en goud dook onder 3.800 dollar, omdat een renteverhoging in december bijna zeker lijkt. Het Silver Institute blijft wel een fysiek tekort verwachten.",
    "bron": "USAGOLD",
-   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-17-2026/"
+   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-18-2026/"
   }
  ],
  "tech": [
   {
-   "titel": "SEC zou onderzoek naar Nvidia starten",
-   "samenvatting": "De Amerikaanse beurswaakhond onderzoekt volgens berichten of Nvidia beleggers misleidde, na het vertrek van Jensen Huang. Het aandeel verloor sinds zijn vertrek ruim 10%, ondanks recordcijfers.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+   "titel": "Anthropic zet record met beursgang van 81 miljard",
+   "samenvatting": "De maker van Claude verkocht 980 miljoen aandelen aan 83 dollar, meer dan SpaceX ooit ophaalde. Vandaag start de handel onder het symbool ANT op Nasdaq.",
+   "bron": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
   },
   {
-   "titel": "Isomorphic Labs haalt 5 miljard dollar op",
-   "samenvatting": "De AI-medicijnenontwikkelaar van Google DeepMind haalde geld op bij onder meer Sequoia, Greenoaks en Andreessen Horowitz. Met het geld moeten de eerste kandidaat-geneesmiddelen klinische proeven ingaan.",
+   "titel": "Altman: laat AI niet de beslissingen nemen",
+   "samenvatting": "Op de DealBook Summit waarschuwde OpenAI-topman Sam Altman voor een toekomst waarin mensen beslissingen geleidelijk aan AI overlaten; dat noemde hij een 'terrible idea'.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
   },
   {
-   "titel": "Grote storing bij iCloud, App Store en Apple Music",
-   "samenvatting": "Dinsdag lagen meerdere Apple-diensten plat; aanmelden op iCloud lukte voor niemand. Apple bevestigde de problemen op zijn statuspagina, maar gaf nog geen oorzaak.",
+   "titel": "Nadella: veel kritieke infrastructuur is niet te patchen",
+   "samenvatting": "Microsoft-topman Satya Nadella waarschuwt dat firmware, koel- en HVAC-systemen vaak online hangen maar niet te updaten zijn, terwijl AI-gestuurde cyberaanvallen toenemen. Hij lichtte ook de recente Outlook-storing toe.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
   },
   {
-   "titel": "AI-modellen wijzen burgers aan als doelwit als je het 'een spel' noemt",
-   "samenvatting": "Testbedrijf Vals liet modellen van OpenAI, Anthropic, Google en DeepSeek doelwitten zoeken op drone- en satellietbeelden. Weigerden ze, dan gingen ze vaak toch overstag zodra het scenario als spel werd voorgesteld.",
+   "titel": "AI Mode in Google Zoeken krijgt incognitomodus",
+   "samenvatting": "Met tijdelijke gesprekken in AI Mode komt wat je vraagt niet in je zoekgeschiedenis en beïnvloedt het je aanbevelingen niet. De functie rolt wereldwijd uit op desktop en mobiel.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
   }
  ],
  "podcasts": [
@@ -76,19 +76,18 @@
    "show_url": "https://open.spotify.com/show/2s8EwhUs3YoaU5mnjtkBWz",
    "afleveringen": [
     {
+     "titel": "#210 · NVIDIA zonder Jensen voor 10x de winst? Een koopje.",
+     "datum": "2026-11-19",
+     "url": "https://www.delangetermijn.nl/210-nvidia-wat-grote-beleggers-doen-met-ai/",
+     "kort": "Na het vertrek van Jensen Huang noteert Nvidia aan zo'n 10 keer de verwachte winst: Jasper nam een positie van 3,5%, Twan blijft bij zijn ETF's. Ook: hoe grote fondsen hun AI-wedden verschuiven naar geheugenchips en AI-gebruikers."
+    },
+    {
      "titel": "#209 · Stealth bear market: waarom Twan en Jasper kopen",
      "datum": "2026-11-12",
      "url": "https://www.delangetermijn.nl/209-stealth-bear-market-waarom-twan-en-jasper-kopen/",
      "kort": "Waarom de grote index amper zakte terwijl veel aandelen hard onderuit gingen, en waarom Jasper en Twan net bijkochten. Jasper overloopt zijn 110 posities."
-    },
-    {
-     "titel": "#208 · Beurs na de midterms: vluchten of bijkopen?",
-     "datum": "2026-11-05",
-     "url": "https://www.delangetermijn.nl/208-beurs-na-midterms-vluchten-of-bijkopen/",
-     "kort": "Wat doet de beurs na de tussentijdse verkiezingen, hoeveel overlappen je ETF's, en moet je Burry vrezen?"
     }
-   ],
-   "opmerking": "Geen nieuwe aflevering sinds #209 (12 nov); de volgende wordt rond do 19 nov verwacht."
+   ]
   },
   {
    "show": "Mind to Invest",
@@ -101,53 +100,75 @@
      "kort": "De S&P 500 staat op recordhoogte terwijl 60% van de aandelen al in een bear market zit; olie blijft duur zolang de Straat van Hormuz dicht is."
     }
    ],
-   "opmerking": "EP85 of later kon ook vandaag niet geverifieerd worden; dit is de laatst bevestigde aflevering. Check Spotify of YouTube voor een nieuwere."
+   "opmerking": "EP85 of later kon vandaag (19 nov) opnieuw niet geverifieerd worden; dit is de laatst bevestigde aflevering. Check Spotify of YouTube voor een nieuwere."
   }
  ],
- "sport": {
-  "duivels": [
-   {
-    "titel": "Duitsland, Engeland of Portugal: dit wacht de Duivels in de kwartfinale",
-    "samenvatting": "Als groepstweede achter Frankrijk loten de Rode Duivels vrijdag tegen een groepswinnaar: Duitsland, Engeland of (wellicht) Portugal. De heen- en terugwedstrijd vallen tussen 25 en 30 maart, de finale is op 13 juni.",
-    "url": "https://sporza.be/nl/2026/11/17/naar-wembley-wervelende-buren-of-het-resterende-vraagteken-dit-weten-de-rode-duivels-al-over-hun-kwartfinale~1794903907541/"
-   },
-   {
-    "titel": "Lukaku's doelpunten op EK's en WK's op een rij",
-    "samenvatting": "Een dag na zijn afscheid zet Sporza de tornooigoals van de recordschutter nog eens samen in een video.",
-    "url": "https://sporza.be/nl/2026/11/17/video-wat-zullen-we-dit-missen-bekijk-de-goals-van-romelu-luk~1794934084119/"
-   }
-  ],
-  "antwerp": [
-   {
-    "titel": "Goots: \"Geen echtere Antwerp-man dan Faris\"",
-    "samenvatting": "Clubicoon Patrick Goots vindt de aanstelling van Faris Haroun als Head of Football logisch. Haroun mist wel de transferervaring van Overmars, maar Goots verwacht dat hij snel zijn weg vindt. Zaterdag wacht de verplaatsing naar Zulte Waregem.",
-    "url": "https://www.voetbalkrant.com/nieuws/2026-11-17/antwerp-rekent-op-haroun-om-club-dna-te-bewaken-hij-weet-welk-voetbal-de-fans-verlangen"
-   }
-  ],
-  "cross": [
-   {
-    "titel": "Dubbel crossweekend: Lokeren en Beringen",
-    "samenvatting": "Zaterdag de HG Cross in Lokeren, zondag de X²O-manche in Beringen, waar Thibau Nys Belgisch kampioen werd. De mannen starten telkens rond 14.55 uur.",
-    "url": "https://www.indeleiderstrui.nl/veldrijden/veldrijden-op-tv-hoe-laat-moet-je-inschakelen-voor-thibau-nys-op-plek-waar-hij-belgisch-kampioen-werd"
-   }
-  ]
- },
- "weetjes": [
+ "sport": [
   {
-   "tekst": "De vloer van de Zilveren Pagode in het Koninklijk Paleis van Phnom Penh bestaat uit meer dan 5.000 zilveren tegels van elk ongeveer een kilo. Het meeste ligt verstopt onder tapijten.",
-   "bron": "https://en.wikipedia.org/wiki/Silver_Pagoda"
+   "label": "Rode Duivels",
+   "titel": "EK-kwalificatie: Duivels zitten als reekshoofd in pot 1",
+   "samenvatting": "Dankzij de Nations League zit België bij de twaalf reekshoofden voor de loting van 6 december in Belfast. Welke tegenstanders het precies worden, hangt ook af van de kwartfinales in maart.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/18/nu-de-potten-bekend-zijn-dit-moet-je-weten-over-de-ek-kwalificatie-met-rode-duivels-nu-al-in-gunstige-positie~1794995444213/"
   },
   {
-   "tekst": "De Zoo van Antwerpen opende in 1843 en is daarmee een van de oudste dierentuinen ter wereld, ouder dan die van Berlijn of Amsterdam.",
-   "bron": "https://en.wikipedia.org/wiki/Antwerp_Zoo"
+   "label": "Rode Duivels",
+   "titel": "Thierry Henry eert Lukaku in videoboodschap",
+   "samenvatting": "De ex-assistent van de Duivels prijst op Instagram het harde werk van Romelu Lukaku en zegt zijn afscheid als international volledig te begrijpen.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/18/thierry-henry-pakt-in-videobericht-uit-met-ontroerende-boodschap-voor-lukaku-ik-begrijp-je-helemaal-dat-weet-je~1795000019973/"
+  }
+ ],
+ "opkomend": [
+  {
+   "titel": "Tien bands strijden zondag om Humo's Rock Rally",
+   "samenvatting": "Uit 821 inschrijvingen bleven er tien over voor de finale van zondag 22 november in de AB, onder wie De Defecte Gasten, Eldarova, Fred Gata, Plastik/Plastik en Racehorsepablo.",
+   "bron": "AB",
+   "url": "https://www.abconcerts.be/nl/nieuws/dit-zijn-de-finalisten-van-humos-rock-rally-2026/a1eQw000007NVv7IAG"
   },
   {
-   "tekst": "Botanisch gezien zijn bananen, druiven en zelfs aubergines bessen, terwijl aardbeien en frambozen dat níet zijn.",
-   "bron": "https://en.wikipedia.org/wiki/Berry_(botany)"
+   "titel": "Antwerpse Meltheads kondigen tweede album aan",
+   "samenvatting": "Na het rauwe debuut 'Decent Sex' klinkt nieuwe single 'Lege Kamers' melancholischer. Het gelijknamige album volgt op 19 februari, met een voorstelling in de AB op 18 maart.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/12/nieuwe-single-meltheads-lege-kamers/"
   },
   {
-   "tekst": "De eerste echte bankbiljetten van Europa werden in 1661 uitgegeven door de Zweedse Stockholms Banco, omdat de Zweedse koperen munten zo zwaar waren dat sommige bijna 20 kilo wogen.",
-   "bron": "https://en.wikipedia.org/wiki/Stockholms_Banco"
+   "titel": "The Muttons lossen nieuwe single 'Indigo'",
+   "samenvatting": "Het jonge viertal uit de Gentse punkscene bouwt sinds 2021 gestaag aan een naam in de Belgische clubs en zet met 'Indigo' een volgende stap.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/05/nieuwe-single-the-muttons-indigo/"
+  },
+  {
+   "titel": "Eosine teaset debuutalbum met 'Limewood'",
+   "samenvatting": "De Luikse band rond Len Lacroix, een van de opkomende Belgische namen in de shoegaze, brengt op 8 januari debuutplaat 'Vicariant Narratives' uit.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/17/nieuwe-single-eosine-limewood/"
+  }
+ ],
+ "fire": [
+  {
+   "titel": "Belgische belegger: met 500.000 tot 750.000 euro ben je vrij",
+   "samenvatting": "In de nieuwe ING-beleggersbarometer kent meer dan de helft van de beleggers het FIRE-principe niet. Wie het wel kent, mikt op een vermogen van 500.000 à 750.000 euro om financieel onafhankelijk te zijn.",
+   "bron": "ING België",
+   "url": "https://newsroom.ing.be/ing-beleggersbarometer-met-een-financieel-vermogen-van-500000-tot-750000-euro-ben-je-financieel-onafhankelijk-volgens-de-belgische-belegger"
+  },
+  {
+   "titel": "Is 500.000 euro wel genoeg om vroeg te stoppen?",
+   "samenvatting": "Business AM rekent na: met de 4%-regel levert 500.000 euro zo'n 20.000 euro per jaar op, wellicht te weinig voor wie echt vroeg wil stoppen. Veel Belgen dromen van FIRE, maar geven hun geld liever nu uit.",
+   "bron": "Business AM",
+   "url": "https://fr.businessam.be/?p=299173"
+  },
+  {
+   "titel": "Pensioensparen 2026: stort vóór 31 december",
+   "samenvatting": "Je krijgt 30% belastingvermindering op maximaal 1.050 euro, of 25% op maximaal 1.350 euro. Het geld moet uiterlijk op 31 december bij je bank of verzekeraar zijn.",
+   "bron": "Finsura",
+   "url": "https://www.finsura.be/blog/blog-nieuws-3/pensioensparen-2026-geniet-nog-van-uw-belastingvoordeel-voor-31-december-8"
+  },
+  {
+   "titel": "Test Aankoop: onder 50 kies je beter een wereld-ETF",
+   "samenvatting": "Een MSCI World-ETF haalde de voorbije tien jaar 12,8% per jaar, tegenover gemiddeld 4,9% voor pensioenspaarfondsen. Vanaf 50 raadt Test Aankoop aan stilaan defensiever te gaan.",
+   "bron": "Test Aankoop",
+   "url": "https://www.test-aankoop.be/invest/sparen/pensioensparen/artikels/2026/10/pensioensparen-etf-langetermijnsparen-strategie"
   }
  ],
  "optredens": [
@@ -322,6 +343,16 @@
    "url": "https://www.deroma.be/nl/event/palace"
   },
   {
+   "datum": "2027-03-12",
+   "artiest": "Black Box Revelation",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/nl/event/black-box-revelation-7"
+  },
+  {
    "datum": "2027-03-13",
    "artiest": "DAAN",
    "titel": "Crooner",
@@ -330,6 +361,16 @@
    "uur": null,
    "status": "uitverkocht",
    "url": "https://www.schouwburgnoord.be/nl/event/daan"
+  },
+  {
+   "datum": "2027-03-13",
+   "artiest": "Dressed Like Boys",
+   "titel": "Showcase nieuw album op 22 jan",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": "uitverkocht",
+   "url": "https://www.deroma.be/nl/event/dressed-like-boys-3"
   },
   {
    "datum": "2027-03-16",
@@ -353,6 +394,16 @@
   },
   {
    "datum": "2027-03-25",
+   "artiest": "Alex Agnew",
+   "titel": "No More Heroes",
+   "soort": "comedy",
+   "zaal": "Stadsschouwburg Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.comedyshows.be/kalender/alex-agnew/2027-03-25/"
+  },
+  {
+   "datum": "2027-03-25",
    "artiest": "The Haunted Youth",
    "titel": null,
    "soort": "muziek",
@@ -362,14 +413,14 @@
    "url": "https://concertje.be/en/concert/2027-03-25/antwerpen-lotto-arena/the-haunted-youth-10717"
   },
   {
-   "datum": "2027-03-25",
-   "artiest": "Alex Agnew",
-   "titel": "No More Heroes",
-   "soort": "comedy",
-   "zaal": "Stadsschouwburg Antwerpen",
-   "uur": null,
+   "datum": "2027-04-05",
+   "artiest": "The Flaming Lips",
+   "titel": "The Teardrop Throbs Tour (tickets vanaf 20 nov, 10 u)",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
    "status": null,
-   "url": "https://www.comedyshows.be/kalender/alex-agnew/2027-03-25/"
+   "url": "https://www.deroma.be/nl/event/the-flaming-lips-6"
   },
   {
    "datum": "2027-04-23",
@@ -420,58 +471,44 @@
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/elmer-3"
-  },
-  {
-   "datum": "2027-10-30",
-   "artiest": "Dressed Like Boys",
-   "titel": null,
-   "soort": "muziek",
-   "zaal": "Lotto Arena (Merksem)",
-   "uur": null,
-   "status": null,
-   "url": "https://concertje.be/en/concert/2027-10-30/antwerpen-lotto-arena/dressed-like-boys-17743"
   }
  ],
  "gezondheid": {
-  "streak": 6,
+  "streak": 7,
   "laatste": {
-   "datum": "2026-11-17",
-   "stappen": 10083.0,
-   "slaap": 3.69,
-   "hrv": 50.0,
-   "rhr": 47.0,
-   "water": 1.5,
+   "datum": "2026-11-18",
+   "stappen": 1738.0,
+   "slaap": 8.56,
+   "hrv": 65.0,
+   "rhr": 44.0,
+   "water": 0.5,
    "sporttype": null,
-   "bedtijd": "01:33",
-   "opstaan": "06:45"
+   "bedtijd": "22:12",
+   "opstaan": "06:49"
   },
   "week": {
-   "stappen": 11002.33,
-   "slaap": 6.46,
-   "hrv": 51.33,
-   "rhr": 49.67,
-   "water": 2.33,
-   "diep": 31.83,
-   "rem": 101.0,
-   "dagen": 6,
+   "stappen": 9692.86,
+   "slaap": 6.65,
+   "hrv": 53.43,
+   "rhr": 48.86,
+   "water": 2.06,
+   "diep": 30.0,
+   "rem": 106.14,
+   "dagen": 7,
    "sportdagen": 4,
-   "alcoholvrij": 6,
-   "koffie": 0.5,
+   "alcoholvrij": 7,
+   "koffie": 0.43,
    "stappen10k": 5,
    "water3l": 1
   },
   "jaar": {
-   "dagen": 69,
-   "sport_pct": 48,
-   "water": 2.62,
-   "alcohol_week": 7.8
+   "dagen": 70,
+   "sport_pct": 47,
+   "water": 2.59,
+   "alcohol_week": 7.7
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
     {
      "d": "2026-11-05",
      "v": null
@@ -522,18 +559,18 @@
     },
     {
      "d": "2026-11-17",
-     "v": 10083.0
+     "v": 10181.0
     },
     {
      "d": "2026-11-18",
+     "v": 1738.0
+    },
+    {
+     "d": "2026-11-19",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
     {
      "d": "2026-11-05",
      "v": null
@@ -572,7 +609,7 @@
     },
     {
      "d": "2026-11-14",
-     "v": 7.0
+     "v": 6.26
     },
     {
      "d": "2026-11-15",
@@ -588,14 +625,14 @@
     },
     {
      "d": "2026-11-18",
+     "v": 8.56
+    },
+    {
+     "d": "2026-11-19",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-04",
-     "v": null
-    },
     {
      "d": "2026-11-05",
      "v": null
@@ -646,19 +683,23 @@
     },
     {
      "d": "2026-11-17",
-     "v": 50.0
+     "v": 51.0
     },
     {
      "d": "2026-11-18",
+     "v": 65.0
+    },
+    {
+     "d": "2026-11-19",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 11.002 stappen per dag; 5 van 6 dagen boven 10.000.",
-   "Water: gemiddeld 2,33 l. Nog 0,67 l per dag tot je doel van 3 l.",
-   "6 van 6 dagen alcoholvrij.",
-   "Afgelopen nacht 3,69 u slaap, onder je weekgemiddelde van 6,46 u. Bedtijd was 01:33."
+   "Gemiddeld 9.692 stappen per dag; 5 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,06 l. Nog 0,94 l per dag tot je doel van 3 l.",
+   "7 van 7 dagen alcoholvrij.",
+   "HRV laatst gemeten op 65, boven je gemiddelde (53). Goed hersteld."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
  }
