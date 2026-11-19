@@ -1,13 +1,13 @@
 {
- "bijgewerkt": "2026-11-19T20:44:43+07:00",
+ "bijgewerkt": "2026-11-20T04:23:51+07:00",
  "vandaag": [
   {
-   "wanneer": "Do 19 nov, 15.30 u (BE)",
-   "wat": "Anthropic (ANT) begint te handelen op Nasdaq na de grootste beursgang ooit; Walmart brengt kwartaalcijfers"
+   "wanneer": "Vr 20 nov, 12.00 u (BE)",
+   "wat": "Loting kwartfinales Nations League in Nyon: Rode Duivels treffen Engeland, Portugal of Duitsland (eind maart)"
   },
   {
-   "wanneer": "Vr 20 nov",
-   "wat": "Loting kwartfinales Nations League: Rode Duivels kennen hun topaffiche voor maart"
+   "wanneer": "Vr 20 nov, 15.30 u (BE)",
+   "wat": "Tweede handelsdag Anthropic (ANT) na een debuut van +17%; Wall Street likt zijn wonden na een zware donderdag"
   },
   {
    "wanneer": "Za 21 nov (BE)",
@@ -20,54 +20,54 @@
  ],
  "markten": [
   {
-   "titel": "Anthropic haalt 81 miljard op, Nasdaq-futures veren 2% op",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: Anthropic prijsde zijn aandelen op 83 dollar, boven de vork, goed voor de grootste beursgang ooit en een waardering van zo'n 1,5 biljoen dollar. Donderdagochtend stegen de Nasdaq-futures ruim 2% en de S&P 500-futures meer dan 1%, na vijf verliesdagen op rij voor de S&P 500.",
-   "bron": "Forbes",
-   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-nasdaq-futures-jump-2-ahead-of-record-stock-debut/"
+   "titel": "Wall Street keldert 2% ondanks knaldebuut Anthropic",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: de Dow verloor donderdag 2,2% (ruim 1.000 punten), de S&P 500 2% en de Nasdaq 2,3%, terwijl Anthropic op zijn eerste beursdag 17% hoger sloot. De AI-euforie sloeg niet over op de rest van de markt: negen op de tien S&P 500-aandelen zakten.",
+   "bron": "Kiplinger",
+   "url": "https://www.kiplinger.com/investing/stocks/dow-drops-1-100-points-as-anthropic-pops-17-percent-stock-market-today"
+  },
+  {
+   "titel": "Bitcoin glijdt naar 62.000 dollar, angstindex op 10",
+   "samenvatting": "Raakt je bitcoin: in het zog van de beursval zakte bitcoin donderdag 2,6% tot rond 62.200 dollar, terwijl de volatiliteitsindex VIX naar 28 klom. De bitcoin-ETF's zagen in november al zo'n 2,9 miljard dollar wegvloeien.",
+   "bron": "CryptoTicker",
+   "url": "https://cryptoticker.io/en/crypto-news-dow-drops-1000-points-bitcoin-vix/"
+  },
+  {
+   "titel": "Zilver houdt stand rond 45 dollar, dollar op hoogste peil in 19 maanden",
+   "samenvatting": "Raakt je zilver: na de val van woensdag stabiliseerde zilver donderdag rond 45,2 dollar per ounce, goud bleef rond 3.715 dollar. De strenge Fed-notulen en een sterke dollar blijven op edelmetalen wegen.",
+   "bron": "USAGOLD",
+   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-19-2026/"
   },
   {
    "titel": "Fed-notulen: bijna iedereen wil de rente nog verhogen",
-   "samenvatting": "Raakt je obligatie-ETF: volgens de notulen van oktober vinden vrijwel alle Fed-leden verdere renteverhogingen nodig, en sommigen sluiten in december zelfs een stap van meer dan 0,25 procentpunt niet uit. De markt prijst nu zo'n 95% kans op een verhoging in december; de tienjarige VS-rente klom richting 5,15%.",
+   "samenvatting": "Raakt je obligatie-ETF: volgens de notulen van oktober vinden vrijwel alle Fed-leden verdere renteverhogingen nodig, en sommigen sluiten in december zelfs een grotere stap niet uit. De markt prijst zo'n 95% kans op een verhoging in december, wat obligatiekoersen onder druk houdt.",
    "bron": "Investing.com",
    "url": "https://nl.investing.com/news/economy-news/enkele-beleidsmakers-zien-ruimte-voor-renteverhoging-van-meer-dan-25-bp-in-december--fednotulen-979682"
-  },
-  {
-   "titel": "Bitcoin zakt onder 63.000 dollar na strenge Fed-toon",
-   "samenvatting": "Raakt je bitcoin: na de Fed-notulen en een dollar op het hoogste peil in 19 maanden gleed bitcoin bijna tot 62.000 dollar. De Amerikaanse bitcoin-ETF's verloren in november al zo'n 2,6 miljard dollar aan uitstromen en de angstindex staat op 10.",
-   "bron": "KuCoin",
-   "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-19-2026"
-  },
-  {
-   "titel": "Zilver verliest 3% door sterke dollar",
-   "samenvatting": "Raakt je zilver: zilver zakte woensdag naar 46,38 dollar per ounce en goud dook onder 3.800 dollar, omdat een renteverhoging in december bijna zeker lijkt. Het Silver Institute blijft wel een fysiek tekort verwachten.",
-   "bron": "USAGOLD",
-   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-18-2026/"
   }
  ],
  "tech": [
   {
-   "titel": "Anthropic zet record met beursgang van 81 miljard",
-   "samenvatting": "De maker van Claude verkocht 980 miljoen aandelen aan 83 dollar, meer dan SpaceX ooit ophaalde. Vandaag start de handel onder het symbool ANT op Nasdaq.",
+   "titel": "Anthropic sluit eerste beursdag 17% hoger af",
+   "samenvatting": "Het aandeel ANT opende 35% boven de introductieprijs van 83 dollar, maar gaf in de loop van de dag een deel terug en sloot op 97,17 dollar. Daarmee is de Claude-maker zo'n 1,3 biljoen dollar waard.",
+   "bron": "Forbes",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-pop-34-to-open-at-11150/"
+  },
+  {
+   "titel": "Gemini kan voortaan je Mac bedienen",
+   "samenvatting": "Google geeft de Gemini-app voor Mac 'computer use': de AI-agent werkt zelfstandig in je apps en surft op de achtergrond, terwijl jij acties kan pauzeren of goedkeuren. Voorlopig enkel in het Engels in de VS, voor betalende abonnees.",
+   "bron": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+  },
+  {
+   "titel": "Beursgang Anthropic legt AI's kringfinanciering bloot",
+   "samenvatting": "Amazon (14,7%) en Google (13,7%) zien hun belang samen zo'n 308 miljard dollar waard worden, terwijl Anthropic voor 900 miljard aan rekenkracht heeft vastgelegd, deels bij diezelfde bedrijven. TechCrunch vraagt zich af hoe gezond die geldkringloop is.",
+   "bron": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+  },
+  {
+   "titel": "Nvidia klopt verwachtingen, Huang keert niet terug",
+   "samenvatting": "Nvidia boekte 115,8 miljard dollar omzet (+103%) en mikt op 130 miljard volgend kwartaal. Het bestuur bevestigde wel dat Jensen Huang niet terugkomt als CEO, wat analisten onzeker laat over de koers van het bedrijf.",
    "bron": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-  },
-  {
-   "titel": "Altman: laat AI niet de beslissingen nemen",
-   "samenvatting": "Op de DealBook Summit waarschuwde OpenAI-topman Sam Altman voor een toekomst waarin mensen beslissingen geleidelijk aan AI overlaten; dat noemde hij een 'terrible idea'.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
-  },
-  {
-   "titel": "Nadella: veel kritieke infrastructuur is niet te patchen",
-   "samenvatting": "Microsoft-topman Satya Nadella waarschuwt dat firmware, koel- en HVAC-systemen vaak online hangen maar niet te updaten zijn, terwijl AI-gestuurde cyberaanvallen toenemen. Hij lichtte ook de recente Outlook-storing toe.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/"
-  },
-  {
-   "titel": "AI Mode in Google Zoeken krijgt incognitomodus",
-   "samenvatting": "Met tijdelijke gesprekken in AI Mode komt wat je vraagt niet in je zoekgeschiedenis en beïnvloedt het je aanbevelingen niet. De functie rolt wereldwijd uit op desktop en mobiel.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+   "url": "https://cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
   }
  ],
  "podcasts": [
@@ -100,26 +100,38 @@
      "kort": "De S&P 500 staat op recordhoogte terwijl 60% van de aandelen al in een bear market zit; olie blijft duur zolang de Straat van Hormuz dicht is."
     }
    ],
-   "opmerking": "EP85 of later kon vandaag (19 nov) opnieuw niet geverifieerd worden; dit is de laatst bevestigde aflevering. Check Spotify of YouTube voor een nieuwere."
+   "opmerking": "EP85 of later kon vandaag (20 nov) opnieuw niet geverifieerd worden; dit is de laatst bevestigde aflevering. Check Spotify of YouTube voor een nieuwere."
   }
  ],
  "sport": [
   {
    "label": "Rode Duivels",
-   "titel": "EK-kwalificatie: Duivels zitten als reekshoofd in pot 1",
-   "samenvatting": "Dankzij de Nations League zit België bij de twaalf reekshoofden voor de loting van 6 december in Belfast. Welke tegenstanders het precies worden, hangt ook af van de kwartfinales in maart.",
-   "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/18/nu-de-potten-bekend-zijn-dit-moet-je-weten-over-de-ek-kwalificatie-met-rode-duivels-nu-al-in-gunstige-positie~1794995444213/"
+   "titel": "Lucas Stassin meldt zich als opvolger van Lukaku",
+   "samenvatting": "Na het afscheid van Romelu Lukaku (94 goals in 135 interlands) zegt de 21-jarige Sevilla-spits Lucas Stassin dat hij er alles aan zal doen om bij de volgende selectie te zitten. Vrijdagmiddag hoort België zijn tegenstander voor de kwartfinale van de Nations League.",
+   "bron": "VoetbalNieuws",
+   "url": "https://www.voetbalnieuws.be/news/935792/vervanger-lukaku-dient-zich-aan-ik-zal-er-alles-aan-doen"
   },
   {
-   "label": "Rode Duivels",
-   "titel": "Thierry Henry eert Lukaku in videoboodschap",
-   "samenvatting": "De ex-assistent van de Duivels prijst op Instagram het harde werk van Romelu Lukaku en zegt zijn afscheid als international volledig te begrijpen.",
-   "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/18/thierry-henry-pakt-in-videobericht-uit-met-ontroerende-boodschap-voor-lukaku-ik-begrijp-je-helemaal-dat-weet-je~1795000019973/"
+   "label": "Royal Antwerp FC",
+   "titel": "Antwerp treft zaterdag een Zulte Waregem zonder trainer",
+   "samenvatting": "Michael Beale reageerde donderdag voor het eerst op zijn vertrek bij Zulte Waregem en bedankte fans en spelers. Antwerp, dat net Faris Haroun tot Head of Football benoemde, speelt zaterdag om 20.45 u op het veld van de Essevee.",
+   "bron": "VoetbalNieuws",
+   "url": "https://www.voetbalnieuws.be/news/935794/beale-reageert-voor-het-eerst-na-ontslag-bij-zulte-waregem"
   }
  ],
  "opkomend": [
+  {
+   "titel": "Antwerpse Teletext lost 'Geen Therapie'",
+   "samenvatting": "De Antwerpse electropopband speelt met italodisco en steekt de draak met de therapiecultuur. Het gelijknamige debuutalbum volgt op 2 december, met een releaseshow in De Studio in Antwerpen.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/singles/teletext-geen-therapie/"
+  },
+  {
+   "titel": "Rewilding debuteert met 'Lego Brick'",
+   "samenvatting": "De Oostends-Gentse band mixt hiphop en rock in de stijl van de jaren 90-crossover. Vrijdag 20 november volgt de releaseshow in BarBroos in Gent.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/singles/rewilding-lego-brick/"
+  },
   {
    "titel": "Tien bands strijden zondag om Humo's Rock Rally",
    "samenvatting": "Uit 821 inschrijvingen bleven er tien over voor de finale van zondag 22 november in de AB, onder wie De Defecte Gasten, Eldarova, Fred Gata, Plastik/Plastik en Racehorsepablo.",
@@ -127,25 +139,19 @@
    "url": "https://www.abconcerts.be/nl/nieuws/dit-zijn-de-finalisten-van-humos-rock-rally-2026/a1eQw000007NVv7IAG"
   },
   {
-   "titel": "Antwerpse Meltheads kondigen tweede album aan",
-   "samenvatting": "Na het rauwe debuut 'Decent Sex' klinkt nieuwe single 'Lege Kamers' melancholischer. Het gelijknamige album volgt op 19 februari, met een voorstelling in de AB op 18 maart.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/12/nieuwe-single-meltheads-lege-kamers/"
-  },
-  {
-   "titel": "The Muttons lossen nieuwe single 'Indigo'",
-   "samenvatting": "Het jonge viertal uit de Gentse punkscene bouwt sinds 2021 gestaag aan een naam in de Belgische clubs en zet met 'Indigo' een volgende stap.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/05/nieuwe-single-the-muttons-indigo/"
-  },
-  {
-   "titel": "Eosine teaset debuutalbum met 'Limewood'",
-   "samenvatting": "De Luikse band rond Len Lacroix, een van de opkomende Belgische namen in de shoegaze, brengt op 8 januari debuutplaat 'Vicariant Narratives' uit.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/17/nieuwe-single-eosine-limewood/"
+   "titel": "BLUAI stelt tweede album voor in De Roma",
+   "samenvatting": "De Antwerpse indiepopband, ooit winnaar van De Nieuwe Lichting, speelt op 26 maart 2027 zijn grootste headlineshow tot nu toe in De Roma, als voorstelling van de tweede plaat.",
+   "bron": "De Roma",
+   "url": "https://www.deroma.be/en/event/bluai-8"
   }
  ],
  "fire": [
+  {
+   "titel": "Vroeger stoppen kost vanaf 2027 pensioen",
+   "samenvatting": "Wie vervroegd met pensioen gaat, kan vanaf 2027 een malus krijgen die je brutopensioen blijvend verlaagt, tot 5% per jaar vroeger voor wie in 1975 of later geboren is. Voor wie van FIRE droomt, maakt dat een eigen vermogen buiten het wettelijk pensioen nog belangrijker.",
+   "bron": "Mancho",
+   "url": "https://mancho.be/2026/11/12/vroeger-stoppen-met-werken-nieuwe-pensioenregel-kan-deze-belgen-veel-geld-kosten/"
+  },
   {
    "titel": "Belgische belegger: met 500.000 tot 750.000 euro ben je vrij",
    "samenvatting": "In de nieuwe ING-beleggersbarometer kent meer dan de helft van de beleggers het FIRE-principe niet. Wie het wel kent, mikt op een vermogen van 500.000 à 750.000 euro om financieel onafhankelijk te zijn.",
@@ -157,12 +163,6 @@
    "samenvatting": "Business AM rekent na: met de 4%-regel levert 500.000 euro zo'n 20.000 euro per jaar op, wellicht te weinig voor wie echt vroeg wil stoppen. Veel Belgen dromen van FIRE, maar geven hun geld liever nu uit.",
    "bron": "Business AM",
    "url": "https://fr.businessam.be/?p=299173"
-  },
-  {
-   "titel": "Pensioensparen 2026: stort vóór 31 december",
-   "samenvatting": "Je krijgt 30% belastingvermindering op maximaal 1.050 euro, of 25% op maximaal 1.350 euro. Het geld moet uiterlijk op 31 december bij je bank of verzekeraar zijn.",
-   "bron": "Finsura",
-   "url": "https://www.finsura.be/blog/blog-nieuws-3/pensioensparen-2026-geniet-nog-van-uw-belastingvoordeel-voor-31-december-8"
   },
   {
    "titel": "Test Aankoop: onder 50 kies je beter een wereld-ETF",
@@ -201,26 +201,6 @@
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/triggerfinger-15"
-  },
-  {
-   "datum": "2027-01-08",
-   "artiest": "Yannick Noben",
-   "titel": "Eindejaarsconference 2026",
-   "soort": "comedy",
-   "zaal": "Schouwburg Noord (Merksem)",
-   "uur": null,
-   "status": "uitverkocht",
-   "url": "https://www.schouwburgnoord.be/nl/event/yannick-noben"
-  },
-  {
-   "datum": "2027-01-09",
-   "artiest": "Jef Neve",
-   "titel": "Solo: Stories Without Words, 25 jaar Jef Neve",
-   "soort": "muziek",
-   "zaal": "Schouwburg Noord (Merksem)",
-   "uur": null,
-   "status": "uitverkocht",
-   "url": "https://www.schouwburgnoord.be/nl/event/jef-neve-solo"
   },
   {
    "datum": "2027-01-23",
@@ -413,6 +393,16 @@
    "url": "https://concertje.be/en/concert/2027-03-25/antwerpen-lotto-arena/the-haunted-youth-10717"
   },
   {
+   "datum": "2027-03-26",
+   "artiest": "BLUAI",
+   "titel": "Voorstelling tweede album",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": "20:00",
+   "status": null,
+   "url": "https://www.deroma.be/en/event/bluai-8"
+  },
+  {
    "datum": "2027-04-05",
    "artiest": "The Flaming Lips",
    "titel": "The Teardrop Throbs Tour (tickets vanaf 20 nov, 10 u)",
@@ -421,6 +411,16 @@
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/the-flaming-lips-6"
+  },
+  {
+   "datum": "2027-04-11",
+   "artiest": "Jordan Rakei",
+   "titel": "A Safe Place To Be Wild (support: Olive Jones)",
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.podiuminfo.nl/news/59143/Jordan-Rakei-in-april-2027-naar-de-Roma-en-Gashouder/"
   },
   {
    "datum": "2027-04-23",
@@ -474,45 +474,41 @@
   }
  ],
  "gezondheid": {
-  "streak": 7,
+  "streak": 8,
   "laatste": {
-   "datum": "2026-11-18",
-   "stappen": 1738.0,
-   "slaap": 8.56,
-   "hrv": 65.0,
-   "rhr": 44.0,
-   "water": 0.5,
+   "datum": "2026-11-19",
+   "stappen": 10060.0,
+   "slaap": 8.48,
+   "hrv": 47.0,
+   "rhr": 51.0,
+   "water": 2.5,
    "sporttype": null,
-   "bedtijd": "22:12",
-   "opstaan": "06:49"
+   "bedtijd": "22:05",
+   "opstaan": "06:50"
   },
   "week": {
-   "stappen": 9692.86,
-   "slaap": 6.65,
-   "hrv": 53.43,
-   "rhr": 48.86,
-   "water": 2.06,
-   "diep": 30.0,
-   "rem": 106.14,
+   "stappen": 10521.71,
+   "slaap": 6.86,
+   "hrv": 51.57,
+   "rhr": 49.57,
+   "water": 2.39,
+   "diep": 33.29,
+   "rem": 102.29,
    "dagen": 7,
-   "sportdagen": 4,
+   "sportdagen": 3,
    "alcoholvrij": 7,
    "koffie": 0.43,
    "stappen10k": 5,
    "water3l": 1
   },
   "jaar": {
-   "dagen": 70,
-   "sport_pct": 47,
-   "water": 2.59,
-   "alcohol_week": 7.7
+   "dagen": 71,
+   "sport_pct": 46,
+   "water": 2.62,
+   "alcohol_week": 7.6
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
     {
      "d": "2026-11-06",
      "v": null
@@ -563,18 +559,18 @@
     },
     {
      "d": "2026-11-18",
-     "v": 1738.0
+     "v": 8046.0
     },
     {
      "d": "2026-11-19",
+     "v": 10060.0
+    },
+    {
+     "d": "2026-11-20",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
     {
      "d": "2026-11-06",
      "v": null
@@ -629,14 +625,14 @@
     },
     {
      "d": "2026-11-19",
+     "v": 8.48
+    },
+    {
+     "d": "2026-11-20",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-05",
-     "v": null
-    },
     {
      "d": "2026-11-06",
      "v": null
@@ -687,19 +683,22 @@
     },
     {
      "d": "2026-11-18",
-     "v": 65.0
+     "v": 62.0
     },
     {
      "d": "2026-11-19",
+     "v": 47.0
+    },
+    {
+     "d": "2026-11-20",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 9.692 stappen per dag; 5 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,06 l. Nog 0,94 l per dag tot je doel van 3 l.",
-   "7 van 7 dagen alcoholvrij.",
-   "HRV laatst gemeten op 65, boven je gemiddelde (53). Goed hersteld."
+   "Gemiddeld 10.521 stappen per dag; 5 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,39 l. Nog 0,61 l per dag tot je doel van 3 l.",
+   "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
  }
