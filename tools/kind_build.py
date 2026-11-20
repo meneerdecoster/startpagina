@@ -64,10 +64,10 @@ P = {
   sub={"ochtend":["Je dag in één oogopslag."],"middag":["Even bijlezen."],"avond":["Rustig afronden."],"nacht":["Kort bijlezen en dan slapen."]},
   secties=[
    dict(key="gezondheid",type="gezond",titel="Gezondheid",meta="Logboek openen",link="https://script.google.com/macros/s/AKfycbzIBiIMwoLtahJRA20j8XZOK6MQju82M1FxBp5WHzFVs2UxWzyrmj1WupW6L2jHXj6zpA/exec?p=S&k=1591b8e135a14bb3b7554f45826f0b02",span=12,kleur="#0E9F6E"),
-   dict(key="lifestyle",type="news",titel="Lifestyle",meta="Mode · wonen · interieur",span=12,kleur="#E03A3E",kolommen=True),
-   dict(key="voeding",type="news",titel="Voeding",meta="Recepten · gezond leven",span=12,kleur="#10B981",kolommen=True),
+   dict(key="ontdek",type="news",titel="Ontdek vandaag",meta="Elke dag nieuwe onderwerpen",span=12,kleur="#E03A3E",kolommen=True),
+   dict(key="horoscoop",type="horoscoop",titel="Horoscoop",meta="Kies je sterrenbeeld",span=6,kleur="#7C3AED"),
+   dict(key="quote",type="quote",titel="Boeddhistische quote",meta="Even stilstaan",span=6,kleur="#D97706"),
    dict(key="boek",type="boek",titel="Boek van het moment",meta="BookTok-favoriet",span=12,kleur="#8B5CF6"),
-   dict(key="antwerpen",type="news",titel="Antwerpen",meta="Evenementen · tentoonstellingen · nieuws · resto's",span=12,kleur="#F59E0B",kolommen=True),
    dict(key="uitgaan",type="uitgaan",titel="Uitgaan in de buurt",meta="Muziek · comedy",span=12,kleur="#6366F1"),
   ]),
 }

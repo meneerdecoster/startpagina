@@ -346,6 +346,10 @@ const R = {
     <p>${esc(d.tekst||"")}</p>${d.weetje?`<p class="wd">⭐ ${esc(d.weetje)}</p>`:""}${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
   engels:(w)=> `<div class="eng">`+(w||[]).map(x=>`<div class="w"><div class="en">${esc(x.emoji||"")} ${esc(x.en)}</div><div class="pr">${esc(x.uitspraak||"")}</div><div class="nl">${esc(x.nl)}</div><div class="ex">${esc(x.voorbeeld||"")}<i>${esc(x.voorbeeld_nl||"")}</i></div></div>`).join("")+`</div>`,
   heelal:(h)=> !h?"":`<div class="heel"><div class="em">${esc(h.emoji||"🌌")}</div><div><h3>${esc(h.titel)}</h3><p>${esc(h.tekst)}</p>${h.url?`<a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.bron||"meer lezen")} ↗</a>`:""}</div></div>`,
+  horoscoop:(g)=>{ if(!g||!g.tekens) return ""; const T=[["ram","♈ Ram"],["stier","♉ Stier"],["tweelingen","♊ Tweelingen"],["kreeft","♋ Kreeft"],["leeuw","♌ Leeuw"],["maagd","♍ Maagd"],["weegschaal","♎ Weegschaal"],["schorpioen","♏ Schorpioen"],["boogschutter","♐ Boogschutter"],["steenbok","♑ Steenbok"],["waterman","♒ Waterman"],["vissen","♓ Vissen"]];
+    let c=""; try{c=localStorage.getItem("sterrenbeeld")||"";}catch(e){} if(!g.tekens[c]) c="ram";
+    window.__horo=g.tekens; return `<div class="horo"><select aria-label="Sterrenbeeld">${T.map(x=>`<option value="${x[0]}"${x[0]===c?" selected":""}>${x[1]}</option>`).join("")}</select><p class="mop" style="font-size:17px;margin-top:12px">${esc(g.tekens[c]||"")}</p>${g.bron?`<span class="src">${esc(g.bron)}</span>`:""}</div>`; },
+  quote:(q)=> !q?"":`<blockquote class="mop" style="margin:0">“${esc(q.tekst)}”</blockquote><p class="src" style="margin-top:10px">${esc(q.auteur||"Boeddhistische wijsheid")}${q.bron?` · ${esc(q.bron)}`:""}</p>`,
   mop:(m)=> !m?"":(m.vraag?`<p class="mop">${esc(m.vraag)}</p><div class="quiz" style="margin-top:12px"><details><summary>Toon het antwoord</summary><div class="a">${esc(m.antwoord)}</div></details></div>`:`<p class="mop">${esc(m.tekst)}</p>`)
 };
 
@@ -359,6 +363,7 @@ const R = {
   document.addEventListener("submit",e=>{ const f=e.target.closest(".qf"); if(!f) return; e.preventDefault(); const q=f.closest(".qz"); if(q.dataset.done) return;
     const v=f.querySelector("input").value; if(!v.trim()) return;
     if(ok(v,q.dataset.sol)){ msg(q,"Goed zo! 🎉 Dat is juist.","ok"); done(q,1); } else { q.dataset.t=(+q.dataset.t||0)+1; msg(q,"Nog niet helemaal… probeer nog eens! 🤔","no"); if(+q.dataset.t>=2) q.querySelector(".qg").hidden=false; } });
+  document.addEventListener("change",e=>{ const s=e.target.closest(".horo select"); if(!s) return; try{localStorage.setItem("sterrenbeeld",s.value);}catch(x){} s.parentNode.querySelector("p").textContent=(window.__horo||{})[s.value]||""; });
   document.addEventListener("click",e=>{ const b=e.target.closest(".qb"); if(b){ const q=b.closest(".qz"); if(q.dataset.done||b.disabled) return; const sol=q.dataset.sol, o=b.dataset.o, L="ABCD"[[...q.querySelectorAll(".qb")].indexOf(b)];
       const good=ok(o,sol)||nz(sol).startsWith(nz(L)+" ")||nz(sol)===nz(L); if(good){ b.classList.add("ok"); msg(q,"Goed zo! 🎉 Dat is juist.","ok"); done(q,1); } else { b.classList.add("no"); b.disabled=true; msg(q,"Oei, dat is het niet. Kies nog eens! 🤔","no"); q.dataset.t=(+q.dataset.t||0)+1; if(+q.dataset.t>=2) q.querySelector(".qg").hidden=false; } return; }
     const g=e.target.closest(".qg"); if(g){ const q=g.closest(".qz"); msg(q,"Dit is de oplossing:","no"); done(q,0); } });

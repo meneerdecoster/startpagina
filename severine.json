@@ -444,5 +444,92 @@
   "aantal": "1.825 beoordelingen",
   "bron": "Goodreads",
   "url": "https://www.goodreads.com/book/show/249687122-defy-the-dusk"
+ },
+ "ontdek": [
+  {
+   "label": "Mode",
+   "titel": "De schoenentrends van herfst en winter",
+   "samenvatting": "Enkellaarsjes en hoge laarzen in warme aardetinten leiden deze winter. Daarnaast zie je slanke retrosneakers en loafers met een zachte, pluizige voering.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/442290-de-damesschoenen-trends-voor-de-herfst-en-winter-2026.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "Low-profile sneakers bepalen dit najaar",
+   "samenvatting": "Slanke, discrete sneakers zijn de schoen van het seizoen. Ze passen bij een jurk, een broek of een lange jas.",
+   "bron": "ELLE",
+   "url": "https://www.elle.be/nl/442346-low-profile-sneakertrends-najaar-2026.html"
+  },
+  {
+   "label": "Mode",
+   "titel": "20 feestjurken voor het eindejaar",
+   "samenvatting": "Een selectie van de mooiste feestjurken voor de laatste weken van het jaar. Handig als je nog op zoek bent naar een outfit voor de feestdagen.",
+   "bron": "Feeling",
+   "url": "https://www.feeling.be/mode/feestjurken-eindejaar"
+  },
+  {
+   "label": "Recept",
+   "titel": "Knolselder en linzen met hazelnoten en munt",
+   "samenvatting": "Een warme, aardse schotel met knolselder, linzen en knapperige hazelnoten. Verse munt zorgt voor frisheid.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/celeriac-lentils-hazelnuts-mint"
+  },
+  {
+   "label": "Recept",
+   "titel": "Rode linzendal met butternut",
+   "samenvatting": "Een zachte, kruidige dal met rode linzen en zoete pompoen. Eén pan, plantaardig en verwarmend.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash"
+  },
+  {
+   "label": "Recept",
+   "titel": "Geroosterde pompoen met harissa en tahinisaus",
+   "samenvatting": "Pompoenblokjes uit de oven met harissa en knoflook, overgoten met een saus van tahini, limoen en ahornsiroop. Werk af met koriander en lente-ui.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/harissa-roast-pumpkin-tahini-sauce"
+  },
+  {
+   "label": "Evenement",
+   "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
+   "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
+   "bron": "Trip by Trip",
+   "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
+  },
+  {
+   "label": "Evenement",
+   "titel": "Night of the Proms in de AFAS Dome",
+   "samenvatting": "Van 20 tot 22 november vult de AFAS Dome zich met klassieke muziek en pop, met een groot orkest en koor.",
+   "bron": "AFAS Dome",
+   "url": "https://www.afas-dome.be/en/event/night-of-the-proms-2026-9a1be268"
+  },
+  {
+   "label": "Tentoonstelling",
+   "titel": "Guy Vandenbranden in het KMSKA",
+   "samenvatting": "Het KMSKA eert de abstracte kunstenaar Guy Vandenbranden bij zijn honderdste geboortedag, met felle kleuren en geometrische vormen. Te zien van 16 oktober 2026 tot en met 17 januari 2027.",
+   "bron": "Trip by Trip",
+   "url": "https://tripbytrip.org/2026/10/19/antwerp-kmska-fine-arts-museum-puts-belgian-abstract-artist-guy-vandenbranden-in-the-european-avant-garde/"
+  }
+ ],
+ "ontdek_gebruikt": [],
+ "horoscoop": {
+  "tekens": {
+   "ram": "Wordt dagelijks aangevuld.",
+   "stier": "Wordt dagelijks aangevuld.",
+   "tweelingen": "Wordt dagelijks aangevuld.",
+   "kreeft": "Wordt dagelijks aangevuld.",
+   "leeuw": "Wordt dagelijks aangevuld.",
+   "maagd": "Wordt dagelijks aangevuld.",
+   "weegschaal": "Wordt dagelijks aangevuld.",
+   "schorpioen": "Wordt dagelijks aangevuld.",
+   "boogschutter": "Wordt dagelijks aangevuld.",
+   "steenbok": "Wordt dagelijks aangevuld.",
+   "waterman": "Wordt dagelijks aangevuld.",
+   "vissen": "Wordt dagelijks aangevuld."
+  },
+  "bron": ""
+ },
+ "quote": {
+  "tekst": "Het verleden is voorbij, de toekomst is er nog niet; leef in het nu.",
+  "auteur": "Boeddhistische wijsheid"
  }
 }
