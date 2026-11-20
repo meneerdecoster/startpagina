@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-20T09:57:31+07:00",
+ "bijgewerkt": "2026-11-21T06:10:00+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -7,51 +7,52 @@
   "Laos",
   "Filipijnen",
   "Thailand",
-  "Indonesië"
+  "Indonesië",
+  "Sri Lanka"
  ],
  "nieuws": [
   {
+   "titel": "Francisco (17) wint de Kindervredesprijs",
+   "samenvatting": "Francisco komt uit Colombia en zet zich al jaren in voor de natuur en het klimaat. Al toen hij negen was, nam hij vrienden mee om te protesteren.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640186"
+  },
+  {
+   "titel": "De nieuwe Jeugdjournaal-tune is gemaakt met speelgoed",
+   "samenvatting": "In de nieuwe intro hoor je een fidget spinner, een knikker en een pop-it. Kijk maar eens hoe ze die muziek hebben gemaakt.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640313"
+  },
+  {
+   "titel": "Hoge nood? Hier kan je het best naar de wc",
+   "samenvatting": "Op Wereld Toilet Dag is Veere uitgeroepen tot de plek met de beste openbare wc's van Nederland. Het dorp kreeg een 7,5.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640124"
+  },
+  {
    "titel": "Stray Kids komt volgend jaar naar Nederland",
-   "samenvatting": "De K-popgroep Stray Kids geeft op 27 juli 2027 een concert in Arnhem. Niet alle bandleden zijn erbij, want Lee Know moet tijdelijk in dienst.",
+   "samenvatting": "De K-popgroep Stray Kids geeft op 27 juli 2027 een concert in Arnhem. Niet alle bandleden zijn erbij.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/l/2638740"
-  },
-  {
-   "titel": "Schilderij van Van Gogh levert recordbedrag op",
-   "samenvatting": "Een schilderij van Van Gogh is verkocht voor 173 miljoen euro. Zo veel betaalde nog nooit iemand voor een werk van hem.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640103-nieuwswekker-recordbedrag-voor-schilderij-gta-vi-komt-uit"
-  },
-  {
-   "titel": "Welke vragen stellen kinderen aan AI?",
-   "samenvatting": "Meer dan een kwart van de kinderen op de basisschool vraagt aan AI dingen die ze aan niemand durven te vragen. Je kan altijd je vragen stellen aan mama, papa of de Kindertelefoon.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2639346"
-  },
-  {
-   "titel": "Een nieuwe studio voor het Jeugdjournaal",
-   "samenvatting": "Het Jeugdjournaal presenteert het nieuws nu vanuit een nieuwe studio. Die ziet er helemaal anders uit dan de vorige.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2637692"
   }
  ],
  "dieren": [
   {
-   "titel": "Babyotters spelen in de dierentuin van Londen",
+   "titel": "Pluizige eendjes en gansjes gaan op ontdekking",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=G2xAHB-L6do",
+   "url": "https://www.youtube.com/watch?v=vMMZU-2QdVw",
    "soort": "video"
   },
   {
-   "titel": "Een baby-panda en zijn mama in de dierentuin van Tokio",
+   "titel": "Babyolifant Tula-Tu speelt met mama in een hoop hooi",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=Z_aCb4IXVww",
+   "url": "https://www.youtube.com/watch?v=HzUaezuTxDI",
    "soort": "video"
   },
   {
-   "titel": "Jonge geitjes springen vrolijk rond",
+   "titel": "Babyneushoorn geboren in ZOO Planckendael",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=t1ZDL2m3pwk",
+   "url": "https://www.youtube.com/watch?v=-xgFGqg1Who",
    "soort": "video"
   }
  ],
@@ -74,30 +75,30 @@
   }
  ],
  "land": {
-  "datum": "2026-11-20",
-  "naam": "Indonesië",
-  "hoofdstad": "Jakarta",
-  "vlag": "🇮🇩",
-  "iso2": "id",
-  "iso": "360",
-  "lat": -2.5,
-  "lon": 118.0,
-  "inwoners": "ongeveer 280 miljoen",
+  "datum": "2026-11-21",
+  "naam": "Sri Lanka",
+  "hoofdstad": "Sri Jayawardenepura Kotte",
+  "vlag": "🇱🇰",
+  "iso2": "lk",
+  "iso": "144",
+  "lat": 7.87,
+  "lon": 80.77,
+  "inwoners": "ongeveer 22 miljoen",
   "weetjes": [
-   "Indonesië is een land van duizenden eilanden. Je zou er jaren over doen om ze allemaal te bezoeken.",
-   "Op het eiland Komodo leeft de komodovaraan, de grootste hagedis ter wereld. Hij kan wel 3 meter lang worden.",
-   "Indonesië ligt in Zuidoost-Azië, rond de evenaar, en grenst op het eiland Borneo aan Maleisië. Ook Papoea-Nieuw-Guinea en Oost-Timor zijn buren."
+   "Sri Lanka is een eiland in de Indische Oceaan. Colombo is de grootste stad.",
+   "Het land is beroemd om zijn thee. De Britten begonnen er thee te telen toen een ziekte de koffieplanten kapotmaakte.",
+   "In het Minneriya-park komen in het droge seizoen heel veel olifanten samen bij een meer. Zo'n eiland heeft geen buurlanden over land: India ligt aan de overkant van de zee."
   ]
  },
  "raadsel": {
-  "vraag": "Ik heb een hals maar geen hoofd. Wat ben ik?",
-  "oplossing": "Een fles",
-  "uitleg": "Een fles heeft een smalle hals bovenaan, maar geen hoofd.",
+  "vraag": "Hoe meer je eruit haalt, hoe groter het wordt. Wat is het?",
+  "oplossing": "Een gat",
+  "uitleg": "Als je grond uit een gat schept, wordt het gat groter.",
   "opties": [
-   "Een fles",
-   "Een giraf",
-   "Een kast",
-   "Een sjaal"
+   "Een gat",
+   "Een zak",
+   "Een ballon",
+   "Een sok"
   ]
  },
  "mensen": [
@@ -110,10 +111,10 @@
   },
   {
    "label": "Pommelien Thijs",
-   "titel": "De clip van 'Zilver'",
-   "samenvatting": "Pommelien zingt 'Zilver' in een officiële videoclip. Kijk eens hoe die eruitziet.",
-   "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=zPwa5uW01oY"
+   "titel": "Deluxe-versie van 'Gedoe' komt eraan",
+   "samenvatting": "Pommelien kondigde een deluxe-versie van haar album 'Gedoe' aan. Op 4 december komen er 6 nieuwe liedjes bij, zoals 'Onomatopee'.",
+   "bron": "VRT",
+   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/"
   },
   {
    "label": "Aaron Blommaert",
@@ -124,44 +125,44 @@
   },
   {
    "label": "Maksim",
-   "titel": "Maksim doet voor het eerst mee aan Night of the Proms",
-   "samenvatting": "Morgen start Night of the Proms in de AFAS Dome in Antwerpen, tot en met 22 november. Maksim zingt er met een groot orkest en koor.",
+   "titel": "Nog meer 'Magie'",
+   "samenvatting": "Night of the Proms loopt nog tot en met 22 november in de AFAS Dome in Antwerpen. Maksim zingt er met een groot orkest en koor.",
    "bron": "AFAS Dome",
    "url": "https://www.afas-dome.be/nieuws/maksim-meedoen-aan-night-of-the-proms-is-een-droom-die-uitkomt"
   }
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Hallo Indonesië 🌋",
-   "sub": "Vandaag ontdek je een land met duizenden eilanden en maak je een kardinaalvogel van papier.",
+   "titel": "Goeiemorgen, Ida! Hallo Sri Lanka 🐘",
+   "sub": "Vandaag ontdek je een eiland vol thee en olifanten en knutsel je een sneeuwvlok van ijsstokjes.",
    "iconen": [
-    "🌋",
+    "🐘",
+    "🍃",
     "🏝️",
-    "🦎",
-    "🐦",
+    "❄️",
     "☀️",
     "🌴"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, tijd om te knutselen! ✂️",
-   "sub": "Knip een rode vogel en kijk hoe babyotters spelen in de dierentuin.",
+   "titel": "Hoi Ida, kijk die babyolifant! 🐘",
+   "sub": "Een olifantje speelt in het hooi, en er zwemmen eendjes rond. Zin om te knutselen?",
    "iconen": [
-    "🐦",
-    "✂️",
-    "🦦",
-    "🐼",
+    "🐘",
+    "🦆",
+    "🦏",
+    "❄️",
     "🎨",
-    "🐐"
+    "✂️"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Stoemp met worstjes 🥕",
-   "sub": "Vanavond staat er wortelstoemp op het menu en wacht er een raadsel over een hals zonder hoofd.",
+   "titel": "Goeienavond, Ida! Soep met kip 🥕",
+   "sub": "Vanavond kan je wortelsoep proeven en er wacht een raadsel over een gat.",
    "iconen": [
     "🥕",
     "🧩",
-    "🎬",
+    "🍲",
     "🌙",
     "⭐",
     "🎵"
@@ -181,58 +182,60 @@
   }
  },
  "knutsel": {
-  "titel": "Een kardinaalvogel van rood papier",
-  "intro": "Maak een vrolijke rode vogel die je aan een tak of in het raam kan hangen.",
+  "titel": "Sneeuwvlokken van ijsstokjes en knopen",
+  "intro": "Maak een glinsterende sneeuwvlok om in het raam te hangen.",
   "materiaal": [
-   "Rood papier of karton",
-   "Een kinderschaar",
-   "Lijm",
-   "Een zwarte stift",
-   "Rood touw of wol"
+   "6 ijsstokjes",
+   "Knopen in verschillende kleuren",
+   "Lijm (geen hete lijm nodig)",
+   "Een stukje touw",
+   "Eventueel glitter of witte verf"
   ],
   "stappen": [
-   "Teken een vogel van ongeveer 14 cm lang op karton, of print een sjabloon. Knip hem uit.",
-   "Teken met de zwarte stift een oogje en een snaveltje.",
-   "Vouw een strook rood papier van ongeveer 15 bij 15 cm als een waaier, met plooitjes van een halve centimeter.",
-   "Knip een klein spleetje in de rug van de vogel, met hulp van een volwassene als het moeilijk is.",
-   "Knoop het touw tot een lus, steek het door het spleetje en schuif de waaier erdoor als vleugels.",
-   "Lijm de onderkant van de vleugels een beetje vast, zodat de vogel mooi blijft staan."
+   "Leg 3 ijsstokjes als een ster over elkaar, zodat je 6 punten krijgt, en lijm ze op elkaar.",
+   "Laat de lijm even drogen.",
+   "Plak knopen op de punten en in het midden van de ster.",
+   "Versier met glitter of een beetje witte verf als je dat leuk vindt.",
+   "Knoop een lusje touw vast en hang je sneeuwvlok op."
   ],
-  "tip": "Maak er een hele groep van in verschillende kleuren: dan heb je een vrolijke vogelfamilie.",
-  "url": "https://www.redtedart.com/paper-cardinal-ornament/",
+  "tip": "Maak er meerdere in verschillende groottes en hang ze samen aan een tak.",
+  "url": "https://www.redtedart.com/snowflakes-crafts-buttons/",
   "bron": "Red Ted Art"
  },
  "eten": {
-  "titel": "Wortelstoemp met worstjes",
-  "intro": "Zachte, zoete stoemp met sappige worstjes: een echte Vlaamse klassieker.",
+  "titel": "Wortelsoep met kip en rijst",
+  "intro": "Een zachte, oranje soep met stukjes kip en rijst: lekker warm op een koude dag.",
   "ingredienten": [
-   "600 g chipolata's (kleine worstjes)",
-   "10 wortels",
-   "4 aardappelen",
-   "1 ui",
+   "2 kippenbouten",
+   "1 zakje langkorrelrijst",
+   "5 dikke wortelen",
+   "4 stengels bleekselder",
+   "1 stengel prei",
+   "2 uien",
+   "1 teentje look",
+   "4 laurierblaadjes",
    "3 takjes tijm",
-   "2 laurierblaadjes",
-   "Een klontje boter",
-   "Een snuifje nootmuskaat",
-   "Zout en peper",
-   "Tomatenketchup om te serveren"
+   "3 liter water",
+   "1 klontje boter",
+   "Peper en zout"
   ],
   "stappen": [
-   "Schil de aardappelen, de ui en de wortels en snijd ze in stukken, met hulp van een volwassene.",
-   "Laat een klontje boter smelten in een grote pan en bak de ui even zacht, met hulp van een volwassene.",
-   "Doe de wortels en de aardappelen erbij en strooi er wat peper en zout over.",
-   "Bind de tijm en de laurier samen en leg dat bundeltje in de pan. Giet er water bij tot de groenten half onder staan.",
-   "Laat alles met het deksel erop ongeveer een half uur zachtjes koken.",
-   "Bak de worstjes ondertussen in een pan met boter, met hulp van een volwassene.",
-   "Haal het bundeltje kruiden eruit en stamp de groenten fijn met wat kookwater en nootmuskaat."
+   "Snij de groenten in stukken, met hulp van een volwassene.",
+   "Fruit de uien in een klontje boter in een grote soepketel, met hulp van een volwassene.",
+   "Voeg de bleekselder, prei, wortelen, look, laurier en tijm toe en laat even stoven.",
+   "Giet het water erbij en leg de kippenbouten in de pot. Kruid met peper en zout en voeg de rijst toe.",
+   "Laat de soep ongeveer een uur zachtjes pruttelen.",
+   "Haal de kip eruit en laat een volwassene de soep mixen en zeven.",
+   "Trek het vlees van de botjes en doe het samen met de rijst terug in de soep."
   ],
-  "tip": "Geef er een lepeltje tomatenketchup bij en een lekker groen blaadje sla.",
-  "url": "https://dagelijksekost.vrt.be/gerechten/wortelstoemp-met-chipolata",
+  "tip": "Lekker met een sneetje brood erbij.",
+  "url": "https://dagelijksekost.vrt.be/gerechten/wortelsoep-met-kip-en-rijst",
   "bron": "Dagelijkse Kost"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
   "Spaghetti met verborgen groenten",
-  "Wortelstoemp met worstjes"
+  "Wortelstoemp met worstjes",
+  "Wortelsoep met kip en rijst"
  ]
 }
