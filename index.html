@@ -531,6 +531,9 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   fetch("quotes.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(renderFin).catch(()=>{ $("fin").remove(); });
   renderNews("tech", d.tech);
   renderPods(d.podcasts);
+  fetch("podcasts.json?"+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{ if(!j||!j.podcasts||!j.podcasts.length) return;
+    const m={}; (d.podcasts||[]).forEach(p=>m[p.show]=p); const merged=j.podcasts.filter(p=>p.afleveringen&&p.afleveringen.length);
+    if(merged.length) renderPods(merged); }).catch(()=>{});
   if ((d.opkomend||[]).length) renderNews("opkomend", d.opkomend.slice(0,4)); else $("opkomend").closest("section").remove();
   if ((d.fire||[]).length) renderNews("fire", d.fire.slice(0,4)); else $("fire").closest("section").remove();
   renderSport(d.sport || {});
@@ -538,7 +541,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   podThumbs();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v25` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v26` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
