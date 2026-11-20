@@ -429,8 +429,9 @@ async function th(){ if(TH===null){ try{ TH=await (await tfetch("thumbs.json?"+D
 async function loadImgs(){
   const TW=await th();
   document.querySelectorAll(".ph[data-wiki]").forEach(async el=>{
-    const show=src=>new Promise(ok=>{ const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer";
-      im.onload=()=>{ el.classList.add("has"); im.classList.add("on"); ok(true); }; im.onerror=()=>{ im.remove(); ok(false); };
+    const show=src=>new Promise(ok=>{ const im=new Image(); im.alt=""; im.referrerPolicy="no-referrer"; let tried=0;
+      im.onload=()=>{ el.classList.add("has"); im.classList.add("on"); ok(true); };
+      im.onerror=()=>{ if(tried++===0){ im.src=src.replace(/^http:/,"https:"); } else if(tried===2){ const t=src.replace(/\/commons\/(?!thumb)/,"/commons/thumb/"); im.remove(); ok(false); } else { im.remove(); ok(false); } };
       im.src="https://wsrv.nl/?w=900&output=webp&q=80&url="+encodeURIComponent(src); el.prepend(im); });
     const raw=el.dataset.wiki; let ok=false;
     try{ const u=new URL(raw); if(/wikipedia\.org$/.test(u.hostname)){
