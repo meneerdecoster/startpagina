@@ -1,73 +1,73 @@
 {
- "bijgewerkt": "2026-11-20T04:23:51+07:00",
+ "bijgewerkt": "2026-11-21T04:23:08+07:00",
  "vandaag": [
   {
-   "wanneer": "Vr 20 nov, 12.00 u (BE)",
-   "wat": "Loting kwartfinales Nations League in Nyon: Rode Duivels treffen Engeland, Portugal of Duitsland (eind maart)"
-  },
-  {
-   "wanneer": "Vr 20 nov, 15.30 u (BE)",
-   "wat": "Tweede handelsdag Anthropic (ANT) na een debuut van +17%; Wall Street likt zijn wonden na een zware donderdag"
+   "wanneer": "Za 21 nov, 20.45 u (BE)",
+   "wat": "Zulte Waregem – Antwerp: Compper staat onder druk, beide ploegen staan op 11 punten"
   },
   {
    "wanneer": "Za 21 nov (BE)",
-   "wat": "Zulte Waregem – Antwerp om 20.45 u; cross in Lokeren (mannen rond 14.55 u)"
+   "wat": "HG Cross Lokeren: rentree van Ceylin Alvarado, Felipe Orts is ziek en ontbreekt"
   },
   {
    "wanneer": "Zo 22 nov (BE)",
    "wat": "X²O-cross in Beringen; 's avonds finale van Humo's Rock Rally in de AB"
+  },
+  {
+   "wanneer": "Ma 23 nov (BE)",
+   "wat": "Wall Street na een zware week voor AI- en chipaandelen; nieuwe Mind to Invest (EP87) verwacht"
   }
  ],
  "markten": [
   {
-   "titel": "Wall Street keldert 2% ondanks knaldebuut Anthropic",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: de Dow verloor donderdag 2,2% (ruim 1.000 punten), de S&P 500 2% en de Nasdaq 2,3%, terwijl Anthropic op zijn eerste beursdag 17% hoger sloot. De AI-euforie sloeg niet over op de rest van de markt: negen op de tien S&P 500-aandelen zakten.",
-   "bron": "Kiplinger",
-   "url": "https://www.kiplinger.com/investing/stocks/dow-drops-1-100-points-as-anthropic-pops-17-percent-stock-market-today"
+   "titel": "Nasdaq duikt bijna 3% door uitverkoop van chipaandelen",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: vrijdag zakte de Nasdaq rond de middag 2,8% en de S&P 500 1,5%, met AMD en Micron als grootste verliezers. Daarmee is de Nasdaq zijn winst van dit jaar kwijt, en ook het verse Anthropic-aandeel ging onderuit.",
+   "bron": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/"
   },
   {
-   "titel": "Bitcoin glijdt naar 62.000 dollar, angstindex op 10",
-   "samenvatting": "Raakt je bitcoin: in het zog van de beursval zakte bitcoin donderdag 2,6% tot rond 62.200 dollar, terwijl de volatiliteitsindex VIX naar 28 klom. De bitcoin-ETF's zagen in november al zo'n 2,9 miljard dollar wegvloeien.",
-   "bron": "CryptoTicker",
-   "url": "https://cryptoticker.io/en/crypto-news-dow-drops-1000-points-bitcoin-vix/"
+   "titel": "Zilver zakt naar laagste peil in 14 maanden",
+   "samenvatting": "Raakt je zilver: de zilverprijs verloor vrijdag zo'n 5% tot rond 42 dollar per ounce. Sinds de top van eind augustus (69 dollar) is zilver al ongeveer 38% gezakt; ook goud kreeg deze week een flinke klap.",
+   "bron": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-november-20-2026-silver-opens-at-its-lowest-point-in-14-months-122618837.html"
   },
   {
-   "titel": "Zilver houdt stand rond 45 dollar, dollar op hoogste peil in 19 maanden",
-   "samenvatting": "Raakt je zilver: na de val van woensdag stabiliseerde zilver donderdag rond 45,2 dollar per ounce, goud bleef rond 3.715 dollar. De strenge Fed-notulen en een sterke dollar blijven op edelmetalen wegen.",
-   "bron": "USAGOLD",
-   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-19-2026/"
+   "titel": "Bitcoin zakt onder 62.000 dollar",
+   "samenvatting": "Raakt je bitcoin: vrijdagochtend noteerde bitcoin rond 61.300 dollar, bijna 4% lager dan een dag eerder en een kwart lager dan een maand geleden. De risicoschuwe stemming op de beurs weegt ook op crypto.",
+   "bron": "Fortune",
+   "url": "https://fortune.com/article/price-of-bitcoin-11-20-2026/"
   },
   {
-   "titel": "Fed-notulen: bijna iedereen wil de rente nog verhogen",
-   "samenvatting": "Raakt je obligatie-ETF: volgens de notulen van oktober vinden vrijwel alle Fed-leden verdere renteverhogingen nodig, en sommigen sluiten in december zelfs een grotere stap niet uit. De markt prijst zo'n 95% kans op een verhoging in december, wat obligatiekoersen onder druk houdt.",
+   "titel": "Markt rekent op 97% kans op Fed-renteverhoging in december",
+   "samenvatting": "Raakt je obligatie-ETF: na de strenge notulen en een oproep van gouverneur Waller tot 'agressief optreden' zien futures bijna zeker een renteverhoging op 8-9 december, met zo'n 10% kans op een halve procent. Het Amerikaanse 10-jaarsrendement blijft rond 5%.",
    "bron": "Investing.com",
-   "url": "https://nl.investing.com/news/economy-news/enkele-beleidsmakers-zien-ruimte-voor-renteverhoging-van-meer-dan-25-bp-in-december--fednotulen-979682"
+   "url": "https://www.investing.com/news/stock-market-news/fed-signals-and-data-what-happened-the-week-of-nov-1620-2026-93CH-5042523"
   }
  ],
  "tech": [
   {
-   "titel": "Anthropic sluit eerste beursdag 17% hoger af",
-   "samenvatting": "Het aandeel ANT opende 35% boven de introductieprijs van 83 dollar, maar gaf in de loop van de dag een deel terug en sloot op 97,17 dollar. Daarmee is de Claude-maker zo'n 1,3 biljoen dollar waard.",
-   "bron": "Forbes",
-   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-pop-34-to-open-at-11150/"
+   "titel": "Anthropic-aandeel zakt al naar introductieprijs",
+   "samenvatting": "Een dag na de knaldebuut van 17% verloor het aandeel ANT vrijdag zo'n 13%, tot net boven de introductieprijs van 83 dollar. De bredere AI-uitverkoop vaagde zo de winst van de Nasdaq voor heel 2026 weg.",
+   "bron": "CNN",
+   "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai"
   },
   {
-   "titel": "Gemini kan voortaan je Mac bedienen",
-   "samenvatting": "Google geeft de Gemini-app voor Mac 'computer use': de AI-agent werkt zelfstandig in je apps en surft op de achtergrond, terwijl jij acties kan pauzeren of goedkeuren. Voorlopig enkel in het Engels in de VS, voor betalende abonnees.",
+   "titel": "GTA VI breekt alle records met 3,79 miljard op dag één",
+   "samenvatting": "Rockstar meldt dat Grand Theft Auto VI op de lanceringsdag wereldwijd voor 3,79 miljard dollar verkocht, een record voor eender welke entertainmentrelease. Vooraf waren er al 32,5 miljoen exemplaren besteld.",
+   "bron": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20261120446139/en/Grand-Theft-Auto-VI-Shatters-Entertainment-Box-Office-Records-with-%243.79-Billion-in-Day-One-Retail-Sales"
+  },
+  {
+   "titel": "Californië dagvaardt Nvidia over chips naar China",
+   "samenvatting": "De Californische procureur-generaal onderzoekt of geavanceerde Nvidia-chips of vertrouwelijke info in China belandden en of beleggers misleid werden. Ex-CEO Jensen Huang praat op 1 december met het Congres.",
+   "bron": "California DOJ",
+   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
+  },
+  {
+   "titel": "Meta's AI-agent Muse lekte privégesprekken",
+   "samenvatting": "Volgens TechCrunch haalde Meta's agent Muse gesprekken door elkaar, waardoor medewerkers berichten, herinneringen en zelfs banksaldo's van anderen te zien kregen. Meta zegt dat het om testversies ging.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
-  },
-  {
-   "titel": "Beursgang Anthropic legt AI's kringfinanciering bloot",
-   "samenvatting": "Amazon (14,7%) en Google (13,7%) zien hun belang samen zo'n 308 miljard dollar waard worden, terwijl Anthropic voor 900 miljard aan rekenkracht heeft vastgelegd, deels bij diezelfde bedrijven. TechCrunch vraagt zich af hoe gezond die geldkringloop is.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
-  },
-  {
-   "titel": "Nvidia klopt verwachtingen, Huang keert niet terug",
-   "samenvatting": "Nvidia boekte 115,8 miljard dollar omzet (+103%) en mikt op 130 miljard volgend kwartaal. Het bestuur bevestigde wel dat Jensen Huang niet terugkomt als CEO, wat analisten onzeker laat over de koers van het bedrijf.",
-   "bron": "CNBC",
-   "url": "https://cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
   }
  ],
  "podcasts": [
@@ -111,32 +111,20 @@
  "sport": [
   {
    "label": "Rode Duivels",
-   "titel": "Lucas Stassin meldt zich als opvolger van Lukaku",
-   "samenvatting": "Na het afscheid van Romelu Lukaku (94 goals in 135 interlands) zegt de 21-jarige Sevilla-spits Lucas Stassin dat hij er alles aan zal doen om bij de volgende selectie te zitten. Vrijdagmiddag hoort België zijn tegenstander voor de kwartfinale van de Nations League.",
-   "bron": "VoetbalNieuws",
-   "url": "https://www.voetbalnieuws.be/news/935792/vervanger-lukaku-dient-zich-aan-ik-zal-er-alles-aan-doen"
+   "titel": "Rode Duivels treffen Duitsland in kwartfinale Nations League",
+   "samenvatting": "De loting in Nyon koppelt België eind maart aan het Duitsland van Jürgen Klopp. 'Winnen is het doel', klinkt het bij de Duivels na een magnifieke affiche.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/20/duitsland-is-tegenstander-van-rode-duivels-in-kwartfinale-van-na~1795189017413/"
   },
   {
    "label": "Royal Antwerp FC",
-   "titel": "Antwerp treft zaterdag een Zulte Waregem zonder trainer",
-   "samenvatting": "Michael Beale reageerde donderdag voor het eerst op zijn vertrek bij Zulte Waregem en bedankte fans en spelers. Antwerp, dat net Faris Haroun tot Head of Football benoemde, speelt zaterdag om 20.45 u op het veld van de Essevee.",
+   "titel": "Compper geïrriteerd voor cruciale trip naar Zulte Waregem",
+   "samenvatting": "Antwerp-coach Marvin Compper is het beu om over zijn toekomst te praten, maar zijn ploeg moet dringend punten pakken. Antwerp en Zulte Waregem staan allebei op 11 punten in de staart van de rangschikking.",
    "bron": "VoetbalNieuws",
-   "url": "https://www.voetbalnieuws.be/news/935794/beale-reageert-voor-het-eerst-na-ontslag-bij-zulte-waregem"
+   "url": "https://www.voetbalnieuws.be/news/936103/compper-ge%C3rriteerd-ben-het-moe-daarover-te-praten"
   }
  ],
  "opkomend": [
-  {
-   "titel": "Antwerpse Teletext lost 'Geen Therapie'",
-   "samenvatting": "De Antwerpse electropopband speelt met italodisco en steekt de draak met de therapiecultuur. Het gelijknamige debuutalbum volgt op 2 december, met een releaseshow in De Studio in Antwerpen.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/singles/teletext-geen-therapie/"
-  },
-  {
-   "titel": "Rewilding debuteert met 'Lego Brick'",
-   "samenvatting": "De Oostends-Gentse band mixt hiphop en rock in de stijl van de jaren 90-crossover. Vrijdag 20 november volgt de releaseshow in BarBroos in Gent.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/singles/rewilding-lego-brick/"
-  },
   {
    "titel": "Tien bands strijden zondag om Humo's Rock Rally",
    "samenvatting": "Uit 821 inschrijvingen bleven er tien over voor de finale van zondag 22 november in de AB, onder wie De Defecte Gasten, Eldarova, Fred Gata, Plastik/Plastik en Racehorsepablo.",
@@ -144,10 +132,22 @@
    "url": "https://www.abconcerts.be/nl/nieuws/dit-zijn-de-finalisten-van-humos-rock-rally-2026/a1eQw000007NVv7IAG"
   },
   {
-   "titel": "BLUAI stelt tweede album voor in De Roma",
-   "samenvatting": "De Antwerpse indiepopband, ooit winnaar van De Nieuwe Lichting, speelt op 26 maart 2027 zijn grootste headlineshow tot nu toe in De Roma, als voorstelling van de tweede plaat.",
-   "bron": "De Roma",
-   "url": "https://www.deroma.be/en/event/bluai-8"
+   "titel": "Neonpark lost laatste single voor debuutalbum",
+   "samenvatting": "'I See You' is een ingetogen nummer met de etherische stem van Danaë Van Oeteren, over echt gezien willen worden. Het album volgt op 18 december, live staat Neonpark op 13 januari in KAVKA Oudaan in Antwerpen.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/singles/neonpark-i-see-you/"
+  },
+  {
+   "titel": "Whispering Sons-zangeres Fenne Kuppens gaat solo",
+   "samenvatting": "Fenne Kuppens kondigt een eerste soloplaat aan voor volgend jaar en tekende bij boekingskantoor Toutpartout. Concerten in binnen- en buitenland volgen.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/nieuws/fenne-kuppens-kondigt-soloplaat-aan/"
+  },
+  {
+   "titel": "Antwerpse Teletext lost 'Geen Therapie'",
+   "samenvatting": "De Antwerpse electropopband speelt met italodisco en steekt de draak met de therapiecultuur. Het gelijknamige debuutalbum volgt op 2 december, met een releaseshow in De Studio in Antwerpen.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/singles/teletext-geen-therapie/"
   }
  ],
  "fire": [
@@ -164,10 +164,10 @@
    "url": "https://newsroom.ing.be/ing-beleggersbarometer-met-een-financieel-vermogen-van-500000-tot-750000-euro-ben-je-financieel-onafhankelijk-volgens-de-belgische-belegger"
   },
   {
-   "titel": "Is 500.000 euro wel genoeg om vroeg te stoppen?",
-   "samenvatting": "Business AM rekent na: met de 4%-regel levert 500.000 euro zo'n 20.000 euro per jaar op, wellicht te weinig voor wie echt vroeg wil stoppen. Veel Belgen dromen van FIRE, maar geven hun geld liever nu uit.",
-   "bron": "Business AM",
-   "url": "https://fr.businessam.be/?p=299173"
+   "titel": "Belg kiest vaker voor beleggingsfondsen dan spaarboekje",
+   "samenvatting": "Belgische gezinnen stoppen per kwartaal gemiddeld 5,6 miljard euro in beleggingsfondsen tegenover 3,5 miljard op deposito's, voor het eerst in tien jaar. Het netto financieel vermogen ligt met 257.000 euro per gezin ruim boven het eurozonegemiddelde.",
+   "bron": "Forbes België",
+   "url": "https://www.forbes.be/nl/de-belg-ruilt-zijn-spaarrekening-steeds-vaker-in-voor-beleggingsfondsen/"
   },
   {
    "titel": "Test Aankoop: onder 50 kies je beter een wereld-ETF",
@@ -298,16 +298,6 @@
    "url": "https://concertje.be/en/concert/2027-02-25/antwerpen-lotto-arena/royal-blood-15796"
   },
   {
-   "datum": "2027-02-26",
-   "artiest": "Gili",
-   "titel": "Machtig!",
-   "soort": "comedy",
-   "zaal": "Schouwburg Noord (Merksem)",
-   "uur": null,
-   "status": null,
-   "url": "https://www.schouwburgnoord.be/nl/event/gili-1"
-  },
-  {
    "datum": "2027-02-28",
    "artiest": "Abel Ghekiere",
    "titel": "Ook 1 maart",
@@ -316,16 +306,6 @@
    "uur": "20:00",
    "status": "uitverkocht",
    "url": "https://www.deroma.be/nl/event/abel-ghekiere-3"
-  },
-  {
-   "datum": "2027-03-06",
-   "artiest": "Palace",
-   "titel": null,
-   "soort": "muziek",
-   "zaal": "De Roma (Borgerhout)",
-   "uur": "20:00",
-   "status": null,
-   "url": "https://www.deroma.be/nl/event/palace"
   },
   {
    "datum": "2027-03-12",
@@ -410,12 +390,22 @@
   {
    "datum": "2027-04-05",
    "artiest": "The Flaming Lips",
-   "titel": "The Teardrop Throbs Tour (tickets vanaf 20 nov, 10 u)",
+   "titel": "The Teardrop Throbs Tour",
    "soort": "muziek",
    "zaal": "De Roma (Borgerhout)",
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/the-flaming-lips-6"
+  },
+  {
+   "datum": "2027-04-09",
+   "artiest": "Absynthe Minded",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.songkick.com/concerts/43483889-absynthe-minded-at-de-roma"
   },
   {
    "datum": "2027-04-11",
@@ -426,6 +416,16 @@
    "uur": null,
    "status": null,
    "url": "https://www.podiuminfo.nl/news/59143/Jordan-Rakei-in-april-2027-naar-de-Roma-en-Gashouder/"
+  },
+  {
+   "datum": "2027-04-20",
+   "artiest": "Tindersticks",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.songkick.com/concerts/43221490-tindersticks-at-de-roma"
   },
   {
    "datum": "2027-04-23",
@@ -448,16 +448,6 @@
    "url": "https://www.comedyshows.be/kalender/michael-van-peel/2027-04-29/"
   },
   {
-   "datum": "2027-05-08",
-   "artiest": "Dries Heyneman",
-   "titel": "Voor Normale Mensen",
-   "soort": "comedy",
-   "zaal": "Schouwburg Noord (Merksem)",
-   "uur": null,
-   "status": null,
-   "url": "https://www.schouwburgnoord.be/nl/event/dries-heyneman"
-  },
-  {
    "datum": "2027-05-15",
    "artiest": "Wim Helsen",
    "titel": "Welkom Ongemak",
@@ -476,48 +466,54 @@
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/elmer-3"
+  },
+  {
+   "datum": "2027-05-28",
+   "artiest": "Hooverphonic",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "De Roma (Borgerhout)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.songkick.com/concerts/43469752-hooverphonic-at-de-roma"
   }
  ],
  "gezondheid": {
-  "streak": 8,
+  "streak": 9,
   "laatste": {
-   "datum": "2026-11-19",
-   "stappen": 10060.0,
-   "slaap": 8.48,
-   "hrv": 47.0,
-   "rhr": 51.0,
-   "water": 2.5,
-   "sporttype": null,
-   "bedtijd": "22:05",
-   "opstaan": "06:50"
+   "datum": "2026-11-20",
+   "stappen": 10041.0,
+   "slaap": 8.1,
+   "hrv": 55.0,
+   "rhr": 47.0,
+   "water": 2.83,
+   "sporttype": "Andere",
+   "bedtijd": "22:00",
+   "opstaan": "06:12"
   },
   "week": {
-   "stappen": 10521.71,
-   "slaap": 6.86,
-   "hrv": 51.57,
-   "rhr": 49.57,
-   "water": 2.39,
-   "diep": 33.29,
-   "rem": 102.29,
+   "stappen": 10478.0,
+   "slaap": 6.85,
+   "hrv": 54.0,
+   "rhr": 49.71,
+   "water": 2.3,
+   "diep": 34.86,
+   "rem": 99.43,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
    "koffie": 0.43,
    "stappen10k": 5,
-   "water3l": 1
+   "water3l": 0
   },
   "jaar": {
-   "dagen": 71,
-   "sport_pct": 46,
+   "dagen": 72,
+   "sport_pct": 47,
    "water": 2.62,
-   "alcohol_week": 7.6
+   "alcohol_week": 7.5
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -568,18 +564,18 @@
     },
     {
      "d": "2026-11-19",
-     "v": 10060.0
+     "v": 10115.0
     },
     {
      "d": "2026-11-20",
+     "v": 10041.0
+    },
+    {
+     "d": "2026-11-21",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -618,7 +614,7 @@
     },
     {
      "d": "2026-11-16",
-     "v": 8.56
+     "v": 6.77
     },
     {
      "d": "2026-11-17",
@@ -634,14 +630,14 @@
     },
     {
      "d": "2026-11-20",
+     "v": 8.1
+    },
+    {
+     "d": "2026-11-21",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -692,17 +688,21 @@
     },
     {
      "d": "2026-11-19",
-     "v": 47.0
+     "v": 57.0
     },
     {
      "d": "2026-11-20",
+     "v": 55.0
+    },
+    {
+     "d": "2026-11-21",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.521 stappen per dag; 5 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,39 l. Nog 0,61 l per dag tot je doel van 3 l.",
+   "Gemiddeld 10.478 stappen per dag; 5 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,3 l. Nog 0,7 l per dag tot je doel van 3 l.",
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
