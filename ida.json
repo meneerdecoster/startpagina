@@ -1,56 +1,57 @@
 {
- "bijgewerkt": "2026-11-20T05:33:18+07:00",
+ "bijgewerkt": "2026-11-20T09:57:31+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
   "Cambodja",
   "Laos",
   "Filipijnen",
-  "Thailand"
+  "Thailand",
+  "Indonesië"
  ],
  "nieuws": [
   {
-   "titel": "William (11) haalt twee wereldrecords",
-   "samenvatting": "Op Wereldrecorddag kreeg William twee officiële certificaten. Hij kreeg ze op een parkeerplaats waar ook stuntauto's en een stuntstep stonden.",
+   "titel": "Stray Kids komt volgend jaar naar Nederland",
+   "samenvatting": "De K-popgroep Stray Kids geeft op 27 juli 2027 een concert in Arnhem. Niet alle bandleden zijn erbij, want Lee Know moet tijdelijk in dienst.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640139"
+   "url": "https://jeugdjournaal.nl/l/2638740"
   },
   {
-   "titel": "Welke plek heeft de beste wc's?",
-   "samenvatting": "Op Wereld Toiletdag is de gemeente Veere uitgeroepen tot de meest wc-vriendelijke plek van Nederland. Ze kreeg een 7,5.",
+   "titel": "Schilderij van Van Gogh levert recordbedrag op",
+   "samenvatting": "Een schilderij van Van Gogh is verkocht voor 173 miljoen euro. Zo veel betaalde nog nooit iemand voor een werk van hem.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640124"
+   "url": "https://jeugdjournaal.nl/artikel/2640103-nieuwswekker-recordbedrag-voor-schilderij-gta-vi-komt-uit"
   },
   {
-   "titel": "Obama verrast IShowSpeed in zijn livestream",
-   "samenvatting": "De bekende YouTuber IShowSpeed kreeg tijdens zijn livestream onverwacht bezoek van oud-president Barack Obama. Ze praatten over een nieuwe documentaire.",
+   "titel": "Welke vragen stellen kinderen aan AI?",
+   "samenvatting": "Meer dan een kwart van de kinderen op de basisschool vraagt aan AI dingen die ze aan niemand durven te vragen. Je kan altijd je vragen stellen aan mama, papa of de Kindertelefoon.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640130"
+   "url": "https://jeugdjournaal.nl/l/2639346"
   },
   {
-   "titel": "Zoek mee naar het Kinderwoord van het jaar",
-   "samenvatting": "Karrewiet zoekt voor de 15e keer het Kinderwoord. Je kan woorden insturen, vanaf 23 november stemmen en op 30 november hoor je welk woord wint.",
-   "bron": "Ketnet",
-   "url": "https://www.vrt.be/nl/ketnet-voor-ouders/nieuws-van-ketnet-en-ketnet-junior/wat-wordt-het-kinderwoord-2026-van-karrewiet"
+   "titel": "Een nieuwe studio voor het Jeugdjournaal",
+   "samenvatting": "Het Jeugdjournaal presenteert het nieuws nu vanuit een nieuwe studio. Die ziet er helemaal anders uit dan de vorige.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2637692"
   }
  ],
  "dieren": [
   {
-   "titel": "Babycapibara's in de dierentuin",
+   "titel": "Babyotters spelen in de dierentuin van Londen",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=KEjDiUSDg7I",
+   "url": "https://www.youtube.com/watch?v=G2xAHB-L6do",
    "soort": "video"
   },
   {
-   "titel": "Babyolifantje leert zijn slurf gebruiken",
+   "titel": "Een baby-panda en zijn mama in de dierentuin van Tokio",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=D5fzvpjfSLQ",
+   "url": "https://www.youtube.com/watch?v=Z_aCb4IXVww",
    "soort": "video"
   },
   {
-   "titel": "Pinguïnkuikentje in de dierentuin",
+   "titel": "Jonge geitjes springen vrolijk rond",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=AQKpGOdrPdo",
+   "url": "https://www.youtube.com/watch?v=t1ZDL2m3pwk",
    "soort": "video"
   }
  ],
@@ -73,54 +74,53 @@
   }
  ],
  "land": {
-  "datum": "2026-11-19",
-  "naam": "Thailand",
-  "hoofdstad": "Bangkok",
-  "vlag": "🇹🇭",
-  "iso2": "th",
-  "iso": "764",
-  "lat": 15.9,
-  "lon": 101.0,
-  "inwoners": "ongeveer 70 miljoen",
+  "datum": "2026-11-20",
+  "naam": "Indonesië",
+  "hoofdstad": "Jakarta",
+  "vlag": "🇮🇩",
+  "iso2": "id",
+  "iso": "360",
+  "lat": -2.5,
+  "lon": 118.0,
+  "inwoners": "ongeveer 280 miljoen",
   "weetjes": [
-   "In Thailand lopen veel olifanten rond en de olifant is het nationale dier. Vroeger hielpen ze mensen bij zwaar werk in het bos.",
-   "Met het Songkranfeest in april gooien mensen op straat emmers water naar elkaar. Zo wensen ze elkaar een goed nieuw jaar.",
-   "Thailand grenst aan Myanmar, Laos, Cambodja en Maleisië. Op de kaart lijkt het land een beetje op de kop van een olifant."
+   "Indonesië is een land van duizenden eilanden. Je zou er jaren over doen om ze allemaal te bezoeken.",
+   "Op het eiland Komodo leeft de komodovaraan, de grootste hagedis ter wereld. Hij kan wel 3 meter lang worden.",
+   "Indonesië ligt in Zuidoost-Azië, rond de evenaar, en grenst op het eiland Borneo aan Maleisië. Ook Papoea-Nieuw-Guinea en Oost-Timor zijn buren."
   ]
  },
  "raadsel": {
-  "vraag": "Wat wordt natter naarmate het meer droogt?",
-  "oplossing": "Een handdoek",
-  "uitleg": "Een handdoek neemt het water van je lijf op, en wordt zelf dus steeds natter.",
+  "vraag": "Ik heb een hals maar geen hoofd. Wat ben ik?",
+  "oplossing": "Een fles",
+  "uitleg": "Een fles heeft een smalle hals bovenaan, maar geen hoofd.",
   "opties": [
-   "Een handdoek",
-   "Een spons",
-   "Een zeep",
-   "Een badeend"
+   "Een fles",
+   "Een giraf",
+   "Een kast",
+   "Een sjaal"
   ]
  },
  "mensen": [
   {
    "label": "Camille",
-   "titel": "Camille telt af naar haar winterse circusshow",
-   "samenvatting": "Camille maakt een Wintercircus in Hasselt, de stad waar ze vroeger studeerde. Het circus komt op 19 en 20 december.",
-   "bron": "AFAS Dome",
-   "url": "https://www.afas-dome.be/nieuws/camille-telt-af-naar-winter-circus-hasselt"
+   "titel": "Kijk de clip van 'Magie'",
+   "samenvatting": "Camille zingt in deze videoclip het liedje 'Magie'. Zet het geluid aan en zing mee.",
+   "bron": "YouTube",
+   "video": "https://www.youtube.com/watch?v=OBGMb_Mw79c"
   },
   {
    "label": "Pommelien Thijs",
-   "titel": "'Onomatopee' is de Megahit van de week",
-   "samenvatting": "Pommelien speelt in haar nieuwe liedje met woorden. Ze zong het voor het eerst live in de Ziggo Dome en nu is het de 3FM Megahit.",
-   "bron": "NPO 3FM",
-   "url": "https://www.npo3fm.nl/nieuws/3fm-megahit/cf5e4267-8813-41f6-8ff3-96ffb29fbe04/hoe-doet-ze-dat-onomatopee-van-pommelien-thijs-is-deze-week-de-3fm-megahit",
-   "video": "https://www.youtube.com/watch?v=l9e4V8ht5Ek"
+   "titel": "De clip van 'Zilver'",
+   "samenvatting": "Pommelien zingt 'Zilver' in een officiële videoclip. Kijk eens hoe die eruitziet.",
+   "bron": "YouTube",
+   "video": "https://www.youtube.com/watch?v=zPwa5uW01oY"
   },
   {
    "label": "Aaron Blommaert",
-   "titel": "Aaron en Zoë Livay zingen 'Tranen van goud'",
-   "samenvatting": "Aaron zingt dit liedje samen met zangeres Zoë Livay. Kijk de clip en luister mee.",
+   "titel": "'Hoe zit het met ons?'",
+   "samenvatting": "Aaron zingt dit liedje in zijn videoclip. Kijk en luister mee.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=EcgZxJ9QV1E"
+   "video": "https://www.youtube.com/watch?v=M-BTdd1mWh4"
   },
   {
    "label": "Maksim",
@@ -132,34 +132,34 @@
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Hallo Thailand 🐘",
-   "sub": "Vandaag leer je een land kennen waar olifanten rondlopen en maak je een sneeuwpop van papier.",
+   "titel": "Goeiemorgen, Ida! Hallo Indonesië 🌋",
+   "sub": "Vandaag ontdek je een land met duizenden eilanden en maak je een kardinaalvogel van papier.",
    "iconen": [
-    "🐘",
-    "🌴",
-    "🛕",
-    "⛄",
+    "🌋",
+    "🏝️",
+    "🦎",
+    "🐦",
     "☀️",
-    "🍜"
+    "🌴"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, zin om te knippen en te plakken? ✂️",
-   "sub": "Maak een papieren sneeuwpop en kijk hoe babycapibara's het doen in de dierentuin.",
+   "titel": "Hoi Ida, tijd om te knutselen! ✂️",
+   "sub": "Knip een rode vogel en kijk hoe babyotters spelen in de dierentuin.",
    "iconen": [
-    "⛄",
+    "🐦",
     "✂️",
-    "🐹",
+    "🦦",
+    "🐼",
     "🎨",
-    "🐘",
-    "❄️"
+    "🐐"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Spaghetti-tijd 🍝",
-   "sub": "Je ontdekt een saus vol verborgen groenten en een raadsel over een natte handdoek.",
+   "titel": "Goeienavond, Ida! Stoemp met worstjes 🥕",
+   "sub": "Vanavond staat er wortelstoemp op het menu en wacht er een raadsel over een hals zonder hoofd.",
    "iconen": [
-    "🍝",
+    "🥕",
     "🧩",
     "🎬",
     "🌙",
@@ -181,57 +181,58 @@
   }
  },
  "knutsel": {
-  "titel": "Een sneeuwpop van papier",
-  "intro": "Knip en plak een vrolijke sneeuwpop die je op het raam kan hangen.",
+  "titel": "Een kardinaalvogel van rood papier",
+  "intro": "Maak een vrolijke rode vogel die je aan een tak of in het raam kan hangen.",
   "materiaal": [
-   "Wit en oranje papier of karton",
-   "Een stukje zwart of gekleurd papier",
+   "Rood papier of karton",
    "Een kinderschaar",
    "Lijm",
-   "Een stift"
+   "Een zwarte stift",
+   "Rood touw of wol"
   ],
   "stappen": [
-   "Knip drie cirkels uit wit papier: een grote, een middelgrote en een kleine.",
-   "Plak de cirkels onder elkaar, met de kleinste bovenaan.",
-   "Knip een kleine oranje driehoek en plak die als wortelneus op het hoofd.",
-   "Teken ogen, een mond en knopen met je stift.",
-   "Knip een hoedje uit zwart papier en plak het op het hoofd.",
-   "Knip een reepje gekleurd papier als sjaal en plak het tussen hoofd en buik."
+   "Teken een vogel van ongeveer 14 cm lang op karton, of print een sjabloon. Knip hem uit.",
+   "Teken met de zwarte stift een oogje en een snaveltje.",
+   "Vouw een strook rood papier van ongeveer 15 bij 15 cm als een waaier, met plooitjes van een halve centimeter.",
+   "Knip een klein spleetje in de rug van de vogel, met hulp van een volwassene als het moeilijk is.",
+   "Knoop het touw tot een lus, steek het door het spleetje en schuif de waaier erdoor als vleugels.",
+   "Lijm de onderkant van de vleugels een beetje vast, zodat de vogel mooi blijft staan."
   ],
-  "tip": "Plak er watjes of kleine papiersnippers rond: dan lijkt het of het sneeuwt.",
-  "video": "https://www.youtube.com/watch?v=VGVe5YQthSM",
-  "bron": "YouTube"
+  "tip": "Maak er een hele groep van in verschillende kleuren: dan heb je een vrolijke vogelfamilie.",
+  "url": "https://www.redtedart.com/paper-cardinal-ornament/",
+  "bron": "Red Ted Art"
  },
  "eten": {
-  "titel": "Spaghetti met verborgen groenten",
-  "intro": "Een lekkere saus waarin je bijna niet merkt dat er veel groenten in zitten.",
+  "titel": "Wortelstoemp met worstjes",
+  "intro": "Zachte, zoete stoemp met sappige worstjes: een echte Vlaamse klassieker.",
   "ingredienten": [
-   "400 g spaghetti",
-   "400 g gehakt",
-   "2 wortels",
-   "1 courgette",
+   "600 g chipolata's (kleine worstjes)",
+   "10 wortels",
+   "4 aardappelen",
    "1 ui",
-   "2 teentjes knoflook",
-   "500 g tomatenpassata",
-   "1 eetlepel tomatenpuree",
-   "2 eetlepels olijfolie",
-   "1 theelepel oregano",
-   "Geraspte kaas om te strooien"
+   "3 takjes tijm",
+   "2 laurierblaadjes",
+   "Een klontje boter",
+   "Een snuifje nootmuskaat",
+   "Zout en peper",
+   "Tomatenketchup om te serveren"
   ],
   "stappen": [
-   "Rasp de wortels en de courgette fijn, met hulp van een volwassene.",
-   "Snijd de ui en de knoflook klein, met hulp van een volwassene.",
-   "Bak de ui en het gehakt in de olijfolie tot het gehakt bruin is, met hulp van een volwassene.",
-   "Voeg de wortel, courgette, knoflook en tomatenpuree toe en bak nog 3 minuten.",
-   "Schenk de passata erbij, voeg de oregano toe en laat 20 minuten zachtjes pruttelen.",
-   "Kook ondertussen de spaghetti volgens de verpakking en schep er de saus over."
+   "Schil de aardappelen, de ui en de wortels en snijd ze in stukken, met hulp van een volwassene.",
+   "Laat een klontje boter smelten in een grote pan en bak de ui even zacht, met hulp van een volwassene.",
+   "Doe de wortels en de aardappelen erbij en strooi er wat peper en zout over.",
+   "Bind de tijm en de laurier samen en leg dat bundeltje in de pan. Giet er water bij tot de groenten half onder staan.",
+   "Laat alles met het deksel erop ongeveer een half uur zachtjes koken.",
+   "Bak de worstjes ondertussen in een pan met boter, met hulp van een volwassene.",
+   "Haal het bundeltje kruiden eruit en stamp de groenten fijn met wat kookwater en nootmuskaat."
   ],
-  "tip": "Mix de saus even fijn met een staafmixer als je de groenten helemaal niet wil zien.",
-  "url": "https://njam.tv/recepten/spaghetti-met-verborgen-groenten",
-  "bron": "Njam!"
+  "tip": "Geef er een lepeltje tomatenketchup bij en een lekker groen blaadje sla.",
+  "url": "https://dagelijksekost.vrt.be/gerechten/wortelstoemp-met-chipolata",
+  "bron": "Dagelijkse Kost"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
-  "Spaghetti met verborgen groenten"
+  "Spaghetti met verborgen groenten",
+  "Wortelstoemp met worstjes"
  ]
 }

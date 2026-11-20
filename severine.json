@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-20T05:33:18+07:00",
+ "bijgewerkt": "2026-11-20T09:57:31+07:00",
  "gezondheid": {
   "streak": 8,
   "laatste": {
@@ -9,17 +9,17 @@
    "notitie": null
   },
   "week": {
-   "dagen": 7,
-   "water": 2.25,
-   "koffie": 0.14,
-   "sport": 3,
+   "dagen": 6,
+   "water": 2.21,
+   "koffie": 0.17,
+   "sport": 2,
    "sauna": 0,
-   "alcoholvrij": 7,
+   "alcoholvrij": 6,
    "alcohol": 0,
    "fysiek": 2.0,
    "mentaal": 2.0,
    "ziek": 0,
-   "water25": 4
+   "water25": 3
   },
   "jaar": {
    "dagen": 38,
@@ -31,10 +31,6 @@
   },
   "reeksen": {
    "water": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -86,13 +82,13 @@
     {
      "d": "2026-11-19",
      "v": 2.49
+    },
+    {
+     "d": "2026-11-20",
+     "v": null
     }
    ],
    "koffie": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -144,13 +140,13 @@
     {
      "d": "2026-11-19",
      "v": 0.0
+    },
+    {
+     "d": "2026-11-20",
+     "v": null
     }
    ],
    "alcohol": [
-    {
-     "d": "2026-11-06",
-     "v": null
-    },
     {
      "d": "2026-11-07",
      "v": null
@@ -202,334 +198,193 @@
     {
      "d": "2026-11-19",
      "v": 0.0
+    },
+    {
+     "d": "2026-11-20",
+     "v": null
     }
    ]
   },
   "inzichten": [
-   "Water: gemiddeld 2,25 l per dag. Nog 0,25 l tot je doel van 2,5 l.",
-   "7 van 7 dagen alcoholvrij.",
-   "3 sportdagen deze week."
+   "Water: gemiddeld 2,21 l per dag. Nog 0,29 l tot je doel van 2,5 l.",
+   "6 van 6 dagen alcoholvrij.",
+   "2 sportdagen deze week."
   ]
  },
- "lifestyle": [
-  {
-   "label": "Mode",
-   "titel": "De schoenentrends van herfst en winter",
-   "samenvatting": "Enkellaarsjes en hoge laarzen in warme aardetinten leiden deze winter. Daarnaast zie je slanke retrosneakers en loafers met een zachte, pluizige voering.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/442290-de-damesschoenen-trends-voor-de-herfst-en-winter-2026.html"
-  },
-  {
-   "label": "Mode",
-   "titel": "Low-profile sneakers bepalen dit najaar",
-   "samenvatting": "Slanke, discrete sneakers zijn de schoen van het seizoen. Ze passen bij een jurk, een broek of een lange jas.",
-   "bron": "ELLE",
-   "url": "https://www.elle.be/nl/442346-low-profile-sneakertrends-najaar-2026.html"
-  },
-  {
-   "label": "Mode",
-   "titel": "20 feestjurken voor het eindejaar",
-   "samenvatting": "Een selectie van de mooiste feestjurken voor de laatste weken van het jaar. Handig als je nog op zoek bent naar een outfit voor de feestdagen.",
-   "bron": "Feeling",
-   "url": "https://www.feeling.be/mode/feestjurken-eindejaar"
-  },
-  {
-   "label": "Mode",
-   "titel": "Olijfgroen is dé kleur van de winter",
-   "samenvatting": "Olijfgroen voelt warmer en verzorgder dan kaki en past bij elke huidskleur. Combineer het met bordeaux en camel, of met roze en lila voor meer contrast.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/420089-bye-bruin-deze-groene-tint-is-de-modekleur-van-winter-2026.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "10 deco-items die je huis klaarmaken voor de herfst",
-   "samenvatting": "Met een paar details zoals textiel, kaarsen en warme kleuren maak je je interieur meteen gezelliger. Elle toont de items die het seizoen bepalen.",
-   "bron": "ELLE",
-   "url": "https://www.elle.be/nl/439665-deze-deco-items-bepalen-het-najaar-van-2026.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "12 iconische geurkaarsen voor een luxe chaletsfeer",
-   "samenvatting": "Een selectie geurkaarsen die je huis laat ruiken naar een chalet in de bergen.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/421574-12-iconische-geurkaarsen-luxe-chalet-sfeer.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Zo maak je het deze winter gezellig in huis",
-   "samenvatting": "Simpele ideeën om je huis warmer en knusser te maken tijdens de koude maanden.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/416705-zo-maak-je-het-deze-winter-gezellig-in-huis.html"
-  },
-  {
-   "label": "Interieur",
-   "titel": "De salontafel als middelpunt van je woonkamer",
-   "samenvatting": "De salontafel wordt een echte blikvanger in het interieur. Elle zet de vormen en materialen op een rij die nu in zijn.",
-   "bron": "ELLE",
-   "url": "https://www.elle.be/nl/432190-de-salontafel-als-middelpunt-interieurtrends-voor-2026.html"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Interieurtrends van het najaar volgens experts",
-   "samenvatting": "Donkere houttinten, glanzende en spiegelende oppervlakken en hotelachtige inkomhallen staan centraal. Mensen kiezen ook vaker voor persoonlijk design met een geleefd randje.",
-   "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Modern landelijk wonen met karakter",
-   "samenvatting": "Een stijl die landelijk en eigentijds mixt, met natuurlijke materialen en sfeer. vtwonen geeft tips om het in je eigen huis toe te passen.",
-   "bron": "vtwonen",
-   "url": "https://www.vtwonen.be/vtwonen-landelijk/modern-landelijk-wonen-interieur-stijl~6ffcb5d"
-  }
- ],
- "voeding": [
-  {
-   "label": "Recept",
-   "titel": "Knolselder en linzen met hazelnoten en munt",
-   "samenvatting": "Een warme, aardse schotel met knolselder, linzen en knapperige hazelnoten. Verse munt zorgt voor frisheid.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/celeriac-lentils-hazelnuts-mint"
-  },
-  {
-   "label": "Recept",
-   "titel": "Rode linzendal met butternut",
-   "samenvatting": "Een zachte, kruidige dal met rode linzen en zoete pompoen. Eén pan, plantaardig en verwarmend.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde pompoen met harissa en tahinisaus",
-   "samenvatting": "Pompoenblokjes uit de oven met harissa en knoflook, overgoten met een saus van tahini, limoen en ahornsiroop. Werk af met koriander en lente-ui.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/harissa-roast-pumpkin-tahini-sauce"
-  },
-  {
-   "label": "Recept",
-   "titel": "Rode linzen- en snijbietsoep",
-   "samenvatting": "Een eenvoudige soep met linzen en snijbiet, vol groen en vezels. Lekker voor een koude dag.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/red-lentil-chard-soup"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geconfijte prei met puy-linzen en preicrème",
-   "samenvatting": "Prei wordt langzaam zacht gegaard en gecombineerd met stevige linzen. Een elegant winters gerecht.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/confit-leeks-puy-lentils-leek-cream"
-  },
-  {
-   "label": "Recept",
-   "titel": "Hummus met geroosterde spruitjes en kastanjes",
-   "samenvatting": "Gladde hummus met tahini als bedje voor geroosterde spruitjes, kastanjes en krokante salie. Een feestelijk wintergerecht met citroen en komijn.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/festive-hummus-roasted-brussels-sprouts-chestnuts"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Duurzamer eten op school en in het woonzorgcentrum",
-   "samenvatting": "De Vlaamse overheid heeft een handleiding klaar met richtlijnen voor duurzamere catering. Meer groenten en plantaardige eiwitten staan centraal.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/14/duurzame-catering-richtlijnen-agentschap/"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Wapen je tegen de winter met groenten en fruit",
-   "samenvatting": "Een diëtist raadt aan om in de winter bij twee maaltijden per dag groenten of fruit te eten en niets te verbieden. Drink genoeg water en kies bij zoetigheid voor kwaliteit.",
-   "bron": "Gezond.be",
-   "url": "https://gezond.be/wapen-je-tegen-de-winter-eet-je-winterklaar-met-de-tips-van-dietist-michael-sels/"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Zo houd je je weerstand op peil in de winter",
-   "samenvatting": "Slaap, beweging, stressbeheer en gevarieerd eten ondersteunen je afweer. Omdat de zon in de winter zwak is, kan een vitamine D-supplement nuttig zijn.",
-   "bron": "Gezond.be",
-   "url": "https://gezond.be/hoe-je-weerstand-opbouwen-en-verhogen-in-de-winter/"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Gooi de schil van je groenten niet zomaar weg",
-   "samenvatting": "Een Britse studie toont dat we bij tien van de twaalf onderzochte groenten en fruit juist de voedzaamste delen weggooien, zoals wortel- en pompoenschillen. Goed gewassen kunnen die je vezelinname verhogen.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/03/schil-je-groenten-en-fruit-niet-zomaar/"
-  }
- ],
  "header": {
   "ochtend": {
    "titel": "Goeiemorgen, Sévérine",
-   "sub": "Een winterse linzenschotel van Ottolenghi en een nieuw boek over een wereld op rails staan klaar."
+   "sub": "Een Ottolenghi-gerecht met kikkererwten, een wandeling in Averbode en een nieuw boek van Ann Patchett staan klaar."
   },
   "middag": {
    "titel": "Fijne middag, Sévérine",
-   "sub": "Low-profile sneakers als schoen van het najaar en Night of the Proms in Antwerpen."
+   "sub": "Ontdek de modetrends van dit najaar en een kerstmarkt die je met de trein bereikt."
   },
   "avond": {
    "titel": "Goeienavond, Sévérine",
-   "sub": "Deco-items voor een gezellige woonkamer, een romantasyboek en je logboek van de week."
+   "sub": "Een rustige quote, je horoscoop en een boek om bij weg te dromen."
   },
   "nacht": {
    "titel": "Nog even bijlezen, Sévérine?",
-   "sub": "Morgen weer nieuwe tips."
+   "sub": "Morgen weer nieuwe tips en ideeën."
   }
  },
- "antwerpen": [
-  {
-   "label": "Evenement",
-   "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
-   "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
-   "bron": "Trip by Trip",
-   "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
-  },
-  {
-   "label": "Evenement",
-   "titel": "Night of the Proms in de AFAS Dome",
-   "samenvatting": "Van 20 tot 22 november vult de AFAS Dome zich met klassieke muziek en pop, met een groot orkest en koor.",
-   "bron": "AFAS Dome",
-   "url": "https://www.afas-dome.be/en/event/night-of-the-proms-2026-9a1be268"
-  },
-  {
-   "label": "Tentoonstelling",
-   "titel": "Guy Vandenbranden in het KMSKA",
-   "samenvatting": "Het KMSKA eert de abstracte kunstenaar Guy Vandenbranden bij zijn honderdste geboortedag, met felle kleuren en geometrische vormen. Te zien van 16 oktober 2026 tot en met 17 januari 2027.",
-   "bron": "Trip by Trip",
-   "url": "https://tripbytrip.org/2026/10/19/antwerp-kmska-fine-arts-museum-puts-belgian-abstract-artist-guy-vandenbranden-in-the-european-avant-garde/"
-  },
-  {
-   "label": "Tentoonstelling",
-   "titel": "Tentoonstellingen dit najaar in Antwerpen",
-   "samenvatting": "Visit Antwerpen zet de tentoonstellingen en culturele tips voor het najaar op een rij. Handig om een museumdag te plannen.",
-   "bron": "Visit Antwerpen",
-   "url": "https://press.visitantwerpen.be/exhibitions-and-more-in-antwerp-this-autumn"
-  },
-  {
-   "label": "Nieuws",
-   "titel": "Boektopia klokt af op bijna 90.000 bezoekers",
-   "samenvatting": "De boekenbeurs was voor het eerst in Kortrijk én Antwerpen te gast. In Antwerpen kwamen veel bezoekers en scholen op bezoek.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/15/boektopia-klokt-af-op-bijna-90-000-bezoekers/"
-  },
-  {
-   "label": "Nieuws",
-   "titel": "Pop-upfanshop van Antwerp aan de Frankrijklei",
-   "samenvatting": "Royal Antwerp FC opent een tijdelijke fanshop in het stadscentrum. Ze blijft open tot 16 januari 2027.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/04/antwerp-popup-fanshop-frankrijklei"
-  },
-  {
-   "label": "Resto",
-   "titel": "Veranda: eigentijdse bistro in Antwerpen",
-   "samenvatting": "Chef Davy Schellemans werkt met menu's met onder meer crudo van hamachi en houtskoolgegrilde varkensnek. Ze zijn open voor lunch en diner, niet op zondag en maandag.",
-   "bron": "Le Fooding",
-   "url": "https://lefooding.com/nl/restaurants/veranda"
-  },
-  {
-   "label": "Resto",
-   "titel": "De 10 beste nieuwe restaurants in Antwerpen",
-   "samenvatting": "Weekend Knack zet de nieuwste adressen van de stad op een rij. Een inspiratiebron als je eens ergens nieuw wil eten.",
-   "bron": "Knack Weekend",
-   "url": "https://weekend.knack.be/lifestyle/culinair/nieuwe-restaurants-antwerpen/"
-  }
- ],
  "boek_gebruikt": [
   "Peculiar Stars",
-  "Defy the Dusk"
+  "Defy the Dusk",
+  "Whistler"
  ],
  "boek": {
-  "titel": "Defy the Dusk",
-  "auteur": "Danielle L. Jensen",
-  "samenvatting": "Na een ramp die de wereld verbrijzelde, leven mensen op snelle treinen die elke nacht voor roofzuchtige wezens moeten vluchten. Een vrouw wier magie de ramp veroorzaakte, wordt door de leider van de rebellen gevangengenomen. Tussen gedwongen samenwerking en oude plannen groeit een gevaarlijke romance.",
-  "waarom": "Het is net verschenen (3 november) en bij de populairste novemberboeken op Goodreads.",
-  "sterren": 4.43,
-  "aantal": "1.825 beoordelingen",
+  "titel": "Whistler",
+  "auteur": "Ann Patchett",
+  "samenvatting": "In het Metropolitan Museum of Art merkt de 53-jarige Daphne Fuller dat een oudere man haar en haar echtgenoot volgt. Het blijkt Eddie Triplett, haar vroegere stiefvader die ze decennia niet zag. Hun weerzien roept herinneringen op aan de korte tijd dat ze een gezin vormden. Een stil, bedachtzaam verhaal over liefde, geheugen en de mensen die bij je blijven.",
+  "waarom": "De roman verscheen in juni 2026 en staat nu bij de genomineerden voor Readers' Favorite Fiction in de Goodreads Choice Awards.",
+  "sterren": 4.28,
+  "aantal": "279.046 beoordelingen",
   "bron": "Goodreads",
-  "url": "https://www.goodreads.com/book/show/249687122-defy-the-dusk"
+  "url": "https://www.goodreads.com/book/show/242693052-whistler",
+  "isbn": "9780063511637"
  },
  "ontdek": [
   {
+   "label": "Recept",
+   "titel": "Confit tandoori-kikkererwten uit de oven",
+   "samenvatting": "Ottolenghi laat kikkererwten met look, gember, kerstomaatjes en kruiden anderhalf uur zacht garen in olijfolie. Je serveert ze met een frisse yoghurt-muntsaus en limoen; met een plantaardige yoghurt is het gerecht vegan.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/pages/recipes/confit-tandoori-chickpeas"
+  },
+  {
+   "label": "Wandelroute",
+   "titel": "Norbertijnenwandeling in Averbode (9,3 km)",
+   "samenvatting": "Een lus van ongeveer 9,3 km die start aan de abdij van Averbode (Herseltsebaan 2) en door bos, heide en wijers loopt. Onderweg passeer je het Mariapark en de Weefberg; Visit Flanders rekent de route tot zijn Flanders' Finest-wandelingen.",
+   "bron": "Visit Flanders",
+   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/norbertijnenwandeling"
+  },
+  {
    "label": "Mode",
-   "titel": "De schoenentrends van herfst en winter",
-   "samenvatting": "Enkellaarsjes en hoge laarzen in warme aardetinten leiden deze winter. Daarnaast zie je slanke retrosneakers en loafers met een zachte, pluizige voering.",
+   "titel": "Zes modetrends voor dit najaar",
+   "samenvatting": "ELLE zet de trends van het seizoen op een rij: aangepaste tailoring, nieuwe romantiek met volants, krokodillenleer, fluweel en geweven bloemenprints. Handig om te weten wat je kleerkast kan opfrissen zonder alles te vervangen.",
    "bron": "ELLE België",
-   "url": "https://www.elle.be/nl/442290-de-damesschoenen-trends-voor-de-herfst-en-winter-2026.html"
+   "url": "https://www.elle.be/nl/437406-herfst-2026-modetrends.html"
   },
   {
-   "label": "Mode",
-   "titel": "Low-profile sneakers bepalen dit najaar",
-   "samenvatting": "Slanke, discrete sneakers zijn de schoen van het seizoen. Ze passen bij een jurk, een broek of een lange jas.",
-   "bron": "ELLE",
-   "url": "https://www.elle.be/nl/442346-low-profile-sneakertrends-najaar-2026.html"
+   "label": "Antwerpen",
+   "titel": "Topchef Johan Segers heropent 't Fornuis aan de overkant van de straat",
+   "samenvatting": "Na bijna vijftig jaar bij de Groenplaats verhuist het restaurant naar een vijftiende-eeuwse patriciërswoning in de Leeuwenstraat. De Michelinster gaat niet automatisch mee: het nieuwe adres wordt in het voorjaar opnieuw beoordeeld, schrijft VRT NWS.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/10/13/sterrenchef-johan-segers-t-fornuis-heropening-overkant-straat-a/"
   },
   {
-   "label": "Mode",
-   "titel": "20 feestjurken voor het eindejaar",
-   "samenvatting": "Een selectie van de mooiste feestjurken voor de laatste weken van het jaar. Handig als je nog op zoek bent naar een outfit voor de feestdagen.",
-   "bron": "Feeling",
-   "url": "https://www.feeling.be/mode/feestjurken-eindejaar"
+   "label": "Koffietrend",
+   "titel": "Specialty coffee wordt gewoon: kwaliteit boven massa",
+   "samenvatting": "Volgens Forbes België kiezen steeds meer mensen koffie waarvan ze herkomst en verwerking kennen, en ook Antwerpen speelt als grootste koffiehaven van Europa een rol. Een Belgische start-up stelt via een smaakquiz abonnementen van verschillende branders samen.",
+   "bron": "Forbes België",
+   "url": "https://www.forbes.be/nl/van-commodity-naar-craft-hoe-specialty-coffee-de-koffiemarkt-verandert/"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Kleuren van 2026: een warme omhelzing voor je huis",
+   "samenvatting": "vtwonen zet de kleuren van het jaar van verschillende merken naast elkaar. Het draait om een rustige crèmewit als basis, aangevuld met diepe tinten zoals aubergine, damson en warm bruin.",
+   "bron": "vtwonen België",
+   "url": "https://www.vtwonen.be/woontrends/kleurtrends-2026-interieur-merken~b94d054"
+  },
+  {
+   "label": "Citytrip",
+   "titel": "Kerstmarkt met de trein vanuit Brussel-Zuid",
+   "samenvatting": "ELLE zet tien kerstmarkten op een rij die je met de trein bereikt, met Aken (ongeveer 1u15), Keulen en Londen (elk onder twee uur) als vlotste keuzes. Verder weg liggen Straatsburg en Metz (circa 4 uur) en Colmar (circa 5 uur).",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/442250-naar-deze-kerstmarkten-kan-je-vanuit-belgie-met-de-trein-naartoe.html"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Waarom peulvruchten in je winterse menu thuishoren",
+   "samenvatting": "Gezond.be legt uit dat linzen, bonen en erwten veel eiwitten en vezels leveren en je langer een verzadigd gevoel geven. Je kan ze goed in de plaats van vlees of aardappelen gebruiken, vers, gedroogd of uit blik.",
+   "bron": "Gezond.be",
+   "url": "https://gezond.be/peulvruchten-zijn-gezonde-superfoods"
+  },
+  {
+   "label": "Wijntrend",
+   "titel": "Minder wijn drinken, maar beter",
+   "samenvatting": "Een Nederlandse wijnblog beschrijft hoe wijndrinkers in de Lage Landen minder volume kiezen maar meer kwaliteit, vaak van kleinere wijnmakers. De tip: proef eens wijnen boven de 10 euro of een proefdoos met verschillende regio's.",
+   "bron": "Perfecte Wijn (blog)",
+   "url": "https://perfectewijn.nl/en/blogs/wijn-weetjes/wijntrend-2026-betere-wijn-minder-volume"
+  },
+  {
+   "label": "Wandelroute",
+   "titel": "Alden Biesen-wandelroute in Haspengouw (8,1 km)",
+   "samenvatting": "Een wandeling van ongeveer 8,1 km die begint aan de Landcommanderij Alden Biesen in Bilzen-Hoeselt, met oranje kruisen als markering. Je loopt langs hoogstamboomgaarden, holle wegen en de Demervallei en kan afsluiten in brasserie 't Gasthuis.",
+   "bron": "Visit Flanders",
+   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-haspengouw-de-alden-biesen-wandelroute"
   },
   {
    "label": "Recept",
-   "titel": "Knolselder en linzen met hazelnoten en munt",
-   "samenvatting": "Een warme, aardse schotel met knolselder, linzen en knapperige hazelnoten. Verse munt zorgt voor frisheid.",
+   "titel": "Gestoofde kikkererwten met tamarinde en tomaat",
+   "samenvatting": "Ottolenghi stooft kikkererwten met tamarinde, currypoeder, look en geraspte tomaat tot een geurige, plantaardige stoof. Met kikkererwten uit blik is het sneller klaar; garneer met koriander en geroosterd komijnzaad.",
    "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/celeriac-lentils-hazelnuts-mint"
+   "url": "https://ottolenghi.co.uk/pages/recipes/tamarind-tomato-braised-chickpeas"
   },
   {
-   "label": "Recept",
-   "titel": "Rode linzendal met butternut",
-   "samenvatting": "Een zachte, kruidige dal met rode linzen en zoete pompoen. Eén pan, plantaardig en verwarmend.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde pompoen met harissa en tahinisaus",
-   "samenvatting": "Pompoenblokjes uit de oven met harissa en knoflook, overgoten met een saus van tahini, limoen en ahornsiroop. Werk af met koriander en lente-ui.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/harissa-roast-pumpkin-tahini-sauce"
-  },
-  {
-   "label": "Evenement",
-   "titel": "Winter in Antwerpen: kerstmarkt, reuzenrad en schaatsbaan",
-   "samenvatting": "Van 4 december 2026 tot 3 januari 2027 vult het historische centrum zich opnieuw met kerstkraampjes, een ijspiste, een reuzenrad en winterbars.",
-   "bron": "Trip by Trip",
-   "url": "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/"
-  },
-  {
-   "label": "Evenement",
-   "titel": "Night of the Proms in de AFAS Dome",
-   "samenvatting": "Van 20 tot 22 november vult de AFAS Dome zich met klassieke muziek en pop, met een groot orkest en koor.",
-   "bron": "AFAS Dome",
-   "url": "https://www.afas-dome.be/en/event/night-of-the-proms-2026-9a1be268"
-  },
-  {
-   "label": "Tentoonstelling",
-   "titel": "Guy Vandenbranden in het KMSKA",
-   "samenvatting": "Het KMSKA eert de abstracte kunstenaar Guy Vandenbranden bij zijn honderdste geboortedag, met felle kleuren en geometrische vormen. Te zien van 16 oktober 2026 tot en met 17 januari 2027.",
-   "bron": "Trip by Trip",
-   "url": "https://tripbytrip.org/2026/10/19/antwerp-kmska-fine-arts-museum-puts-belgian-abstract-artist-guy-vandenbranden-in-the-european-avant-garde/"
+   "label": "Antwerpen",
+   "titel": "Ossip Zadkine en België in het KMSKA",
+   "samenvatting": "Het Antwerpse museum toont meer dan honderd beeldhouwwerken, tekeningen, prenten en wandtapijten van Zadkine. De tentoonstelling loopt sinds eind oktober tot 18 april 2027, meldt VRT NWS.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/10/28/ossip-zadkine-kmska-expo-beeldhouwkunst-sculptuur-antwerpen/"
   }
  ],
- "ontdek_gebruikt": [],
+ "ontdek_gebruikt": [
+  {
+   "datum": "2026-11-20",
+   "onderwerpen": [
+    "Antwerpen",
+    "Citytrip",
+    "Gezond leven",
+    "Interieur",
+    "Koffietrend",
+    "Mode",
+    "Recept",
+    "Wandelroute",
+    "Wijntrend"
+   ],
+   "urls": [
+    "https://ottolenghi.co.uk/pages/recipes/confit-tandoori-chickpeas",
+    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/norbertijnenwandeling",
+    "https://www.elle.be/nl/437406-herfst-2026-modetrends.html",
+    "https://www.vrt.be/vrtnws/nl/2026/10/13/sterrenchef-johan-segers-t-fornuis-heropening-overkant-straat-a/",
+    "https://www.forbes.be/nl/van-commodity-naar-craft-hoe-specialty-coffee-de-koffiemarkt-verandert/",
+    "https://www.vtwonen.be/woontrends/kleurtrends-2026-interieur-merken~b94d054",
+    "https://www.elle.be/nl/442250-naar-deze-kerstmarkten-kan-je-vanuit-belgie-met-de-trein-naartoe.html",
+    "https://gezond.be/peulvruchten-zijn-gezonde-superfoods",
+    "https://perfectewijn.nl/en/blogs/wijn-weetjes/wijntrend-2026-betere-wijn-minder-volume",
+    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-haspengouw-de-alden-biesen-wandelroute",
+    "https://ottolenghi.co.uk/pages/recipes/tamarind-tomato-braised-chickpeas",
+    "https://www.vrt.be/vrtnws/nl/2026/10/28/ossip-zadkine-kmska-expo-beeldhouwkunst-sculptuur-antwerpen/"
+   ]
+  }
+ ],
  "horoscoop": {
   "tekens": {
-   "ram": "Wordt dagelijks aangevuld.",
-   "stier": "Wordt dagelijks aangevuld.",
-   "tweelingen": "Wordt dagelijks aangevuld.",
-   "kreeft": "Wordt dagelijks aangevuld.",
-   "leeuw": "Wordt dagelijks aangevuld.",
-   "maagd": "Wordt dagelijks aangevuld.",
-   "weegschaal": "Wordt dagelijks aangevuld.",
-   "schorpioen": "Wordt dagelijks aangevuld.",
-   "boogschutter": "Wordt dagelijks aangevuld.",
-   "steenbok": "Wordt dagelijks aangevuld.",
-   "waterman": "Wordt dagelijks aangevuld.",
-   "vissen": "Wordt dagelijks aangevuld."
+   "ram": "Je oordeel of je werk wordt vandaag misschien even op de proef gesteld. Wijs niet meteen naar een ander als iets tegenzit. Met wat geduld en zorgvuldigheid kom je er rustig doorheen en leer je er iets van.",
+   "stier": "Een scherpe reactie kan vandaag meer kwaad dan goed doen. Kies voor een kalme toon en zeg niets wat je later niet meer kan terugnemen. Zwijgen tot je zeker bent van je zaak is een goede strategie.",
+   "tweelingen": "Niet alles loopt vandaag zoals gepland en hier en daar duikt een hindernis op. Neem het rustig en zie het als een kleine uitdaging. Ook als een plan niet lukt, kan het eindresultaat nog goed uitdraaien.",
+   "kreeft": "Zorgen lijken vandaag wat groter dan ze zijn. Ga na welke echt belangrijk zijn en laat de rest even los. Zo bewaar je je energie voor wat telt.",
+   "leeuw": "Het lijkt of de dingen zonder reden stilvallen. Probeer er niet met geweld doorheen te gaan, maar neem liever een omweg. Het duurt misschien iets langer, maar je doet er waardevolle ervaring mee op.",
+   "maagd": "Vandaag loopt het vlot en geniet je echt van wat je doet. Je straalt positieve energie uit en anderen komen je om raad vragen. Blijf bescheiden en laat je inspireren door de plannen van anderen.",
+   "weegschaal": "Op het werk kan iets tegenvallen, maar zie het als een kans om te groeien. Zeg wat je denkt en luister ook goed naar de mensen om je heen. Gun jezelf vandaag zoveel rust als je kan.",
+   "schorpioen": "Het is een goed moment om iets nieuws te beginnen. Succes kan sommigen jaloers maken, dus blijf bescheiden. Je naasten denken graag met je mee, en een rustig weekend of een korte uitstap kan deugd doen.",
+   "boogschutter": "Je voelt je zeker van jezelf en hebt de touwtjes in handen, thuis en op het werk. Dat merken anderen ook. Je bent goed in geven en ontvangen, en houd je zelfbeheersing vast.",
+   "steenbok": "Je straalt vandaag rust en zelfvertrouwen uit, met veel energie en enthousiasme. Mensen om je heen voelen zich op hun gemak bij jou. Collega's en vrienden vertrouwen je graag iets toe en vragen je advies.",
+   "waterman": "Je geduld wordt vandaag misschien even getest. Vertrouw op je eigen kunnen, want je kan veel zelf bijsturen. Blijf kalm en rond lopende zaken af, en gebruik de dag om iets bij te leren.",
+   "vissen": "Zo'n helder en kalm gevoel heb je niet vaak. Het is een mooi moment om een oud onenigheidje met collega's of familie recht te zetten. Wat onoplosbaar leek, kan nu naar de achtergrond verdwijnen."
   },
-  "bron": ""
+  "bron": "Horoscoop.be (daghoroscoop 20 november, herschreven in eigen woorden)"
  },
  "quote": {
-  "tekst": "Het verleden is voorbij, de toekomst is er nog niet; leef in het nu.",
-  "auteur": "Boeddhistische wijsheid"
- }
+  "tekst": "Ademend in kalmeer ik lichaam en geest. Ademend uit glimlach ik. Verblijvend in het huidige moment weet ik: dit is het enige moment.",
+  "auteur": "Thich Nhat Hanh",
+  "bron": "https://www.goodreads.com/quotes/95802-breathing-in-i-calm-body-and-mind-breathing-out-i"
+ },
+ "quote_gebruikt": [
+  "Het verleden is voorbij, de toekomst is er nog niet",
+  "Ademend in kalmeer ik lichaam en geest"
+ ]
 }
