@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-21T06:10:00+07:00",
+ "bijgewerkt": "2026-11-22T05:33:25+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -8,66 +8,67 @@
   "Filipijnen",
   "Thailand",
   "Indonesië",
-  "Sri Lanka"
+  "Sri Lanka",
+  "Singapore"
  ],
  "nieuws": [
   {
-   "titel": "Francisco (17) wint de Kindervredesprijs",
-   "samenvatting": "Francisco komt uit Colombia en zet zich al jaren in voor de natuur en het klimaat. Al toen hij negen was, nam hij vrienden mee om te protesteren.",
+   "titel": "Deze kinderen hebben door dassen geen voetbalveld",
+   "samenvatting": "Een voetbalclub moet op een honkbalveld spelen. Onder het voetbalveld wonen namelijk dassen, en die mogen niet gestoord worden.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640186"
+   "url": "https://jeugdjournaal.nl/l/2640457"
   },
   {
-   "titel": "De nieuwe Jeugdjournaal-tune is gemaakt met speelgoed",
-   "samenvatting": "In de nieuwe intro hoor je een fidget spinner, een knikker en een pop-it. Kijk maar eens hoe ze die muziek hebben gemaakt.",
+   "titel": "Hidde maakte als kind een kerstliedje dat viral ging",
+   "samenvatting": "Hidde verzon op zijn twaalfde zomaar een kerstliedje terwijl hij de kerstboom versierde. Het filmpje werd meer dan 1,5 miljoen keer bekeken.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640313"
+   "url": "https://jeugdjournaal.nl/artikel/2640371-hidde-maakte-als-kind-een-kerstliedje-dat-viral-ging-het-is-een-lekkere-kersthit"
   },
   {
-   "titel": "Hoge nood? Hier kan je het best naar de wc",
-   "samenvatting": "Op Wereld Toilet Dag is Veere uitgeroepen tot de plek met de beste openbare wc's van Nederland. Het dorp kreeg een 7,5.",
+   "titel": "In Friesland krijgen verkeersborden twee talen",
+   "samenvatting": "Op de borden komt naast het Nederlands ook het Fries te staan. Zo zie je in Friesland straks beide talen op de weg.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640124"
+   "url": "https://jeugdjournaal.nl/artikel/2640385-in-friesland-worden-verkeersborden-tweetalig"
   },
   {
-   "titel": "Stray Kids komt volgend jaar naar Nederland",
-   "samenvatting": "De K-popgroep Stray Kids geeft op 27 juli 2027 een concert in Arnhem. Niet alle bandleden zijn erbij.",
+   "titel": "Speel de Jeugdjournaal Nieuwsquiz",
+   "samenvatting": "Weet jij wat er de laatste tijd in het nieuws was? Test het met de quiz van het Jeugdjournaal.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2638740"
+   "url": "https://jeugdjournaal.nl/artikel/2640373-speel-de-jeugdjournaal-nieuwsquiz"
   }
  ],
  "dieren": [
   {
-   "titel": "Pluizige eendjes en gansjes gaan op ontdekking",
-   "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=vMMZU-2QdVw",
+   "titel": "Een piepklein otterbabytje waagt zich buiten het nest",
+   "bron": "ZooBorns (YouTube)",
+   "url": "https://www.youtube.com/watch?v=7EP8NqQyUmM",
    "soort": "video"
   },
   {
-   "titel": "Babyolifant Tula-Tu speelt met mama in een hoop hooi",
+   "titel": "Schattige babycapibara's in de dierentuin",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=HzUaezuTxDI",
+   "url": "https://www.youtube.com/watch?v=EdiLwQenlMQ",
    "soort": "video"
   },
   {
-   "titel": "Babyneushoorn geboren in ZOO Planckendael",
+   "titel": "Lammetjes springen vrolijk rond",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=-xgFGqg1Who",
+   "url": "https://www.youtube.com/watch?v=yNrIcB3Bozw",
    "soort": "video"
   }
  ],
  "films": [
   {
    "titel": "Hexed",
-   "samenvatting": "Billie ontdekt dat ze geheime heksenkrachten heeft en belandt met haar mama in een magische wereld vol heksen. Je ziet de Disney-film vanaf 25 november in de bioscoop.",
+   "samenvatting": "Billie ontdekt dat ze geheime heksenkrachten heeft en belandt in een magische wereld vol heksen. De Disney-film draait vanaf woensdag 25 november in de bioscoop.",
    "bron": "Kidshoekje",
    "url": "https://kidshoekje.nl/2026/11/18/disneys-hexed-nieuwe-magische-disney-film/",
-   "video": "https://www.youtube.com/watch?v=4qMlKkC9V3M",
+   "video": "https://www.youtube.com/watch?v=em1vQ2ndSUc",
    "datum": "2026-11-25"
   },
   {
    "titel": "Miraculous: Ladybug & Cat Noir, seizoen 7",
-   "samenvatting": "Ladybug en Cat Noir beleven nieuwe superheldenavonturen in Parijs. Het nieuwe seizoen komt eind november op Disney+.",
+   "samenvatting": "Ladybug en Cat Noir beleven nieuwe superheldenavonturen in Parijs. Het nieuwe seizoen komt op Disney+.",
    "bron": "Señal News",
    "url": "https://senalnews.com/en/content/miraculous-season-7-set-for-global-rollout-across-disney-globo-and-tf1",
    "video": "https://www.youtube.com/watch?v=M6riW0bZigY",
@@ -75,94 +76,94 @@
   }
  ],
  "land": {
-  "datum": "2026-11-21",
-  "naam": "Sri Lanka",
-  "hoofdstad": "Sri Jayawardenepura Kotte",
-  "vlag": "🇱🇰",
-  "iso2": "lk",
-  "iso": "144",
-  "lat": 7.87,
-  "lon": 80.77,
-  "inwoners": "ongeveer 22 miljoen",
+  "datum": "2026-11-22",
+  "naam": "Singapore",
+  "hoofdstad": "Singapore",
+  "vlag": "🇸🇬",
+  "iso2": "sg",
+  "iso": "702",
+  "lat": 1.35,
+  "lon": 103.82,
+  "inwoners": "ongeveer 6 miljoen",
   "weetjes": [
-   "Sri Lanka is een eiland in de Indische Oceaan. Colombo is de grootste stad.",
-   "Het land is beroemd om zijn thee. De Britten begonnen er thee te telen toen een ziekte de koffieplanten kapotmaakte.",
-   "In het Minneriya-park komen in het droge seizoen heel veel olifanten samen bij een meer. Zo'n eiland heeft geen buurlanden over land: India ligt aan de overkant van de zee."
+   "Singapore is een klein eiland en tegelijk een stad en een land. Het ligt in Zuidoost-Azië, vlak bij de evenaar.",
+   "Het heet de 'tuinstad' omdat er zoveel parken en bomen zijn. In Gardens by the Bay staan reuzenboomtorens met planten erop.",
+   "Singapore heeft geen buurlanden over land. Maleisië ligt vlak ten noorden en Indonesië ten zuiden, telkens aan de overkant van het water."
   ]
  },
  "raadsel": {
-  "vraag": "Hoe meer je eruit haalt, hoe groter het wordt. Wat is het?",
-  "oplossing": "Een gat",
-  "uitleg": "Als je grond uit een gat schept, wordt het gat groter.",
+  "vraag": "Welke maand heeft 28 dagen?",
+  "oplossing": "Alle maanden",
+  "uitleg": "Elke maand heeft minstens 28 dagen. Februari heeft er maar net 28 of 29.",
   "opties": [
-   "Een gat",
-   "Een zak",
-   "Een ballon",
-   "Een sok"
+   "Alleen februari",
+   "Alle maanden",
+   "Geen enkele",
+   "Maart"
   ]
  },
  "mensen": [
   {
    "label": "Camille",
-   "titel": "Kijk de clip van 'Magie'",
-   "samenvatting": "Camille zingt in deze videoclip het liedje 'Magie'. Zet het geluid aan en zing mee.",
+   "titel": "Kijk de clip van 'Oostende'",
+   "samenvatting": "Camille zingt in deze videoclip over Oostende aan zee. Zet het geluid aan en zing mee.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=OBGMb_Mw79c"
+   "video": "https://www.youtube.com/watch?v=_uT_zhur7Rk"
   },
   {
    "label": "Pommelien Thijs",
-   "titel": "Deluxe-versie van 'Gedoe' komt eraan",
-   "samenvatting": "Pommelien kondigde een deluxe-versie van haar album 'Gedoe' aan. Op 4 december komen er 6 nieuwe liedjes bij, zoals 'Onomatopee'.",
-   "bron": "VRT",
-   "url": "https://www.vrt.be/nwsnwsnws/nl/post/2026/11/08/pommelien_gedoe/"
+   "titel": "Kijk de clip van 'Atlas'",
+   "samenvatting": "Met 'Atlas' won Pommelien de Zomerhit van de VRT. Bekijk hier de officiële video.",
+   "bron": "YouTube",
+   "video": "https://www.youtube.com/watch?v=C0FC1hO8aMc"
   },
   {
    "label": "Aaron Blommaert",
-   "titel": "'Hoe zit het met ons?'",
-   "samenvatting": "Aaron zingt dit liedje in zijn videoclip. Kijk en luister mee.",
+   "titel": "Aaron zingt 'Donderdag'",
+   "samenvatting": "In dit liedje zingt Aaron over een donderdag. Kijk en luister mee.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=M-BTdd1mWh4"
+   "video": "https://www.youtube.com/watch?v=bb_2j-RfTBA"
   },
   {
    "label": "Maksim",
-   "titel": "Nog meer 'Magie'",
-   "samenvatting": "Night of the Proms loopt nog tot en met 22 november in de AFAS Dome in Antwerpen. Maksim zingt er met een groot orkest en koor.",
-   "bron": "AFAS Dome",
-   "url": "https://www.afas-dome.be/nieuws/maksim-meedoen-aan-night-of-the-proms-is-een-droom-die-uitkomt"
+   "titel": "Duet met Hannah Mae",
+   "samenvatting": "Maksim zingt samen met Hannah Mae 'Ik wil dat je liegt'. Dit duet won in 2024 de Zomerhit.",
+   "bron": "YouTube",
+   "video": "https://www.youtube.com/watch?v=1Wvtkgi-3eI"
   }
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Hallo Sri Lanka 🐘",
-   "sub": "Vandaag ontdek je een eiland vol thee en olifanten en knutsel je een sneeuwvlok van ijsstokjes.",
+   "titel": "Goeiemorgen, Ida! Hallo Singapore 🌳",
+   "sub": "Vandaag ontdek je een stadstaat vol reuzenbomen en knutsel je een pinguïn van papier.",
    "iconen": [
-    "🐘",
-    "🍃",
-    "🏝️",
+    "🌳",
+    "🇸🇬",
+    "🐧",
     "❄️",
     "☀️",
-    "🌴"
+    "🏙️"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, kijk die babyolifant! 🐘",
-   "sub": "Een olifantje speelt in het hooi, en er zwemmen eendjes rond. Zin om te knutselen?",
+   "titel": "Hoi Ida, kijk die babyotter! 🦦",
+   "sub": "Een otterbaby, babycapibara's en springende lammetjes wachten op je.",
    "iconen": [
-    "🐘",
-    "🦆",
-    "🦏",
-    "❄️",
+    "🦦",
+    "🐑",
+    "🐹",
     "🎨",
-    "✂️"
+    "✂️",
+    "🐧"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Soep met kip 🥕",
-   "sub": "Vanavond kan je wortelsoep proeven en er wacht een raadsel over een gat.",
+   "titel": "Goeienavond, Ida! Zalm uit de oven 🐟",
+   "sub": "Vanavond kan je een ovenschotel proeven en los je een raadsel over maanden op.",
    "iconen": [
-    "🥕",
+    "🐟",
     "🧩",
-    "🍲",
+    "🍽️",
     "🌙",
     "⭐",
     "🎵"
@@ -182,60 +183,62 @@
   }
  },
  "knutsel": {
-  "titel": "Sneeuwvlokken van ijsstokjes en knopen",
-  "intro": "Maak een glinsterende sneeuwvlok om in het raam te hangen.",
+  "titel": "Pinguïn van papieren cirkels",
+  "intro": "Maak een schattige pinguïn in 3D om aan je raam of kerstboom te hangen.",
   "materiaal": [
-   "6 ijsstokjes",
-   "Knopen in verschillende kleuren",
-   "Lijm (geen hete lijm nodig)",
-   "Een stukje touw",
-   "Eventueel glitter of witte verf"
+   "Zwart of donkerblauw papier",
+   "Restjes wit, geel en oranje papier",
+   "Een schaar",
+   "Lijmstift",
+   "Een stukje touw of garen"
   ],
   "stappen": [
-   "Leg 3 ijsstokjes als een ster over elkaar, zodat je 6 punten krijgt, en lijm ze op elkaar.",
-   "Laat de lijm even drogen.",
-   "Plak knopen op de punten en in het midden van de ster.",
-   "Versier met glitter of een beetje witte verf als je dat leuk vindt.",
-   "Knoop een lusje touw vast en hang je sneeuwvlok op."
+   "Knip uit zwart papier een stapel gelijke cirkels voor het lijf.",
+   "Lijm de cirkels half op elkaar, zodat je een bolletje krijgt, en plak een wit buikje in het midden.",
+   "Maak voor het hoofd ook zo'n bolletje van kleinere cirkels en klem de oranje snavel ertussen.",
+   "Plak het hoofd op het lijf en knoop een lusje touw aan de achterkant vast.",
+   "Plak de vleugels, oranje voetjes en twee oogjes erbij.",
+   "Knip een strookje papier met franjes als sjaal en lijm het rond de nek."
   ],
-  "tip": "Maak er meerdere in verschillende groottes en hang ze samen aan een tak.",
-  "url": "https://www.redtedart.com/snowflakes-crafts-buttons/",
+  "tip": "Gebruik papier in verschillende kleuren voor een hele pinguïnfamilie.",
+  "url": "https://www.redtedart.com/easy-paper-penguin-ornament-greeting-card/",
   "bron": "Red Ted Art"
  },
  "eten": {
-  "titel": "Wortelsoep met kip en rijst",
-  "intro": "Een zachte, oranje soep met stukjes kip en rijst: lekker warm op een koude dag.",
+  "titel": "Ovenschotel met zalm en broccolistoemp",
+  "intro": "Een gezonde ovenschotel met zachte stoemp, stukjes zalm en een krokant laagje kaas.",
   "ingredienten": [
-   "2 kippenbouten",
-   "1 zakje langkorrelrijst",
-   "5 dikke wortelen",
-   "4 stengels bleekselder",
-   "1 stengel prei",
-   "2 uien",
+   "800 g zalm",
+   "700 g broccoli",
+   "700 g aardappelen",
+   "1 ui",
    "1 teentje look",
-   "4 laurierblaadjes",
-   "3 takjes tijm",
-   "3 liter water",
-   "1 klontje boter",
-   "Peper en zout"
+   "75 g boter",
+   "75 g bloem",
+   "3 dl witte wijn (of extra water)",
+   "een scheutje room",
+   "een halve citroen",
+   "150 g geraspte kaas",
+   "tijm, laurier, peper en zout"
   ],
   "stappen": [
-   "Snij de groenten in stukken, met hulp van een volwassene.",
-   "Fruit de uien in een klontje boter in een grote soepketel, met hulp van een volwassene.",
-   "Voeg de bleekselder, prei, wortelen, look, laurier en tijm toe en laat even stoven.",
-   "Giet het water erbij en leg de kippenbouten in de pot. Kruid met peper en zout en voeg de rijst toe.",
-   "Laat de soep ongeveer een uur zachtjes pruttelen.",
-   "Haal de kip eruit en laat een volwassene de soep mixen en zeven.",
-   "Trek het vlees van de botjes en doe het samen met de rijst terug in de soep."
+   "Schil de aardappelen en snij ze samen met de ui in stukjes, met hulp van een volwassene.",
+   "Stoof ui en look in een beetje boter en voeg de aardappelen en de broccoli toe. Laat alles zacht koken en prak er een stoemp van.",
+   "Laat een volwassene de zalm zachtjes garen in water met tijm en laurier.",
+   "Maak met boter, bloem en het kookvocht een gladde saus en voeg room en citroensap toe.",
+   "Plak de zalm in stukjes en meng ze met de saus.",
+   "Doe de stoemp in een ovenschaal, leg de zalm erover en strooi de kaas erop.",
+   "Laat een volwassene de schotel onder de grill goudbruin bakken."
   ],
-  "tip": "Lekker met een sneetje brood erbij.",
-  "url": "https://dagelijksekost.vrt.be/gerechten/wortelsoep-met-kip-en-rijst",
+  "tip": "Lekker met een lepel erwtjes erbij.",
+  "url": "https://dagelijksekost.vrt.be/gerechten/ovenschotel-met-roze-zalm-en-broccolistoemp",
   "bron": "Dagelijkse Kost"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
   "Spaghetti met verborgen groenten",
   "Wortelstoemp met worstjes",
-  "Wortelsoep met kip en rijst"
+  "Wortelsoep met kip en rijst",
+  "Ovenschotel met zalm en broccolistoemp"
  ]
 }
