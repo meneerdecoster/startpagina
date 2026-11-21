@@ -1,73 +1,73 @@
 {
- "bijgewerkt": "2026-11-21T04:23:08+07:00",
+ "bijgewerkt": "2026-11-22T04:24:57+07:00",
  "vandaag": [
-  {
-   "wanneer": "Za 21 nov, 20.45 u (BE)",
-   "wat": "Zulte Waregem – Antwerp: Compper staat onder druk, beide ploegen staan op 11 punten"
-  },
-  {
-   "wanneer": "Za 21 nov (BE)",
-   "wat": "HG Cross Lokeren: rentree van Ceylin Alvarado, Felipe Orts is ziek en ontbreekt"
-  },
   {
    "wanneer": "Zo 22 nov (BE)",
    "wat": "X²O-cross in Beringen; 's avonds finale van Humo's Rock Rally in de AB"
   },
   {
    "wanneer": "Ma 23 nov (BE)",
-   "wat": "Wall Street na een zware week voor AI- en chipaandelen; nieuwe Mind to Invest (EP87) verwacht"
+   "wat": "Wall Street na een zwarte vrijdag: S&P 500 en Dow in correctie, Nasdaq -5,3%"
+  },
+  {
+   "wanneer": "Ma 23 nov (BE)",
+   "wat": "Nieuwe aflevering Mind to Invest (EP87) verwacht"
+  },
+  {
+   "wanneer": "Di 8-9 dec",
+   "wat": "Fed-vergadering: markt rekent op ruim 90% kans op een renteverhoging"
   }
  ],
  "markten": [
   {
-   "titel": "Nasdaq duikt bijna 3% door uitverkoop van chipaandelen",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: vrijdag zakte de Nasdaq rond de middag 2,8% en de S&P 500 1,5%, met AMD en Micron als grootste verliezers. Daarmee is de Nasdaq zijn winst van dit jaar kwijt, en ook het verse Anthropic-aandeel ging onderuit.",
-   "bron": "The Motley Fool",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/"
+   "titel": "Wall Street in correctie, Nasdaq verliest 5,3%",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: vrijdag sloot de S&P 500 3,7% lager op 6.910 punten en de Nasdaq zelfs 5,3%, waarmee beide grote indexen samen met de Dow meer dan 10% onder hun top staan. Nvidia zakte bijna 14%, ook ASML verloor ruim 9%.",
+   "bron": "MarketScreener (Reuters)",
+   "url": "https://nl.marketscreener.com/beursnieuws/wall-street-sluit-fors-lager-door-uitverkoop-van-ai-aandelen-s-p-500-en-dow-in-correctie-ce785ed3dd80f527"
   },
   {
-   "titel": "Zilver zakt naar laagste peil in 14 maanden",
-   "samenvatting": "Raakt je zilver: de zilverprijs verloor vrijdag zo'n 5% tot rond 42 dollar per ounce. Sinds de top van eind augustus (69 dollar) is zilver al ongeveer 38% gezakt; ook goud kreeg deze week een flinke klap.",
-   "bron": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-november-20-2026-silver-opens-at-its-lowest-point-in-14-months-122618837.html"
+   "titel": "Zilver verliest ruim 12% in één week",
+   "samenvatting": "Raakt je zilver: de zilverprijs (COMEX) zakte deze week van 47,3 naar 41,4 dollar per ounce, goud verloor zo'n 9%. Edelmetalen lijden onder de verwachting dat de Fed in december de rente verhoogt.",
+   "bron": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/gold-crashes-9percent-to-3525-silver-plunges-17percent-as-fed-hike-odds-hit-95percent"
   },
   {
-   "titel": "Bitcoin zakt onder 62.000 dollar",
-   "samenvatting": "Raakt je bitcoin: vrijdagochtend noteerde bitcoin rond 61.300 dollar, bijna 4% lager dan een dag eerder en een kwart lager dan een maand geleden. De risicoschuwe stemming op de beurs weegt ook op crypto.",
-   "bron": "Fortune",
-   "url": "https://fortune.com/article/price-of-bitcoin-11-20-2026/"
+   "titel": "Beleggers vluchten naar obligaties, 10-jaarsrente onder 5%",
+   "samenvatting": "Raakt je obligatie-ETF: door de vlucht naar veilige havens zakte het Amerikaanse 10-jaarsrendement deze week van 5,15% naar 4,92%, goed nieuws voor obligatiekoersen. Toch blijft de kans op een Fed-renteverhoging op 8-9 december rond 92%.",
+   "bron": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
   },
   {
-   "titel": "Markt rekent op 97% kans op Fed-renteverhoging in december",
-   "samenvatting": "Raakt je obligatie-ETF: na de strenge notulen en een oproep van gouverneur Waller tot 'agressief optreden' zien futures bijna zeker een renteverhoging op 8-9 december, met zo'n 10% kans op een halve procent. Het Amerikaanse 10-jaarsrendement blijft rond 5%.",
-   "bron": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/fed-signals-and-data-what-happened-the-week-of-nov-1620-2026-93CH-5042523"
+   "titel": "Bitcoin veert op tot boven 60.000 dollar",
+   "samenvatting": "Raakt je bitcoin: na een duik onder 57.000 dollar, het laagste peil sinds september 2024, klom bitcoin zaterdag terug naar ongeveer 60.300 dollar. In 24 uur werden wel voor 2,4 miljard dollar aan crypto-futures geliquideerd.",
+   "bron": "Eurasia Business News",
+   "url": "https://eurasiabusinessnews.com/2026/11/21/bitcoin-price-today-november-21-2026-btc-rebounds-above-60000-as-solana-leads-crypto-gains/"
   }
  ],
  "tech": [
   {
-   "titel": "Anthropic-aandeel zakt al naar introductieprijs",
-   "samenvatting": "Een dag na het knaldebuut van 17% verloor het aandeel ANT vrijdag zo'n 13%, tot net boven de introductieprijs van 83 dollar. De bredere AI-uitverkoop vaagde zo de winst van de Nasdaq voor heel 2026 weg.",
-   "bron": "CNN",
-   "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai"
-  },
-  {
-   "titel": "GTA VI breekt alle records met 3,79 miljard op dag één",
-   "samenvatting": "Rockstar meldt dat Grand Theft Auto VI op de lanceringsdag wereldwijd voor 3,79 miljard dollar verkocht, een record voor eender welke entertainmentrelease. Vooraf waren er al 32,5 miljoen exemplaren besteld.",
-   "bron": "Business Wire",
-   "url": "https://www.businesswire.com/news/home/20261120446139/en/Grand-Theft-Auto-VI-Shatters-Entertainment-Box-Office-Records-with-%243.79-Billion-in-Day-One-Retail-Sales"
-  },
-  {
-   "titel": "Californië dagvaardt Nvidia over chips naar China",
-   "samenvatting": "De Californische procureur-generaal onderzoekt of geavanceerde Nvidia-chips of vertrouwelijke info in China belandden en of beleggers misleid werden. Ex-CEO Jensen Huang praat op 1 december met het Congres.",
-   "bron": "California DOJ",
-   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
-  },
-  {
-   "titel": "Meta's AI-agent Muse lekte privégesprekken",
-   "samenvatting": "Volgens TechCrunch haalde Meta's agent Muse gesprekken door elkaar, waardoor medewerkers berichten, herinneringen en zelfs banksaldo's van anderen te zien kregen. Meta zegt dat het om testversies ging.",
+   "titel": "Anthropic-wiskundige claimt bewijs Riemann-hypothese met hulp van Claude",
+   "samenvatting": "Levent Alpöge, wiskundige bij Anthropic, publiceerde een in Lean controleerbaar bewijs van de 167 jaar oude Riemann-hypothese, gevonden samen met Claude. De Lean-code compileert volgens onafhankelijke checks, maar wiskundigen moeten het bewijs nog echt doorgronden. Tegelijk claimt een Stanford-postdoc een volledig menselijk bewijs van de algemene variant.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+  },
+  {
+   "titel": "Nvidia sluit langste verliesreeks sinds 2008 af",
+   "samenvatting": "Het Nvidia-aandeel ging vrijdag opnieuw met dubbele cijfers onderuit en zit nu aan zeven verliesweken op rij, de langste reeks sinds de financiële crisis. Bovenop het vertrek van Jensen Huang zou de SEC volgens Reuters ook de boekhouding van de chipreus onder de loep nemen.",
+   "bron": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+  },
+  {
+   "titel": "Trump dreigt met 'enorme taks' op AI-datacenters in het buitenland",
+   "samenvatting": "President Trump wil Amerikaanse techbedrijven die AI-datacenters buiten de VS bouwen zwaar belasten, al is nog onduidelijk hoe dat zou werken. Tegelijk groeit in de VS het lokale verzet tegen nieuwe datacenters.",
+   "bron": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+  },
+  {
+   "titel": "Signal blokkeert screenshots om AI-agents buiten te houden",
+   "samenvatting": "Signal blokkeert voortaan standaard screenshots op iOS en weert AI-assistenten die het scherm uitlezen op Android, om te verhinderen dat Siri, Gemini of agents zoals Meta's Muse je privéchats lezen. Je kunt de bescherming zelf uitschakelen; op de Mac is ze er (nog) niet.",
+   "bron": "Engadget",
+   "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
   }
  ],
  "podcasts": [
@@ -110,52 +110,52 @@
  ],
  "sport": [
   {
-   "label": "Rode Duivels",
-   "titel": "Rode Duivels treffen Duitsland in kwartfinale Nations League",
-   "samenvatting": "De loting in Nyon koppelt België eind maart aan het Duitsland van Jürgen Klopp. 'Winnen is het doel', klinkt het bij de Duivels na een magnifieke affiche.",
+   "label": "Royal Antwerp FC",
+   "titel": "Antwerp laat 0-2-voorsprong glippen in Waregem",
+   "samenvatting": "Vermeeren en Fofana zetten Antwerp 0-2 voor, maar na de rode kaart voor Cortés kwam Zulte Waregem via Hedl en Mbaye terug tot 2-2 (stand in de slotfase). Opnieuw slecht nieuws voor coach Compper in de strijd onderaan.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/20/duitsland-is-tegenstander-van-rode-duivels-in-kwartfinale-van-na~1795189017413/"
+   "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/12/zulte-waregem-antwerp-live-2-2-zulte-waregem-staat-op-uit-de-dood-mbaye-fusileert-nozawa-in-de-korte-hoek-voor-de-gelijkmaker~1781871845516/"
   },
   {
-   "label": "Royal Antwerp FC",
-   "titel": "Compper geïrriteerd voor cruciale trip naar Zulte Waregem",
-   "samenvatting": "Antwerp-coach Marvin Compper is het beu om over zijn toekomst te praten, maar zijn ploeg moet dringend punten pakken. Antwerp en Zulte Waregem staan allebei op 11 punten in de staart van de rangschikking.",
-   "bron": "VoetbalNieuws",
-   "url": "https://www.voetbalnieuws.be/news/936103/compper-ge%C3rriteerd-ben-het-moe-daarover-te-praten"
+   "label": "Veldrijden",
+   "titel": "Gerben Kuypers wint Rapencross in Lokeren",
+   "samenvatting": "Na een spannende slotronde hield Kuypers Joran Wyseure (op 2 seconden) en Cameron Mason (op 3 seconden) af. Bij de vrouwen soleerde Sara Casasola naar haar eerste zege van het seizoen.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/matches/veldrijden/hg-cross/2026/lokeren-na-spannende-slotronde-gerben-kuypers-zet-rapencross-in-lokeren-op-zijn-naam~1789389900766/"
   }
  ],
  "opkomend": [
   {
+   "titel": "Zinger laat fans meeproduceren aan nieuwe single",
+   "samenvatting": "De vijfkoppige band uit Deerlijk, ooit winnaar van De Nieuwe Lichting, nam verschillende versies op van een xylofoonmelodie en laat fans via Facebook stemmen. De versie met de meeste stemmen belandt op de nieuwe single van de brass- en spacepopband.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/nieuws/zinger-schakelt-fans-in-als-producers-van-nieuwe-single/"
+  },
+  {
+   "titel": "Kuusi zingt over thuis voelen in IJsland",
+   "samenvatting": "De Gentse singer-songwriter Fien Druyts woont sinds een jaar in Reykjavik en lost als Kuusi de single 'Skaftafell'. Het is een breekbaar nummer tussen neoklassiek, folk en ambient, geproduceerd door Sasja Maekelberg, over twijfel waar je eigenlijk thuishoort.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-kuusi-skaftafell/"
+  },
+  {
+   "titel": "Benny Boo lost derde single 'Always Did'",
+   "samenvatting": "De finalist van De Nieuwe Lichting volgt 'Bird Shit' en 'Schrödinger's Summer' op met een funky nummer vol gitaarsolo en psychedelische elektronica. Hij produceert en mixt alles zelf; Amber Piddington van Kids With Buns schreef mee.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/09/nieuwe-single-benny-boo-always-did/"
+  },
+  {
    "titel": "Tien bands strijden zondag om Humo's Rock Rally",
-   "samenvatting": "Uit 821 inschrijvingen bleven er tien over voor de finale van zondag 22 november in de AB, onder wie De Defecte Gasten, Eldarova, Fred Gata, Plastik/Plastik en Racehorsepablo.",
+   "samenvatting": "Zondag 22 november spelen de tien finalisten in de grote zaal van de AB, van De Defecte Gasten en Eldarova tot Fred Gata, Plastik/Plastik en Racehorsepablo. Gent levert met drie acts de meeste finalisten; de winnaar is nog niet bekend.",
    "bron": "AB",
    "url": "https://www.abconcerts.be/nl/nieuws/dit-zijn-de-finalisten-van-humos-rock-rally-2026/a1eQw000007NVv7IAG"
-  },
-  {
-   "titel": "Neonpark lost laatste single voor debuutalbum",
-   "samenvatting": "'I See You' is een ingetogen nummer met de etherische stem van Danaë Van Oeteren, over echt gezien willen worden. Het album volgt op 18 december, live staat Neonpark op 13 januari in KAVKA Oudaan in Antwerpen.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/singles/neonpark-i-see-you/"
-  },
-  {
-   "titel": "Whispering Sons-zangeres Fenne Kuppens gaat solo",
-   "samenvatting": "Fenne Kuppens kondigt een eerste soloplaat aan voor volgend jaar en tekende bij boekingskantoor Toutpartout. Concerten in binnen- en buitenland volgen.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/nieuws/fenne-kuppens-kondigt-soloplaat-aan/"
-  },
-  {
-   "titel": "Antwerpse Teletext lost 'Geen Therapie'",
-   "samenvatting": "De Antwerpse electropopband speelt met italodisco en steekt de draak met de therapiecultuur. Het gelijknamige debuutalbum volgt op 2 december, met een releaseshow in De Studio in Antwerpen.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/singles/teletext-geen-therapie/"
   }
  ],
  "fire": [
   {
-   "titel": "Vroeger stoppen kost vanaf 2027 pensioen",
-   "samenvatting": "Wie vervroegd met pensioen gaat, kan vanaf 2027 een malus krijgen die je brutopensioen blijvend verlaagt, tot 5% per jaar vroeger voor wie in 1975 of later geboren is. Voor wie van FIRE droomt, maakt dat een eigen vermogen buiten het wettelijk pensioen nog belangrijker.",
+   "titel": "Zoveel spaargeld heb je nodig naast je pensioen",
+   "samenvatting": "Het gemiddelde Belgische pensioen ligt rond 2.046 euro bruto per maand. Wie elke maand 600 euro tekortkomt, heeft over twintig jaar al 144.000 euro nodig, en de helft van de mensen met een aanvullend pensioen heeft minder dan 3.821 euro opgebouwd.",
    "bron": "Mancho",
-   "url": "https://mancho.be/2026/11/12/vroeger-stoppen-met-werken-nieuwe-pensioenregel-kan-deze-belgen-veel-geld-kosten/"
+   "url": "https://mancho.be/2026/11/14/zoveel-spaargeld-heb-je-echt-nodig-wanneer-je-met-pensioen-gaat-deze-bedragen-doen-veel-belgen-opkijken/"
   },
   {
    "titel": "Belgische belegger: met 500.000 tot 750.000 euro ben je vrij",
@@ -164,16 +164,16 @@
    "url": "https://newsroom.ing.be/ing-beleggersbarometer-met-een-financieel-vermogen-van-500000-tot-750000-euro-ben-je-financieel-onafhankelijk-volgens-de-belgische-belegger"
   },
   {
-   "titel": "Belg kiest vaker voor beleggingsfondsen dan spaarboekje",
-   "samenvatting": "Belgische gezinnen stoppen per kwartaal gemiddeld 5,6 miljard euro in beleggingsfondsen tegenover 3,5 miljard op deposito's, voor het eerst in tien jaar. Het netto financieel vermogen ligt met 257.000 euro per gezin ruim boven het eurozonegemiddelde.",
-   "bron": "Forbes België",
-   "url": "https://www.forbes.be/nl/de-belg-ruilt-zijn-spaarrekening-steeds-vaker-in-voor-beleggingsfondsen/"
+   "titel": "Test Aankoop zoekt de beste broker voor je ETF-spaarplan",
+   "samenvatting": "Trade Republic komt als beste uit de test, met gratis periodieke aankopen en sinds september grotendeels automatische fiscale afhandeling. ING is het goedkoopst per aankoop maar heeft een klein aanbod; bij N26 en Revolut moet je de beurstaks zelf aangeven.",
+   "bron": "Test Aankoop",
+   "url": "https://www.test-aankoop.be/invest/beleggen/etf/artikels/etf-spaarplannen"
   },
   {
-   "titel": "Test Aankoop: onder 50 kies je beter een wereld-ETF",
-   "samenvatting": "Een MSCI World-ETF haalde de voorbije tien jaar 12,8% per jaar, tegenover gemiddeld 4,9% voor pensioenspaarfondsen. Vanaf 50 raadt Test Aankoop aan stilaan defensiever te gaan.",
+   "titel": "Beurstaks op je ETF: 0,12%, 0,35% of 1,32%?",
+   "samenvatting": "Welke beurstaks je betaalt, hangt af van waar je ETF geregistreerd is en of hij dividenden uitkeert of herbelegt. Een kapitaliserende ETF die in België geregistreerd is, kost 1,32% per transactie, dus check het ISIN en je afrekening.",
    "bron": "Test Aankoop",
-   "url": "https://www.test-aankoop.be/invest/sparen/pensioensparen/artikels/2026/10/pensioensparen-etf-langetermijnsparen-strategie"
+   "url": "https://www.test-aankoop.be/invest/beleggen/fiscaliteit-and-rechten/dossiers/beurstaks-tob/beurstaks-etf-tob-belgie"
   }
  ],
  "optredens": [
@@ -210,7 +210,7 @@
   {
    "datum": "2027-01-23",
    "artiest": "Radio Guga",
-   "titel": "Ondersteboven",
+   "titel": "Ondersteboven (ook 5 feb in Stadsschouwburg Antwerpen)",
    "soort": "comedy",
    "zaal": "Schouwburg Noord (Merksem)",
    "uur": null,
@@ -236,6 +236,16 @@
    "uur": "20:00",
    "status": "uitverkocht",
    "url": "https://www.deroma.be/nl/event/sons-5"
+  },
+  {
+   "datum": "2027-01-30",
+   "artiest": "Yannick Noben",
+   "titel": "Eindejaarsconferentie 2026",
+   "soort": "comedy",
+   "zaal": "Stadsschouwburg Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.stadsschouwburg-antwerpen.be/en/event/yannick-noben-419d4c34"
   },
   {
    "datum": "2027-02-05",
@@ -268,6 +278,16 @@
    "url": "https://www.deroma.be/nl/event/naft-1"
   },
   {
+   "datum": "2027-02-18",
+   "artiest": "Xander De Rycke",
+   "titel": "Back To The Beginning (ook 19 en 20 feb)",
+   "soort": "comedy",
+   "zaal": "Stadsschouwburg Antwerpen",
+   "uur": null,
+   "status": null,
+   "url": "https://www.stadsschouwburg-antwerpen.be/en/event/xander-de-rycke-46a78cca"
+  },
+  {
    "datum": "2027-02-19",
    "artiest": "Bart Peeters & De Ideale Mannen",
    "titel": "Extra concert",
@@ -276,6 +296,16 @@
    "uur": "20:00",
    "status": null,
    "url": "https://www.deroma.be/nl/event/bart-peeters-de-ideale-mannen-6"
+  },
+  {
+   "datum": "2027-02-19",
+   "artiest": "Editors",
+   "titel": null,
+   "soort": "muziek",
+   "zaal": "AFAS Dome / Sportpaleis (Merksem)",
+   "uur": null,
+   "status": null,
+   "url": "https://www.songkick.com/concerts/43288844-editors-at-afas-dome"
   },
   {
    "datum": "2027-02-24",
@@ -415,7 +445,7 @@
    "zaal": "De Roma (Borgerhout)",
    "uur": null,
    "status": null,
-   "url": "https://www.podiuminfo.nl/news/59143/Jordan-Rakei-in-april-2027-naar-de-Roma-en-Gashouder/"
+   "url": "https://songkick.com/concerts/43323699-jordan-rakei-at-de-roma"
   },
   {
    "datum": "2027-04-20",
@@ -446,78 +476,44 @@
    "uur": null,
    "status": null,
    "url": "https://www.comedyshows.be/kalender/michael-van-peel/2027-04-29/"
-  },
-  {
-   "datum": "2027-05-15",
-   "artiest": "Wim Helsen",
-   "titel": "Welkom Ongemak",
-   "soort": "comedy",
-   "zaal": "Arenberg Antwerpen",
-   "uur": null,
-   "status": null,
-   "url": "https://www.cabaretinfo.nl/cabaret/voorstelling/459515/Wim-Helsen-Welkom-Ongemak/Arenberg-Schouwburg/"
-  },
-  {
-   "datum": "2027-05-26",
-   "artiest": "Elmer",
-   "titel": null,
-   "soort": "muziek",
-   "zaal": "De Roma (Borgerhout)",
-   "uur": "20:00",
-   "status": null,
-   "url": "https://www.deroma.be/nl/event/elmer-3"
-  },
-  {
-   "datum": "2027-05-28",
-   "artiest": "Hooverphonic",
-   "titel": null,
-   "soort": "muziek",
-   "zaal": "De Roma (Borgerhout)",
-   "uur": null,
-   "status": null,
-   "url": "https://www.songkick.com/concerts/43469752-hooverphonic-at-de-roma"
   }
  ],
  "gezondheid": {
-  "streak": 9,
+  "streak": 10,
   "laatste": {
-   "datum": "2026-11-20",
-   "stappen": 10041.0,
-   "slaap": 8.1,
+   "datum": "2026-11-21",
+   "stappen": 10112.0,
+   "slaap": 7.43,
    "hrv": 55.0,
-   "rhr": 47.0,
-   "water": 2.83,
-   "sporttype": "Andere",
-   "bedtijd": "22:00",
-   "opstaan": "06:12"
+   "rhr": 54.0,
+   "water": 2.58,
+   "sporttype": "Lopen",
+   "bedtijd": "23:46",
+   "opstaan": "07:16"
   },
   "week": {
-   "stappen": 10478.0,
-   "slaap": 6.85,
-   "hrv": 54.0,
+   "stappen": 10506.0,
+   "slaap": 7.02,
+   "hrv": 54.57,
    "rhr": 49.71,
-   "water": 2.3,
-   "diep": 34.86,
-   "rem": 99.43,
+   "water": 2.27,
+   "diep": 38.86,
+   "rem": 105.57,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
-   "koffie": 0.43,
+   "koffie": 0.29,
    "stappen10k": 5,
    "water3l": 0
   },
   "jaar": {
-   "dagen": 72,
-   "sport_pct": 47,
+   "dagen": 73,
+   "sport_pct": 48,
    "water": 2.62,
-   "alcohol_week": 7.5
+   "alcohol_week": 7.4
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
     {
      "d": "2026-11-08",
      "v": null
@@ -568,18 +564,18 @@
     },
     {
      "d": "2026-11-20",
-     "v": 10041.0
+     "v": 10395.0
     },
     {
      "d": "2026-11-21",
+     "v": 10112.0
+    },
+    {
+     "d": "2026-11-22",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
     {
      "d": "2026-11-08",
      "v": null
@@ -634,14 +630,14 @@
     },
     {
      "d": "2026-11-21",
+     "v": 7.43
+    },
+    {
+     "d": "2026-11-22",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-07",
-     "v": null
-    },
     {
      "d": "2026-11-08",
      "v": null
@@ -692,17 +688,21 @@
     },
     {
      "d": "2026-11-20",
-     "v": 55.0
+     "v": 54.0
     },
     {
      "d": "2026-11-21",
+     "v": 55.0
+    },
+    {
+     "d": "2026-11-22",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.478 stappen per dag; 5 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,3 l. Nog 0,7 l per dag tot je doel van 3 l.",
+   "Gemiddeld 10.506 stappen per dag; 5 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,27 l. Nog 0,73 l per dag tot je doel van 3 l.",
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
