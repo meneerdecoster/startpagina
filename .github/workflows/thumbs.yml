@@ -7,11 +7,16 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: thumbs
+  cancel-in-progress: false
 jobs:
   thumbs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
       - run: python3 tools/thumbs.py
       - run: |
           git config user.name "startpagina-bot"
@@ -19,5 +24,8 @@ jobs:
           git add thumbs.json embed.json
           git diff --cached --quiet && exit 0
           git commit -m "Afbeeldingen bijgewerkt"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
