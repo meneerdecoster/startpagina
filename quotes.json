@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-21T04:18:08.926860Z",
+ "bijgewerkt": "2026-11-22T03:30:28.838433Z",
  "items": [
   {
    "naam": "Wereld-ETF",
@@ -19,9 +19,9 @@
   },
   {
    "naam": "Bitcoin",
-   "dag": -0.69,
-   "maand": -28.34,
-   "koers": 5.598,
+   "dag": -0.7,
+   "maand": -25.3,
+   "koers": 5.268,
    "valuta": "EUR",
    "datum": "2026-11-20"
   },
