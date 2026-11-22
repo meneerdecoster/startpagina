@@ -28,9 +28,9 @@
  ],
  "wetenschap": [
   {
-   "emoji": "🐙",
-   "titel": "Een octopus heeft drie harten",
-   "tekst": "Twee harten pompen bloed langs de kieuwen. Het derde hart pompt het bloed door de rest van zijn lijf."
+   "emoji": "🐴",
+   "titel": "Bij zeepaardjes krijgt papa de baby's",
+   "tekst": "Het mannetje draagt de eitjes in een buidel op zijn buik. Als ze klaar zijn, komen de kleine zeepaardjes daar uit."
   },
   {
    "emoji": "🐝",
@@ -48,9 +48,9 @@
    "tekst": "Hij is veel te zwaar om van de grond te komen. Toch kan hij goed stappen, rennen en zwemmen."
   },
   {
-   "emoji": "🐦",
-   "titel": "Een kolibrie kan achteruit vliegen",
-   "tekst": "Hij zweeft ook stil in de lucht, vlak bij een bloem. Zo kan hij nectar drinken zonder te landen."
+   "emoji": "⚡",
+   "titel": "Bliksem is superheet",
+   "tekst": "Een bliksemflits kan ongeveer vijf keer zo heet worden als het oppervlak van de zon. Dat is meer dan 25.000 graden!"
   }
  ],
  "duivels": [
@@ -232,5 +232,37 @@
   "Hoe noem je een stier die slaapt?",
   "Wat is het lievelingseten van een spook?",
   "Wat is geel en kan niet zwemmen?"
+ ],
+ "wetenschap_gebruikt": [
+  "Een octopus heeft drie harten",
+  "Een bij klappert supersnel met haar vleugels",
+  "Een giraf heeft evenveel nekwervels als jij",
+  "Een olifant kan niet springen",
+  "Een kolibrie kan achteruit vliegen",
+  "Een slak heeft duizenden tandjes",
+  "Een flamingo is roze door zijn eten",
+  "Een haai heeft geen echte botten",
+  "Een zeester heeft geen hersenen",
+  "Baby's hebben meer botjes dan jij",
+  "Een kameel heeft drie oogleden",
+  "Je hart werkt de hele dag",
+  "Pinguïns hebben knieën",
+  "Vleermuizen kunnen echt vliegen",
+  "Een dolfijn slaapt met één hersenhelft",
+  "Wombats poepen blokjes",
+  "Bij zeepaardjes draagt papa de eitjes",
+  "Baby's hebben meer botten",
+  "Mieren zijn superkrachtig",
+  "Honing wordt nooit slecht",
+  "Haaien zijn ouder dan bomen",
+  "Een giraf heeft 7 nekwervels",
+  "Bliksem is heter dan de zon",
+  "Koala's hebben vingerafdrukken",
+  "Vlinders proeven met hun pootjes",
+  "Zeeotters houden elkaars pootje vast",
+  "Flamingo's worden roze door hun eten",
+  "Een banaan is eigenlijk een bes",
+  "Bij zeepaardjes krijgt papa de baby's",
+  "Bliksem is superheet"
  ]
 }
