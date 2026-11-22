@@ -1,10 +1,6 @@
 {
- "bijgewerkt": "2026-11-22T04:24:57+07:00",
+ "bijgewerkt": "2026-11-23T04:19:23+07:00",
  "vandaag": [
-  {
-   "wanneer": "Zo 22 nov (BE)",
-   "wat": "X²O-cross in Beringen; 's avonds finale van Humo's Rock Rally in de AB"
-  },
   {
    "wanneer": "Ma 23 nov (BE)",
    "wat": "Wall Street na een zwarte vrijdag: S&P 500 en Dow in correctie, Nasdaq -5,3%"
@@ -12,6 +8,10 @@
   {
    "wanneer": "Ma 23 nov (BE)",
    "wat": "Nieuwe aflevering Mind to Invest (EP87) verwacht"
+  },
+  {
+   "wanneer": "Zo 22 nov (BE)",
+   "wat": "Finale Humo's Rock Rally in de AB; Thibau Nys won in Beringen"
   },
   {
    "wanneer": "Di 8-9 dec",
@@ -46,6 +46,12 @@
  ],
  "tech": [
   {
+   "titel": "Amazon staat op het punt AI-start-up Decart over te nemen",
+   "samenvatting": "Amazon zou ongeveer 7,5 miljard dollar neertellen voor Decart, al is er nog geen getekende deal. Tegelijk verloren Chinese AI-aandelen sinds eind juni samen zo'n 1,7 biljoen dollar beurswaarde.",
+   "bron": "The State of Tech",
+   "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-22-november"
+  },
+  {
    "titel": "Anthropic-wiskundige claimt bewijs Riemann-hypothese met hulp van Claude",
    "samenvatting": "Levent Alpöge, wiskundige bij Anthropic, publiceerde een in Lean controleerbaar bewijs van de 167 jaar oude Riemann-hypothese, gevonden samen met Claude. De Lean-code compileert volgens onafhankelijke checks, maar wiskundigen moeten het bewijs nog echt doorgronden. Tegelijk claimt een Stanford-postdoc een volledig menselijk bewijs van de algemene variant.",
    "bron": "TechCrunch",
@@ -62,12 +68,6 @@
    "samenvatting": "President Trump wil Amerikaanse techbedrijven die AI-datacenters buiten de VS bouwen zwaar belasten, al is nog onduidelijk hoe dat zou werken. Tegelijk groeit in de VS het lokale verzet tegen nieuwe datacenters.",
    "bron": "CNBC",
    "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
-  },
-  {
-   "titel": "Signal blokkeert screenshots om AI-agents buiten te houden",
-   "samenvatting": "Signal blokkeert voortaan standaard screenshots op iOS en weert AI-assistenten die het scherm uitlezen op Android, om te verhinderen dat Siri, Gemini of agents zoals Meta's Muse je privéchats lezen. Je kunt de bescherming zelf uitschakelen; op de Mac is ze er (nog) niet.",
-   "bron": "Engadget",
-   "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
   }
  ],
  "podcasts": [
@@ -110,18 +110,18 @@
  ],
  "sport": [
   {
+   "label": "Veldrijden",
+   "titel": "Thibau Nys wint ook in Beringen: 4 op 4",
+   "samenvatting": "Thibau Nys won de X²O-cross in Beringen en behoudt zo zijn perfecte seizoensrapport. Bij de vrouwen won Sara Casasola, Lucinda Brand werd tweede.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/22/thibau-nys-behoudt-perfect-rapport-na-winst-in-beringen-casasol~1795372864787/"
+  },
+  {
    "label": "Royal Antwerp FC",
    "titel": "Antwerp laat 0-2-voorsprong glippen in Waregem",
    "samenvatting": "Vermeeren en Fofana zetten Antwerp 0-2 voor, maar na de rode kaart voor Cortés kwam Zulte Waregem via Hedl en Mbaye terug tot 2-2 (stand in de slotfase). Opnieuw slecht nieuws voor coach Compper in de strijd onderaan.",
    "bron": "Sporza",
    "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/12/zulte-waregem-antwerp-live-2-2-zulte-waregem-staat-op-uit-de-dood-mbaye-fusileert-nozawa-in-de-korte-hoek-voor-de-gelijkmaker~1781871845516/"
-  },
-  {
-   "label": "Veldrijden",
-   "titel": "Gerben Kuypers wint Rapencross in Lokeren",
-   "samenvatting": "Na een spannende slotronde hield Kuypers Joran Wyseure (op 2 seconden) en Cameron Mason (op 3 seconden) af. Bij de vrouwen soleerde Sara Casasola naar haar eerste zege van het seizoen.",
-   "bron": "Sporza",
-   "url": "https://sporza.be/nl/matches/veldrijden/hg-cross/2026/lokeren-na-spannende-slotronde-gerben-kuypers-zet-rapencross-in-lokeren-op-zijn-naam~1789389900766/"
   }
  ],
  "opkomend": [
@@ -479,45 +479,41 @@
   }
  ],
  "gezondheid": {
-  "streak": 10,
+  "streak": 11,
   "laatste": {
-   "datum": "2026-11-21",
-   "stappen": 10112.0,
-   "slaap": 7.43,
-   "hrv": 55.0,
+   "datum": "2026-11-22",
+   "stappen": 10322.0,
+   "slaap": 9.12,
+   "hrv": 57.0,
    "rhr": 54.0,
-   "water": 2.58,
-   "sporttype": "Lopen",
-   "bedtijd": "23:46",
-   "opstaan": "07:16"
+   "water": 2.1,
+   "sporttype": null,
+   "bedtijd": "21:29",
+   "opstaan": "06:52"
   },
   "week": {
-   "stappen": 10506.0,
-   "slaap": 7.02,
-   "hrv": 54.57,
-   "rhr": 49.71,
-   "water": 2.27,
-   "diep": 38.86,
-   "rem": 105.57,
+   "stappen": 10644.0,
+   "slaap": 7.14,
+   "hrv": 56.0,
+   "rhr": 49.86,
+   "water": 2.39,
+   "diep": 37.0,
+   "rem": 114.86,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
    "koffie": 0.29,
-   "stappen10k": 5,
+   "stappen10k": 6,
    "water3l": 0
   },
   "jaar": {
-   "dagen": 73,
-   "sport_pct": 48,
+   "dagen": 74,
+   "sport_pct": 47,
    "water": 2.62,
-   "alcohol_week": 7.4
+   "alcohol_week": 7.3
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
     {
      "d": "2026-11-09",
      "v": null
@@ -568,18 +564,18 @@
     },
     {
      "d": "2026-11-21",
-     "v": 10112.0
+     "v": 10307.0
     },
     {
      "d": "2026-11-22",
+     "v": 10322.0
+    },
+    {
+     "d": "2026-11-23",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
     {
      "d": "2026-11-09",
      "v": null
@@ -618,7 +614,7 @@
     },
     {
      "d": "2026-11-18",
-     "v": 8.56
+     "v": 6.41
     },
     {
      "d": "2026-11-19",
@@ -634,14 +630,14 @@
     },
     {
      "d": "2026-11-22",
+     "v": 9.12
+    },
+    {
+     "d": "2026-11-23",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-08",
-     "v": null
-    },
     {
      "d": "2026-11-09",
      "v": null
@@ -692,17 +688,21 @@
     },
     {
      "d": "2026-11-21",
-     "v": 55.0
+     "v": 62.0
     },
     {
      "d": "2026-11-22",
+     "v": 57.0
+    },
+    {
+     "d": "2026-11-23",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.506 stappen per dag; 5 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,27 l. Nog 0,73 l per dag tot je doel van 3 l.",
+   "Gemiddeld 10.644 stappen per dag; 6 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,39 l. Nog 0,61 l per dag tot je doel van 3 l.",
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
