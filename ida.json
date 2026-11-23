@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-23T04:23:22+07:00",
+ "bijgewerkt": "2026-11-24T04:22:31+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -10,55 +10,64 @@
   "Indonesië",
   "Sri Lanka",
   "Singapore",
-  "Brunei"
+  "Brunei",
+  "Myanmar"
  ],
  "nieuws": [
   {
-   "titel": "Francisco (17) wint de Kindervredesprijs",
-   "samenvatting": "Francisco komt uit Colombia en strijdt al sinds zijn negende voor een beter klimaat. Daarom kreeg hij nu een grote internationale prijs.",
+   "titel": "Opgelicht met Pokémonkaarten op een stripbeurs",
+   "samenvatting": "Op een grote beurs in Utrecht werden mensen opgelicht met Pokémonkaarten. Let dus altijd goed op als je kaarten ruilt of koopt.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640186"
+   "url": "https://jeugdjournaal.nl/l/2640370"
   },
   {
-   "titel": "Het nieuwe Jeugdjournaal is gemaakt met speelgoed",
-   "samenvatting": "Het Jeugdjournaal heeft een nieuwe studio en een nieuwe herkenningsmelodie. Die melodie werd gemaakt met speelgoed.",
+   "titel": "Kinderen proberen de basgitaar en contrabas uit",
+   "samenvatting": "Op een bassfestival in Rotterdam mochten kinderen lage instrumenten uitproberen. De organisatoren willen dat meer kinderen ze leuk vinden.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/l/2640313"
+   "url": "https://jeugdjournaal.nl/l/2640632"
   },
   {
-   "titel": "Wat wordt het Kinderwoord 2026?",
-   "samenvatting": "Karrewiet zoekt voor de vijftiende keer het mooiste kinderwoord van het jaar. Vanaf 23 november mag je stemmen op vijf woorden.",
-   "bron": "Ketnet Karrewiet",
-   "url": "https://www.vrt.be/nl/ketnet-voor-ouders/nieuws-van-ketnet-en-ketnet-junior/wat-wordt-het-kinderwoord-2026-van-karrewiet"
+   "titel": "Max Verstappen wint de race in Las Vegas",
+   "samenvatting": "Max Verstappen reed als eerste over de finish, net voor Lando Norris. Er was maar 0,6 seconde verschil!",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640522"
   },
   {
-   "titel": "Ketnet geeft kinderen een stem op Kinderrechtendag",
-   "samenvatting": "Op 20 november ging het bij Ketnet over de rechten van kinderen. Je ziet hoe kinderen hun mening kunnen zeggen en voor elkaar opkomen.",
-   "bron": "VRT",
-   "url": "https://www.vrt.be/nl/over-ons/nieuws-over-vrt/ketnet-geeft-kinderen-een-stem-op-kinderrechtendag"
+   "titel": "Welke film heeft de mooiste muziek?",
+   "samenvatting": "In het Ochtendjournaal gaat het over filmmuziek. Kijkers mogen zeggen welke film volgens hen de mooiste muziek heeft.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/l/2640683"
   }
  ],
  "dieren": [
   {
-   "titel": "Een pandajong speelt in zijn zwembadje",
+   "titel": "Rode pandajongen in de dierentuin",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=JNWMrtKXdgo",
+   "url": "https://www.youtube.com/watch?v=Y28ml82Un2Y",
    "soort": "video"
   },
   {
-   "titel": "Piepkleine eendjes glijden van de glijbaan",
+   "titel": "Piepkleine babyegeltjes",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=A9QAuempDXc",
+   "url": "https://www.youtube.com/watch?v=7ZBMS3suB-I",
    "soort": "video"
   },
   {
-   "titel": "Schattige kittens spelen samen",
+   "titel": "Een luiaardbaby maakt zijn debuut",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=xbbQww69-2o",
+   "url": "https://www.youtube.com/watch?v=xuwFxspf7Ts",
    "soort": "video"
   }
  ],
  "films": [
+  {
+   "titel": "Hexed",
+   "samenvatting": "Billie ontdekt dat ze een heks is en komt terecht in een magische wereld. Het is de nieuwe tekenfilm van Disney, vanaf 25 november in de bioscoop.",
+   "bron": "Disney+",
+   "url": "https://www.disneyplus.com/explore/articles/hexed-disney-movie",
+   "video": "https://www.youtube.com/watch?v=4qMlKkC9V3M",
+   "datum": "2026-11-25"
+  },
   {
    "titel": "The Cat in the Hat",
    "samenvatting": "Een grappige, ondeugende kat brengt chaos in het huis van twee kinderen. De tekenfilm naar Dr. Seuss komt op 2 december in de bioscoop.",
@@ -76,168 +85,167 @@
    "datum": "2026-12-09"
   },
   {
-   "titel": "The Angry Birds Movie 3",
-   "samenvatting": "Red en zijn vrienden beleven weer een nieuw avontuur. De film komt vlak voor kerst in de bioscoop.",
-   "bron": "Rovio",
-   "url": "https://www.rovio.com/articles/watch-the-first-trailer-for-the-angry-birds-movie-3/",
-   "video": "https://www.youtube.com/watch?v=AlyDExhNz3Q",
-   "datum": "2026-12-24"
+   "titel": "The Last Whale Singer",
+   "samenvatting": "Een jonge bultrugwalvis moet de oceaan redden met het lied van de laatste walviszanger. De tekenfilm komt half december in de bioscoop.",
+   "bron": "Telescope Animation",
+   "url": "https://www.telescopeanimation.com/news/the-last-whale-singer-watch-first-trailer-for-telescope-animation-title-from-writer-director-reza-memari",
+   "video": "https://www.youtube.com/watch?v=F0bdb8RA4wE",
+   "datum": "2026-12-16"
   }
  ],
  "land": {
-  "datum": "2026-11-22",
-  "naam": "Brunei",
-  "hoofdstad": "Bandar Seri Begawan",
-  "vlag": "🇧🇳",
-  "iso2": "bn",
-  "iso": "096",
-  "lat": 4.5,
-  "lon": 114.7,
-  "inwoners": "ongeveer 450.000",
+  "datum": "2026-11-24",
+  "naam": "Myanmar",
+  "hoofdstad": "Naypyidaw",
+  "vlag": "🇲🇲",
+  "iso2": "mm",
+  "iso": "104",
+  "lat": 21.9,
+  "lon": 96.0,
+  "inwoners": "ongeveer 55 miljoen",
   "weetjes": [
-   "Brunei ligt op het eiland Borneo in Zuidoost-Azië en is bijna helemaal omringd door Maleisië. Het land bestaat uit twee stukken, want Maleisië ligt er middenin.",
-   "In Kampong Ayer staan huizen op palen boven het water, verbonden door loopbruggen. Daarom noemen ze het dorp het 'Venetië van het Oosten'.",
-   "In de regenwouden leven neusapen, neushoornvogels en nevelpanters. Het paleis van de sultan heeft 1788 kamers."
+   "Myanmar ligt in Zuidoost-Azië en grenst aan Bangladesh, India, China, Laos en Thailand. Aan de kant van de Indische Oceaan heeft het een lange kustlijn.",
+   "In Bagan staan duizenden oude tempels en pagodes tussen de velden. Ze zijn meer dan 800 jaar oud.",
+   "Naypyidaw is pas sinds 2006 de hoofdstad. Daarvoor was het Yangon."
   ]
  },
  "raadsel": {
-  "vraag": "Wat wordt natter naarmate het meer droogt?",
-  "oplossing": "Handdoek",
-  "uitleg": "Een handdoek neemt het water van jouw lijf op, dus hij wordt zelf nat terwijl jij droog wordt.",
+  "vraag": "Wat gaat omhoog als de regen naar beneden komt?",
+  "oplossing": "Paraplu",
+  "uitleg": "Als het regent, zet je je paraplu open en gaat hij omhoog boven je hoofd.",
   "opties": [
-   "Handdoek",
-   "Spons",
-   "Zeep",
-   "Regenjas"
+   "Paraplu",
+   "Wolk",
+   "Regenboog",
+   "Plas"
   ]
  },
  "mensen": [
   {
    "label": "Camille",
-   "titel": "Kijk de clip van 'Vuurwerk'",
-   "samenvatting": "Camille zingt in deze officiële videoclip over vuurwerk. Kijk en luister mee.",
+   "titel": "Kijk de clip van 'Ademnood'",
+   "samenvatting": "Dit is een officiële videoclip van Camille. Kijk en luister mee.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=vRqlmR2t5Iw"
+   "video": "https://www.youtube.com/watch?v=AQBCUWnOkLU"
   },
   {
    "label": "Pommelien Thijs",
-   "titel": "Kijk de clip van 'Erop of eronder'",
-   "samenvatting": "Pommelien heeft een officiële video bij dit liedje. Zet het geluid aan en kijk mee.",
+   "titel": "Gezelschapsdieren van Pommelien",
+   "samenvatting": "Pommelien laat in dit filmpje zien welke dieren ze thuis heeft. Leuk om te zien!",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=htvk20gtIQk"
+   "video": "https://www.youtube.com/watch?v=ftKkn1d88SI"
   },
   {
    "label": "Aaron Blommaert",
-   "titel": "Aaron zingt 'Hoe zit het met ons?'",
-   "samenvatting": "Aaron Blommaert brengt dit liedje in een eigen clip. Kijk en luister mee.",
+   "titel": "Aaron zingt 'EGOTRIP'",
+   "samenvatting": "Aaron Blommaert brengt dit liedje in een eigen clip. Zet het geluid aan.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=M-BTdd1mWh4"
+   "video": "https://www.youtube.com/watch?v=qhEImIQ2NB4"
   },
   {
    "label": "Maksim",
-   "titel": "Duet met Babet: 'Hoe dan ook'",
-   "samenvatting": "Maksim zingt samen met Babet in deze officiële muziekvideo. Zing maar mee.",
+   "titel": "Maksim zingt 'Sparen voor de nacht'",
+   "samenvatting": "Maksim zingt dit nummer in een eigen video. Zing maar mee.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=1Hq4TaP2sgY"
+   "video": "https://www.youtube.com/watch?v=Kkj9gVUOEBM"
   }
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Welkom in Brunei 🌴",
-   "sub": "Vandaag ontdek je een land met een dorp op het water en maak je een sneeuwpop van een bord.",
+   "titel": "Goeiemorgen, Ida! Welkom in Myanmar 🛕",
+   "sub": "Vandaag ontdek je een land vol tempels en knutsel je een rendier van een wc-rol.",
    "iconen": [
-    "🌴",
-    "🇧🇳",
-    "⛄",
-    "🏠",
-    "🐒",
-    "🌅"
+    "🛕",
+    "🇲🇲",
+    "🦌",
+    "🌅",
+    "🐘",
+    "☕"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, pandajong in het water! 🐼",
-   "sub": "Een pandajong, eendjes op een glijbaan en spelende kittens wachten op je.",
+   "titel": "Hoi Ida, een luiaardbaby wacht op je! 🦥",
+   "sub": "Een rode pandajongen, babyegeltjes en een luiaardbaby maken je middag zacht.",
    "iconen": [
+    "🦥",
     "🐼",
-    "🦆",
-    "🐱",
-    "🛝",
-    "💦",
-    "😍"
+    "🦔",
+    "😍",
+    "🌿",
+    "🎬"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Pasta met pompoen 🎃",
-   "sub": "Vanavond proef je een pompoenpasta en kraak je een raadsel over een handdoek.",
+   "titel": "Goeienavond, Ida! Witloof in de oven 🧀",
+   "sub": "Vanavond eet je witloof met ham en kaas en los je een raadsel over een paraplu op.",
    "iconen": [
-    "🎃",
-    "🍝",
     "🧀",
+    "🍽️",
+    "☂️",
     "🧩",
-    "🛁",
+    "🔥",
     "🎶"
    ]
   },
   "nacht": {
-   "titel": "Welterusten, Ida! 🛏️",
-   "sub": "Morgen komt er weer een nieuw land, nieuwe dieren en een nieuw raadsel.",
+   "titel": "Slaap zacht, Ida! 🌙",
+   "sub": "Morgen wacht er weer een nieuw land en een nieuwe knutsel op je.",
    "iconen": [
+    "🌙",
     "🛏️",
-    "🌜",
-    "✨",
-    "🦉",
-    "🧦",
-    "💤"
+    "⭐",
+    "🧸",
+    "💤",
+    "🦉"
    ]
   }
  },
  "knutsel": {
-  "titel": "Sneeuwpop van een papieren bord",
-  "intro": "Maak een vrolijke, glinsterende sneeuwpop om in je raam te hangen.",
+  "titel": "Rudolf het rendier van een wc-rol",
+  "intro": "Maak een schattig rendier met een rode neus van een lege wc-rol.",
   "materiaal": [
-   "Een papieren bord",
-   "Twee zwarte en twee roze knopen",
-   "Witte knutsellijm",
-   "Suiker of glitter",
-   "Een oranje en een zwarte stift"
+   "Een lege wc-rol",
+   "Bruin papier en donkerbruin papier",
+   "Een rode pompon",
+   "Wiebelogen of stickers",
+   "Een zwarte stift"
   ],
   "stappen": [
-   "Plak twee zwarte knopen bovenaan het bord als ogen.",
-   "Plak de roze knopen eronder, links en rechts, als rode wangen.",
-   "Smeer het bord rond de gezichtsdelen dun in met witte lijm.",
-   "Strooi er suiker of glitter over zodat het sneeuw lijkt.",
-   "Teken met de zwarte stift een kronkelende glimlach tussen de wangen.",
-   "Teken met de oranje stift een wortelneus en laat alles goed drogen."
+   "Bekleed de wc-rol met bruin papier of verf hem bruin.",
+   "Knip twee lange stroken voor de poten en teken er hoefjes op met de stift.",
+   "Knip twee geweien uit donkerbruin papier.",
+   "Plak de ogen op de rol en teken een mond.",
+   "Lijm de rode pompon als neus.",
+   "Plak de poten en het gewei vast en laat alles drogen."
   ],
-  "tip": "Geef je sneeuwpop een sjaal van lint of een oud mutsje.",
-  "url": "https://www.easypeasyandfun.com/paper-plate-snowman-craft/",
+  "tip": "Laat het gewei wat omhoog staan, dan lijkt je rendier vrolijker.",
+  "url": "https://www.easypeasyandfun.com/paper-roll-rudolph-reindeer-craft/",
   "bron": "Easy Peasy and Fun"
  },
  "eten": {
-  "titel": "Pasta met pompoen en oude kaas",
-  "intro": "Een zachte, zoete pompoen met pasta en een romig kaassausje.",
+  "titel": "Witloof in de oven",
+  "intro": "Zachte witloof met ham en een lekker kaassausje, gebakken in de oven.",
   "ingredienten": [
-   "500 g pasta",
-   "een halve pompoen (ongeveer 400 g)",
-   "1 ui",
-   "1 teentje look",
-   "2 blaadjes salie",
-   "100 g oude kaas",
-   "een handvol walnoten",
-   "enkele blaadjes rucola",
-   "boter en olijfolie",
-   "peper en zout"
+   "8 struiken witloof",
+   "8 plakjes ham",
+   "700 ml melk",
+   "250 g kaas",
+   "30 g boter + extra boter",
+   "40 g bloem",
+   "1 eidooier",
+   "peper, zout en nootmuskaat"
   ],
   "stappen": [
-   "Snijd de pompoen, met hulp van een volwassene, in blokjes en schil hem eerst.",
-   "Bak de pompoen met de ui, de look en de fijngesneden salie in boter en olijfolie, met hulp van een volwassene.",
-   "Voeg een scheutje water toe en laat de pompoen zacht worden.",
-   "Kook ondertussen de pasta, met hulp van een volwassene, en bewaar een pollepel kookwater.",
-   "Meng de pasta met wat kookwater en de geraspte kaas tot een glanzend sausje.",
-   "Schep de pompoen erdoor en strooi er geroosterde walnoten en rucola over."
+   "Snijd, met hulp van een volwassene, het harde stukje onderaan de witloof weg.",
+   "Laat de witloof, met hulp van een volwassene, zacht stomen of sudderen en knijp het vocht eruit.",
+   "Bak de witloof, met hulp van een volwassene, goudbruin in boter en wikkel er een plakje ham rond.",
+   "Leg de rolletjes in een ovenschaal.",
+   "Smelt, met hulp van een volwassene, de boter, roer de bloem erdoor en giet langzaam de melk erbij tot een glad sausje.",
+   "Roer er de geraspte kaas door en giet het sausje over de rolletjes.",
+   "Laat de schaal, met hulp van een volwassene, ongeveer 10 minuten in de oven goudbruin worden."
   ],
-  "tip": "Laat de rucola weg als je die niet lekker vindt.",
-  "url": "https://dagelijksekost.vrt.be/gerechten/pasta-met-pompoen-en-oud-roeselare",
+  "tip": "Lekker met gekookte aardappelen of puree.",
+  "url": "https://dagelijksekost.vrt.be/gerechten/witloof-in-de-oven",
   "bron": "Dagelijkse Kost"
  },
  "eten_gebruikt": [
@@ -246,6 +254,7 @@
   "Wortelstoemp met worstjes",
   "Wortelsoep met kip en rijst",
   "Ovenschotel met zalm en broccolistoemp",
-  "Pasta met pompoen en oude kaas"
+  "Pasta met pompoen en oude kaas",
+  "Witloof in de oven"
  ]
 }

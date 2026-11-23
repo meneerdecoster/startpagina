@@ -1,454 +1,484 @@
 {
- "bijgewerkt": "2026-11-23T04:24:26+07:00",
- "gezondheid": {
-  "streak": 11,
-  "laatste": {
-   "datum": "2026-11-22",
-   "water": 2.16,
-   "sporttype": null,
-   "notitie": null
+  "bijgewerkt": "2026-11-24T04:27:19+07:00",
+  "gezondheid": {
+    "streak": 12,
+    "laatste": {
+      "datum": "2026-11-23",
+      "water": 2.66,
+      "sporttype": null,
+      "notitie": null
+    },
+    "week": {
+      "dagen": 6,
+      "water": 2.33,
+      "koffie": 0.0,
+      "sport": 0,
+      "sauna": 0,
+      "alcoholvrij": 6,
+      "alcohol": 0,
+      "fysiek": 2.0,
+      "mentaal": 2.0,
+      "ziek": 0,
+      "water25": 3
+    },
+    "jaar": {
+      "dagen": 42,
+      "sport_pct": 33,
+      "water": 2.18,
+      "alcohol_week": 3.7,
+      "sauna": 24,
+      "oneup": 9
+    },
+    "reeksen": {
+      "water": [
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-13",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-14",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-15",
+          "v": 1.25
+        },
+        {
+          "d": "2026-11-16",
+          "v": 2.66
+        },
+        {
+          "d": "2026-11-17",
+          "v": 1.5
+        },
+        {
+          "d": "2026-11-18",
+          "v": 2.83
+        },
+        {
+          "d": "2026-11-19",
+          "v": 2.49
+        },
+        {
+          "d": "2026-11-20",
+          "v": 1.33
+        },
+        {
+          "d": "2026-11-21",
+          "v": 2.5
+        },
+        {
+          "d": "2026-11-22",
+          "v": 2.16
+        },
+        {
+          "d": "2026-11-23",
+          "v": 2.66
+        },
+        {
+          "d": "2026-11-24",
+          "v": null
+        }
+      ],
+      "koffie": [
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 1.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-16",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-17",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-18",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-19",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-20",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-21",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-22",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-23",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-24",
+          "v": null
+        }
+      ],
+      "alcohol": [
+        {
+          "d": "2026-11-11",
+          "v": null
+        },
+        {
+          "d": "2026-11-12",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-13",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-14",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-15",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-16",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-17",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-18",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-19",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-20",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-21",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-22",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-23",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-24",
+          "v": null
+        }
+      ]
+    },
+    "inzichten": [
+      "Water: gemiddeld 2,33 l per dag. Nog 0,17 l tot je doel van 2,5 l.",
+      "6 van 6 dagen alcoholvrij."
+    ]
   },
-  "week": {
-   "dagen": 7,
-   "water": 2.21,
-   "koffie": 0.0,
-   "sport": 1,
-   "sauna": 0,
-   "alcoholvrij": 7,
-   "alcohol": 0,
-   "fysiek": 2.0,
-   "mentaal": 2.0,
-   "ziek": 0,
-   "water25": 3
-  },
-  "jaar": {
-   "dagen": 41,
-   "sport_pct": 34,
-   "water": 2.17,
-   "alcohol_week": 3.8,
-   "sauna": 24,
-   "oneup": 9
-  },
-  "reeksen": {
-   "water": [
-    {
-     "d": "2026-11-09",
-     "v": null
+  "header": {
+    "ochtend": {
+      "titel": "Goeiemorgen, Sévérine",
+      "sub": "Vandaag wandel je in gedachten door de Kalmthoutse Heide en proef je een frisse spruitenslaw."
     },
-    {
-     "d": "2026-11-10",
-     "v": null
+    "middag": {
+      "titel": "Fijne middag, Sévérine",
+      "sub": "Lees over speelse schoenen met twee kleuren en een zacht flokatikleed voor in huis."
     },
-    {
-     "d": "2026-11-11",
-     "v": null
+    "avond": {
+      "titel": "Goeienavond, Sévérine",
+      "sub": "Een rustige avond met de volle maan in je horoscoop en een nieuw boek uit de bestsellerlijst."
     },
-    {
-     "d": "2026-11-12",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-13",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-14",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-15",
-     "v": 1.25
-    },
-    {
-     "d": "2026-11-16",
-     "v": 2.66
-    },
-    {
-     "d": "2026-11-17",
-     "v": 1.5
-    },
-    {
-     "d": "2026-11-18",
-     "v": 2.83
-    },
-    {
-     "d": "2026-11-19",
-     "v": 2.49
-    },
-    {
-     "d": "2026-11-20",
-     "v": 1.33
-    },
-    {
-     "d": "2026-11-21",
-     "v": 2.5
-    },
-    {
-     "d": "2026-11-22",
-     "v": 2.16
+    "nacht": {
+      "titel": "Slaap zacht, Sévérine",
+      "sub": "Eén vriendelijke gedachte van Boeddha om de dag mee af te sluiten."
     }
-   ],
-   "koffie": [
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 1.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-16",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-17",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-18",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-19",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-20",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-21",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-22",
-     "v": 0.0
-    }
-   ],
-   "alcohol": [
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
-    {
-     "d": "2026-11-12",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-13",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-14",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-15",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-16",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-17",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-18",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-19",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-20",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-21",
-     "v": 0.0
-    },
-    {
-     "d": "2026-11-22",
-     "v": 0.0
-    }
-   ]
   },
-  "inzichten": [
-   "Water: gemiddeld 2,21 l per dag. Nog 0,29 l tot je doel van 2,5 l.",
-   "7 van 7 dagen alcoholvrij.",
-   "1 sportdag deze week."
+  "boek_gebruikt": [
+    "Peculiar Stars",
+    "Defy the Dusk",
+    "Whistler",
+    "Yesteryear",
+    "The Last King of Faerie",
+    "The Correspondent",
+    "Sunrise on the Reaping"
+  ],
+  "boek": {
+    "titel": "De Hongerspelen 5 - Dageraad boven de boete (Sunrise on the Reaping)",
+    "auteur": "Suzanne Collins",
+    "samenvatting": "Op de dag van de vijftigde Hongerspelen, een Quarter Quell met dubbel zoveel deelnemers, wordt de zestienjarige Haymitch Abernathy uit District 12 geloot. In het Capitool beseft hij dat het systeem hem heeft opgezet om te falen. Toch weigert hij op te geven en wil hij dat zijn strijd iets betekent buiten de arena. Een voorgeschiedenis van de bekende reeks, ook te lezen zonder alles te kennen.",
+    "waarom": "Het boek staat deze weken opnieuw bij de meest gelezen titels op Goodreads, volgens de lijst van Book Riot.",
+    "sterren": 4.5,
+    "aantal": "ruim 1,4 miljoen beoordelingen",
+    "bron": "Goodreads",
+    "url": "https://goodreads.com/book/show/214331246",
+    "isbn": "9789000397259"
+  },
+  "ontdek": [
+    {
+      "label": "Wandelroute",
+      "titel": "Kalmthoutse Heide: 12,4 km tussen vennen en uitkijktorens",
+      "samenvatting": "Een lus van 12,4 km die vertrekt aan het bezoekerscentrum Visit Kalmthout (Putsesteenweg 131). Je wandelt langs heide, de Putse Moer en het Stappersven en klimt naar twee uitkijktorens. Onderweg zie je ook een nagebouwd stuk van de Doodendraad uit de Eerste Wereldoorlog.",
+      "bron": "Visit Flanders",
+      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/op-verkenning-de-kalmthoutse-heide"
+    },
+    {
+      "label": "Recept",
+      "titel": "Spruitenslaw met baharat, clementine en hazelnoten",
+      "samenvatting": "Ottolenghi schaaft rauwe spruitjes fijn en mengt ze met couscous, clementines, hazelnoten en basilicum. De dressing met baharat, ahornsiroop en mosterd geeft een warme, zoetzure toets. Een frisse, vegetarische winterschotel die je makkelijk voorbereidt.",
+      "bron": "Ottolenghi",
+      "url": "https://ottolenghi.co.uk/pages/recipes/brussels-sprouts-slaw-baharat-hazelnut-dressing"
+    },
+    {
+      "label": "Antwerpen",
+      "titel": "KMSKA toont in 2027 Warhol, Alechinsky en Rubens",
+      "samenvatting": "Het Antwerpse museum maakte zijn programma voor 2027 bekend: begin van het jaar vroege tekeningen van Andy Warhol, in de zomer een eeuwfeest voor Pierre Alechinsky. Het najaar draait rond de grote tentoonstelling Rubens and the World, die tot januari 2028 loopt.",
+      "bron": "Brussels Times",
+      "url": "https://www.brusselstimes.com/2401870/antwerps-royal-museum-of-fine-arts-unveils-its-2027-programme"
+    },
+    {
+      "label": "Mode",
+      "titel": "Martine Rose wordt creatief directeur van Balenciaga",
+      "samenvatting": "Het Spaanse modehuis kiest Martine Rose als nieuwe creatief directeur. Ze is de eerste vrouw die aan het hoofd van Balenciaga komt te staan.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/442525-martine-rose-creatief-directeur-balenciaga.html"
+    },
+    {
+      "label": "Citytrip",
+      "titel": "Straatsburg: in ongeveer 3,5 uur met de TGV vanuit Brussel",
+      "samenvatting": "Straatsburg combineert een gotische kathedraal, het grachtenkwartier La Petite France en een boottocht op de Ill. In de winstubs proef je lokale gerechten en Elzasser wijn, al is het aanbod voor vegetariërs beperkt. Boek op tijd, want de voordelige tarieven zijn schaars.",
+      "bron": "B-Europe",
+      "url": "https://www.b-europe.com/NL/Blog/Straatsburg"
+    },
+    {
+      "label": "Interieur",
+      "titel": "Een monumentaal huis met cirkels in elke hoek",
+      "samenvatting": "Binnenkijken in een huis uit 1928 waarvan het oorspronkelijke interieur verdwenen was en door Even Eleven opnieuw werd opgebouwd. Groen, roze en blauwgrijs bepalen de sfeer, en cirkels en driehoeken keren terug in beslag, verlichting en vloer. Maatwerk, vintage en erfstukken staan er vrij samen.",
+      "bron": "Residence",
+      "url": "https://www.residence.nl/monumentaal-huis-1928-even-eleven"
+    },
+    {
+      "label": "Koffietrend",
+      "titel": "Rocket Espresso opent showroom in een koffiebranderij in Genève",
+      "samenvatting": "De Italiaanse espressomachinemaker opende een nieuw winkelconcept binnen Chronic Coffee Roasters in Genève. De ruimte is ingericht met matzwarte oppervlakken en modulaire displays die in andere winkels herbruikbaar zijn. Het toont hoe koffiebranders en machinemerken steeds dichter samenwerken.",
+      "bron": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/"
+    },
+    {
+      "label": "Gezond leven",
+      "titel": "Meer vezels: een eenvoudige winterwinst",
+      "samenvatting": "Volgens een studie waarover The Guardian schreef, kan zo'n 7 gram extra vezels per dag het risico op enkele chronische aandoeningen verlagen. Havermout, volkoren producten, peulvruchten en de schil van groenten en fruit helpen je daar makkelijk heen. Bouw het rustig op en drink voldoende water.",
+      "bron": "Welingelichte Kringen",
+      "url": "https://www.welingelichtekringen.nl/gezondheid/we-eten-veel-te-weinig-vezels-maar-de-oplossing-is-eenvoudig"
+    },
+    {
+      "label": "Wandelroute",
+      "titel": "Thorparkroute in Genk: 16 km door mijnverleden en bos",
+      "samenvatting": "Een wandeling van 16 km die start aan de toegangspoort van Thorpark (André Dumontlaan 67, Genk). Je loopt langs de voormalige mijn van Waterschei, door beekvalleien met houten paden en langs de Klaverberg. Aan het einde kun je na donker de lichtinstallatie Lichtsporen bekijken.",
+      "bron": "Visit Flanders",
+      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-thorparkroute"
+    },
+    {
+      "label": "Wonen",
+      "titel": "Give a Pon lanceert een flokatikleed van schapenwol",
+      "samenvatting": "Het pantoffelmerk Give a Pon brengt zijn eerste vloerkleden uit: flokati's van 100% schapenwol, met de hand gemaakt in Griekenland. Het zachte, tactiele kleed past bij de terugkeer van warme materialen in huis. Je koopt het via de webshop van het merk.",
+      "bron": "Residence",
+      "url": "https://www.residence.nl/give-a-pon-flokati-kleden"
+    },
+    {
+      "label": "Recept",
+      "titel": "Rauwe wortelsalade van knolselderij en koolraap",
+      "samenvatting": "Ottolenghi schaaft knolselderij en koolraap heel fijn en maakt ze aan met peterselie, dille, kappertjes, citroen en gedroogde zure kersen. Het resultaat is een knapperige, frisse winterschotel zonder dierlijke ingrediënten in de lijst. Lekker als bijgerecht op een feesttafel.",
+      "bron": "Ottolenghi",
+      "url": "https://ottolenghi.co.uk/pages/recipes/raw-root-vegetables"
+    },
+    {
+      "label": "Wijntrend",
+      "titel": "Wijnkopers worden kieskeuriger en drinken sneller",
+      "samenvatting": "Uit het Golden Vines-rapport blijkt dat 52% van de ondervraagde liefhebbers van topwijn selectiever koopt. Genot en kwaliteit wegen zwaarder dan prestige, en vooral jongere kopers kiezen wijn om binnenkort te drinken in plaats van te bewaren. Spanje, Portugal, Piemonte en Zuid-Afrika krijgen meer aandacht.",
+      "bron": "Vinetur",
+      "url": "https://www.vinetur.com/en/20261120111535/golden-vines-report-finds-fine-wine-buyers-are-turning-more-selective.html"
+    }
+  ],
+  "ontdek_gebruikt": [
+    {
+      "datum": "2026-11-24",
+      "onderwerpen": [
+        "Antwerpen",
+        "Citytrip",
+        "Gezond leven",
+        "Interieur",
+        "Koffietrend",
+        "Mode",
+        "Recept",
+        "Wandelroute",
+        "Wijntrend",
+        "Wonen"
+      ],
+      "urls": [
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/op-verkenning-de-kalmthoutse-heide",
+        "https://ottolenghi.co.uk/pages/recipes/brussels-sprouts-slaw-baharat-hazelnut-dressing",
+        "https://www.brusselstimes.com/2401870/antwerps-royal-museum-of-fine-arts-unveils-its-2027-programme",
+        "https://www.elle.be/nl/442525-martine-rose-creatief-directeur-balenciaga.html",
+        "https://www.b-europe.com/NL/Blog/Straatsburg",
+        "https://www.residence.nl/monumentaal-huis-1928-even-eleven",
+        "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/",
+        "https://www.welingelichtekringen.nl/gezondheid/we-eten-veel-te-weinig-vezels-maar-de-oplossing-is-eenvoudig",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-thorparkroute",
+        "https://www.residence.nl/give-a-pon-flokati-kleden",
+        "https://ottolenghi.co.uk/pages/recipes/raw-root-vegetables",
+        "https://www.vinetur.com/en/20261120111535/golden-vines-report-finds-fine-wine-buyers-are-turning-more-selective.html"
+      ]
+    },
+    {
+      "datum": "2026-11-22",
+      "onderwerpen": [
+        "Antwerpen",
+        "Citytrip",
+        "Gezond leven",
+        "Interieur",
+        "Koffietrend",
+        "Mode",
+        "Recept",
+        "Wandelroute",
+        "Wijntrend",
+        "Wonen"
+      ],
+      "urls": [
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-rivierpark-maasvallei-leut-wandelroute",
+        "https://ottolenghi.co.uk/pages/recipes/roasted-squash-miso-soup-pearl-barley-cavolo-nero",
+        "https://www.vrt.be/vrtnws/nl/2026/11/20/renovatie-museum-plantin-moretus-antwerpen-poetswerk-keuken/",
+        "https://www.jan-magazine.nl/mode/g74107014/sleek-boots-trend-herfst-winter-2026-2027/",
+        "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
+        "https://www.elle.be/nl/216404-chique-minimalistische-decoratie-kerstversiering.html",
+        "https://newsmonkey.be/dit-zijn-de-beste-belgische-wijnen-van-2026/",
+        "https://www.citytrip.be/favorieten/citytrips-met-de-trein-vanuit-belgie/",
+        "https://purepascale.com/en/recipes/wilde-paddenstoelen-met-wintergroenten",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/muziekbos-wandelroute",
+        "https://www.gezondheidenwetenschap.be/in-de-kijker/doe-de-vezeltest",
+        "https://www.vtwonen.be/binnenkijken/binnenkijken-bij-verschillende-stylisten~d8f4e999"
+      ]
+    },
+    {
+      "datum": "2026-11-21",
+      "onderwerpen": [
+        "Antwerpen",
+        "Citytrip",
+        "Gezond leven",
+        "Interieur",
+        "Koffietrend",
+        "Mode",
+        "Recept",
+        "Wandelroute",
+        "Wijntrend",
+        "Wonen"
+      ],
+      "urls": [
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/westhoekwandelroute",
+        "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash",
+        "https://www.whowhatwear.com/fashion/european-fashion-trends-winter-2026",
+        "https://www.touring.be/nl/artikels/10-tips-voor-je-citytrip-naar-wenen",
+        "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html",
+        "https://www.forbes.be/nl/belg-kroont-zich-tot-wereldkampioen-koffiebranden/",
+        "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/bulskampveldwandelroute",
+        "https://www.torres.es/en/blog/wine-planet/wine-world-trends-2026",
+        "https://ottolenghi.co.uk/pages/recipes/lentil-fennel-and-parmesan-stoup-with-charred-tomato-salsa",
+        "https://www.debeterewereld.nl/wonen-leven/tips-voor-een-gezellig-interieur-in-de-winter/",
+        "https://www.debeterewereld.nl/wonen-leven/zo-kom-jij-gezond-de-winter-door/"
+      ]
+    },
+    {
+      "datum": "2026-11-20",
+      "onderwerpen": [
+        "Antwerpen",
+        "Citytrip",
+        "Gezond leven",
+        "Interieur",
+        "Koffietrend",
+        "Mode",
+        "Recept",
+        "Wandelroute",
+        "Wijntrend"
+      ],
+      "urls": [
+        "https://ottolenghi.co.uk/pages/recipes/confit-tandoori-chickpeas",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/norbertijnenwandeling",
+        "https://www.elle.be/nl/437406-herfst-2026-modetrends.html",
+        "https://www.vrt.be/vrtnws/nl/2026/10/13/sterrenchef-johan-segers-t-fornuis-heropening-overkant-straat-a/",
+        "https://www.forbes.be/nl/van-commodity-naar-craft-hoe-specialty-coffee-de-koffiemarkt-verandert/",
+        "https://www.vtwonen.be/woontrends/kleurtrends-2026-interieur-merken~b94d054",
+        "https://www.elle.be/nl/442250-naar-deze-kerstmarkten-kan-je-vanuit-belgie-met-de-trein-naartoe.html",
+        "https://gezond.be/peulvruchten-zijn-gezonde-superfoods",
+        "https://perfectewijn.nl/en/blogs/wijn-weetjes/wijntrend-2026-betere-wijn-minder-volume",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-haspengouw-de-alden-biesen-wandelroute",
+        "https://ottolenghi.co.uk/pages/recipes/tamarind-tomato-braised-chickpeas",
+        "https://www.vrt.be/vrtnws/nl/2026/10/28/ossip-zadkine-kmska-expo-beeldhouwkunst-sculptuur-antwerpen/"
+      ]
+    }
+  ],
+  "horoscoop": {
+    "tekens": {
+      "ram": "Vandaag zit je vol plannen en goede ideeën voor het einde van het jaar. De volle maan maakt je gesprekken vlot, dus deel gerust wat je bezighoudt.",
+      "stier": "De volle maan richt je blik op wat je echt waardeert. Gun jezelf vandaag iets dat je zintuigen verwent, zoals een lekkere maaltijd of een rustig moment.",
+      "tweelingen": "Je voelt je speels en nieuwsgierig. Je mag gerust van gedachten veranderen, en een prikkelend gesprek kan je dag kleuren.",
+      "kreeft": "Je bent vandaag wat gevoeliger voor drukte en lawaai. Zoek een rustig hoekje en kies een gezellige avond thuis.",
+      "leeuw": "Na een drukke periode wordt het wat kalmer, en dat past je. Je straalt een natuurlijke charme uit en mensen werken graag met je samen.",
+      "maagd": "Neem de tijd om je plannen rustig te ordenen. Vanaf donderdag krijg je meer energie, dus je hoeft vandaag niets te forceren.",
+      "weegschaal": "Het weekend lonkt al, en dat mag je stemmen. Volg vandaag wat je intuïtief het liefst doet en twijfel er niet te lang over.",
+      "schorpioen": "De drukte van het jaareinde wordt voelbaar, maar jij bewaakt je eigen grenzen. Duidelijke afspraken geven je rust, ook voor je vrije tijd.",
+      "boogschutter": "Je verjaardagsperiode maakt zelfs een grijze novemberdag feestelijk. Geniet van de aandacht en van de ruimte om jezelf te zijn.",
+      "steenbok": "De volle maan brengt je dagelijkse gewoonten onder de aandacht. Een kleine aanpassing in je ritme of werkplek kan je dag prettiger maken.",
+      "waterman": "De volle maan zet je creativiteit en je gevoel voor humor in de kijker. Vertrouw op je originele ideeën, ook als ze wat eigenzinnig klinken.",
+      "vissen": "Je droomt van nieuwe richtingen in je werk, en dat mag. Zeg vandaag duidelijk wat je wilt, want dat werkt beter dan hints geven."
+    },
+    "bron": "ELLE België, weekhoroscoop 23 tot 29 november 2026"
+  },
+  "quote": {
+    "tekst": "Overwin woede met vriendelijkheid, kwaad met goedheid, gierigheid met vrijgevigheid en leugens met de waarheid.",
+    "auteur": "Boeddha (Dhammapada)",
+    "bron": "Dhammapada, vers 223"
+  },
+  "quote_gebruikt": [
+    "Het verleden is voorbij, de toekomst is er nog niet",
+    "Ademend in kalmeer ik lichaam en geest",
+    "Loslaten geeft ons vrijheid, en vrijheid is de enige",
+    "De beste manier om voor de toekomst te zorgen",
+    "Beter dan duizend lege woorden",
+    "Overwin woede met vriendelijkheid, kwaad met goedheid,"
   ]
- },
- "header": {
-  "ochtend": {
-   "titel": "Goeiemorgen, Sévérine",
-   "sub": "Een wandeling door Leut, een soep met pompoen en miso en nieuws uit het Plantin-Moretusmuseum."
-  },
-  "middag": {
-   "titel": "Fijne middag, Sévérine",
-   "sub": "Vandaag lees je over laarzen met een strakke lijn en een sobere kerst in huis."
-  },
-  "avond": {
-   "titel": "Goeienavond, Sévérine",
-   "sub": "Tijd voor een rustig boek, een glas Belgische wijn en je horoscoop."
-  },
-  "nacht": {
-   "titel": "Nog even bijlezen, Sévérine?",
-   "sub": "Een korte gedachte om mee in slaap te vallen."
-  }
- },
- "boek_gebruikt": [
-  "Peculiar Stars",
-  "Defy the Dusk",
-  "Whistler",
-  "Yesteryear",
-  "The Last King of Faerie",
-  "The Correspondent"
- ],
- "boek": {
-  "titel": "The Correspondent",
-  "auteur": "Virginia Evans",
-  "samenvatting": "Sybil Van Antwerp, een gepensioneerde advocate, schrijft al jaren brieven aan familie, vrienden en schrijvers om haar leven te begrijpen. Eén brief verstuurt ze nooit. Wanneer post uit haar verleden een pijnlijke periode terugbrengt, moet ze onder ogen zien wat ze lang heeft weggestopt. Een warme, rustige roman over verbondenheid, vergeving en de kracht van woorden.",
-  "waarom": "Het boek staat deze maand bij de meest gelezen titels op Goodreads en is vooral via mond-tot-mondreclame groot geworden.",
-  "sterren": 4.41,
-  "aantal": "ruim 1 miljoen beoordelingen",
-  "bron": "Goodreads",
-  "url": "https://www.goodreads.com/book/show/223001257-the-correspondent",
-  "isbn": "9780593798430"
- },
- "ontdek": [
-  {
-   "label": "Wandelroute",
-   "titel": "Leut wandelroute (10,2 km)",
-   "samenvatting": "Een lus van 10,2 km die vertrekt aan het dorpsplein van Leut in Maasmechelen. Je passeert een beschermde molen, een kasteelpark en de Maasoever, en wandelt door een natuurgebied waar Galloways en konikpaarden grazen.",
-   "bron": "Visit Flanders",
-   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-rivierpark-maasvallei-leut-wandelroute"
-  },
-  {
-   "label": "Recept",
-   "titel": "Soep van geroosterde pompoen met miso en parelgerst",
-   "samenvatting": "Ottolenghi roostert butternutpompoen en laat die samen met parelgerst, miso en cavolo nero tot een stevige soep koken. Walnoten, een scheutje citroen en wat rookpaprika geven de afwerking. Een warme, plantaardige maaltijd voor koude avonden.",
-   "bron": "Ottolenghi",
-   "url": "https://ottolenghi.co.uk/pages/recipes/roasted-squash-miso-soup-pearl-barley-cavolo-nero"
-  },
-  {
-   "label": "Antwerpen",
-   "titel": "Plantin-Moretusmuseum heropent op 5 december",
-   "samenvatting": "Het oudste museum van Antwerpen opent na een verbouwing opnieuw, met een nieuwe opstelling voor het eerst in tien jaar. De 18e-eeuwse keuken is voor het eerst te bezoeken en laat je ingrediënten voelen terwijl een projectie een bijpassend recept toont.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/20/renovatie-museum-plantin-moretus-antwerpen-poetswerk-keuken/"
-  },
-  {
-   "label": "Mode",
-   "titel": "Slanke laarzen met designerlook",
-   "samenvatting": "Voor herfst en winter 2026/2027 winnen strakke laarzen met een smalle schacht en een spitse of lichtjes vierkante neus terrein. Ze geven een rustige, minimalistische afwerking aan broeken, rokken en jurken.",
-   "bron": "Jan Magazine",
-   "url": "https://www.jan-magazine.nl/mode/g74107014/sleek-boots-trend-herfst-winter-2026-2027/"
-  },
-  {
-   "label": "Koffietrend",
-   "titel": "Recordoogst in Brazilië zet de koffiemarkt onder druk",
-   "samenvatting": "Brazilië verwacht in 2026/27 een recordoogst van 72,5 miljoen zakken, al zorgden zware regens voor een lagere kwaliteit bij arabica. De voorraden blijven laag en een mogelijke sterke El Niño kan de volgende oogst bedreigen.",
-   "bron": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Minimalistische kerstversiering in 25 ideeën",
-   "samenvatting": "Elle toont hoe je met neutrale tinten, ruw hout, glas en dennentakken een sobere, chique kerst creëert. Het geheim zit in weinig, maar mooie stukken.",
-   "bron": "ELLE.be",
-   "url": "https://www.elle.be/nl/216404-chique-minimalistische-decoratie-kerstversiering.html"
-  },
-  {
-   "label": "Wijntrend",
-   "titel": "Belgische wijn in de lift: dit zijn de winnaars van 2026",
-   "samenvatting": "Op Horeca Expo in Gent werden de beste Belgische wijnen van 2026 bekroond, met een oranje wijn en een bruisende wijn bovenaan. De productie bereikte vorig jaar een record van ongeveer 4,3 miljoen liter.",
-   "bron": "Newsmonkey",
-   "url": "https://newsmonkey.be/dit-zijn-de-beste-belgische-wijnen-van-2026/"
-  },
-  {
-   "label": "Citytrip",
-   "titel": "Met de trein op citytrip vanuit België",
-   "samenvatting": "Lille ligt op 35 minuten, Parijs op ongeveer 1u22 en Keulen op iets minder dan 2 uur. Handig voor een weekend zonder file of parkeerstress, en je komt in het centrum aan.",
-   "bron": "Citytrip.be",
-   "url": "https://www.citytrip.be/favorieten/citytrips-met-de-trein-vanuit-belgie/"
-  },
-  {
-   "label": "Recept",
-   "titel": "Wilde paddenstoelen met wintergroenten",
-   "samenvatting": "Pascale Naessens combineert paddenstoelen met pompoen, prei, wortel en paprika, gekruid met tijm en knoflook. Een volledig plantaardig gerecht dat simpel is en vol groenten zit.",
-   "bron": "Pure Pascale",
-   "url": "https://purepascale.com/en/recipes/wilde-paddenstoelen-met-wintergroenten"
-  },
-  {
-   "label": "Wandelroute",
-   "titel": "Muziekbos wandelroute (9,7 km)",
-   "samenvatting": "Een rondwandeling van 9,7 km die start aan de IJsmolenhoeve in Ronse, aan de voet van de Muziekberg. Je klimt naar de Geuzentoren op de top van het bos en wandelt over houten paden met uitzicht op de Vlaamse Ardennen.",
-   "bron": "Visit Flanders",
-   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/muziekbos-wandelroute"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Doe de vezeltest",
-   "samenvatting": "Gezondheid en Wetenschap nodigt je uit om na te gaan hoeveel vezels je dagelijks binnenkrijgt. Vezels zitten vooral in groenten, peulvruchten, fruit en volkoren producten, handig om bij het kiezen van je wintergerechten in gedachten te houden.",
-   "bron": "Gezondheid en Wetenschap",
-   "url": "https://www.gezondheidenwetenschap.be/in-de-kijker/doe-de-vezeltest"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Binnenkijken bij vijf stylisten",
-   "samenvatting": "Vtwonen neemt je mee in vijf woningen van stylisten: een gerestaureerd herenhuis, een stadsappartement en een nieuwbouw vol vintage vondsten. Van kleurrijk tot rustig en neutraal, zodat je volop ideeën opdoet.",
-   "bron": "vtwonen",
-   "url": "https://www.vtwonen.be/binnenkijken/binnenkijken-bij-verschillende-stylisten~d8f4e999"
-  }
- ],
- "ontdek_gebruikt": [
-  {
-   "datum": "2026-11-22",
-   "onderwerpen": [
-    "Antwerpen",
-    "Citytrip",
-    "Gezond leven",
-    "Interieur",
-    "Koffietrend",
-    "Mode",
-    "Recept",
-    "Wandelroute",
-    "Wijntrend",
-    "Wonen"
-   ],
-   "urls": [
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-rivierpark-maasvallei-leut-wandelroute",
-    "https://ottolenghi.co.uk/pages/recipes/roasted-squash-miso-soup-pearl-barley-cavolo-nero",
-    "https://www.vrt.be/vrtnws/nl/2026/11/20/renovatie-museum-plantin-moretus-antwerpen-poetswerk-keuken/",
-    "https://www.jan-magazine.nl/mode/g74107014/sleek-boots-trend-herfst-winter-2026-2027/",
-    "https://dailycoffeenews.com/2026/11/19/brazils-record-coffee-harvest-comes-with-quality-and-stock-concerns/",
-    "https://www.elle.be/nl/216404-chique-minimalistische-decoratie-kerstversiering.html",
-    "https://newsmonkey.be/dit-zijn-de-beste-belgische-wijnen-van-2026/",
-    "https://www.citytrip.be/favorieten/citytrips-met-de-trein-vanuit-belgie/",
-    "https://purepascale.com/en/recipes/wilde-paddenstoelen-met-wintergroenten",
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/muziekbos-wandelroute",
-    "https://www.gezondheidenwetenschap.be/in-de-kijker/doe-de-vezeltest",
-    "https://www.vtwonen.be/binnenkijken/binnenkijken-bij-verschillende-stylisten~d8f4e999"
-   ]
-  },
-  {
-   "datum": "2026-11-21",
-   "onderwerpen": [
-    "Antwerpen",
-    "Citytrip",
-    "Gezond leven",
-    "Interieur",
-    "Koffietrend",
-    "Mode",
-    "Recept",
-    "Wandelroute",
-    "Wijntrend",
-    "Wonen"
-   ],
-   "urls": [
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/westhoekwandelroute",
-    "https://ottolenghi.co.uk/pages/recipes/red-lentil-dal-butternut-squash",
-    "https://www.whowhatwear.com/fashion/european-fashion-trends-winter-2026",
-    "https://www.touring.be/nl/artikels/10-tips-voor-je-citytrip-naar-wenen",
-    "https://www.elle.be/nl/438147-interieurtrends-najaar-deco-experts.html",
-    "https://www.forbes.be/nl/belg-kroont-zich-tot-wereldkampioen-koffiebranden/",
-    "https://tripbytrip.org/2026/11/13/winter-in-antwerp-from-4-december-2026-to-3-january-2027/",
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/bulskampveldwandelroute",
-    "https://www.torres.es/en/blog/wine-planet/wine-world-trends-2026",
-    "https://ottolenghi.co.uk/pages/recipes/lentil-fennel-and-parmesan-stoup-with-charred-tomato-salsa",
-    "https://www.debeterewereld.nl/wonen-leven/tips-voor-een-gezellig-interieur-in-de-winter/",
-    "https://www.debeterewereld.nl/wonen-leven/zo-kom-jij-gezond-de-winter-door/"
-   ]
-  },
-  {
-   "datum": "2026-11-20",
-   "onderwerpen": [
-    "Antwerpen",
-    "Citytrip",
-    "Gezond leven",
-    "Interieur",
-    "Koffietrend",
-    "Mode",
-    "Recept",
-    "Wandelroute",
-    "Wijntrend"
-   ],
-   "urls": [
-    "https://ottolenghi.co.uk/pages/recipes/confit-tandoori-chickpeas",
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/norbertijnenwandeling",
-    "https://www.elle.be/nl/437406-herfst-2026-modetrends.html",
-    "https://www.vrt.be/vrtnws/nl/2026/10/13/sterrenchef-johan-segers-t-fornuis-heropening-overkant-straat-a/",
-    "https://www.forbes.be/nl/van-commodity-naar-craft-hoe-specialty-coffee-de-koffiemarkt-verandert/",
-    "https://www.vtwonen.be/woontrends/kleurtrends-2026-interieur-merken~b94d054",
-    "https://www.elle.be/nl/442250-naar-deze-kerstmarkten-kan-je-vanuit-belgie-met-de-trein-naartoe.html",
-    "https://gezond.be/peulvruchten-zijn-gezonde-superfoods",
-    "https://perfectewijn.nl/en/blogs/wijn-weetjes/wijntrend-2026-betere-wijn-minder-volume",
-    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-haspengouw-de-alden-biesen-wandelroute",
-    "https://ottolenghi.co.uk/pages/recipes/tamarind-tomato-braised-chickpeas",
-    "https://www.vrt.be/vrtnws/nl/2026/10/28/ossip-zadkine-kmska-expo-beeldhouwkunst-sculptuur-antwerpen/"
-   ]
-  }
- ],
- "horoscoop": {
-  "tekens": {
-   "ram": "Er komt iets onverwachts op je pad. Neem het rustig, want daarin kunnen verborgen kansen zitten.",
-   "stier": "Misschien voel je je wat rusteloos. Kies een zachte toon en spaar je energie, dan loopt een gesprek vanzelf soepeler.",
-   "tweelingen": "Niet alles gaat vanzelf, maar je hebt meer wilskracht dan je denkt. Zie een kleine hindernis als een test en blijf volhouden.",
-   "kreeft": "Je hoeft vandaag niet alles af te krijgen. Werk rustig door, zeg duidelijk wat je nodig hebt en gun jezelf een pauze.",
-   "leeuw": "Pas je verwachtingen aan en vraag gerust raad aan iemand die je vertrouwt. Een moment van ontspanning doet je deugd.",
-   "maagd": "Je voelt je goed in je vel en je werk vlot. Er zijn mensen die je steunen, dus geniet van de vooruitgang.",
-   "weegschaal": "Doe eens iets anders dan anders: een nieuwe aanpak kan een obstakel doen verdwijnen. Vertrouw op jezelf en blijf bij je plan.",
-   "schorpioen": "Er liggen nieuwe kansen klaar, op het werk en daarbuiten. Sta open voor ideeën en nieuwe ontmoetingen.",
-   "boogschutter": "Mensen zoeken je raad. Blijf bescheiden en gebruik je invloed om iemand anders vooruit te helpen.",
-   "steenbok": "Je straalt rust en energie uit en anderen voelen zich bij jou op hun gemak. Neem de vragen die komen met een open hart aan.",
-   "waterman": "Je geduld wordt even op de proef gesteld. Twijfel niet aan jezelf, blijf kalm en gebruik de tijd om iets bij te leren.",
-   "vissen": "Je voelt je helder en kalm. Een goed moment om iets uit het verleden recht te zetten en vrijer vooruit te kijken."
-  },
-  "bron": "Horoscoop.be (de nieuwste daghoroscoop die beschikbaar was)"
- },
- "quote": {
-  "tekst": "Beter dan duizend lege woorden is één enkel woord dat vrede brengt.",
-  "auteur": "Boeddha (Dhammapada)",
-  "bron": "Dhammapada, vers 100"
- },
- "quote_gebruikt": [
-  "Het verleden is voorbij, de toekomst is er nog niet",
-  "Ademend in kalmeer ik lichaam en geest",
-  "Loslaten geeft ons vrijheid, en vrijheid is de enige",
-  "De beste manier om voor de toekomst te zorgen",
-  "Beter dan duizend lege woorden"
- ]
 }
