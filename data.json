@@ -1,73 +1,77 @@
 {
- "bijgewerkt": "2026-11-23T04:19:23+07:00",
+ "bijgewerkt": "2026-11-24T04:40:00+07:00",
  "vandaag": [
   {
-   "wanneer": "Ma 23 nov (BE)",
-   "wat": "Wall Street na een zwarte vrijdag: S&P 500 en Dow in correctie, Nasdaq -5,3%"
+   "wanneer": "Di 24 nov (BE)",
+   "wat": "Wall Street herstelt na terugkeer Jensen Huang bij Nvidia: Nasdaq +6%, S&P 500 +5%"
   },
   {
-   "wanneer": "Ma 23 nov (BE)",
-   "wat": "Nieuwe aflevering Mind to Invest (EP87) verwacht"
+   "wanneer": "Di 24 nov (BE)",
+   "wat": "Rode Duivels: ophef rond Lukaku's afscheid en het 'bommetje' van Nainggolan"
   },
   {
-   "wanneer": "Zo 22 nov (BE)",
-   "wat": "Finale Humo's Rock Rally in de AB; Thibau Nys won in Beringen"
+   "wanneer": "Do 26 nov",
+   "wat": "Nieuwe aflevering De Lange Termijn (#211) verwacht"
   },
   {
    "wanneer": "Di 8-9 dec",
-   "wat": "Fed-vergadering: markt rekent op ruim 90% kans op een renteverhoging"
+   "wat": "Fed-vergadering: markt rekent op een renteverhoging in december"
+  },
+  {
+   "wanneer": "25-30 mrt 2027",
+   "wat": "Rode Duivels - Duitsland (Klopp), kwartfinale Nations League"
   }
  ],
  "markten": [
   {
-   "titel": "Wall Street in correctie, Nasdaq verliest 5,3%",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: vrijdag sloot de S&P 500 3,7% lager op 6.910 punten en de Nasdaq zelfs 5,3%, waarmee beide grote indexen samen met de Dow meer dan 10% onder hun top staan. Nvidia zakte bijna 14%, ook ASML verloor ruim 9%.",
-   "bron": "MarketScreener (Reuters)",
-   "url": "https://nl.marketscreener.com/beursnieuws/wall-street-sluit-fors-lager-door-uitverkoop-van-ai-aandelen-s-p-500-en-dow-in-correctie-ce785ed3dd80f527"
+   "titel": "Nvidia-topman Huang keert terug: Nasdaq +6%, S&P 500 +5%",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: na de uitverkoop van vorige week (S&P 500 -3,7%) schoot Wall Street maandag omhoog toen Nvidia meldde dat Jensen Huang met onmiddellijke ingang CEO blijft. Het Nvidia-aandeel won ruim 30%, de Nasdaq steeg rond 6,7% en de S&P 500 bijna 5%.",
+   "bron": "Investing.com (Reuters)",
+   "url": "https://nl.investing.com/news/stock-market-news/wall-street-futures-stijgen-na-correctie-in-grote-indices-982798"
   },
   {
-   "titel": "Zilver verliest ruim 12% in één week",
-   "samenvatting": "Raakt je zilver: de zilverprijs (COMEX) zakte deze week van 47,3 naar 41,4 dollar per ounce, goud verloor zo'n 9%. Edelmetalen lijden onder de verwachting dat de Fed in december de rente verhoogt.",
-   "bron": "HDFC Sky",
-   "url": "https://hdfcsky.com/news/gold-crashes-9percent-to-3525-silver-plunges-17percent-as-fed-hike-odds-hit-95percent"
+   "titel": "Bitcoin boven 64.000 dollar, daarna terug naar 61.500",
+   "samenvatting": "Raakt je bitcoin: in het kielzog van Nvidia sprong bitcoin maandag kort boven 64.000 dollar en zakte tegen 19.10 uur terug naar ongeveer 61.580 dollar. Binnen vier uur werd voor ruim 300 miljoen dollar aan posities gedwongen gesloten; de angstindex staat nog op 'extreme angst'.",
+   "bron": "Crypto Insiders",
+   "url": "https://www.crypto-insiders.nl/nieuws/bitcoin/bitcoin-zakt-terug-na-koerssprong-tot-boven-64000-dollar/"
+  },
+  {
+   "titel": "Zilver rond 41 dollar: renteverhoging in december weegt",
+   "samenvatting": "Raakt je zilver: vrijdag zakte zilver nog 2,4% naar ongeveer 41,9 dollar per ounce en goud naar 3.558 dollar, omdat de markt een renteverhoging van de Fed in december bijna zeker inprijst en de dollar sterker is. (Cijfers van 20 november; nieuwere rapporten konden niet gelezen worden.)",
+   "bron": "USAGOLD",
+   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-20-2026/"
   },
   {
    "titel": "Beleggers vluchten naar obligaties, 10-jaarsrente onder 5%",
    "samenvatting": "Raakt je obligatie-ETF: door de vlucht naar veilige havens zakte het Amerikaanse 10-jaarsrendement deze week van 5,15% naar 4,92%, goed nieuws voor obligatiekoersen. Toch blijft de kans op een Fed-renteverhoging op 8-9 december rond 92%.",
    "bron": "24/7 Wall St.",
    "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
-  },
-  {
-   "titel": "Bitcoin veert op tot boven 60.000 dollar",
-   "samenvatting": "Raakt je bitcoin: na een duik onder 57.000 dollar, het laagste peil sinds september 2024, klom bitcoin zaterdag terug naar ongeveer 60.300 dollar. In 24 uur werden wel voor 2,4 miljard dollar aan crypto-futures geliquideerd.",
-   "bron": "Eurasia Business News",
-   "url": "https://eurasiabusinessnews.com/2026/11/21/bitcoin-price-today-november-21-2026-btc-rebounds-above-60000-as-solana-leads-crypto-gains/"
   }
  ],
  "tech": [
   {
-   "titel": "Amazon staat op het punt AI-start-up Decart over te nemen",
-   "samenvatting": "Amazon zou ongeveer 7,5 miljard dollar neertellen voor Decart, al is er nog geen getekende deal. Tegelijk verloren Chinese AI-aandelen sinds eind juni samen zo'n 1,7 biljoen dollar beurswaarde.",
-   "bron": "The State of Tech",
-   "url": "https://thestateoftech.substack.com/p/the-state-of-tech-van-zondag-22-november"
+   "titel": "Nvidia haalt Jensen Huang terug als CEO, aandeel +30%",
+   "samenvatting": "Elf dagen na zijn vertrek is Huang met onmiddellijke ingang terug aan het roer van Nvidia. Het aandeel voegde meer dan 900 miljard dollar beurswaarde toe en trok de hele AI-sector mee omhoog.",
+   "bron": "Investing.com (Reuters)",
+   "url": "https://nl.investing.com/news/stock-market-news/wall-street-futures-stijgen-na-correctie-in-grote-indices-982798"
   },
   {
-   "titel": "Anthropic-wiskundige claimt bewijs Riemann-hypothese met hulp van Claude",
-   "samenvatting": "Levent Alpöge, wiskundige bij Anthropic, publiceerde een in Lean controleerbaar bewijs van de 167 jaar oude Riemann-hypothese, gevonden samen met Claude. De Lean-code compileert volgens onafhankelijke checks, maar wiskundigen moeten het bewijs nog echt doorgronden. Tegelijk claimt een Stanford-postdoc een volledig menselijk bewijs van de algemene variant.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+   "titel": "Trump en Xi willen mensen betrekken bij militaire AI-beslissingen",
+   "samenvatting": "Volgens minister Bessent spraken de twee leiders af dat mensen de beslissingen over militaire AI moeten blijven nemen. Concrete regels om dat af te dwingen ontbreken nog.",
+   "bron": "Reuters",
+   "url": "https://www.reuters.com/world/china/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-2026-11-20/"
   },
   {
-   "titel": "Nvidia sluit langste verliesreeks sinds 2008 af",
-   "samenvatting": "Het Nvidia-aandeel ging vrijdag opnieuw met dubbele cijfers onderuit en zit nu aan zeven verliesweken op rij, de langste reeks sinds de financiële crisis. Bovenop het vertrek van Jensen Huang zou de SEC volgens Reuters ook de boekhouding van de chipreus onder de loep nemen.",
-   "bron": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+   "titel": "Meta twijfelt aan klimaatdoel 2030 door AI-datacenters",
+   "samenvatting": "De uitstoot van Meta steeg van 15,6 miljoen ton CO2-equivalent in 2024 naar meer dan 21,7 miljoen ton in 2025, ongeveer 40 procent meer. Het bedrijf herziet daarom zijn netto-nuldoel.",
+   "bron": "Ars Technica",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
   },
   {
-   "titel": "Trump dreigt met 'enorme taks' op AI-datacenters in het buitenland",
-   "samenvatting": "President Trump wil Amerikaanse techbedrijven die AI-datacenters buiten de VS bouwen zwaar belasten, al is nog onduidelijk hoe dat zou werken. Tegelijk groeit in de VS het lokale verzet tegen nieuwe datacenters.",
-   "bron": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+   "titel": "SpaceX bouwt AI-datacenters van 74 miljard dollar: wie betaalt de stroom?",
+   "samenvatting": "De campus in Arizona zou bij volledige bouw ongeveer 6 gigawatt vragen. Dat roept vragen op over wie de rekening van het stroomnet draagt.",
+   "bron": "Fortune",
+   "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/"
   }
  ],
  "podcasts": [
@@ -110,26 +114,32 @@
  ],
  "sport": [
   {
-   "label": "Veldrijden",
-   "titel": "Thibau Nys wint ook in Beringen: 4 op 4",
-   "samenvatting": "Thibau Nys won de X²O-cross in Beringen en behoudt zo zijn perfecte seizoensrapport. Bij de vrouwen won Sara Casasola, Lucinda Brand werd tweede.",
+   "label": "Rode Duivels",
+   "titel": "Nainggolan: 'Lukaku laat binnenkort een bommetje ontploffen'",
+   "samenvatting": "In een podcast zegt Radja Nainggolan dat Romelu Lukaku hem vertelde dat er een 'bommetje' zal ontploffen over interne problemen bij de Duivels. Lukaku zelf bevestigde dat niet; hij kondigde op 16 november verrassend zijn afscheid aan.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/22/thibau-nys-behoudt-perfect-rapport-na-winst-in-beringen-casasol~1795372864787/"
+   "url": "https://sporza.be/nl/2026/11/23/-volgens-romelu-gaat-er-een-bommetje-ontploffen-nainggolan-beweert-dat-lukaku-binnenkort-echte-probleem-bij-duivels-zal-onthullen~1795441483572/"
   },
   {
    "label": "Royal Antwerp FC",
-   "titel": "Antwerp laat 0-2-voorsprong glippen in Waregem",
-   "samenvatting": "Vermeeren en Fofana zetten Antwerp 0-2 voor, maar na de rode kaart voor Cortés kwam Zulte Waregem via Hedl en Mbaye terug tot 2-2 (stand in de slotfase). Opnieuw slecht nieuws voor coach Compper in de strijd onderaan.",
+   "titel": "Antwerp speelt 2-2 gelijk in Waregem na rode kaart",
+   "samenvatting": "Vermeeren en Fofana zetten Antwerp 0-2 voor, maar na de rode kaart voor Cortés kwam Zulte Waregem terug tot 2-2. Antwerp staat 12e met 12 punten uit 12 wedstrijden.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/12/zulte-waregem-antwerp-live-2-2-zulte-waregem-staat-op-uit-de-dood-mbaye-fusileert-nozawa-in-de-korte-hoek-voor-de-gelijkmaker~1781871845516/"
+   "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/12/zulte-waregem-antwerp-zelfs-vanop-11-meter-lukte-het-niet-zulte-waregem-blijft-opnieuw-zonder-zege-achter-na-comeback-zonder-climax-tegen-antwerp~1781871845516"
   }
  ],
  "opkomend": [
   {
-   "titel": "Zinger laat fans meeproduceren aan nieuwe single",
-   "samenvatting": "De vijfkoppige band uit Deerlijk, ooit winnaar van De Nieuwe Lichting, nam verschillende versies op van een xylofoonmelodie en laat fans via Facebook stemmen. De versie met de meeste stemmen belandt op de nieuwe single van de brass- en spacepopband.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/nieuws/zinger-schakelt-fans-in-als-producers-van-nieuwe-single/"
+   "titel": "Helena Casella lost 'Morning Madness' van nieuw album",
+   "samenvatting": "De Belgisch-Braziliaanse pianiste en zangeres uit Gent brengt de derde single van haar album 'Tumult' (5 februari 2027), een zes minuten lang nummer met invloeden van jazz, soul en r&b.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-helena-casella-morning-madness/"
+  },
+  {
+   "titel": "Wannes Cappelle zingt 'Vleugels'",
+   "samenvatting": "De West-Vlaamse frontman van Het Zesde Metaal brengt een sober solonummer met piano en stem, over een danseres met een onzichtbare immuunstoornis. Het hoort bij zijn one-manshow 'Verstaanbaar'.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/06/nieuwe-single-wannes-cappelle-vleugels/"
   },
   {
    "titel": "Kuusi zingt over thuis voelen in IJsland",
@@ -138,24 +148,18 @@
    "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-kuusi-skaftafell/"
   },
   {
-   "titel": "Benny Boo lost derde single 'Always Did'",
-   "samenvatting": "De finalist van De Nieuwe Lichting volgt 'Bird Shit' en 'Schrödinger's Summer' op met een funky nummer vol gitaarsolo en psychedelische elektronica. Hij produceert en mixt alles zelf; Amber Piddington van Kids With Buns schreef mee.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/09/nieuwe-single-benny-boo-always-did/"
-  },
-  {
-   "titel": "Tien bands strijden zondag om Humo's Rock Rally",
-   "samenvatting": "Zondag 22 november spelen de tien finalisten in de grote zaal van de AB, van De Defecte Gasten en Eldarova tot Fred Gata, Plastik/Plastik en Racehorsepablo. Gent levert met drie acts de meeste finalisten; de winnaar is nog niet bekend.",
-   "bron": "AB",
-   "url": "https://www.abconcerts.be/nl/nieuws/dit-zijn-de-finalisten-van-humos-rock-rally-2026/a1eQw000007NVv7IAG"
+   "titel": "Zinger laat fans meeproduceren aan nieuwe single",
+   "samenvatting": "De vijfkoppige band uit Deerlijk, ooit winnaar van De Nieuwe Lichting, nam verschillende versies op van een xylofoonmelodie en laat fans via Facebook stemmen. De versie met de meeste stemmen belandt op de nieuwe single van de brass- en spacepopband.",
+   "bron": "Luminous Dash",
+   "url": "https://luminousdash.be/nieuws/zinger-schakelt-fans-in-als-producers-van-nieuwe-single/"
   }
  ],
  "fire": [
   {
-   "titel": "Zoveel spaargeld heb je nodig naast je pensioen",
-   "samenvatting": "Het gemiddelde Belgische pensioen ligt rond 2.046 euro bruto per maand. Wie elke maand 600 euro tekortkomt, heeft over twintig jaar al 144.000 euro nodig, en de helft van de mensen met een aanvullend pensioen heeft minder dan 3.821 euro opgebouwd.",
-   "bron": "Mancho",
-   "url": "https://mancho.be/2026/11/14/zoveel-spaargeld-heb-je-echt-nodig-wanneer-je-met-pensioen-gaat-deze-bedragen-doen-veel-belgen-opkijken/"
+   "titel": "FIRE in België: haalbaar met breed indexbeleggen en de 4%-regel",
+   "samenvatting": "Je bouwt een vermogen op van ongeveer 25 keer je jaarlijkse uitgaven door veel te sparen en te beleggen in brede indexfondsen. Het artikel ziet FIRE in België haalbaar, mede door de beperkte meerwaardebelasting van 10% op aandelen; let wel, het komt van een aanbieder die ook zijn eigen dienst promoot.",
+   "bron": "Curvo",
+   "url": "https://curvo.eu/nl/artikel/fire-financial-independence-retire-early-belgie"
   },
   {
    "titel": "Belgische belegger: met 500.000 tot 750.000 euro ben je vrij",
@@ -479,45 +483,41 @@
   }
  ],
  "gezondheid": {
-  "streak": 11,
+  "streak": 12,
   "laatste": {
-   "datum": "2026-11-22",
-   "stappen": 10322.0,
-   "slaap": 9.12,
-   "hrv": 57.0,
-   "rhr": 54.0,
-   "water": 2.1,
-   "sporttype": null,
-   "bedtijd": "21:29",
-   "opstaan": "06:52"
+   "datum": "2026-11-23",
+   "stappen": 11306.0,
+   "slaap": 7.23,
+   "hrv": 73.0,
+   "rhr": 50.0,
+   "water": 1.83,
+   "sporttype": "Zwemmen, Wandelen",
+   "bedtijd": "00:05",
+   "opstaan": "07:26"
   },
   "week": {
-   "stappen": 10644.0,
-   "slaap": 7.14,
-   "hrv": 56.0,
-   "rhr": 49.86,
-   "water": 2.39,
-   "diep": 37.0,
-   "rem": 114.86,
+   "stappen": 10146.0,
+   "slaap": 6.92,
+   "hrv": 59.57,
+   "rhr": 49.29,
+   "water": 2.3,
+   "diep": 37.14,
+   "rem": 111.71,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
-   "koffie": 0.29,
+   "koffie": 0.14,
    "stappen10k": 6,
    "water3l": 0
   },
   "jaar": {
-   "dagen": 74,
-   "sport_pct": 47,
-   "water": 2.62,
-   "alcohol_week": 7.3
+   "dagen": 75,
+   "sport_pct": 48,
+   "water": 2.61,
+   "alcohol_week": 7.2
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
     {
      "d": "2026-11-10",
      "v": null
@@ -568,18 +568,18 @@
     },
     {
      "d": "2026-11-22",
-     "v": 10322.0
+     "v": 10672.0
     },
     {
      "d": "2026-11-23",
+     "v": 11306.0
+    },
+    {
+     "d": "2026-11-24",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
     {
      "d": "2026-11-10",
      "v": null
@@ -618,7 +618,7 @@
     },
     {
      "d": "2026-11-19",
-     "v": 8.48
+     "v": 6.46
     },
     {
      "d": "2026-11-20",
@@ -634,14 +634,14 @@
     },
     {
      "d": "2026-11-23",
+     "v": 7.23
+    },
+    {
+     "d": "2026-11-24",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-09",
-     "v": null
-    },
     {
      "d": "2026-11-10",
      "v": null
@@ -692,18 +692,23 @@
     },
     {
      "d": "2026-11-22",
-     "v": 57.0
+     "v": 58.0
     },
     {
      "d": "2026-11-23",
+     "v": 73.0
+    },
+    {
+     "d": "2026-11-24",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.644 stappen per dag; 6 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,39 l. Nog 0,61 l per dag tot je doel van 3 l.",
-   "7 van 7 dagen alcoholvrij."
+   "Gemiddeld 10.146 stappen per dag; 6 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,3 l. Nog 0,7 l per dag tot je doel van 3 l.",
+   "7 van 7 dagen alcoholvrij.",
+   "HRV laatst gemeten op 73, boven je gemiddelde (59). Goed hersteld."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
  }
