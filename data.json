@@ -1,77 +1,77 @@
 {
- "bijgewerkt": "2026-11-24T04:40:00+07:00",
+ "bijgewerkt": "2026-11-25T04:20:01+07:00",
  "vandaag": [
   {
-   "wanneer": "Di 24 nov (BE)",
-   "wat": "Wall Street herstelt na terugkeer Jensen Huang bij Nvidia: Nasdaq +6%, S&P 500 +5%"
+   "wanneer": "Wo 25 nov (BE)",
+   "wat": "Wall Street na de Nvidia-rally: beleggers wachten op inflatiecijfers en de Fed van december"
   },
   {
-   "wanneer": "Di 24 nov (BE)",
-   "wat": "Rode Duivels: ophef rond Lukaku's afscheid en het 'bommetje' van Nainggolan"
+   "wanneer": "Wo 25 nov (BE)",
+   "wat": "Rode Duivels: bondsbaas Mannaert verdedigt het afscheid van Lukaku"
   },
   {
    "wanneer": "Do 26 nov",
    "wat": "Nieuwe aflevering De Lange Termijn (#211) verwacht"
   },
   {
-   "wanneer": "Di 8-9 dec",
-   "wat": "Fed-vergadering: markt rekent op een renteverhoging in december"
+   "wanneer": "Vr 27 nov",
+   "wat": "Wereldbeker veldrijden start in Ostrava (Tsjechië)"
   },
   {
-   "wanneer": "25-30 mrt 2027",
-   "wat": "Rode Duivels - Duitsland (Klopp), kwartfinale Nations League"
+   "wanneer": "Zo 29 nov 16:00 (BE)",
+   "wat": "Royal Antwerp FC - Anderlecht"
   }
  ],
  "markten": [
+  {
+   "titel": "Bitcoin zakt onder 60.000 dollar, ether -7%",
+   "samenvatting": "Raakt je bitcoin: na de korte piek boven 64.000 dollar op maandag verloor bitcoin dinsdag 5,3% en zakte naar ongeveer 60.200 dollar (dagbodem 59.314). Voor ongeveer 830 miljoen dollar aan posities werd in 24 uur gedwongen gesloten; de angstindex staat op 11.",
+   "bron": "CryptoTicker",
+   "url": "https://cryptoticker.io/nl/crypto-nieuws-bitcoin-onder-60000-ether-7-procent/"
+  },
+  {
+   "titel": "Wall Street opent lager nu de AI-rally rond Nvidia wegebt",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: na de sprong van maandag gaf de Nasdaq dinsdag 1,4% terug, de S&P 500 0,9% en de Dow 0,2%. Vooral tech- en AI-aandelen verloren terrein; beleggers wachten op inflatiecijfers met het oog op de Fed in december.",
+   "bron": "IEX.nl",
+   "url": "https://financieel.headliner.nl/item/wall-street-opent-lager-nu-ai-rally-door-nvidia-wegebt-iex-140585"
+  },
+  {
+   "titel": "Zilver zakt tot ruim 40 dollar, markt rekent op renteverhoging",
+   "samenvatting": "Raakt je zilver én je obligatie-ETF: zilver verloor dinsdag ruim 5% naar ongeveer 40,8 dollar en goud zakte onder 3.560 dollar. De markt geeft volgens CME FedWatch 96% kans op een Fed-renteverhoging van 0,25 punt in december.",
+   "bron": "Investing.com / Newsbit",
+   "url": "https://nl.investing.com/news/commodities-news/goud-futures-lager-tijdens-de-vs-sessie-984962"
+  },
   {
    "titel": "Nvidia-topman Huang keert terug: Nasdaq +6%, S&P 500 +5%",
    "samenvatting": "Raakt je wereld-aandelen-ETF: na de uitverkoop van vorige week (S&P 500 -3,7%) schoot Wall Street maandag omhoog toen Nvidia meldde dat Jensen Huang met onmiddellijke ingang CEO blijft. Het Nvidia-aandeel won ruim 30%, de Nasdaq steeg rond 6,7% en de S&P 500 bijna 5%.",
    "bron": "Investing.com (Reuters)",
    "url": "https://nl.investing.com/news/stock-market-news/wall-street-futures-stijgen-na-correctie-in-grote-indices-982798"
-  },
-  {
-   "titel": "Bitcoin boven 64.000 dollar, daarna terug naar 61.500",
-   "samenvatting": "Raakt je bitcoin: in het kielzog van Nvidia sprong bitcoin maandag kort boven 64.000 dollar en zakte tegen 19.10 uur terug naar ongeveer 61.580 dollar. Binnen vier uur werd voor ruim 300 miljoen dollar aan posities gedwongen gesloten; de angstindex staat nog op 'extreme angst'.",
-   "bron": "Crypto Insiders",
-   "url": "https://www.crypto-insiders.nl/nieuws/bitcoin/bitcoin-zakt-terug-na-koerssprong-tot-boven-64000-dollar/"
-  },
-  {
-   "titel": "Zilver rond 41 dollar: renteverhoging in december weegt",
-   "samenvatting": "Raakt je zilver: vrijdag zakte zilver nog 2,4% naar ongeveer 41,9 dollar per ounce en goud naar 3.558 dollar, omdat de markt een renteverhoging van de Fed in december bijna zeker inprijst en de dollar sterker is. (Cijfers van 20 november; nieuwere rapporten konden niet gelezen worden.)",
-   "bron": "USAGOLD",
-   "url": "https://www.usagold.com/daily-precious-metals-market-report-november-20-2026/"
-  },
-  {
-   "titel": "Beleggers vluchten naar obligaties, 10-jaarsrente onder 5%",
-   "samenvatting": "Raakt je obligatie-ETF: door de vlucht naar veilige havens zakte het Amerikaanse 10-jaarsrendement deze week van 5,15% naar 4,92%, goed nieuws voor obligatiekoersen. Toch blijft de kans op een Fed-renteverhoging op 8-9 december rond 92%.",
-   "bron": "24/7 Wall St.",
-   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
   }
  ],
  "tech": [
   {
-   "titel": "Nvidia haalt Jensen Huang terug als CEO, aandeel +30%",
-   "samenvatting": "Elf dagen na zijn vertrek is Huang met onmiddellijke ingang terug aan het roer van Nvidia. Het aandeel voegde meer dan 900 miljard dollar beurswaarde toe en trok de hele AI-sector mee omhoog.",
-   "bron": "Investing.com (Reuters)",
-   "url": "https://nl.investing.com/news/stock-market-news/wall-street-futures-stijgen-na-correctie-in-grote-indices-982798"
+   "titel": "Nvidia zet Jensen Huang terug als CEO",
+   "samenvatting": "Elf dagen na zijn vertrek is Huang door het bestuur weer aangesteld als president, CEO en bestuurder. Het aandeel steeg maandag zo'n 30%, maar de AI-sector gaf dinsdag een deel van de winst terug.",
+   "bron": "Nvidia",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
   },
   {
-   "titel": "Trump en Xi willen mensen betrekken bij militaire AI-beslissingen",
-   "samenvatting": "Volgens minister Bessent spraken de twee leiders af dat mensen de beslissingen over militaire AI moeten blijven nemen. Concrete regels om dat af te dwingen ontbreken nog.",
-   "bron": "Reuters",
-   "url": "https://www.reuters.com/world/china/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-2026-11-20/"
+   "titel": "Amazon koopt AI-optimalisatietech van Decart voor 7,5 miljard",
+   "samenvatting": "Amazon neemt de technologie en het team van Decart over, naar verluidt voor 7,5 miljard dollar. Daarmee moeten AI-modellen efficiënter draaien op Amazons eigen Trainium-chips.",
+   "bron": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
   },
   {
-   "titel": "Meta twijfelt aan klimaatdoel 2030 door AI-datacenters",
-   "samenvatting": "De uitstoot van Meta steeg van 15,6 miljoen ton CO2-equivalent in 2024 naar meer dan 21,7 miljoen ton in 2025, ongeveer 40 procent meer. Het bedrijf herziet daarom zijn netto-nuldoel.",
-   "bron": "Ars Technica",
-   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+   "titel": "DeepMind-agents maken quantumalgoritmes voor fusie veel zuiniger",
+   "samenvatting": "AI-agents van Google DeepMind verbeterden quantumalgoritmes voor fusieonderzoek; de geschatte rekenkost zakt ongeveer 11,8 keer. Een wiskundig bewijssysteem controleerde de oplossingen.",
+   "bron": "Google DeepMind",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
   },
   {
-   "titel": "SpaceX bouwt AI-datacenters van 74 miljard dollar: wie betaalt de stroom?",
-   "samenvatting": "De campus in Arizona zou bij volledige bouw ongeveer 6 gigawatt vragen. Dat roept vragen op over wie de rekening van het stroomnet draagt.",
-   "bron": "Fortune",
-   "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/"
+   "titel": "Oregon en Virginia klagen SpaceX aan over Grok-beelden",
+   "samenvatting": "De twee staten stellen dat Grok niet-toegestane seksuele beelden maakte en dat de veiligheidsmaatregelen tekortschoten. Ze eisen boetes en rechterlijke bevelen.",
+   "bron": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
   }
  ],
  "podcasts": [
@@ -109,52 +109,59 @@
      "url": "https://open.spotify.com/search/Mind%20to%20Invest/podcasts",
      "kort": "De Democraten winnen de midterms zo overtuigend dat zelfs Trump zijn verlies moest erkennen, en de beurs reageert opvallend kalm."
     }
-   ]
+   ],
+   "opmerking": "Nieuwere aflevering kon niet geverifieerd worden. Check Spotify."
   }
  ],
  "sport": [
   {
    "label": "Rode Duivels",
-   "titel": "Nainggolan: 'Lukaku laat binnenkort een bommetje ontploffen'",
-   "samenvatting": "In een podcast zegt Radja Nainggolan dat Romelu Lukaku hem vertelde dat er een 'bommetje' zal ontploffen over interne problemen bij de Duivels. Lukaku zelf bevestigde dat niet; hij kondigde op 16 november verrassend zijn afscheid aan.",
+   "titel": "Mannaert: 'Zie niet in waarom er gebrek aan respect zou zijn' rond Lukaku",
+   "samenvatting": "Bond-CEO Vincent Mannaert wijst de kritiek op het afscheid van Lukaku af. Intussen blijft het wachten op het 'bommetje' dat Nainggolan aankondigde.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/23/-volgens-romelu-gaat-er-een-bommetje-ontploffen-nainggolan-beweert-dat-lukaku-binnenkort-echte-probleem-bij-duivels-zal-onthullen~1795441483572/"
+   "url": "https://sporza.be/nl/2026/11/24/-zie-niet-in-waarom-er-gebrek-aan-respect-zou-zijn-ceo-vincent-mannaert-countert-kritiek-rond-afscheid-lukaku~1795476026708/"
   },
   {
-   "label": "Royal Antwerp FC",
-   "titel": "Antwerp speelt 2-2 gelijk in Waregem na rode kaart",
-   "samenvatting": "Vermeeren en Fofana zetten Antwerp 0-2 voor, maar na de rode kaart voor Cortés kwam Zulte Waregem terug tot 2-2. Antwerp staat 12e met 12 punten uit 12 wedstrijden.",
+   "label": "Veldrijden",
+   "titel": "Nieuwe leiderstrui in de Wereldbeker: wit met rode accenten",
+   "samenvatting": "De UCI toonde de nieuwe trui voor de leider; het dambordpatroon verdwijnt. De Wereldbeker start vrijdag in Ostrava en zondag in Tabor.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/matches/voetbal/jupiler-pro-league/2026-2027/regulier/12/zulte-waregem-antwerp-zelfs-vanop-11-meter-lukte-het-niet-zulte-waregem-blijft-opnieuw-zonder-zege-achter-na-comeback-zonder-climax-tegen-antwerp~1781871845516"
+   "url": "https://sporza.be/nl/2026/11/24/weg-met-dambordpatroon-tje-dit-is-de-nieuwe-trui-voor-de-leider-in-de-wereldbeker-veldrijden~1795515842765/"
   }
  ],
  "opkomend": [
+  {
+   "titel": "Anthe lost 'Lay Down'",
+   "samenvatting": "Nieuwe single van de Belgische artieste Anthe, besproken op Dansende Beren.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/13/nieuwe-single-anthe-lay-down/"
+  },
+  {
+   "titel": "Loud Love brengt 'Dear Sniper'",
+   "samenvatting": "Nieuwe single van de band Loud Love, actief in de Belgische punk- en hardcorescene.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/24/nieuwe-single-loud-love-dear-sniper/"
+  },
+  {
+   "titel": "Bazart is de eerste naam voor Gladiolen 2027",
+   "samenvatting": "Het festival Gladiolen maakt Bazart bekend als eerste naam voor de volgende editie.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/24/bazart-eerste-naam-voor-gladiolen-2027/"
+  },
   {
    "titel": "Helena Casella lost 'Morning Madness' van nieuw album",
    "samenvatting": "De Belgisch-Braziliaanse pianiste en zangeres uit Gent brengt de derde single van haar album 'Tumult' (5 februari 2027), een zes minuten lang nummer met invloeden van jazz, soul en r&b.",
    "bron": "Dansende Beren",
    "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-helena-casella-morning-madness/"
-  },
-  {
-   "titel": "Wannes Cappelle zingt 'Vleugels'",
-   "samenvatting": "De West-Vlaamse frontman van Het Zesde Metaal brengt een sober solonummer met piano en stem, over een danseres met een onzichtbare immuunstoornis. Het hoort bij zijn one-manshow 'Verstaanbaar'.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/06/nieuwe-single-wannes-cappelle-vleugels/"
-  },
-  {
-   "titel": "Kuusi zingt over thuis voelen in IJsland",
-   "samenvatting": "De Gentse singer-songwriter Fien Druyts woont sinds een jaar in Reykjavik en lost als Kuusi de single 'Skaftafell'. Het is een breekbaar nummer tussen neoklassiek, folk en ambient, geproduceerd door Sasja Maekelberg, over twijfel waar je eigenlijk thuishoort.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-kuusi-skaftafell/"
-  },
-  {
-   "titel": "Zinger laat fans meeproduceren aan nieuwe single",
-   "samenvatting": "De vijfkoppige band uit Deerlijk, ooit winnaar van De Nieuwe Lichting, nam verschillende versies op van een xylofoonmelodie en laat fans via Facebook stemmen. De versie met de meeste stemmen belandt op de nieuwe single van de brass- en spacepopband.",
-   "bron": "Luminous Dash",
-   "url": "https://luminousdash.be/nieuws/zinger-schakelt-fans-in-als-producers-van-nieuwe-single/"
   }
  ],
  "fire": [
+  {
+   "titel": "FIRE-strategie in België: spaarquote, 4%-regel en meerwaardebelasting",
+   "samenvatting": "Je mikt op ongeveer 25 keer je jaarlijkse uitgaven en bekijkt hoe lang het duurt bij een bepaalde spaarquote. Het artikel bespreekt ook de Belgische valkuilen, zoals de meerwaardebelasting van 10% boven 10.000 euro vrijstelling sinds 2026.",
+   "bron": "InvestNow",
+   "url": "https://investnow.be/fire-strategie-belgie/"
+  },
   {
    "titel": "FIRE in België: haalbaar met breed indexbeleggen en de 4%-regel",
    "samenvatting": "Je bouwt een vermogen op van ongeveer 25 keer je jaarlijkse uitgaven door veel te sparen en te beleggen in brede indexfondsen. Het artikel ziet FIRE in België haalbaar, mede door de beperkte meerwaardebelasting van 10% op aandelen; let wel, het komt van een aanbieder die ook zijn eigen dienst promoot.",
@@ -172,12 +179,6 @@
    "samenvatting": "Trade Republic komt als beste uit de test, met gratis periodieke aankopen en sinds september grotendeels automatische fiscale afhandeling. ING is het goedkoopst per aankoop maar heeft een klein aanbod; bij N26 en Revolut moet je de beurstaks zelf aangeven.",
    "bron": "Test Aankoop",
    "url": "https://www.test-aankoop.be/invest/beleggen/etf/artikels/etf-spaarplannen"
-  },
-  {
-   "titel": "Beurstaks op je ETF: 0,12%, 0,35% of 1,32%?",
-   "samenvatting": "Welke beurstaks je betaalt, hangt af van waar je ETF geregistreerd is en of hij dividenden uitkeert of herbelegt. Een kapitaliserende ETF die in België geregistreerd is, kost 1,32% per transactie, dus check het ISIN en je afrekening.",
-   "bron": "Test Aankoop",
-   "url": "https://www.test-aankoop.be/invest/beleggen/fiscaliteit-and-rechten/dossiers/beurstaks-tob/beurstaks-etf-tob-belgie"
   }
  ],
  "optredens": [
@@ -483,45 +484,41 @@
   }
  ],
  "gezondheid": {
-  "streak": 12,
+  "streak": 13,
   "laatste": {
-   "datum": "2026-11-23",
-   "stappen": 11306.0,
-   "slaap": 7.23,
-   "hrv": 73.0,
-   "rhr": 50.0,
-   "water": 1.83,
-   "sporttype": "Zwemmen, Wandelen",
-   "bedtijd": "00:05",
-   "opstaan": "07:26"
+   "datum": "2026-11-24",
+   "stappen": 11910.0,
+   "slaap": 7.47,
+   "hrv": 47.0,
+   "rhr": 45.0,
+   "water": 3.23,
+   "sporttype": null,
+   "bedtijd": "22:56",
+   "opstaan": "06:40"
   },
   "week": {
-   "stappen": 10146.0,
-   "slaap": 6.92,
-   "hrv": 59.57,
-   "rhr": 49.29,
-   "water": 2.3,
-   "diep": 37.14,
-   "rem": 111.71,
+   "stappen": 10454.43,
+   "slaap": 7.11,
+   "hrv": 58.43,
+   "rhr": 49.0,
+   "water": 2.62,
+   "diep": 34.29,
+   "rem": 121.14,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
-   "koffie": 0.14,
+   "koffie": 0.0,
    "stappen10k": 6,
-   "water3l": 0
+   "water3l": 1
   },
   "jaar": {
-   "dagen": 75,
-   "sport_pct": 48,
-   "water": 2.61,
-   "alcohol_week": 7.2
+   "dagen": 76,
+   "sport_pct": 47,
+   "water": 2.62,
+   "alcohol_week": 7.1
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
     {
      "d": "2026-11-11",
      "v": null
@@ -572,18 +569,18 @@
     },
     {
      "d": "2026-11-23",
-     "v": 11306.0
+     "v": 11736.0
     },
     {
      "d": "2026-11-24",
+     "v": 11910.0
+    },
+    {
+     "d": "2026-11-25",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
     {
      "d": "2026-11-11",
      "v": null
@@ -622,7 +619,7 @@
     },
     {
      "d": "2026-11-20",
-     "v": 8.1
+     "v": 5.65
     },
     {
      "d": "2026-11-21",
@@ -638,14 +635,14 @@
     },
     {
      "d": "2026-11-24",
+     "v": 7.47
+    },
+    {
+     "d": "2026-11-25",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-10",
-     "v": null
-    },
     {
      "d": "2026-11-11",
      "v": null
@@ -696,19 +693,22 @@
     },
     {
      "d": "2026-11-23",
-     "v": 73.0
+     "v": 69.0
     },
     {
      "d": "2026-11-24",
+     "v": 47.0
+    },
+    {
+     "d": "2026-11-25",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.146 stappen per dag; 6 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,3 l. Nog 0,7 l per dag tot je doel van 3 l.",
-   "7 van 7 dagen alcoholvrij.",
-   "HRV laatst gemeten op 73, boven je gemiddelde (59). Goed hersteld."
+   "Gemiddeld 10.454 stappen per dag; 6 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,62 l. Nog 0,38 l per dag tot je doel van 3 l.",
+   "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
  }
