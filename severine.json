@@ -1,16 +1,16 @@
 {
-  "bijgewerkt": "2026-11-24T04:27:19+07:00",
+  "bijgewerkt": "2026-11-25T04:31:19+07:00",
   "gezondheid": {
-    "streak": 12,
+    "streak": 13,
     "laatste": {
-      "datum": "2026-11-23",
-      "water": 2.66,
+      "datum": "2026-11-24",
+      "water": 3.43,
       "sporttype": null,
       "notitie": null
     },
     "week": {
       "dagen": 6,
-      "water": 2.33,
+      "water": 2.43,
       "koffie": 0.0,
       "sport": 0,
       "sauna": 0,
@@ -22,19 +22,15 @@
       "water25": 3
     },
     "jaar": {
-      "dagen": 42,
+      "dagen": 43,
       "sport_pct": 33,
-      "water": 2.18,
-      "alcohol_week": 3.7,
+      "water": 2.21,
+      "alcohol_week": 3.6,
       "sauna": 24,
       "oneup": 9
     },
     "reeksen": {
       "water": [
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
         {
           "d": "2026-11-12",
           "v": 2.5
@@ -85,14 +81,14 @@
         },
         {
           "d": "2026-11-24",
+          "v": 3.43
+        },
+        {
+          "d": "2026-11-25",
           "v": null
         }
       ],
       "koffie": [
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
         {
           "d": "2026-11-12",
           "v": 0.0
@@ -143,14 +139,14 @@
         },
         {
           "d": "2026-11-24",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-25",
           "v": null
         }
       ],
       "alcohol": [
-        {
-          "d": "2026-11-11",
-          "v": null
-        },
         {
           "d": "2026-11-12",
           "v": 0.0
@@ -201,31 +197,35 @@
         },
         {
           "d": "2026-11-24",
+          "v": 0.0
+        },
+        {
+          "d": "2026-11-25",
           "v": null
         }
       ]
     },
     "inzichten": [
-      "Water: gemiddeld 2,33 l per dag. Nog 0,17 l tot je doel van 2,5 l.",
+      "Water: gemiddeld 2,43 l per dag. Nog 0,07 l tot je doel van 2,5 l.",
       "6 van 6 dagen alcoholvrij."
     ]
   },
   "header": {
     "ochtend": {
       "titel": "Goeiemorgen, Sévérine",
-      "sub": "Vandaag wandel je in gedachten door de Kalmthoutse Heide en proef je een frisse spruitenslaw."
+      "sub": "Vandaag lees je over een rustige wandeling door de Hageland-bossen en een ovenschotel van geroosterde pompoen."
     },
     "middag": {
       "titel": "Fijne middag, Sévérine",
-      "sub": "Lees over speelse schoenen met twee kleuren en een zacht flokatikleed voor in huis."
+      "sub": "Neem even tijd voor een zachte lichtplanning in huis en een kijkje in een Rotterdams appartement vol rondingen."
     },
     "avond": {
-      "titel": "Goeienavond, Sévérine",
-      "sub": "Een rustige avond met de volle maan in je horoscoop en een nieuw boek uit de bestsellerlijst."
+      "titel": "Een mooie avond, Sévérine",
+      "sub": "Vanavond wacht een roman uit 1933 uit de lijst met meest gelezen boeken en een korte horoscoop voor midden in de week."
     },
     "nacht": {
-      "titel": "Slaap zacht, Sévérine",
-      "sub": "Eén vriendelijke gedachte van Boeddha om de dag mee af te sluiten."
+      "titel": "Welterusten, Sévérine",
+      "sub": "Eén gedachte uit de Dhammapada om de dag zacht mee af te ronden."
     }
   },
   "boek_gebruikt": [
@@ -235,106 +235,135 @@
     "Yesteryear",
     "The Last King of Faerie",
     "The Correspondent",
-    "Sunrise on the Reaping"
+    "Sunrise on the Reaping",
+    "The Calamity Club"
   ],
   "boek": {
-    "titel": "De Hongerspelen 5 - Dageraad boven de boete (Sunrise on the Reaping)",
-    "auteur": "Suzanne Collins",
-    "samenvatting": "Op de dag van de vijftigde Hongerspelen, een Quarter Quell met dubbel zoveel deelnemers, wordt de zestienjarige Haymitch Abernathy uit District 12 geloot. In het Capitool beseft hij dat het systeem hem heeft opgezet om te falen. Toch weigert hij op te geven en wil hij dat zijn strijd iets betekent buiten de arena. Een voorgeschiedenis van de bekende reeks, ook te lezen zonder alles te kennen.",
-    "waarom": "Het boek staat deze weken opnieuw bij de meest gelezen titels op Goodreads, volgens de lijst van Book Riot.",
-    "sterren": 4.5,
-    "aantal": "ruim 1,4 miljoen beoordelingen",
+    "titel": "The Calamity Club",
+    "auteur": "Kathryn Stockett",
+    "samenvatting": "Het verhaal speelt in 1933 in Oxford, Mississippi, midden in de Grote Depressie. Meg, een elfjarig weesmeisje, en Birdie, een alleenstaande vrouw die hulp wil vragen aan haar rijke zus, kruisen het pad van Charlie, die weinig meer te verliezen heeft. Samen bedenken ze een plan om hun leven zelf in handen te nemen, ondanks de gevaren die vrouwen in die tijd lopen. Een warm, spannend verhaal over vriendschap en lef van de schrijfster van The Help.",
+    "waarom": "Het boek staat deze maand in de Goodreads-lijst met meest gelezen boeken en op drie bestsellerlijsten (onder meer NYT en Amazon), volgens Book Riot van 19 november.",
+    "sterren": 4.62,
+    "aantal": "ruim 410.000 beoordelingen",
     "bron": "Goodreads",
-    "url": "https://goodreads.com/book/show/214331246",
-    "isbn": "9789000397259"
+    "url": "https://goodreads.com/book/show/228820257",
+    "isbn": "9781954118812"
   },
   "ontdek": [
     {
       "label": "Wandelroute",
-      "titel": "Kalmthoutse Heide: 12,4 km tussen vennen en uitkijktorens",
-      "samenvatting": "Een lus van 12,4 km die vertrekt aan het bezoekerscentrum Visit Kalmthout (Putsesteenweg 131). Je wandelt langs heide, de Putse Moer en het Stappersven en klimt naar twee uitkijktorens. Onderweg zie je ook een nagebouwd stuk van de Doodendraad uit de Eerste Wereldoorlog.",
+      "titel": "Broekemwandeling in het Hageland: 10,2 km langs kasteel, molen en beukenbos",
+      "samenvatting": "Een lus van 10,2 km die vertrekt aan het Kasteel van Horst (Horststraat 28, Sint-Pieters-Rode). Onderweg kom je langs een kapelletje onder een oude lindeboom, de watermolen Gempemolen en het Troostembergbos. De wandeling eindigt in brasserie Het Wagenhuis op het kasteeldomein.",
       "bron": "Visit Flanders",
-      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/op-verkenning-de-kalmthoutse-heide"
+      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-het-hageland-broekemwandeling"
     },
     {
       "label": "Recept",
-      "titel": "Spruitenslaw met baharat, clementine en hazelnoten",
-      "samenvatting": "Ottolenghi schaaft rauwe spruitjes fijn en mengt ze met couscous, clementines, hazelnoten en basilicum. De dressing met baharat, ahornsiroop en mosterd geeft een warme, zoetzure toets. Een frisse, vegetarische winterschotel die je makkelijk voorbereidt.",
+      "titel": "Butternutpompoen met sinaasappelolie en gebrande honing",
+      "samenvatting": "Ottolenghi roostert dikke schijven pompoen en serveert ze met een dressing van gekaramelliseerde honing, sinaasappelsegmenten en cideraazijn. Sinaasappelolie, pompoenpitten en oregano maken het geheel fris en knapperig. Een vegetarisch bijgerecht voor 4, klaar in ongeveer 55 minuten plus tijd om de olie te laten trekken.",
       "bron": "Ottolenghi",
-      "url": "https://ottolenghi.co.uk/pages/recipes/brussels-sprouts-slaw-baharat-hazelnut-dressing"
+      "url": "https://ottolenghi.co.uk/pages/recipes/butternut-squash-orange-oil-burnt-honey"
     },
     {
       "label": "Antwerpen",
-      "titel": "KMSKA toont in 2027 Warhol, Alechinsky en Rubens",
-      "samenvatting": "Het Antwerpse museum maakte zijn programma voor 2027 bekend: begin van het jaar vroege tekeningen van Andy Warhol, in de zomer een eeuwfeest voor Pierre Alechinsky. Het najaar draait rond de grote tentoonstelling Rubens and the World, die tot januari 2028 loopt.",
-      "bron": "Brussels Times",
-      "url": "https://www.brusselstimes.com/2401870/antwerps-royal-museum-of-fine-arts-unveils-its-2027-programme"
+      "titel": "Hotel Pilar tegenover het KMSKA: overnachten tussen kunst en design",
+      "samenvatting": "In het Antwerpse Zuid, tegenover het Koninklijk Museum voor Schone Kunsten, opende hotel Pilar met 21 kamers die elk een eigen stijl hebben. Kunst en design staan centraal, en de foodbar is ook open voor buurtbewoners. Een tip voor een rustig weekend in de stad.",
+      "bron": "ELLE België",
+      "url": "https://www.elle.be/nl/442992-pilar-in-antwerpen-laat-je-anders-overnachten.html"
     },
     {
       "label": "Mode",
-      "titel": "Martine Rose wordt creatief directeur van Balenciaga",
-      "samenvatting": "Het Spaanse modehuis kiest Martine Rose als nieuwe creatief directeur. Ze is de eerste vrouw die aan het hoofd van Balenciaga komt te staan.",
+      "titel": "Vijf nieuwe Belgische merken om te ontdekken",
+      "samenvatting": "ELLE stelt een selectie van opkomende Belgische modelabels voor die je nog niet in elke straat ziet. Handig als je op zoek bent naar iets persoonlijks voor de feestdagen, dichter bij huis gemaakt.",
       "bron": "ELLE België",
-      "url": "https://www.elle.be/nl/442525-martine-rose-creatief-directeur-balenciaga.html"
+      "url": "https://www.elle.be/nl/442598-5-nieuwe-belgische-merken-om-als-eerste-te-ontdekken.html"
     },
     {
       "label": "Citytrip",
-      "titel": "Straatsburg: in ongeveer 3,5 uur met de TGV vanuit Brussel",
-      "samenvatting": "Straatsburg combineert een gotische kathedraal, het grachtenkwartier La Petite France en een boottocht op de Ill. In de winstubs proef je lokale gerechten en Elzasser wijn, al is het aanbod voor vegetariërs beperkt. Boek op tijd, want de voordelige tarieven zijn schaars.",
-      "bron": "B-Europe",
-      "url": "https://www.b-europe.com/NL/Blog/Straatsburg"
+      "titel": "Kerstmarkt van Keulen: 1 uur 50 met de trein vanuit Brussel",
+      "samenvatting": "De markten in Keulen lopen dit jaar van 16 november tot 23 december, met onder meer de markt aan de Dom, Wintermärchen en de Hafen-markt. Een rechtstreekse hogesnelheidstrein brengt je in ongeveer 1 uur 50 vanuit Brussel in Köln Hbf. Ga op weekdagen of voor 15 uur, dan is het rustiger, en houd rekening met het statiegeld op de glühweinmok.",
+      "bron": "Het is de Merckx",
+      "url": "https://hetisdemerckx.be/nl/kerstmarkt-keulen/"
     },
     {
       "label": "Interieur",
-      "titel": "Een monumentaal huis met cirkels in elke hoek",
-      "samenvatting": "Binnenkijken in een huis uit 1928 waarvan het oorspronkelijke interieur verdwenen was en door Even Eleven opnieuw werd opgebouwd. Groen, roze en blauwgrijs bepalen de sfeer, en cirkels en driehoeken keren terug in beslag, verlichting en vloer. Maatwerk, vintage en erfstukken staan er vrij samen.",
+      "titel": "Zacht en rond: een nieuwbouwappartement met boudoirtinten",
+      "samenvatting": "Interieurontwerper Linda Lagrand gaf een Rotterdams appartement een zachte, vrouwelijke uitstraling met brons, roze en bordeaux. Patronen in stof en behang, mooie houtsoorten en natuursteen geven karakter. Overal keren ronde vormen terug, van eetkamerstoelen tot deuren, wat de strakke ruimte verzacht.",
       "bron": "Residence",
-      "url": "https://www.residence.nl/monumentaal-huis-1928-even-eleven"
-    },
-    {
-      "label": "Koffietrend",
-      "titel": "Rocket Espresso opent showroom in een koffiebranderij in Genève",
-      "samenvatting": "De Italiaanse espressomachinemaker opende een nieuw winkelconcept binnen Chronic Coffee Roasters in Genève. De ruimte is ingericht met matzwarte oppervlakken en modulaire displays die in andere winkels herbruikbaar zijn. Het toont hoe koffiebranders en machinemerken steeds dichter samenwerken.",
-      "bron": "Daily Coffee News",
-      "url": "https://dailycoffeenews.com/2026/11/20/weekly-coffee-news-rocket-showroom-in-geneva-new-labor-abuse-case/"
-    },
-    {
-      "label": "Gezond leven",
-      "titel": "Meer vezels: een eenvoudige winterwinst",
-      "samenvatting": "Volgens een studie waarover The Guardian schreef, kan zo'n 7 gram extra vezels per dag het risico op enkele chronische aandoeningen verlagen. Havermout, volkoren producten, peulvruchten en de schil van groenten en fruit helpen je daar makkelijk heen. Bouw het rustig op en drink voldoende water.",
-      "bron": "Welingelichte Kringen",
-      "url": "https://www.welingelichtekringen.nl/gezondheid/we-eten-veel-te-weinig-vezels-maar-de-oplossing-is-eenvoudig"
-    },
-    {
-      "label": "Wandelroute",
-      "titel": "Thorparkroute in Genk: 16 km door mijnverleden en bos",
-      "samenvatting": "Een wandeling van 16 km die start aan de toegangspoort van Thorpark (André Dumontlaan 67, Genk). Je loopt langs de voormalige mijn van Waterschei, door beekvalleien met houten paden en langs de Klaverberg. Aan het einde kun je na donker de lichtinstallatie Lichtsporen bekijken.",
-      "bron": "Visit Flanders",
-      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-thorparkroute"
-    },
-    {
-      "label": "Wonen",
-      "titel": "Give a Pon lanceert een flokatikleed van schapenwol",
-      "samenvatting": "Het pantoffelmerk Give a Pon brengt zijn eerste vloerkleden uit: flokati's van 100% schapenwol, met de hand gemaakt in Griekenland. Het zachte, tactiele kleed past bij de terugkeer van warme materialen in huis. Je koopt het via de webshop van het merk.",
-      "bron": "Residence",
-      "url": "https://www.residence.nl/give-a-pon-flokati-kleden"
+      "url": "https://www.residence.nl/binnenkijken-rotterdam-linda-lagrand"
     },
     {
       "label": "Recept",
-      "titel": "Rauwe wortelsalade van knolselderij en koolraap",
-      "samenvatting": "Ottolenghi schaaft knolselderij en koolraap heel fijn en maakt ze aan met peterselie, dille, kappertjes, citroen en gedroogde zure kersen. Het resultaat is een knapperige, frisse winterschotel zonder dierlijke ingrediënten in de lijst. Lekker als bijgerecht op een feesttafel.",
-      "bron": "Ottolenghi",
-      "url": "https://ottolenghi.co.uk/pages/recipes/raw-root-vegetables"
+      "titel": "Groenten uit de oven met ricotta en sesamsausje",
+      "samenvatting": "Pascale Naessens bakt aubergine, tomaat en courgette in de oven en serveert ze met warme ricotta en een sausje van sesamzaad, honing en lichte sojasaus. Een vegetarisch gerecht dat in ongeveer 55 minuten klaar is en makkelijk te variëren met wat de groentela te bieden heeft.",
+      "bron": "Pascale Naessens",
+      "url": "https://purepascale.com/en/recipes/groenten-in-de-oven-met-ricotta-en-een-sesamsausje"
+    },
+    {
+      "label": "Wandelroute",
+      "titel": "Terhillsroute in Nationaal Park Hoge Kempen: 9,5 km met panorama",
+      "samenvatting": "Een wandeling van 9,5 km die start aan het bezoekerscentrum van het nationaal park (parking Zetellaan 35, Maasmechelen). Je komt langs de panoramaterril, een drijvende brug over de Grote Plas en de Tweelingterril. Het uitzicht vanaf de terril wordt omschreven als een van de mooiste van Vlaanderen.",
+      "bron": "Visit Flanders",
+      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-terhillsroute"
+    },
+    {
+      "label": "Wonen",
+      "titel": "Gelaagd licht: zo maak je een kamer gezelliger",
+      "samenvatting": "Begin met hoe je een kamer gebruikt en combineer basisverlichting, accentlicht voor kunst en sfeerlicht. Dimbare lampen die je apart bedient laten de ruimte van praktisch overdag naar zacht in de avond schuiven. Kies liever enkele goed geplaatste lichtpunten dan overal evenveel licht.",
+      "bron": "Residence",
+      "url": "https://www.residence.nl/lichtplan-gelaagde-verlichting"
+    },
+    {
+      "label": "Koffietrend",
+      "titel": "Grote analyse koppelt koffie aan minder kans op depressie",
+      "samenvatting": "Een academisch overzicht van meer dan 2 miljoen mensen laat zien dat koffie tot de weinige dranken hoort die samengaan met een lager risico op depressie. Het gaat om een verband, geen bewijs van oorzaak, dus lees het vooral als een prettig extraatje bij je kopje koffie.",
+      "bron": "Daily Coffee News",
+      "url": "https://dailycoffeenews.com/2026/11/23/meta-analysis-links-coffee-to-lower-odds-of-depression/"
     },
     {
       "label": "Wijntrend",
-      "titel": "Wijnkopers worden kieskeuriger en drinken sneller",
-      "samenvatting": "Uit het Golden Vines-rapport blijkt dat 52% van de ondervraagde liefhebbers van topwijn selectiever koopt. Genot en kwaliteit wegen zwaarder dan prestige, en vooral jongere kopers kiezen wijn om binnenkort te drinken in plaats van te bewaren. Spanje, Portugal, Piemonte en Zuid-Afrika krijgen meer aandacht.",
+      "titel": "Een glas glühwein kost op Duitse kerstmarkten rond 5 euro",
+      "samenvatting": "Volgens de Duitse branchevereniging BWS betaal je in 2026 op veel grote Duitse kerstmarkten ongeveer 5 euro voor een kop glühwein. Duitsland verkoopt jaarlijks zo'n 50 miljoen liter, zowel in winkels als op de markten. Handig om te weten als je een kerstmarkttrip plant, al verschillen prijzen per stad.",
       "bron": "Vinetur",
-      "url": "https://www.vinetur.com/en/20261120111535/golden-vines-report-finds-fine-wine-buyers-are-turning-more-selective.html"
+      "url": "https://www.vinetur.com/en/20261116111151/a-cup-of-mulled-wine-is-expected-to-cost-about-euro5-at-many-large-german-christmas-markets-in-2026.html"
+    },
+    {
+      "label": "Wandelroute",
+      "titel": "Mechelse Heide: 12,5 km met uitzicht op twee terrils",
+      "samenvatting": "Een route van 12,5 km die start aan de toegangspoort Mechelse Heide (Joseph Smeetslaan 280, Maasmechelen). Je wandelt langs het voormalige station van Eisden, door het Mechels Bos en langs oude zand- en grindgroeves die meren worden. Het panoramapunt, het hoogste natuurlijke punt van het park, kijkt uit op de terrils van Waterschei en Eisden.",
+      "bron": "Visit Flanders",
+      "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-mechelse-heide"
     }
   ],
   "ontdek_gebruikt": [
+    {
+      "datum": "2026-11-25",
+      "onderwerpen": [
+        "Antwerpen",
+        "Citytrip",
+        "Interieur",
+        "Koffietrend",
+        "Mode",
+        "Recept",
+        "Wandelroute",
+        "Wijntrend",
+        "Wonen"
+      ],
+      "urls": [
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-het-hageland-broekemwandeling",
+        "https://ottolenghi.co.uk/pages/recipes/butternut-squash-orange-oil-burnt-honey",
+        "https://www.elle.be/nl/442992-pilar-in-antwerpen-laat-je-anders-overnachten.html",
+        "https://www.elle.be/nl/442598-5-nieuwe-belgische-merken-om-als-eerste-te-ontdekken.html",
+        "https://hetisdemerckx.be/nl/kerstmarkt-keulen/",
+        "https://www.residence.nl/binnenkijken-rotterdam-linda-lagrand",
+        "https://purepascale.com/en/recipes/groenten-in-de-oven-met-ricotta-en-een-sesamsausje",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-terhillsroute",
+        "https://www.residence.nl/lichtplan-gelaagde-verlichting",
+        "https://dailycoffeenews.com/2026/11/23/meta-analysis-links-coffee-to-lower-odds-of-depression/",
+        "https://www.vinetur.com/en/20261116111151/a-cup-of-mulled-wine-is-expected-to-cost-about-euro5-at-many-large-german-christmas-markets-in-2026.html",
+        "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-mechelse-heide"
+      ]
+    },
     {
       "datum": "2026-11-24",
       "onderwerpen": [
@@ -453,25 +482,25 @@
   ],
   "horoscoop": {
     "tekens": {
-      "ram": "Vandaag zit je vol plannen en goede ideeën voor het einde van het jaar. De volle maan maakt je gesprekken vlot, dus deel gerust wat je bezighoudt.",
-      "stier": "De volle maan richt je blik op wat je echt waardeert. Gun jezelf vandaag iets dat je zintuigen verwent, zoals een lekkere maaltijd of een rustig moment.",
-      "tweelingen": "Je voelt je speels en nieuwsgierig. Je mag gerust van gedachten veranderen, en een prikkelend gesprek kan je dag kleuren.",
-      "kreeft": "Je bent vandaag wat gevoeliger voor drukte en lawaai. Zoek een rustig hoekje en kies een gezellige avond thuis.",
-      "leeuw": "Na een drukke periode wordt het wat kalmer, en dat past je. Je straalt een natuurlijke charme uit en mensen werken graag met je samen.",
-      "maagd": "Neem de tijd om je plannen rustig te ordenen. Vanaf donderdag krijg je meer energie, dus je hoeft vandaag niets te forceren.",
-      "weegschaal": "Het weekend lonkt al, en dat mag je stemmen. Volg vandaag wat je intuïtief het liefst doet en twijfel er niet te lang over.",
-      "schorpioen": "De drukte van het jaareinde wordt voelbaar, maar jij bewaakt je eigen grenzen. Duidelijke afspraken geven je rust, ook voor je vrije tijd.",
-      "boogschutter": "Je verjaardagsperiode maakt zelfs een grijze novemberdag feestelijk. Geniet van de aandacht en van de ruimte om jezelf te zijn.",
-      "steenbok": "De volle maan brengt je dagelijkse gewoonten onder de aandacht. Een kleine aanpassing in je ritme of werkplek kan je dag prettiger maken.",
-      "waterman": "De volle maan zet je creativiteit en je gevoel voor humor in de kijker. Vertrouw op je originele ideeën, ook als ze wat eigenzinnig klinken.",
-      "vissen": "Je droomt van nieuwe richtingen in je werk, en dat mag. Zeg vandaag duidelijk wat je wilt, want dat werkt beter dan hints geven."
+      "ram": "Je hoofd zit vol plannen voor het einde van het jaar, en dat geeft energie. Schrijf op wat je echt wilt doen, dan wordt de rest vanzelf lichter.",
+      "stier": "Midden in de week mag je even bij jezelf nagaan wat je werkelijk nodig hebt. Een rustig moment met iets lekkers maakt de dag zachter.",
+      "tweelingen": "De volle maan van deze week houdt je scherp en nieuwsgierig. Je mag je mening gerust bijstellen, zonder dat je het aan iedereen hoeft uit te leggen.",
+      "kreeft": "Tijd alleen thuis voelt vandaag als een echt cadeau. Drukte en lawaai mag je gerust links laten liggen.",
+      "leeuw": "Na een intens stuk van de maand wordt het weer wat kalmer. Collega's en vrienden helpen je graag, meer dan je zelf denkt.",
+      "maagd": "Morgen komt er meer vuur en doorzettingsvermogen. Gebruik vandaag om rustig alles op een rij te zetten.",
+      "weegschaal": "Het weekend kondigt zich al aan met iets feestelijks. Twijfel niet te lang en kies wat je het meest aanspreekt.",
+      "schorpioen": "Het einde van het jaar brengt veel afspraken, maar jij bepaalt wat erin past. Duidelijke grenzen geven je tijd voor jezelf, zeker nu het zo vroeg donker wordt.",
+      "boogschutter": "Je verjaardagsperiode kleurt zelfs een grijze novemberdag. Vandaag brengt een onverwachte wending wat frisse lucht in vaste gewoonten, dus laat ruimte voor je eigen ritme.",
+      "steenbok": "Sta eens stil bij hoe je voor jezelf zorgt als niemand kijkt, zoals de maaltijd en je slaap. Kleine aanpassingen doen al veel.",
+      "waterman": "Je creativiteit en humor werken in je voordeel. Vertrouw op een idee dat anderen misschien eigenzinnig vinden.",
+      "vissen": "Je dagdroomt over een andere richting in je werk, en daar mag je best bij stilstaan. Zeg vooral duidelijk wat je wilt, dat werkt beter dan hints geven."
     },
     "bron": "ELLE België, weekhoroscoop 23 tot 29 november 2026"
   },
   "quote": {
-    "tekst": "Overwin woede met vriendelijkheid, kwaad met goedheid, gierigheid met vrijgevigheid en leugens met de waarheid.",
+    "tekst": "Alles wat we zijn is het resultaat van wat we gedacht hebben.",
     "auteur": "Boeddha (Dhammapada)",
-    "bron": "Dhammapada, vers 223"
+    "bron": "Dhammapada, vers 1"
   },
   "quote_gebruikt": [
     "Het verleden is voorbij, de toekomst is er nog niet",
@@ -479,6 +508,7 @@
     "Loslaten geeft ons vrijheid, en vrijheid is de enige",
     "De beste manier om voor de toekomst te zorgen",
     "Beter dan duizend lege woorden",
-    "Overwin woede met vriendelijkheid, kwaad met goedheid,"
+    "Overwin woede met vriendelijkheid, kwaad met goedheid,",
+    "Alles wat we zijn is het resultaat van wat we gedacht"
   ]
 }
