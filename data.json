@@ -1,13 +1,13 @@
 {
- "bijgewerkt": "2026-11-25T04:20:01+07:00",
+ "bijgewerkt": "2026-11-26T04:30:00+07:00",
  "vandaag": [
   {
-   "wanneer": "Wo 25 nov (BE)",
-   "wat": "Wall Street na de Nvidia-rally: beleggers wachten op inflatiecijfers en de Fed van december"
+   "wanneer": "Do 26 nov",
+   "wat": "Beurzen onder druk door nieuwe Amerikaanse importheffingen en hogere inflatie (PCE 3,8%)"
   },
   {
-   "wanneer": "Wo 25 nov (BE)",
-   "wat": "Rode Duivels: bondsbaas Mannaert verdedigt het afscheid van Lukaku"
+   "wanneer": "Do 26 nov",
+   "wat": "Rode Duivels: kamp-Lukaku legt afscheid uit, Kompany reageert"
   },
   {
    "wanneer": "Do 26 nov",
@@ -24,31 +24,37 @@
  ],
  "markten": [
   {
-   "titel": "Bitcoin zakt onder 60.000 dollar, ether -7%",
-   "samenvatting": "Raakt je bitcoin: na de korte piek boven 64.000 dollar op maandag verloor bitcoin dinsdag 5,3% en zakte naar ongeveer 60.200 dollar (dagbodem 59.314). Voor ongeveer 830 miljoen dollar aan posities werd in 24 uur gedwongen gesloten; de angstindex staat op 11.",
+   "titel": "Nasdaq-future -2,4% na nieuwe Amerikaanse importheffingen, VIX boven 30",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: de VS wil nieuwe heffingen van o.a. 15% op de EU en Japan, waardoor Nasdaq-futures woensdag 2 tot 3,6% zakten en de S&P 500-future ruim 1,4%. De angstindex VIX sprong boven 30.",
    "bron": "CryptoTicker",
-   "url": "https://cryptoticker.io/nl/crypto-nieuws-bitcoin-onder-60000-ether-7-procent/"
+   "url": "https://cryptoticker.io/nl/crypto-nieuws-nasdaq-importheffingen-vix-30/"
   },
   {
-   "titel": "Wall Street opent lager nu de AI-rally rond Nvidia wegebt",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: na de sprong van maandag gaf de Nasdaq dinsdag 1,4% terug, de S&P 500 0,9% en de Dow 0,2%. Vooral tech- en AI-aandelen verloren terrein; beleggers wachten op inflatiecijfers met het oog op de Fed in december.",
-   "bron": "IEX.nl",
-   "url": "https://financieel.headliner.nl/item/wall-street-opent-lager-nu-ai-rally-door-nvidia-wegebt-iex-140585"
+   "titel": "Bitcoin zakt naar ongeveer 58.000 dollar",
+   "samenvatting": "Raakt je bitcoin: de koers gleed woensdag van circa 60.000 naar 57.700 à 58.600 dollar, dicht bij het laagste punt sinds 2024. De angst- en hebzuchtindex staat op 13 ('extreme angst').",
+   "bron": "CryptoTicker",
+   "url": "https://cryptoticker.io/nl/crypto-nieuws-nasdaq-importheffingen-vix-30/"
   },
   {
-   "titel": "Zilver zakt tot ruim 40 dollar, markt rekent op renteverhoging",
-   "samenvatting": "Raakt je zilver én je obligatie-ETF: zilver verloor dinsdag ruim 5% naar ongeveer 40,8 dollar en goud zakte onder 3.560 dollar. De markt geeft volgens CME FedWatch 96% kans op een Fed-renteverhoging van 0,25 punt in december.",
-   "bron": "Investing.com / Newsbit",
-   "url": "https://nl.investing.com/news/commodities-news/goud-futures-lager-tijdens-de-vs-sessie-984962"
+   "titel": "Zilver verliest 4% en zakt onder 40 dollar",
+   "samenvatting": "Raakt je zilver: COMEX-zilver daalde naar ongeveer 39 dollar per ounce en staat zo'n 26% lager dan een maand geleden. Ook goud gaf 2,4% prijs na de inflatiecijfers.",
+   "bron": "Upstox",
+   "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
   },
   {
-   "titel": "Nvidia-topman Huang keert terug: Nasdaq +6%, S&P 500 +5%",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: na de uitverkoop van vorige week (S&P 500 -3,7%) schoot Wall Street maandag omhoog toen Nvidia meldde dat Jensen Huang met onmiddellijke ingang CEO blijft. Het Nvidia-aandeel won ruim 30%, de Nasdaq steeg rond 6,7% en de S&P 500 bijna 5%.",
-   "bron": "Investing.com (Reuters)",
-   "url": "https://nl.investing.com/news/stock-market-news/wall-street-futures-stijgen-na-correctie-in-grote-indices-982798"
+   "titel": "Amerikaanse PCE-inflatie stijgt naar 3,8%, Fed-renteverhoging in december bijna zeker",
+   "samenvatting": "Raakt je obligatie-ETF: de inflatie in oktober liep op van 3,7 naar 3,8% en de markt rekent op 97,8% kans op een renteverhoging van 25 basispunten in december. De Amerikaanse tienjaarsrente staat rond 4,9%.",
+   "bron": "Upstox",
+   "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
   }
  ],
  "tech": [
+  {
+   "titel": "Amodei: beschuldigingen dat Anthropic de menselijke controle opgeeft zijn 'absurd'",
+   "samenvatting": "De Anthropic-topman weerlegt in een lange post dat zijn bedrijf de controle aan AI wil afgeven, en pleit voor limieten op recursieve zelfverbetering van AI. Hij haalt uit naar concurrenten die volgens hem op 'vibes' inspelen.",
+   "bron": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd"
+  },
   {
    "titel": "Nvidia zet Jensen Huang terug als CEO",
    "samenvatting": "Elf dagen na zijn vertrek is Huang door het bestuur weer aangesteld als president, CEO en bestuurder. Het aandeel steeg maandag zo'n 30%, maar de AI-sector gaf dinsdag een deel van de winst terug.",
@@ -66,12 +72,6 @@
    "samenvatting": "AI-agents van Google DeepMind verbeterden quantumalgoritmes voor fusieonderzoek; de geschatte rekenkost zakt ongeveer 11,8 keer. Een wiskundig bewijssysteem controleerde de oplossingen.",
    "bron": "Google DeepMind",
    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
-  },
-  {
-   "titel": "Oregon en Virginia klagen SpaceX aan over Grok-beelden",
-   "samenvatting": "De twee staten stellen dat Grok niet-toegestane seksuele beelden maakte en dat de veiligheidsmaatregelen tekortschoten. Ze eisen boetes en rechterlijke bevelen.",
-   "bron": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
   }
  ],
  "podcasts": [
@@ -116,10 +116,10 @@
  "sport": [
   {
    "label": "Rode Duivels",
-   "titel": "Mannaert: 'Zie niet in waarom er gebrek aan respect zou zijn' rond Lukaku",
-   "samenvatting": "Bond-CEO Vincent Mannaert wijst de kritiek op het afscheid van Lukaku af. Intussen blijft het wachten op het 'bommetje' dat Nainggolan aankondigde.",
+   "titel": "Advocaat Lukaku: 'Romelu wil geen minuten uit medelijden'",
+   "samenvatting": "Lukaku's advocaat zegt dat het afscheid bij de Duivels past in anderhalf jaar vol negatieve energie rond de spits. Intussen reageerde bondscoach Kompany verrast op het afscheid.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/24/-zie-niet-in-waarom-er-gebrek-aan-respect-zou-zijn-ceo-vincent-mannaert-countert-kritiek-rond-afscheid-lukaku~1795476026708/"
+   "url": "https://sporza.be/nl/2026/11/25/-romelu-zei-dat-hij-geen-minuten-uit-medelijden-wil-advocaat-breekt-stilte-in-het-kamp-lukaku-over-afscheid-bij-duivels~1795610582852/"
   },
   {
    "label": "Veldrijden",
@@ -131,28 +131,28 @@
  ],
  "opkomend": [
   {
-   "titel": "Anthe lost 'Lay Down'",
-   "samenvatting": "Nieuwe single van de Belgische artieste Anthe, besproken op Dansende Beren.",
+   "titel": "STEVE brengt 'Catch Me'",
+   "samenvatting": "Nieuwe single van STEVE, besproken op Dansende Beren op 25 november.",
    "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/13/nieuwe-single-anthe-lay-down/"
+   "url": "https://www.dansendeberen.be/2026/11/25/nieuwe-single-steve-catch-me/"
   },
   {
-   "titel": "Loud Love brengt 'Dear Sniper'",
-   "samenvatting": "Nieuwe single van de band Loud Love, actief in de Belgische punk- en hardcorescene.",
+   "titel": "bonfire lakes: 'Sometimes (I like to drink myself to sleep)'",
+   "samenvatting": "Nieuwe single van de Belgische band bonfire lakes.",
    "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/24/nieuwe-single-loud-love-dear-sniper/"
+   "url": "https://www.dansendeberen.be/2026/11/25/nieuwe-single-bonfire-lakes-sometimes-i-like-to-drink-myself-to-sleep/"
   },
   {
-   "titel": "Bazart is de eerste naam voor Gladiolen 2027",
-   "samenvatting": "Het festival Gladiolen maakt Bazart bekend als eerste naam voor de volgende editie.",
+   "titel": "studio20 lanceert 'Wish I Still Knew'",
+   "samenvatting": "Nieuwe single van studio20, besproken op 21 november.",
    "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/24/bazart-eerste-naam-voor-gladiolen-2027/"
+   "url": "https://www.dansendeberen.be/2026/11/21/nieuwe-single-studio20-wish-i-still-knew/"
   },
   {
-   "titel": "Helena Casella lost 'Morning Madness' van nieuw album",
-   "samenvatting": "De Belgisch-Braziliaanse pianiste en zangeres uit Gent brengt de derde single van haar album 'Tumult' (5 februari 2027), een zes minuten lang nummer met invloeden van jazz, soul en r&b.",
+   "titel": "Gabriel Jacoby met 'be alright'",
+   "samenvatting": "Nieuwe single van Gabriel Jacoby, besproken op 19 november.",
    "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-helena-casella-morning-madness/"
+   "url": "https://www.dansendeberen.be/2026/11/19/nieuwe-single-gabriel-jacoby-be-alright/"
   }
  ],
  "fire": [
@@ -484,26 +484,26 @@
   }
  ],
  "gezondheid": {
-  "streak": 13,
+  "streak": 14,
   "laatste": {
-   "datum": "2026-11-24",
-   "stappen": 11910.0,
-   "slaap": 7.47,
-   "hrv": 47.0,
-   "rhr": 45.0,
-   "water": 3.23,
+   "datum": "2026-11-25",
+   "stappen": 7659.0,
+   "slaap": 9.77,
+   "hrv": 49.0,
+   "rhr": 47.0,
+   "water": 2.5,
    "sporttype": null,
-   "bedtijd": "22:56",
-   "opstaan": "06:40"
+   "bedtijd": "21:30",
+   "opstaan": "07:37"
   },
   "week": {
-   "stappen": 10454.43,
-   "slaap": 7.11,
-   "hrv": 58.43,
-   "rhr": 49.0,
-   "water": 2.62,
-   "diep": 34.29,
-   "rem": 121.14,
+   "stappen": 10431.29,
+   "slaap": 7.55,
+   "hrv": 56.71,
+   "rhr": 49.29,
+   "water": 2.58,
+   "diep": 35.29,
+   "rem": 127.43,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
@@ -512,17 +512,13 @@
    "water3l": 1
   },
   "jaar": {
-   "dagen": 76,
+   "dagen": 77,
    "sport_pct": 47,
    "water": 2.62,
-   "alcohol_week": 7.1
+   "alcohol_week": 7.0
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
     {
      "d": "2026-11-12",
      "v": 10566.0
@@ -573,18 +569,18 @@
     },
     {
      "d": "2026-11-24",
-     "v": 11910.0
+     "v": 12135.0
     },
     {
      "d": "2026-11-25",
+     "v": 7659.0
+    },
+    {
+     "d": "2026-11-26",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
     {
      "d": "2026-11-12",
      "v": 7.0
@@ -623,7 +619,7 @@
     },
     {
      "d": "2026-11-21",
-     "v": 7.43
+     "v": 7.13
     },
     {
      "d": "2026-11-22",
@@ -639,14 +635,14 @@
     },
     {
      "d": "2026-11-25",
+     "v": 9.77
+    },
+    {
+     "d": "2026-11-26",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-11",
-     "v": null
-    },
     {
      "d": "2026-11-12",
      "v": 57.0
@@ -697,17 +693,21 @@
     },
     {
      "d": "2026-11-24",
-     "v": 47.0
+     "v": 48.0
     },
     {
      "d": "2026-11-25",
+     "v": 49.0
+    },
+    {
+     "d": "2026-11-26",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.454 stappen per dag; 6 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,62 l. Nog 0,38 l per dag tot je doel van 3 l.",
+   "Gemiddeld 10.431 stappen per dag; 6 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,58 l. Nog 0,42 l per dag tot je doel van 3 l.",
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
