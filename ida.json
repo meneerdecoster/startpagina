@@ -60,40 +60,7 @@
    "soort": "video"
   }
  ],
- "films": [
-  {
-   "titel": "Hexed",
-   "samenvatting": "Billie ontdekt dat ze een heks is en komt terecht in een magische wereld. Het is de nieuwe tekenfilm van Disney, vanaf 25 november in de bioscoop.",
-   "bron": "Disney+",
-   "url": "https://www.disneyplus.com/explore/articles/hexed-disney-movie",
-   "video": "https://www.youtube.com/watch?v=4qMlKkC9V3M",
-   "datum": "2026-11-25"
-  },
-  {
-   "titel": "The Cat in the Hat",
-   "samenvatting": "Een grappige, ondeugende kat brengt chaos in het huis van twee kinderen. De tekenfilm naar Dr. Seuss komt op 2 december in de bioscoop.",
-   "bron": "TheWrap",
-   "url": "https://www.thewrap.com/the-cat-in-the-hat-trailer-bill-hader",
-   "video": "https://www.youtube.com/watch?v=V4boBkQL-1w",
-   "datum": "2026-12-02"
-  },
-  {
-   "titel": "Papa Zola The Movie",
-   "samenvatting": "Aliens nemen het dochtertje van papa Zola mee. Hij trekt er grappig op uit om haar te redden. De tekenfilm staat vanaf 1 december op Netflix.",
-   "bron": "Fun with Kids in LA",
-   "url": "https://www.funwithkidsinla.com/post/new-on-netflix-december-2026-kids-families",
-   "video": "https://www.youtube.com/watch?v=NShYcflmsAU",
-   "datum": "2026-12-01"
-  },
-  {
-   "titel": "Ray Gunn",
-   "samenvatting": "Een privédetective in een stad vol vliegende auto's moet een popster beschermen. De tekenfilm van Brad Bird staat vanaf 18 december op Netflix.",
-   "bron": "Fun with Kids in LA",
-   "url": "https://www.funwithkidsinla.com/post/new-on-netflix-december-2026-kids-families",
-   "video": "https://www.youtube.com/watch?v=IDQB6kaKWpM",
-   "datum": "2026-12-18"
-  }
- ],
+ "films": [],
  "land": {
   "datum": "2026-11-25",
   "naam": "Nepal",
