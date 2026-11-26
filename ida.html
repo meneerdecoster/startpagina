@@ -195,6 +195,11 @@ a{color:inherit}
 @media(max-width:700px){.dino{grid-template-columns:1fr}.eng{grid-template-columns:1fr}}
 .err{padding:30px; text-align:center; color:var(--muted)}
 footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:center}
+.maan,.iss{display:flex;gap:16px;align-items:flex-start}.maan .mo,.iss .mo{font-size:52px;line-height:1}.maan h3,.iss h3{margin:0 0 6px}.maan p,.iss p{margin:0 0 6px}
+.vq{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}.vq .vimg{width:min(220px,100%);border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.15)}.vq>div{flex:1;min-width:220px}.vq .qo{display:grid;gap:8px;margin:0 0 10px}
+.vb{font:inherit;text-align:left;background:var(--surface-2);border:2px solid var(--line);border-radius:14px;padding:10px 14px;cursor:pointer;display:flex;gap:10px;align-items:center;color:inherit}.vb b{opacity:.6}.vb.ok{border-color:#16A34A;background:#DCFCE7;color:#14532D}.vb.no{border-color:#EF4444;background:#FEE2E2;color:#7F1D1D}.vb[disabled]{cursor:default}
+.sz .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.sz .chips a{background:var(--surface-2);border-radius:999px;padding:6px 13px;font-size:14px;text-decoration:none;color:inherit}.sz p{margin:0}
+.fd img{width:100%;border-radius:14px;display:block;max-height:520px;object-fit:cover}.fd p{margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -214,7 +219,7 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
 </main>
 <script>
 (function(){
-const CFG = {"verjaardag": [26, 4], "naam": "Ida", "json": "ida.json", "iconen": ["🦄", "🌈", "🦋", "🌸", "⭐", "💖", "🐱", "🐶", "🎀", "🍓", "🧁", "🌷"], "groet": {"ochtend": ["Goeiemorgen, {naam}!", "Hoi {naam}! Klaar voor een toffe {dag}?", "Goeiemorgen, zonnetje!", "Hey {naam}, wat gaan we vandaag beleven?", "Nieuwe dag, nieuwe avonturen, {naam}!", "Opstaan, slaapkop! 😄", "Fijne {dag}, {naam}!"], "middag": ["Goeiemiddag, {naam}!", "Hoi {naam}, alles goed?", "Smakelijk, {naam}!", "Hey {naam}, hoe is je {dag}?", "Even pauze, {naam}?"], "avond": ["Goeienavond, {naam}!", "Gezellige {dag}avond, {naam}!", "Hey {naam}, wat was het leukste van vandaag?", "Bijna bedtijd, {naam}!"], "nacht": ["Slaap zacht, {naam}!", "Welterusten, {naam}! 🌙", "Droom maar fijn, {naam}!"]}, "sub": {"ochtend": ["Dit is er vandaag te beleven voor jou.", "Kijk eens wat er vandaag nieuw is!"], "middag": ["Tijd voor wat leuks lezen en kijken.", "Kijk eens wat er nieuw is!"], "avond": ["Nog even snuisteren voor het slapengaan.", "Zie je morgen weer?"], "nacht": ["Tijd om te gaan slapen."]}, "secties": [{"key": "nieuws", "type": "news", "titel": "Karrewiet", "meta": "Nieuws voor jou", "span": 7, "kleur": "#EF4444"}, {"key": "raadsel", "type": "quiz", "titel": "Raadsel van de dag", "meta": "Kan jij het oplossen?", "span": 5, "kleur": "#8B5CF6", "interactief": true}, {"key": "dieren", "type": "media", "titel": "Schattig", "meta": "Babydiertjes", "span": 5, "kleur": "#F59E0B", "max": 2, "beeld": true}, {"key": "mensen", "type": "media", "titel": "Je favorieten", "meta": "Camille · Pommelien · Aaron · Maksim", "span": 7, "kleur": "#EC4899", "beeld": true}, {"key": "knutsel", "type": "knutsel", "titel": "Knutselidee van de dag", "meta": "Zelf maken", "span": 12, "kleur": "#F472B6"}, {"key": "eten", "type": "eten", "titel": "Eten van de dag", "meta": "Zin om dit te koken?", "span": 12, "kleur": "#EA580C"}, {"key": "land", "type": "land", "titel": "Land van de dag", "meta": "Elke dag een nieuw land", "span": 12, "kleur": "#10B981"}, {"key": "films", "type": "media", "titel": "Tekenfilms", "meta": "Pixar en Disney", "span": 12, "kleur": "#3B82F6"}]};
+const CFG = {"verjaardag": [26, 4], "naam": "Ida", "json": "ida.json", "iconen": ["🦄", "🌈", "🦋", "🌸", "⭐", "💖", "🐱", "🐶", "🎀", "🍓", "🧁", "🌷"], "groet": {"ochtend": ["Goeiemorgen, {naam}!", "Hoi {naam}! Klaar voor een toffe {dag}?", "Goeiemorgen, zonnetje!", "Hey {naam}, wat gaan we vandaag beleven?", "Nieuwe dag, nieuwe avonturen, {naam}!", "Opstaan, slaapkop! 😄", "Fijne {dag}, {naam}!"], "middag": ["Goeiemiddag, {naam}!", "Hoi {naam}, alles goed?", "Smakelijk, {naam}!", "Hey {naam}, hoe is je {dag}?", "Even pauze, {naam}?"], "avond": ["Goeienavond, {naam}!", "Gezellige {dag}avond, {naam}!", "Hey {naam}, wat was het leukste van vandaag?", "Bijna bedtijd, {naam}!"], "nacht": ["Slaap zacht, {naam}!", "Welterusten, {naam}! 🌙", "Droom maar fijn, {naam}!"]}, "sub": {"ochtend": ["Dit is er vandaag te beleven voor jou.", "Kijk eens wat er vandaag nieuw is!"], "middag": ["Tijd voor wat leuks lezen en kijken.", "Kijk eens wat er nieuw is!"], "avond": ["Nog even snuisteren voor het slapengaan.", "Zie je morgen weer?"], "nacht": ["Tijd om te gaan slapen."]}, "secties": [{"key": "nieuws", "type": "news", "titel": "Karrewiet", "meta": "Nieuws voor jou", "span": 7, "kleur": "#EF4444"}, {"key": "raadsel", "type": "quiz", "titel": "Raadsel van de dag", "meta": "Kan jij het oplossen?", "span": 5, "kleur": "#8B5CF6", "interactief": true}, {"key": "dieren", "type": "media", "titel": "Schattig", "meta": "Babydiertjes", "span": 5, "kleur": "#F59E0B", "max": 2, "beeld": true}, {"key": "mensen", "type": "media", "titel": "Je favorieten", "meta": "Camille · Pommelien · Aaron · Maksim", "span": 7, "kleur": "#EC4899", "beeld": true}, {"key": "knutsel", "type": "knutsel", "titel": "Knutselidee van de dag", "meta": "Zelf maken", "span": 12, "kleur": "#F472B6"}, {"key": "eten", "type": "eten", "titel": "Eten van de dag", "meta": "Zin om dit te koken?", "span": 12, "kleur": "#EA580C"}, {"key": "land", "type": "land", "titel": "Land van de dag", "meta": "Elke dag een nieuw land", "span": 12, "kleur": "#10B981"}, {"key": "_vlag", "type": "vlag", "titel": "Vlaggenquiz", "meta": "Raad het land · onbeperkt spelen", "span": 7, "kleur": "#0EA5E9"}, {"key": "_maan", "type": "maan", "titel": "De maan vandaag", "meta": "Kijk vanavond eens omhoog", "span": 5, "kleur": "#64748B"}, {"key": "films", "type": "media", "titel": "Tekenfilms", "meta": "Pixar en Disney", "span": 12, "kleur": "#3B82F6"}]};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const tfetch=(url,ms=15000)=>{ const c=new AbortController(); const t=setTimeout(()=>c.abort(),ms); return fetch(url,{signal:c.signal}).finally(()=>clearTimeout(t)); };
@@ -418,6 +423,57 @@ async function globe(){ const cv=$("globe"); if(!cv) return;
 
 function fitBooks(){ document.querySelectorAll(".tiles.bk").forEach(g=>{ const tl=[...g.children]; tl.forEach(x=>x.classList.remove("x")); const cols=getComputedStyle(g).gridTemplateColumns.split(" ").length; const keep=tl.length>=cols?Math.floor(tl.length/cols)*cols:tl.length; tl.forEach((x,i)=>{ if(i>=keep) x.classList.add("x"); }); }); }
 addEventListener("resize",fitBooks);
+/* ===== Extra's zonder nachtelijk werk (live of berekend in de browser) ===== */
+const XR={
+  maan:()=>`<div class="maan" id="x-maan"></div>`,
+  vlag:()=>`<div class="vq" id="x-vlag"></div>`,
+  iss:()=>`<div class="iss" id="x-iss"><p class="src">Ruimtestation zoeken…</p></div>`,
+  seizoen:()=>`<div class="sz" id="x-sz"></div>`,
+  fotodag:()=>`<div class="fd" id="x-fd"></div>`
+};
+Object.assign(R,XR);
+function maanInfo(d=new Date()){ const syn=29.530588853, ref=Date.UTC(2000,0,6,18,14);
+  const age=(((d-ref)/864e5)%syn+syn)%syn, ill=Math.round((1-Math.cos(2*Math.PI*age/syn))/2*100);
+  const N=[[1.85,"🌑","Nieuwe maan"],[5.54,"🌒","Wassende sikkel"],[9.23,"🌓","Eerste kwartier"],[12.92,"🌔","Wassende maan"],[16.61,"🌕","Volle maan"],[20.3,"🌖","Afnemende maan"],[23.99,"🌗","Laatste kwartier"],[27.68,"🌘","Afnemende sikkel"],[99,"🌑","Nieuwe maan"]];
+  const n=N.find(x=>age<x[0]); let dv=((14.765-age)%syn+syn)%syn; if(dv>syn-1.5||dv<0.5) dv=0; const vol=n[2]==="Volle maan"?0:Math.round(dv), nieuw=Math.max(1,Math.round(syn-age));
+  return {age,ill,em:n[1],naam:n[2],vol,nieuw}; }
+function initMaan(){ const el=$("x-maan"); if(!el) return; const m=maanInfo(), kid=!!CFG.verjaardag;
+  const vol=m.vol===0?(kid?"Vannacht is het volle maan!":"Vandaag volle maan."):kid?`Nog ${m.vol} ${m.vol===1?"nachtje":"nachtjes"} tot volle maan.`:`Volle maan over ${m.vol} ${m.vol===1?"dag":"dagen"}, nieuwe maan over ${m.nieuw}.`;
+  el.innerHTML=`<div class="mo">${m.em}</div><div><h3>${m.naam}</h3><p>${m.ill}% van de maan wordt nu door de zon verlicht. ${vol}</p>${kid?`<p class="src">De maan draait in ongeveer 29,5 dagen één keer rond de aarde.</p>`:""}</div>`; }
+const VL="be nl fr de lu gb ie es pt it ch at dk se no fi is pl cz gr tr ua hr hu ro us ca mx br ar cl pe co cu jm jp cn kr in th vn id my ph sg np lk au nz eg ma ke za ng gh et tz sn sa ae il ir mn kh la qa".split(" ");
+function initVlag(){ const el=$("x-vlag"); if(!el) return; let DN; try{ DN=new Intl.DisplayNames(["nl"],{type:"region"}); }catch(e){ el.closest("section").remove(); return; }
+  let st={g:0,r:0,b:0}; try{ st=JSON.parse(localStorage.getItem("vlagscore"))||st; }catch(e){}
+  const sv=()=>{ try{ localStorage.setItem("vlagscore",JSON.stringify(st)); }catch(e){} };
+  const rnd=n=>Math.floor(Math.random()*n);
+  function ronde(){ const pool=[...VL]; const pick=[]; while(pick.length<3){ pick.push(pool.splice(rnd(pool.length),1)[0]); } const ok=pick[0]; pick.sort(()=>Math.random()-.5);
+    el.innerHTML=`<img class="vimg" alt="Vlag" src="https://flagcdn.com/w320/${ok}.png"><div><p class="q" style="font-size:18px">Van welk land is deze vlag?</p><div class="qo">${pick.map((c,i)=>`<button type="button" class="vb" data-c="${c}"><b>${"ABC"[i]}</b>${esc(DN.of(c.toUpperCase()))}</button>`).join("")}</div>
+      <p class="qm" aria-live="polite"></p><p class="src">Goed: ${st.g} · Reeks: ${st.r} · Beste reeks: ${st.b}</p><button type="button" class="btn vnext" hidden>Volgende vlag ▶</button></div>`;
+    el.querySelectorAll(".vb").forEach(b=>b.onclick=()=>{ if(el.dataset.done) return; const good=b.dataset.c===ok;
+      if(good){ b.classList.add("ok"); st.g++; st.r++; st.b=Math.max(st.b,st.r); el.querySelector(".qm").textContent="Goed zo! 🎉"; el.querySelector(".qm").className="qm ok"; }
+      else { b.classList.add("no"); st.r=0; el.querySelector(".qm").textContent="Oei! Het was "+DN.of(ok.toUpperCase())+"."; el.querySelector(".qm").className="qm no"; el.querySelector(`.vb[data-c="${ok}"]`).classList.add("ok"); }
+      sv(); el.dataset.done=1; el.querySelectorAll(".vb").forEach(x=>x.disabled=true); el.querySelector(".src").textContent=`Goed: ${st.g} · Reeks: ${st.r} · Beste reeks: ${st.b}`; el.querySelector(".vnext").hidden=false; });
+    el.querySelector(".vnext").onclick=()=>{ delete el.dataset.done; ronde(); }; }
+  ronde(); }
+function zee(lat,lon){ if(lat<-60) return "de Zuidelijke Oceaan"; if(lat>66) return "de Noordelijke IJszee"; if(lon>-70&&lon<20) return "de Atlantische Oceaan"; if(lon>=20&&lon<120&&lat<25) return "de Indische Oceaan"; return "de Grote Oceaan"; }
+function initIss(){ const el=$("x-iss"); if(!el) return; let DN=null; try{ DN=new Intl.DisplayNames(["nl"],{type:"region"}); }catch(e){} let fails=0, tm=null;
+  async function tick(){ if(document.hidden){ tm=setTimeout(tick,10000); return; }
+    try{ const p=await (await tfetch("https://api.wheretheiss.at/v1/satellites/25544",8000)).json(); let waar=zee(p.latitude,p.longitude);
+      try{ const c=await (await tfetch(`https://api.wheretheiss.at/v1/coordinates/${p.latitude.toFixed(3)},${p.longitude.toFixed(3)}`,8000)).json(); if(c.country_code&&c.country_code!=="??"&&DN) waar=DN.of(c.country_code.toUpperCase()); }catch(e){}
+      const dag=p.visibility==="daylight";
+      el.innerHTML=`<div class="mo">🛰️</div><div><h3>Nu boven ${esc(waar)}</h3><p>Het ruimtestation ISS vliegt op ${Math.round(p.altitude)} km hoogte met ${Math.round(p.velocity).toLocaleString("nl-BE")} km per uur. Daar is het nu ${dag?"dag ☀️":"nacht 🌙"}. In 90 minuten vliegt het één keer rond de aarde!</p><p class="src">Live · ververst elke 10 seconden</p></div>`; fails=0;
+    }catch(e){ if(++fails>=3){ el.closest("section").remove(); return; } }
+    tm=setTimeout(tick,10000); }
+  tick(); }
+const SZ={1:["witloof","spruitjes","boerenkool","knolselder","pastinaak","rode biet","prei","appels","peren"],2:["witloof","spruitjes","boerenkool","schorseneren","knolselder","pastinaak","rode kool","appels","peren"],3:["witloof","prei","spinazie","radijs","postelein","rabarber","appels"],4:["asperges","radijs","spinazie","rabarber","lente-ui","raapstelen","sla"],5:["asperges","spinazie","peultjes","radijs","rabarber","aardbeien","sla"],6:["aardbeien","doperwten","tuinbonen","courgette","komkommer","kersen","sla"],7:["tomaten","courgette","bonen","venkel","frambozen","bessen","kersen"],8:["tomaten","paprika","aubergine","maïs","bramen","pruimen","venkel"],9:["pompoen","bramen","pruimen","druiven","rode kool","prei","appels"],10:["pompoen","paddenstoelen","pastinaak","knolselder","spruitjes","appels","peren"],11:["pompoen","spruitjes","witloof","pastinaak","schorseneren","boerenkool","knolselder","peren"],12:["witloof","spruitjes","boerenkool","veldsla","rode kool","knolselder","pastinaak","appels"]};
+function initSeizoen(){ const el=$("x-sz"); if(!el) return; const m=new Date().getMonth()+1, L=SZ[m]; const mn=new Date().toLocaleDateString("nl-BE",{month:"long"});
+  el.innerHTML=`<p>In ${mn} zitten deze groenten en vruchten uit eigen land op hun best:</p><div class="chips">${L.map(x=>`<a href="https://www.google.com/search?q=${encodeURIComponent("ottolenghi "+x+" recept")}" target="_blank" rel="noopener">${esc(x)}</a>`).join("")}</div><p class="src">Tik op een groente voor Ottolenghi-recepten</p>`; }
+async function initFotodag(){ const el=$("x-fd"); if(!el) return; const d=new Date(), p=n=>String(n).padStart(2,"0");
+  try{ const j=await (await tfetch(`https://nl.wikipedia.org/api/rest_v1/feed/featured/${d.getFullYear()}/${p(d.getMonth()+1)}/${p(d.getDate())}`,10000)).json(); const im=j.image; if(!im||!(im.thumbnail||im.image)) throw 0;
+    const src=(im.thumbnail||im.image).source, txt=(im.description&&im.description.text||"").replace(/<[^>]+>/g,"");
+    el.innerHTML=`<a href="${esc(im.file_page||"#")}" target="_blank" rel="noopener"><img alt="${esc(txt)}" src="https://wsrv.nl/?w=1200&output=webp&q=78&url=${encodeURIComponent(src)}"></a>${txt?`<p>${esc(txt)}</p>`:""}<p class="src">Wikimedia Commons${im.artist&&im.artist.text?` · ${esc(im.artist.text.replace(/<[^>]+>/g,""))}`:""}</p>`;
+  }catch(e){ el.closest("section").remove(); } }
+function initLive(){ initMaan(); initVlag(); initIss(); initSeizoen(); initFotodag(); }
+
 function build(d){
   const HD=(d.header||{})[part]; if(HD){ if(HD.titel) $("greet").textContent=HD.titel; if(HD.sub) $("sub").textContent=HD.sub; if(HD.iconen&&HD.iconen.length&&CFG.iconen&&CFG.iconen.length){ SKYI=HD.iconen; skyRedo(); } }
   GIGS=d.optredens||[];
@@ -426,8 +482,8 @@ function build(d){
     return `<section class="card span-${s.span||12}"><div class="card-h"><h2><span class="dot" style="background:${s.kleur||"var(--accent)"}"></span>${esc(s.titel)}</h2>${s.link?`<a class="meta" href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.meta||"")} ↗</a>`:`<span class="meta">${esc(s.meta||"")}</span>`}</div>${body}</section>`;
   }).join("");
   const dtm = d.bijgewerkt ? new Date(d.bijgewerkt).toLocaleDateString("nl-BE",{weekday:"long",day:"numeric",month:"long"}) : "";
-  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v7";
-  initGigs(); fitBooks(); loadImgs(); globe();
+  $("foot").textContent = (dtm?`Bijgewerkt op ${dtm} · `:"")+"v8";
+  initGigs(); fitBooks(); loadImgs(); globe(); initLive();
   if(document.querySelector(".media.beeld")){ let n=0; const iv=setInterval(()=>{ n++; document.querySelectorAll(".media.beeld .mc").forEach(c=>{ if(c.querySelector(".vm .tp img, .ph.has")) c.classList.add("ok"); });
     if(n>=30){ clearInterval(iv); document.querySelectorAll(".media.beeld").forEach(m=>{ if(!m.querySelector(".mc.ok")){ const sec=m.closest("section"); sec&&sec.remove(); } }); } },400); }
 }

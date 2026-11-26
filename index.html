@@ -132,6 +132,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .news.cols li{border-top:1px solid var(--line); padding:14px 0}
 .news.cols li:nth-child(-n+3){border-top:0; padding-top:2px}
 @media (max-width:980px){.news.cols{grid-template-columns:1fr}.news.cols li:nth-child(-n+3){border-top:1px solid var(--line); padding-top:14px}.news.cols li:first-child{border-top:0; padding-top:2px}}
+.fd img{width:100%;border-radius:14px;display:block;max-height:460px;object-fit:cover}.fd p{margin:10px 0 0;color:var(--muted);font-size:14px}
+.otd{list-style:none;margin:0;padding:0;display:grid;gap:12px}.otd li{display:grid;grid-template-columns:52px 1fr;gap:10px;font-size:14px;line-height:1.45}.otd b{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:2px}.otd a{color:inherit}
+.hn{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}.hn li{padding:10px 0;border-top:1px solid var(--line);font-size:14.5px;line-height:1.4}.hn li:nth-child(-n+2){border-top:0}.hn a{font-weight:600;text-decoration:none;color:inherit}.hn a:hover{text-decoration:underline}.hn small{display:block;font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:3px}
+@media (max-width:980px){.hn{grid-template-columns:1fr}.hn li:nth-child(2){border-top:1px solid var(--line)}}
 .src{font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-top:6px; display:block}
 .lead a.t{font-family:var(--display); font-size:22px; font-weight:600; letter-spacing:-.015em}
 
@@ -245,6 +249,21 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     <section class="card span-12" aria-labelledby="h-good" id="c-good">
       <div class="card-h"><h2 id="h-good"><span class="dot" style="background:#10B981"></span>Goed nieuws uit de wereld</h2><span class="meta">Klimaat · gezondheid · natuur · wetenschap · samenleving</span></div>
       <ul class="news cols" id="goednieuws"></ul>
+    </section>
+
+    <section class="card span-7" aria-labelledby="h-fd" id="c-fd">
+      <div class="card-h"><h2 id="h-fd"><span class="dot" style="background:#0EA5E9"></span>Foto van de dag</h2><span class="meta">Wikimedia Commons</span></div>
+      <div class="fd" id="fd"></div>
+    </section>
+
+    <section class="card span-5" aria-labelledby="h-ot">
+      <div class="card-h"><h2 id="h-ot"><span class="dot" style="background:#A855F7"></span>Op deze dag</h2><span class="meta">Uit de geschiedenis</span></div>
+      <ul class="otd" id="otd"></ul>
+    </section>
+
+    <section class="card span-12" aria-labelledby="h-hn" id="c-hn">
+      <div class="card-h"><h2 id="h-hn"><span class="dot" style="background:#F97316"></span>Live: waar techies nu over praten</h2><a class="meta" href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News ↗</a></div>
+      <ol class="hn" id="hn"></ol>
     </section>
 
     <section class="card span-6" aria-labelledby="h-op">
@@ -534,10 +553,30 @@ function renderGigs(){
 $("gigf").addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; gigF=b.dataset.f; $("gigf").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b)); renderGigs(); });
 $("gigmore").addEventListener("click", ()=>{ gigAll=!gigAll; renderGigs(); });
 
+
+function liveExtra(){
+  const D=new Date(), p=n=>String(n).padStart(2,"0"), strip=t=>String(t||"").replace(/<[^>]+>/g,"");
+  const feed=l=>tfetch(`https://${l}.wikipedia.org/api/rest_v1/feed/featured/${D.getFullYear()}/${p(D.getMonth()+1)}/${p(D.getDate())}`,12000).then(r=>r.json());
+  feed("nl").then(async j=>{
+    const im=j.image; if(im&&(im.thumbnail||im.image)){ const src=(im.thumbnail||im.image).source, t=strip(im.description&&im.description.text);
+      $("fd").innerHTML=`<a href="${esc(im.file_page||"#")}" target="_blank" rel="noopener"><img alt="${esc(t)}" src="https://wsrv.nl/?w=1200&output=webp&q=78&url=${encodeURIComponent(src)}"></a>${t?`<p>${esc(t)}</p>`:""}`; } else $("c-fd").remove();
+    let ev=j.onthisday, en=false; if(!ev||!ev.length){ try{ ev=(await feed("en")).onthisday; en=true; }catch(e){} }
+    if(ev&&ev.length){ ev=ev.slice().sort(()=>Math.random()-.5).slice(0,5).sort((a,b)=>a.year-b.year);
+      $("otd").innerHTML=ev.map(e=>{ const pg=(e.pages||[])[0], u=pg&&pg.content_urls&&pg.content_urls.desktop&&pg.content_urls.desktop.page;
+        return `<li><b>${esc(e.year)}</b><span>${u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.text)}</a>`:esc(e.text)}</span></li>`; }).join("")+(en?`<li style="display:block"><small style="color:var(--muted)">Bron: Engelstalige Wikipedia</small></li>`:"");
+    } else $("otd").closest("section").remove();
+  }).catch(()=>{ $("c-fd")&&$("c-fd").remove(); const o=$("otd"); o&&o.closest("section").remove(); });
+  tfetch("https://hacker-news.firebaseio.com/v0/topstories.json",10000).then(r=>r.json()).then(ids=>Promise.all(ids.slice(0,12).map(i=>tfetch(`https://hacker-news.firebaseio.com/v0/item/${i}.json`,10000).then(r=>r.json()).catch(()=>null))))
+    .then(L=>{ L=L.filter(x=>x&&x.title).slice(0,10); if(!L.length) throw 0;
+      $("hn").innerHTML=L.map(x=>{ const u=x.url||`https://news.ycombinator.com/item?id=${x.id}`; let h=""; try{ h=new URL(u).hostname.replace(/^www\./,""); }catch(e){}
+        return `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(x.title)}</a><small>${esc(h)} · ${x.score||0} punten · <a href="https://news.ycombinator.com/item?id=${x.id}" target="_blank" rel="noopener" style="font-weight:400">${x.descendants||0} reacties</a></small></li>`; }).join(""); })
+    .catch(()=>{ $("c-hn")&&$("c-hn").remove(); });
+}
+liveExtra();
 fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   $("chips").innerHTML = (d.vandaag || []).map(c => `<span class="chip"><em>${esc(c.wanneer)}</em>${esc(c.wat)}</span>`).join("");
   renderHealth(d.gezondheid);
-  renderNews("markten", (d.markten||[]).slice(0,2));
+  renderNews("markten", (d.markten||[]).slice(0,4));
   fetch("quotes.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(renderFin).catch(()=>{ $("fin").remove(); });
   renderNews("tech", (d.tech||[]).slice(0,6));
   if ((d.goednieuws||[]).length) renderNews("goednieuws", d.goednieuws.slice(0,6), true); else $("c-good").remove();
@@ -552,7 +591,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   podThumbs();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v27` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v28` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
