@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-26T04:30:00+07:00",
+ "bijgewerkt": "2026-11-26T09:37:56+07:00",
  "vandaag": [
   {
    "wanneer": "Do 26 nov",
@@ -50,28 +50,46 @@
  ],
  "tech": [
   {
+   "label": "Wiskunde × AI",
+   "titel": "Wiskundige en Claude claimen bewijs van de Riemann-hypothese",
+   "samenvatting": "Anthropic-wiskundige Levent Alpöge zegt dat hij samen met Claude het beroemde vraagstuk uit 1859, een van de zeven Millenniumproblemen, heeft opgelost. Een deel is in de bewijsassistent Lean gecontroleerd, maar experts zoals Daan Huybrechs (KU Leuven) willen eerst grondig nazicht.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/wiskundige-en-claude-lijken-oplossing-te-vinden-voor-een-van-de/"
+  },
+  {
+   "label": "Biotech",
+   "titel": "GPT-6 ontwerpt zelf eiwitten die in het lab werken",
+   "samenvatting": "OpenAI toont dat GPT-6 met redeneren en code eiwitsequenties kan ontwerpen en hun vorm voorspellen. In labotests bonden de ontwerpen aan vijf doelwitten, een stap richting AI-ontworpen medicijnen.",
+   "bron": "OpenAI",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+  },
+  {
+   "label": "Ruimte",
+   "titel": "AI helpt amateur-sterrenkundigen nieuwe exoplaneten vinden",
+   "samenvatting": "Met OpenAI's Astra spitten hobbyastronomen publieke NASA-data van Kepler en TESS door en vinden ze kandidaat-planeten rond andere sterren.",
+   "bron": "OpenAI",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra/"
+  },
+  {
+   "label": "Genetica",
+   "titel": "AlphaGenome 2 leest hoe DNA-varianten per celtype werken",
+   "samenvatting": "Google DeepMind lanceerde een model dat voorspelt hoe kleine DNA-verschillen genen aan- of uitzetten in specifieke cellen. Het vindt bijna dubbel zoveel relevante varianten als het vorige beste systeem, nuttig voor onderzoek naar erfelijke ziektes.",
+   "bron": "Google DeepMind",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+  },
+  {
+   "label": "Energie",
+   "titel": "Eerste geothermische centrale van de nieuwe generatie levert stroom",
+   "samenvatting": "Fervo Energy's Cape Station in Utah verkoopt nu stroom aan het net: de eerste grootschalige centrale die met boortechniek uit de olie-industrie overal aardwarmte kan aanboren.",
+   "bron": "Canary Media",
+   "url": "https://www.canarymedia.com/articles/geothermal/global-first-next-gen-geothermal-fervo"
+  },
+  {
    "titel": "Amodei: beschuldigingen dat Anthropic de menselijke controle opgeeft zijn 'absurd'",
    "samenvatting": "De Anthropic-topman weerlegt in een lange post dat zijn bedrijf de controle aan AI wil afgeven, en pleit voor limieten op recursieve zelfverbetering van AI. Hij haalt uit naar concurrenten die volgens hem op 'vibes' inspelen.",
    "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd"
-  },
-  {
-   "titel": "Nvidia zet Jensen Huang terug als CEO",
-   "samenvatting": "Elf dagen na zijn vertrek is Huang door het bestuur weer aangesteld als president, CEO en bestuurder. Het aandeel steeg maandag zo'n 30%, maar de AI-sector gaf dinsdag een deel van de winst terug.",
-   "bron": "Nvidia",
-   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
-  },
-  {
-   "titel": "Amazon koopt AI-optimalisatietech van Decart voor 7,5 miljard",
-   "samenvatting": "Amazon neemt de technologie en het team van Decart over, naar verluidt voor 7,5 miljard dollar. Daarmee moeten AI-modellen efficiënter draaien op Amazons eigen Trainium-chips.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
-  },
-  {
-   "titel": "DeepMind-agents maken quantumalgoritmes voor fusie veel zuiniger",
-   "samenvatting": "AI-agents van Google DeepMind verbeterden quantumalgoritmes voor fusieonderzoek; de geschatte rekenkost zakt ongeveer 11,8 keer. Een wiskundig bewijssysteem controleerde de oplossingen.",
-   "bron": "Google DeepMind",
-   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+   "label": "AI"
   }
  ],
  "podcasts": [
@@ -711,5 +729,49 @@
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
- }
+ },
+ "goednieuws": [
+  {
+   "label": "Natuur",
+   "titel": "Eerste zeeschildpadjes ooit uitgekomen aan de Californische kust",
+   "samenvatting": "Uit de allereerste nesten van olijfkarettschildpadden aan de Amerikaanse westkust kwamen 75 jongen, die nadien in zee werden vrijgelaten.",
+   "bron": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched"
+  },
+  {
+   "label": "Gezondheid",
+   "titel": "Sierra Leone vaccineert 10.000 kinderen die nooit een prik kregen",
+   "samenvatting": "Een campagne van 300 dagen bereikte meer dan 10.000 kinderen zonder enige vaccinatie. Sinds 2005 daalde de moedersterfte er met ruim 32%.",
+   "bron": "Gavi",
+   "url": "https://www.gavi.org/vaccineswork/sierra-leone-races-drop-maternal-and-child-deaths-zero"
+  },
+  {
+   "label": "Natuur",
+   "titel": "Wilde dieren gebruiken 's werelds grootste ecoduct al vóór de opening",
+   "samenvatting": "Boven een drukke snelweg bij Los Angeles steken coyotes al over via het Wallis Annenberg Wildlife Crossing, dat op 2 december officieel opent.",
+   "bron": "AP / Anchorage Daily News",
+   "url": "https://www.adn.com/alaska-news/wildlife/2026/11/18/over-a-freeway-near-la-animals-can-roam-safely-thanks-to-the-worlds-largest-wildlife-crossing/"
+  },
+  {
+   "label": "Klimaat",
+   "titel": "Canada belooft tot 392,5 miljoen dollar voor tropische bossen",
+   "samenvatting": "Canada stapt in het door Brazilië geleide fonds Tropical Forests Forever, dat landen betaalt om hun regenwoud te laten staan.",
+   "bron": "Reuters",
+   "url": "https://www.reuters.com/sustainability/cop/canada-pledges-up-3925-million-brazil-led-tropical-forest-fund-2026-11-15/"
+  },
+  {
+   "label": "Wetenschap",
+   "titel": "Grootste zoetwatermeer ter wereld herstelt",
+   "samenvatting": "Boomringonderzoek toont dat de belangrijkste rivier naar het Baikalmeer sinds 2017 weer veel meer water aanvoert, ver boven het langjarig gemiddelde.",
+   "bron": "Phys.org",
+   "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html"
+  },
+  {
+   "label": "Natuur",
+   "titel": "Wilde oesters planten zich weer voort voor de Schotse kust",
+   "samenvatting": "Na meer dan een eeuw lokaal uitgestorven te zijn, kweekten natuurbeschermers voor het eerst in het VK wilde oesters terug op hun oude plek.",
+   "bron": "The Guardian",
+   "url": "https://www.theguardian.com/environment/2026/nov/15/return-of-the-wild-oyster-conservationists-bring-shellfish-back-from-local-extinction-off-scottish-coast"
+  }
+ ]
 }

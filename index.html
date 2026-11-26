@@ -127,6 +127,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-of
 .ph.has{display:block}
 .sport-item .ph{aspect-ratio:16/8}
 .news p{margin:6px 0 0; color:var(--muted); font-size:14px; max-width:68ch}
+.lbl{display:inline-block; font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:0 0 6px}
+.news.cols{grid-template-columns:repeat(3,minmax(0,1fr)); column-gap:28px}
+.news.cols li{border-top:1px solid var(--line); padding:14px 0}
+.news.cols li:nth-child(-n+3){border-top:0; padding-top:2px}
+@media (max-width:980px){.news.cols{grid-template-columns:1fr}.news.cols li:nth-child(-n+3){border-top:1px solid var(--line); padding-top:14px}.news.cols li:first-child{border-top:0; padding-top:2px}}
 .src{font-family:var(--mono); font-size:11px; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-top:6px; display:block}
 .lead a.t{font-family:var(--display); font-size:22px; font-weight:600; letter-spacing:-.015em}
 
@@ -228,13 +233,18 @@ footer{margin-top:28px; font-family:var(--mono); font-size:11.5px; color:var(--m
     </section>
 
     <section class="card span-7" aria-labelledby="h-tech">
-      <div class="card-h"><h2 id="h-tech"><span class="dot" style="background:#6366F1"></span>Tech &amp; AI</h2><span class="meta">Wat je moet weten</span></div>
+      <div class="card-h"><h2 id="h-tech"><span class="dot" style="background:#6366F1"></span>Tech, AI &amp; doorbraken</h2><span class="meta">Nieuw · baanbrekend · verrassend</span></div>
       <ul class="news" id="tech"></ul>
     </section>
 
     <section class="card span-5" aria-labelledby="h-sport">
       <div class="card-h"><h2 id="h-sport"><span class="dot"></span>Sport</h2><span class="meta">Duivels · RAFC · Cross</span></div>
       <div id="sport"></div>
+    </section>
+
+    <section class="card span-12" aria-labelledby="h-good" id="c-good">
+      <div class="card-h"><h2 id="h-good"><span class="dot" style="background:#10B981"></span>Goed nieuws uit de wereld</h2><span class="meta">Klimaat · gezondheid · natuur · wetenschap · samenleving</span></div>
+      <ul class="news cols" id="goednieuws"></ul>
     </section>
 
     <section class="card span-6" aria-labelledby="h-op">
@@ -365,8 +375,8 @@ function renderHealth(g){
   $("health").innerHTML = left + right;
 }
 
-function renderNews(id, items){
-  $(id).innerHTML = (items || []).map((n,i) => `<li class="${i===0?"lead":""}">
+function renderNews(id, items, nolead){
+  $(id).innerHTML = (items || []).map((n,i) => `<li class="${i===0&&!nolead?"lead":""}">${n.label?`<span class="lbl">${esc(n.label)}</span><br>`:""}
     <a class="ph" href="${esc(n.url)}" target="_blank" rel="noopener" data-u="${esc(n.url)}" tabindex="-1" aria-hidden="true"><b>${esc(n.bron)}</b></a>
     <a class="t" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titel)}</a>
     <p>${esc(n.samenvatting)}</p><span class="src">${esc(n.bron)}</span></li>`).join("") || `<li class="err">Geen nieuws.</li>`;
@@ -529,7 +539,8 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   renderHealth(d.gezondheid);
   renderNews("markten", (d.markten||[]).slice(0,2));
   fetch("quotes.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(renderFin).catch(()=>{ $("fin").remove(); });
-  renderNews("tech", d.tech);
+  renderNews("tech", (d.tech||[]).slice(0,6));
+  if ((d.goednieuws||[]).length) renderNews("goednieuws", d.goednieuws.slice(0,6), true); else $("c-good").remove();
   renderPods(d.podcasts);
   fetch("podcasts.json?"+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{ if(!j||!j.podcasts||!j.podcasts.length) return;
     const m={}; (d.podcasts||[]).forEach(p=>m[p.show]=p); const merged=j.podcasts.filter(p=>p.afleveringen&&p.afleveringen.length);
@@ -541,7 +552,7 @@ fetch("data.json", {cache:"no-store"}).then(r => { if (!r.ok) throw new Error(r.
   loadThumbs();
   podThumbs();
   const b = d.bijgewerkt ? new Date(d.bijgewerkt) : null;
-  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v26` : "";
+  $("foot").textContent = b ? `Inhoud bijgewerkt op ${b.toLocaleString("nl-BE",{weekday:"long", day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})} · elke ochtend vernieuwd · v27` : "";
 }).catch(() => {
   $("health").innerHTML = `<div class="err">De gegevens konden niet geladen worden. Herlaad de pagina.</div>`;
 });
