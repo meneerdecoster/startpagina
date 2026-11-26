@@ -1,17 +1,17 @@
 {
- "bijgewerkt": "2026-11-26T12:55:18+07:00",
+ "bijgewerkt": "2026-11-27T04:40:00+07:00",
  "gezondheid": {
-  "streak": 14,
+  "streak": 15,
   "laatste": {
-   "datum": "2026-11-25",
-   "water": 2.58,
+   "datum": "2026-11-26",
+   "water": 2.66,
    "sporttype": null,
    "notitie": null
   },
   "week": {
    "dagen": 6,
-   "water": 2.44,
-   "koffie": 0.0,
+   "water": 2.67,
+   "koffie": 0.17,
    "sport": 0,
    "sauna": 0,
    "alcoholvrij": 6,
@@ -19,22 +19,18 @@
    "fysiek": 2.0,
    "mentaal": 2.0,
    "ziek": 0,
-   "water25": 4
+   "water25": 5
   },
   "jaar": {
-   "dagen": 44,
-   "sport_pct": 32,
-   "water": 2.22,
-   "alcohol_week": 3.5,
+   "dagen": 45,
+   "sport_pct": 31,
+   "water": 2.23,
+   "alcohol_week": 3.4,
    "sauna": 24,
    "oneup": 9
   },
   "reeksen": {
    "water": [
-    {
-     "d": "2026-11-13",
-     "v": 2.5
-    },
     {
      "d": "2026-11-14",
      "v": 2.5
@@ -85,14 +81,14 @@
     },
     {
      "d": "2026-11-26",
+     "v": 2.66
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ],
    "koffie": [
-    {
-     "d": "2026-11-13",
-     "v": 0.0
-    },
     {
      "d": "2026-11-14",
      "v": 1.0
@@ -143,14 +139,14 @@
     },
     {
      "d": "2026-11-26",
+     "v": 1.0
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ],
    "alcohol": [
-    {
-     "d": "2026-11-13",
-     "v": 0.0
-    },
     {
      "d": "2026-11-14",
      "v": 0.0
@@ -201,31 +197,35 @@
     },
     {
      "d": "2026-11-26",
+     "v": 0.0
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Water: gemiddeld 2,44 l per dag. Nog 0,06 l tot je doel van 2,5 l.",
+   "Water: gemiddeld 2,67 l per dag. Doel van 2,5 l gehaald.",
    "6 van 6 dagen alcoholvrij."
   ]
  },
  "header": {
   "ochtend": {
    "titel": "Goeiemorgen, Sévérine",
-   "sub": "Vandaag: een wandeling van 12,8 km door het Park van Tervuren en Ottolenghi's wintergroenten."
+   "sub": "Vandaag: winterwandelingen in de Hoge Kempen en geroosterde wintergroenten met pistachepesto."
   },
   "middag": {
    "titel": "Fijne middag, Sévérine",
-   "sub": "Droom even weg bij de Alentejo in Portugal of plan een treinuitstap naar Maastricht."
+   "sub": "Plan een kerstmarkt over de grens of droom weg bij kerst op de Griekse eilanden."
   },
   "avond": {
    "titel": "Een mooie avond, Sévérine",
-   "sub": "Ontdek de warme interieurkleuren van deze winter en wat Decanter over Champagne schrijft."
+   "sub": "Lees over wijn zonder alcohol en over hoe voeding je slaap beïnvloedt."
   },
   "nacht": {
    "titel": "Rustige nacht, Sévérine",
-   "sub": "Vijf minuten extra slaap doet al deugd. Slaap zacht."
+   "sub": "Glimlach, adem en ga langzaam. Slaap zacht."
   }
  },
  "boek_gebruikt": [
@@ -236,103 +236,103 @@
   "The Last King of Faerie",
   "The Correspondent",
   "Sunrise on the Reaping",
-  "The Calamity Club"
+  "The Calamity Club",
+  "The Witch"
  ],
  "boek": {
-  "titel": "The Calamity Club",
-  "auteur": "Kathryn Stockett",
-  "samenvatting": "Het verhaal speelt in 1933 in Oxford, Mississippi, midden in de Grote Depressie. Meg, een elfjarig weesmeisje, en Birdie, een alleenstaande vrouw die hulp wil vragen aan haar rijke zus, kruisen het pad van Charlie, die weinig meer te verliezen heeft. Samen bedenken ze een plan om hun leven zelf in handen te nemen, ondanks de gevaren die vrouwen in die tijd lopen. Een warm, spannend verhaal over vriendschap en lef van de schrijfster van The Help.",
-  "waarom": "Het boek staat deze maand in de Goodreads-lijst met meest gelezen boeken en op drie bestsellerlijsten (onder meer NYT en Amazon), volgens Book Riot van 19 november.",
-  "sterren": 4.62,
-  "aantal": "ruim 410.000 beoordelingen",
+  "titel": "The Witch",
+  "auteur": "Freida McFadden",
+  "samenvatting": "Julia trekt in bij haar grootmoeder op een oud landgoed in Massachusetts uit de zeventiende eeuw. Ze begint te vermoeden dat het huis spookt door een vrouw die in 1692 als heks werd geëxecuteerd. Een spannende thriller met een huiselijke, onheilspellende sfeer.",
+  "waarom": "Het stond in de week van 13 november bij de meest gelezen boeken op Goodreads, met zo'n 40.000 lezers.",
+  "sterren": 4.0,
+  "aantal": "ca. 40.000 lezers in één week",
   "bron": "Goodreads",
-  "url": "https://goodreads.com/book/show/228820257",
-  "isbn": "9781954118812"
+  "url": "https://bookriot.com/most-read-books-on-goodreads-november-13-2026/"
  },
  "ontdek": [
   {
-   "label": "Wandelroute",
-   "titel": "Voer- en Warandewandeling: 12,8 km door het Park van Tervuren",
-   "samenvatting": "Een lus van 12,8 km die start in Vossem (Dorpstraat 42) en door de Voervallei en het Park van Tervuren loopt. Onderweg: vijvers, de Gordaalmolen en het AfricaMuseum; je eindigt in het dorpscafé In den Congo.",
-   "bron": "Visit Flanders",
-   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-brabantse-wouden-voer-en-warandewandeling"
-  },
-  {
-   "label": "Koffietrend",
-   "titel": "De week in koffie: Juan Valdez rukt op, Starbucks scoort met herbruikbare beker",
-   "samenvatting": "Het Colombiaanse Juan Valdez opende zijn 700ste zaak, op de luchthaven van São Paulo, en mikt op honderden filialen in Brazilië. In de VS zorgde de herbruikbare rode beker van Starbucks voor recordverkoop.",
-   "bron": "World Coffee Portal",
-   "url": "https://www.worldcoffeeportal.com/news/the-week-in-coffee-16-22-november-2026/"
+   "label": "Griekenland",
+   "titel": "Kerst in Griekenland: tradities op de eilanden",
+   "samenvatting": "Hoe de winter en de kerst aanvoelen op de Griekse eilanden, handig als je buiten het seizoen wil reizen.",
+   "bron": "Elxis",
+   "url": "https://elxis.com/nl/christmas-in-greece-island-traditions-festive-customs-what-winter-really-feels-like"
   },
   {
    "label": "Recept",
-   "titel": "Ottolenghi: wintergroenten als hoofdgerecht",
-   "samenvatting": "Ottolenghi maakt van wintergroenten een volwaardige maaltijd: hele geroosterde knolselder met koriander, en Turks gestoofde wortel en prei met geitenkaas. Seizoensgroenten in de hoofdrol.",
-   "bron": "The Guardian via inkl",
-   "url": "https://www.inkl.com/news/yotam-ottolenghi-s-recipes-for-winter-vegetables-as-standalone-meals"
-  },
-  {
-   "label": "Portugal",
-   "titel": "Alentejo: de nieuwe hotspot voor bijzondere verblijven",
-   "samenvatting": "De Alentejo, ten zuiden van Lissabon, krijgt er de ene na de andere mooie plek bij, van villa's in Comporta tot houten cabins in Melides en een vijfsterrenhotel in Ourique. Tip: vlieg naar Lissabon en rij in ongeveer een uur naar de kust van Comporta.",
-   "bron": "Euronews",
-   "url": "https://www.euronews.com/travel/2026/06/26/how-portugals-alentejo-region-has-become-a-hotspot-for-luxury-hotel-openings"
-  },
-  {
-   "label": "Mode",
-   "titel": "Modetrends herfst/winter 2026-2027",
-   "samenvatting": "Bewust en persoonlijk kleden staat voorop, met ladylike silhouetten in een moderne, losse versie. Oversized wordt strakker en gestructureerder, en de slimfit broek maakt een comeback.",
-   "bron": "Trendystyle",
-   "url": "https://www.trendystyle.net/modetrends-herfst-winter-2026-2027/"
-  },
-  {
-   "label": "Antwerpen",
-   "titel": "Art Antwerp: 81 galerieën in Antwerp Expo",
-   "samenvatting": "Van 10 tot 13 december toont de zesde editie van Art Antwerp hedendaagse kunst van 81 galerieën uit negen landen. Een mooi uitstapje voor een grijze decemberdag.",
-   "bron": "Stad Antwerpen",
-   "url": "https://www.antwerpen.be/nieuws/ontdek-hedendaagse-kunst-op-art-antwerp"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Kleine stapjes, grote winst: 5 minuten extra slaap telt",
-   "samenvatting": "Een studie bij bijna 60.000 mensen koppelt 5 minuten meer slaap, 2 minuten extra stevig bewegen en een halve portie groenten meer per dag aan een langer leven. Het is een observationele studie, maar de boodschap is hoopvol: kleine aanpassingen tellen.",
-   "bron": "Live Science",
-   "url": "https://www.livescience.com/health/tiny-improvements-in-sleep-nutrition-and-exercise-could-significantly-extend-lifespan-study-suggests"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Vijf interieurtrends voor herfst en winter",
-   "samenvatting": "Diepe, warme kleuren zoals chocoladebruin, terracotta en mosgroen, en donker hout als notelaar en gerookte eik keren terug. Daarnaast: sculpturale meubels met rondingen en handgemaakt glas en keramiek.",
-   "bron": "Wonen360",
-   "url": "https://www.wonen360.nl/article/9875927/vijf-interieurtrends-die-bepalend-zijn-voor-de-herfst-en-winter-van-2026/"
-  },
-  {
-   "label": "Wijntrend",
-   "titel": "Decanter: hoe Champagne zich aanpast aan het klimaat",
-   "samenvatting": "Het novembernummer van Decanter bekijkt hoe de Champagnestreek omgaat met de klimaatverandering, met daarnaast 50 betaalbare bordeaux en een grote Spanjegids met 21 topwitte wijnen.",
-   "bron": "Decanter",
-   "url": "https://www.decanter.com/wine/decanter-magazine-november-2026-issue-and-spain-guide-see-whats-inside/"
-  },
-  {
-   "label": "Citytrip",
-   "titel": "Vier citytrips net over de grens, met de trein",
-   "samenvatting": "Maastricht ligt op minder dan twee uur van Brussel: boek er een rondleiding in de grotten van de Sint-Pietersberg. Ook Aken (met de Carolus Thermen), Rijsel en Luxemburg zijn vlot bereikbaar per trein.",
-   "bron": "B-Europe",
-   "url": "https://www.b-europe.com/NL/Blog/Citytrip-over-de-belgische-grens"
+   "titel": "Geroosterde wintergroenten met gekruide linzen, kokosyoghurt en harissa",
+   "samenvatting": "Linzen en geroosterde groenten met een pittige harissadressing: stevig, plantaardig en vol kruiden.",
+   "bron": "Green Templeton College Oxford",
+   "url": "https://www.gtc.ox.ac.uk/students/college-life/recipes/roast-winter-vegetables/"
   },
   {
    "label": "Wandelroute",
-   "titel": "Wildegistenwandeling: 14 km langs lambiekbrouwerijen",
-   "samenvatting": "Vertrek aan de Pedemolen in Sint-Gertrudis-Pede en wandel 14 km door het Pajottenland, langs het kasteel van Gaasbeek en brouwerijen zoals Lindemans. Ideaal om af te sluiten met een geuze.",
-   "bron": "Visit Flanders",
-   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-het-pajottenland-de-wildegistenwandeling"
+   "titel": "De mooiste wandelingen in de Belgische Ardennen, bereikbaar met de trein",
+   "samenvatting": "Een selectie Ardennenwandelingen die je zonder auto kan doen: stap uit de trein en wandel meteen de natuur in.",
+   "bron": "B-Europe / NMBS",
+   "url": "https://www.belgiantrain.be/nl/travel-ideas/inspiration/discover-belgium/wallonie/hiking-ardennes-the-best-walks-accessible-with-train"
+  },
+  {
+   "label": "Koffietrend",
+   "titel": "Specialty coffee trends 2026 om in de gaten te houden",
+   "samenvatting": "Een branderij beschrijft de trends in specialty coffee van 2026.",
+   "bron": "Climpson & Sons",
+   "url": "https://climpsonandsons.com/blogs/journal/2026-specialty-coffee-trends-to-watch"
+  },
+  {
+   "label": "Wandelroute",
+   "titel": "3 warme winterwandelingen in de Hoge Kempen",
+   "samenvatting": "Drie winterwandelingen in Nationaal Park Hoge Kempen, met mooie natuur en gezellige pauzes onderweg.",
+   "bron": "Nationaal Park Hoge Kempen",
+   "url": "https://nationaalparkhogekempen.be/en/print/63363"
+  },
+  {
+   "label": "Recept",
+   "titel": "Geroosterde wintergroenten met pistachepesto en witte bonen",
+   "samenvatting": "Een plantaardig, vezelrijk gerecht met geroosterde groenten, bonen en een pesto van pistachenoten.",
+   "bron": "Borough Market",
+   "url": "https://boroughmarket.org.uk/recipes/roast-winter-vegetables-with-pistachio-pesto-white-beans"
   },
   {
    "label": "Wonen",
-   "titel": "Woontrends: wat is uit en wat is in",
-   "samenvatting": "Donkere werkbladen, rechthoekige zetels en alles-in-beige verdwijnen. In de plaats: ronde, organische vormen, warme accenten in terracotta en oker, en lampen van rotan, papier of hout.",
-   "bron": "Kijkjeinhuisentuin",
-   "url": "https://www.kijkjeinhuisentuin.nl/woontrends-2026-wel-niet-mode/"
+   "titel": "Woontrends en trendkleuren van 2026",
+   "samenvatting": "Een overzicht van woontrends en trendkleuren om je woonruimte mee te vernieuwen.",
+   "bron": "Slimster",
+   "url": "https://slimster.nl/blog/woontrends/"
+  },
+  {
+   "label": "Wijntrend",
+   "titel": "Wijn zonder of met weinig alcohol: waar op letten in 2026",
+   "samenvatting": "Alcoholarme en alcoholvrije wijn groeit: een blik op wat dit jaar belangrijk is.",
+   "bron": "BeverageDaily",
+   "url": "https://www.beveragedaily.com/Article/2026/03/13/low-and-no-alcohol-wine-trends-for-2026/"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Hoe voeding onze slaap beïnvloedt",
+   "samenvatting": "Wat je eet kan meespelen in hoe goed je slaapt. Het artikel zet de verbanden op een rij.",
+   "bron": "Wel Ingelichte Kringen",
+   "url": "https://www.welingelichtekringen.nl/wetenschap/hoe-voeding-onze-slaap-beinvloedt"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Deze woontrend maakt je interieur dit najaar chiquer, zonder grote verbouwing",
+   "samenvatting": "Een woontrend die je huis met kleine ingrepen een rijker uiterlijk geeft.",
+   "bron": "Wel Ingelichte Kringen",
+   "url": "https://www.welingelichtekringen.nl/samenleving/deze-woontrend-maakt-je-interieur-dit-najaar-in-een-klap-chiquer-zonder-grote-verbouwing"
+  },
+  {
+   "label": "Antwerpen",
+   "titel": "Antwerpse kerstmarkt: tips en info",
+   "samenvatting": "Praktische info over de kerstmarkt van Antwerpen, handig om je bezoek te plannen.",
+   "bron": "ANWB",
+   "url": "https://www.anwb.nl/vakantie/belgie/kerstmarkt/antwerpen"
+  },
+  {
+   "label": "Citytrip",
+   "titel": "De leukste kerstmarkten vlak over de grens",
+   "samenvatting": "Drie kerstmarkten die je met de trein vlot bereikt, ideaal voor een korte citytrip.",
+   "bron": "NS International",
+   "url": "https://www.nsinternational.com/nl/kerstmarkten/kerstmarkten-vlak-over-de-grens"
   }
  ],
  "ontdek_gebruikt": [
@@ -508,6 +508,35 @@
     "https://ottolenghi.co.uk/pages/recipes/tamarind-tomato-braised-chickpeas",
     "https://www.vrt.be/vrtnws/nl/2026/10/28/ossip-zadkine-kmska-expo-beeldhouwkunst-sculptuur-antwerpen/"
    ]
+  },
+  {
+   "datum": "2026-11-27",
+   "onderwerpen": [
+    "Antwerpen",
+    "Citytrip",
+    "Gezond leven",
+    "Griekenland",
+    "Interieur",
+    "Koffietrend",
+    "Recept",
+    "Wandelroute",
+    "Wijntrend",
+    "Wonen"
+   ],
+   "urls": [
+    "https://www.welingelichtekringen.nl/samenleving/deze-woontrend-maakt-je-interieur-dit-najaar-in-een-klap-chiquer-zonder-grote-verbouwing",
+    "https://slimster.nl/blog/woontrends/",
+    "https://boroughmarket.org.uk/recipes/roast-winter-vegetables-with-pistachio-pesto-white-beans",
+    "https://www.gtc.ox.ac.uk/students/college-life/recipes/roast-winter-vegetables/",
+    "https://www.welingelichtekringen.nl/wetenschap/hoe-voeding-onze-slaap-beinvloedt",
+    "https://www.anwb.nl/vakantie/belgie/kerstmarkt/antwerpen",
+    "https://nationaalparkhogekempen.be/en/print/63363",
+    "https://www.nsinternational.com/nl/kerstmarkten/kerstmarkten-vlak-over-de-grens",
+    "https://climpsonandsons.com/blogs/journal/2026-specialty-coffee-trends-to-watch",
+    "https://www.beveragedaily.com/Article/2026/03/13/low-and-no-alcohol-wine-trends-for-2026/",
+    "https://elxis.com/nl/christmas-in-greece-island-traditions-festive-customs-what-winter-really-feels-like",
+    "https://www.belgiantrain.be/nl/travel-ideas/inspiration/discover-belgium/wallonie/hiking-ardennes-the-best-walks-accessible-with-train"
+   ]
   }
  ],
  "horoscoop": {
@@ -528,9 +557,9 @@
   "bron": "iforher.com (daghoroscoop 26 november 2026, vrij herschreven)"
  },
  "quote": {
-  "tekst": "Wie geen mededogen heeft, kan niet zien wat je met de ogen van mededogen ziet.",
+  "tekst": "Glimlach, adem en ga langzaam.",
   "auteur": "Thich Nhat Hanh",
-  "bron": "The Miracle of Mindfulness (via Goodreads)"
+  "bron": "https://www.bedrock.nl/mooiste-quotes-thich-nhat-hanh/"
  },
  "quote_gebruikt": [
   "Het verleden is voorbij, de toekomst is er nog niet",
@@ -540,6 +569,7 @@
   "Beter dan duizend lege woorden",
   "Overwin woede met vriendelijkheid, kwaad met goedheid,",
   "Alles wat we zijn is het resultaat van wat we gedacht",
-  "Wie geen mededogen heeft, kan niet"
+  "Wie geen mededogen heeft, kan niet",
+  "Glimlach, adem en ga langzaam"
  ]
 }

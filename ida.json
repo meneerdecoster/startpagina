@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-26T12:55:18+07:00",
+ "bijgewerkt": "2026-11-27T04:40:00+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -13,80 +13,81 @@
   "Brunei",
   "Myanmar",
   "Nepal",
-  "Oost-Timor"
+  "Oost-Timor",
+  "Ghana"
  ],
  "nieuws": [
   {
-   "titel": "Zestien uilen op één schoolplein",
-   "samenvatting": "Op een basisschool in Amersfoort zitten maar liefst 16 uilen in de bomen. Vogelkijkers komen van overal om ze te zien.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640927-schoolplein-krijgt-bezoek-van-niet-1-niet-2-maar-16-uilen"
-  },
-  {
-   "titel": "Ondeugende zwaan zet de kraan open",
-   "samenvatting": "In een vogelopvang in Leiden draaide een zwaan in de lavabo de kraan open. Daardoor stond de hele vloer onder water!",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640956-ondeugende-zwaan-laat-kraan-openstaan-hele-vogelopvang-onder-water"
-  },
-  {
-   "titel": "De supermaan was prachtig te zien",
-   "samenvatting": "Dinsdagavond stond er een supermaan aan de hemel. De maan stond toen dichter bij de aarde en leek daardoor groter.",
+   "titel": "Supermaan goed te zien: zo zag het eruit",
+   "samenvatting": "De maan stond extra dichtbij en zag er groot en helder uit. Het Jeugdjournaal laat foto's zien van de supermaan.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2640976-supermaan-goed-te-zien-zo-zag-het-eruit"
   },
   {
-   "titel": "Grootste kerstboom van Nederland brandt weer",
-   "samenvatting": "De 370 meter hoge Gerbrandytoren in IJsselstein is weer versierd als reuzenkerstboom, met kilometers kerstlichtjes.",
+   "titel": "Ondeugende zwaan laat kraan openstaan: hele vogelopvang onder water",
+   "samenvatting": "In een vogelopvang draaide een zwaan een kraan open. Daardoor liep alles vol water.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640956-ondeugende-zwaan-laat-kraan-openstaan-hele-vogelopvang-onder-water"
+  },
+  {
+   "titel": "Grootste kerstboom van Nederland weer opgetuigd",
+   "samenvatting": "Er hangen kilometers aan kerstlichtjes in de boom. Straks gaan de lichtjes aan!",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2640924-grootste-kerstboom-van-nederland-weer-opgetuigd-kilometers-aan-kerstlichtjes"
+  },
+  {
+   "titel": "Dit zijn de kanshebbers voor het Kinder- en Tienerwoord van het Jaar",
+   "samenvatting": "Woorden als aura en peak maken kans om het woord van het jaar te worden. Welk woord vind jij het leukst?",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/kinder-en-tienerwoord-van-het-jaar-2026/"
   }
  ],
  "dieren": [
   {
-   "titel": "Baby-otters leren zwemmen in Chester Zoo",
+   "titel": "Schattig: babypanda wil opstaan",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=g9VYOfkyRLo",
+   "url": "https://www.youtube.com/watch?v=ZV__exjB7FA",
    "soort": "video"
   },
   {
-   "titel": "Vier pandababy's spelen met hun verzorger",
+   "titel": "Meet the Cutest Baby Pandas Ever!",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=imluwMOJ32I",
+   "url": "https://www.youtube.com/watch?v=muuavbgtm58",
    "soort": "video"
   },
   {
-   "titel": "Speelse rode panda van vier maanden",
+   "titel": "Tiny Animal Babies: de schattigste babydiertjes",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=53qDL7l1-50",
+   "url": "https://www.youtube.com/watch?v=Ip1IX96ev5o",
    "soort": "video"
   }
  ],
  "films": [],
  "land": {
-  "datum": "2026-11-26",
-  "naam": "Oost-Timor",
-  "hoofdstad": "Dili",
-  "vlag": "🇹🇱",
-  "iso2": "tl",
-  "iso": "626",
-  "lat": -8.8,
-  "lon": 125.7,
-  "inwoners": "ongeveer 1,4 miljoen",
+  "datum": "2026-11-27",
+  "naam": "Ghana",
+  "hoofdstad": "Accra",
+  "vlag": "🇬🇭",
+  "iso2": "gh",
+  "iso": "288",
+  "lat": 7.9,
+  "lon": -1.0,
+  "inwoners": "ongeveer 34 miljoen",
   "weetjes": [
-   "Oost-Timor ligt op het oostelijke deel van het eiland Timor in Zuidoost-Azië. Het grenst aan Indonesië, en over de zee ligt Australië.",
-   "Het is een van de jongste landen ter wereld: sinds 2002 is het een onafhankelijk land.",
-   "De mensen spreken er Tetun en Portugees, en ze betalen met de Amerikaanse dollar."
+   "Ghana ligt in West-Afrika, aan de Golf van Guinea. Het grenst aan Ivoorkust, Burkina Faso en Togo.",
+   "In 1957 werd Ghana het eerste land ten zuiden van de Sahara dat onafhankelijk werd van de Britten.",
+   "Het Voltameer in Ghana is een van de grootste kunstmatige meren ter wereld, en uit Ghana komt veel cacao voor chocolade."
   ]
  },
  "raadsel": {
-  "vraag": "Wat gaat altijd omhoog, maar komt nooit meer naar beneden?",
-  "oplossing": "Leeftijd",
-  "uitleg": "Elk jaar word je een jaartje ouder, maar nooit meer jonger!",
+  "vraag": "Wat heeft een hals maar geen hoofd?",
+  "oplossing": "fles",
+  "uitleg": "Een fles heeft een hals bovenaan, maar geen hoofd.",
   "opties": [
-   "Ballon",
-   "Leeftijd",
-   "Rook",
-   "Vliegtuig"
+   "fles",
+   "giraf zonder kop",
+   "sjaal",
+   "vaas met oren"
   ]
  },
  "mensen": [
@@ -114,102 +115,102 @@
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Bom dia, Oost-Timor 🌴",
-   "sub": "Vandaag reis je naar Oost-Timor, een van de jongste landen ter wereld.",
+   "titel": "Goeiemorgen, Ida! Akwaaba, Ghana 🌍",
+   "sub": "Vandaag reis je naar Ghana en knutsel je een kerstboom van papier.",
    "iconen": [
-    "🌴",
-    "🇹🇱",
-    "🦉",
-    "🌞",
-    "🐠",
-    "🥣"
+    "🌍",
+    "🇬🇭",
+    "⛄",
+    "🐼",
+    "🥣",
+    "🌞"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, er zitten 16 uilen op een schoolplein! 🦉",
-   "sub": "Lees het nieuws en knutsel zelf een uiltje van een dennenappel.",
+   "titel": "Hoi Ida, een ondeugende zwaan zet alles onder water! 🦢",
+   "sub": "Lees het nieuws, kijk naar babypanda's en probeer het raadsel van vandaag.",
    "iconen": [
-    "🦉",
-    "🌲",
-    "✂️",
+    "🦢",
+    "🐼",
     "📰",
-    "🦦",
-    "🐼"
+    "✂️",
+    "🧩",
+    "🌙"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Visstickjes op het menu 🐟",
-   "sub": "Vanavond: zelfgemaakte fishsticks met preipuree en een slim raadsel.",
+   "titel": "Goeienavond, Ida! Tijd voor een schotel vol groentjes 🍚",
+   "sub": "Kook morgen misschien de rijstschotel met kip, en kijk eens naar de supermaan.",
    "iconen": [
-    "🐟",
-    "🥔",
-    "🧩",
-    "🌙",
-    "🍽️",
-    "⭐"
+    "🍚",
+    "🌕",
+    "⭐",
+    "🥕",
+    "🧁",
+    "📚"
    ]
   },
   "nacht": {
-   "titel": "Slaapwel, Ida! Kijk eens naar de maan 🌕",
-   "sub": "De supermaan was deze week extra groot. Droom maar van baby-otters.",
+   "titel": "Slaap zacht, Ida 🌙",
+   "sub": "Morgen wacht er weer een nieuw land en een nieuwe knutsel op je.",
    "iconen": [
-    "🌕",
-    "💤",
-    "🦦",
-    "✨",
-    "🛏️",
-    "🌌"
+    "🌙",
+    "😴",
+    "⭐",
+    "🧸",
+    "🐼",
+    "☁️"
    ]
   }
  },
  "knutsel": {
-  "titel": "Uiltje van een dennenappel",
-  "intro": "Van een dennenappel en wat papier maak je een schattig uiltje voor op de vensterbank.",
+  "titel": "Driedimensionale kerstboom van papier",
+  "intro": "Een kerstboom die rechtop kan staan en meteen vrolijk oogt.",
   "materiaal": [
-   "Een dennenappel",
-   "Gekleurd papier of vilt",
-   "Wit en zwart papier (of wiebeloogjes)",
-   "Lijm",
-   "Een schaar"
+   "groen papier of karton",
+   "schaar (met hulp van een volwassene)",
+   "lijm",
+   "stiften of kleine stickers",
+   "een liniaal"
   ],
   "stappen": [
-   "Zoek een mooie, droge dennenappel en zet hem rechtop.",
-   "Knip twee witte rondjes voor de ogen en plak er zwarte stipjes op.",
-   "Knip een klein oranje driehoekje voor het snaveltje.",
-   "Knip twee vleugels uit gekleurd papier of vilt.",
-   "Plak de ogen, het snaveltje en de vleugels op de dennenappel.",
-   "Laat de lijm goed drogen en zet je uil op een mooi plekje."
+   "Knip uit groen papier vier of vijf gelijke driehoeken in verschillende maten.",
+   "Vouw elke driehoek precies in de lengte dubbel.",
+   "Knip bij de kleinste driehoek een stukje bij de punt weg, zodat je kan inschuiven.",
+   "Schuif de driehoeken in elkaar of plak ze op elkaar tot ze een boom vormen.",
+   "Versier de boom met stickers of stipjes.",
+   "Zet de boom op een plank of tafel en kijk van alle kanten."
   ],
-  "tip": "Maak er een hele uilenfamilie van, met grote en kleine dennenappels!",
-  "video": "https://www.youtube.com/watch?v=M_wBUb8nRiA",
-  "url": "https://www.youtube.com/watch?v=M_wBUb8nRiA",
-  "bron": "YouTube"
+  "tip": "Gebruik papier met glitter voor een extra feestelijke boom.",
+  "url": "https://www.tutkit.com/nl/diy-decoratie-knutselen/940-3d-kerstboom-van-papier",
+  "bron": "Tutkit"
  },
  "eten": {
-  "titel": "Fishsticks van schelvis met preipuree",
-  "intro": "Zelfgemaakte krokante visstickjes met zachte puree: veel lekkerder dan uit de doos.",
+  "titel": "Rijstschotel uit de oven met kip en veel groentjes",
+  "intro": "Alles gaat samen in één schaal en de kaas bovenop is heerlijk krokant.",
   "ingredienten": [
-   "600 g schelvis",
-   "100 g panko (paneermeel)",
-   "2 eieren",
-   "800 g aardappelen",
-   "4 stengels prei",
-   "1 scheutje melk en 1 klontje boter",
-   "snuifje nootmuskaat",
-   "olijfolie",
+   "300 g rijst",
+   "400 g kipfilet in blokjes",
+   "2 wortels",
+   "1 courgette",
+   "1 rode paprika",
+   "1 ui",
+   "600 ml kippenbouillon",
+   "100 g geraspte kaas",
+   "2 el olijfolie",
    "peper en zout"
   ],
   "stappen": [
-   "Schil de aardappelen en snij ze in stukken. Was de prei en snij hem in ringen.",
-   "Kook de aardappelen en de prei samen gaar, met hulp van een volwassene.",
-   "Klop het eiwit los en doe de panko in een ander kommetje.",
-   "Snij de vis in reepjes, haal ze door het eiwit en rol ze in de panko.",
-   "Bak de visstickjes goudbruin in een pan met olijfolie, met hulp van een volwassene.",
-   "Stamp de aardappelen en prei fijn met melk, boter, nootmuskaat, peper en zout."
+   "Zet de oven aan op 200 graden (met hulp van een volwassene).",
+   "Snijd de groentjes in kleine stukjes (met hulp van een volwassene).",
+   "Bak de kip en de ui even in de olijfolie (met hulp van een volwassene).",
+   "Doe rijst, groentjes en kip in een ovenschaal en giet de bouillon erover.",
+   "Strooi de kaas bovenop en dek af met folie.",
+   "Zet de schaal 35 minuten in de oven; haal de folie er de laatste 10 minuten af."
   ],
-  "tip": "Lekker met een frisse sla erbij.",
-  "url": "https://dagelijksekost.vrt.be/gerechten/fish-sticks-van-schelvis-met-preipuree-en-limoenmayonaise/kookmodus",
-  "bron": "Dagelijkse kost"
+  "tip": "Lekker met een schaaltje tomaat of komkommer erbij.",
+  "url": "https://njam.tv/recepten/rijstschotel-uit-de-oven-met-kip-en-veel-groentjes",
+  "bron": "Njam!"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
@@ -220,6 +221,7 @@
   "Pasta met pompoen en oude kaas",
   "Witloof in de oven",
   "Ovenschotel met kippengehakt, pompoen en appel",
-  "Fishsticks van schelvis met preipuree"
+  "Fishsticks van schelvis met preipuree",
+  "Rijstschotel uit de oven met kip en veel groentjes"
  ]
 }
