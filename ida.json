@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-25T04:21:43+07:00",
+ "bijgewerkt": "2026-11-26T12:55:18+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -12,203 +12,204 @@
   "Singapore",
   "Brunei",
   "Myanmar",
-  "Nepal"
+  "Nepal",
+  "Oost-Timor"
  ],
  "nieuws": [
   {
-   "titel": "Wat wordt het Kinderwoord van 2026?",
-   "samenvatting": "Kies mee tussen woorden als Aura, Bro, Clock it, Faah en Tuff. Je kunt stemmen tot zondag 29 november, daarna volgt de winnaar.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/kinder-en-tienerwoord-van-het-jaar-2026/"
+   "titel": "Zestien uilen op één schoolplein",
+   "samenvatting": "Op een basisschool in Amersfoort zitten maar liefst 16 uilen in de bomen. Vogelkijkers komen van overal om ze te zien.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640927-schoolplein-krijgt-bezoek-van-niet-1-niet-2-maar-16-uilen"
   },
   {
-   "titel": "Onderzoekers vangen walvissnot op met drones",
-   "samenvatting": "In Schotland vliegen drones boven walvissen om druppeltjes uit hun adem op te vangen. Zo leren onderzoekers meer over de dieren zonder hen te storen.",
+   "titel": "Ondeugende zwaan zet de kraan open",
+   "samenvatting": "In een vogelopvang in Leiden draaide een zwaan in de lavabo de kraan open. Daardoor stond de hele vloer onder water!",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640707-onderzoekers-verzamelen-snot-van-walvissen-met-drones"
+   "url": "https://jeugdjournaal.nl/artikel/2640956-ondeugende-zwaan-laat-kraan-openstaan-hele-vogelopvang-onder-water"
   },
   {
-   "titel": "Japanners boos op dansende toeristen in tempel",
-   "samenvatting": "Een groep toeristen maakte een dansvideo in een tempel in Tokio. Dat is een heilige plek, dus veel Japanners vonden dat niet netjes. De dansers hebben spijt.",
+   "titel": "De supermaan was prachtig te zien",
+   "samenvatting": "Dinsdagavond stond er een supermaan aan de hemel. De maan stond toen dichter bij de aarde en leek daardoor groter.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640729-japanners-boos-op-dansende-toeristen-in-tempel"
+   "url": "https://jeugdjournaal.nl/artikel/2640976-supermaan-goed-te-zien-zo-zag-het-eruit"
   },
   {
-   "titel": "Wie is de Mol? kondigt de deelnemers aan",
-   "samenvatting": "In januari begint een nieuw seizoen van Wie is de Mol? Tien bekende Nederlanders doen mee aan het spel in Engeland.",
+   "titel": "Grootste kerstboom van Nederland brandt weer",
+   "samenvatting": "De 370 meter hoge Gerbrandytoren in IJsselstein is weer versierd als reuzenkerstboom, met kilometers kerstlichtjes.",
    "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640695-deze-bekende-nederlanders-doen-mee-aan-wie-is-de-mol"
+   "url": "https://jeugdjournaal.nl/artikel/2640924-grootste-kerstboom-van-nederland-weer-opgetuigd-kilometers-aan-kerstlichtjes"
   }
  ],
  "dieren": [
   {
-   "titel": "Kangoeroebaby in de dierentuin",
+   "titel": "Baby-otters leren zwemmen in Chester Zoo",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=8_tOU9BlsFo",
+   "url": "https://www.youtube.com/watch?v=g9VYOfkyRLo",
    "soort": "video"
   },
   {
-   "titel": "Eerste wombatbaby geboren in Nederland",
+   "titel": "Vier pandababy's spelen met hun verzorger",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=BQmUq5cLry4",
+   "url": "https://www.youtube.com/watch?v=imluwMOJ32I",
    "soort": "video"
   },
   {
-   "titel": "Schattige beelden van een lynxbaby",
+   "titel": "Speelse rode panda van vier maanden",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=kms2YZqIrDQ",
+   "url": "https://www.youtube.com/watch?v=53qDL7l1-50",
    "soort": "video"
   }
  ],
  "films": [],
  "land": {
-  "datum": "2026-11-25",
-  "naam": "Nepal",
-  "hoofdstad": "Kathmandu",
-  "vlag": "🇳🇵",
-  "iso2": "np",
-  "iso": "524",
-  "lat": 28.3,
-  "lon": 84.1,
-  "inwoners": "ongeveer 30 miljoen",
+  "datum": "2026-11-26",
+  "naam": "Oost-Timor",
+  "hoofdstad": "Dili",
+  "vlag": "🇹🇱",
+  "iso2": "tl",
+  "iso": "626",
+  "lat": -8.8,
+  "lon": 125.7,
+  "inwoners": "ongeveer 1,4 miljoen",
   "weetjes": [
-   "Nepal ligt in Azië, tussen de grote landen India en China.",
-   "De Mount Everest, de hoogste berg ter wereld, ligt op de grens van Nepal en China. Hij is bijna 8849 meter hoog.",
-   "De vlag van Nepal is de enige nationale vlag die geen vierkant of rechthoek is. Hij bestaat uit twee driehoeken."
+   "Oost-Timor ligt op het oostelijke deel van het eiland Timor in Zuidoost-Azië. Het grenst aan Indonesië, en over de zee ligt Australië.",
+   "Het is een van de jongste landen ter wereld: sinds 2002 is het een onafhankelijk land.",
+   "De mensen spreken er Tetun en Portugees, en ze betalen met de Amerikaanse dollar."
   ]
  },
  "raadsel": {
-  "vraag": "Wat heeft vier vingers en een duim maar leeft niet?",
-  "oplossing": "Handschoen",
-  "uitleg": "In een handschoen zit een plekje voor elke vinger en voor je duim.",
+  "vraag": "Wat gaat altijd omhoog, maar komt nooit meer naar beneden?",
+  "oplossing": "Leeftijd",
+  "uitleg": "Elk jaar word je een jaartje ouder, maar nooit meer jonger!",
   "opties": [
-   "Handschoen",
-   "Sok",
-   "Muts",
-   "Schoen"
+   "Ballon",
+   "Leeftijd",
+   "Rook",
+   "Vliegtuig"
   ]
  },
  "mensen": [
   {
-   "label": "Camille",
-   "titel": "Kijk de clip van 'Oeh La La La'",
-   "samenvatting": "Dit is de officiële videoclip van Camille. Kijk en luister mee.",
-   "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=Y1SOQwWvbvc"
+   "label": "Pommelien Thijs",
+   "titel": "Nieuwe single: 'Onomatopee'",
+   "samenvatting": "Pommelien bracht een nieuw nummer uit met de grappige titel 'Onomatopee'. Dat is een woord dat klinkt als een geluid, zoals 'boem' of 'miauw'.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/06/nieuwe-single-pommelien-thijs-onomatopee/"
   },
   {
-   "label": "Pommelien Thijs",
-   "titel": "'Atlas' weer nummer 1 in de MNM1000",
-   "samenvatting": "Pommelien staat met 'Atlas' het tweede jaar op rij op één in de MNM1000. Ze heeft 15 liedjes in de lijst, meer dan elke andere Belg.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/21/mnm-1-000/"
+   "label": "Camille",
+   "titel": "Kijk de clip van 'Insomnia'",
+   "samenvatting": "In deze officiële videoclip zingt Camille over een nacht waarin je niet kan slapen.",
+   "bron": "YouTube",
+   "video": "https://www.youtube.com/watch?v=hLp60RQZH5g"
   },
   {
    "label": "Aaron Blommaert",
-   "titel": "Kijk de clip van 'DNA'",
-   "samenvatting": "Aaron Blommaert zingt 'DNA' in een eigen video. Zet het geluid maar aan.",
+   "titel": "Zing mee met 'Hoe Zit Het Met Ons?'",
+   "samenvatting": "Met deze lyricvideo kan je de tekst van Aarons liedje meteen meezingen.",
    "bron": "YouTube",
-   "video": "https://www.youtube.com/watch?v=WZ2Xu2PdN8g"
+   "video": "https://www.youtube.com/watch?v=GuZq_HhLGWI"
   }
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Namaste, Nepal 🏔️",
-   "sub": "Vandaag ontdek je Nepal en maak je een sneeuwpopje van wattenschijfjes.",
+   "titel": "Goeiemorgen, Ida! Bom dia, Oost-Timor 🌴",
+   "sub": "Vandaag reis je naar Oost-Timor, een van de jongste landen ter wereld.",
    "iconen": [
-    "🏔️",
-    "🇳🇵",
-    "⛄",
-    "🐘",
-    "🌄",
-    "🍙"
+    "🌴",
+    "🇹🇱",
+    "🦉",
+    "🌞",
+    "🐠",
+    "🥣"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, een kangoeroebaby kijkt uit zijn buidel! 🦘",
-   "sub": "Een kangoeroebaby, een wombatbaby en een lynxbaby wachten op je.",
+   "titel": "Hoi Ida, er zitten 16 uilen op een schoolplein! 🦉",
+   "sub": "Lees het nieuws en knutsel zelf een uiltje van een dennenappel.",
    "iconen": [
-    "🦘",
-    "🐾",
-    "🐱",
-    "😍",
-    "🍃",
-    "🎬"
+    "🦉",
+    "🌲",
+    "✂️",
+    "📰",
+    "🦦",
+    "🐼"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Pompoen en kip uit de oven 🎃",
-   "sub": "Vanavond eet je een ovenschotel met kip en pompoen, en ontdek je wat een handschoen met vingers te maken heeft.",
+   "titel": "Goeienavond, Ida! Visstickjes op het menu 🐟",
+   "sub": "Vanavond: zelfgemaakte fishsticks met preipuree en een slim raadsel.",
    "iconen": [
-    "🎃",
-    "🍗",
-    "🍎",
-    "🧤",
+    "🐟",
+    "🥔",
     "🧩",
-    "🍿"
+    "🌙",
+    "🍽️",
+    "⭐"
    ]
   },
   "nacht": {
-   "titel": "Welterusten, Ida! 😴",
-   "sub": "Morgen is het al 26 november, met weer een nieuw land en een nieuw filmpje.",
+   "titel": "Slaapwel, Ida! Kijk eens naar de maan 🌕",
+   "sub": "De supermaan was deze week extra groot. Droom maar van baby-otters.",
    "iconen": [
-    "🌜",
-    "🛌",
-    "✨",
-    "🐑",
+    "🌕",
     "💤",
-    "🦉"
+    "🦦",
+    "✨",
+    "🛏️",
+    "🌌"
    ]
   }
  },
  "knutsel": {
-  "titel": "Sneeuwpopje van wattenschijfjes",
-  "intro": "Plak een vrolijk sneeuwpopje van wattenschijfjes, perfect voor in de winter.",
+  "titel": "Uiltje van een dennenappel",
+  "intro": "Van een dennenappel en wat papier maak je een schattig uiltje voor op de vensterbank.",
   "materiaal": [
-   "Ronde wattenschijfjes",
-   "Een stuk karton",
-   "Oranje en gekleurd papier",
-   "Stiften",
-   "Lijm"
+   "Een dennenappel",
+   "Gekleurd papier of vilt",
+   "Wit en zwart papier (of wiebeloogjes)",
+   "Lijm",
+   "Een schaar"
   ],
   "stappen": [
-   "Plak drie wattenschijfjes onder elkaar op het karton, van klein naar groot.",
-   "Knip een oranje driehoekje voor de neus en plak het op het bovenste schijfje.",
-   "Knip een strook gekleurd papier voor de sjaal en plak die tussen de schijfjes.",
-   "Teken ogen, een mond en knopen met een stift.",
-   "Teken een hoed erboven en kleur hem in.",
-   "Laat de lijm goed drogen."
+   "Zoek een mooie, droge dennenappel en zet hem rechtop.",
+   "Knip twee witte rondjes voor de ogen en plak er zwarte stipjes op.",
+   "Knip een klein oranje driehoekje voor het snaveltje.",
+   "Knip twee vleugels uit gekleurd papier of vilt.",
+   "Plak de ogen, het snaveltje en de vleugels op de dennenappel.",
+   "Laat de lijm goed drogen en zet je uil op een mooi plekje."
   ],
-  "tip": "Schrijf er een lief bericht naast en geef het kaartje cadeau.",
-  "url": "https://www.simplefunforkids.com/?p=8634",
-  "bron": "Simple Fun for Kids"
+  "tip": "Maak er een hele uilenfamilie van, met grote en kleine dennenappels!",
+  "video": "https://www.youtube.com/watch?v=M_wBUb8nRiA",
+  "url": "https://www.youtube.com/watch?v=M_wBUb8nRiA",
+  "bron": "YouTube"
  },
  "eten": {
-  "titel": "Ovenschotel met kippengehakt, pompoen en appel",
-  "intro": "Zachte pompoen, zoete appel en kip onder een dekentje van puree.",
+  "titel": "Fishsticks van schelvis met preipuree",
+  "intro": "Zelfgemaakte krokante visstickjes met zachte puree: veel lekkerder dan uit de doos.",
   "ingredienten": [
-   "1 butternut",
-   "8 aardappelen",
-   "4 zoete aardappelen",
-   "500 g kippengehakt",
-   "4 appels",
-   "2 el rietsuiker",
-   "1 sinaasappel",
-   "paar blaadjes salie",
+   "600 g schelvis",
+   "100 g panko (paneermeel)",
+   "2 eieren",
+   "800 g aardappelen",
+   "4 stengels prei",
+   "1 scheutje melk en 1 klontje boter",
+   "snuifje nootmuskaat",
    "olijfolie",
    "peper en zout"
   ],
   "stappen": [
-   "Verwarm, met hulp van een volwassene, de oven voor op 180 °C.",
-   "Kook, met hulp van een volwassene, de aardappelen en zoete aardappelen gaar in gezouten water en stamp ze tot puree.",
-   "Snijd de butternut in blokjes, meng ze met olie, zout, peper en salie en bak ze, met hulp van een volwassene, 10 minuten in een ovenschaal met schijfjes sinaasappel.",
-   "Bak, met hulp van een volwassene, het kippengehakt los in een pan.",
-   "Bak de appelblokjes kort met de rietsuiker, met hulp van een volwassene.",
-   "Verdeel het gehakt en de appel over de butternut en bedek alles met de puree."
+   "Schil de aardappelen en snij ze in stukken. Was de prei en snij hem in ringen.",
+   "Kook de aardappelen en de prei samen gaar, met hulp van een volwassene.",
+   "Klop het eiwit los en doe de panko in een ander kommetje.",
+   "Snij de vis in reepjes, haal ze door het eiwit en rol ze in de panko.",
+   "Bak de visstickjes goudbruin in een pan met olijfolie, met hulp van een volwassene.",
+   "Stamp de aardappelen en prei fijn met melk, boter, nootmuskaat, peper en zout."
   ],
-  "tip": "Lekker met een groene salade erbij.",
-  "url": "https://njam.tv/recepten/ovenschotel-met-kippengehakt-pompoen-en-appel",
-  "bron": "Njam"
+  "tip": "Lekker met een frisse sla erbij.",
+  "url": "https://dagelijksekost.vrt.be/gerechten/fish-sticks-van-schelvis-met-preipuree-en-limoenmayonaise/kookmodus",
+  "bron": "Dagelijkse kost"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
@@ -218,6 +219,7 @@
   "Ovenschotel met zalm en broccolistoemp",
   "Pasta met pompoen en oude kaas",
   "Witloof in de oven",
-  "Ovenschotel met kippengehakt, pompoen en appel"
+  "Ovenschotel met kippengehakt, pompoen en appel",
+  "Fishsticks van schelvis met preipuree"
  ]
 }
