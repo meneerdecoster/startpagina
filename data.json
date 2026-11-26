@@ -1,21 +1,21 @@
 {
- "bijgewerkt": "2026-11-26T09:37:56+07:00",
+ "bijgewerkt": "2026-11-27T04:12:47+07:00",
  "vandaag": [
   {
-   "wanneer": "Do 26 nov",
-   "wat": "Beurzen onder druk door nieuwe Amerikaanse importheffingen en hogere inflatie (PCE 3,8%)"
-  },
-  {
-   "wanneer": "Do 26 nov",
-   "wat": "Rode Duivels: kamp-Lukaku legt afscheid uit, Kompany reageert"
-  },
-  {
-   "wanneer": "Do 26 nov",
-   "wat": "Nieuwe aflevering De Lange Termijn (#211) verwacht"
+   "wanneer": "Vr 27 nov 18:15 en 19:45 (BE)",
+   "wat": "Wereldbeker veldrijden start in sneeuwig Ostrava (Tsjechië): vrouwen om 18:15, mannen om 19:45"
   },
   {
    "wanneer": "Vr 27 nov",
-   "wat": "Wereldbeker veldrijden start in Ostrava (Tsjechië)"
+   "wat": "Beurzen en bitcoin onder druk: bitcoin zakte onder 61.000 dollar, Wall Street herstelde deels van zware verliezen"
+  },
+  {
+   "wanneer": "Vr 27 nov",
+   "wat": "AI-nieuws: FCC keurt SpaceX-plan voor AI-datacenters in de ruimte goed"
+  },
+  {
+   "wanneer": "Zo 29 nov 14:30 (BE)",
+   "wat": "Wereldbeker veldrijden in Tabor (mannen 14:30, vrouwen 13:00)"
   },
   {
    "wanneer": "Zo 29 nov 16:00 (BE)",
@@ -24,72 +24,72 @@
  ],
  "markten": [
   {
-   "titel": "Nasdaq-future -2,4% na nieuwe Amerikaanse importheffingen, VIX boven 30",
-   "samenvatting": "Raakt je wereld-aandelen-ETF: de VS wil nieuwe heffingen van o.a. 15% op de EU en Japan, waardoor Nasdaq-futures woensdag 2 tot 3,6% zakten en de S&P 500-future ruim 1,4%. De angstindex VIX sprong boven 30.",
-   "bron": "CryptoTicker",
-   "url": "https://cryptoticker.io/nl/crypto-nieuws-nasdaq-importheffingen-vix-30/"
+   "titel": "Bitcoin zakt onder 61.000 dollar: was de Nvidia-rally een bull trap?",
+   "samenvatting": "Raakt je bitcoin: de koers viel op 24 november onder de 61.000 dollar, nadat de Nvidia-rally van die dagen volgens het artikel mogelijk een valstrik was voor kopers.",
+   "bron": "Invezz",
+   "url": "https://invezz.com/news/2026/11/24/bitcoin-price-tumbles-below-61000-was-nvidias-rally-a-massive-bull-trap/"
   },
   {
-   "titel": "Bitcoin zakt naar ongeveer 58.000 dollar",
-   "samenvatting": "Raakt je bitcoin: de koers gleed woensdag van circa 60.000 naar 57.700 à 58.600 dollar, dicht bij het laagste punt sinds 2024. De angst- en hebzuchtindex staat op 13 ('extreme angst').",
-   "bron": "CryptoTicker",
-   "url": "https://cryptoticker.io/nl/crypto-nieuws-nasdaq-importheffingen-vix-30/"
-  },
-  {
-   "titel": "Zilver verliest 4% en zakt onder 40 dollar",
-   "samenvatting": "Raakt je zilver: COMEX-zilver daalde naar ongeveer 39 dollar per ounce en staat zo'n 26% lager dan een maand geleden. Ook goud gaf 2,4% prijs na de inflatiecijfers.",
-   "bron": "Upstox",
-   "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
+   "titel": "S&P 500 en Nasdaq herstellen deels van forse verliezen",
+   "samenvatting": "Raakt je wereld-aandelen-ETF: na een stevige dip woensdag in de VS (nieuwe importheffingen, angstindex boven 30) dempten S&P 500 en Nasdaq de verliezen tegen het slot. Ook Anthropic zakte onder de IPO-prijs, wat de AI-waarderingen onder druk zet.",
+   "bron": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-25-nov-it-s-a-wrap-s-p-500-and-nasdaq-pare-steep-losses/"
   },
   {
    "titel": "Amerikaanse PCE-inflatie stijgt naar 3,8%, Fed-renteverhoging in december bijna zeker",
    "samenvatting": "Raakt je obligatie-ETF: de inflatie in oktober liep op van 3,7 naar 3,8% en de markt rekent op 97,8% kans op een renteverhoging van 25 basispunten in december. De Amerikaanse tienjaarsrente staat rond 4,9%.",
    "bron": "Upstox",
    "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
+  },
+  {
+   "titel": "Zilver verliest 4% en zakt onder 40 dollar",
+   "samenvatting": "Raakt je zilver: COMEX-zilver daalde naar ongeveer 39 dollar per ounce en staat zo'n 26% lager dan een maand geleden. Ook goud gaf 2,4% prijs na de inflatiecijfers.",
+   "bron": "Upstox",
+   "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
   }
  ],
  "tech": [
   {
+   "label": "Ruimte",
+   "titel": "FCC keurt tot 1 miljoen satellieten voor AI-datacenters in de ruimte goed",
+   "samenvatting": "SpaceX kreeg een vergunning voor het netwerk \"Starmind\" in een lage baan om de aarde. Het gaat om een potentieel netwerk: de satellieten zijn nog niet gelanceerd en wetenschappers twijfelen aan de koeling en de economie.",
+   "bron": "Gizmodo",
+   "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526"
+  },
+  {
    "label": "Wiskunde × AI",
-   "titel": "Wiskundige en Claude claimen bewijs van de Riemann-hypothese",
-   "samenvatting": "Anthropic-wiskundige Levent Alpöge zegt dat hij samen met Claude het beroemde vraagstuk uit 1859, een van de zeven Millenniumproblemen, heeft opgelost. Een deel is in de bewijsassistent Lean gecontroleerd, maar experts zoals Daan Huybrechs (KU Leuven) willen eerst grondig nazicht.",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/wiskundige-en-claude-lijken-oplossing-te-vinden-voor-een-van-de/"
+   "titel": "AlphaProof Code levert gecontroleerde bewijzen voor de Signal-code",
+   "samenvatting": "DeepMind laat een AI-systeem met mensen samenwerken om wiskundig te bewijzen dat bepaalde eigenschappen van het Signal-protocol kloppen. Het bewijst niet dat de hele app veilig is, wel dat stukken code echt doen wat ze moeten doen.",
+   "bron": "Google DeepMind",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+  },
+  {
+   "label": "Transport",
+   "titel": "Chinees elektrisch vliegtuig met 19 zitplaatsen vliegt voor het eerst met bemanning",
+   "samenvatting": "Het CE-25A van Comac maakte zijn eerste bemande vlucht, na 19 onbemande testvluchten.",
+   "bron": "Electrek",
+   "url": "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/"
   },
   {
    "label": "Biotech",
-   "titel": "GPT-6 ontwerpt zelf eiwitten die in het lab werken",
-   "samenvatting": "OpenAI toont dat GPT-6 met redeneren en code eiwitsequenties kan ontwerpen en hun vorm voorspellen. In labotests bonden de ontwerpen aan vijf doelwitten, een stap richting AI-ontworpen medicijnen.",
-   "bron": "OpenAI",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+   "titel": "Kauwgom tegen HPV: tot 93% minder virus in het lab",
+   "samenvatting": "Een experimentele kauwgom verlaagde de HPV-niveaus tot 93%. Nog onderzoek in een vroeg stadium, dus geen behandeling die je morgen kunt kopen.",
+   "bron": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261108203832.htm"
   },
   {
-   "label": "Ruimte",
-   "titel": "AI helpt amateur-sterrenkundigen nieuwe exoplaneten vinden",
-   "samenvatting": "Met OpenAI's Astra spitten hobbyastronomen publieke NASA-data van Kepler en TESS door en vinden ze kandidaat-planeten rond andere sterren.",
-   "bron": "OpenAI",
-   "url": "https://openai.com/index/searching-for-distant-planets-with-astra/"
+   "label": "Chips",
+   "titel": "Magnitude draait grote AI-modellen via je SSD",
+   "samenvatting": "Een model van 66 GB haalt 41 tokens per seconde op een RTX 3090 met 24 GB geheugen, doordat de SSD als geheugenuitbreiding wordt gebruikt.",
+   "bron": "The Neuron",
+   "url": "https://theneuron.ai/news/magnitude-uses-your-ssd-to-run-ai-models-bigger-than-your-memory/"
   },
   {
-   "label": "Genetica",
-   "titel": "AlphaGenome 2 leest hoe DNA-varianten per celtype werken",
-   "samenvatting": "Google DeepMind lanceerde een model dat voorspelt hoe kleine DNA-verschillen genen aan- of uitzetten in specifieke cellen. Het vindt bijna dubbel zoveel relevante varianten als het vorige beste systeem, nuttig voor onderzoek naar erfelijke ziektes.",
-   "bron": "Google DeepMind",
-   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
-  },
-  {
-   "label": "Energie",
-   "titel": "Eerste geothermische centrale van de nieuwe generatie levert stroom",
-   "samenvatting": "Fervo Energy's Cape Station in Utah verkoopt nu stroom aan het net: de eerste grootschalige centrale die met boortechniek uit de olie-industrie overal aardwarmte kan aanboren.",
-   "bron": "Canary Media",
-   "url": "https://www.canarymedia.com/articles/geothermal/global-first-next-gen-geothermal-fervo"
-  },
-  {
-   "titel": "Amodei: beschuldigingen dat Anthropic de menselijke controle opgeeft zijn 'absurd'",
-   "samenvatting": "De Anthropic-topman weerlegt in een lange post dat zijn bedrijf de controle aan AI wil afgeven, en pleit voor limieten op recursieve zelfverbetering van AI. Hij haalt uit naar concurrenten die volgens hem op 'vibes' inspelen.",
-   "bron": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
-   "label": "AI"
+   "label": "AI",
+   "titel": "GPT-6.2 Astra lost in 22 minuten een historisch raadsel op",
+   "samenvatting": "Een historicus liet het model zoeken naar een verwijzing in een journaal van 162 pagina's. De claim komt van de uitgever en moet nog door anderen worden nagekeken.",
+   "bron": "The Neuron",
+   "url": "https://theneuron.ai/news/gpt-6-2-astra-historical-mystery/"
   }
  ],
  "podcasts": [
@@ -133,21 +133,33 @@
  ],
  "sport": [
   {
-   "label": "Rode Duivels",
-   "titel": "Advocaat Lukaku: 'Romelu wil geen minuten uit medelijden'",
-   "samenvatting": "Lukaku's advocaat zegt dat het afscheid bij de Duivels past in anderhalf jaar vol negatieve energie rond de spits. Intussen reageerde bondscoach Kompany verrast op het afscheid.",
+   "label": "Veldrijden",
+   "titel": "Wereldbeker start vanavond in een wit Ostrava",
+   "samenvatting": "Sneeuw legt het parcours in Tsjechië vast als winterse speeltuin voor de eerste Wereldbekercross van het seizoen. Fleur Moors begint haar crosswinter na een fysiek kwaaltje; de mannen starten om 19:45.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/25/-romelu-zei-dat-hij-geen-minuten-uit-medelijden-wil-advocaat-breekt-stilte-in-het-kamp-lukaku-over-afscheid-bij-duivels~1795610582852/"
+   "url": "https://sporza.be/nl/matches/veldrijden/wereldbeker-veldrijden/2026/wb-ostrava-video-sneeuw-tovert-parcours-van-wereldbekercross-in-ostrava-om-tot-winterse-speeltuin~1789533721324/"
   },
   {
-   "label": "Veldrijden",
-   "titel": "Nieuwe leiderstrui in de Wereldbeker: wit met rode accenten",
-   "samenvatting": "De UCI toonde de nieuwe trui voor de leider; het dambordpatroon verdwijnt. De Wereldbeker start vrijdag in Ostrava en zondag in Tabor.",
+   "label": "Rode Duivels",
+   "titel": "Mannaert over afscheid Lukaku: \"Zie niet in waarom er gebrek aan respect zou zijn\"",
+   "samenvatting": "De CEO van de voetbalbond reageert op de kritiek rond het afscheid van Lukaku bij de Duivels. Nainggolan en analisten verwachten intussen nog een onthulling van de spits zelf.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/24/weg-met-dambordpatroon-tje-dit-is-de-nieuwe-trui-voor-de-leider-in-de-wereldbeker-veldrijden~1795515842765/"
+   "url": "https://sporza.be/nl/2026/11/24/-zie-niet-in-waarom-er-gebrek-aan-respect-zou-zijn-ceo-vincent-mannaert-countert-kritiek-rond-afscheid-lukaku~1795476026708/"
   }
  ],
  "opkomend": [
+  {
+   "titel": "Helena Casella sluit haar album-trilogie af met 'Morning Madness'",
+   "samenvatting": "Zes minuten lang en gemaakt met een team van zeven muzikanten: de derde single van het album \"Tumult\" (5 februari 2027). Ze speelt op Eurosonic en in de AB Club op 6 maart.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/20/nieuwe-single-helena-casella-morning-madness/"
+  },
+  {
+   "titel": "Anthe uit Limburg brengt pianosingle 'Lay Down'",
+   "samenvatting": "Vorig jaar finaliste van Sound Track, dit jaar geselecteerd voor Humo's Rock Rally.",
+   "bron": "Dansende Beren",
+   "url": "https://www.dansendeberen.be/2026/11/13/nieuwe-single-anthe-lay-down/"
+  },
   {
    "titel": "STEVE brengt 'Catch Me'",
    "samenvatting": "Nieuwe single van STEVE, besproken op Dansende Beren op 25 november.",
@@ -159,32 +171,20 @@
    "samenvatting": "Nieuwe single van de Belgische band bonfire lakes.",
    "bron": "Dansende Beren",
    "url": "https://www.dansendeberen.be/2026/11/25/nieuwe-single-bonfire-lakes-sometimes-i-like-to-drink-myself-to-sleep/"
-  },
-  {
-   "titel": "studio20 lanceert 'Wish I Still Knew'",
-   "samenvatting": "Nieuwe single van studio20, besproken op 21 november.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/21/nieuwe-single-studio20-wish-i-still-knew/"
-  },
-  {
-   "titel": "Gabriel Jacoby met 'be alright'",
-   "samenvatting": "Nieuwe single van Gabriel Jacoby, besproken op 19 november.",
-   "bron": "Dansende Beren",
-   "url": "https://www.dansendeberen.be/2026/11/19/nieuwe-single-gabriel-jacoby-be-alright/"
   }
  ],
  "fire": [
   {
-   "titel": "FIRE-strategie in België: spaarquote, 4%-regel en meerwaardebelasting",
-   "samenvatting": "Je mikt op ongeveer 25 keer je jaarlijkse uitgaven en bekijkt hoe lang het duurt bij een bepaalde spaarquote. Het artikel bespreekt ook de Belgische valkuilen, zoals de meerwaardebelasting van 10% boven 10.000 euro vrijstelling sinds 2026.",
-   "bron": "InvestNow",
-   "url": "https://investnow.be/fire-strategie-belgie/"
+   "titel": "Financiële vrijheid in België: wat heb je nodig?",
+   "samenvatting": "Curvo schetst hoe je in België naar financiële vrijheid toewerkt met breed beleggen.",
+   "bron": "Curvo",
+   "url": "https://curvo.eu/nl/artikel/financiele-vrijheid-belgie"
   },
   {
-   "titel": "FIRE in België: haalbaar met breed indexbeleggen en de 4%-regel",
-   "samenvatting": "Je bouwt een vermogen op van ongeveer 25 keer je jaarlijkse uitgaven door veel te sparen en te beleggen in brede indexfondsen. Het artikel ziet FIRE in België haalbaar, mede door de beperkte meerwaardebelasting van 10% op aandelen; let wel, het komt van een aanbieder die ook zijn eigen dienst promoot.",
-   "bron": "Curvo",
-   "url": "https://curvo.eu/nl/artikel/fire-financial-independence-retire-early-belgie"
+   "titel": "FIRE-gids van Saxo: vervroegd met pensioen plannen",
+   "samenvatting": "Een gids over financiële onafhankelijkheid en vroeg stoppen met werken, met uitleg over sparen en beleggen.",
+   "bron": "Saxo",
+   "url": "https://www.home.saxo/nl-be/learn/guides/trading-strategies/financial-independence-retire-early-fire-a-guide"
   },
   {
    "titel": "Belgische belegger: met 500.000 tot 750.000 euro ben je vrij",
@@ -501,46 +501,86 @@
    "url": "https://www.comedyshows.be/kalender/michael-van-peel/2027-04-29/"
   }
  ],
+ "goednieuws": [
+  {
+   "label": "Natuur",
+   "titel": "Mangrovebossen in China verdrievoudigen, vogelsoorten stijgen van 148 naar 397",
+   "samenvatting": "De kustlijn met mangroven groeide van ongeveer 26.000 naar 70.000 acres tussen 1998 en 2020, met veel meer vogels als gevolg.",
+   "bron": "Yale E360",
+   "url": "https://e360.yale.edu/digest/china-mangrove-restoration-bird-species"
+  },
+  {
+   "label": "Samenleving",
+   "titel": "Overdosissterfte in New York op laagste niveau sinds 2019",
+   "samenvatting": "In het tweede kwartaal van 2026 waren er 359 doden, 58% minder dan in de piek van eind 2022.",
+   "bron": "NY1",
+   "url": "https://ny1.com/nyc/all-boroughs/news/2026/11/13/nyc-overdose-deaths-fall-to-lowest-level-since-2019--mamdani-says"
+  },
+  {
+   "label": "Energie",
+   "titel": "Puerto Rico houdt het licht aan met een virtuele centrale van thuisbatterijen",
+   "samenvatting": "Batterijen van ongeveer 115.000 huishoudens vormen samen een centrale die stroompannes opvangt.",
+   "bron": "AP",
+   "url": "https://apnews.com/article/puerto-rico-blackouts-luma-virtual-power-plant-152a4162d4a41c8eff37c2c9bb168747"
+  },
+  {
+   "label": "Klimaat",
+   "titel": "70 miljoen acres Amazone beschermd, met een nieuw reservaat in Bolivia",
+   "samenvatting": "Rainforest Trust viert een mijlpaal: 70 miljoen acres regenwoud, waaronder een nieuw reservaat van 715.000 acres.",
+   "bron": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/ngo-celebrates-70-million-amazon-acres-conserved-after-protecting-are-called-a-link-of-life/"
+  },
+  {
+   "label": "Gezondheid",
+   "titel": "Hoge-dosis griepvaccin gelinkt aan ongeveer 55% minder kans op Alzheimer",
+   "samenvatting": "Een studie bij ruim 200.000 volwassenen boven 65 vond dat verband; het is een link, nog geen bewezen oorzaak.",
+   "bron": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm"
+  },
+  {
+   "label": "Natuur",
+   "titel": "PFAS-niveaus in Engelse rivieren zakten in tien jaar met bijna een derde",
+   "samenvatting": "Metingen van PFOS en PFOA tonen een duidelijke daling in de Engelse waterlopen.",
+   "bron": "BBC",
+   "url": "https://www.bbc.com/news/articles/cmze75r55g3jo"
+  }
+ ],
  "gezondheid": {
-  "streak": 14,
+  "streak": 15,
   "laatste": {
-   "datum": "2026-11-25",
-   "stappen": 7659.0,
-   "slaap": 9.77,
-   "hrv": 49.0,
-   "rhr": 47.0,
-   "water": 2.5,
+   "datum": "2026-11-26",
+   "stappen": 2390.0,
+   "slaap": 7.67,
+   "hrv": 52.0,
+   "rhr": 49.0,
+   "water": null,
    "sporttype": null,
-   "bedtijd": "21:30",
-   "opstaan": "07:37"
+   "bedtijd": "23:07",
+   "opstaan": "06:48"
   },
   "week": {
-   "stappen": 10431.29,
-   "slaap": 7.55,
-   "hrv": 56.71,
-   "rhr": 49.29,
-   "water": 2.58,
+   "stappen": 9368.86,
+   "slaap": 7.38,
+   "hrv": 57.0,
+   "rhr": 49.0,
+   "water": 2.6,
    "diep": 35.29,
-   "rem": 127.43,
+   "rem": 129.86,
    "dagen": 7,
    "sportdagen": 3,
    "alcoholvrij": 7,
    "koffie": 0.0,
-   "stappen10k": 6,
+   "stappen10k": 5,
    "water3l": 1
   },
   "jaar": {
-   "dagen": 77,
-   "sport_pct": 47,
+   "dagen": 78,
+   "sport_pct": 46,
    "water": 2.62,
-   "alcohol_week": 7.0
+   "alcohol_week": 6.9
   },
   "reeksen": {
    "stappen": [
-    {
-     "d": "2026-11-12",
-     "v": 10566.0
-    },
     {
      "d": "2026-11-13",
      "v": 10402.0
@@ -591,18 +631,18 @@
     },
     {
      "d": "2026-11-25",
-     "v": 7659.0
+     "v": 7947.0
     },
     {
      "d": "2026-11-26",
+     "v": 2390.0
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ],
    "slaap": [
-    {
-     "d": "2026-11-12",
-     "v": 7.0
-    },
     {
      "d": "2026-11-13",
      "v": 6.39
@@ -641,7 +681,7 @@
     },
     {
      "d": "2026-11-22",
-     "v": 9.12
+     "v": 6.72
     },
     {
      "d": "2026-11-23",
@@ -657,14 +697,14 @@
     },
     {
      "d": "2026-11-26",
+     "v": 7.67
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ],
    "hrv": [
-    {
-     "d": "2026-11-12",
-     "v": 57.0
-    },
     {
      "d": "2026-11-13",
      "v": 48.0
@@ -715,63 +755,23 @@
     },
     {
      "d": "2026-11-25",
-     "v": 49.0
+     "v": 56.0
     },
     {
      "d": "2026-11-26",
+     "v": 52.0
+    },
+    {
+     "d": "2026-11-27",
      "v": null
     }
    ]
   },
   "inzichten": [
-   "Gemiddeld 10.431 stappen per dag; 6 van 7 dagen boven 10.000.",
-   "Water: gemiddeld 2,58 l. Nog 0,42 l per dag tot je doel van 3 l.",
+   "Gemiddeld 9.368 stappen per dag; 5 van 7 dagen boven 10.000.",
+   "Water: gemiddeld 2,6 l. Nog 0,4 l per dag tot je doel van 3 l.",
    "7 van 7 dagen alcoholvrij."
   ],
   "logboek_url": "https://docs.google.com/spreadsheets/d/1sesegvvXNE2gad7gHHlkSNobu6emh-iQlCn71dA4Hi8/edit"
- },
- "goednieuws": [
-  {
-   "label": "Natuur",
-   "titel": "Eerste zeeschildpadjes ooit uitgekomen aan de Californische kust",
-   "samenvatting": "Uit de allereerste nesten van olijfkarettschildpadden aan de Amerikaanse westkust kwamen 75 jongen, die nadien in zee werden vrijgelaten.",
-   "bron": "The Guardian",
-   "url": "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched"
-  },
-  {
-   "label": "Gezondheid",
-   "titel": "Sierra Leone vaccineert 10.000 kinderen die nooit een prik kregen",
-   "samenvatting": "Een campagne van 300 dagen bereikte meer dan 10.000 kinderen zonder enige vaccinatie. Sinds 2005 daalde de moedersterfte er met ruim 32%.",
-   "bron": "Gavi",
-   "url": "https://www.gavi.org/vaccineswork/sierra-leone-races-drop-maternal-and-child-deaths-zero"
-  },
-  {
-   "label": "Natuur",
-   "titel": "Wilde dieren gebruiken 's werelds grootste ecoduct al vóór de opening",
-   "samenvatting": "Boven een drukke snelweg bij Los Angeles steken coyotes al over via het Wallis Annenberg Wildlife Crossing, dat op 2 december officieel opent.",
-   "bron": "AP / Anchorage Daily News",
-   "url": "https://www.adn.com/alaska-news/wildlife/2026/11/18/over-a-freeway-near-la-animals-can-roam-safely-thanks-to-the-worlds-largest-wildlife-crossing/"
-  },
-  {
-   "label": "Klimaat",
-   "titel": "Canada belooft tot 392,5 miljoen dollar voor tropische bossen",
-   "samenvatting": "Canada stapt in het door Brazilië geleide fonds Tropical Forests Forever, dat landen betaalt om hun regenwoud te laten staan.",
-   "bron": "Reuters",
-   "url": "https://www.reuters.com/sustainability/cop/canada-pledges-up-3925-million-brazil-led-tropical-forest-fund-2026-11-15/"
-  },
-  {
-   "label": "Wetenschap",
-   "titel": "Grootste zoetwatermeer ter wereld herstelt",
-   "samenvatting": "Boomringonderzoek toont dat de belangrijkste rivier naar het Baikalmeer sinds 2017 weer veel meer water aanvoert, ver boven het langjarig gemiddelde.",
-   "bron": "Phys.org",
-   "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html"
-  },
-  {
-   "label": "Natuur",
-   "titel": "Wilde oesters planten zich weer voort voor de Schotse kust",
-   "samenvatting": "Na meer dan een eeuw lokaal uitgestorven te zijn, kweekten natuurbeschermers voor het eerst in het VK wilde oesters terug op hun oude plek.",
-   "bron": "The Guardian",
-   "url": "https://www.theguardian.com/environment/2026/nov/15/return-of-the-wild-oyster-conservationists-bring-shellfish-back-from-local-extinction-off-scottish-coast"
-  }
- ]
+ }
 }
