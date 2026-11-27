@@ -1,6 +1,18 @@
 {
- "bijgewerkt": "2026-11-27T04:40:00+07:00",
+ "bijgewerkt": "2026-11-28T04:21:07+07:00",
  "nieuws": [
+  {
+   "titel": "Kinderwoord van het jaar: wie wint?",
+   "samenvatting": "Je kan stemmen op woorden als aura, bro, tuff en faah. Zondag 29 november is de laatste dag.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/kinder-en-tienerwoord-van-het-jaar-2026/"
+  },
+  {
+   "titel": "16 uilen op een schoolplein",
+   "samenvatting": "Op een schoolplein zaten ineens 16 uilen. De kinderen keken blij toe.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640927-schoolplein-krijgt-bezoek-van-niet-1-niet-2-maar-16-uilen"
+  },
   {
    "titel": "Kinderen schaatsen nu al op natuurijs",
    "samenvatting": "Het was zo koud dat het ijs al dik genoeg was. Kinderen gingen schaatsen op de sloot.",
@@ -12,127 +24,115 @@
    "samenvatting": "Een hardloper begon al te juichen voor de finish. Toch won hij de race.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2640941-hardloper-die-te-vroeg-juichte-wint-alsnog"
-  },
-  {
-   "titel": "Nederland geeft eeuwenoude munten terug aan Australië",
-   "samenvatting": "De munten zijn heel oud. Nu gaan ze terug naar het land waar ze vandaan komen.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640922-nederland-geeft-eeuwenoude-munten-terug-aan-australie-eindelijk-thuis"
-  },
-  {
-   "titel": "Flinke vorst: koude neuzen en schaatsen!",
-   "samenvatting": "Het vriest en veel kinderen halen hun schaatsen tevoorschijn.",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640865-flinke-vorst-koude-neuzen-en-schaatsen"
   }
  ],
  "wetenschap": [
   {
-   "emoji": "🌋",
-   "titel": "Lava is superheet",
-   "tekst": "Lava is gesmolten gesteente uit een vulkaan. Het kan wel 1000 graden heet zijn!"
+   "emoji": "🌍",
+   "titel": "De aarde draait supersnel",
+   "tekst": "Bij de evenaar draait de aarde met ongeveer 1.600 kilometer per uur. Jij merkt er niets van!"
   },
   {
-   "emoji": "🐢",
-   "titel": "Zeeschildpadden huilen zout",
-   "tekst": "Zeeschildpadden drinken zeewater. Het zout komen ze kwijt via een soort tranen bij hun ogen."
+   "emoji": "🌵",
+   "titel": "Een cactus heeft geen bladeren",
+   "tekst": "De stekels van een cactus zijn eigenlijk heel kleine bladeren. Zo verliest hij weinig water in de woestijn."
   },
   {
-   "emoji": "🌳",
-   "titel": "Een grote boom drinkt veel",
-   "tekst": "Een grote boom kan op een warme dag honderden liters water uit de grond halen."
+   "emoji": "🚂",
+   "titel": "De eerste trein van Europa reed in België",
+   "tekst": "In 1835 reed de eerste trein op het vasteland van Europa tussen Brussel en Mechelen."
   },
   {
-   "emoji": "🦷",
-   "titel": "Je tanden zijn superhard",
-   "tekst": "De buitenlaag van je tanden, het glazuur, is het hardste deel van je lijf."
+   "emoji": "🐊",
+   "titel": "Een krokodil kan zijn tong niet uitsteken",
+   "tekst": "De tong zit vastgegroeid aan de onderkant van zijn bek. Daarom kan hij hem niet uitsteken."
   },
   {
-   "emoji": "🌈",
-   "titel": "Een regenboog is een cirkel",
-   "tekst": "Vanaf de grond zie je maar een boog. Vanuit een vliegtuig kan je soms een hele ronde regenboog zien."
+   "emoji": "🐋",
+   "titel": "De blauwe vinvis is gigantisch",
+   "tekst": "Het is het grootste dier dat ooit geleefd heeft. Hij kan wel 30 meter lang worden."
   }
  ],
  "duivels": [
   {
-   "titel": "Vietnam verrast jonge Duivels met hakje en olympische goal",
-   "samenvatting": "Bij een wedstrijd van de jonge Duivels maakte Vietnam twee mooie trucjes op een hoekschop.",
+   "titel": "Witsel vertelt over de afscheidsspeech van Lukaku",
+   "samenvatting": "Axel Witsel was erbij toen Romelu Lukaku afscheid nam van de Duivels. Hij vertelt hoe hij dat beleefde.",
    "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/20/eerst-het-hakje-dan-de-olympische-goal-vietnam-verrast-jonge-duivels-met-heerlijke-nummertjes-op-hoekschop~1795187318836/"
+   "url": "https://sporza.be/nl/2026/11/27/axel-witsel-getuigt-over-afscheidsspeech-van-romelu-lukaku-hij~1795774116090/"
+  },
+  {
+   "titel": "Lukaku wilde geen minuten uit medelijden",
+   "samenvatting": "Volgens zijn advocaat wilde Romelu Lukaku alleen spelen als hij het verdiende. Daarom stopte hij bij de Duivels.",
+   "bron": "Sporza",
+   "url": "https://sporza.be/nl/2026/11/25/-romelu-zei-dat-hij-geen-minuten-uit-medelijden-wil-advocaat-breekt-stilte-in-het-kamp-lukaku-over-afscheid-bij-duivels~1795610582852/"
   },
   {
    "titel": "Kompany reageert op het afscheid van Lukaku",
    "samenvatting": "Romelu Lukaku stopt bij de Rode Duivels. De bondscoach vertelt wat hij ervan vindt en looft ook Ngoy.",
    "bron": "Sporza",
    "url": "https://sporza.be/nl/2026/11/24/-is-dat-volledig-officieel-kompany-valt-een-beetje-uit-de-lucht-na-afscheid-lukaku-en-looft-ook-ngoy~1795554476460/"
-  },
-  {
-   "titel": "België speelt in de kwartfinale tegen Duitsland van Klopp",
-   "samenvatting": "In de Nations League wacht een grote wedstrijd. De Duitse trainer is Jürgen Klopp.",
-   "bron": "Sporza",
-   "url": "https://sporza.be/nl/2026/11/20/na-moeizame-start-kreeg-klopp-toch-al-liverpool-accenten-in-duitsland-de-duivelse-tegenstander-doorgelicht~1795174304427/"
   }
  ],
  "raadsel": {
-  "vraag": "Otto heeft 3 zakjes met elk 4 chocolademunten. Hij eet er 5 op. Hoeveel munten heeft hij nog?",
-  "oplossing": "7",
-  "uitleg": "3 keer 4 is 12. Dan 12 min 5 is 7."
+  "vraag": "Otto heeft 20 knikkers. Hij geeft de helft aan zijn zus en wint daarna 6 knikkers bij. Hoeveel knikkers heeft hij nu?",
+  "oplossing": "16",
+  "uitleg": "De helft van 20 is 10. Dan heeft Otto er nog 10 en met 6 erbij zijn het er 16."
  },
  "mop": {
-  "vraag": "Wat is het lievelingsgerecht van een spook?",
-  "antwoord": "Spookghetti!"
+  "vraag": "Wat is groter dan een olifant, maar weegt niets?",
+  "antwoord": "De schaduw van een olifant!"
  },
  "land": {
-  "datum": "2026-11-27",
-  "naam": "Ghana",
-  "hoofdstad": "Accra",
-  "vlag": "🇬🇭",
-  "iso2": "gh",
-  "iso": "288",
-  "lat": 7.9,
-  "lon": -1.0,
+  "datum": "2026-11-28",
+  "naam": "Peru",
+  "hoofdstad": "Lima",
+  "vlag": "🇵🇪",
+  "iso2": "pe",
+  "iso": "604",
+  "lat": -9.2,
+  "lon": -75.0,
   "inwoners": "ongeveer 34 miljoen",
   "weetjes": [
-   "Ghana ligt in Afrika, aan de zee. Het grenst aan Ivoorkust, Burkina Faso en Togo.",
-   "Uit Ghana komt veel cacao. Daar maken ze chocolade van!",
-   "Het is er warm en de mensen spreken Engels."
+   "Peru ligt in Zuid-Amerika. Het grenst aan Ecuador, Colombia, Brazilië, Bolivia en Chili.",
+   "In Peru wonen lama's en alpaca's met zachte wol.",
+   "Hoog in de bergen ligt Machu Picchu, een stad van heel lang geleden."
   ]
  },
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Otto! Ghana wacht op je 🌍",
-   "sub": "Vandaag leer je over Ghana, de dino Therizinosaurus en de ringen van Saturnus.",
+   "titel": "Goeiemorgen, Otto! Peru wacht op je 🦙",
+   "sub": "Vandaag leer je over Peru, de dino Pachycephalosaurus en de grootste vulkaan van Mars.",
    "iconen": [
-    "🌍",
+    "🦙",
     "🦖",
-    "🪐",
-    "⛸️",
+    "🌋",
+    "🦉",
     "🥣",
     "🌞"
    ]
   },
   "middag": {
-   "titel": "Hoi Otto, een dino met superklauwen! 🦖",
-   "sub": "Lees over Therizinosaurus en los het muntjesraadsel op.",
+   "titel": "Hoi Otto, een dino met een harde kop! 🦖",
+   "sub": "Lees over Pachycephalosaurus en los het knikkerraadsel op.",
    "iconen": [
     "🦖",
-    "🪐",
+    "🌋",
     "⚽",
     "🧮",
     "😂",
-    "🌋"
+    "🐊"
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Otto! Wat eet een spook het liefst? 😄",
+   "titel": "Goeienavond, Otto! Wat is groter dan een olifant? 🐘",
    "sub": "Lees de mop, kijk naar de Rode Duivels en leer drie Engelse woorden.",
    "iconen": [
-    "😄",
+    "🐘",
     "⚽",
     "🇬🇧",
     "🌙",
     "⭐",
-    "🏝️"
+    "🍋"
    ]
   },
   "nacht": {
@@ -142,55 +142,55 @@
     "🌙",
     "😴",
     "⭐",
-    "🧸",
     "🦖",
-    "☁️"
+    "🧸",
+    "💤"
    ]
   }
  },
  "heelal": {
-  "emoji": "☄️",
-  "titel": "Een komeet is een vuile sneeuwbal",
-  "tekst": "Een komeet is een grote bol van ijs, stof en steen. Als hij dicht bij de zon komt, smelt een stuk van het ijs. Daardoor krijgt hij een lange, lichtgevende staart. Die staart wijst altijd van de zon af."
+  "emoji": "🌋",
+  "titel": "Op Mars staat de grootste vulkaan",
+  "tekst": "De vulkaan Olympus Mons staat op de planeet Mars. Hij is ongeveer 22 kilometer hoog, bijna drie keer zo hoog als de Mount Everest. Hij is ook super breed: zo breed als een heel land. Gelukkig is hij al heel lang niet meer actief."
  },
  "dino": {
   "emoji": "🦖",
-  "naam": "Therizinosaurus",
-  "betekenis": "Betekent 'sikkelhagedis'",
-  "periode": "Laat-Krijt, ongeveer 70 miljoen jaar geleden",
+  "naam": "Pachycephalosaurus",
+  "betekenis": "Betekent 'dikkopige hagedis'",
+  "periode": "Laat-Krijt, ongeveer 70 tot 66 miljoen jaar geleden",
   "dieet": "Planteneter",
-  "grootte": "ongeveer 9 meter lang",
-  "gewicht": "ongeveer 3 tot 5 ton",
-  "plaats": "Mongolië",
-  "tekst": "Dit dier had enorme klauwen aan zijn handen, wel meer dan een halve meter lang. Hij had een kleine kop, een lange nek en een dikke buik. Met zijn klauwen trok hij takken naar zich toe om bladeren te eten.",
-  "weetje": "Zijn klauwen zijn de langste van alle dieren die ooit geleefd hebben, maar ze waren niet om mee te vechten.",
+  "grootte": "ongeveer 4,5 meter lang",
+  "gewicht": "ongeveer 400 kilo",
+  "plaats": "Noord-Amerika",
+  "tekst": "Deze dino had een heel dikke, ronde botkop, als een helm. Hij liep op twee poten en had een kort snuitje. Hij at waarschijnlijk vooral planten.",
+  "weetje": "Zijn schedeldak was tot ongeveer 25 centimeter dik. Misschien gebruikte hij zijn harde kop om indruk te maken.",
   "bron": "Wikipedia",
-  "url": "https://en.wikipedia.org/wiki/Therizinosaurus"
+  "url": "https://en.wikipedia.org/wiki/Pachycephalosaurus"
  },
  "engels": [
   {
-   "emoji": "🏝️",
-   "en": "hammock",
-   "uitspraak": "HAM-uk",
-   "nl": "hangmat",
-   "voorbeeld": "I read a book in the hammock.",
-   "voorbeeld_nl": "Ik las een boek in de hangmat."
+   "emoji": "🧳",
+   "en": "suitcase",
+   "uitspraak": "SOOT-keys",
+   "nl": "koffer",
+   "voorbeeld": "I pack my suitcase.",
+   "voorbeeld_nl": "Ik pak mijn koffer in."
   },
   {
-   "emoji": "🍽️",
-   "en": "dishwasher",
-   "uitspraak": "DISH-wosh-er",
-   "nl": "vaatwasser",
-   "voorbeeld": "Please put the plates in the dishwasher.",
-   "voorbeeld_nl": "Zet de borden alsjeblieft in de vaatwasser."
+   "emoji": "🎵",
+   "en": "to whistle",
+   "uitspraak": "tuh WISS-ul",
+   "nl": "fluiten",
+   "voorbeeld": "I can whistle a song.",
+   "voorbeeld_nl": "Ik kan een liedje fluiten."
   },
   {
-   "emoji": "👋",
-   "en": "to wave",
-   "uitspraak": "tuh WEYV",
-   "nl": "zwaaien",
-   "voorbeeld": "I wave to my friend.",
-   "voorbeeld_nl": "Ik zwaai naar mijn vriend."
+   "emoji": "🍋",
+   "en": "lemonade",
+   "uitspraak": "lem-uh-NEYD",
+   "nl": "limonade",
+   "voorbeeld": "We drink cold lemonade.",
+   "voorbeeld_nl": "We drinken koude limonade."
   }
  ],
  "dino_gebruikt": [
@@ -204,7 +204,8 @@
   "Diplodocus",
   "Allosaurus",
   "Iguanodon",
-  "Therizinosaurus"
+  "Therizinosaurus",
+  "Pachycephalosaurus"
  ],
  "engels_gebruikt": [
   "umbrella",
@@ -239,7 +240,10 @@
   "helicopter",
   "hammock",
   "dishwasher",
-  "to wave"
+  "to wave",
+  "suitcase",
+  "to whistle",
+  "lemonade"
  ],
  "mop_gebruikt": [
   "Waarom is een spin zo goed met computers?",
@@ -256,7 +260,8 @@
   "Waarom is het wiskundeboek zo verdrietig?",
   "Waarom werd de tomaat rood?",
   "Waarom zitten olifanten soms in een boom?",
-  "Wat is het lievelingsgerecht van een spook?"
+  "Wat is het lievelingsgerecht van een spook?",
+  "Wat is groter dan een olifant, maar weegt niets?"
  ],
  "wetenschap_gebruikt": [
   "Een octopus heeft drie harten",
@@ -313,6 +318,11 @@
   "Zeeschildpadden huilen zout",
   "Een grote boom drinkt veel",
   "Je tanden zijn superhard",
-  "Een regenboog is een cirkel"
+  "Een regenboog is een cirkel",
+  "De aarde draait supersnel",
+  "Een cactus heeft geen bladeren",
+  "De eerste trein van Europa reed in België",
+  "Een krokodil kan zijn tong niet uitsteken",
+  "De blauwe vinvis is gigantisch"
  ]
 }

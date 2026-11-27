@@ -1,31 +1,31 @@
 {
- "bijgewerkt": "2026-11-27T04:40:00+07:00",
+ "bijgewerkt": "2026-11-28T04:21:07+07:00",
  "gezondheid": {
-  "streak": 15,
+  "streak": 16,
   "laatste": {
-   "datum": "2026-11-26",
-   "water": 2.66,
+   "datum": "2026-11-27",
+   "water": 3.07,
    "sporttype": null,
    "notitie": null
   },
   "week": {
-   "dagen": 6,
-   "water": 2.67,
-   "koffie": 0.17,
+   "dagen": 7,
+   "water": 2.72,
+   "koffie": 0.29,
    "sport": 0,
    "sauna": 0,
-   "alcoholvrij": 6,
+   "alcoholvrij": 7,
    "alcohol": 0,
    "fysiek": 2.0,
    "mentaal": 2.0,
    "ziek": 0,
-   "water25": 5
+   "water25": 6
   },
   "jaar": {
-   "dagen": 45,
-   "sport_pct": 31,
-   "water": 2.23,
-   "alcohol_week": 3.4,
+   "dagen": 46,
+   "sport_pct": 30,
+   "water": 2.24,
+   "alcohol_week": 3.3,
    "sauna": 24,
    "oneup": 9
   },
@@ -85,7 +85,7 @@
     },
     {
      "d": "2026-11-27",
-     "v": null
+     "v": 3.07
     }
    ],
    "koffie": [
@@ -143,7 +143,7 @@
     },
     {
      "d": "2026-11-27",
-     "v": null
+     "v": 1.0
     }
    ],
    "alcohol": [
@@ -201,31 +201,31 @@
     },
     {
      "d": "2026-11-27",
-     "v": null
+     "v": 0.0
     }
    ]
   },
   "inzichten": [
-   "Water: gemiddeld 2,67 l per dag. Doel van 2,5 l gehaald.",
-   "6 van 6 dagen alcoholvrij."
+   "Water: gemiddeld 2,72 l per dag. Doel van 2,5 l gehaald.",
+   "7 van 7 dagen alcoholvrij."
   ]
  },
  "header": {
   "ochtend": {
    "titel": "Goeiemorgen, Sévérine",
-   "sub": "Vandaag: winterwandelingen in de Hoge Kempen en geroosterde wintergroenten met pistachepesto."
+   "sub": "Vandaag: een winterwandeling in de Kempen en recepten van Ottolenghi."
   },
   "middag": {
    "titel": "Fijne middag, Sévérine",
-   "sub": "Plan een kerstmarkt over de grens of droom weg bij kerst op de Griekse eilanden."
+   "sub": "Combineer een citytrip met een kerstmarkt of droom weg bij de Griekse eilanden in de winter."
   },
   "avond": {
    "titel": "Een mooie avond, Sévérine",
-   "sub": "Lees over wijn zonder alcohol en over hoe voeding je slaap beïnvloedt."
+   "sub": "Lees over sfeervolle haarden, alcoholvrije wijn en wat je darmen blij maakt."
   },
   "nacht": {
    "titel": "Rustige nacht, Sévérine",
-   "sub": "Glimlach, adem en ga langzaam. Slaap zacht."
+   "sub": "Wees vriendelijk wanneer het kan, ook voor jezelf. Slaap zacht."
   }
  },
  "boek_gebruikt": [
@@ -237,105 +237,135 @@
   "The Correspondent",
   "Sunrise on the Reaping",
   "The Calamity Club",
-  "The Witch"
+  "The Witch",
+  "A Court of Splintered Harmony"
  ],
  "boek": {
-  "titel": "The Witch",
-  "auteur": "Freida McFadden",
-  "samenvatting": "Julia trekt in bij haar grootmoeder op een oud landgoed in Massachusetts uit de zeventiende eeuw. Ze begint te vermoeden dat het huis spookt door een vrouw die in 1692 als heks werd geëxecuteerd. Een spannende thriller met een huiselijke, onheilspellende sfeer.",
-  "waarom": "Het stond in de week van 13 november bij de meest gelezen boeken op Goodreads, met zo'n 40.000 lezers.",
-  "sterren": 4.0,
-  "aantal": "ca. 40.000 lezers in één week",
+  "titel": "A Court of Splintered Harmony",
+  "auteur": "Sarah J. Maas",
+  "samenvatting": "Zesde deel in de Court of Thorns and Roses-reeks en tegelijk het eerste van de Valkyrie Cycle. De Night Court moet het opnemen tegen de terugkeer van Koschei the Deathless. Fantasy en romantiek met veel bekende personages.",
+  "waarom": "Met ongeveer 119.000 lezers in één week stond het in de week van 13 november bovenaan de meest gelezen boeken op Goodreads.",
+  "sterren": 3.9,
+  "aantal": "ca. 119.000 lezers in één week",
   "bron": "Goodreads",
   "url": "https://bookriot.com/most-read-books-on-goodreads-november-13-2026/"
  },
  "ontdek": [
   {
+   "label": "Wandelroute",
+   "titel": "Langs de Kleine Nete: ontdekkingstocht in Herentals",
+   "samenvatting": "Een Flanders' Finest-wandeling in en rond Herentals, langs het water van de Kleine Nete. Handig als korte winterdagtocht in de Kempen; bekijk de afstand en het vertrekpunt op de pagina.",
+   "bron": "Visit Flanders",
+   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-langs-de-kleine-nete-ontdekkingstocht-herentals"
+  },
+  {
+   "label": "Recept",
+   "titel": "Winterrecepten van Ottolenghi",
+   "samenvatting": "Een verzameling winterrecepten met veel groenten, peulvruchten en kruiden. Zoek er iets uit dat je als maaltijd op tafel kan zetten, bijvoorbeeld met geroosterde wortelgroenten.",
+   "bron": "Ottolenghi",
+   "url": "https://ottolenghi.co.uk/recipes/winter-recipes"
+  },
+  {
    "label": "Griekenland",
-   "titel": "Kerst in Griekenland: tradities op de eilanden",
-   "samenvatting": "Hoe de winter en de kerst aanvoelen op de Griekse eilanden, handig als je buiten het seizoen wil reizen.",
-   "bron": "Elxis",
-   "url": "https://elxis.com/nl/christmas-in-greece-island-traditions-festive-customs-what-winter-really-feels-like"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde wintergroenten met gekruide linzen, kokosyoghurt en harissa",
-   "samenvatting": "Linzen en geroosterde groenten met een pittige harissadressing: stevig, plantaardig en vol kruiden.",
-   "bron": "Green Templeton College Oxford",
-   "url": "https://www.gtc.ox.ac.uk/students/college-life/recipes/roast-winter-vegetables/"
-  },
-  {
-   "label": "Wandelroute",
-   "titel": "De mooiste wandelingen in de Belgische Ardennen, bereikbaar met de trein",
-   "samenvatting": "Een selectie Ardennenwandelingen die je zonder auto kan doen: stap uit de trein en wandel meteen de natuur in.",
-   "bron": "B-Europe / NMBS",
-   "url": "https://www.belgiantrain.be/nl/travel-ideas/inspiration/discover-belgium/wallonie/hiking-ardennes-the-best-walks-accessible-with-train"
-  },
-  {
-   "label": "Koffietrend",
-   "titel": "Specialty coffee trends 2026 om in de gaten te houden",
-   "samenvatting": "Een branderij beschrijft de trends in specialty coffee van 2026.",
-   "bron": "Climpson & Sons",
-   "url": "https://climpsonandsons.com/blogs/journal/2026-specialty-coffee-trends-to-watch"
-  },
-  {
-   "label": "Wandelroute",
-   "titel": "3 warme winterwandelingen in de Hoge Kempen",
-   "samenvatting": "Drie winterwandelingen in Nationaal Park Hoge Kempen, met mooie natuur en gezellige pauzes onderweg.",
-   "bron": "Nationaal Park Hoge Kempen",
-   "url": "https://nationaalparkhogekempen.be/en/print/63363"
-  },
-  {
-   "label": "Recept",
-   "titel": "Geroosterde wintergroenten met pistachepesto en witte bonen",
-   "samenvatting": "Een plantaardig, vezelrijk gerecht met geroosterde groenten, bonen en een pesto van pistachenoten.",
-   "bron": "Borough Market",
-   "url": "https://boroughmarket.org.uk/recipes/roast-winter-vegetables-with-pistachio-pesto-white-beans"
-  },
-  {
-   "label": "Wonen",
-   "titel": "Woontrends en trendkleuren van 2026",
-   "samenvatting": "Een overzicht van woontrends en trendkleuren om je woonruimte mee te vernieuwen.",
-   "bron": "Slimster",
-   "url": "https://slimster.nl/blog/woontrends/"
-  },
-  {
-   "label": "Wijntrend",
-   "titel": "Wijn zonder of met weinig alcohol: waar op letten in 2026",
-   "samenvatting": "Alcoholarme en alcoholvrije wijn groeit: een blik op wat dit jaar belangrijk is.",
-   "bron": "BeverageDaily",
-   "url": "https://www.beveragedaily.com/Article/2026/03/13/low-and-no-alcohol-wine-trends-for-2026/"
-  },
-  {
-   "label": "Gezond leven",
-   "titel": "Hoe voeding onze slaap beïnvloedt",
-   "samenvatting": "Wat je eet kan meespelen in hoe goed je slaapt. Het artikel zet de verbanden op een rij.",
-   "bron": "Wel Ingelichte Kringen",
-   "url": "https://www.welingelichtekringen.nl/wetenschap/hoe-voeding-onze-slaap-beinvloedt"
-  },
-  {
-   "label": "Interieur",
-   "titel": "Deze woontrend maakt je interieur dit najaar chiquer, zonder grote verbouwing",
-   "samenvatting": "Een woontrend die je huis met kleine ingrepen een rijker uiterlijk geeft.",
-   "bron": "Wel Ingelichte Kringen",
-   "url": "https://www.welingelichtekringen.nl/samenleving/deze-woontrend-maakt-je-interieur-dit-najaar-in-een-klap-chiquer-zonder-grote-verbouwing"
-  },
-  {
-   "label": "Antwerpen",
-   "titel": "Antwerpse kerstmarkt: tips en info",
-   "samenvatting": "Praktische info over de kerstmarkt van Antwerpen, handig om je bezoek te plannen.",
-   "bron": "ANWB",
-   "url": "https://www.anwb.nl/vakantie/belgie/kerstmarkt/antwerpen"
+   "titel": "Griekse eilanden die in de winter nog schitteren",
+   "samenvatting": "Waarom sommige Griekse eilanden buiten het seizoen aantrekkelijk zijn: rustig, mild en met open dorpjes. Een idee als je buiten de drukte wil reizen.",
+   "bron": "Ferryhopper",
+   "url": "https://www.ferryhopper.com/en/blog/featured/top-greek-islands-visit-winter"
   },
   {
    "label": "Citytrip",
-   "titel": "De leukste kerstmarkten vlak over de grens",
-   "samenvatting": "Drie kerstmarkten die je met de trein vlot bereikt, ideaal voor een korte citytrip.",
-   "bron": "NS International",
-   "url": "https://www.nsinternational.com/nl/kerstmarkten/kerstmarkten-vlak-over-de-grens"
+   "titel": "Een kerstmarkt combineren met een citytrip",
+   "samenvatting": "Tips om een stedentrip en een kerstmarktbezoek te combineren, vanuit België goed haalbaar met trein of auto.",
+   "bron": "Touring",
+   "url": "https://www.touring.be/nl/node/5351"
+  },
+  {
+   "label": "Interieur",
+   "titel": "Het hart van je huis: haarden die sfeer en warmte brengen",
+   "samenvatting": "Een inspirerend overzicht van haarden en kachels als warm middelpunt van de woonkamer, ideaal voor donkere wintermaanden.",
+   "bron": "Residence",
+   "url": "https://www.residence.nl/het-hart-van-je-huis"
+  },
+  {
+   "label": "Wandelroute",
+   "titel": "Duinengordelroute (paars) in Nationaal Park Hoge Kempen",
+   "samenvatting": "Een route door de duinen en heide van de Hoge Kempen, onderdeel van Flanders' Finest. Een stevige winterwandeling met veel natuur.",
+   "bron": "Visit Flanders",
+   "url": "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-duinengordelroute-paars"
+  },
+  {
+   "label": "Gezond leven",
+   "titel": "Wat voed je je microbioom het best?",
+   "samenvatting": "Een longread van Wageningen University over hoe je je darmbacteriën voedt, met aandacht voor vezels en gevarieerd eten.",
+   "bron": "Wageningen University & Research",
+   "url": "https://www.wur.nl/nl/longread/wur-onderzoekt-wat-je-je-microbioom-het-beste-voert"
+  },
+  {
+   "label": "Mode",
+   "titel": "Bye bruin: deze groene tint is dé modekleur van de winter",
+   "samenvatting": "Over de kleur die in de winter van 2026 het bruin vervangt in garderobes: groen, met tips om het te dragen.",
+   "bron": "ELLE België",
+   "url": "https://www.elle.be/nl/420089-bye-bruin-deze-groene-tint-is-de-modekleur-van-winter-2026.html"
+  },
+  {
+   "label": "Antwerpen",
+   "titel": "Winter in Antwerpen: meer dan een kerstmarkt",
+   "samenvatting": "Een overzicht van wat je deze winter in Antwerpen kan doen naast de kerstmarkt: cultuur, lichtjes en gezellige plekken.",
+   "bron": "Visit Antwerpen",
+   "url": "https://visit.antwerpen.be/en/winter-in-antwerp-much-more-than-a-christmas-market"
+  },
+  {
+   "label": "Wonen",
+   "titel": "De zeven warmste items voor jouw winter in huis",
+   "samenvatting": "Een selectie van sfeermakers voor de winter, zoals warme texturen en zachte verlichting.",
+   "bron": "Residence",
+   "url": "https://www.residence.nl/Warme-Items-thuis"
+  },
+  {
+   "label": "Wijntrend",
+   "titel": "Jonge drinkers duwen alcoholvrije wijn naar een wereldwijde piek",
+   "samenvatting": "Een artikel over de groeiende markt van alcoholvrije wijn, aangedreven door jongere drinkers.",
+   "bron": "Vinetur",
+   "url": "https://www.vinetur.com/en/amp/20260723104741/younger-drinkers-propel-a-global-surge-in-no-alcohol-wine.html"
+  },
+  {
+   "label": "Citytrip",
+   "titel": "Wintercitytrips: de beste steden om in de winter te bezoeken",
+   "samenvatting": "Een overzicht van steden die in de winter extra leuk zijn, met kerstmarkten, musea en gezellige café's.",
+   "bron": "27Vakantiedagen",
+   "url": "https://www.27vakantiedagen.nl/stedentrip-winter-beste-steden/"
   }
  ],
  "ontdek_gebruikt": [
+  {
+   "datum": "2026-11-28",
+   "onderwerpen": [
+    "Antwerpen",
+    "Citytrip",
+    "Gezond leven",
+    "Griekenland",
+    "Interieur",
+    "Mode",
+    "Recept",
+    "Wandelroute",
+    "Wijntrend",
+    "Wonen"
+   ],
+   "urls": [
+    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-langs-de-kleine-nete-ontdekkingstocht-herentals",
+    "https://ottolenghi.co.uk/recipes/winter-recipes",
+    "https://www.ferryhopper.com/en/blog/featured/top-greek-islands-visit-winter",
+    "https://www.touring.be/nl/node/5351",
+    "https://www.residence.nl/het-hart-van-je-huis",
+    "https://www.visitflanders.com/nl/flandersfinestwandelroutes/wandelen-nationaal-park-hoge-kempen-duinengordelroute-paars",
+    "https://www.wur.nl/nl/longread/wur-onderzoekt-wat-je-je-microbioom-het-beste-voert",
+    "https://www.elle.be/nl/420089-bye-bruin-deze-groene-tint-is-de-modekleur-van-winter-2026.html",
+    "https://visit.antwerpen.be/en/winter-in-antwerp-much-more-than-a-christmas-market",
+    "https://www.residence.nl/Warme-Items-thuis",
+    "https://www.vinetur.com/en/amp/20260723104741/younger-drinkers-propel-a-global-surge-in-no-alcohol-wine.html",
+    "https://www.27vakantiedagen.nl/stedentrip-winter-beste-steden/"
+   ]
+  },
   {
    "datum": "2026-11-26",
    "onderwerpen": [
@@ -557,9 +587,9 @@
   "bron": "iforher.com (daghoroscoop 26 november 2026, vrij herschreven)"
  },
  "quote": {
-  "tekst": "Glimlach, adem en ga langzaam.",
-  "auteur": "Thich Nhat Hanh",
-  "bron": "https://www.bedrock.nl/mooiste-quotes-thich-nhat-hanh/"
+  "tekst": "Wees vriendelijk wanneer het kan. Het kan altijd.",
+  "auteur": "Dalai Lama",
+  "bron": "https://www.bedrock.nl/quotes-dalai-lama"
  },
  "quote_gebruikt": [
   "Het verleden is voorbij, de toekomst is er nog niet",
@@ -570,6 +600,7 @@
   "Overwin woede met vriendelijkheid, kwaad met goedheid,",
   "Alles wat we zijn is het resultaat van wat we gedacht",
   "Wie geen mededogen heeft, kan niet",
-  "Glimlach, adem en ga langzaam"
+  "Glimlach, adem en ga langzaam",
+  "Wees vriendelijk wanneer het kan"
  ]
 }

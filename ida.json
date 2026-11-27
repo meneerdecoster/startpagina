@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-27T04:40:00+07:00",
+ "bijgewerkt": "2026-11-28T04:21:07+07:00",
  "gebruikt": [
   "Vietnam",
   "Maleisië",
@@ -14,9 +14,22 @@
   "Myanmar",
   "Nepal",
   "Oost-Timor",
-  "Ghana"
+  "Ghana",
+  "Peru"
  ],
  "nieuws": [
+  {
+   "titel": "Schoolplein krijgt bezoek van 16 uilen",
+   "samenvatting": "Op een schoolplein zaten ineens 16 uilen. De kinderen konden ze van dichtbij bekijken.",
+   "bron": "NOS Jeugdjournaal",
+   "url": "https://jeugdjournaal.nl/artikel/2640927-schoolplein-krijgt-bezoek-van-niet-1-niet-2-maar-16-uilen"
+  },
+  {
+   "titel": "Kinderwoord van het jaar: dit zijn de kanshebbers",
+   "samenvatting": "Aura, bro, clock it, faah en tuff: dat zijn de woorden die kans maken om het Kinderwoord van het jaar te worden. Je kan stemmen tot 29 november.",
+   "bron": "VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/kinder-en-tienerwoord-van-het-jaar-2026/"
+  },
   {
    "titel": "Supermaan goed te zien: zo zag het eruit",
    "samenvatting": "De maan stond extra dichtbij en zag er groot en helder uit. Het Jeugdjournaal laat foto's zien van de supermaan.",
@@ -28,66 +41,54 @@
    "samenvatting": "In een vogelopvang draaide een zwaan een kraan open. Daardoor liep alles vol water.",
    "bron": "NOS Jeugdjournaal",
    "url": "https://jeugdjournaal.nl/artikel/2640956-ondeugende-zwaan-laat-kraan-openstaan-hele-vogelopvang-onder-water"
-  },
-  {
-   "titel": "Grootste kerstboom van Nederland weer opgetuigd",
-   "samenvatting": "Er hangen kilometers aan kerstlichtjes in de boom. Straks gaan de lichtjes aan!",
-   "bron": "NOS Jeugdjournaal",
-   "url": "https://jeugdjournaal.nl/artikel/2640924-grootste-kerstboom-van-nederland-weer-opgetuigd-kilometers-aan-kerstlichtjes"
-  },
-  {
-   "titel": "Dit zijn de kanshebbers voor het Kinder- en Tienerwoord van het Jaar",
-   "samenvatting": "Woorden als aura en peak maken kans om het woord van het jaar te worden. Welk woord vind jij het leukst?",
-   "bron": "VRT NWS",
-   "url": "https://www.vrt.be/vrtnws/nl/2026/11/23/kinder-en-tienerwoord-van-het-jaar-2026/"
   }
  ],
  "dieren": [
   {
-   "titel": "Schattig: babypanda wil opstaan",
+   "titel": "Baby capybara's spelen: superschattig",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=ZV__exjB7FA",
+   "url": "https://www.youtube.com/watch?v=m9UE83BCROM",
    "soort": "video"
   },
   {
-   "titel": "Meet the Cutest Baby Pandas Ever!",
+   "titel": "Een pinguïnkuiken: van eerste piep tot eerste duik",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=muuavbgtm58",
+   "url": "https://www.youtube.com/watch?v=OvIWLP92lxY",
    "soort": "video"
   },
   {
-   "titel": "Tiny Animal Babies: de schattigste babydiertjes",
+   "titel": "Schattige kittens op een rij",
    "bron": "YouTube",
-   "url": "https://www.youtube.com/watch?v=Ip1IX96ev5o",
+   "url": "https://www.youtube.com/watch?v=5HRPkyCREgQ",
    "soort": "video"
   }
  ],
  "films": [],
  "land": {
-  "datum": "2026-11-27",
-  "naam": "Ghana",
-  "hoofdstad": "Accra",
-  "vlag": "🇬🇭",
-  "iso2": "gh",
-  "iso": "288",
-  "lat": 7.9,
-  "lon": -1.0,
+  "datum": "2026-11-28",
+  "naam": "Peru",
+  "hoofdstad": "Lima",
+  "vlag": "🇵🇪",
+  "iso2": "pe",
+  "iso": "604",
+  "lat": -9.2,
+  "lon": -75.0,
   "inwoners": "ongeveer 34 miljoen",
   "weetjes": [
-   "Ghana ligt in West-Afrika, aan de Golf van Guinea. Het grenst aan Ivoorkust, Burkina Faso en Togo.",
-   "In 1957 werd Ghana het eerste land ten zuiden van de Sahara dat onafhankelijk werd van de Britten.",
-   "Het Voltameer in Ghana is een van de grootste kunstmatige meren ter wereld, en uit Ghana komt veel cacao voor chocolade."
+   "Peru ligt in Zuid-Amerika, aan de Grote Oceaan. Het grenst aan Ecuador, Colombia, Brazilië, Bolivia en Chili.",
+   "Hoog in de bergen van Peru ligt Machu Picchu, een eeuwenoude stad van de Inca's.",
+   "In Peru leven veel lama's en alpaca's, en er groeien duizenden soorten aardappelen."
   ]
  },
  "raadsel": {
-  "vraag": "Wat wordt groter als je er iets van afneemt?",
-  "oplossing": "gat",
-  "uitleg": "Als je zand uit een put schept, wordt het gat groter.",
+  "vraag": "Ik heb steden maar geen huizen, bergen maar geen bomen en water maar geen vissen. Wat ben ik?",
+  "oplossing": "kaart",
+  "uitleg": "Op een landkaart staan steden, bergen en water getekend, maar het zijn alleen tekeningen.",
   "opties": [
-   "gat",
-   "taart",
-   "berg",
-   "plas"
+   "kaart",
+   "eiland",
+   "droom",
+   "foto"
   ]
  },
  "mensen": [
@@ -115,23 +116,23 @@
  ],
  "header": {
   "ochtend": {
-   "titel": "Goeiemorgen, Ida! Akwaaba, Ghana 🌍",
-   "sub": "Vandaag reis je naar Ghana en knutsel je een kerstboom van papier.",
+   "titel": "Goeiemorgen, Ida! Hola, Peru 🦙",
+   "sub": "Vandaag reis je naar Peru en maak je een sneeuwpop van papier.",
    "iconen": [
-    "🌍",
-    "🇬🇭",
+    "🦙",
+    "🇵🇪",
     "⛄",
-    "🐼",
-    "🥣",
+    "🐧",
+    "🍝",
     "🌞"
    ]
   },
   "middag": {
-   "titel": "Hoi Ida, een ondeugende zwaan zet alles onder water! 🦢",
-   "sub": "Lees het nieuws, kijk naar babypanda's en probeer het raadsel van vandaag.",
+   "titel": "Hoi Ida, 16 uilen op een schoolplein! 🦉",
+   "sub": "Lees het nieuws, kijk naar baby capybara's en los het kaartraadsel op.",
    "iconen": [
-    "🦢",
-    "🐼",
+    "🦉",
+    "🐹",
     "📰",
     "✂️",
     "🧩",
@@ -139,78 +140,77 @@
    ]
   },
   "avond": {
-   "titel": "Goeienavond, Ida! Tijd voor een schotel vol groentjes 🍚",
-   "sub": "Kook morgen misschien de rijstschotel met kip, en kijk eens naar de supermaan.",
+   "titel": "Goeienavond, Ida! Pasta met groene broccoli 🍝",
+   "sub": "Kook morgen misschien penne met kip en kijk naar de pinguïnbaby.",
    "iconen": [
-    "🍚",
-    "🌕",
+    "🍝",
+    "🐧",
     "⭐",
-    "🥕",
+    "🥦",
     "🧁",
     "📚"
    ]
   },
   "nacht": {
    "titel": "Slaap zacht, Ida 🌙",
-   "sub": "Morgen wacht er weer een nieuw land en een nieuwe knutsel op je.",
+   "sub": "Morgen wacht er weer een nieuw land en een nieuwe knutsel.",
    "iconen": [
     "🌙",
     "😴",
     "⭐",
+    "🦙",
     "🧸",
-    "🐼",
-    "☁️"
+    "💤"
    ]
   }
  },
  "knutsel": {
-  "titel": "Driedimensionale kerstboom van papier",
-  "intro": "Een kerstboom die rechtop kan staan en meteen vrolijk oogt.",
+  "titel": "Sneeuwpop van papier",
+  "intro": "Een vrolijke sneeuwpop die je op je kamer kan zetten.",
   "materiaal": [
-   "groen papier of karton",
+   "wit papier of karton",
    "schaar (met hulp van een volwassene)",
    "lijm",
-   "stiften of kleine stickers",
-   "een liniaal"
+   "stiften of kleurpotloden",
+   "een restje oranje papier"
   ],
   "stappen": [
-   "Knip uit groen papier vier of vijf gelijke driehoeken in verschillende maten.",
-   "Vouw elke driehoek precies in de lengte dubbel.",
-   "Knip bij de kleinste driehoek een stukje bij de punt weg, zodat je kan inschuiven.",
-   "Schuif de driehoeken in elkaar of plak ze op elkaar tot ze een boom vormen.",
-   "Versier de boom met stickers of stipjes.",
-   "Zet de boom op een plank of tafel en kijk van alle kanten."
+   "Teken drie cirkels op wit papier: een grote, een middelgrote en een kleine.",
+   "Knip de cirkels uit (met hulp van een volwassene).",
+   "Plak de cirkels onder elkaar: de kleinste bovenaan als hoofd.",
+   "Knip van het oranje papier een klein driehoekje en plak het als wortelneus.",
+   "Teken ogen, een glimlach en knopjes met stiften.",
+   "Maak een sjaal van een strook gekleurd papier en plak die onder het hoofd."
   ],
-  "tip": "Gebruik papier met glitter voor een extra feestelijke boom.",
-  "url": "https://www.tutkit.com/nl/diy-decoratie-knutselen/940-3d-kerstboom-van-papier",
+  "tip": "Plak het geheel op een stuk blauw karton, dan lijkt het alsof het sneeuwt.",
+  "url": "https://www.tutkit.com/nl/diy-decoratie-knutselen/950-idee-voor-een-kerstknutselwerk",
   "bron": "Tutkit"
  },
  "eten": {
-  "titel": "Rijstschotel uit de oven met kip en veel groentjes",
-  "intro": "Alles gaat samen in één schaal en de kaas bovenop is heerlijk krokant.",
+  "titel": "Penne met basilicumsaus, broccoli en kip",
+  "intro": "Groene pasta met sappige kip: lekker en vol groenten.",
   "ingredienten": [
-   "300 g rijst",
-   "400 g kipfilet in blokjes",
-   "2 wortels",
-   "1 courgette",
-   "1 rode paprika",
-   "1 ui",
-   "600 ml kippenbouillon",
-   "100 g geraspte kaas",
+   "300 g penne",
+   "1 broccoli",
+   "300 g kipfilet",
+   "1 bosje basilicum of 3 el pesto",
    "2 el olijfolie",
+   "1 teentje look",
+   "50 g geraspte kaas",
+   "1 dl room of kookroom",
    "peper en zout"
   ],
   "stappen": [
-   "Zet de oven aan op 200 graden (met hulp van een volwassene).",
-   "Snijd de groentjes in kleine stukjes (met hulp van een volwassene).",
-   "Bak de kip en de ui even in de olijfolie (met hulp van een volwassene).",
-   "Doe rijst, groentjes en kip in een ovenschaal en giet de bouillon erover.",
-   "Strooi de kaas bovenop en dek af met folie.",
-   "Zet de schaal 35 minuten in de oven; haal de folie er de laatste 10 minuten af."
+   "Kook de penne in water met zout (met hulp van een volwassene).",
+   "Snijd de broccoli in kleine roosjes en laat ze de laatste 4 minuten meekoken (met hulp van een volwassene).",
+   "Snijd de kip in blokjes en bak ze goudbruin in de olijfolie (met hulp van een volwassene).",
+   "Doe de pesto en de room bij de kip en laat even zachtjes warm worden.",
+   "Giet de pasta en broccoli af en meng alles in de pan.",
+   "Strooi de kaas erover en proef: peper en zout erbij als het nodig is."
   ],
-  "tip": "Lekker met een schaaltje tomaat of komkommer erbij.",
-  "url": "https://njam.tv/recepten/rijstschotel-uit-de-oven-met-kip-en-veel-groentjes",
-  "bron": "Njam!"
+  "tip": "Geen kip? Gebruik kikkererwten voor een vegetarische versie.",
+  "url": "https://www.plus.nl/recept/penne-met-basilicosaus-broccoli-en-kip-r-zg0070",
+  "bron": "Plus"
  },
  "eten_gebruikt": [
   "Kikkererwtencurry met spinazie en tomaat",
@@ -222,6 +222,7 @@
   "Witloof in de oven",
   "Ovenschotel met kippengehakt, pompoen en appel",
   "Fishsticks van schelvis met preipuree",
-  "Rijstschotel uit de oven met kip en veel groentjes"
+  "Rijstschotel uit de oven met kip en veel groentjes",
+  "Penne met basilicumsaus, broccoli en kip"
  ]
 }
